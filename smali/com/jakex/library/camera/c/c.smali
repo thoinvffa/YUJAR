@@ -1,0 +1,22 @@
+.class public Lcom/jakex/library/camera/c/c;
+.super Ljava/lang/Object;
+
+
+# direct methods
+.method public static a(II)Z
+    .locals 0
+
+    and-int/2addr p0, p1
+
+    if-ne p0, p1, :cond_0
+
+    const/4 p0, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p0, 0x0
+
+    :goto_0
+    return p0
+.end method
