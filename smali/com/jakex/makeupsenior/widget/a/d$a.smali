@@ -44,11 +44,11 @@
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/widget/a/d$a;->a:Lcom/jakex/makeupsenior/widget/a/d;
 
-    invoke-static {v0}, Lcom/jakex/makeupsenior/widget/a/d;->a(Lcom/jakex/makeupsenior/widget/a/d;)Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-static {v0}, Lcom/jakex/makeupsenior/widget/a/d;->a(Lcom/jakex/makeupsenior/widget/a/d;)Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->invalidate()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->invalidate()V
 
     return-void
 .end method

@@ -1,10 +1,10 @@
-.class Lcom/jakex/makeupselfie/camera/f/f$a;
-.super Lcom/jakex/makeupcore/util/bm;
+.class Lcom/jakex/ymluxscoresf/camera/f/f$a;
+.super Lcom/jakex/ymluxscore/util/bm;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/jakex/makeupselfie/camera/f/f;
+    value = Lcom/jakex/ymluxscoresf/camera/f/f;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -14,22 +14,22 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupcore/util/bm<",
-        "Lcom/jakex/makeupselfie/camera/f/f;",
+        "Lcom/jakex/ymluxscore/util/bm<",
+        "Lcom/jakex/ymluxscoresf/camera/f/f;",
         "Ljava/lang/Boolean;",
         "Ljava/lang/Void;",
         "Ljava/util/List<",
-        "Lcom/jakex/makeupcore/bean/ThemeMakeupCategory;",
+        "Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory;",
         ">;>;"
     }
 .end annotation
 
 
 # direct methods
-.method constructor <init>(Lcom/jakex/makeupselfie/camera/f/f;)V
+.method constructor <init>(Lcom/jakex/ymluxscoresf/camera/f/f;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupcore/util/bm;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscore/util/bm;-><init>(Ljava/lang/Object;)V
 
     return-void
 .end method
@@ -44,7 +44,7 @@
             "Ljava/lang/Boolean;",
             ")",
             "Ljava/util/List<",
-            "Lcom/jakex/makeupcore/bean/ThemeMakeupCategory;",
+            "Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory;",
             ">;"
         }
     .end annotation
@@ -57,62 +57,62 @@
 
     move-result p1
 
-    invoke-static {}, Lcom/jakex/makeupeditor/material/thememakeup/b/d;->a()Lcom/jakex/makeupeditor/material/thememakeup/b/d;
+    invoke-static {}, Lcom/jakex/ymluxseditor/material/thememakeup/b/d;->a()Lcom/jakex/ymluxseditor/material/thememakeup/b/d;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/jakex/makeupeditor/material/thememakeup/b/d;->a(Z)Ljava/util/List;
+    invoke-virtual {v0, p1}, Lcom/jakex/ymluxseditor/material/thememakeup/b/d;->a(Z)Ljava/util/List;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method protected a(Lcom/jakex/makeupselfie/camera/f/f;)V
+.method protected a(Lcom/jakex/ymluxscoresf/camera/f/f;)V
     .locals 0
 
-    invoke-virtual {p1}, Lcom/jakex/makeupselfie/camera/f/f;->w()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/jakex/ymluxscoresf/camera/f/f;->w()Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lcom/jakex/makeupselfie/camera/f/d$b;
+    check-cast p1, Lcom/jakex/ymluxscoresf/camera/f/d$b;
 
     if-nez p1, :cond_0
 
     return-void
 
     :cond_0
-    invoke-interface {p1}, Lcom/jakex/makeupselfie/camera/f/d$b;->a()V
+    invoke-interface {p1}, Lcom/jakex/ymluxscoresf/camera/f/d$b;->a()V
 
     return-void
 .end method
 
-.method protected a(Lcom/jakex/makeupselfie/camera/f/f;Ljava/util/List;)V
+.method protected a(Lcom/jakex/ymluxscoresf/camera/f/f;Ljava/util/List;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/jakex/makeupselfie/camera/f/f;",
+            "Lcom/jakex/ymluxscoresf/camera/f/f;",
             "Ljava/util/List<",
-            "Lcom/jakex/makeupcore/bean/ThemeMakeupCategory;",
+            "Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory;",
             ">;)V"
         }
     .end annotation
 
-    invoke-virtual {p1}, Lcom/jakex/makeupselfie/camera/f/f;->w()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/jakex/ymluxscoresf/camera/f/f;->w()Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lcom/jakex/makeupselfie/camera/f/d$b;
+    check-cast p1, Lcom/jakex/ymluxscoresf/camera/f/d$b;
 
     if-nez p1, :cond_0
 
     return-void
 
     :cond_0
-    invoke-interface {p1}, Lcom/jakex/makeupselfie/camera/f/d$b;->b()V
+    invoke-interface {p1}, Lcom/jakex/ymluxscoresf/camera/f/d$b;->b()V
 
-    invoke-interface {p1, p2}, Lcom/jakex/makeupselfie/camera/f/d$b;->a(Ljava/util/List;)V
+    invoke-interface {p1, p2}, Lcom/jakex/ymluxscoresf/camera/f/d$b;->a(Ljava/util/List;)V
 
     return-void
 .end method
@@ -120,9 +120,9 @@
 .method protected bridge synthetic a(Ljava/lang/Object;)V
     .locals 0
 
-    check-cast p1, Lcom/jakex/makeupselfie/camera/f/f;
+    check-cast p1, Lcom/jakex/ymluxscoresf/camera/f/f;
 
-    invoke-virtual {p0, p1}, Lcom/jakex/makeupselfie/camera/f/f$a;->a(Lcom/jakex/makeupselfie/camera/f/f;)V
+    invoke-virtual {p0, p1}, Lcom/jakex/ymluxscoresf/camera/f/f$a;->a(Lcom/jakex/ymluxscoresf/camera/f/f;)V
 
     return-void
 .end method
@@ -130,21 +130,21 @@
 .method protected bridge synthetic a(Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 0
 
-    check-cast p1, Lcom/jakex/makeupselfie/camera/f/f;
+    check-cast p1, Lcom/jakex/ymluxscoresf/camera/f/f;
 
     check-cast p2, Ljava/util/List;
 
-    invoke-virtual {p0, p1, p2}, Lcom/jakex/makeupselfie/camera/f/f$a;->a(Lcom/jakex/makeupselfie/camera/f/f;Ljava/util/List;)V
+    invoke-virtual {p0, p1, p2}, Lcom/jakex/ymluxscoresf/camera/f/f$a;->a(Lcom/jakex/ymluxscoresf/camera/f/f;Ljava/util/List;)V
 
     return-void
 .end method
 
-.method protected b(Lcom/jakex/makeupselfie/camera/f/f;)V
+.method protected b(Lcom/jakex/ymluxscoresf/camera/f/f;)V
     .locals 2
 
-    invoke-super {p0, p1}, Lcom/jakex/makeupcore/util/bm;->b(Ljava/lang/Object;)V
+    invoke-super {p0, p1}, Lcom/jakex/ymluxscore/util/bm;->b(Ljava/lang/Object;)V
 
-    invoke-static {}, Lcom/jakex/makeupselfie/camera/f/f;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/jakex/ymluxscoresf/camera/f/f;->c()Ljava/lang/String;
 
     move-result-object v0
 
@@ -152,18 +152,18 @@
 
     invoke-static {v0, v1}, Lcom/jakex/library/util/Debug/Debug;->c(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p1}, Lcom/jakex/makeupselfie/camera/f/f;->w()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/jakex/ymluxscoresf/camera/f/f;->w()Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lcom/jakex/makeupselfie/camera/f/d$b;
+    check-cast p1, Lcom/jakex/ymluxscoresf/camera/f/d$b;
 
     if-nez p1, :cond_0
 
     return-void
 
     :cond_0
-    invoke-interface {p1}, Lcom/jakex/makeupselfie/camera/f/d$b;->b()V
+    invoke-interface {p1}, Lcom/jakex/ymluxscoresf/camera/f/d$b;->b()V
 
     return-void
 .end method
@@ -171,9 +171,9 @@
 .method protected bridge synthetic b(Ljava/lang/Object;)V
     .locals 0
 
-    check-cast p1, Lcom/jakex/makeupselfie/camera/f/f;
+    check-cast p1, Lcom/jakex/ymluxscoresf/camera/f/f;
 
-    invoke-virtual {p0, p1}, Lcom/jakex/makeupselfie/camera/f/f$a;->b(Lcom/jakex/makeupselfie/camera/f/f;)V
+    invoke-virtual {p0, p1}, Lcom/jakex/ymluxscoresf/camera/f/f$a;->b(Lcom/jakex/ymluxscoresf/camera/f/f;)V
 
     return-void
 .end method
@@ -183,7 +183,7 @@
 
     check-cast p1, [Ljava/lang/Boolean;
 
-    invoke-virtual {p0, p1}, Lcom/jakex/makeupselfie/camera/f/f$a;->a([Ljava/lang/Boolean;)Ljava/util/List;
+    invoke-virtual {p0, p1}, Lcom/jakex/ymluxscoresf/camera/f/f$a;->a([Ljava/lang/Boolean;)Ljava/util/List;
 
     move-result-object p1
 

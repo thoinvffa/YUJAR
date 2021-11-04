@@ -1,16 +1,16 @@
-.class public Lcom/jakex/makeupselfie/camera/customconcrete/a;
+.class public Lcom/jakex/ymluxscoresf/camera/customconcrete/a;
 .super Ljava/lang/Object;
 
 
 # direct methods
-.method public static a(Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;Ljava/util/List;)V
+.method public static a(Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;Ljava/util/List;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;",
+            "Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;",
             "Ljava/util/List<",
-            "Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;",
+            "Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;",
             ">;)V"
         }
     .end annotation
@@ -20,11 +20,11 @@
     return-void
 
     :cond_0
-    sget-object v0, Lcom/jakex/makeupcore/bean/download/DownloadState;->INIT:Lcom/jakex/makeupcore/bean/download/DownloadState;
+    sget-object v0, Lcom/jakex/ymluxscore/bean/download/DownloadState;->INIT:Lcom/jakex/ymluxscore/bean/download/DownloadState;
 
-    invoke-static {p0, v0}, Lcom/jakex/makeupcore/bean/download/b;->a(Lcom/jakex/makeupcore/bean/download/a;Lcom/jakex/makeupcore/bean/download/DownloadState;)V
+    invoke-static {p0, v0}, Lcom/jakex/ymluxscore/bean/download/b;->a(Lcom/jakex/ymluxscore/bean/download/a;Lcom/jakex/ymluxscore/bean/download/DownloadState;)V
 
-    invoke-static {p0}, Lcom/jakex/makeupselfie/a/a/a;->b(Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;)V
+    invoke-static {p0}, Lcom/jakex/ymluxscoresf/a/a/a;->b(Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;)V
 
     if-nez p1, :cond_1
 
@@ -46,9 +46,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    check-cast p1, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
-    invoke-static {p1}, Lcom/jakex/makeupeditor/util/a;->a(Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;)V
+    invoke-static {p1}, Lcom/jakex/ymluxseditor/util/a;->a(Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;)V
 
     goto :goto_0
 

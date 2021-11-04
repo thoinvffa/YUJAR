@@ -1,10 +1,10 @@
-.class public interface abstract Lcom/jakex/makeupselfie/camera/a/b$b;
+.class public interface abstract Lcom/jakex/ymluxscoresf/camera/a/b$b;
 .super Ljava/lang/Object;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/jakex/makeupselfie/camera/a/b;
+    value = Lcom/jakex/ymluxscoresf/camera/a/b;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

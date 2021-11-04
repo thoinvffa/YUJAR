@@ -55,9 +55,9 @@
 .method protected varargs a([Ljava/lang/Void;)Ljava/lang/Void;
     .locals 0
 
-    invoke-static {}, Lcom/jakex/makeupeditor/material/local/part/a;->b()V
+    invoke-static {}, Lcom/jakex/ymluxseditor/material/local/part/a;->b()V
 
-    invoke-static {}, Lcom/jakex/makeupeditor/e/a;->c()V
+    invoke-static {}, Lcom/jakex/ymluxseditor/e/a;->c()V
 
     invoke-static {}, Lcom/jakex/makeup/push/innerpush/e;->c()V
 

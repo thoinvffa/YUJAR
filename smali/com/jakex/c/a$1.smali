@@ -7,7 +7,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/jakex/c/a;->a(Landroidx/fragment/app/FragmentActivity;Lcom/jakex/makeupcore/h/a;)V
+    value = Lcom/jakex/c/a;->a(Landroidx/fragment/app/FragmentActivity;Lcom/jakex/ymluxscore/h/a;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -50,7 +50,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/jakex/makeupcore/h/a;
+    check-cast v0, Lcom/jakex/ymluxscore/h/a;
 
     if-nez v0, :cond_0
 
@@ -83,7 +83,7 @@
 
     move-result-object p1
 
-    invoke-interface {v0, p1}, Lcom/jakex/makeupcore/h/a;->a(Ljava/lang/String;)V
+    invoke-interface {v0, p1}, Lcom/jakex/ymluxscore/h/a;->a(Ljava/lang/String;)V
 
     :cond_1
     :goto_0

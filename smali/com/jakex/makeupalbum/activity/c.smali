@@ -28,7 +28,7 @@
 
 .field private D:Z
 
-.field private G:Lcom/jakex/makeupcore/util/be;
+.field private G:Lcom/jakex/ymluxscore/util/be;
 
 .field private H:Z
 
@@ -36,7 +36,7 @@
 
 .field private b:Lcom/jakex/makeupalbum/activity/AlbumActivity;
 
-.field private c:Lcom/jakex/makeupcore/widget/bar/MDTopBarView;
+.field private c:Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;
 
 .field private d:Landroid/widget/ExpandableListView;
 
@@ -130,10 +130,10 @@
     return-object p1
 .end method
 
-.method static synthetic a(Lcom/jakex/makeupalbum/activity/c;)Lcom/jakex/makeupcore/widget/bar/MDTopBarView;
+.method static synthetic a(Lcom/jakex/makeupalbum/activity/c;)Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;
     .locals 0
 
-    iget-object p0, p0, Lcom/jakex/makeupalbum/activity/c;->c:Lcom/jakex/makeupcore/widget/bar/MDTopBarView;
+    iget-object p0, p0, Lcom/jakex/makeupalbum/activity/c;->c:Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;
 
     return-object p0
 .end method
@@ -141,11 +141,11 @@
 .method private a(Landroid/graphics/drawable/Drawable;)V
     .locals 2
 
-    iget-object v0, p0, Lcom/jakex/makeupalbum/activity/c;->c:Lcom/jakex/makeupcore/widget/bar/MDTopBarView;
+    iget-object v0, p0, Lcom/jakex/makeupalbum/activity/c;->c:Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1, v1, p1, v1}, Lcom/jakex/makeupcore/widget/bar/MDTopBarView;->a(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, v1, v1, p1, v1}, Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;->a(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V
 
     return-void
 .end method
@@ -243,9 +243,9 @@
 
     if-nez p1, :cond_0
 
-    iget-object p1, p0, Lcom/jakex/makeupalbum/activity/c;->c:Lcom/jakex/makeupcore/widget/bar/MDTopBarView;
+    iget-object p1, p0, Lcom/jakex/makeupalbum/activity/c;->c:Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;
 
-    invoke-virtual {p1, v1}, Lcom/jakex/makeupcore/widget/bar/MDTopBarView;->setRightButtonVisibility(Z)V
+    invoke-virtual {p1, v1}, Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;->setRightButtonVisibility(Z)V
 
     goto :goto_0
 
@@ -289,9 +289,9 @@
 .method private a(Ljava/lang/String;)V
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupalbum/activity/c;->c:Lcom/jakex/makeupcore/widget/bar/MDTopBarView;
+    iget-object v0, p0, Lcom/jakex/makeupalbum/activity/c;->c:Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;
 
-    invoke-virtual {v0, p1}, Lcom/jakex/makeupcore/widget/bar/MDTopBarView;->setTitle(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;->setTitle(Ljava/lang/String;)V
 
     return-void
 .end method
@@ -299,15 +299,15 @@
 .method private a(Ljava/lang/String;Lcom/jakex/makeupalbum/c/b;)V
     .locals 2
 
-    new-instance v0, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;
+    new-instance v0, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;
 
     invoke-virtual {p0}, Lcom/jakex/makeupalbum/activity/c;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v1}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;-><init>(Landroid/content/Context;)V
 
-    invoke-virtual {v0, p1}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;->b(Ljava/lang/String;)Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;
+    invoke-virtual {v0, p1}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;->b(Ljava/lang/String;)Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;
 
     move-result-object p1
 
@@ -321,7 +321,7 @@
 
     invoke-direct {v1, p0, p2}, Lcom/jakex/makeupalbum/activity/c$6;-><init>(Lcom/jakex/makeupalbum/activity/c;Lcom/jakex/makeupalbum/c/b;)V
 
-    invoke-virtual {p1, v0, v1}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;->a(Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;
+    invoke-virtual {p1, v0, v1}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;->a(Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;
 
     move-result-object p1
 
@@ -335,15 +335,15 @@
 
     invoke-direct {v0, p0}, Lcom/jakex/makeupalbum/activity/c$5;-><init>(Lcom/jakex/makeupalbum/activity/c;)V
 
-    invoke-virtual {p1, p2, v0}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;->b(Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;
+    invoke-virtual {p1, p2, v0}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;->b(Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;->a()Lcom/jakex/makeupcore/dialog/CommonAlertDialog;
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;->a()Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog;->show()V
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;->show()V
 
     return-void
 .end method
@@ -415,9 +415,9 @@
 
     invoke-direct {p0, v0}, Lcom/jakex/makeupalbum/activity/c;->a(Landroid/graphics/drawable/Drawable;)V
 
-    iget-object v0, p0, Lcom/jakex/makeupalbum/activity/c;->c:Lcom/jakex/makeupcore/widget/bar/MDTopBarView;
+    iget-object v0, p0, Lcom/jakex/makeupalbum/activity/c;->c:Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;
 
-    invoke-virtual {v0, p0}, Lcom/jakex/makeupcore/widget/bar/MDTopBarView;->setOnTitleClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, p0}, Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;->setOnTitleClickListener(Landroid/view/View$OnClickListener;)V
 
     invoke-direct {p0}, Lcom/jakex/makeupalbum/activity/c;->f()V
 
@@ -436,9 +436,9 @@
 
     invoke-direct {p0, v0}, Lcom/jakex/makeupalbum/activity/c;->a(Landroid/graphics/drawable/Drawable;)V
 
-    iget-object v1, p0, Lcom/jakex/makeupalbum/activity/c;->c:Lcom/jakex/makeupcore/widget/bar/MDTopBarView;
+    iget-object v1, p0, Lcom/jakex/makeupalbum/activity/c;->c:Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;
 
-    invoke-virtual {v1, v0}, Lcom/jakex/makeupcore/widget/bar/MDTopBarView;->setOnTitleClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v1, v0}, Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;->setOnTitleClickListener(Landroid/view/View$OnClickListener;)V
 
     :goto_1
     iget-object v0, p0, Lcom/jakex/makeupalbum/activity/c;->f:Ljava/util/List;
@@ -546,15 +546,15 @@
 .method private b(Ljava/lang/String;)V
     .locals 2
 
-    new-instance v0, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;
+    new-instance v0, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;
 
     invoke-virtual {p0}, Lcom/jakex/makeupalbum/activity/c;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v1}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;-><init>(Landroid/content/Context;)V
 
-    invoke-virtual {v0, p1}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;->b(Ljava/lang/String;)Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;
+    invoke-virtual {v0, p1}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;->b(Ljava/lang/String;)Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;
 
     move-result-object p1
 
@@ -568,15 +568,15 @@
 
     invoke-direct {v1, p0}, Lcom/jakex/makeupalbum/activity/c$4;-><init>(Lcom/jakex/makeupalbum/activity/c;)V
 
-    invoke-virtual {p1, v0, v1}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;->a(Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;
+    invoke-virtual {p1, v0, v1}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;->a(Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;->a()Lcom/jakex/makeupcore/dialog/CommonAlertDialog;
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;->a()Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog;->show()V
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;->show()V
 
     return-void
 .end method
@@ -642,15 +642,15 @@
 
     iput-object v0, p0, Lcom/jakex/makeupalbum/activity/c;->h:Lcom/jakex/makeupalbum/activity/b$a;
 
-    new-instance v0, Lcom/jakex/makeupcore/util/be;
+    new-instance v0, Lcom/jakex/ymluxscore/util/be;
 
     new-instance v1, Lcom/jakex/makeupalbum/activity/c$14;
 
     invoke-direct {v1, p0}, Lcom/jakex/makeupalbum/activity/c$14;-><init>(Lcom/jakex/makeupalbum/activity/c;)V
 
-    invoke-direct {v0, p0, v1}, Lcom/jakex/makeupcore/util/be;-><init>(Landroidx/fragment/app/Fragment;Lcom/jakex/makeupcore/util/be$a;)V
+    invoke-direct {v0, p0, v1}, Lcom/jakex/ymluxscore/util/be;-><init>(Landroidx/fragment/app/Fragment;Lcom/jakex/ymluxscore/util/be$a;)V
 
-    iput-object v0, p0, Lcom/jakex/makeupalbum/activity/c;->G:Lcom/jakex/makeupcore/util/be;
+    iput-object v0, p0, Lcom/jakex/makeupalbum/activity/c;->G:Lcom/jakex/ymluxscore/util/be;
 
     return-void
 .end method
@@ -778,13 +778,13 @@
 
     invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    new-instance p1, Lcom/jakex/makeupcore/widget/recyclerview/a/c;
+    new-instance p1, Lcom/jakex/ymluxscore/widget/recyclerview/a/c;
 
     invoke-virtual {p0}, Lcom/jakex/makeupalbum/activity/c;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
-    invoke-direct {p1, v0, v2}, Lcom/jakex/makeupcore/widget/recyclerview/a/c;-><init>(Landroid/content/Context;I)V
+    invoke-direct {p1, v0, v2}, Lcom/jakex/ymluxscore/widget/recyclerview/a/c;-><init>(Landroid/content/Context;I)V
 
     invoke-virtual {p0}, Lcom/jakex/makeupalbum/activity/c;->getResources()Landroid/content/res/Resources;
 
@@ -796,7 +796,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lcom/jakex/makeupcore/widget/recyclerview/a/c;->a(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p1, v0}, Lcom/jakex/ymluxscore/widget/recyclerview/a/c;->a(Landroid/graphics/drawable/Drawable;)V
 
     iget-object v0, p0, Lcom/jakex/makeupalbum/activity/c;->s:Landroidx/recyclerview/widget/RecyclerView;
 
@@ -820,7 +820,7 @@
 
     invoke-direct {v0, p0}, Lcom/jakex/makeupalbum/activity/c$13;-><init>(Lcom/jakex/makeupalbum/activity/c;)V
 
-    invoke-virtual {p1, v0}, Lcom/jakex/makeupalbum/a/b;->a(Lcom/jakex/makeupcore/b/d$a;)V
+    invoke-virtual {p1, v0}, Lcom/jakex/makeupalbum/a/b;->a(Lcom/jakex/ymluxscore/b/d$a;)V
 
     return-void
 .end method
@@ -828,7 +828,7 @@
 .method private f()V
     .locals 2
 
-    invoke-static {}, Lcom/jakex/makeupcore/modular/a/a;->c()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/a/a;->c()Z
 
     move-result v0
 
@@ -846,11 +846,11 @@
     return-void
 
     :cond_1
-    iget-object v0, p0, Lcom/jakex/makeupalbum/activity/c;->c:Lcom/jakex/makeupcore/widget/bar/MDTopBarView;
+    iget-object v0, p0, Lcom/jakex/makeupalbum/activity/c;->c:Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;
 
-    sget v1, Lcom/jakex/makeupcore/widget/bar/MDTopBarView;->d:I
+    sget v1, Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;->d:I
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/widget/bar/MDTopBarView;->findViewById(I)Landroid/view/View;
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -884,9 +884,9 @@
 
     iget-object v0, p0, Lcom/jakex/makeupalbum/activity/c;->b:Lcom/jakex/makeupalbum/activity/AlbumActivity;
 
-    iget-object v0, v0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a:Lcom/jakex/makeupcore/modular/extra/AlbumExtra;
+    iget-object v0, v0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a:Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;
 
-    iget v0, v0, Lcom/jakex/makeupcore/modular/extra/AlbumExtra;->mFrom:I
+    iget v0, v0, Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;->mFrom:I
 
     const/4 v1, 0x1
 
@@ -917,29 +917,29 @@
 .method private h()V
     .locals 4
 
-    new-instance v0, Lcom/jakex/makeupcore/modular/extra/CameraExtra;
+    new-instance v0, Lcom/jakex/ymluxscore/modular/extra/CameraExtra;
 
-    invoke-direct {v0}, Lcom/jakex/makeupcore/modular/extra/CameraExtra;-><init>()V
+    invoke-direct {v0}, Lcom/jakex/ymluxscore/modular/extra/CameraExtra;-><init>()V
 
     iget-object v1, p0, Lcom/jakex/makeupalbum/activity/c;->b:Lcom/jakex/makeupalbum/activity/AlbumActivity;
 
-    iget-object v1, v1, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a:Lcom/jakex/makeupcore/modular/extra/AlbumExtra;
+    iget-object v1, v1, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a:Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;
 
-    iget v1, v1, Lcom/jakex/makeupcore/modular/extra/AlbumExtra;->mFrom:I
+    iget v1, v1, Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;->mFrom:I
 
     const/4 v2, 0x1
 
     if-ne v1, v2, :cond_0
 
-    iput v2, v0, Lcom/jakex/makeupcore/modular/extra/CameraExtra;->mWhat:I
+    iput v2, v0, Lcom/jakex/ymluxscore/modular/extra/CameraExtra;->mWhat:I
 
     iget-object v1, p0, Lcom/jakex/makeupalbum/activity/c;->b:Lcom/jakex/makeupalbum/activity/AlbumActivity;
 
-    iget-object v1, v1, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a:Lcom/jakex/makeupcore/modular/extra/AlbumExtra;
+    iget-object v1, v1, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a:Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;
 
-    iget-object v1, v1, Lcom/jakex/makeupcore/modular/extra/AlbumExtra;->mBeautyMakeupExtra:Lcom/jakex/makeupcore/modular/extra/BeautyMakeupExtra;
+    iget-object v1, v1, Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;->mBeautyMakeupExtra:Lcom/jakex/ymluxscore/modular/extra/BeautyMakeupExtra;
 
-    iput-object v1, v0, Lcom/jakex/makeupcore/modular/extra/CameraExtra;->mBeautyMakeupExtra:Lcom/jakex/makeupcore/modular/extra/BeautyMakeupExtra;
+    iput-object v1, v0, Lcom/jakex/ymluxscore/modular/extra/CameraExtra;->mBeautyMakeupExtra:Lcom/jakex/ymluxscore/modular/extra/BeautyMakeupExtra;
 
     :cond_0
     invoke-virtual {p0}, Lcom/jakex/makeupalbum/activity/c;->getActivity()Landroidx/fragment/app/FragmentActivity;
@@ -950,7 +950,7 @@
 
     const/4 v3, -0x1
 
-    invoke-static {v1, v0, v2, v3}, Lcom/jakex/makeupcore/modular/c/h;->a(Landroid/app/Activity;Lcom/jakex/makeupcore/modular/extra/CameraExtra;ZI)V
+    invoke-static {v1, v0, v2, v3}, Lcom/jakex/ymluxscore/modular/c/h;->a(Landroid/app/Activity;Lcom/jakex/ymluxscore/modular/extra/CameraExtra;ZI)V
 
     return-void
 .end method
@@ -1133,7 +1133,7 @@
 
     iput-boolean p2, p0, Lcom/jakex/makeupalbum/activity/c;->D:Z
 
-    invoke-static {}, Lcom/jakex/makeupcore/modular/a/a;->f()V
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/a/a;->f()V
 
     iget-object p1, p0, Lcom/jakex/makeupalbum/activity/c;->C:Lcom/jakex/makeupalbum/activity/c$b;
 
@@ -1330,7 +1330,7 @@
 
     move-result v0
 
-    sget v1, Lcom/jakex/makeupcore/widget/bar/MDTopBarView;->a:I
+    sget v1, Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;->a:I
 
     if-ne v0, v1, :cond_3
 
@@ -1347,7 +1347,7 @@
 
     move-result v0
 
-    sget v1, Lcom/jakex/makeupcore/widget/bar/MDTopBarView;->b:I
+    sget v1, Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;->b:I
 
     if-ne v0, v1, :cond_4
 
@@ -1360,7 +1360,7 @@
 
     move-result p1
 
-    sget v0, Lcom/jakex/makeupcore/widget/bar/MDTopBarView;->d:I
+    sget v0, Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;->d:I
 
     if-ne p1, v0, :cond_5
 
@@ -1411,9 +1411,9 @@
     :cond_0
     iget-object p1, p0, Lcom/jakex/makeupalbum/activity/c;->b:Lcom/jakex/makeupalbum/activity/AlbumActivity;
 
-    iget-object p1, p1, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a:Lcom/jakex/makeupcore/modular/extra/AlbumExtra;
+    iget-object p1, p1, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a:Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;
 
-    iget p1, p1, Lcom/jakex/makeupcore/modular/extra/AlbumExtra;->mFrom:I
+    iget p1, p1, Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;->mFrom:I
 
     if-ne p1, v0, :cond_1
 
@@ -1438,7 +1438,7 @@
     iput-boolean v0, p0, Lcom/jakex/makeupalbum/activity/c;->A:Z
 
     :cond_2
-    invoke-static {}, Lcom/jakex/makeupcore/modular/a/a;->e()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/a/a;->e()Z
 
     move-result p1
 
@@ -1510,9 +1510,9 @@
 
     invoke-super {p0, p1, p2, p3}, Lcom/jakex/makeupalbum/activity/a;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V
 
-    iget-object v0, p0, Lcom/jakex/makeupalbum/activity/c;->G:Lcom/jakex/makeupcore/util/be;
+    iget-object v0, p0, Lcom/jakex/makeupalbum/activity/c;->G:Lcom/jakex/ymluxscore/util/be;
 
-    invoke-virtual {v0, p1, p2, p3}, Lcom/jakex/makeupcore/util/be;->a(I[Ljava/lang/String;[I)V
+    invoke-virtual {v0, p1, p2, p3}, Lcom/jakex/ymluxscore/util/be;->a(I[Ljava/lang/String;[I)V
 
     return-void
 .end method
@@ -1534,9 +1534,9 @@
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lcom/jakex/makeupalbum/activity/c;->G:Lcom/jakex/makeupcore/util/be;
+    iget-object v0, p0, Lcom/jakex/makeupalbum/activity/c;->G:Lcom/jakex/ymluxscore/util/be;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/util/be;->a()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/util/be;->a()V
 
     :cond_0
     return-void
@@ -1547,9 +1547,9 @@
 
     invoke-super {p0}, Lcom/jakex/makeupalbum/activity/a;->onStop()V
 
-    iget-object v0, p0, Lcom/jakex/makeupalbum/activity/c;->G:Lcom/jakex/makeupcore/util/be;
+    iget-object v0, p0, Lcom/jakex/makeupalbum/activity/c;->G:Lcom/jakex/ymluxscore/util/be;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/util/be;->c()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/util/be;->c()V
 
     return-void
 .end method
@@ -1563,19 +1563,19 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/jakex/makeupcore/widget/bar/MDTopBarView;
+    check-cast p2, Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;
 
-    iput-object p2, p0, Lcom/jakex/makeupalbum/activity/c;->c:Lcom/jakex/makeupcore/widget/bar/MDTopBarView;
+    iput-object p2, p0, Lcom/jakex/makeupalbum/activity/c;->c:Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;
 
-    invoke-virtual {p2, p0}, Lcom/jakex/makeupcore/widget/bar/MDTopBarView;->setOnLeftClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {p2, p0}, Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;->setOnLeftClickListener(Landroid/view/View$OnClickListener;)V
 
-    iget-object p2, p0, Lcom/jakex/makeupalbum/activity/c;->c:Lcom/jakex/makeupcore/widget/bar/MDTopBarView;
+    iget-object p2, p0, Lcom/jakex/makeupalbum/activity/c;->c:Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;
 
-    invoke-virtual {p2, p0}, Lcom/jakex/makeupcore/widget/bar/MDTopBarView;->setOnRightClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {p2, p0}, Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;->setOnRightClickListener(Landroid/view/View$OnClickListener;)V
 
-    iget-object p2, p0, Lcom/jakex/makeupalbum/activity/c;->c:Lcom/jakex/makeupcore/widget/bar/MDTopBarView;
+    iget-object p2, p0, Lcom/jakex/makeupalbum/activity/c;->c:Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;
 
-    invoke-static {p2}, Lcom/jakex/makeupcore/util/ah;->b(Landroid/view/View;)V
+    invoke-static {p2}, Lcom/jakex/ymluxscore/util/ah;->b(Landroid/view/View;)V
 
     iget-object p2, p0, Lcom/jakex/makeupalbum/activity/c;->b:Lcom/jakex/makeupalbum/activity/AlbumActivity;
 
@@ -1585,9 +1585,9 @@
 
     if-eqz p2, :cond_0
 
-    iget-object p2, p0, Lcom/jakex/makeupalbum/activity/c;->c:Lcom/jakex/makeupcore/widget/bar/MDTopBarView;
+    iget-object p2, p0, Lcom/jakex/makeupalbum/activity/c;->c:Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;
 
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/widget/bar/MDTopBarView;->a()V
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;->a()V
 
     :cond_0
     sget p2, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->top_bar_title:I

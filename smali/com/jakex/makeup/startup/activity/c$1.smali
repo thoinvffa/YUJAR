@@ -80,9 +80,9 @@
 
     invoke-static {v0, v1}, Lcom/jakex/library/util/Debug/Debug;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {p1, p2}, Lcom/jakex/makeupcore/j/b;->a(D)V
+    invoke-static {p1, p2}, Lcom/jakex/ymluxscore/j/b;->a(D)V
 
-    invoke-static {p3, p4}, Lcom/jakex/makeupcore/j/b;->b(D)V
+    invoke-static {p3, p4}, Lcom/jakex/ymluxscore/j/b;->b(D)V
 
     return-void
 .end method
@@ -128,17 +128,17 @@
 
     if-eqz p3, :cond_1
 
-    invoke-static {p3}, Lcom/jakex/makeupcore/j/b;->a(Lcom/jakex/countrylocation/LocationBean;)V
+    invoke-static {p3}, Lcom/jakex/ymluxscore/j/b;->a(Lcom/jakex/countrylocation/LocationBean;)V
 
     const/4 p1, 0x1
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/j/b;->a(Z)V
+    invoke-static {p1}, Lcom/jakex/ymluxscore/j/b;->a(Z)V
 
     invoke-virtual {p3}, Lcom/jakex/countrylocation/LocationBean;->getCountry_code()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/j/b;->d(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/jakex/ymluxscore/j/b;->d(Ljava/lang/String;)V
 
     invoke-virtual {p3}, Lcom/jakex/countrylocation/LocationBean;->getArea()Ljava/lang/String;
 
@@ -154,7 +154,7 @@
 
     if-nez p3, :cond_0
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/j/b;->a(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/jakex/ymluxscore/j/b;->a(Ljava/lang/String;)V
 
     :cond_0
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -163,7 +163,7 @@
 
     if-nez p1, :cond_1
 
-    invoke-static {p2}, Lcom/jakex/makeupcore/j/b;->b(Ljava/lang/String;)V
+    invoke-static {p2}, Lcom/jakex/ymluxscore/j/b;->b(Ljava/lang/String;)V
 
     :cond_1
     iget-object p1, p0, Lcom/jakex/makeup/startup/activity/c$1;->a:Lcom/jakex/makeup/startup/activity/c;

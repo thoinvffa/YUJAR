@@ -111,17 +111,17 @@
 
     invoke-static {p1}, Lcom/jakex/library/account/util/AccountSdkLog;->b(Ljava/lang/String;)V
 
-    new-instance p1, Lcom/jakex/makeupcore/modular/extra/UserCenterExtra;
+    new-instance p1, Lcom/jakex/ymluxscore/modular/extra/UserCenterExtra;
 
-    invoke-direct {p1}, Lcom/jakex/makeupcore/modular/extra/UserCenterExtra;-><init>()V
+    invoke-direct {p1}, Lcom/jakex/ymluxscore/modular/extra/UserCenterExtra;-><init>()V
 
     const/4 v0, 0x5
 
-    iput v0, p1, Lcom/jakex/makeupcore/modular/extra/UserCenterExtra;->mFrom:I
+    iput v0, p1, Lcom/jakex/ymluxscore/modular/extra/UserCenterExtra;->mFrom:I
 
     iget-object v0, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity$a;->a:Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;
 
-    invoke-static {v0, p1}, Lcom/jakex/makeupcore/modular/c/bx;->a(Landroid/app/Activity;Lcom/jakex/makeupcore/modular/extra/UserCenterExtra;)V
+    invoke-static {v0, p1}, Lcom/jakex/ymluxscore/modular/c/bx;->a(Landroid/app/Activity;Lcom/jakex/ymluxscore/modular/extra/UserCenterExtra;)V
 
     return-void
 .end method
@@ -142,7 +142,7 @@
 
     iget-object v0, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity$a;->a:Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;
 
-    invoke-static {v0}, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->a(Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;)Lcom/jakex/makeupcore/webview/a;
+    invoke-static {v0}, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->a(Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;)Lcom/jakex/ymluxscore/webview/a;
 
     move-result-object v0
 
@@ -150,7 +150,7 @@
 
     iget-object v0, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity$a;->a:Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;
 
-    invoke-static {v0}, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->a(Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;)Lcom/jakex/makeupcore/webview/a;
+    invoke-static {v0}, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->a(Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;)Lcom/jakex/ymluxscore/webview/a;
 
     move-result-object v0
 
@@ -168,7 +168,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/jakex/makeupcore/webview/a;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/jakex/ymluxscore/webview/a;->a(Ljava/lang/String;)V
 
     :cond_0
     return-void

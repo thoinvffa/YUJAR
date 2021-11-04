@@ -14,7 +14,7 @@
 
     invoke-direct {v1}, Lcom/jakex/makeupsenior/saveshare/materialcourse/b$1;-><init>()V
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupsenior/saveshare/materialcourse/a;->a(Lcom/jakex/makeupcore/net/j;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/makeupsenior/saveshare/materialcourse/a;->a(Lcom/jakex/ymluxscore/net/j;)V
 
     return-void
 .end method

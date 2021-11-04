@@ -46,23 +46,23 @@
 .method private a(I)V
     .locals 2
 
-    new-instance v0, Lcom/jakex/makeupeditor/material/thememakeup/api/a;
+    new-instance v0, Lcom/jakex/ymluxseditor/material/thememakeup/api/a;
 
-    invoke-direct {v0}, Lcom/jakex/makeupeditor/material/thememakeup/api/a;-><init>()V
+    invoke-direct {v0}, Lcom/jakex/ymluxseditor/material/thememakeup/api/a;-><init>()V
 
     new-instance v1, Lcom/jakex/makeup/startup/business/a/a$4;
 
     invoke-direct {v1, p0, p1}, Lcom/jakex/makeup/startup/business/a/a$4;-><init>(Lcom/jakex/makeup/startup/business/a/a;I)V
 
-    invoke-virtual {v0, p1, v1}, Lcom/jakex/makeupeditor/material/thememakeup/api/a;->a(ILcom/jakex/makeupcore/net/j;)V
+    invoke-virtual {v0, p1, v1}, Lcom/jakex/ymluxseditor/material/thememakeup/api/a;->a(ILcom/jakex/ymluxscore/net/j;)V
 
     return-void
 .end method
 
-.method private a(Lcom/jakex/makeupcore/bean/ThemeMakeupCategory$Type;)V
+.method private a(Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory$Type;)V
     .locals 4
 
-    sget-object v0, Lcom/jakex/makeupcore/bean/ThemeMakeupCategory$Type;->INFLUENCER:Lcom/jakex/makeupcore/bean/ThemeMakeupCategory$Type;
+    sget-object v0, Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory$Type;->INFLUENCER:Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory$Type;
 
     if-ne p1, v0, :cond_0
 
@@ -76,7 +76,7 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    invoke-static {}, Lcom/jakex/makeupeditor/material/thememakeup/c/b;->a()Z
+    invoke-static {}, Lcom/jakex/ymluxseditor/material/thememakeup/c/b;->a()Z
 
     move-result v1
 
@@ -107,19 +107,19 @@
     return-void
 
     :cond_1
-    new-instance v1, Lcom/jakex/makeupeditor/material/thememakeup/api/c;
+    new-instance v1, Lcom/jakex/ymluxseditor/material/thememakeup/api/c;
 
-    invoke-direct {v1}, Lcom/jakex/makeupeditor/material/thememakeup/api/c;-><init>()V
+    invoke-direct {v1}, Lcom/jakex/ymluxseditor/material/thememakeup/api/c;-><init>()V
 
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/bean/ThemeMakeupCategory$Type;->getValue()I
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory$Type;->getValue()I
 
     move-result v2
 
     new-instance v3, Lcom/jakex/makeup/startup/business/a/a$3;
 
-    invoke-direct {v3, p0, p1, v0}, Lcom/jakex/makeup/startup/business/a/a$3;-><init>(Lcom/jakex/makeup/startup/business/a/a;Lcom/jakex/makeupcore/bean/ThemeMakeupCategory$Type;Z)V
+    invoke-direct {v3, p0, p1, v0}, Lcom/jakex/makeup/startup/business/a/a$3;-><init>(Lcom/jakex/makeup/startup/business/a/a;Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory$Type;Z)V
 
-    invoke-virtual {v1, v2, v3}, Lcom/jakex/makeupeditor/material/thememakeup/api/c;->a(ILcom/jakex/makeupcore/net/j;)V
+    invoke-virtual {v1, v2, v3}, Lcom/jakex/ymluxseditor/material/thememakeup/api/c;->a(ILcom/jakex/ymluxscore/net/j;)V
 
     return-void
 .end method
@@ -135,7 +135,7 @@
 .method private e()Z
     .locals 2
 
-    invoke-static {}, Lcom/jakex/makeupeditor/material/thememakeup/c/c;->a()Z
+    invoke-static {}, Lcom/jakex/ymluxseditor/material/thememakeup/c/c;->a()Z
 
     move-result v0
 
@@ -187,15 +187,15 @@
     return-void
 
     :cond_0
-    new-instance v0, Lcom/jakex/makeupeditor/material/thememakeup/api/c;
+    new-instance v0, Lcom/jakex/ymluxseditor/material/thememakeup/api/c;
 
-    invoke-direct {v0}, Lcom/jakex/makeupeditor/material/thememakeup/api/c;-><init>()V
+    invoke-direct {v0}, Lcom/jakex/ymluxseditor/material/thememakeup/api/c;-><init>()V
 
     new-instance v1, Lcom/jakex/makeup/startup/business/a/a$2;
 
     invoke-direct {v1, p0}, Lcom/jakex/makeup/startup/business/a/a$2;-><init>(Lcom/jakex/makeup/startup/business/a/a;)V
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupeditor/material/thememakeup/api/c;->a(Lcom/jakex/makeupcore/net/j;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxseditor/material/thememakeup/api/c;->a(Lcom/jakex/ymluxscore/net/j;)V
 
     return-void
 .end method
@@ -212,7 +212,7 @@
     return-void
 
     :cond_0
-    invoke-static {}, Lcom/jakex/makeupcore/bean/ThemeMakeupCategory$Type;->values()[Lcom/jakex/makeupcore/bean/ThemeMakeupCategory$Type;
+    invoke-static {}, Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory$Type;->values()[Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory$Type;
 
     move-result-object v0
 
@@ -227,7 +227,7 @@
 
     sget-object v4, Lcom/jakex/makeup/startup/business/a/a$6;->a:[I
 
-    invoke-virtual {v3}, Lcom/jakex/makeupcore/bean/ThemeMakeupCategory$Type;->ordinal()I
+    invoke-virtual {v3}, Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory$Type;->ordinal()I
 
     move-result v5
 
@@ -244,7 +244,7 @@
     goto :goto_1
 
     :cond_1
-    invoke-direct {p0, v3}, Lcom/jakex/makeup/startup/business/a/a;->a(Lcom/jakex/makeupcore/bean/ThemeMakeupCategory$Type;)V
+    invoke-direct {p0, v3}, Lcom/jakex/makeup/startup/business/a/a;->a(Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory$Type;)V
 
     :goto_1
     add-int/lit8 v2, v2, 0x1
@@ -267,7 +267,7 @@
     return-void
 
     :cond_0
-    invoke-static {}, Lcom/jakex/makeupselfie/camera/ar/model/ArCategory;->values()[Lcom/jakex/makeupselfie/camera/ar/model/ArCategory;
+    invoke-static {}, Lcom/jakex/ymluxscoresf/camera/ar/model/ArCategory;->values()[Lcom/jakex/ymluxscoresf/camera/ar/model/ArCategory;
 
     move-result-object v0
 
@@ -280,13 +280,13 @@
 
     aget-object v3, v0, v2
 
-    invoke-virtual {v3}, Lcom/jakex/makeupselfie/camera/ar/model/ArCategory;->isSingleType()Z
+    invoke-virtual {v3}, Lcom/jakex/ymluxscoresf/camera/ar/model/ArCategory;->isSingleType()Z
 
     move-result v4
 
     if-eqz v4, :cond_1
 
-    invoke-virtual {v3}, Lcom/jakex/makeupselfie/camera/ar/model/ArCategory;->getType()I
+    invoke-virtual {v3}, Lcom/jakex/ymluxscoresf/camera/ar/model/ArCategory;->getType()I
 
     move-result v3
 
@@ -313,15 +313,15 @@
     return-void
 
     :cond_0
-    new-instance v0, Lcom/jakex/makeupeditor/material/thememakeup/api/a;
+    new-instance v0, Lcom/jakex/ymluxseditor/material/thememakeup/api/a;
 
-    invoke-direct {v0}, Lcom/jakex/makeupeditor/material/thememakeup/api/a;-><init>()V
+    invoke-direct {v0}, Lcom/jakex/ymluxseditor/material/thememakeup/api/a;-><init>()V
 
     new-instance v1, Lcom/jakex/makeup/startup/business/a/a$5;
 
     invoke-direct {v1, p0}, Lcom/jakex/makeup/startup/business/a/a$5;-><init>(Lcom/jakex/makeup/startup/business/a/a;)V
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupeditor/material/thememakeup/api/a;->a(Lcom/jakex/makeupcore/net/c;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxseditor/material/thememakeup/api/a;->a(Lcom/jakex/ymluxscore/net/c;)V
 
     return-void
 .end method
@@ -335,7 +335,7 @@
 
     invoke-direct {v0, p0}, Lcom/jakex/makeup/startup/business/a/a$1;-><init>(Lcom/jakex/makeup/startup/business/a/a;)V
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/i;->a(Ljava/lang/Runnable;)V
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/i;->a(Ljava/lang/Runnable;)V
 
     return-void
 .end method
@@ -343,13 +343,13 @@
 .method public b()V
     .locals 7
 
-    invoke-static {}, Lcom/jakex/makeupeditor/material/a/j;->a()Lcom/jakex/makeupeditor/material/a/j;
+    invoke-static {}, Lcom/jakex/ymluxseditor/material/a/j;->a()Lcom/jakex/ymluxseditor/material/a/j;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/material/a/j;->b()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/material/a/j;->b()V
 
-    invoke-static {}, Lcom/jakex/makeupeditor/material/thememakeup/c/f;->g()Z
+    invoke-static {}, Lcom/jakex/ymluxseditor/material/thememakeup/c/f;->g()Z
 
     move-result v0
 
@@ -364,7 +364,7 @@
     invoke-direct {p0}, Lcom/jakex/makeup/startup/business/a/a;->i()V
 
     :cond_0
-    invoke-static {}, Lcom/jakex/makeupselfie/camera/ar/model/ArCategory;->values()[Lcom/jakex/makeupselfie/camera/ar/model/ArCategory;
+    invoke-static {}, Lcom/jakex/ymluxscoresf/camera/ar/model/ArCategory;->values()[Lcom/jakex/ymluxscoresf/camera/ar/model/ArCategory;
 
     move-result-object v0
 
@@ -379,17 +379,17 @@
 
     aget-object v4, v0, v3
 
-    invoke-virtual {v4}, Lcom/jakex/makeupselfie/camera/ar/model/ArCategory;->isSingleType()Z
+    invoke-virtual {v4}, Lcom/jakex/ymluxscoresf/camera/ar/model/ArCategory;->isSingleType()Z
 
     move-result v5
 
     if-eqz v5, :cond_1
 
-    invoke-virtual {v4}, Lcom/jakex/makeupselfie/camera/ar/model/ArCategory;->getType()I
+    invoke-virtual {v4}, Lcom/jakex/ymluxscoresf/camera/ar/model/ArCategory;->getType()I
 
     move-result v4
 
-    invoke-static {v4}, Lcom/jakex/makeupeditor/material/thememakeup/c/f;->d(I)Z
+    invoke-static {v4}, Lcom/jakex/ymluxseditor/material/thememakeup/c/f;->d(I)Z
 
     move-result v5
 
@@ -403,7 +403,7 @@
     goto :goto_0
 
     :cond_2
-    invoke-static {}, Lcom/jakex/makeupeditor/material/thememakeup/c/f;->e()Z
+    invoke-static {}, Lcom/jakex/ymluxseditor/material/thememakeup/c/f;->e()Z
 
     move-result v0
 
@@ -418,7 +418,7 @@
     invoke-direct {p0}, Lcom/jakex/makeup/startup/business/a/a;->f()V
 
     :cond_3
-    invoke-static {}, Lcom/jakex/makeupcore/bean/ThemeMakeupCategory$Type;->values()[Lcom/jakex/makeupcore/bean/ThemeMakeupCategory$Type;
+    invoke-static {}, Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory$Type;->values()[Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory$Type;
 
     move-result-object v0
 
@@ -431,7 +431,7 @@
 
     sget-object v4, Lcom/jakex/makeup/startup/business/a/a$6;->a:[I
 
-    invoke-virtual {v3}, Lcom/jakex/makeupcore/bean/ThemeMakeupCategory$Type;->ordinal()I
+    invoke-virtual {v3}, Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory$Type;->ordinal()I
 
     move-result v5
 
@@ -448,11 +448,11 @@
     goto :goto_2
 
     :cond_4
-    invoke-virtual {v3}, Lcom/jakex/makeupcore/bean/ThemeMakeupCategory$Type;->getValue()I
+    invoke-virtual {v3}, Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory$Type;->getValue()I
 
     move-result v4
 
-    invoke-static {v4}, Lcom/jakex/makeupeditor/material/thememakeup/c/f;->b(I)Z
+    invoke-static {v4}, Lcom/jakex/ymluxseditor/material/thememakeup/c/f;->b(I)Z
 
     move-result v4
 
@@ -476,7 +476,7 @@
 
     invoke-static {v4, v5}, Lcom/jakex/library/util/Debug/Debug;->c(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-direct {p0, v3}, Lcom/jakex/makeup/startup/business/a/a;->a(Lcom/jakex/makeupcore/bean/ThemeMakeupCategory$Type;)V
+    invoke-direct {p0, v3}, Lcom/jakex/makeup/startup/business/a/a;->a(Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory$Type;)V
 
     :cond_5
     :goto_2

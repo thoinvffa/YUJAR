@@ -67,7 +67,7 @@
 
     if-eqz p2, :cond_1
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/glide/a;->a(Landroid/widget/ImageView;)Lcom/jakex/makeupcore/glide/a;
+    invoke-static {p1}, Lcom/jakex/ymluxscore/glide/a;->a(Landroid/widget/ImageView;)Lcom/jakex/ymluxscore/glide/a;
 
     move-result-object p1
 
@@ -81,7 +81,7 @@
 
     move-result-object p3
 
-    invoke-virtual {p1, p2, p3}, Lcom/jakex/makeupcore/glide/a;->a(Ljava/lang/Object;Lmakeup/image/request/h;)V
+    invoke-virtual {p1, p2, p3}, Lcom/jakex/ymluxscore/glide/a;->a(Ljava/lang/Object;Lmakeup/image/request/h;)V
 
     goto :goto_0
 
@@ -744,7 +744,7 @@
 
     move-result-object v4
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/glide/a;->a(Landroid/widget/ImageView;)Lcom/jakex/makeupcore/glide/a;
+    invoke-static {v0}, Lcom/jakex/ymluxscore/glide/a;->a(Landroid/widget/ImageView;)Lcom/jakex/ymluxscore/glide/a;
 
     move-result-object v0
 
@@ -754,9 +754,9 @@
 
     move-result-object v6
 
-    invoke-virtual {v0, p2, v6}, Lcom/jakex/makeupcore/glide/a;->a(Ljava/lang/Object;Lmakeup/image/request/h;)V
+    invoke-virtual {v0, p2, v6}, Lcom/jakex/ymluxscore/glide/a;->a(Ljava/lang/Object;Lmakeup/image/request/h;)V
 
-    invoke-static {v4}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v4}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result p2
 
@@ -962,7 +962,7 @@
 
     move-result-object v1
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/glide/a;->a(Landroid/widget/ImageView;)Lcom/jakex/makeupcore/glide/a;
+    invoke-static {v0}, Lcom/jakex/ymluxscore/glide/a;->a(Landroid/widget/ImageView;)Lcom/jakex/ymluxscore/glide/a;
 
     move-result-object v0
 
@@ -972,7 +972,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/jakex/makeupcore/glide/a;->a(Ljava/lang/Object;Lmakeup/image/request/h;)V
+    invoke-virtual {v0, v1, v2}, Lcom/jakex/ymluxscore/glide/a;->a(Ljava/lang/Object;Lmakeup/image/request/h;)V
 
     :cond_0
     invoke-virtual {p2}, Lcom/jakex/makeupassistant/bean/result/skin/SkinReportResult;->getDarkCircleExtData()Ljava/util/List;
@@ -985,7 +985,7 @@
 
     if-lez p2, :cond_4
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result p2
 
@@ -1184,7 +1184,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -1716,7 +1716,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v2}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v3
 

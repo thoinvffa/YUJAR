@@ -62,13 +62,13 @@
 
     iget-object p2, p0, Lcom/jakex/makeupassistant/report/e$1;->b:Lcom/jakex/makeupassistant/report/e;
 
-    iget-object p2, p2, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;
+    iget-object p2, p2, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;
 
     new-instance p3, Lcom/jakex/makeupassistant/report/e$1$1;
 
     invoke-direct {p3, p0, p1}, Lcom/jakex/makeupassistant/report/e$1$1;-><init>(Lcom/jakex/makeupassistant/report/e$1;Landroidx/recyclerview/widget/RecyclerView;)V
 
-    invoke-virtual {p2, p3}, Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {p2, p3}, Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;->post(Ljava/lang/Runnable;)Z
 
     return-void
 .end method

@@ -62,11 +62,11 @@
 
     iget-object v1, p0, Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity$2;->a:Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity;
 
-    invoke-static {v1}, Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity;->x(Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity;)Lcom/jakex/makeupeditor/widget/BitmapRecycledImageView;
+    invoke-static {v1}, Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity;->x(Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity;)Lcom/jakex/ymluxseditor/widget/BitmapRecycledImageView;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/jakex/makeupeditor/widget/BitmapRecycledImageView;->startAnimation(Landroid/view/animation/Animation;)V
+    invoke-virtual {v1, v0}, Lcom/jakex/ymluxseditor/widget/BitmapRecycledImageView;->startAnimation(Landroid/view/animation/Animation;)V
 
     return-void
 .end method

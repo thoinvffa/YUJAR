@@ -36,7 +36,7 @@
 .method public run()V
     .locals 0
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/s;->a()V
+    invoke-static {}, Lcom/jakex/ymluxscore/util/s;->a()V
 
     return-void
 .end method

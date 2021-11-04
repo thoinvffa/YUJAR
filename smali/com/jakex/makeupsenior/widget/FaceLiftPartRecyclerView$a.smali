@@ -1,5 +1,5 @@
 .class Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView$a;
-.super Lcom/jakex/makeupcore/b/d;
+.super Lcom/jakex/ymluxscore/b/d;
 
 
 # annotations
@@ -14,7 +14,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupcore/b/d<",
+        "Lcom/jakex/ymluxscore/b/d<",
         "Lcom/jakex/makeupsenior/model/BeautyFaceLiftManager$FaceLiftPart;",
         ">;"
     }
@@ -39,7 +39,7 @@
 
     iput-object p1, p0, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView$a;->a:Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView;
 
-    invoke-direct {p0, p2}, Lcom/jakex/makeupcore/b/d;-><init>(Ljava/util/List;)V
+    invoke-direct {p0, p2}, Lcom/jakex/ymluxscore/b/d;-><init>(Ljava/util/List;)V
 
     return-void
 .end method
@@ -54,7 +54,7 @@
     return p1
 .end method
 
-.method public a(Lcom/jakex/makeupcore/b/e;ILcom/jakex/makeupsenior/model/BeautyFaceLiftManager$FaceLiftPart;)V
+.method public a(Lcom/jakex/ymluxscore/b/e;ILcom/jakex/makeupsenior/model/BeautyFaceLiftManager$FaceLiftPart;)V
     .locals 3
 
     if-nez p3, :cond_0
@@ -64,21 +64,21 @@
     :cond_0
     sget p2, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->beauty_face_lift_part_iv:I
 
-    invoke-virtual {p1, p2}, Lcom/jakex/makeupcore/b/e;->a(I)Landroid/view/View;
+    invoke-virtual {p1, p2}, Lcom/jakex/ymluxscore/b/e;->a(I)Landroid/view/View;
 
     move-result-object p2
 
-    check-cast p2, Lcom/jakex/makeupcore/widget/IconFontView;
+    check-cast p2, Lcom/jakex/ymluxscore/widget/IconFontView;
 
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->beauty_face_lift_part_tv:I
 
-    invoke-virtual {p1, v0}, Lcom/jakex/makeupcore/b/e;->b(I)Landroid/widget/TextView;
+    invoke-virtual {p1, v0}, Lcom/jakex/ymluxscore/b/e;->b(I)Landroid/widget/TextView;
 
     move-result-object v0
 
     sget v1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->beauty_face_lift_tip_iv:I
 
-    invoke-virtual {p1, v1}, Lcom/jakex/makeupcore/b/e;->c(I)Landroid/widget/ImageView;
+    invoke-virtual {p1, v1}, Lcom/jakex/ymluxscore/b/e;->c(I)Landroid/widget/ImageView;
 
     move-result-object p1
 
@@ -112,7 +112,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p2, v1}, Lcom/jakex/makeupcore/widget/IconFontView;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p2, v1}, Lcom/jakex/ymluxscore/widget/IconFontView;->setText(Ljava/lang/CharSequence;)V
 
     iget-object v1, p0, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView$a;->a:Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView;
 
@@ -138,7 +138,7 @@
 
     move-result v1
 
-    invoke-virtual {p2, v1}, Lcom/jakex/makeupcore/widget/IconFontView;->setTextColor(I)V
+    invoke-virtual {p2, v1}, Lcom/jakex/ymluxscore/widget/IconFontView;->setTextColor(I)V
 
     iget-object p2, p0, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView$a;->a:Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView;
 
@@ -163,7 +163,7 @@
 
     move-result v1
 
-    invoke-virtual {p2, v1}, Lcom/jakex/makeupcore/widget/IconFontView;->setTextColor(I)V
+    invoke-virtual {p2, v1}, Lcom/jakex/ymluxscore/widget/IconFontView;->setTextColor(I)V
 
     iget-object p2, p0, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView$a;->a:Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView;
 
@@ -224,7 +224,7 @@
 
     check-cast p3, Ljava/lang/Integer;
 
-    invoke-static {p3, p2}, Lcom/jakex/makeupcore/util/bj;->a(Ljava/lang/Integer;I)I
+    invoke-static {p3, p2}, Lcom/jakex/ymluxscore/util/bj;->a(Ljava/lang/Integer;I)I
 
     move-result p3
 
@@ -252,12 +252,12 @@
     return-void
 .end method
 
-.method public bridge synthetic a(Lcom/jakex/makeupcore/b/e;ILjava/lang/Object;)V
+.method public bridge synthetic a(Lcom/jakex/ymluxscore/b/e;ILjava/lang/Object;)V
     .locals 0
 
     check-cast p3, Lcom/jakex/makeupsenior/model/BeautyFaceLiftManager$FaceLiftPart;
 
-    invoke-virtual {p0, p1, p2, p3}, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView$a;->a(Lcom/jakex/makeupcore/b/e;ILcom/jakex/makeupsenior/model/BeautyFaceLiftManager$FaceLiftPart;)V
+    invoke-virtual {p0, p1, p2, p3}, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView$a;->a(Lcom/jakex/ymluxscore/b/e;ILcom/jakex/makeupsenior/model/BeautyFaceLiftManager$FaceLiftPart;)V
 
     return-void
 .end method

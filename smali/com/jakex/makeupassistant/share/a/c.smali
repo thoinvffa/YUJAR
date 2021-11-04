@@ -130,7 +130,7 @@
 
     invoke-virtual {p2, v0}, Landroid/widget/TextView;->setTextColor(I)V
 
-    invoke-static {}, Lcom/jakex/makeupaccount/d/a;->i()Lcom/jakex/makeupcore/bean/AccountUser;
+    invoke-static {}, Lcom/jakex/makeupaccount/d/a;->i()Lcom/jakex/ymluxscore/bean/AccountUser;
 
     move-result-object p2
 
@@ -147,19 +147,19 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/AccountUser;->getAvatar()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/AccountUser;->getAvatar()Ljava/lang/String;
 
     move-result-object v1
 
     sget v2, Lcom/tbuonomo/viewpagerdotsindicator/Resource$drawable;->share_default_logo:I
 
-    invoke-static {v2}, Lcom/jakex/makeupcore/glide/e;->a(I)Lmakeup/image/request/h;
+    invoke-static {v2}, Lcom/jakex/ymluxscore/glide/e;->a(I)Lmakeup/image/request/h;
 
     move-result-object v2
 
-    new-instance v3, Lcom/jakex/makeupcore/glide/b/a;
+    new-instance v3, Lcom/jakex/ymluxscore/glide/b/a;
 
-    invoke-direct {v3}, Lcom/jakex/makeupcore/glide/b/a;-><init>()V
+    invoke-direct {v3}, Lcom/jakex/ymluxscore/glide/b/a;-><init>()V
 
     invoke-virtual {v2, v3}, Lmakeup/image/request/h;->a(Lmakeup/image/load/h;)Lmakeup/image/request/a;
 
@@ -167,13 +167,13 @@
 
     check-cast v2, Lmakeup/image/request/h;
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/glide/a;->a(Landroid/widget/ImageView;)Lcom/jakex/makeupcore/glide/a;
+    invoke-static {v0}, Lcom/jakex/ymluxscore/glide/a;->a(Landroid/widget/ImageView;)Lcom/jakex/ymluxscore/glide/a;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1, v2}, Lcom/jakex/makeupcore/glide/a;->a(Ljava/lang/Object;Lmakeup/image/request/h;)V
+    invoke-virtual {v0, v1, v2}, Lcom/jakex/ymluxscore/glide/a;->a(Ljava/lang/Object;Lmakeup/image/request/h;)V
 
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/AccountUser;->getName()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/AccountUser;->getName()Ljava/lang/String;
 
     move-result-object p2
 

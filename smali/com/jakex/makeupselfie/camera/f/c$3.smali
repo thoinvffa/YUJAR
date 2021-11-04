@@ -1,10 +1,10 @@
-.class synthetic Lcom/jakex/makeupselfie/camera/f/c$3;
+.class synthetic Lcom/jakex/ymluxscoresf/camera/f/c$3;
 .super Ljava/lang/Object;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/jakex/makeupselfie/camera/f/c;
+    value = Lcom/jakex/ymluxscoresf/camera/f/c;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -21,7 +21,7 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    invoke-static {}, Lcom/jakex/makeupcore/bean/download/DownloadState;->values()[Lcom/jakex/makeupcore/bean/download/DownloadState;
+    invoke-static {}, Lcom/jakex/ymluxscore/bean/download/DownloadState;->values()[Lcom/jakex/ymluxscore/bean/download/DownloadState;
 
     move-result-object v0
 
@@ -29,12 +29,12 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lcom/jakex/makeupselfie/camera/f/c$3;->a:[I
+    sput-object v0, Lcom/jakex/ymluxscoresf/camera/f/c$3;->a:[I
 
     :try_start_0
-    sget-object v1, Lcom/jakex/makeupcore/bean/download/DownloadState;->DOWNLOADING:Lcom/jakex/makeupcore/bean/download/DownloadState;
+    sget-object v1, Lcom/jakex/ymluxscore/bean/download/DownloadState;->DOWNLOADING:Lcom/jakex/ymluxscore/bean/download/DownloadState;
 
-    invoke-virtual {v1}, Lcom/jakex/makeupcore/bean/download/DownloadState;->ordinal()I
+    invoke-virtual {v1}, Lcom/jakex/ymluxscore/bean/download/DownloadState;->ordinal()I
 
     move-result v1
 

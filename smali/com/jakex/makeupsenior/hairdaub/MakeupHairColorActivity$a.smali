@@ -38,7 +38,7 @@
 
 
 # virtual methods
-.method public onEvent(Lcom/jakex/makeupcore/modular/b/a;)V
+.method public onEvent(Lcom/jakex/ymluxscore/modular/b/a;)V
     .locals 0
     .annotation runtime Lorg/greenrobot/eventbus/Subscribe;
         threadMode = .enum Lorg/greenrobot/eventbus/ThreadMode;->MAIN:Lorg/greenrobot/eventbus/ThreadMode;

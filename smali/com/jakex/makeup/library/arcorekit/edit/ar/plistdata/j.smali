@@ -25,7 +25,7 @@
     return-void
 .end method
 
-.method protected l()Lcom/jakex/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
+.method protected l()Lcom/jakex/ymlux/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
     .locals 4
 
     invoke-static {}, Lcom/jakex/makeup/library/arcorekit/edit/ar/b/b;->a()Lcom/jakex/makeup/library/arcorekit/edit/ar/b/b;
@@ -42,7 +42,7 @@
 
     iget-object v3, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/j;->a:Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/subtype/ARMouthType;
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/jakex/makeup/library/arcorekit/edit/ar/b/b;->a(Ljava/lang/String;Ljava/lang/String;Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/subtype/ARMouthType;)Lcom/jakex/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
+    invoke-virtual {v0, v1, v2, v3}, Lcom/jakex/makeup/library/arcorekit/edit/ar/b/b;->a(Ljava/lang/String;Ljava/lang/String;Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/subtype/ARMouthType;)Lcom/jakex/ymlux/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
 
     move-result-object v0
 

@@ -1,4 +1,4 @@
-.class final Lcom/jakex/makeupselfie/camera/ar/a/b$1;
+.class final Lcom/jakex/ymluxscoresf/camera/ar/a/b$1;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -7,7 +7,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/jakex/makeupselfie/camera/ar/a/b;->b()V
+    value = Lcom/jakex/ymluxscoresf/camera/ar/a/b;->b()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -30,7 +30,7 @@
 .method public a(Ljava/lang/String;)V
     .locals 3
 
-    invoke-static {}, Lcom/jakex/makeupselfie/camera/ar/a/b;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/jakex/ymluxscoresf/camera/ar/a/b;->c()Ljava/lang/String;
 
     move-result-object v0
 

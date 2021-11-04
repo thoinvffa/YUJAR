@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;
-.super Lcom/jakex/makeupcore/widget/CommonRecyclerView;
+.super Lcom/jakex/ymluxscore/widget/CommonRecyclerView;
 
 
 # annotations
@@ -12,9 +12,9 @@
 
 
 # instance fields
-.field b:Lcom/jakex/makeupcore/b/d$a;
+.field b:Lcom/jakex/ymluxscore/b/d$a;
 
-.field private c:Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
+.field private c:Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
 
 .field private d:Lmakeup/image/request/h;
 
@@ -22,7 +22,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;",
+            "Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;",
             ">;"
         }
     .end annotation
@@ -32,17 +32,17 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;",
+            "Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;",
             ">;"
         }
     .end annotation
 .end field
 
-.field private g:Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+.field private g:Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
 .field private h:Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView$b;
 
-.field private i:Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+.field private i:Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
 .field private j:Z
 
@@ -61,7 +61,7 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 0
 
-    invoke-direct {p0, p1, p2}, Lcom/jakex/makeupcore/widget/CommonRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lcom/jakex/ymluxscore/widget/CommonRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     new-instance p1, Ljava/util/ArrayList;
 
@@ -93,7 +93,7 @@
 
     invoke-direct {p1, p0}, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView$1;-><init>(Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;)V
 
-    iput-object p1, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->b:Lcom/jakex/makeupcore/b/d$a;
+    iput-object p1, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->b:Lcom/jakex/ymluxscore/b/d$a;
 
     invoke-direct {p0}, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->a()V
 
@@ -108,10 +108,10 @@
     return p1
 .end method
 
-.method static synthetic a(Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;)Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+.method static synthetic a(Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;)Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->i:Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    iput-object p1, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->i:Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
     return-object p1
 .end method
@@ -127,28 +127,28 @@
 
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$drawable;->v3_beauty_senior_part_default_drawable:I
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/glide/e;->a(I)Lmakeup/image/request/h;
+    invoke-static {v0}, Lcom/jakex/ymluxscore/glide/e;->a(I)Lmakeup/image/request/h;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->d:Lmakeup/image/request/h;
 
     :cond_0
-    new-instance v0, Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
+    new-instance v0, Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
 
     invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v1}, Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;-><init>(Landroid/content/Context;)V
 
-    iput-object v0, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->c:Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
+    iput-object v0, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->c:Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;->setOrientation(I)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;->setOrientation(I)V
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->c:Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->c:Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
 
     invoke-virtual {p0, v0}, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
@@ -162,15 +162,15 @@
 
     iput-object v0, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->h:Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView$b;
 
-    iget-object v2, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->b:Lcom/jakex/makeupcore/b/d$a;
+    iget-object v2, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->b:Lcom/jakex/ymluxscore/b/d$a;
 
-    invoke-virtual {v0, v2}, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView$b;->a(Lcom/jakex/makeupcore/b/d$a;)V
+    invoke-virtual {v0, v2}, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView$b;->a(Lcom/jakex/ymluxscore/b/d$a;)V
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->h:Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView$b;
 
     invoke-virtual {p0, v0}, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    new-instance v0, Lcom/jakex/makeupcore/widget/CommonRecyclerView$a;
+    new-instance v0, Lcom/jakex/ymluxscore/widget/CommonRecyclerView$a;
 
     invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->getResources()Landroid/content/res/Resources;
 
@@ -192,7 +192,7 @@
 
     move-result v3
 
-    invoke-direct {v0, p0, v2, v3}, Lcom/jakex/makeupcore/widget/CommonRecyclerView$a;-><init>(Lcom/jakex/makeupcore/widget/CommonRecyclerView;II)V
+    invoke-direct {v0, p0, v2, v3}, Lcom/jakex/ymluxscore/widget/CommonRecyclerView$a;-><init>(Lcom/jakex/ymluxscore/widget/CommonRecyclerView;II)V
 
     invoke-virtual {p0, v0}, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->addItemDecoration(Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;)V
 
@@ -207,10 +207,10 @@
     return-void
 .end method
 
-.method private a(Landroid/widget/ImageView;Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;)V
+.method private a(Landroid/widget/ImageView;Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;)V
     .locals 2
 
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;->getThumbnail()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;->getThumbnail()Ljava/lang/String;
 
     move-result-object p2
 
@@ -229,7 +229,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {p1}, Lcom/jakex/makeupcore/glide/a;->a(Landroid/widget/ImageView;)Lcom/jakex/makeupcore/glide/a;
+    invoke-static {p1}, Lcom/jakex/ymluxscore/glide/a;->a(Landroid/widget/ImageView;)Lcom/jakex/ymluxscore/glide/a;
 
     move-result-object p1
 
@@ -249,28 +249,28 @@
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->d:Lmakeup/image/request/h;
 
-    invoke-virtual {p1, p2, v0}, Lcom/jakex/makeupcore/glide/a;->b(Ljava/lang/String;Lmakeup/image/request/h;)V
+    invoke-virtual {p1, p2, v0}, Lcom/jakex/ymluxscore/glide/a;->b(Ljava/lang/String;Lmakeup/image/request/h;)V
 
     goto :goto_1
 
     :cond_1
     :goto_0
-    invoke-static {p1}, Lcom/jakex/makeupcore/glide/a;->a(Landroid/widget/ImageView;)Lcom/jakex/makeupcore/glide/a;
+    invoke-static {p1}, Lcom/jakex/ymluxscore/glide/a;->a(Landroid/widget/ImageView;)Lcom/jakex/ymluxscore/glide/a;
 
     move-result-object p1
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->d:Lmakeup/image/request/h;
 
-    invoke-virtual {p1, p2, v0}, Lcom/jakex/makeupcore/glide/a;->a(Ljava/lang/Object;Lmakeup/image/request/h;)V
+    invoke-virtual {p1, p2, v0}, Lcom/jakex/ymluxscore/glide/a;->a(Ljava/lang/Object;Lmakeup/image/request/h;)V
 
     :goto_1
     return-void
 .end method
 
-.method static synthetic a(Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;Landroid/widget/ImageView;Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;)V
+.method static synthetic a(Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;Landroid/widget/ImageView;Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;)V
     .locals 0
 
-    invoke-direct {p0, p1, p2}, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->a(Landroid/widget/ImageView;Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;)V
+    invoke-direct {p0, p1, p2}, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->a(Landroid/widget/ImageView;Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;)V
 
     return-void
 .end method
@@ -291,10 +291,10 @@
     return p1
 .end method
 
-.method static synthetic b(Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;)Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+.method static synthetic b(Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;)Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
     .locals 0
 
-    iget-object p0, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->i:Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    iget-object p0, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->i:Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
     return-object p0
 .end method
@@ -349,7 +349,7 @@
 
 
 # virtual methods
-.method public a(Z)Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+.method public a(Z)Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
     .locals 1
 
     if-eqz p1, :cond_1
@@ -365,12 +365,12 @@
     if-ne p1, v0, :cond_1
 
     :cond_0
-    iget-object p1, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->g:Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    iget-object p1, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->g:Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
     return-object p1
 
     :cond_1
-    iget-object p1, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->i:Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    iget-object p1, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->i:Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
     return-object p1
 .end method
@@ -378,14 +378,14 @@
 .method public a(I)V
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->c:Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->c:Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
 
     if-nez v0, :cond_0
 
     return-void
 
     :cond_0
-    invoke-static {v0, p0, p1}, Lcom/jakex/makeupcore/widget/recyclerview/a;->a(Landroidx/recyclerview/widget/LinearLayoutManager;Landroidx/recyclerview/widget/RecyclerView;I)V
+    invoke-static {v0, p0, p1}, Lcom/jakex/ymluxscore/widget/recyclerview/a;->a(Landroidx/recyclerview/widget/LinearLayoutManager;Landroidx/recyclerview/widget/RecyclerView;I)V
 
     return-void
 .end method
@@ -396,7 +396,7 @@
         value = {
             "(I",
             "Ljava/util/List<",
-            "Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;",
+            "Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;",
             ">;)V"
         }
     .end annotation
@@ -428,9 +428,9 @@
 
     iput-object v0, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->h:Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView$b;
 
-    iget-object p1, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->b:Lcom/jakex/makeupcore/b/d$a;
+    iget-object p1, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->b:Lcom/jakex/ymluxscore/b/d$a;
 
-    invoke-virtual {v0, p1}, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView$b;->a(Lcom/jakex/makeupcore/b/d$a;)V
+    invoke-virtual {v0, p1}, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView$b;->a(Lcom/jakex/ymluxscore/b/d$a;)V
 
     iget-object p1, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->h:Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView$b;
 
@@ -453,7 +453,7 @@
 
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->i:Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    iput-object v0, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->i:Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->e:Ljava/util/List;
 
@@ -474,9 +474,9 @@
 
     move-result-object v3
 
-    check-cast v3, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    check-cast v3, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
-    invoke-virtual {v3}, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;->getMaterialId()J
+    invoke-virtual {v3}, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;->getMaterialId()J
 
     move-result-wide v4
 
@@ -484,7 +484,7 @@
 
     move-result-object v4
 
-    invoke-static {v4}, Lcom/jakex/makeupcore/util/bj;->a(Ljava/lang/Long;)J
+    invoke-static {v4}, Lcom/jakex/ymluxscore/util/bj;->a(Ljava/lang/Long;)J
 
     move-result-wide v4
 
@@ -492,7 +492,7 @@
 
     if-nez v6, :cond_0
 
-    iput-object v3, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->i:Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    iput-object v3, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->i:Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
     move v1, v2
 
@@ -523,7 +523,7 @@
     return-void
 .end method
 
-.method public a(Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;)V
+.method public a(Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;)V
     .locals 3
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->e:Ljava/util/List;
@@ -538,11 +538,11 @@
 
     const/4 v1, 0x0
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/bean/download/b;->a(Lcom/jakex/makeupcore/bean/download/a;)Lcom/jakex/makeupcore/bean/download/DownloadState;
+    invoke-static {p1}, Lcom/jakex/ymluxscore/bean/download/b;->a(Lcom/jakex/ymluxscore/bean/download/a;)Lcom/jakex/ymluxscore/bean/download/DownloadState;
 
     move-result-object p1
 
-    sget-object v2, Lcom/jakex/makeupcore/bean/download/DownloadState;->DOWNLOADING:Lcom/jakex/makeupcore/bean/download/DownloadState;
+    sget-object v2, Lcom/jakex/ymluxscore/bean/download/DownloadState;->DOWNLOADING:Lcom/jakex/ymluxscore/bean/download/DownloadState;
 
     if-ne p1, v2, :cond_0
 
@@ -563,7 +563,7 @@
         value = {
             "(",
             "Ljava/util/List<",
-            "Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;",
+            "Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;",
             ">;J)V"
         }
     .end annotation
@@ -575,7 +575,7 @@
     :cond_0
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->g:Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    iput-object v0, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->g:Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->f:Ljava/util/List;
 
@@ -600,9 +600,9 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    check-cast v2, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
-    invoke-virtual {v2}, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;->getMaterialId()J
+    invoke-virtual {v2}, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;->getMaterialId()J
 
     move-result-wide v3
 
@@ -610,7 +610,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/jakex/makeupcore/util/bj;->a(Ljava/lang/Long;)J
+    invoke-static {v3}, Lcom/jakex/ymluxscore/util/bj;->a(Ljava/lang/Long;)J
 
     move-result-wide v3
 
@@ -618,7 +618,7 @@
 
     if-nez v5, :cond_1
 
-    iput-object v2, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->g:Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    iput-object v2, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->g:Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
     goto :goto_1
 
@@ -637,7 +637,7 @@
 
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->i:Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    iput-object v0, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->i:Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->e:Ljava/util/List;
 
@@ -658,9 +658,9 @@
 
     move-result-object v3
 
-    check-cast v3, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    check-cast v3, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
-    invoke-virtual {v3}, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;->getMaterialId()J
+    invoke-virtual {v3}, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;->getMaterialId()J
 
     move-result-wide v4
 
@@ -668,7 +668,7 @@
 
     move-result-object v4
 
-    invoke-static {v4}, Lcom/jakex/makeupcore/util/bj;->a(Ljava/lang/Long;)J
+    invoke-static {v4}, Lcom/jakex/ymluxscore/util/bj;->a(Ljava/lang/Long;)J
 
     move-result-wide v4
 
@@ -676,7 +676,7 @@
 
     if-nez v6, :cond_0
 
-    iput-object v3, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->i:Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    iput-object v3, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->i:Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
     move v1, v2
 
@@ -713,10 +713,10 @@
     return-void
 .end method
 
-.method public getCurrentColorMaterial()Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+.method public getCurrentColorMaterial()Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->g:Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->g:Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
     return-object v0
 .end method
@@ -737,10 +737,10 @@
     return v0
 .end method
 
-.method public setCurrentColorMaterial(Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;)V
+.method public setCurrentColorMaterial(Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->g:Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    iput-object p1, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->g:Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
     return-void
 .end method

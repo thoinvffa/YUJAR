@@ -28,31 +28,31 @@
 .method static constructor <clinit>()V
     .locals 7
 
-    invoke-static {}, Lcom/jakex/makeupcore/e/Aa;->b()Lcom/jakex/makeupcore/e/Aa$BB;
+    invoke-static {}, Lcom/jakex/ymluxscore/e/Aa;->b()Lcom/jakex/ymluxscore/e/Aa$BB;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/e/Aa$BB;->c()Z
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/e/Aa$BB;->c()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    invoke-static {}, Lcom/jakex/makeupcore/e/Aa;->b()Lcom/jakex/makeupcore/e/Aa$BB;
+    invoke-static {}, Lcom/jakex/ymluxscore/e/Aa;->b()Lcom/jakex/ymluxscore/e/Aa$BB;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/e/Aa$BB;->e()I
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/e/Aa$BB;->e()I
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/jakex/makeupcore/e/Aa;->b()Lcom/jakex/makeupcore/e/Aa$BB;
+    invoke-static {}, Lcom/jakex/ymluxscore/e/Aa;->b()Lcom/jakex/ymluxscore/e/Aa$BB;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/e/Aa$BB;->e()I
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/e/Aa$BB;->e()I
 
     move-result v0
 
@@ -236,7 +236,7 @@
 .method public static a(Lcom/jakex/business/ads/meitu/MtbAdSetting$b;)V
     .locals 13
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/c;->b()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/util/c;->b()Z
 
     move-result v0
 
@@ -254,11 +254,11 @@
 
     invoke-static {v0}, Lcom/jakex/business/ads/core/b;->a(I)V
 
-    invoke-static {}, Lcom/jakex/makeupcore/e/Aa;->b()Lcom/jakex/makeupcore/e/Aa$BB;
+    invoke-static {}, Lcom/jakex/ymluxscore/e/Aa;->b()Lcom/jakex/ymluxscore/e/Aa$BB;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/e/Aa$BB;->a()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/e/Aa$BB;->a()Ljava/lang/String;
 
     move-result-object v7
 
@@ -292,7 +292,7 @@
 
     sget-object v5, Lcom/jakex/makeupbusiness/c;->i:Ljava/lang/String;
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/bk;->b()Ljava/lang/String;
+    invoke-static {}, Lcom/jakex/ymluxscore/util/bk;->b()Ljava/lang/String;
 
     move-result-object v9
 
@@ -306,11 +306,11 @@
 
     invoke-static/range {v1 .. v12}, Lcom/jakex/business/ads/core/b;->a(Landroid/content/Context;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-static {}, Lcom/jakex/makeupcore/e/Aa;->b()Lcom/jakex/makeupcore/e/Aa$BB;
+    invoke-static {}, Lcom/jakex/ymluxscore/e/Aa;->b()Lcom/jakex/ymluxscore/e/Aa$BB;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/e/Aa$BB;->f()Z
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/e/Aa$BB;->f()Z
 
     move-result v0
 
@@ -318,7 +318,7 @@
 
     invoke-static {v0}, Lcom/jakex/business/ads/core/b;->a(Z)V
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/f;->b()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/util/f;->b()Z
 
     move-result v0
 
@@ -337,7 +337,7 @@
     invoke-static {v0}, Lcom/jakex/business/ads/core/b;->d(Ljava/lang/String;)V
 
     :cond_2
-    invoke-static {}, Lcom/jakex/makeupcore/modular/c/bx;->b()Ljava/lang/String;
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/c/bx;->b()Ljava/lang/String;
 
     move-result-object v0
 
@@ -427,11 +427,11 @@
 .method private static c()I
     .locals 1
 
-    invoke-static {}, Lcom/jakex/makeupcore/e/Aa;->b()Lcom/jakex/makeupcore/e/Aa$BB;
+    invoke-static {}, Lcom/jakex/ymluxscore/e/Aa;->b()Lcom/jakex/ymluxscore/e/Aa$BB;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/e/Aa$BB;->e()I
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/e/Aa$BB;->e()I
 
     move-result v0
 

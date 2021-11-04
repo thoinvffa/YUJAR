@@ -197,7 +197,7 @@
 .method private static b(Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
 
-    invoke-static {}, Lcom/jakex/makeupcore/e/Aa;->c()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/e/Aa;->c()Z
 
     move-result v0
 
@@ -213,7 +213,7 @@
     .locals 1
 
     :try_start_0
-    invoke-static {}, Lcom/jakex/makeupcore/util/c;->b()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/util/c;->b()Z
 
     move-result v0
     :try_end_0
@@ -541,11 +541,11 @@
 .method public C(Lorg/aspectj/lang/b;)Ljava/lang/Object;
     .locals 1
 
-    invoke-static {}, Lcom/jakex/makeupcore/c/c;->b()Lcom/jakex/makeupcore/c/c;
+    invoke-static {}, Lcom/jakex/ymluxscore/c/c;->b()Lcom/jakex/ymluxscore/c/c;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/c/c;->c()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/c/c;->c()V
 
     invoke-virtual {p0, p1}, Lcom/jakex/makeup/a/a;->a(Lorg/aspectj/lang/b;)Ljava/lang/Object;
 
@@ -661,7 +661,7 @@
 
     check-cast v3, Ljava/lang/Integer;
 
-    invoke-static {v3, v2}, Lcom/jakex/makeupcore/util/bj;->b(Ljava/lang/Integer;I)I
+    invoke-static {v3, v2}, Lcom/jakex/ymluxscore/util/bj;->b(Ljava/lang/Integer;I)I
 
     move-result v3
 
@@ -699,7 +699,7 @@
     invoke-interface {v4, v0, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_5
-    invoke-static {}, Lcom/jakex/makeupcore/e/Aa;->c()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/e/Aa;->c()Z
 
     move-result v3
 
@@ -753,7 +753,7 @@
 
     check-cast p1, Ljava/lang/Integer;
 
-    invoke-static {p1, v2}, Lcom/jakex/makeupcore/util/bj;->b(Ljava/lang/Integer;I)I
+    invoke-static {p1, v2}, Lcom/jakex/ymluxscore/util/bj;->b(Ljava/lang/Integer;I)I
 
     move-result p1
 

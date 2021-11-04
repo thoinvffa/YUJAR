@@ -1,4 +1,4 @@
-.class Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText$1;
+.class Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText$1;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -7,7 +7,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText;
+    value = Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,14 +17,14 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText;
+.field final synthetic a:Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText;
 
 
 # direct methods
-.method constructor <init>(Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText;)V
+.method constructor <init>(Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText$1;->a:Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText$1;->a:Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -48,9 +48,9 @@
 .method public onTextChanged(Ljava/lang/CharSequence;III)V
     .locals 0
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText$1;->a:Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText$1;->a:Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText;
 
-    invoke-virtual {p1}, Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText;->getText()Landroid/text/Editable;
+    invoke-virtual {p1}, Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText;->getText()Landroid/text/Editable;
 
     move-result-object p1
 
@@ -92,21 +92,21 @@
 
     move-result p2
 
-    iget-object p3, p0, Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText$1;->a:Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText;
+    iget-object p3, p0, Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText$1;->a:Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText;
 
-    invoke-virtual {p3, p0}, Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText;->removeTextChangedListener(Landroid/text/TextWatcher;)V
+    invoke-virtual {p3, p0}, Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText;->removeTextChangedListener(Landroid/text/TextWatcher;)V
 
-    iget-object p3, p0, Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText$1;->a:Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText;
+    iget-object p3, p0, Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText$1;->a:Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText;
 
-    invoke-virtual {p3, p1}, Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p3, p1}, Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText;->setText(Ljava/lang/CharSequence;)V
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText$1;->a:Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText$1;->a:Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText;
 
-    invoke-virtual {p1, p0}, Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText;->addTextChangedListener(Landroid/text/TextWatcher;)V
+    invoke-virtual {p1, p0}, Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText;->addTextChangedListener(Landroid/text/TextWatcher;)V
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText$1;->a:Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText$1;->a:Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText;
 
-    invoke-virtual {p1, p2}, Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText;->setSelection(I)V
+    invoke-virtual {p1, p2}, Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText;->setSelection(I)V
 
     :cond_0
     return-void

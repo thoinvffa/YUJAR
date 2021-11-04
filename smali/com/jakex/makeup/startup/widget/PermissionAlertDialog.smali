@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeup/startup/widget/PermissionAlertDialog;
-.super Lcom/jakex/makeupcore/dialog/a;
+.super Lcom/jakex/ymluxscore/dialog/a;
 
 
 # annotations
@@ -17,7 +17,7 @@
 .method public constructor <init>(Landroid/content/Context;I)V
     .locals 0
 
-    invoke-direct {p0, p1, p2}, Lcom/jakex/makeupcore/dialog/a;-><init>(Landroid/content/Context;I)V
+    invoke-direct {p0, p1, p2}, Lcom/jakex/ymluxscore/dialog/a;-><init>(Landroid/content/Context;I)V
 
     return-void
 .end method
@@ -28,7 +28,7 @@
     .locals 1
 
     :try_start_0
-    invoke-super {p0}, Lcom/jakex/makeupcore/dialog/a;->show()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/dialog/a;->show()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 

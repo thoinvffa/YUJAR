@@ -212,7 +212,7 @@
 
     const p1, 0x7f0c03e7
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/widget/a/a;->a(I)V
+    invoke-static {p1}, Lcom/jakex/ymluxscore/widget/a/a;->a(I)V
 
     sget-object p1, Lcom/jakex/makeup/startup/business/a;->a:Lcom/jakex/makeup/startup/business/a;
 
@@ -225,9 +225,9 @@
     return-object p1
 
     :cond_3
-    invoke-static {}, Lcom/jakex/makeupcore/modular/a/b;->b()V
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/a/b;->b()V
 
-    invoke-static {}, Lcom/jakex/makeupcore/modular/a/b;->a()Lcom/jakex/makeupcore/modular/a/b;
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/a/b;->a()Lcom/jakex/ymluxscore/modular/a/b;
 
     move-result-object v0
 
@@ -235,43 +235,43 @@
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/r;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {v0, p1}, Lcom/jakex/makeupcore/modular/a/b;->a(Landroid/graphics/Bitmap;)V
+    invoke-virtual {v0, p1}, Lcom/jakex/ymluxscore/modular/a/b;->a(Landroid/graphics/Bitmap;)V
 
     invoke-static {}, Lorg/greenrobot/eventbus/EventBus;->getDefault()Lorg/greenrobot/eventbus/EventBus;
 
     move-result-object p1
 
-    new-instance v0, Lcom/jakex/makeupcore/modular/b/a;
+    new-instance v0, Lcom/jakex/ymluxscore/modular/b/a;
 
     const/4 v1, 0x0
 
     new-array v1, v1, [Ljava/lang/Class;
 
-    invoke-direct {v0, v1}, Lcom/jakex/makeupcore/modular/b/a;-><init>([Ljava/lang/Class;)V
+    invoke-direct {v0, v1}, Lcom/jakex/ymluxscore/modular/b/a;-><init>([Ljava/lang/Class;)V
 
     invoke-virtual {p1, v0}, Lorg/greenrobot/eventbus/EventBus;->post(Ljava/lang/Object;)V
 
-    new-instance p1, Lcom/jakex/makeupcore/modular/extra/BeautyMakeupExtra;
+    new-instance p1, Lcom/jakex/ymluxscore/modular/extra/BeautyMakeupExtra;
 
-    invoke-direct {p1}, Lcom/jakex/makeupcore/modular/extra/BeautyMakeupExtra;-><init>()V
+    invoke-direct {p1}, Lcom/jakex/ymluxscore/modular/extra/BeautyMakeupExtra;-><init>()V
 
-    iput-boolean v2, p1, Lcom/jakex/makeupcore/modular/extra/BeautyMakeupExtra;->mFromAlbum:Z
+    iput-boolean v2, p1, Lcom/jakex/ymluxscore/modular/extra/BeautyMakeupExtra;->mFromAlbum:Z
 
-    iget-object v0, p1, Lcom/jakex/makeupcore/modular/extra/BeautyMakeupExtra;->mFromOtherAppExtra:Lcom/jakex/makeupcore/modular/extra/FromOtherAppExtra;
+    iget-object v0, p1, Lcom/jakex/ymluxscore/modular/extra/BeautyMakeupExtra;->mFromOtherAppExtra:Lcom/jakex/ymluxscore/modular/extra/FromOtherAppExtra;
 
-    iput-boolean v2, v0, Lcom/jakex/makeupcore/modular/extra/FromOtherAppExtra;->mFromOtherApp:Z
+    iput-boolean v2, v0, Lcom/jakex/ymluxscore/modular/extra/FromOtherAppExtra;->mFromOtherApp:Z
 
-    iget-object v0, p1, Lcom/jakex/makeupcore/modular/extra/BeautyMakeupExtra;->mFromOtherAppExtra:Lcom/jakex/makeupcore/modular/extra/FromOtherAppExtra;
+    iget-object v0, p1, Lcom/jakex/ymluxscore/modular/extra/BeautyMakeupExtra;->mFromOtherAppExtra:Lcom/jakex/ymluxscore/modular/extra/FromOtherAppExtra;
 
     iget-boolean v1, p0, Lcom/jakex/makeup/startup/business/SchemeDispatcher$startSeniorMakeupFromOtherApp$1;->$needResult:Z
 
-    iput-boolean v1, v0, Lcom/jakex/makeupcore/modular/extra/FromOtherAppExtra;->mFromOtherAppNeedResult:Z
+    iput-boolean v1, v0, Lcom/jakex/ymluxscore/modular/extra/FromOtherAppExtra;->mFromOtherAppNeedResult:Z
 
-    iget-object v0, p1, Lcom/jakex/makeupcore/modular/extra/BeautyMakeupExtra;->mFromOtherAppExtra:Lcom/jakex/makeupcore/modular/extra/FromOtherAppExtra;
+    iget-object v0, p1, Lcom/jakex/ymluxscore/modular/extra/BeautyMakeupExtra;->mFromOtherAppExtra:Lcom/jakex/ymluxscore/modular/extra/FromOtherAppExtra;
 
     iget-object v1, p0, Lcom/jakex/makeup/startup/business/SchemeDispatcher$startSeniorMakeupFromOtherApp$1;->$savePath:Ljava/lang/String;
 
-    iput-object v1, v0, Lcom/jakex/makeupcore/modular/extra/FromOtherAppExtra;->mPicSavePath:Ljava/lang/String;
+    iput-object v1, v0, Lcom/jakex/ymluxscore/modular/extra/FromOtherAppExtra;->mPicSavePath:Ljava/lang/String;
 
     iget-boolean v0, p0, Lcom/jakex/makeup/startup/business/SchemeDispatcher$startSeniorMakeupFromOtherApp$1;->$needResult:Z
 
@@ -287,11 +287,11 @@
     :goto_1
     iget-object v1, p0, Lcom/jakex/makeup/startup/business/SchemeDispatcher$startSeniorMakeupFromOtherApp$1;->$activity:Landroid/app/Activity;
 
-    invoke-static {v1, p1, v0}, Lcom/jakex/makeupcore/modular/c/av;->a(Landroid/app/Activity;Lcom/jakex/makeupcore/modular/extra/BeautyMakeupExtra;I)V
+    invoke-static {v1, p1, v0}, Lcom/jakex/ymluxscore/modular/c/av;->a(Landroid/app/Activity;Lcom/jakex/ymluxscore/modular/extra/BeautyMakeupExtra;I)V
 
     iget-object p1, p0, Lcom/jakex/makeup/startup/business/SchemeDispatcher$startSeniorMakeupFromOtherApp$1;->$activity:Landroid/app/Activity;
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/util/a;->d(Landroid/app/Activity;)V
+    invoke-static {p1}, Lcom/jakex/ymluxscore/util/a;->d(Landroid/app/Activity;)V
 
     iget-boolean p1, p0, Lcom/jakex/makeup/startup/business/SchemeDispatcher$startSeniorMakeupFromOtherApp$1;->$needResult:Z
 

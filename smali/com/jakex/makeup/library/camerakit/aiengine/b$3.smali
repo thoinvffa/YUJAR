@@ -44,11 +44,11 @@
 
     iget-object p1, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b$3;->a:Lcom/jakex/makeup/library/camerakit/aiengine/b;
 
-    invoke-static {p1}, Lcom/jakex/makeup/library/camerakit/aiengine/b;->a(Lcom/jakex/makeup/library/camerakit/aiengine/b;)Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;
+    invoke-static {p1}, Lcom/jakex/makeup/library/camerakit/aiengine/b;->a(Lcom/jakex/makeup/library/camerakit/aiengine/b;)Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;
 
     move-result-object v0
 
-    invoke-static {p1, v0}, Lcom/jakex/makeup/library/camerakit/aiengine/b;->a(Lcom/jakex/makeup/library/camerakit/aiengine/b;Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;)V
+    invoke-static {p1, v0}, Lcom/jakex/makeup/library/camerakit/aiengine/b;->a(Lcom/jakex/makeup/library/camerakit/aiengine/b;Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;)V
 
     iget-object p1, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b$3;->a:Lcom/jakex/makeup/library/camerakit/aiengine/b;
 
@@ -124,11 +124,11 @@
     :cond_1
     iget-object v0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b$3;->a:Lcom/jakex/makeup/library/camerakit/aiengine/b;
 
-    invoke-static {v0}, Lcom/jakex/makeup/library/camerakit/aiengine/b;->a(Lcom/jakex/makeup/library/camerakit/aiengine/b;)Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;
+    invoke-static {v0}, Lcom/jakex/makeup/library/camerakit/aiengine/b;->a(Lcom/jakex/makeup/library/camerakit/aiengine/b;)Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/jakex/makeup/library/camerakit/aiengine/b;->b(Lcom/jakex/makeup/library/camerakit/aiengine/b;Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;)V
+    invoke-static {v0, v1}, Lcom/jakex/makeup/library/camerakit/aiengine/b;->b(Lcom/jakex/makeup/library/camerakit/aiengine/b;Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;)V
 
     return-void
 .end method

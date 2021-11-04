@@ -15,7 +15,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/jakex/makeupcore/bean/MaterialCourseAd;",
+            "Lcom/jakex/ymluxscore/bean/MaterialCourseAd;",
             ">;"
         }
     .end annotation
@@ -57,7 +57,7 @@
 
 
 # virtual methods
-.method public a(Ljava/lang/String;)Lcom/jakex/makeupcore/bean/MaterialCourseAd;
+.method public a(Ljava/lang/String;)Lcom/jakex/ymluxscore/bean/MaterialCourseAd;
     .locals 4
 
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -101,9 +101,9 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/jakex/makeupcore/bean/MaterialCourseAd;
+    check-cast v2, Lcom/jakex/ymluxscore/bean/MaterialCourseAd;
 
-    invoke-virtual {v2}, Lcom/jakex/makeupcore/bean/MaterialCourseAd;->getMakeupId()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/jakex/ymluxscore/bean/MaterialCourseAd;->getMakeupId()Ljava/lang/String;
 
     move-result-object v3
 

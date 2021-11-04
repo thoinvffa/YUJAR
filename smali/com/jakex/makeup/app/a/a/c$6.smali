@@ -2,7 +2,7 @@
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lcom/jakex/makeupcore/protocol/mtscript/MTScriptExecutor$a;
+.implements Lcom/jakex/ymluxscore/protocol/mtscript/MTScriptExecutor$a;
 
 
 # annotations
@@ -42,7 +42,7 @@
             ")",
             "Ljava/lang/Class<",
             "+",
-            "Lcom/jakex/makeupcore/protocol/mtscript/b;",
+            "Lcom/jakex/ymluxscore/protocol/mtscript/b;",
             ">;"
         }
     .end annotation

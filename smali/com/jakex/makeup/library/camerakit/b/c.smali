@@ -48,7 +48,7 @@
 
 
 # virtual methods
-.method public a(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;)J
+.method public a(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;)J
     .locals 2
 
     iget-object v0, p0, Lcom/jakex/makeup/library/camerakit/b/c;->a:Lcom/jakex/makeup/library/arcorekit/renderer/impl/rteffect/a;
@@ -64,7 +64,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-super {p0, p1}, Lcom/jakex/makeup/library/camerakit/b/b;->a(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;)J
+    invoke-super {p0, p1}, Lcom/jakex/makeup/library/camerakit/b/b;->a(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;)J
 
     move-result-wide v0
 
@@ -167,14 +167,14 @@
     return-void
 .end method
 
-.method public a(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)V
+.method public a(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;)V
     .locals 0
 
-    invoke-super {p0, p1, p2}, Lcom/jakex/makeup/library/camerakit/b/b;->a(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)V
+    invoke-super {p0, p1, p2}, Lcom/jakex/makeup/library/camerakit/b/b;->a(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;)V
 
     iget-object p1, p0, Lcom/jakex/makeup/library/camerakit/b/c;->a:Lcom/jakex/makeup/library/arcorekit/renderer/impl/rteffect/a;
 
-    invoke-static {p2}, Lcom/jakex/makeup/library/camerakit/d/a;->a(Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)Lcom/jakex/makeup/library/arcorekit/b/a;
+    invoke-static {p2}, Lcom/jakex/makeup/library/camerakit/d/a;->a(Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;)Lcom/jakex/makeup/library/arcorekit/b/a;
 
     move-result-object p2
 
@@ -183,14 +183,14 @@
     return-void
 .end method
 
-.method public a(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegmentResult;)V
+.method public a(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegmentResult;)V
     .locals 2
 
-    invoke-super {p0, p1, p2}, Lcom/jakex/makeup/library/camerakit/b/b;->a(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegmentResult;)V
+    invoke-super {p0, p1, p2}, Lcom/jakex/makeup/library/camerakit/b/b;->a(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegmentResult;)V
 
     if-eqz p2, :cond_1
 
-    iget-object p1, p2, Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegmentResult;->halfBodySegment:Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegment;
+    iget-object p1, p2, Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegmentResult;->halfBodySegment:Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegment;
 
     if-nez p1, :cond_0
 
@@ -199,17 +199,17 @@
     :cond_0
     iget-object p1, p0, Lcom/jakex/makeup/library/camerakit/b/c;->a:Lcom/jakex/makeup/library/arcorekit/renderer/impl/rteffect/a;
 
-    iget-object v0, p2, Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegmentResult;->halfBodySegment:Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegment;
+    iget-object v0, p2, Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegmentResult;->halfBodySegment:Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegment;
 
-    iget v0, v0, Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegment;->textureID:I
+    iget v0, v0, Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegment;->textureID:I
 
-    iget-object v1, p2, Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegmentResult;->halfBodySegment:Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegment;
+    iget-object v1, p2, Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegmentResult;->halfBodySegment:Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegment;
 
-    iget v1, v1, Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegment;->textureWidth:I
+    iget v1, v1, Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegment;->textureWidth:I
 
-    iget-object p2, p2, Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegmentResult;->halfBodySegment:Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegment;
+    iget-object p2, p2, Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegmentResult;->halfBodySegment:Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegment;
 
-    iget p2, p2, Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegment;->textureHeight:I
+    iget p2, p2, Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegment;->textureHeight:I
 
     invoke-virtual {p1, v0, v1, p2}, Lcom/jakex/makeup/library/arcorekit/renderer/impl/rteffect/a;->c(III)V
 
@@ -218,7 +218,7 @@
     return-void
 .end method
 
-.method public b(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;)J
+.method public b(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;)J
     .locals 2
 
     iget-object v0, p0, Lcom/jakex/makeup/library/camerakit/b/c;->a:Lcom/jakex/makeup/library/arcorekit/renderer/impl/rteffect/a;
@@ -234,7 +234,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-super {p0, p1}, Lcom/jakex/makeup/library/camerakit/b/b;->b(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;)J
+    invoke-super {p0, p1}, Lcom/jakex/makeup/library/camerakit/b/b;->b(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;)J
 
     move-result-wide v0
 

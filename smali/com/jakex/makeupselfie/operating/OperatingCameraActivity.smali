@@ -1,4 +1,4 @@
-.class public Lcom/jakex/makeupselfie/operating/OperatingCameraActivity;
+.class public Lcom/jakex/ymluxscoresf/operating/OperatingCameraActivity;
 .super Lcom/jakex/makeupcamera/BaseCameraActivity;
 
 
@@ -22,7 +22,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const-class v1, Lcom/jakex/makeupselfie/operating/OperatingCameraActivity;
+    const-class v1, Lcom/jakex/ymluxscoresf/operating/OperatingCameraActivity;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
@@ -34,7 +34,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/jakex/makeupselfie/operating/OperatingCameraActivity;->a:Ljava/lang/String;
+    sput-object v0, Lcom/jakex/ymluxscoresf/operating/OperatingCameraActivity;->a:Ljava/lang/String;
 
     return-void
 .end method
@@ -47,12 +47,12 @@
     return-void
 .end method
 
-.method public static a(Landroid/app/Activity;Lcom/jakex/makeupcore/bean/H5Param;)Landroid/content/Intent;
+.method public static a(Landroid/app/Activity;Lcom/jakex/ymluxscore/bean/H5Param;)Landroid/content/Intent;
     .locals 2
 
     new-instance v0, Landroid/content/Intent;
 
-    const-class v1, Lcom/jakex/makeupselfie/operating/OperatingCameraActivity;
+    const-class v1, Lcom/jakex/ymluxscoresf/operating/OperatingCameraActivity;
 
     invoke-direct {v0, p0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
@@ -60,7 +60,7 @@
 
     invoke-virtual {v0, p0}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    const-class p0, Lcom/jakex/makeupcore/bean/H5Param;
+    const-class p0, Lcom/jakex/ymluxscore/bean/H5Param;
 
     invoke-virtual {p0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
@@ -71,20 +71,20 @@
     return-object v0
 .end method
 
-.method public static a(Landroid/app/Activity;Lcom/jakex/makeupcore/bean/H5Param;I)V
+.method public static a(Landroid/app/Activity;Lcom/jakex/ymluxscore/bean/H5Param;I)V
     .locals 1
 
     const/4 v0, 0x0
 
-    invoke-static {p0, p1, v0, p2}, Lcom/jakex/makeupselfie/operating/OperatingCameraActivity;->a(Landroid/app/Activity;Lcom/jakex/makeupcore/bean/H5Param;ZI)V
+    invoke-static {p0, p1, v0, p2}, Lcom/jakex/ymluxscoresf/operating/OperatingCameraActivity;->a(Landroid/app/Activity;Lcom/jakex/ymluxscore/bean/H5Param;ZI)V
 
     return-void
 .end method
 
-.method public static a(Landroid/app/Activity;Lcom/jakex/makeupcore/bean/H5Param;ZI)V
+.method public static a(Landroid/app/Activity;Lcom/jakex/ymluxscore/bean/H5Param;ZI)V
     .locals 0
 
-    invoke-static {p0, p1}, Lcom/jakex/makeupselfie/operating/OperatingCameraActivity;->a(Landroid/app/Activity;Lcom/jakex/makeupcore/bean/H5Param;)Landroid/content/Intent;
+    invoke-static {p0, p1}, Lcom/jakex/ymluxscoresf/operating/OperatingCameraActivity;->a(Landroid/app/Activity;Lcom/jakex/ymluxscore/bean/H5Param;)Landroid/content/Intent;
 
     move-result-object p1
 
@@ -116,7 +116,7 @@
 .method public dispatchKeyEvent(Landroid/view/KeyEvent;)Z
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/operating/OperatingCameraActivity;->b:Lcom/jakex/makeupcamera/a;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/operating/OperatingCameraActivity;->b:Lcom/jakex/makeupcamera/a;
 
     if-eqz v0, :cond_0
 
@@ -156,9 +156,9 @@
 
     if-eqz p3, :cond_0
 
-    invoke-virtual {p0, p1, p3}, Lcom/jakex/makeupselfie/operating/OperatingCameraActivity;->setResult(ILandroid/content/Intent;)V
+    invoke-virtual {p0, p1, p3}, Lcom/jakex/ymluxscoresf/operating/OperatingCameraActivity;->setResult(ILandroid/content/Intent;)V
 
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/operating/OperatingCameraActivity;->finish()V
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/operating/OperatingCameraActivity;->finish()V
 
     :cond_0
     return-void
@@ -171,13 +171,13 @@
 
     sget p1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$layout;->camera_activity:I
 
-    invoke-virtual {p0, p1}, Lcom/jakex/makeupselfie/operating/OperatingCameraActivity;->setContentView(I)V
+    invoke-virtual {p0, p1}, Lcom/jakex/ymluxscoresf/operating/OperatingCameraActivity;->setContentView(I)V
 
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/operating/OperatingCameraActivity;->getIntent()Landroid/content/Intent;
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/operating/OperatingCameraActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object p1
 
-    const-class v0, Lcom/jakex/makeupcore/bean/H5Param;
+    const-class v0, Lcom/jakex/ymluxscore/bean/H5Param;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
@@ -187,7 +187,7 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/jakex/makeupcore/bean/H5Param;
+    check-cast p1, Lcom/jakex/ymluxscore/bean/H5Param;
 
     const-class v0, Lcom/jakex/makeupcamera/a;
 
@@ -195,7 +195,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/operating/OperatingCameraActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/operating/OperatingCameraActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object v1
 
@@ -205,17 +205,17 @@
 
     check-cast v1, Lcom/jakex/makeupcamera/a;
 
-    iput-object v1, p0, Lcom/jakex/makeupselfie/operating/OperatingCameraActivity;->b:Lcom/jakex/makeupcamera/a;
+    iput-object v1, p0, Lcom/jakex/ymluxscoresf/operating/OperatingCameraActivity;->b:Lcom/jakex/makeupcamera/a;
 
     if-nez v1, :cond_0
 
-    invoke-static {p1}, Lcom/jakex/makeupselfie/operating/b;->a(Lcom/jakex/makeupcore/bean/H5Param;)Lcom/jakex/makeupselfie/operating/b;
+    invoke-static {p1}, Lcom/jakex/ymluxscoresf/operating/b;->a(Lcom/jakex/ymluxscore/bean/H5Param;)Lcom/jakex/ymluxscoresf/operating/b;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/operating/OperatingCameraActivity;->b:Lcom/jakex/makeupcamera/a;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/operating/OperatingCameraActivity;->b:Lcom/jakex/makeupcamera/a;
 
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/operating/OperatingCameraActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/operating/OperatingCameraActivity;->getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object p1
 
@@ -225,7 +225,7 @@
 
     sget v1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->root_view:I
 
-    iget-object v2, p0, Lcom/jakex/makeupselfie/operating/OperatingCameraActivity;->b:Lcom/jakex/makeupcamera/a;
+    iget-object v2, p0, Lcom/jakex/ymluxscoresf/operating/OperatingCameraActivity;->b:Lcom/jakex/makeupcamera/a;
 
     invoke-virtual {p1, v1, v2, v0}, Landroidx/fragment/app/FragmentTransaction;->replace(ILandroidx/fragment/app/Fragment;Ljava/lang/String;)Landroidx/fragment/app/FragmentTransaction;
 
@@ -240,7 +240,7 @@
 
     invoke-super {p0, p1}, Lcom/jakex/makeupcamera/BaseCameraActivity;->onNewIntent(Landroid/content/Intent;)V
 
-    sget-object v0, Lcom/jakex/makeupselfie/operating/OperatingCameraActivity;->a:Ljava/lang/String;
+    sget-object v0, Lcom/jakex/ymluxscoresf/operating/OperatingCameraActivity;->a:Ljava/lang/String;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -258,17 +258,17 @@
 
     invoke-static {v0, v1}, Lcom/jakex/library/util/Debug/Debug;->c(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p0, p1}, Lcom/jakex/makeupselfie/operating/OperatingCameraActivity;->setIntent(Landroid/content/Intent;)V
+    invoke-virtual {p0, p1}, Lcom/jakex/ymluxscoresf/operating/OperatingCameraActivity;->setIntent(Landroid/content/Intent;)V
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/operating/OperatingCameraActivity;->b:Lcom/jakex/makeupcamera/a;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/operating/OperatingCameraActivity;->b:Lcom/jakex/makeupcamera/a;
 
     if-eqz p1, :cond_0
 
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/operating/OperatingCameraActivity;->getIntent()Landroid/content/Intent;
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/operating/OperatingCameraActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object p1
 
-    const-class v0, Lcom/jakex/makeupcore/modular/extra/CameraExtra;
+    const-class v0, Lcom/jakex/ymluxscore/modular/extra/CameraExtra;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
@@ -278,11 +278,11 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/jakex/makeupcore/modular/extra/CameraExtra;
+    check-cast p1, Lcom/jakex/ymluxscore/modular/extra/CameraExtra;
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/operating/OperatingCameraActivity;->b:Lcom/jakex/makeupcamera/a;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/operating/OperatingCameraActivity;->b:Lcom/jakex/makeupcamera/a;
 
-    invoke-virtual {v0, p1}, Lcom/jakex/makeupcamera/a;->b(Lcom/jakex/makeupcore/modular/extra/CameraExtra;)V
+    invoke-virtual {v0, p1}, Lcom/jakex/makeupcamera/a;->b(Lcom/jakex/ymluxscore/modular/extra/CameraExtra;)V
 
     :cond_0
     return-void

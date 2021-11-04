@@ -23,7 +23,7 @@
 .method static constructor <clinit>()V
     .locals 5
 
-    invoke-static {}, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeLevel;->values()[Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeLevel;
+    invoke-static {}, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeLevel;->values()[Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeLevel;
 
     move-result-object v0
 
@@ -36,9 +36,9 @@
     const/4 v1, 0x1
 
     :try_start_0
-    sget-object v2, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeLevel;->MTPandaEyeLevelMild:Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeLevel;
+    sget-object v2, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeLevel;->MTPandaEyeLevelMild:Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeLevel;
 
-    invoke-virtual {v2}, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeLevel;->ordinal()I
+    invoke-virtual {v2}, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeLevel;->ordinal()I
 
     move-result v2
 
@@ -57,9 +57,9 @@
     :try_start_1
     sget-object v2, Lcom/jakex/makeupassistant/f/b$1;->b:[I
 
-    sget-object v3, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeLevel;->MTPandaEyeLevelModerate:Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeLevel;
+    sget-object v3, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeLevel;->MTPandaEyeLevelModerate:Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeLevel;
 
-    invoke-virtual {v3}, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeLevel;->ordinal()I
+    invoke-virtual {v3}, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeLevel;->ordinal()I
 
     move-result v3
 
@@ -78,9 +78,9 @@
     :try_start_2
     sget-object v3, Lcom/jakex/makeupassistant/f/b$1;->b:[I
 
-    sget-object v4, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeLevel;->MTPandaEyeSerious:Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeLevel;
+    sget-object v4, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeLevel;->MTPandaEyeSerious:Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeLevel;
 
-    invoke-virtual {v4}, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeLevel;->ordinal()I
+    invoke-virtual {v4}, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeLevel;->ordinal()I
 
     move-result v4
 
@@ -94,7 +94,7 @@
     move-exception v3
 
     :goto_2
-    invoke-static {}, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeType;->values()[Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeType;
+    invoke-static {}, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeType;->values()[Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeType;
 
     move-result-object v3
 
@@ -105,9 +105,9 @@
     sput-object v3, Lcom/jakex/makeupassistant/f/b$1;->a:[I
 
     :try_start_3
-    sget-object v4, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeType;->MTEyeShadow:Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeType;
+    sget-object v4, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeType;->MTEyeShadow:Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeType;
 
-    invoke-virtual {v4}, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeType;->ordinal()I
+    invoke-virtual {v4}, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeType;->ordinal()I
 
     move-result v4
 
@@ -124,9 +124,9 @@
     :try_start_4
     sget-object v1, Lcom/jakex/makeupassistant/f/b$1;->a:[I
 
-    sget-object v3, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeType;->MTEyePigment:Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeType;
+    sget-object v3, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeType;->MTEyePigment:Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeType;
 
-    invoke-virtual {v3}, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeType;->ordinal()I
+    invoke-virtual {v3}, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeType;->ordinal()I
 
     move-result v3
 
@@ -143,9 +143,9 @@
     :try_start_5
     sget-object v0, Lcom/jakex/makeupassistant/f/b$1;->a:[I
 
-    sget-object v1, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeType;->MTEyeNoneShadow:Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeType;
+    sget-object v1, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeType;->MTEyeNoneShadow:Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeType;
 
-    invoke-virtual {v1}, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeType;->ordinal()I
+    invoke-virtual {v1}, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/attribute/MTPandaEye$MTPandaEyeType;->ordinal()I
 
     move-result v1
 

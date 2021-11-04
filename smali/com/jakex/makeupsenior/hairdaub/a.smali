@@ -234,7 +234,7 @@
 
     sget-object v4, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/c/a;->a:Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/c/a;
 
-    sget-object v5, Lcom/jakex/makeupeditor/configuration/a;->b:Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/n;
+    sget-object v5, Lcom/jakex/ymluxseditor/configuration/a;->b:Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/n;
 
     const/4 v2, 0x1
 

@@ -1,10 +1,10 @@
-.class public Lcom/jakex/makeupselfie/camera/g/c$j;
+.class public Lcom/jakex/ymluxscoresf/camera/g/c$j;
 .super Ljava/lang/Object;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/jakex/makeupselfie/camera/g/c;
+    value = Lcom/jakex/ymluxscoresf/camera/g/c;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -14,7 +14,7 @@
 
 
 # direct methods
-.method public static a(Lcom/jakex/makeupselfie/camera/SelfieCameraBottomFragment$Mode;)V
+.method public static a(Lcom/jakex/ymluxscoresf/camera/SelfieCameraBottomFragment$Mode;)V
     .locals 2
 
     new-instance v0, Ljava/util/HashMap;
@@ -23,7 +23,7 @@
 
     invoke-direct {v0, v1}, Ljava/util/HashMap;-><init>(I)V
 
-    sget-object v1, Lcom/jakex/makeupselfie/camera/SelfieCameraBottomFragment$Mode;->THEME:Lcom/jakex/makeupselfie/camera/SelfieCameraBottomFragment$Mode;
+    sget-object v1, Lcom/jakex/ymluxscoresf/camera/SelfieCameraBottomFragment$Mode;->THEME:Lcom/jakex/ymluxscoresf/camera/SelfieCameraBottomFragment$Mode;
 
     if-ne p0, v1, :cond_0
 
@@ -32,7 +32,7 @@
     goto :goto_0
 
     :cond_0
-    sget-object v1, Lcom/jakex/makeupselfie/camera/SelfieCameraBottomFragment$Mode;->CUSTOM_MAKEUP:Lcom/jakex/makeupselfie/camera/SelfieCameraBottomFragment$Mode;
+    sget-object v1, Lcom/jakex/ymluxscoresf/camera/SelfieCameraBottomFragment$Mode;->CUSTOM_MAKEUP:Lcom/jakex/ymluxscoresf/camera/SelfieCameraBottomFragment$Mode;
 
     if-ne p0, v1, :cond_1
 

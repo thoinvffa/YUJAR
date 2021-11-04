@@ -15,7 +15,7 @@
 
 
 # instance fields
-.field private b:Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinResult;
+.field private b:Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinResult;
 
 .field private c:Lcom/jakex/makeup/library/camerakit/aiengine/face/tracker/FaceTracker;
 
@@ -87,10 +87,10 @@
     return-void
 .end method
 
-.method static synthetic a(Lcom/jakex/makeup/library/camerakit/a/a/c;Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinResult;)Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinResult;
+.method static synthetic a(Lcom/jakex/makeup/library/camerakit/a/a/c;Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinResult;)Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinResult;
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeup/library/camerakit/a/a/c;->b:Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinResult;
+    iput-object p1, p0, Lcom/jakex/makeup/library/camerakit/a/a/c;->b:Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinResult;
 
     return-object p1
 .end method
@@ -122,9 +122,9 @@
 
     check-cast v1, Lcom/jakex/makeup/library/camerakit/a/a/c$a;
 
-    iget-object v2, p0, Lcom/jakex/makeup/library/camerakit/a/a/c;->b:Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinResult;
+    iget-object v2, p0, Lcom/jakex/makeup/library/camerakit/a/a/c;->b:Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinResult;
 
-    invoke-interface {v1, v2}, Lcom/jakex/makeup/library/camerakit/a/a/c$a;->a(Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinResult;)V
+    invoke-interface {v1, v2}, Lcom/jakex/makeup/library/camerakit/a/a/c$a;->a(Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinResult;)V
 
     goto :goto_0
 
@@ -132,20 +132,20 @@
     return-void
 .end method
 
-.method static synthetic a(Lcom/jakex/makeup/library/camerakit/a/a/c;Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)V
+.method static synthetic a(Lcom/jakex/makeup/library/camerakit/a/a/c;Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeup/library/camerakit/a/a/c;->a(Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)V
+    invoke-direct {p0, p1}, Lcom/jakex/makeup/library/camerakit/a/a/c;->a(Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;)V
 
     return-void
 .end method
 
-.method private a(Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)V
+.method private a(Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;)V
     .locals 5
 
     iget-object v0, p0, Lcom/jakex/makeup/library/camerakit/a/a/c;->c:Lcom/jakex/makeup/library/camerakit/aiengine/face/tracker/FaceTracker;
 
-    invoke-interface {v0, p1}, Lcom/jakex/makeup/library/camerakit/aiengine/face/tracker/FaceTracker;->a(Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)Lcom/jakex/makeup/library/camerakit/aiengine/face/tracker/FaceTracker$TrackState;
+    invoke-interface {v0, p1}, Lcom/jakex/makeup/library/camerakit/aiengine/face/tracker/FaceTracker;->a(Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;)Lcom/jakex/makeup/library/camerakit/aiengine/face/tracker/FaceTracker$TrackState;
 
     move-result-object v0
 
@@ -171,12 +171,12 @@
 
     iput-boolean v2, p0, Lcom/jakex/makeup/library/camerakit/a/a/c;->f:Z
 
-    iput-object v1, p0, Lcom/jakex/makeup/library/camerakit/a/a/c;->b:Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinResult;
+    iput-object v1, p0, Lcom/jakex/makeup/library/camerakit/a/a/c;->b:Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinResult;
 
     goto :goto_3
 
     :cond_0
-    iput-object v1, p0, Lcom/jakex/makeup/library/camerakit/a/a/c;->b:Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinResult;
+    iput-object v1, p0, Lcom/jakex/makeup/library/camerakit/a/a/c;->b:Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinResult;
 
     sget-boolean v0, Lcom/jakex/makeup/library/camerakit/a/a/c;->a:Z
 
@@ -195,7 +195,7 @@
 
     :cond_2
     :goto_0
-    iget-object v0, p1, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFace;
+    iget-object v0, p1, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFace;
 
     array-length v1, v0
 
@@ -204,7 +204,7 @@
 
     aget-object v4, v0, v2
 
-    invoke-direct {p0, p1, v4}, Lcom/jakex/makeup/library/camerakit/a/a/c;->a(Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFace;)Z
+    invoke-direct {p0, p1, v4}, Lcom/jakex/makeup/library/camerakit/a/a/c;->a(Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFace;)Z
 
     move-result v4
 
@@ -241,7 +241,7 @@
     return p1
 .end method
 
-.method private a(Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFace;)Z
+.method private a(Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFace;)Z
     .locals 3
 
     iget-object v0, p0, Lcom/jakex/makeup/library/camerakit/a/a/c;->d:Ljava/util/List;
@@ -270,7 +270,7 @@
 
     check-cast v2, Lcom/jakex/makeup/library/camerakit/a/a/b;
 
-    invoke-interface {v2, p1, p2}, Lcom/jakex/makeup/library/camerakit/a/a/b;->a(Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFace;)Z
+    invoke-interface {v2, p1, p2}, Lcom/jakex/makeup/library/camerakit/a/a/b;->a(Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFace;)Z
 
     move-result v2
 

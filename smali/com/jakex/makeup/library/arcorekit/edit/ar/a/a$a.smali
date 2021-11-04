@@ -14,5 +14,5 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;)V
+.method public abstract a(Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;)V
 .end method

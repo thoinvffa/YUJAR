@@ -21,7 +21,7 @@
 # instance fields
 .field private a:Landroid/content/Context;
 
-.field private b:Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;
+.field private b:Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;
 
 .field private c:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
@@ -47,7 +47,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;)V
+.method public constructor <init>(Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;)V
     .locals 1
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -58,7 +58,7 @@
 
     iput-object v0, p0, Lcom/jakex/makeupassistant/report/skin/c;->c:Ljava/util/List;
 
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;->getContext()Landroid/content/Context;
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -70,7 +70,7 @@
 
     iput-object v0, p0, Lcom/jakex/makeupassistant/report/skin/c;->f:Landroid/view/LayoutInflater;
 
-    iput-object p1, p0, Lcom/jakex/makeupassistant/report/skin/c;->b:Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;
+    iput-object p1, p0, Lcom/jakex/makeupassistant/report/skin/c;->b:Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;
 
     const/high16 p1, 0x42480000    # 50.0f
 
@@ -88,11 +88,11 @@
 
     iput-object p1, p0, Lcom/jakex/makeupassistant/report/skin/c;->d:Lcom/jakex/makeupassistant/report/skin/c$g;
 
-    iget-object v0, p0, Lcom/jakex/makeupassistant/report/skin/c;->b:Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;
+    iget-object v0, p0, Lcom/jakex/makeupassistant/report/skin/c;->b:Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;
 
-    invoke-virtual {v0, p1}, Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
+    invoke-virtual {v0, p1}, Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    invoke-static {}, Lcom/jakex/makeupcore/glide/e;->a()Lmakeup/image/request/h;
+    invoke-static {}, Lcom/jakex/ymluxscore/glide/e;->a()Lmakeup/image/request/h;
 
     move-result-object p1
 
@@ -179,7 +179,7 @@
 
     invoke-virtual {p3, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    invoke-static {p4}, Lcom/jakex/makeupcore/glide/a;->a(Landroid/widget/ImageView;)Lcom/jakex/makeupcore/glide/a;
+    invoke-static {p4}, Lcom/jakex/ymluxscore/glide/a;->a(Landroid/widget/ImageView;)Lcom/jakex/ymluxscore/glide/a;
 
     move-result-object p2
 
@@ -206,7 +206,7 @@
 
     invoke-virtual {p3, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    invoke-static {p4}, Lcom/jakex/makeupcore/glide/a;->a(Landroid/widget/ImageView;)Lcom/jakex/makeupcore/glide/a;
+    invoke-static {p4}, Lcom/jakex/ymluxscore/glide/a;->a(Landroid/widget/ImageView;)Lcom/jakex/ymluxscore/glide/a;
 
     move-result-object p3
 
@@ -222,7 +222,7 @@
 
     iget-object v0, p0, Lcom/jakex/makeupassistant/report/skin/c;->g:Lmakeup/image/request/h;
 
-    invoke-virtual {p3, p4, v0}, Lcom/jakex/makeupcore/glide/a;->a(Ljava/lang/Object;Lmakeup/image/request/h;)V
+    invoke-virtual {p3, p4, v0}, Lcom/jakex/ymluxscore/glide/a;->a(Ljava/lang/Object;Lmakeup/image/request/h;)V
 
     invoke-interface {p1, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -236,7 +236,7 @@
 
     invoke-virtual {p5, p3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    invoke-static {p6}, Lcom/jakex/makeupcore/glide/a;->a(Landroid/widget/ImageView;)Lcom/jakex/makeupcore/glide/a;
+    invoke-static {p6}, Lcom/jakex/ymluxscore/glide/a;->a(Landroid/widget/ImageView;)Lcom/jakex/ymluxscore/glide/a;
 
     move-result-object p3
 
@@ -255,7 +255,7 @@
 
     iget-object p3, p0, Lcom/jakex/makeupassistant/report/skin/c;->g:Lmakeup/image/request/h;
 
-    invoke-virtual {p2, p1, p3}, Lcom/jakex/makeupcore/glide/a;->a(Ljava/lang/Object;Lmakeup/image/request/h;)V
+    invoke-virtual {p2, p1, p3}, Lcom/jakex/ymluxscore/glide/a;->a(Ljava/lang/Object;Lmakeup/image/request/h;)V
 
     goto :goto_2
 
@@ -320,7 +320,7 @@
         }
     .end annotation
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -357,19 +357,19 @@
 .method b(I)V
     .locals 2
 
-    iget-object v0, p0, Lcom/jakex/makeupassistant/report/skin/c;->b:Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;
+    iget-object v0, p0, Lcom/jakex/makeupassistant/report/skin/c;->b:Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;->getHeaderViewsCount()I
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;->getHeaderViewsCount()I
 
     move-result v0
 
-    iget-object v1, p0, Lcom/jakex/makeupassistant/report/skin/c;->b:Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;
+    iget-object v1, p0, Lcom/jakex/makeupassistant/report/skin/c;->b:Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;
 
     add-int/2addr p1, v0
 
     iget v0, p0, Lcom/jakex/makeupassistant/report/skin/c;->e:I
 
-    invoke-virtual {v1, p1, v0}, Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;->a(II)V
+    invoke-virtual {v1, p1, v0}, Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;->a(II)V
 
     return-void
 .end method

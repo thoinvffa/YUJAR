@@ -225,7 +225,7 @@
 
     new-instance v1, Ljava/io/File;
 
-    invoke-static {}, Lcom/jakex/makeupcore/modular/a/a;->g()Ljava/lang/String;
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/a/a;->g()Ljava/lang/String;
 
     move-result-object v7
 

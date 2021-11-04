@@ -9,13 +9,13 @@
 # instance fields
 .field private b:Lcom/jakex/libmt3dface/MTFace3DInterface;
 
-.field private c:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;
+.field private c:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;
 
 .field private d:[Lcom/jakex/libmt3dface/MTFace2DInterface;
 
-.field private e:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
+.field private e:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
 
-.field private f:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
+.field private f:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
 
 .field private volatile g:Z
 
@@ -38,11 +38,11 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    new-instance v0, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;
+    new-instance v0, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;
 
-    invoke-direct {v0}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;-><init>()V
+    invoke-direct {v0}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;-><init>()V
 
-    iput-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->c:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;
+    iput-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->c:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;
 
     const/16 v0, 0xa
 
@@ -50,17 +50,17 @@
 
     iput-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->d:[Lcom/jakex/libmt3dface/MTFace2DInterface;
 
-    new-instance v0, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
+    new-instance v0, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
 
-    invoke-direct {v0}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;-><init>()V
+    invoke-direct {v0}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;-><init>()V
 
-    iput-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->e:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
+    iput-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->e:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
 
-    new-instance v0, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
+    new-instance v0, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
 
-    invoke-direct {v0}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;-><init>()V
+    invoke-direct {v0}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;-><init>()V
 
-    iput-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->f:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
+    iput-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->f:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
 
     new-instance v0, Lcom/jakex/libmt3dface/MTFace3DInterface;
 
@@ -91,7 +91,7 @@
     return-void
 .end method
 
-.method private a(IIIZZJLcom/jakex/mtlab/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;)V
+.method private a(IIIZZJLcom/jakex/ymlux/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;)V
     .locals 21
 
     move-object/from16 v0, p0
@@ -219,13 +219,13 @@
     return-void
 
     :cond_4
-    invoke-virtual {v9, v10}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;->setFaceCount(I)V
+    invoke-virtual {v9, v10}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;->setFaceCount(I)V
 
-    invoke-virtual {v9, v10}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;->setIsWithoutCache(Z)V
+    invoke-virtual {v9, v10}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;->setIsWithoutCache(Z)V
 
     move/from16 v2, p1
 
-    invoke-virtual {v9, v11, v2}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;->setFaceID(II)V
+    invoke-virtual {v9, v11, v2}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;->setFaceID(II)V
 
     iget-object v2, v1, Lcom/jakex/libmt3dface/data/MTFace3DReconstructData;->Mesh3D:Lcom/jakex/libmt3dface/data/MTFace3DMesh;
 
@@ -259,7 +259,7 @@
     const/4 v10, 0x0
 
     :goto_2
-    invoke-virtual {v9, v11, v10}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;->setHasFace3DReconstructorData(IZ)V
+    invoke-virtual {v9, v11, v10}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;->setHasFace3DReconstructorData(IZ)V
 
     iget-object v2, v0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->i:Lcom/jakex/libmt3dface/data/MTFace3DReconstructData;
 
@@ -267,7 +267,7 @@
 
     iget v2, v2, Lcom/jakex/libmt3dface/data/MTFace3DMesh;->nTriangle:I
 
-    invoke-virtual {v9, v11, v2}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;->setMeshTriangleNum(II)V
+    invoke-virtual {v9, v11, v2}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;->setMeshTriangleNum(II)V
 
     iget-object v2, v0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->j:Lcom/jakex/libmt3dface/data/MTFace3DReconstructData;
 
@@ -275,7 +275,7 @@
 
     iget v2, v2, Lcom/jakex/libmt3dface/data/MTFace3DMesh;->nTriangle:I
 
-    invoke-virtual {v9, v11, v2}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;->setMeshTriangleWithoutLips(II)V
+    invoke-virtual {v9, v11, v2}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;->setMeshTriangleWithoutLips(II)V
 
     iget-object v2, v0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->h:Lcom/jakex/libmt3dface/data/MTFace3DReconstructData;
 
@@ -283,7 +283,7 @@
 
     iget-wide v2, v2, Lcom/jakex/libmt3dface/data/MTFace3DMesh;->ptrTextureCoordinates:J
 
-    invoke-virtual {v9, v11, v2, v3}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;->setTextureCoordinatesV1(IJ)V
+    invoke-virtual {v9, v11, v2, v3}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;->setTextureCoordinatesV1(IJ)V
 
     iget-object v2, v0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->i:Lcom/jakex/libmt3dface/data/MTFace3DReconstructData;
 
@@ -291,48 +291,48 @@
 
     iget-wide v2, v2, Lcom/jakex/libmt3dface/data/MTFace3DMesh;->ptrTextureCoordinates:J
 
-    invoke-virtual {v9, v11, v2, v3}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;->setTextureCoordinatesV2(IJ)V
+    invoke-virtual {v9, v11, v2, v3}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;->setTextureCoordinatesV2(IJ)V
 
     iget-object v2, v1, Lcom/jakex/libmt3dface/data/MTFace3DReconstructData;->Mesh3D:Lcom/jakex/libmt3dface/data/MTFace3DMesh;
 
     iget v2, v2, Lcom/jakex/libmt3dface/data/MTFace3DMesh;->nVertex:I
 
-    invoke-virtual {v9, v11, v2}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;->setMeshVertexNum(II)V
+    invoke-virtual {v9, v11, v2}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;->setMeshVertexNum(II)V
 
     iget-object v2, v1, Lcom/jakex/libmt3dface/data/MTFace3DReconstructData;->Mesh3D:Lcom/jakex/libmt3dface/data/MTFace3DMesh;
 
     iget-wide v2, v2, Lcom/jakex/libmt3dface/data/MTFace3DMesh;->ptrReconstructVertexs:J
 
-    invoke-virtual {v9, v11, v2, v3}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;->setReconstructVertexs(IJ)V
+    invoke-virtual {v9, v11, v2, v3}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;->setReconstructVertexs(IJ)V
 
     iget-object v2, v1, Lcom/jakex/libmt3dface/data/MTFace3DReconstructData;->Mesh3D:Lcom/jakex/libmt3dface/data/MTFace3DMesh;
 
     iget-wide v2, v2, Lcom/jakex/libmt3dface/data/MTFace3DMesh;->ptrTriangleIndex:J
 
-    invoke-virtual {v9, v11, v2, v3}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;->setTriangleIndex(IJ)V
+    invoke-virtual {v9, v11, v2, v3}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;->setTriangleIndex(IJ)V
 
     iget-object v2, v1, Lcom/jakex/libmt3dface/data/MTFace3DReconstructData;->Mesh3D:Lcom/jakex/libmt3dface/data/MTFace3DMesh;
 
     iget-wide v2, v2, Lcom/jakex/libmt3dface/data/MTFace3DMesh;->ptrVertexNormals:J
 
-    invoke-virtual {v9, v11, v2, v3}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;->setVertexNormals(IJ)V
+    invoke-virtual {v9, v11, v2, v3}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;->setVertexNormals(IJ)V
 
     iget-object v2, v1, Lcom/jakex/libmt3dface/data/MTFace3DReconstructData;->Posture:Lcom/jakex/libmt3dface/data/MTFace3DPosture;
 
     iget-wide v2, v2, Lcom/jakex/libmt3dface/data/MTFace3DPosture;->ptrCameraParam:J
 
-    invoke-virtual {v9, v11, v2, v3}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;->setCameraParam(IJ)V
+    invoke-virtual {v9, v11, v2, v3}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;->setCameraParam(IJ)V
 
     iget-object v1, v1, Lcom/jakex/libmt3dface/data/MTFace3DReconstructData;->Posture:Lcom/jakex/libmt3dface/data/MTFace3DPosture;
 
     iget-wide v1, v1, Lcom/jakex/libmt3dface/data/MTFace3DPosture;->ptrMatToNDC:J
 
-    invoke-virtual {v9, v11, v1, v2}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;->setMatToNDC(IJ)V
+    invoke-virtual {v9, v11, v1, v2}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;->setMatToNDC(IJ)V
 
     return-void
 .end method
 
-.method private a(Lcom/jakex/libmt3dface/MTFace2DInterface$Reconstruct2DMode;Lcom/jakex/makeup/library/arcorekit/b/a;Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;)V
+.method private a(Lcom/jakex/libmt3dface/MTFace2DInterface$Reconstruct2DMode;Lcom/jakex/makeup/library/arcorekit/b/a;Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;)V
     .locals 17
 
     move-object/from16 v7, p1
@@ -361,7 +361,7 @@
 
     array-length v0, v9
 
-    invoke-virtual {v8, v0}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;->setFaceCount(I)V
+    invoke-virtual {v8, v0}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;->setFaceCount(I)V
 
     sget-object v0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a$1;->a:[I
 
@@ -418,7 +418,7 @@
     const/4 v0, 0x0
 
     :goto_0
-    invoke-virtual {v8, v0}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;->setFace2DReconstructorType(I)V
+    invoke-virtual {v8, v0}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;->setFace2DReconstructorType(I)V
 
     const/4 v0, 0x0
 
@@ -445,7 +445,7 @@
 
     move-result v2
 
-    invoke-virtual {v8, v13, v2}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;->setFaceID(II)V
+    invoke-virtual {v8, v13, v2}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;->setFaceID(II)V
 
     if-nez v0, :cond_4
 
@@ -548,27 +548,27 @@
 
     move-result-wide v1
 
-    invoke-virtual {v8, v13, v1, v2}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;->setReconstructStandTextureCoordinates(IJ)V
+    invoke-virtual {v8, v13, v1, v2}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;->setReconstructStandTextureCoordinates(IJ)V
 
     iget-wide v1, v0, Lcom/jakex/libmt3dface/data/MTFace2DMesh;->ptrVertexs:J
 
-    invoke-virtual {v8, v13, v1, v2}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;->setReconstructVertexs(IJ)V
+    invoke-virtual {v8, v13, v1, v2}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;->setReconstructVertexs(IJ)V
 
     iget-wide v1, v0, Lcom/jakex/libmt3dface/data/MTFace2DMesh;->ptrTextureCoordinates:J
 
-    invoke-virtual {v8, v13, v1, v2}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;->setReconstructTextureCoordinates(IJ)V
+    invoke-virtual {v8, v13, v1, v2}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;->setReconstructTextureCoordinates(IJ)V
 
     iget v1, v0, Lcom/jakex/libmt3dface/data/MTFace2DMesh;->nVertex:I
 
-    invoke-virtual {v8, v13, v1}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;->setVertexNum(II)V
+    invoke-virtual {v8, v13, v1}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;->setVertexNum(II)V
 
     iget-wide v1, v0, Lcom/jakex/libmt3dface/data/MTFace2DMesh;->ptrTriangleIndex:J
 
-    invoke-virtual {v8, v13, v1, v2}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;->setReconstructTriangleIndex(IJ)V
+    invoke-virtual {v8, v13, v1, v2}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;->setReconstructTriangleIndex(IJ)V
 
     iget v0, v0, Lcom/jakex/libmt3dface/data/MTFace2DMesh;->nTriangle:I
 
-    invoke-virtual {v8, v13, v0}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;->setTriangleNum(II)V
+    invoke-virtual {v8, v13, v0}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;->setTriangleNum(II)V
 
     add-int/lit8 v13, v13, 0x1
 
@@ -624,26 +624,26 @@
     return-wide p1
 .end method
 
-.method a(Lcom/jakex/makeup/library/arcorekit/b/a;)Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
+.method a(Lcom/jakex/makeup/library/arcorekit/b/a;)Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
     .locals 2
 
     sget-object v0, Lcom/jakex/libmt3dface/MTFace2DInterface$Reconstruct2DMode;->MT_FACE_25D_V2:Lcom/jakex/libmt3dface/MTFace2DInterface$Reconstruct2DMode;
 
-    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->e:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
+    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->e:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
 
-    invoke-direct {p0, v0, p1, v1}, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->a(Lcom/jakex/libmt3dface/MTFace2DInterface$Reconstruct2DMode;Lcom/jakex/makeup/library/arcorekit/b/a;Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;)V
+    invoke-direct {p0, v0, p1, v1}, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->a(Lcom/jakex/libmt3dface/MTFace2DInterface$Reconstruct2DMode;Lcom/jakex/makeup/library/arcorekit/b/a;Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;)V
 
-    iget-object p1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->e:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
+    iget-object p1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->e:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
 
     return-object p1
 .end method
 
-.method a(IIIZZJ)Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;
+.method a(IIIZZJ)Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;
     .locals 10
 
     move-object v9, p0
 
-    iget-object v8, v9, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->c:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;
+    iget-object v8, v9, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->c:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;
 
     move-object v0, p0
 
@@ -659,9 +659,9 @@
 
     move-wide/from16 v6, p6
 
-    invoke-direct/range {v0 .. v8}, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->a(IIIZZJLcom/jakex/mtlab/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;)V
+    invoke-direct/range {v0 .. v8}, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->a(IIIZZJLcom/jakex/ymlux/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;)V
 
-    iget-object v0, v9, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->c:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;
+    iget-object v0, v9, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->c:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;
 
     return-object v0
 .end method
@@ -859,16 +859,16 @@
     return-void
 .end method
 
-.method b(Lcom/jakex/makeup/library/arcorekit/b/a;)Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
+.method b(Lcom/jakex/makeup/library/arcorekit/b/a;)Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
     .locals 2
 
     sget-object v0, Lcom/jakex/libmt3dface/MTFace2DInterface$Reconstruct2DMode;->MT_FACE_2D_BACKGROUND:Lcom/jakex/libmt3dface/MTFace2DInterface$Reconstruct2DMode;
 
-    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->f:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
+    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->f:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
 
-    invoke-direct {p0, v0, p1, v1}, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->a(Lcom/jakex/libmt3dface/MTFace2DInterface$Reconstruct2DMode;Lcom/jakex/makeup/library/arcorekit/b/a;Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;)V
+    invoke-direct {p0, v0, p1, v1}, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->a(Lcom/jakex/libmt3dface/MTFace2DInterface$Reconstruct2DMode;Lcom/jakex/makeup/library/arcorekit/b/a;Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;)V
 
-    iget-object p1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->e:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
+    iget-object p1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->e:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
 
     return-object p1
 .end method

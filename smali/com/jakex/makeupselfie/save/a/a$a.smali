@@ -1,10 +1,10 @@
-.class public Lcom/jakex/makeupselfie/save/a/a$a;
+.class public Lcom/jakex/ymluxscoresf/save/a/a$a;
 .super Ljava/lang/Object;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/jakex/makeupselfie/save/a/a;
+    value = Lcom/jakex/ymluxscoresf/save/a/a;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,15 +26,15 @@
     return-void
 .end method
 
-.method public static a(Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;Lcom/jakex/makeupeditor/configuration/MouthType;Ljava/util/HashMap;ZZ)V
+.method public static a(Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;Lcom/jakex/ymluxseditor/configuration/MouthType;Ljava/util/HashMap;ZZ)V
     .locals 20
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;",
-            "Lcom/jakex/makeupeditor/configuration/MouthType;",
+            "Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;",
+            "Lcom/jakex/ymluxseditor/configuration/MouthType;",
             "Ljava/util/HashMap<",
-            "Lcom/jakex/makeupeditor/configuration/PartPosition;",
+            "Lcom/jakex/ymluxseditor/configuration/PartPosition;",
             "Ljava/lang/Long;",
             ">;ZZ)V"
         }
@@ -54,13 +54,13 @@
 
     if-eqz p0, :cond_0
 
-    invoke-static/range {p0 .. p0}, Lcom/jakex/makeupeditor/material/thememakeup/b/d;->a(Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;)Z
+    invoke-static/range {p0 .. p0}, Lcom/jakex/ymluxseditor/material/thememakeup/b/d;->a(Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;)Z
 
     move-result v4
 
     if-nez v4, :cond_0
 
-    invoke-virtual/range {p0 .. p0}, Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;->getIsAR()Z
+    invoke-virtual/range {p0 .. p0}, Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;->getIsAR()Z
 
     move-result v4
 
@@ -84,13 +84,13 @@
 
     if-eqz v4, :cond_4
 
-    invoke-virtual/range {p0 .. p0}, Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;->getMakeupId()Ljava/lang/String;
+    invoke-virtual/range {p0 .. p0}, Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;->getMakeupId()Ljava/lang/String;
 
     move-result-object v4
 
     invoke-virtual {v1, v7, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-virtual/range {p0 .. p0}, Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;->getIsRecommend()Z
+    invoke-virtual/range {p0 .. p0}, Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;->getIsRecommend()Z
 
     move-result v4
 
@@ -108,11 +108,11 @@
 
     invoke-virtual {v1, v7, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-virtual/range {p0 .. p0}, Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;->getRealTimeAlpha()I
+    invoke-virtual/range {p0 .. p0}, Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;->getRealTimeAlpha()I
 
     move-result v4
 
-    invoke-virtual/range {p0 .. p0}, Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;->getAlphaForRealTimeMakeup()I
+    invoke-virtual/range {p0 .. p0}, Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;->getAlphaForRealTimeMakeup()I
 
     move-result v7
 
@@ -145,13 +145,13 @@
     :goto_3
     if-eqz p0, :cond_5
 
-    invoke-static/range {p0 .. p0}, Lcom/jakex/makeupeditor/material/thememakeup/b/d;->a(Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;)Z
+    invoke-static/range {p0 .. p0}, Lcom/jakex/ymluxseditor/material/thememakeup/b/d;->a(Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;)Z
 
     move-result v4
 
     if-nez v4, :cond_5
 
-    invoke-virtual/range {p0 .. p0}, Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;->getIsAR()Z
+    invoke-virtual/range {p0 .. p0}, Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;->getIsAR()Z
 
     move-result v4
 
@@ -162,7 +162,7 @@
     :cond_5
     if-eqz v2, :cond_6
 
-    invoke-virtual/range {p0 .. p0}, Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;->getMakeupId()Ljava/lang/String;
+    invoke-virtual/range {p0 .. p0}, Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;->getMakeupId()Ljava/lang/String;
 
     move-result-object v2
 
@@ -242,7 +242,7 @@
 
     move-object/from16 v19, v4
 
-    sget-object v4, Lcom/jakex/makeupeditor/configuration/PartPosition;->EYE_DECORATE:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v4, Lcom/jakex/ymluxseditor/configuration/PartPosition;->EYE_DECORATE:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     invoke-virtual {v0, v4}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -264,7 +264,7 @@
     :goto_6
     invoke-virtual {v1, v3, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    sget-object v3, Lcom/jakex/makeupeditor/configuration/PartPosition;->EARDROP:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v3, Lcom/jakex/ymluxseditor/configuration/PartPosition;->EARDROP:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     invoke-virtual {v0, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -286,7 +286,7 @@
     :goto_7
     invoke-virtual {v1, v2, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    sget-object v2, Lcom/jakex/makeupeditor/configuration/PartPosition;->HEADWEAR:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v2, Lcom/jakex/ymluxseditor/configuration/PartPosition;->HEADWEAR:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     invoke-virtual {v0, v2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -308,7 +308,7 @@
     :goto_8
     invoke-virtual {v1, v8, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    sget-object v2, Lcom/jakex/makeupeditor/configuration/PartPosition;->MOUTH:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v2, Lcom/jakex/ymluxseditor/configuration/PartPosition;->MOUTH:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     invoke-virtual {v0, v2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -337,14 +337,14 @@
     goto :goto_a
 
     :cond_c
-    invoke-virtual/range {p1 .. p1}, Lcom/jakex/makeupeditor/configuration/MouthType;->getStaticsName()Ljava/lang/String;
+    invoke-virtual/range {p1 .. p1}, Lcom/jakex/ymluxseditor/configuration/MouthType;->getStaticsName()Ljava/lang/String;
 
     move-result-object v2
 
     :goto_a
     invoke-virtual {v1, v5, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    sget-object v2, Lcom/jakex/makeupeditor/configuration/PartPosition;->BLUSHER_COLOR:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v2, Lcom/jakex/ymluxseditor/configuration/PartPosition;->BLUSHER_COLOR:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     invoke-virtual {v0, v2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -366,7 +366,7 @@
     :goto_b
     invoke-virtual {v1, v15, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    sget-object v2, Lcom/jakex/makeupeditor/configuration/PartPosition;->BLUSHER:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v2, Lcom/jakex/ymluxseditor/configuration/PartPosition;->BLUSHER:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     invoke-virtual {v0, v2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -388,7 +388,7 @@
     :goto_c
     invoke-virtual {v1, v14, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    sget-object v2, Lcom/jakex/makeupeditor/configuration/PartPosition;->EYE_BROW:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v2, Lcom/jakex/ymluxseditor/configuration/PartPosition;->EYE_BROW:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     invoke-virtual {v0, v2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -410,7 +410,7 @@
     :goto_d
     invoke-virtual {v1, v13, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    sget-object v2, Lcom/jakex/makeupeditor/configuration/PartPosition;->EYE_BROW_COLOR:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v2, Lcom/jakex/ymluxseditor/configuration/PartPosition;->EYE_BROW_COLOR:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     invoke-virtual {v0, v2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -432,7 +432,7 @@
     :goto_e
     invoke-virtual {v1, v12, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    sget-object v2, Lcom/jakex/makeupeditor/configuration/PartPosition;->EYE_LASH:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v2, Lcom/jakex/ymluxseditor/configuration/PartPosition;->EYE_LASH:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     invoke-virtual {v0, v2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -454,7 +454,7 @@
     :goto_f
     invoke-virtual {v1, v11, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    sget-object v2, Lcom/jakex/makeupeditor/configuration/PartPosition;->EYE_LASH_COLOR:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v2, Lcom/jakex/ymluxseditor/configuration/PartPosition;->EYE_LASH_COLOR:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     invoke-virtual {v0, v2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -476,7 +476,7 @@
     :goto_10
     invoke-virtual {v1, v10, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    sget-object v2, Lcom/jakex/makeupeditor/configuration/PartPosition;->EYE_LINER:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v2, Lcom/jakex/ymluxseditor/configuration/PartPosition;->EYE_LINER:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     invoke-virtual {v0, v2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -498,7 +498,7 @@
     :goto_11
     invoke-virtual {v1, v9, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    sget-object v2, Lcom/jakex/makeupeditor/configuration/PartPosition;->EYE_LINER_COLOR:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v2, Lcom/jakex/ymluxseditor/configuration/PartPosition;->EYE_LINER_COLOR:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     invoke-virtual {v0, v2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -520,7 +520,7 @@
     :goto_12
     invoke-virtual {v1, v7, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    sget-object v2, Lcom/jakex/makeupeditor/configuration/PartPosition;->HAIR:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v2, Lcom/jakex/ymluxseditor/configuration/PartPosition;->HAIR:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     invoke-virtual {v0, v2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -544,7 +544,7 @@
 
     invoke-virtual {v1, v4, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    sget-object v2, Lcom/jakex/makeupeditor/configuration/PartPosition;->EYE_SHADOW:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v2, Lcom/jakex/ymluxseditor/configuration/PartPosition;->EYE_SHADOW:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     invoke-virtual {v0, v2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -570,7 +570,7 @@
     :goto_14
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    sget-object v2, Lcom/jakex/makeupeditor/configuration/PartPosition;->EYE_PUPIL:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v2, Lcom/jakex/ymluxseditor/configuration/PartPosition;->EYE_PUPIL:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     invoke-virtual {v0, v2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -661,14 +661,14 @@
     return-void
 .end method
 
-.method public static a(Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;Ljava/util/HashMap;)V
+.method public static a(Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;Ljava/util/HashMap;)V
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;",
+            "Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;",
             "Ljava/util/HashMap<",
-            "Lcom/jakex/makeupeditor/configuration/PartPosition;",
+            "Lcom/jakex/ymluxseditor/configuration/PartPosition;",
             "Ljava/lang/Integer;",
             ">;)V"
         }
@@ -682,13 +682,13 @@
 
     if-eqz p0, :cond_0
 
-    invoke-static {p0}, Lcom/jakex/makeupeditor/material/thememakeup/b/d;->a(Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;)Z
+    invoke-static {p0}, Lcom/jakex/ymluxseditor/material/thememakeup/b/d;->a(Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    invoke-virtual {p0}, Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;->getIsAR()Z
+    invoke-virtual {p0}, Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;->getIsAR()Z
 
     move-result v1
 
@@ -704,7 +704,7 @@
     :goto_0
     if-eqz v1, :cond_1
 
-    invoke-virtual {p0}, Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;->getAlphaForRealTimeMakeup()I
+    invoke-virtual {p0}, Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;->getAlphaForRealTimeMakeup()I
 
     move-result p0
 
@@ -725,7 +725,7 @@
 
     if-eqz p0, :cond_9
 
-    sget-object p0, Lcom/jakex/makeupeditor/configuration/PartPosition;->MOUTH:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object p0, Lcom/jakex/ymluxseditor/configuration/PartPosition;->MOUTH:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     invoke-virtual {p1, p0}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
 
@@ -733,7 +733,7 @@
 
     if-eqz p0, :cond_2
 
-    sget-object p0, Lcom/jakex/makeupeditor/configuration/PartPosition;->MOUTH:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object p0, Lcom/jakex/ymluxseditor/configuration/PartPosition;->MOUTH:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     invoke-virtual {p1, p0}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -748,7 +748,7 @@
     invoke-virtual {v0, v1, p0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_2
-    sget-object p0, Lcom/jakex/makeupeditor/configuration/PartPosition;->BLUSHER_COLOR:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object p0, Lcom/jakex/ymluxseditor/configuration/PartPosition;->BLUSHER_COLOR:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     invoke-virtual {p1, p0}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
 
@@ -756,7 +756,7 @@
 
     if-eqz p0, :cond_3
 
-    sget-object p0, Lcom/jakex/makeupeditor/configuration/PartPosition;->BLUSHER_COLOR:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object p0, Lcom/jakex/ymluxseditor/configuration/PartPosition;->BLUSHER_COLOR:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     invoke-virtual {p1, p0}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -771,7 +771,7 @@
     invoke-virtual {v0, v1, p0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_3
-    sget-object p0, Lcom/jakex/makeupeditor/configuration/PartPosition;->EYE_BROW:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object p0, Lcom/jakex/ymluxseditor/configuration/PartPosition;->EYE_BROW:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     invoke-virtual {p1, p0}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
 
@@ -779,7 +779,7 @@
 
     if-eqz p0, :cond_4
 
-    sget-object p0, Lcom/jakex/makeupeditor/configuration/PartPosition;->EYE_BROW:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object p0, Lcom/jakex/ymluxseditor/configuration/PartPosition;->EYE_BROW:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     invoke-virtual {p1, p0}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -794,7 +794,7 @@
     invoke-virtual {v0, v1, p0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_4
-    sget-object p0, Lcom/jakex/makeupeditor/configuration/PartPosition;->HAIR:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object p0, Lcom/jakex/ymluxseditor/configuration/PartPosition;->HAIR:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     invoke-virtual {p1, p0}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
 
@@ -802,7 +802,7 @@
 
     if-eqz p0, :cond_5
 
-    sget-object p0, Lcom/jakex/makeupeditor/configuration/PartPosition;->HAIR:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object p0, Lcom/jakex/ymluxseditor/configuration/PartPosition;->HAIR:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     invoke-virtual {p1, p0}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -817,7 +817,7 @@
     invoke-virtual {v0, v1, p0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_5
-    sget-object p0, Lcom/jakex/makeupeditor/configuration/PartPosition;->EYE_SHADOW:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object p0, Lcom/jakex/ymluxseditor/configuration/PartPosition;->EYE_SHADOW:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     invoke-virtual {p1, p0}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
 
@@ -825,7 +825,7 @@
 
     if-eqz p0, :cond_6
 
-    sget-object p0, Lcom/jakex/makeupeditor/configuration/PartPosition;->EYE_SHADOW:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object p0, Lcom/jakex/ymluxseditor/configuration/PartPosition;->EYE_SHADOW:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     invoke-virtual {p1, p0}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -840,7 +840,7 @@
     invoke-virtual {v0, v1, p0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_6
-    sget-object p0, Lcom/jakex/makeupeditor/configuration/PartPosition;->EYE_LASH:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object p0, Lcom/jakex/ymluxseditor/configuration/PartPosition;->EYE_LASH:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     invoke-virtual {p1, p0}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
 
@@ -848,7 +848,7 @@
 
     if-eqz p0, :cond_7
 
-    sget-object p0, Lcom/jakex/makeupeditor/configuration/PartPosition;->EYE_LASH:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object p0, Lcom/jakex/ymluxseditor/configuration/PartPosition;->EYE_LASH:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     invoke-virtual {p1, p0}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -863,7 +863,7 @@
     invoke-virtual {v0, v1, p0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_7
-    sget-object p0, Lcom/jakex/makeupeditor/configuration/PartPosition;->EYE_LINER:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object p0, Lcom/jakex/ymluxseditor/configuration/PartPosition;->EYE_LINER:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     invoke-virtual {p1, p0}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
 
@@ -871,7 +871,7 @@
 
     if-eqz p0, :cond_8
 
-    sget-object p0, Lcom/jakex/makeupeditor/configuration/PartPosition;->EYE_LINER:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object p0, Lcom/jakex/ymluxseditor/configuration/PartPosition;->EYE_LINER:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     invoke-virtual {p1, p0}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -886,7 +886,7 @@
     invoke-virtual {v0, v1, p0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_8
-    sget-object p0, Lcom/jakex/makeupeditor/configuration/PartPosition;->EYE_PUPIL:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object p0, Lcom/jakex/ymluxseditor/configuration/PartPosition;->EYE_PUPIL:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     invoke-virtual {p1, p0}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
 
@@ -894,7 +894,7 @@
 
     if-eqz p0, :cond_9
 
-    sget-object p0, Lcom/jakex/makeupeditor/configuration/PartPosition;->EYE_PUPIL:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object p0, Lcom/jakex/ymluxseditor/configuration/PartPosition;->EYE_PUPIL:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     invoke-virtual {p1, p0}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -931,7 +931,7 @@
         value = {
             "(",
             "Ljava/util/HashMap<",
-            "Lcom/jakex/makeupeditor/configuration/PartPosition;",
+            "Lcom/jakex/ymluxseditor/configuration/PartPosition;",
             "Ljava/lang/Long;",
             ">;)V"
         }

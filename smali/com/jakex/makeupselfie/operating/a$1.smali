@@ -1,13 +1,13 @@
-.class Lcom/jakex/makeupselfie/operating/a$1;
+.class Lcom/jakex/ymluxscoresf/operating/a$1;
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lcom/jakex/makeupselfie/operating/theme/OperatingThemeListFragment$b;
+.implements Lcom/jakex/ymluxscoresf/operating/theme/OperatingThemeListFragment$b;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/jakex/makeupselfie/operating/a;->a(Landroid/view/View;)V
+    value = Lcom/jakex/ymluxscoresf/operating/a;->a(Landroid/view/View;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,14 +17,14 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/jakex/makeupselfie/operating/a;
+.field final synthetic a:Lcom/jakex/ymluxscoresf/operating/a;
 
 
 # direct methods
-.method constructor <init>(Lcom/jakex/makeupselfie/operating/a;)V
+.method constructor <init>(Lcom/jakex/ymluxscoresf/operating/a;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/operating/a$1;->a:Lcom/jakex/makeupselfie/operating/a;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/operating/a$1;->a:Lcom/jakex/ymluxscoresf/operating/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -33,24 +33,24 @@
 
 
 # virtual methods
-.method public a(Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;)V
+.method public a(Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;)V
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/operating/a$1;->a:Lcom/jakex/makeupselfie/operating/a;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/operating/a$1;->a:Lcom/jakex/ymluxscoresf/operating/a;
 
-    invoke-static {v0}, Lcom/jakex/makeupselfie/operating/a;->a(Lcom/jakex/makeupselfie/operating/a;)Lcom/jakex/makeupselfie/operating/a$a;
+    invoke-static {v0}, Lcom/jakex/ymluxscoresf/operating/a;->a(Lcom/jakex/ymluxscoresf/operating/a;)Lcom/jakex/ymluxscoresf/operating/a$a;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/operating/a$1;->a:Lcom/jakex/makeupselfie/operating/a;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/operating/a$1;->a:Lcom/jakex/ymluxscoresf/operating/a;
 
-    invoke-static {v0}, Lcom/jakex/makeupselfie/operating/a;->a(Lcom/jakex/makeupselfie/operating/a;)Lcom/jakex/makeupselfie/operating/a$a;
+    invoke-static {v0}, Lcom/jakex/ymluxscoresf/operating/a;->a(Lcom/jakex/ymluxscoresf/operating/a;)Lcom/jakex/ymluxscoresf/operating/a$a;
 
     move-result-object v0
 
-    invoke-interface {v0, p1}, Lcom/jakex/makeupselfie/operating/a$a;->a(Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;)V
+    invoke-interface {v0, p1}, Lcom/jakex/ymluxscoresf/operating/a$a;->a(Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;)V
 
     :cond_0
     return-void

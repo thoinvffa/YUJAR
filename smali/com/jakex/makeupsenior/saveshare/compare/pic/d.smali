@@ -7,13 +7,13 @@
     .locals 9
 
     :try_start_0
-    invoke-static {}, Lcom/jakex/makeupeditor/d/a;->a()Lcom/jakex/makeupeditor/d/a;
+    invoke-static {}, Lcom/jakex/ymluxseditor/d/a;->a()Lcom/jakex/ymluxseditor/d/a;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupeditor/d/a;->b(I)Landroid/graphics/RectF;
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxseditor/d/a;->b(I)Landroid/graphics/RectF;
 
     move-result-object v0
 

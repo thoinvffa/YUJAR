@@ -1,4 +1,4 @@
-.class public Lcom/jakex/makeupselfie/camera/material/model/a;
+.class public Lcom/jakex/ymluxscoresf/camera/material/model/a;
 .super Ljava/lang/Object;
 
 
@@ -7,9 +7,9 @@
 
 .field private b:I
 
-.field private c:Lcom/jakex/makeupselfie/camera/material/model/SelfiePart;
+.field private c:Lcom/jakex/ymluxscoresf/camera/material/model/SelfiePart;
 
-.field private d:Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+.field private d:Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
 
 # direct methods
@@ -20,9 +20,9 @@
 
     const/4 v0, -0x1
 
-    iput v0, p0, Lcom/jakex/makeupselfie/camera/material/model/a;->a:I
+    iput v0, p0, Lcom/jakex/ymluxscoresf/camera/material/model/a;->a:I
 
-    iput v0, p0, Lcom/jakex/makeupselfie/camera/material/model/a;->b:I
+    iput v0, p0, Lcom/jakex/ymluxscoresf/camera/material/model/a;->b:I
 
     return-void
 .end method
@@ -32,7 +32,7 @@
 .method public a()I
     .locals 1
 
-    iget v0, p0, Lcom/jakex/makeupselfie/camera/material/model/a;->a:I
+    iget v0, p0, Lcom/jakex/ymluxscoresf/camera/material/model/a;->a:I
 
     return v0
 .end method
@@ -40,23 +40,23 @@
 .method public a(I)V
     .locals 0
 
-    iput p1, p0, Lcom/jakex/makeupselfie/camera/material/model/a;->a:I
+    iput p1, p0, Lcom/jakex/ymluxscoresf/camera/material/model/a;->a:I
 
     return-void
 .end method
 
-.method public a(Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;)V
+.method public a(Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/camera/material/model/a;->d:Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/camera/material/model/a;->d:Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
     return-void
 .end method
 
-.method public a(Lcom/jakex/makeupselfie/camera/material/model/SelfiePart;)V
+.method public a(Lcom/jakex/ymluxscoresf/camera/material/model/SelfiePart;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/camera/material/model/a;->c:Lcom/jakex/makeupselfie/camera/material/model/SelfiePart;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/camera/material/model/a;->c:Lcom/jakex/ymluxscoresf/camera/material/model/SelfiePart;
 
     return-void
 .end method
@@ -64,7 +64,7 @@
 .method public b()I
     .locals 1
 
-    iget v0, p0, Lcom/jakex/makeupselfie/camera/material/model/a;->b:I
+    iget v0, p0, Lcom/jakex/ymluxscoresf/camera/material/model/a;->b:I
 
     return v0
 .end method
@@ -72,23 +72,23 @@
 .method public b(I)V
     .locals 0
 
-    iput p1, p0, Lcom/jakex/makeupselfie/camera/material/model/a;->b:I
+    iput p1, p0, Lcom/jakex/ymluxscoresf/camera/material/model/a;->b:I
 
     return-void
 .end method
 
-.method public c()Lcom/jakex/makeupselfie/camera/material/model/SelfiePart;
+.method public c()Lcom/jakex/ymluxscoresf/camera/material/model/SelfiePart;
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/material/model/a;->c:Lcom/jakex/makeupselfie/camera/material/model/SelfiePart;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/material/model/a;->c:Lcom/jakex/ymluxscoresf/camera/material/model/SelfiePart;
 
     return-object v0
 .end method
 
-.method public d()Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+.method public d()Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/material/model/a;->d:Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/material/model/a;->d:Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
     return-object v0
 .end method
@@ -104,7 +104,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget v1, p0, Lcom/jakex/makeupselfie/camera/material/model/a;->a:I
+    iget v1, p0, Lcom/jakex/ymluxscoresf/camera/material/model/a;->a:I
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -112,7 +112,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget v1, p0, Lcom/jakex/makeupselfie/camera/material/model/a;->b:I
+    iget v1, p0, Lcom/jakex/ymluxscoresf/camera/material/model/a;->b:I
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -120,7 +120,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lcom/jakex/makeupselfie/camera/material/model/a;->c:Lcom/jakex/makeupselfie/camera/material/model/SelfiePart;
+    iget-object v1, p0, Lcom/jakex/ymluxscoresf/camera/material/model/a;->c:Lcom/jakex/ymluxscoresf/camera/material/model/SelfiePart;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
@@ -128,7 +128,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lcom/jakex/makeupselfie/camera/material/model/a;->d:Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    iget-object v1, p0, Lcom/jakex/ymluxscoresf/camera/material/model/a;->d:Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 

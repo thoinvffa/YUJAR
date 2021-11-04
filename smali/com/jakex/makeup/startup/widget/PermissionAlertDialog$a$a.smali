@@ -1,5 +1,5 @@
 .class Lcom/jakex/makeup/startup/widget/PermissionAlertDialog$a$a;
-.super Lcom/jakex/makeupcore/b/d;
+.super Lcom/jakex/ymluxscore/b/d;
 
 
 # annotations
@@ -14,7 +14,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupcore/b/d<",
+        "Lcom/jakex/ymluxscore/b/d<",
         "Ljava/lang/String;",
         ">;"
     }
@@ -41,7 +41,7 @@
 
     iput-object p1, p0, Lcom/jakex/makeup/startup/widget/PermissionAlertDialog$a$a;->a:Lcom/jakex/makeup/startup/widget/PermissionAlertDialog$a;
 
-    invoke-direct {p0, p2}, Lcom/jakex/makeupcore/b/d;-><init>(Ljava/util/List;)V
+    invoke-direct {p0, p2}, Lcom/jakex/ymluxscore/b/d;-><init>(Ljava/util/List;)V
 
     invoke-static {p1}, Lcom/jakex/makeup/startup/widget/PermissionAlertDialog$a;->h(Lcom/jakex/makeup/startup/widget/PermissionAlertDialog$a;)Lcom/jakex/makeup/startup/widget/PermissionAlertDialog$CheckType;
 
@@ -99,7 +99,7 @@
 
     invoke-direct {p2, p0, p1}, Lcom/jakex/makeup/startup/widget/PermissionAlertDialog$a$a$1;-><init>(Lcom/jakex/makeup/startup/widget/PermissionAlertDialog$a$a;Lcom/jakex/makeup/startup/widget/PermissionAlertDialog$a;)V
 
-    invoke-virtual {p0, p2}, Lcom/jakex/makeup/startup/widget/PermissionAlertDialog$a$a;->a(Lcom/jakex/makeupcore/b/d$a;)V
+    invoke-virtual {p0, p2}, Lcom/jakex/makeup/startup/widget/PermissionAlertDialog$a$a;->a(Lcom/jakex/ymluxscore/b/d$a;)V
 
     return-void
 .end method
@@ -129,22 +129,22 @@
     return-void
 .end method
 
-.method public bridge synthetic a(Lcom/jakex/makeupcore/b/e;ILjava/lang/Object;)V
+.method public bridge synthetic a(Lcom/jakex/ymluxscore/b/e;ILjava/lang/Object;)V
     .locals 0
 
     check-cast p3, Ljava/lang/String;
 
-    invoke-virtual {p0, p1, p2, p3}, Lcom/jakex/makeup/startup/widget/PermissionAlertDialog$a$a;->a(Lcom/jakex/makeupcore/b/e;ILjava/lang/String;)V
+    invoke-virtual {p0, p1, p2, p3}, Lcom/jakex/makeup/startup/widget/PermissionAlertDialog$a$a;->a(Lcom/jakex/ymluxscore/b/e;ILjava/lang/String;)V
 
     return-void
 .end method
 
-.method public a(Lcom/jakex/makeupcore/b/e;ILjava/lang/String;)V
+.method public a(Lcom/jakex/ymluxscore/b/e;ILjava/lang/String;)V
     .locals 2
 
     const v0, 0x7f070208
 
-    invoke-virtual {p1, v0}, Lcom/jakex/makeupcore/b/e;->b(I)Landroid/widget/TextView;
+    invoke-virtual {p1, v0}, Lcom/jakex/ymluxscore/b/e;->b(I)Landroid/widget/TextView;
 
     move-result-object v0
 
@@ -152,7 +152,7 @@
 
     const p3, 0x7f070207
 
-    invoke-virtual {p1, p3}, Lcom/jakex/makeupcore/b/e;->a(I)Landroid/view/View;
+    invoke-virtual {p1, p3}, Lcom/jakex/ymluxscore/b/e;->a(I)Landroid/view/View;
 
     move-result-object p1
 

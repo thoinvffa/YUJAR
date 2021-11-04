@@ -97,13 +97,13 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/jakex/mtlab/arkernelinterface/core/ParamControl/ARKernelParamSliderControlJNI;
+    check-cast v1, Lcom/jakex/ymlux/arkernelinterface/core/ParamControl/ARKernelParamSliderControlJNI;
 
     iget v2, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/i;->b:F
 
-    invoke-virtual {v1, v2}, Lcom/jakex/mtlab/arkernelinterface/core/ParamControl/ARKernelParamSliderControlJNI;->setCurrentValue(F)V
+    invoke-virtual {v1, v2}, Lcom/jakex/ymlux/arkernelinterface/core/ParamControl/ARKernelParamSliderControlJNI;->setCurrentValue(F)V
 
-    invoke-virtual {v1}, Lcom/jakex/mtlab/arkernelinterface/core/ParamControl/ARKernelParamSliderControlJNI;->dispatch()V
+    invoke-virtual {v1}, Lcom/jakex/ymlux/arkernelinterface/core/ParamControl/ARKernelParamSliderControlJNI;->dispatch()V
 
     goto :goto_0
 
@@ -177,7 +177,7 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/jakex/mtlab/arkernelinterface/core/ParamControl/ARKernelParamColorControlJNI;
+    check-cast v1, Lcom/jakex/ymlux/arkernelinterface/core/ParamControl/ARKernelParamColorControlJNI;
 
     iget-object v2, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/i;->a:Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/d/a;
 
@@ -191,7 +191,7 @@
 
     iget-object v2, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/i;->d:[F
 
-    invoke-virtual {v1, v2}, Lcom/jakex/mtlab/arkernelinterface/core/ParamControl/ARKernelParamColorControlJNI;->setCurrentRGBAValue([F)V
+    invoke-virtual {v1, v2}, Lcom/jakex/ymlux/arkernelinterface/core/ParamControl/ARKernelParamColorControlJNI;->setCurrentRGBAValue([F)V
 
     :cond_4
     iget-object v2, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/i;->a:Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/d/a;
@@ -206,10 +206,10 @@
 
     iget v2, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/i;->e:F
 
-    invoke-virtual {v1, v2}, Lcom/jakex/mtlab/arkernelinterface/core/ParamControl/ARKernelParamColorControlJNI;->setCurrentOpacityValue(F)V
+    invoke-virtual {v1, v2}, Lcom/jakex/ymlux/arkernelinterface/core/ParamControl/ARKernelParamColorControlJNI;->setCurrentOpacityValue(F)V
 
     :cond_5
-    invoke-virtual {v1}, Lcom/jakex/mtlab/arkernelinterface/core/ParamControl/ARKernelParamColorControlJNI;->dispatch()V
+    invoke-virtual {v1}, Lcom/jakex/ymlux/arkernelinterface/core/ParamControl/ARKernelParamColorControlJNI;->dispatch()V
 
     goto :goto_0
 
@@ -283,13 +283,13 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/jakex/mtlab/arkernelinterface/core/ParamControl/ARKernelParamSliderControlJNI;
+    check-cast v1, Lcom/jakex/ymlux/arkernelinterface/core/ParamControl/ARKernelParamSliderControlJNI;
 
     iget v2, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/i;->f:F
 
-    invoke-virtual {v1, v2}, Lcom/jakex/mtlab/arkernelinterface/core/ParamControl/ARKernelParamSliderControlJNI;->setCurrentValue(F)V
+    invoke-virtual {v1, v2}, Lcom/jakex/ymlux/arkernelinterface/core/ParamControl/ARKernelParamSliderControlJNI;->setCurrentValue(F)V
 
-    invoke-virtual {v1}, Lcom/jakex/mtlab/arkernelinterface/core/ParamControl/ARKernelParamSliderControlJNI;->dispatch()V
+    invoke-virtual {v1}, Lcom/jakex/ymlux/arkernelinterface/core/ParamControl/ARKernelParamSliderControlJNI;->dispatch()V
 
     goto :goto_0
 

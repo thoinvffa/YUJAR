@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeupassistant/camera/b;
-.super Lcom/jakex/makeupcore/l/a;
+.super Lcom/jakex/ymluxscore/l/a;
 
 
 # annotations
@@ -11,7 +11,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupcore/l/a<",
+        "Lcom/jakex/ymluxscore/l/a<",
         "Lcom/jakex/makeupassistant/camera/a$a;",
         ">;"
     }
@@ -22,7 +22,7 @@
 .method constructor <init>(Lcom/jakex/makeupassistant/camera/a$a;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupcore/l/a;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscore/l/a;-><init>(Ljava/lang/Object;)V
 
     return-void
 .end method
@@ -54,7 +54,7 @@
 
     invoke-direct {v1, p0, v0, p1, v2}, Lcom/jakex/makeupassistant/camera/b$a;-><init>(Lcom/jakex/makeupassistant/camera/b;Ljava/lang/String;Landroid/graphics/Bitmap;Lcom/jakex/makeupassistant/camera/b$1;)V
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/i;->a()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/jakex/ymluxscore/util/i;->a()Ljava/util/concurrent/Executor;
 
     move-result-object p1
 
@@ -92,7 +92,7 @@
 
     invoke-direct {v1, p0, v0, p1, v2}, Lcom/jakex/makeupassistant/camera/b$a;-><init>(Lcom/jakex/makeupassistant/camera/b;Ljava/lang/String;Landroid/graphics/Bitmap;Lcom/jakex/makeupassistant/camera/b$1;)V
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/i;->a()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/jakex/ymluxscore/util/i;->a()Ljava/util/concurrent/Executor;
 
     move-result-object p1
 

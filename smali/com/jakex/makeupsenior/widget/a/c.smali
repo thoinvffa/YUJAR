@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeupsenior/widget/a/c;
-.super Lcom/jakex/makeupeditor/widget/makeuplayer/a;
+.super Lcom/jakex/ymluxseditor/widget/makeuplayer/a;
 
 
 # annotations
@@ -11,7 +11,7 @@
 
 
 # static fields
-.field public static final a:Ljava/lang/String; = "com.jakex.makeupsenior.widget.a.c"
+.field public static final a:Ljava/lang/String; = "com.jakex.ymluxssenior.widget.a.c"
 
 
 # instance fields
@@ -29,7 +29,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/jakex/makeupcore/bean/MaskBean;",
+            "Lcom/jakex/ymluxscore/bean/MaskBean;",
             ">;"
         }
     .end annotation
@@ -39,7 +39,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/jakex/makeupcore/bean/MaskBean;",
+            "Lcom/jakex/ymluxscore/bean/MaskBean;",
             ">;"
         }
     .end annotation
@@ -77,10 +77,10 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;)V
+.method public constructor <init>(Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;)V
     .locals 2
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupeditor/widget/makeuplayer/a;-><init>(Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;)V
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxseditor/widget/makeuplayer/a;-><init>(Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;)V
 
     const/4 p1, 0x0
 
@@ -151,7 +151,7 @@
             "Landroid/graphics/Canvas;",
             "Landroid/graphics/Matrix;",
             "Ljava/util/List<",
-            "Lcom/jakex/makeupcore/bean/MaskBean;",
+            "Lcom/jakex/ymluxscore/bean/MaskBean;",
             ">;)V"
         }
     .end annotation
@@ -171,19 +171,19 @@
 
     const/4 v4, 0x0
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->getViewWidth()F
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->getViewWidth()F
 
     move-result v5
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->getViewHeight()F
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->getViewHeight()F
 
     move-result v6
 
@@ -222,17 +222,17 @@
 
     move-result-object p3
 
-    check-cast p3, Lcom/jakex/makeupcore/bean/MaskBean;
+    check-cast p3, Lcom/jakex/ymluxscore/bean/MaskBean;
 
     iget-object v1, p0, Lcom/jakex/makeupsenior/widget/a/c;->i:Landroid/graphics/Paint;
 
-    invoke-virtual {p3}, Lcom/jakex/makeupcore/bean/MaskBean;->getmPaintSize()F
+    invoke-virtual {p3}, Lcom/jakex/ymluxscore/bean/MaskBean;->getmPaintSize()F
 
     move-result v2
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    invoke-virtual {p3}, Lcom/jakex/makeupcore/bean/MaskBean;->getMaskPath()Landroid/graphics/Path;
+    invoke-virtual {p3}, Lcom/jakex/ymluxscore/bean/MaskBean;->getMaskPath()Landroid/graphics/Path;
 
     move-result-object p3
 
@@ -249,11 +249,11 @@
 
     move-result p3
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->getBitmapScale()F
+    invoke-virtual {v1}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->getBitmapScale()F
 
     move-result v1
 
@@ -312,11 +312,11 @@
     :cond_0
     iget p2, p1, Landroid/graphics/PointF;->x:F
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->getBitmapWidth()F
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->getBitmapWidth()F
 
     move-result v0
 
@@ -324,11 +324,11 @@
 
     if-lez p2, :cond_1
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object p2
 
-    invoke-virtual {p2}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->getBitmapWidth()F
+    invoke-virtual {p2}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->getBitmapWidth()F
 
     move-result p2
 
@@ -349,11 +349,11 @@
     :cond_2
     iget p2, p1, Landroid/graphics/PointF;->y:F
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object p3
 
-    invoke-virtual {p3}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->getBitmapHeight()F
+    invoke-virtual {p3}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->getBitmapHeight()F
 
     move-result p3
 
@@ -361,11 +361,11 @@
 
     if-lez p2, :cond_3
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object p2
 
-    invoke-virtual {p2}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->getBitmapHeight()F
+    invoke-virtual {p2}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->getBitmapHeight()F
 
     move-result p2
 
@@ -379,11 +379,11 @@
 .method private a(Landroid/graphics/PointF;Landroid/graphics/PointF;)V
     .locals 5
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->getBitmapMatrix()Landroid/graphics/Matrix;
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->getBitmapMatrix()Landroid/graphics/Matrix;
 
     move-result-object v0
 
@@ -419,11 +419,11 @@
 .method private b(Landroid/graphics/PointF;Landroid/graphics/PointF;)V
     .locals 5
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->getImageInvertMatrix()Landroid/graphics/Matrix;
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->getImageInvertMatrix()Landroid/graphics/Matrix;
 
     move-result-object v0
 
@@ -646,11 +646,11 @@
 .method public a(Landroid/graphics/Canvas;)V
     .locals 2
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->getDisplayBitmap()Landroid/graphics/Bitmap;
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->getDisplayBitmap()Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -673,11 +673,11 @@
     goto :goto_1
 
     :cond_0
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->getBitmapMatrix()Landroid/graphics/Matrix;
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->getBitmapMatrix()Landroid/graphics/Matrix;
 
     move-result-object v0
 
@@ -764,15 +764,15 @@
 
     iget v3, v3, Landroid/graphics/PointF;->y:F
 
-    invoke-static {p1, v0, v1, v3}, Lcom/jakex/makeupcore/util/bg;->b(FFFF)F
+    invoke-static {p1, v0, v1, v3}, Lcom/jakex/ymluxscore/util/bg;->b(FFFF)F
 
     move-result p1
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->getMinMoveDis()F
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->getMinMoveDis()F
 
     move-result v0
 
@@ -873,11 +873,11 @@
     invoke-virtual {v1, p1, v0, v3, v4}, Landroid/graphics/Path;->quadTo(FFFF)V
 
     :cond_3
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->invalidate()V
+    invoke-virtual {p1}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->invalidate()V
 
     :cond_4
     iget-object p1, p0, Lcom/jakex/makeupsenior/widget/a/c;->p:Landroid/graphics/PointF;
@@ -899,29 +899,29 @@
 
     if-eqz p1, :cond_7
 
-    new-instance p1, Lcom/jakex/makeupcore/bean/MaskBean;
+    new-instance p1, Lcom/jakex/ymluxscore/bean/MaskBean;
 
-    invoke-direct {p1}, Lcom/jakex/makeupcore/bean/MaskBean;-><init>()V
+    invoke-direct {p1}, Lcom/jakex/ymluxscore/bean/MaskBean;-><init>()V
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/widget/a/c;->f:Landroid/graphics/Path;
 
-    invoke-virtual {p1, v0}, Lcom/jakex/makeupcore/bean/MaskBean;->setMaskPath(Landroid/graphics/Path;)V
+    invoke-virtual {p1, v0}, Lcom/jakex/ymluxscore/bean/MaskBean;->setMaskPath(Landroid/graphics/Path;)V
 
     invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->b()F
 
     move-result v0
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->getBitmapScale()F
+    invoke-virtual {v2}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->getBitmapScale()F
 
     move-result v2
 
     div-float/2addr v0, v2
 
-    invoke-virtual {p1, v0}, Lcom/jakex/makeupcore/bean/MaskBean;->setmPaintSize(F)V
+    invoke-virtual {p1, v0}, Lcom/jakex/ymluxscore/bean/MaskBean;->setmPaintSize(F)V
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/widget/a/c;->g:Ljava/util/List;
 
@@ -931,7 +931,7 @@
 
     if-eqz v0, :cond_6
 
-    invoke-interface {v0, p1}, Lcom/jakex/makeupsenior/widget/a/c$a;->a(Lcom/jakex/makeupcore/bean/MaskBean;)V
+    invoke-interface {v0, p1}, Lcom/jakex/makeupsenior/widget/a/c$a;->a(Lcom/jakex/ymluxscore/bean/MaskBean;)V
 
     :cond_6
     iput-boolean v1, p0, Lcom/jakex/makeupsenior/widget/a/c;->c:Z
@@ -939,11 +939,11 @@
     :cond_7
     invoke-direct {p0}, Lcom/jakex/makeupsenior/widget/a/c;->i()V
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->invalidate()V
+    invoke-virtual {p1}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->invalidate()V
 
     goto :goto_0
 
@@ -960,13 +960,13 @@
 
     invoke-virtual {v0, v3, p1}, Landroid/graphics/PointF;->set(FF)V
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object p1
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/widget/a/c;->p:Landroid/graphics/PointF;
 
-    invoke-virtual {p1, v0}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->a(Landroid/graphics/PointF;)Landroid/graphics/PointF;
+    invoke-virtual {p1, v0}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->a(Landroid/graphics/PointF;)Landroid/graphics/PointF;
 
     move-result-object p1
 
@@ -998,7 +998,7 @@
     return-void
 .end method
 
-.method public a(Lcom/jakex/makeupcore/bean/MaskBean;)V
+.method public a(Lcom/jakex/ymluxscore/bean/MaskBean;)V
     .locals 1
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/widget/a/c;->g:Ljava/util/List;
@@ -1009,11 +1009,11 @@
 
     invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->invalidate()V
+    invoke-virtual {p1}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->invalidate()V
 
     :cond_0
     return-void
@@ -1033,7 +1033,7 @@
         value = {
             "(",
             "Ljava/util/List<",
-            "Lcom/jakex/makeupcore/bean/MaskBean;",
+            "Lcom/jakex/ymluxscore/bean/MaskBean;",
             ">;)V"
         }
     .end annotation
@@ -1083,11 +1083,11 @@
 
     iput-boolean p1, p0, Lcom/jakex/makeupsenior/widget/a/c;->s:Z
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->invalidate()V
+    invoke-virtual {p1}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->invalidate()V
 
     return-void
 .end method
@@ -1106,7 +1106,7 @@
         value = {
             "(",
             "Ljava/util/List<",
-            "Lcom/jakex/makeupcore/bean/MaskBean;",
+            "Lcom/jakex/ymluxscore/bean/MaskBean;",
             ">;)V"
         }
     .end annotation
@@ -1161,11 +1161,11 @@
 
     invoke-interface {v0, v1}, Ljava/util/List;->remove(I)Ljava/lang/Object;
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->invalidate()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->invalidate()V
 
     :cond_0
     return-void
@@ -1220,11 +1220,11 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/jakex/makeupcore/bean/MaskBean;
+    check-cast v1, Lcom/jakex/ymluxscore/bean/MaskBean;
 
     iget-object v2, p0, Lcom/jakex/makeupsenior/widget/a/c;->i:Landroid/graphics/Paint;
 
-    invoke-virtual {v1}, Lcom/jakex/makeupcore/bean/MaskBean;->getmPaintSize()F
+    invoke-virtual {v1}, Lcom/jakex/ymluxscore/bean/MaskBean;->getmPaintSize()F
 
     move-result v3
 
@@ -1232,7 +1232,7 @@
 
     iget-object v2, p0, Lcom/jakex/makeupsenior/widget/a/c;->j:Landroid/graphics/Canvas;
 
-    invoke-virtual {v1}, Lcom/jakex/makeupcore/bean/MaskBean;->getMaskPath()Landroid/graphics/Path;
+    invoke-virtual {v1}, Lcom/jakex/ymluxscore/bean/MaskBean;->getMaskPath()Landroid/graphics/Path;
 
     move-result-object v1
 
@@ -1260,7 +1260,7 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Lcom/jakex/makeupcore/bean/MaskBean;",
+            "Lcom/jakex/ymluxscore/bean/MaskBean;",
             ">;"
         }
     .end annotation
@@ -1284,11 +1284,11 @@
 .method public g()V
     .locals 1
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/c;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->invalidate()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->invalidate()V
 
     return-void
 .end method

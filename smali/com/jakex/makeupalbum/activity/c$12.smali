@@ -1,5 +1,5 @@
 .class Lcom/jakex/makeupalbum/activity/c$12;
-.super Lcom/jakex/makeupcore/d/a;
+.super Lcom/jakex/ymluxscore/d/a;
 
 
 # annotations
@@ -23,7 +23,7 @@
 
     iput-object p1, p0, Lcom/jakex/makeupalbum/activity/c$12;->a:Lcom/jakex/makeupalbum/activity/c;
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/d/a;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/d/a;-><init>()V
 
     return-void
 .end method

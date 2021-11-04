@@ -171,11 +171,11 @@
 
     invoke-direct {v10}, Lcom/jakex/makeupsenior/saveshare/compare/pic/j;-><init>()V
 
-    invoke-static {}, Lcom/jakex/makeupeditor/d/a;->a()Lcom/jakex/makeupeditor/d/a;
+    invoke-static {}, Lcom/jakex/ymluxseditor/d/a;->a()Lcom/jakex/ymluxseditor/d/a;
 
     move-result-object v9
 
-    invoke-virtual {v9}, Lcom/jakex/makeupeditor/d/a;->d()I
+    invoke-virtual {v9}, Lcom/jakex/ymluxseditor/d/a;->d()I
 
     move-result v9
 

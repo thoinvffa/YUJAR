@@ -26,7 +26,7 @@
 # instance fields
 .field final synthetic a:Lcom/jakex/makeupsenior/f;
 
-.field private b:Lcom/jakex/makeupcore/modular/a/b;
+.field private b:Lcom/jakex/ymluxscore/modular/a/b;
 
 .field private c:Ljava/util/concurrent/CountDownLatch;
 
@@ -39,11 +39,11 @@
 
     invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
 
-    invoke-static {}, Lcom/jakex/makeupcore/modular/a/b;->a()Lcom/jakex/makeupcore/modular/a/b;
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/a/b;->a()Lcom/jakex/ymluxscore/modular/a/b;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/jakex/makeupsenior/f$a;->b:Lcom/jakex/makeupcore/modular/a/b;
+    iput-object p1, p0, Lcom/jakex/makeupsenior/f$a;->b:Lcom/jakex/ymluxscore/modular/a/b;
 
     new-instance p1, Ljava/util/concurrent/CountDownLatch;
 
@@ -75,17 +75,17 @@
 
     if-eqz p1, :cond_0
 
-    invoke-static {}, Lcom/jakex/makeupeditor/d/a;->a()Lcom/jakex/makeupeditor/d/a;
+    invoke-static {}, Lcom/jakex/ymluxseditor/d/a;->a()Lcom/jakex/ymluxseditor/d/a;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/jakex/makeupeditor/d/a;->a(Lcom/jakex/makeupfacedetector/a;)V
+    invoke-virtual {v0, p1}, Lcom/jakex/ymluxseditor/d/a;->a(Lcom/jakex/makeupfacedetector/a;)V
 
-    invoke-static {}, Lcom/jakex/makeupeditor/d/a;->a()Lcom/jakex/makeupeditor/d/a;
+    invoke-static {}, Lcom/jakex/ymluxseditor/d/a;->a()Lcom/jakex/ymluxseditor/d/a;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/d/a;->c()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/d/a;->c()V
 
     :cond_0
     return-object p1
@@ -104,7 +104,7 @@
 .method protected varargs a([Ljava/lang/Void;)Lcom/jakex/makeupfacedetector/a;
     .locals 3
 
-    iget-object p1, p0, Lcom/jakex/makeupsenior/f$a;->b:Lcom/jakex/makeupcore/modular/a/b;
+    iget-object p1, p0, Lcom/jakex/makeupsenior/f$a;->b:Lcom/jakex/ymluxscore/modular/a/b;
 
     const/4 v0, 0x0
 
@@ -113,7 +113,7 @@
     return-object v0
 
     :cond_0
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/modular/a/b;->d()Landroid/graphics/Bitmap;
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/modular/a/b;->d()Landroid/graphics/Bitmap;
 
     move-result-object p1
 
@@ -154,7 +154,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/k;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/k;->a(Ljava/lang/String;)V
 
     invoke-direct {p0, p1}, Lcom/jakex/makeupsenior/f$a;->a(Landroid/graphics/Bitmap;)Lcom/jakex/makeupfacedetector/a;
 

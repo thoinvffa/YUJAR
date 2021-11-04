@@ -19,20 +19,20 @@
     return-object v0
 .end method
 
-.method public static getSingleTopStartIntent(Landroid/app/Activity;Lcom/jakex/makeupcore/modular/extra/AlbumExtra;)Landroid/content/Intent;
+.method public static getSingleTopStartIntent(Landroid/app/Activity;Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;)Landroid/content/Intent;
     .locals 0
 
-    invoke-static {p0, p1}, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a(Landroid/app/Activity;Lcom/jakex/makeupcore/modular/extra/AlbumExtra;)Landroid/content/Intent;
+    invoke-static {p0, p1}, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a(Landroid/app/Activity;Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;)Landroid/content/Intent;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static getStartIntent(Landroid/app/Activity;Lcom/jakex/makeupcore/modular/extra/AlbumExtra;I)Landroid/content/Intent;
+.method public static getStartIntent(Landroid/app/Activity;Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;I)Landroid/content/Intent;
     .locals 0
 
-    invoke-static {p0, p1, p2}, Lcom/jakex/makeupalbum/activity/AlbumActivity;->b(Landroid/app/Activity;Lcom/jakex/makeupcore/modular/extra/AlbumExtra;I)Landroid/content/Intent;
+    invoke-static {p0, p1, p2}, Lcom/jakex/makeupalbum/activity/AlbumActivity;->b(Landroid/app/Activity;Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;I)Landroid/content/Intent;
 
     move-result-object p0
 
@@ -57,18 +57,18 @@
     return-void
 .end method
 
-.method public static start(Landroid/app/Activity;Lcom/jakex/makeupcore/modular/extra/AlbumExtra;I)V
+.method public static start(Landroid/app/Activity;Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;I)V
     .locals 0
 
-    invoke-static {p0, p1, p2}, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a(Landroid/app/Activity;Lcom/jakex/makeupcore/modular/extra/AlbumExtra;I)V
+    invoke-static {p0, p1, p2}, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a(Landroid/app/Activity;Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;I)V
 
     return-void
 .end method
 
-.method public static start(Landroid/app/Activity;Lcom/jakex/makeupcore/modular/extra/AlbumExtra;II)V
+.method public static start(Landroid/app/Activity;Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;II)V
     .locals 0
 
-    invoke-static {p0, p1, p2, p3}, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a(Landroid/app/Activity;Lcom/jakex/makeupcore/modular/extra/AlbumExtra;II)V
+    invoke-static {p0, p1, p2, p3}, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a(Landroid/app/Activity;Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;II)V
 
     return-void
 .end method

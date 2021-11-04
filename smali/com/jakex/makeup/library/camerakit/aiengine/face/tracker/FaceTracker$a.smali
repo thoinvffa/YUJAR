@@ -35,16 +35,16 @@
 
 
 # virtual methods
-.method public a(Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)Lcom/jakex/makeup/library/camerakit/aiengine/face/tracker/FaceTracker$TrackState;
+.method public a(Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;)Lcom/jakex/makeup/library/camerakit/aiengine/face/tracker/FaceTracker$TrackState;
     .locals 1
 
     if-eqz p1, :cond_0
 
-    iget-object v0, p1, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFace;
+    iget-object v0, p1, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFace;
 
     if-eqz v0, :cond_0
 
-    iget-object p1, p1, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFace;
+    iget-object p1, p1, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFace;
 
     array-length p1, p1
 

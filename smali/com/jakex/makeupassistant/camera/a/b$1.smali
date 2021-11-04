@@ -155,7 +155,7 @@
 
     invoke-interface {p1}, Lcom/jakex/makeupassistant/camera/a/b$a;->b()V
 
-    invoke-static {p2}, Lcom/jakex/makeupcore/util/bj;->a(Ljava/lang/Boolean;)Z
+    invoke-static {p2}, Lcom/jakex/ymluxscore/util/bj;->a(Ljava/lang/Boolean;)Z
 
     move-result p1
 
@@ -164,7 +164,7 @@
     goto :goto_1
 
     :cond_5
-    invoke-static {p3}, Lcom/jakex/makeupcore/util/bj;->a(Ljava/lang/Boolean;)Z
+    invoke-static {p3}, Lcom/jakex/ymluxscore/util/bj;->a(Ljava/lang/Boolean;)Z
 
     move-result p1
 
@@ -175,7 +175,7 @@
     :cond_6
     if-eqz p1, :cond_8
 
-    invoke-static {p4}, Lcom/jakex/makeupcore/util/bj;->a(Ljava/lang/Boolean;)Z
+    invoke-static {p4}, Lcom/jakex/ymluxscore/util/bj;->a(Ljava/lang/Boolean;)Z
 
     move-result p1
 
@@ -242,7 +242,7 @@
     :cond_8
     iput-boolean v2, p0, Lcom/jakex/makeupassistant/camera/a/b$1;->c:Z
 
-    invoke-static {p2}, Lcom/jakex/makeupcore/util/bj;->a(Ljava/lang/Boolean;)Z
+    invoke-static {p2}, Lcom/jakex/ymluxscore/util/bj;->a(Ljava/lang/Boolean;)Z
 
     move-result p1
 
@@ -270,7 +270,7 @@
     goto :goto_3
 
     :cond_9
-    invoke-static {p3}, Lcom/jakex/makeupcore/util/bj;->a(Ljava/lang/Boolean;)Z
+    invoke-static {p3}, Lcom/jakex/ymluxscore/util/bj;->a(Ljava/lang/Boolean;)Z
 
     move-result p1
 

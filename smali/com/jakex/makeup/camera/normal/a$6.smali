@@ -38,7 +38,7 @@
 
     const-wide/16 v0, 0x12c
 
-    invoke-static {v0, v1}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->a(J)Z
+    invoke-static {v0, v1}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->a(J)Z
 
     move-result v0
 

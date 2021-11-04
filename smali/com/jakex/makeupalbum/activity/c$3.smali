@@ -159,9 +159,9 @@
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a:Lcom/jakex/makeupcore/modular/extra/AlbumExtra;
+    iget-object v0, v0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a:Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;
 
-    iget v0, v0, Lcom/jakex/makeupcore/modular/extra/AlbumExtra;->mFrom:I
+    iget v0, v0, Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;->mFrom:I
 
     if-ne v0, v2, :cond_7
 
@@ -278,7 +278,7 @@
     throw p1
 .end method
 
-.method public a(Lcom/jakex/makeupcore/bean/ModelAlbumBean;I)V
+.method public a(Lcom/jakex/ymluxscore/bean/ModelAlbumBean;I)V
     .locals 1
 
     iget-object p2, p0, Lcom/jakex/makeupalbum/activity/c$3;->a:Lcom/jakex/makeupalbum/activity/c;
@@ -304,7 +304,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p2, p1}, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a(Lcom/jakex/makeupcore/bean/ModelAlbumBean;)V
+    invoke-virtual {p2, p1}, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a(Lcom/jakex/ymluxscore/bean/ModelAlbumBean;)V
 
     return-void
 .end method

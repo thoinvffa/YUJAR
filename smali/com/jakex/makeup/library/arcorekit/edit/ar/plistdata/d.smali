@@ -77,7 +77,7 @@
     goto :goto_2
 
     :cond_1
-    invoke-virtual {p0}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/d;->d()Lcom/jakex/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
+    invoke-virtual {p0}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/d;->d()Lcom/jakex/ymlux/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
 
     move-result-object v0
 
@@ -86,7 +86,7 @@
     return-void
 
     :cond_2
-    invoke-virtual {v0}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;->getPartControl()[Lcom/jakex/mtlab/arkernelinterface/core/ARKernelPartControlInterfaceJNI;
+    invoke-virtual {v0}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;->getPartControl()[Lcom/jakex/ymlux/arkernelinterface/core/ARKernelPartControlInterfaceJNI;
 
     move-result-object v0
 
@@ -155,7 +155,7 @@
 
     move-result-object v4
 
-    check-cast v4, Lcom/jakex/mtlab/arkernelinterface/core/ParamControl/ARKernelParamSliderControlJNI;
+    check-cast v4, Lcom/jakex/ymlux/arkernelinterface/core/ParamControl/ARKernelParamSliderControlJNI;
 
     invoke-virtual {v0, v2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -167,9 +167,9 @@
 
     move-result v5
 
-    invoke-virtual {v4, v5}, Lcom/jakex/mtlab/arkernelinterface/core/ParamControl/ARKernelParamSliderControlJNI;->setCurrentValue(F)V
+    invoke-virtual {v4, v5}, Lcom/jakex/ymlux/arkernelinterface/core/ParamControl/ARKernelParamSliderControlJNI;->setCurrentValue(F)V
 
-    invoke-virtual {v4}, Lcom/jakex/mtlab/arkernelinterface/core/ParamControl/ARKernelParamSliderControlJNI;->dispatch()V
+    invoke-virtual {v4}, Lcom/jakex/ymlux/arkernelinterface/core/ParamControl/ARKernelParamSliderControlJNI;->dispatch()V
 
     goto :goto_1
 

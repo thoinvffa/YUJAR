@@ -1,4 +1,4 @@
-.class public Lcom/jakex/makeupselfie/camera/e;
+.class public Lcom/jakex/ymluxscoresf/camera/e;
 .super Ljava/lang/Object;
 
 
@@ -18,7 +18,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const-class v1, Lcom/jakex/makeupselfie/camera/e;
+    const-class v1, Lcom/jakex/ymluxscoresf/camera/e;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
@@ -30,7 +30,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/jakex/makeupselfie/camera/e;->a:Ljava/lang/String;
+    sput-object v0, Lcom/jakex/ymluxscoresf/camera/e;->a:Ljava/lang/String;
 
     return-void
 .end method
@@ -62,7 +62,7 @@
 .method private a(Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/ARWatermark;)I
     .locals 3
 
-    sget-object v0, Lcom/jakex/makeupselfie/camera/e$1;->a:[I
+    sget-object v0, Lcom/jakex/ymluxscoresf/camera/e$1;->a:[I
 
     invoke-virtual {p1}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/ARWatermark;->a()Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/ARWatermark$Location;
 
@@ -140,7 +140,7 @@
 
     sget-object v0, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/ARWatermark$a;->a:Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/ARWatermark$a;
 
-    invoke-direct {p0}, Lcom/jakex/makeupselfie/camera/e;->a()Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/ARWatermark$SpecificLanguage;
+    invoke-direct {p0}, Lcom/jakex/ymluxscoresf/camera/e;->a()Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/ARWatermark$SpecificLanguage;
 
     move-result-object v1
 
@@ -160,7 +160,7 @@
 
     if-eqz v0, :cond_1
 
-    invoke-direct {p0}, Lcom/jakex/makeupselfie/camera/e;->a()Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/ARWatermark$SpecificLanguage;
+    invoke-direct {p0}, Lcom/jakex/ymluxscoresf/camera/e;->a()Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/ARWatermark$SpecificLanguage;
 
     move-result-object v0
 
@@ -190,7 +190,7 @@
 
     iget p3, p3, Lcom/jakex/library/camera/MTCamera$m;->c:I
 
-    invoke-direct {p0, p3}, Lcom/jakex/makeupselfie/camera/e;->a(I)F
+    invoke-direct {p0, p3}, Lcom/jakex/ymluxscoresf/camera/e;->a(I)F
 
     move-result p3
 
@@ -207,7 +207,7 @@
     float-to-int v2, v2
 
     :cond_0
-    sget-object p3, Lcom/jakex/makeupselfie/camera/e;->a:Ljava/lang/String;
+    sget-object p3, Lcom/jakex/ymluxscoresf/camera/e;->a:Ljava/lang/String;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -231,7 +231,7 @@
 
     invoke-static {p3, v3}, Lcom/jakex/library/util/Debug/Debug;->c(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-direct {p0, p2}, Lcom/jakex/makeupselfie/camera/e;->a(Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/ARWatermark;)I
+    invoke-direct {p0, p2}, Lcom/jakex/ymluxscoresf/camera/e;->a(Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/ARWatermark;)I
 
     move-result p2
 
@@ -240,7 +240,7 @@
     goto :goto_0
 
     :cond_1
-    sget-object p1, Lcom/jakex/makeupselfie/camera/e;->a:Ljava/lang/String;
+    sget-object p1, Lcom/jakex/ymluxscoresf/camera/e;->a:Ljava/lang/String;
 
     const-string p2, "setVideoWatermark()...\u65e0\u6c34\u5370\u6216\u6c34\u5370\u914d\u7f6e\u5f02\u5e38"
 

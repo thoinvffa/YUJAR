@@ -1,11 +1,11 @@
 .class public Lcom/jakex/makeupassistant/report/c;
-.super Lcom/jakex/makeupcore/l/a;
+.super Lcom/jakex/ymluxscore/l/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupcore/l/a<",
+        "Lcom/jakex/ymluxscore/l/a<",
         "Lcom/jakex/makeupassistant/report/a$a;",
         ">;"
     }
@@ -16,7 +16,7 @@
 .method constructor <init>(Lcom/jakex/makeupassistant/report/a$a;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupcore/l/a;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscore/l/a;-><init>(Ljava/lang/Object;)V
 
     return-void
 .end method

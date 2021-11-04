@@ -249,7 +249,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -306,7 +306,7 @@
     :pswitch_0
     const-class v2, Lcom/jakex/makeupassistant/bean/result/skin/SkinReportResult$Wrinkle;
 
-    invoke-static {v1, v2}, Lcom/jakex/makeupcore/util/o;->b(Ljava/lang/String;Ljava/lang/Class;)Ljava/util/ArrayList;
+    invoke-static {v1, v2}, Lcom/jakex/ymluxscore/util/o;->b(Ljava/lang/String;Ljava/lang/Class;)Ljava/util/ArrayList;
 
     move-result-object v1
 
@@ -317,7 +317,7 @@
     :pswitch_1
     const-class v2, Lcom/jakex/makeupassistant/bean/result/skin/SkinReportResult$DarkCircle;
 
-    invoke-static {v1, v2}, Lcom/jakex/makeupcore/util/o;->b(Ljava/lang/String;Ljava/lang/Class;)Ljava/util/ArrayList;
+    invoke-static {v1, v2}, Lcom/jakex/ymluxscore/util/o;->b(Ljava/lang/String;Ljava/lang/Class;)Ljava/util/ArrayList;
 
     move-result-object v1
 
@@ -342,7 +342,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/jakex/makeupcore/util/o;->a(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;)Ljava/lang/Object;
+    invoke-static {v2, v3}, Lcom/jakex/ymluxscore/util/o;->a(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;)Ljava/lang/Object;
 
     move-result-object v2
 
@@ -371,7 +371,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/jakex/makeupcore/util/o;->a(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;)Ljava/lang/Object;
+    invoke-static {v2, v3}, Lcom/jakex/ymluxscore/util/o;->a(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;)Ljava/lang/Object;
 
     move-result-object v2
 
@@ -400,7 +400,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/jakex/makeupcore/util/o;->a(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;)Ljava/lang/Object;
+    invoke-static {v2, v3}, Lcom/jakex/ymluxscore/util/o;->a(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;)Ljava/lang/Object;
 
     move-result-object v2
 
@@ -429,7 +429,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/jakex/makeupcore/util/o;->a(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;)Ljava/lang/Object;
+    invoke-static {v2, v3}, Lcom/jakex/ymluxscore/util/o;->a(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;)Ljava/lang/Object;
 
     move-result-object v2
 
@@ -444,7 +444,7 @@
     :pswitch_6
     const-class v2, Lcom/jakex/makeupassistant/bean/result/skin/SkinReportResult$SkinQuality;
 
-    invoke-static {v1, v2}, Lcom/jakex/makeupcore/util/o;->a(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v1, v2}, Lcom/jakex/ymluxscore/util/o;->a(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -511,7 +511,7 @@
     :cond_0
     const-class v0, Lcom/jakex/makeupassistant/bean/SkinAnalysisNativeResult;
 
-    invoke-static {p1, v0}, Lcom/jakex/makeupcore/util/o;->a(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {p1, v0}, Lcom/jakex/ymluxscore/util/o;->a(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -531,7 +531,7 @@
 .method private p()V
     .locals 2
 
-    invoke-static {}, Lcom/jakex/makeupaccount/d/a;->i()Lcom/jakex/makeupcore/bean/AccountUser;
+    invoke-static {}, Lcom/jakex/makeupaccount/d/a;->i()Lcom/jakex/ymluxscore/bean/AccountUser;
 
     move-result-object v0
 
@@ -545,7 +545,7 @@
 
     invoke-direct {v1, p0}, Lcom/jakex/makeupassistant/e/a$6;-><init>(Lcom/jakex/makeupassistant/e/a;)V
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupassistant/b/a;->b(Lcom/jakex/makeupcore/net/callback/a;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/makeupassistant/b/a;->b(Lcom/jakex/ymluxscore/net/callback/a;)V
 
     :cond_0
     return-void
@@ -573,7 +573,7 @@
     :cond_0
     const-class v1, Lcom/jakex/makeupassistant/bean/result/AssistantAnalysisResult;
 
-    invoke-static {v0, v1}, Lcom/jakex/makeupcore/util/o;->a(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {v0, v1}, Lcom/jakex/ymluxscore/util/o;->a(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -616,7 +616,7 @@
 
     if-eqz p1, :cond_0
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/util/o;->a(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/jakex/ymluxscore/util/o;->a(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -653,7 +653,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/util/o;->a(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/jakex/ymluxscore/util/o;->a(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -760,7 +760,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/jakex/makeupcore/util/o;->b(Ljava/lang/Object;)Lcom/google/gson/JsonElement;
+    invoke-static {v3}, Lcom/jakex/ymluxscore/util/o;->b(Ljava/lang/Object;)Lcom/google/gson/JsonElement;
 
     move-result-object v3
 
@@ -769,7 +769,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/o;->a(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/o;->a(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -801,7 +801,7 @@
 
     invoke-direct {v0, p0}, Lcom/jakex/makeupassistant/e/a$5;-><init>(Lcom/jakex/makeupassistant/e/a;)V
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/i;->a(Ljava/lang/Runnable;)V
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/i;->a(Ljava/lang/Runnable;)V
 
     return-void
 .end method
@@ -866,7 +866,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -950,7 +950,7 @@
 
     move-result-object v6
 
-    invoke-static {v6}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v6}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v7
 
@@ -972,7 +972,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v3}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v6
 
@@ -1001,7 +1001,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v3}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v6
 
@@ -1032,7 +1032,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v3}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v7
 
@@ -1061,7 +1061,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v1}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v3
 

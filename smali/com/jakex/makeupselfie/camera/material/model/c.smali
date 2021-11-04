@@ -1,13 +1,13 @@
-.class public Lcom/jakex/makeupselfie/camera/material/model/c;
+.class public Lcom/jakex/ymluxscoresf/camera/material/model/c;
 .super Ljava/lang/Object;
 
 
 # instance fields
-.field private a:Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+.field private a:Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
 .field private b:Z
 
-.field private c:Lcom/jakex/makeupeditor/configuration/MouthType;
+.field private c:Lcom/jakex/ymluxseditor/configuration/MouthType;
 
 .field private d:Z
 
@@ -21,54 +21,54 @@
     return-void
 .end method
 
-.method public static a()Lcom/jakex/makeupselfie/camera/material/model/c;
+.method public static a()Lcom/jakex/ymluxscoresf/camera/material/model/c;
     .locals 2
 
-    new-instance v0, Lcom/jakex/makeupselfie/camera/material/model/c;
+    new-instance v0, Lcom/jakex/ymluxscoresf/camera/material/model/c;
 
-    invoke-direct {v0}, Lcom/jakex/makeupselfie/camera/material/model/c;-><init>()V
+    invoke-direct {v0}, Lcom/jakex/ymluxscoresf/camera/material/model/c;-><init>()V
 
     const/4 v1, 0x1
 
-    iput-boolean v1, v0, Lcom/jakex/makeupselfie/camera/material/model/c;->d:Z
+    iput-boolean v1, v0, Lcom/jakex/ymluxscoresf/camera/material/model/c;->d:Z
 
     return-object v0
 .end method
 
-.method public static a(Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;)Lcom/jakex/makeupselfie/camera/material/model/c;
+.method public static a(Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;)Lcom/jakex/ymluxscoresf/camera/material/model/c;
     .locals 1
 
-    new-instance v0, Lcom/jakex/makeupselfie/camera/material/model/c;
+    new-instance v0, Lcom/jakex/ymluxscoresf/camera/material/model/c;
 
-    invoke-direct {v0}, Lcom/jakex/makeupselfie/camera/material/model/c;-><init>()V
+    invoke-direct {v0}, Lcom/jakex/ymluxscoresf/camera/material/model/c;-><init>()V
 
-    iput-object p0, v0, Lcom/jakex/makeupselfie/camera/material/model/c;->a:Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    iput-object p0, v0, Lcom/jakex/ymluxscoresf/camera/material/model/c;->a:Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
     return-object v0
 .end method
 
-.method public static a(Lcom/jakex/makeupeditor/configuration/MouthType;)Lcom/jakex/makeupselfie/camera/material/model/c;
+.method public static a(Lcom/jakex/ymluxseditor/configuration/MouthType;)Lcom/jakex/ymluxscoresf/camera/material/model/c;
     .locals 2
 
-    new-instance v0, Lcom/jakex/makeupselfie/camera/material/model/c;
+    new-instance v0, Lcom/jakex/ymluxscoresf/camera/material/model/c;
 
-    invoke-direct {v0}, Lcom/jakex/makeupselfie/camera/material/model/c;-><init>()V
+    invoke-direct {v0}, Lcom/jakex/ymluxscoresf/camera/material/model/c;-><init>()V
 
     const/4 v1, 0x1
 
-    iput-boolean v1, v0, Lcom/jakex/makeupselfie/camera/material/model/c;->b:Z
+    iput-boolean v1, v0, Lcom/jakex/ymluxscoresf/camera/material/model/c;->b:Z
 
-    iput-object p0, v0, Lcom/jakex/makeupselfie/camera/material/model/c;->c:Lcom/jakex/makeupeditor/configuration/MouthType;
+    iput-object p0, v0, Lcom/jakex/ymluxscoresf/camera/material/model/c;->c:Lcom/jakex/ymluxseditor/configuration/MouthType;
 
     return-object v0
 .end method
 
 
 # virtual methods
-.method public b()Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+.method public b()Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/material/model/c;->a:Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/material/model/c;->a:Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
     return-object v0
 .end method
@@ -76,15 +76,15 @@
 .method public c()Z
     .locals 1
 
-    iget-boolean v0, p0, Lcom/jakex/makeupselfie/camera/material/model/c;->b:Z
+    iget-boolean v0, p0, Lcom/jakex/ymluxscoresf/camera/material/model/c;->b:Z
 
     return v0
 .end method
 
-.method public d()Lcom/jakex/makeupeditor/configuration/MouthType;
+.method public d()Lcom/jakex/ymluxseditor/configuration/MouthType;
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/material/model/c;->c:Lcom/jakex/makeupeditor/configuration/MouthType;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/material/model/c;->c:Lcom/jakex/ymluxseditor/configuration/MouthType;
 
     return-object v0
 .end method
@@ -116,29 +116,29 @@
     goto :goto_1
 
     :cond_1
-    check-cast p1, Lcom/jakex/makeupselfie/camera/material/model/c;
+    check-cast p1, Lcom/jakex/ymluxscoresf/camera/material/model/c;
 
-    iget-boolean v2, p0, Lcom/jakex/makeupselfie/camera/material/model/c;->b:Z
+    iget-boolean v2, p0, Lcom/jakex/ymluxscoresf/camera/material/model/c;->b:Z
 
-    iget-boolean v3, p1, Lcom/jakex/makeupselfie/camera/material/model/c;->b:Z
-
-    if-ne v2, v3, :cond_3
-
-    iget-boolean v2, p0, Lcom/jakex/makeupselfie/camera/material/model/c;->d:Z
-
-    iget-boolean v3, p1, Lcom/jakex/makeupselfie/camera/material/model/c;->d:Z
+    iget-boolean v3, p1, Lcom/jakex/ymluxscoresf/camera/material/model/c;->b:Z
 
     if-ne v2, v3, :cond_3
 
-    iget-object v2, p0, Lcom/jakex/makeupselfie/camera/material/model/c;->c:Lcom/jakex/makeupeditor/configuration/MouthType;
+    iget-boolean v2, p0, Lcom/jakex/ymluxscoresf/camera/material/model/c;->d:Z
 
-    iget-object v3, p1, Lcom/jakex/makeupselfie/camera/material/model/c;->c:Lcom/jakex/makeupeditor/configuration/MouthType;
+    iget-boolean v3, p1, Lcom/jakex/ymluxscoresf/camera/material/model/c;->d:Z
 
     if-ne v2, v3, :cond_3
 
-    iget-object v2, p0, Lcom/jakex/makeupselfie/camera/material/model/c;->a:Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    iget-object v2, p0, Lcom/jakex/ymluxscoresf/camera/material/model/c;->c:Lcom/jakex/ymluxseditor/configuration/MouthType;
 
-    iget-object p1, p1, Lcom/jakex/makeupselfie/camera/material/model/c;->a:Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    iget-object v3, p1, Lcom/jakex/ymluxscoresf/camera/material/model/c;->c:Lcom/jakex/ymluxseditor/configuration/MouthType;
+
+    if-ne v2, v3, :cond_3
+
+    iget-object v2, p0, Lcom/jakex/ymluxscoresf/camera/material/model/c;->a:Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
+
+    iget-object p1, p1, Lcom/jakex/ymluxscoresf/camera/material/model/c;->a:Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
     if-eqz v2, :cond_2
 
@@ -169,7 +169,7 @@
 .method public hashCode()I
     .locals 4
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/material/model/c;->a:Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/material/model/c;->a:Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
     const/4 v1, 0x0
 
@@ -185,13 +185,13 @@
     const/4 v0, 0x0
 
     :goto_0
-    iget-boolean v2, p0, Lcom/jakex/makeupselfie/camera/material/model/c;->b:Z
+    iget-boolean v2, p0, Lcom/jakex/ymluxscoresf/camera/material/model/c;->b:Z
 
-    iget-object v3, p0, Lcom/jakex/makeupselfie/camera/material/model/c;->c:Lcom/jakex/makeupeditor/configuration/MouthType;
+    iget-object v3, p0, Lcom/jakex/ymluxscoresf/camera/material/model/c;->c:Lcom/jakex/ymluxseditor/configuration/MouthType;
 
     if-eqz v3, :cond_1
 
-    invoke-virtual {v3}, Lcom/jakex/makeupeditor/configuration/MouthType;->hashCode()I
+    invoke-virtual {v3}, Lcom/jakex/ymluxseditor/configuration/MouthType;->hashCode()I
 
     move-result v1
 
@@ -206,7 +206,7 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    iget-boolean v1, p0, Lcom/jakex/makeupselfie/camera/material/model/c;->d:Z
+    iget-boolean v1, p0, Lcom/jakex/ymluxscoresf/camera/material/model/c;->d:Z
 
     add-int/2addr v0, v1
 

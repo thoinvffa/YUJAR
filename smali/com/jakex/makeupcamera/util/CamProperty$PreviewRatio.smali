@@ -253,7 +253,7 @@
 .method private static getMaxRenderSize_16_9()Lcom/jakex/library/camera/MTCamera$m;
     .locals 3
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/s;->b()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/util/s;->b()Z
 
     move-result v0
 
@@ -270,7 +270,7 @@
     return-object v0
 
     :cond_0
-    invoke-static {}, Lcom/jakex/makeupcore/util/s;->c()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/util/s;->c()Z
 
     move-result v0
 
@@ -301,7 +301,7 @@
 .method private static getMaxRenderSize_4_3()Lcom/jakex/library/camera/MTCamera$m;
     .locals 3
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/s;->b()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/util/s;->b()Z
 
     move-result v0
 
@@ -318,7 +318,7 @@
     return-object v0
 
     :cond_0
-    invoke-static {}, Lcom/jakex/makeupcore/util/s;->c()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/util/s;->c()Z
 
     move-result v0
 
@@ -355,7 +355,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/jakex/makeupcore/util/ah;->a(Landroid/content/Context;)I
+    invoke-static {v1}, Lcom/jakex/ymluxscore/util/ah;->a(Landroid/content/Context;)I
 
     move-result v1
 

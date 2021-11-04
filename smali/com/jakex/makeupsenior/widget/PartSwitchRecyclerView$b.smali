@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView$b;
-.super Lcom/jakex/makeupcore/b/d;
+.super Lcom/jakex/ymluxscore/b/d;
 
 
 # annotations
@@ -14,7 +14,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupcore/b/d<",
+        "Lcom/jakex/ymluxscore/b/d<",
         "Lcom/jakex/makeupsenior/configuration/PartEntity;",
         ">;"
     }
@@ -39,7 +39,7 @@
 
     iput-object p1, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView$b;->a:Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;
 
-    invoke-direct {p0, p2}, Lcom/jakex/makeupcore/b/d;-><init>(Ljava/util/List;)V
+    invoke-direct {p0, p2}, Lcom/jakex/ymluxscore/b/d;-><init>(Ljava/util/List;)V
 
     return-void
 .end method
@@ -62,7 +62,7 @@
     return p1
 .end method
 
-.method public a(Lcom/jakex/makeupcore/b/e;ILcom/jakex/makeupsenior/configuration/PartEntity;)V
+.method public a(Lcom/jakex/ymluxscore/b/e;ILcom/jakex/makeupsenior/configuration/PartEntity;)V
     .locals 3
 
     if-nez p3, :cond_0
@@ -72,19 +72,19 @@
     :cond_0
     sget p2, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->v3_beauty_switch_tv:I
 
-    invoke-virtual {p1, p2}, Lcom/jakex/makeupcore/b/e;->b(I)Landroid/widget/TextView;
+    invoke-virtual {p1, p2}, Lcom/jakex/ymluxscore/b/e;->b(I)Landroid/widget/TextView;
 
     move-result-object p2
 
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->v3_beauty_switch_iv:I
 
-    invoke-virtual {p1, v0}, Lcom/jakex/makeupcore/b/e;->c(I)Landroid/widget/ImageView;
+    invoke-virtual {p1, v0}, Lcom/jakex/ymluxscore/b/e;->c(I)Landroid/widget/ImageView;
 
     move-result-object v0
 
     sget v1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->v3_beauty_switch_new_iv:I
 
-    invoke-virtual {p1, v1}, Lcom/jakex/makeupcore/b/e;->c(I)Landroid/widget/ImageView;
+    invoke-virtual {p1, v1}, Lcom/jakex/ymluxscore/b/e;->c(I)Landroid/widget/ImageView;
 
     move-result-object p1
 
@@ -174,12 +174,12 @@
     return-void
 .end method
 
-.method public bridge synthetic a(Lcom/jakex/makeupcore/b/e;ILjava/lang/Object;)V
+.method public bridge synthetic a(Lcom/jakex/ymluxscore/b/e;ILjava/lang/Object;)V
     .locals 0
 
     check-cast p3, Lcom/jakex/makeupsenior/configuration/PartEntity;
 
-    invoke-virtual {p0, p1, p2, p3}, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView$b;->a(Lcom/jakex/makeupcore/b/e;ILcom/jakex/makeupsenior/configuration/PartEntity;)V
+    invoke-virtual {p0, p1, p2, p3}, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView$b;->a(Lcom/jakex/ymluxscore/b/e;ILcom/jakex/makeupsenior/configuration/PartEntity;)V
 
     return-void
 .end method

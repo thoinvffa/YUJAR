@@ -37,7 +37,7 @@
 
 
 # virtual methods
-.method public a(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;)J
+.method public a(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;)J
     .locals 2
 
     const-wide/16 v0, 0x0
@@ -45,17 +45,17 @@
     return-wide v0
 .end method
 
-.method public abstract a(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)V
+.method public abstract a(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;)V
 .end method
 
-.method public b(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)V
+.method public b(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;)V
     .locals 2
 
     iget-object v0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/face/a$b;->a:Lcom/jakex/makeup/library/camerakit/d/d;
 
     new-instance v1, Lcom/jakex/makeup/library/camerakit/aiengine/face/a$b$1;
 
-    invoke-direct {v1, p0, p1, p2}, Lcom/jakex/makeup/library/camerakit/aiengine/face/a$b$1;-><init>(Lcom/jakex/makeup/library/camerakit/aiengine/face/a$b;Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)V
+    invoke-direct {v1, p0, p1, p2}, Lcom/jakex/makeup/library/camerakit/aiengine/face/a$b$1;-><init>(Lcom/jakex/makeup/library/camerakit/aiengine/face/a$b;Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;)V
 
     invoke-virtual {v0, v1}, Lcom/jakex/makeup/library/camerakit/d/d;->a(Ljava/lang/Runnable;)V
 

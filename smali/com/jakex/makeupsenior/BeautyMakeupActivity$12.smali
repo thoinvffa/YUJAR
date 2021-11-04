@@ -85,11 +85,11 @@
     goto :goto_0
 
     :cond_0
-    sget-object v0, Lcom/jakex/makeupeditor/material/errorupload/MaterialErrorType;->HAIR_ERROR_DETECT:Lcom/jakex/makeupeditor/material/errorupload/MaterialErrorType;
+    sget-object v0, Lcom/jakex/ymluxseditor/material/errorupload/MaterialErrorType;->HAIR_ERROR_DETECT:Lcom/jakex/ymluxseditor/material/errorupload/MaterialErrorType;
 
     const-string v1, ""
 
-    invoke-static {v0, v1, v1, v1, v1}, Lcom/jakex/makeupeditor/material/errorupload/d;->a(Lcom/jakex/makeupeditor/material/errorupload/MaterialErrorType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1, v1, v1, v1}, Lcom/jakex/ymluxseditor/material/errorupload/d;->a(Lcom/jakex/ymluxseditor/material/errorupload/MaterialErrorType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 

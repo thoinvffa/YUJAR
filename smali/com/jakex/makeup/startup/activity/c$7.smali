@@ -38,7 +38,7 @@
 
     const/4 v0, 0x0
 
-    invoke-static {v0}, Lcom/jakex/makeupeditor/a/a/f;->b(Ljava/util/List;)Ljava/util/List;
+    invoke-static {v0}, Lcom/jakex/ymluxseditor/a/a/f;->b(Ljava/util/List;)Ljava/util/List;
 
     move-result-object v0
 
@@ -50,9 +50,9 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/jakex/makeupselfie/camera/g/c$l;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/jakex/ymluxscoresf/camera/g/c$l;->a(Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/jakex/makeupselfie/a/a/a;->a()Ljava/util/List;
+    invoke-static {}, Lcom/jakex/ymluxscoresf/a/a/a;->a()Ljava/util/List;
 
     move-result-object v0
 
@@ -64,7 +64,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/jakex/makeupselfie/camera/g/c$k;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/jakex/ymluxscoresf/camera/g/c$k;->a(Ljava/lang/String;)V
 
     return-void
 .end method

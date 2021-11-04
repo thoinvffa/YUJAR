@@ -56,7 +56,7 @@
 
     iget-object p1, p0, Lcom/jakex/makeupalbum/a/a$a$1;->a:Ljava/lang/Object;
 
-    instance-of p1, p1, Lcom/jakex/makeupcore/bean/ModelAlbumBean;
+    instance-of p1, p1, Lcom/jakex/ymluxscore/bean/ModelAlbumBean;
 
     if-eqz p1, :cond_0
 
@@ -70,11 +70,11 @@
 
     iget-object v0, p0, Lcom/jakex/makeupalbum/a/a$a$1;->a:Ljava/lang/Object;
 
-    check-cast v0, Lcom/jakex/makeupcore/bean/ModelAlbumBean;
+    check-cast v0, Lcom/jakex/ymluxscore/bean/ModelAlbumBean;
 
     iget v1, p0, Lcom/jakex/makeupalbum/a/a$a$1;->b:I
 
-    invoke-interface {p1, v0, v1}, Lcom/jakex/makeupalbum/a/a$c;->a(Lcom/jakex/makeupcore/bean/ModelAlbumBean;I)V
+    invoke-interface {p1, v0, v1}, Lcom/jakex/makeupalbum/a/a$c;->a(Lcom/jakex/ymluxscore/bean/ModelAlbumBean;I)V
 
     goto :goto_0
 

@@ -1,4 +1,4 @@
-.class public Lcom/jakex/makeupselfie/camera/ar/a/b;
+.class public Lcom/jakex/ymluxscoresf/camera/ar/a/b;
 .super Ljava/lang/Object;
 
 
@@ -18,7 +18,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const-class v1, Lcom/jakex/makeupselfie/camera/ar/a/b;
+    const-class v1, Lcom/jakex/ymluxscoresf/camera/ar/a/b;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
@@ -30,7 +30,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/jakex/makeupselfie/camera/ar/a/b;->a:Ljava/lang/String;
+    sput-object v0, Lcom/jakex/ymluxscoresf/camera/ar/a/b;->a:Ljava/lang/String;
 
     return-void
 .end method
@@ -54,7 +54,7 @@
 
     move-result v0
 
-    sget-object v1, Lcom/jakex/makeupselfie/camera/ar/a/b;->a:Ljava/lang/String;
+    sget-object v1, Lcom/jakex/ymluxscoresf/camera/ar/a/b;->a:Ljava/lang/String;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -82,17 +82,17 @@
 
     move-result-object v0
 
-    invoke-static {}, Lcom/jakex/makeupcore/e/Aa;->c()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/e/Aa;->c()Z
 
     move-result v1
 
     invoke-virtual {v0, v1}, Lcom/jakex/d/a;->a(Z)V
 
-    invoke-static {}, Lcom/jakex/makeupcore/e/Aa;->b()Lcom/jakex/makeupcore/e/Aa$BB;
+    invoke-static {}, Lcom/jakex/ymluxscore/e/Aa;->b()Lcom/jakex/ymluxscore/e/Aa$BB;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/jakex/makeupcore/e/Aa$BB;->d()I
+    invoke-virtual {v1}, Lcom/jakex/ymluxscore/e/Aa$BB;->d()I
 
     move-result v1
 
@@ -106,17 +106,17 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/jakex/d/a;->a(J)V
 
-    new-instance v1, Lcom/jakex/makeupselfie/camera/ar/a/b$1;
+    new-instance v1, Lcom/jakex/ymluxscoresf/camera/ar/a/b$1;
 
-    invoke-direct {v1}, Lcom/jakex/makeupselfie/camera/ar/a/b$1;-><init>()V
+    invoke-direct {v1}, Lcom/jakex/ymluxscoresf/camera/ar/a/b$1;-><init>()V
 
     invoke-virtual {v0, v1}, Lcom/jakex/d/a;->a(Lcom/jakex/d/a$a;)V
 
-    invoke-static {}, Lcom/jakex/makeupcore/e/Aa;->b()Lcom/jakex/makeupcore/e/Aa$BB;
+    invoke-static {}, Lcom/jakex/ymluxscore/e/Aa;->b()Lcom/jakex/ymluxscore/e/Aa$BB;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/jakex/makeupcore/e/Aa$BB;->c()Z
+    invoke-virtual {v1}, Lcom/jakex/ymluxscore/e/Aa$BB;->c()Z
 
     move-result v1
 
@@ -134,7 +134,7 @@
 .method static synthetic c()Ljava/lang/String;
     .locals 1
 
-    sget-object v0, Lcom/jakex/makeupselfie/camera/ar/a/b;->a:Ljava/lang/String;
+    sget-object v0, Lcom/jakex/ymluxscoresf/camera/ar/a/b;->a:Ljava/lang/String;
 
     return-object v0
 .end method

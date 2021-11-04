@@ -2,7 +2,7 @@
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lcom/jakex/makeupcore/b/d$a;
+.implements Lcom/jakex/ymluxscore/b/d$a;
 
 
 # annotations
@@ -84,7 +84,7 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    check-cast p1, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
     if-nez p1, :cond_2
 
@@ -93,23 +93,23 @@
     :cond_2
     iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartColorRecyclerView$1;->a:Lcom/jakex/makeupsenior/widget/PartColorRecyclerView;
 
-    invoke-static {v0}, Lcom/jakex/makeupsenior/widget/PartColorRecyclerView;->a(Lcom/jakex/makeupsenior/widget/PartColorRecyclerView;)Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    invoke-static {v0}, Lcom/jakex/makeupsenior/widget/PartColorRecyclerView;->a(Lcom/jakex/makeupsenior/widget/PartColorRecyclerView;)Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
     move-result-object v0
 
     if-eqz v0, :cond_3
 
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;->getMaterialId()J
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;->getMaterialId()J
 
     move-result-wide v0
 
     iget-object v2, p0, Lcom/jakex/makeupsenior/widget/PartColorRecyclerView$1;->a:Lcom/jakex/makeupsenior/widget/PartColorRecyclerView;
 
-    invoke-static {v2}, Lcom/jakex/makeupsenior/widget/PartColorRecyclerView;->a(Lcom/jakex/makeupsenior/widget/PartColorRecyclerView;)Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    invoke-static {v2}, Lcom/jakex/makeupsenior/widget/PartColorRecyclerView;->a(Lcom/jakex/makeupsenior/widget/PartColorRecyclerView;)Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;->getMaterialId()J
+    invoke-virtual {v2}, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;->getMaterialId()J
 
     move-result-wide v2
 
@@ -126,7 +126,7 @@
     :cond_3
     iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartColorRecyclerView$1;->a:Lcom/jakex/makeupsenior/widget/PartColorRecyclerView;
 
-    invoke-static {v0, p1}, Lcom/jakex/makeupsenior/widget/PartColorRecyclerView;->a(Lcom/jakex/makeupsenior/widget/PartColorRecyclerView;Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;)Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    invoke-static {v0, p1}, Lcom/jakex/makeupsenior/widget/PartColorRecyclerView;->a(Lcom/jakex/makeupsenior/widget/PartColorRecyclerView;Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;)Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartColorRecyclerView$1;->a:Lcom/jakex/makeupsenior/widget/PartColorRecyclerView;
 
@@ -142,7 +142,7 @@
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartColorRecyclerView$1;->a:Lcom/jakex/makeupsenior/widget/PartColorRecyclerView;
 
-    invoke-static {v0}, Lcom/jakex/makeupsenior/widget/PartColorRecyclerView;->f(Lcom/jakex/makeupsenior/widget/PartColorRecyclerView;)Lcom/jakex/makeupcore/b/d;
+    invoke-static {v0}, Lcom/jakex/makeupsenior/widget/PartColorRecyclerView;->f(Lcom/jakex/makeupsenior/widget/PartColorRecyclerView;)Lcom/jakex/ymluxscore/b/d;
 
     move-result-object v0
 
@@ -152,11 +152,11 @@
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/b/d;->notifyItemChanged(I)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/b/d;->notifyItemChanged(I)V
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartColorRecyclerView$1;->a:Lcom/jakex/makeupsenior/widget/PartColorRecyclerView;
 
-    invoke-static {v0}, Lcom/jakex/makeupsenior/widget/PartColorRecyclerView;->g(Lcom/jakex/makeupsenior/widget/PartColorRecyclerView;)Lcom/jakex/makeupcore/b/d;
+    invoke-static {v0}, Lcom/jakex/makeupsenior/widget/PartColorRecyclerView;->g(Lcom/jakex/makeupsenior/widget/PartColorRecyclerView;)Lcom/jakex/ymluxscore/b/d;
 
     move-result-object v0
 
@@ -166,7 +166,7 @@
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/b/d;->notifyItemChanged(I)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/b/d;->notifyItemChanged(I)V
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartColorRecyclerView$1;->a:Lcom/jakex/makeupsenior/widget/PartColorRecyclerView;
 
@@ -186,7 +186,7 @@
 
     move-result-object p2
 
-    invoke-interface {p2, p1}, Lcom/jakex/makeupsenior/widget/PartColorRecyclerView$b;->a(Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;)V
+    invoke-interface {p2, p1}, Lcom/jakex/makeupsenior/widget/PartColorRecyclerView$b;->a(Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;)V
 
     :cond_4
     :goto_0

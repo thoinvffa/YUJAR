@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeupcamera/b/b;
-.super Lcom/jakex/makeupcore/dialog/a;
+.super Lcom/jakex/ymluxscore/dialog/a;
 
 
 # annotations
@@ -15,7 +15,7 @@
 .method constructor <init>(Landroid/content/Context;I)V
     .locals 0
 
-    invoke-direct {p0, p1, p2}, Lcom/jakex/makeupcore/dialog/a;-><init>(Landroid/content/Context;I)V
+    invoke-direct {p0, p1, p2}, Lcom/jakex/ymluxscore/dialog/a;-><init>(Landroid/content/Context;I)V
 
     return-void
 .end method

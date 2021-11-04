@@ -5,7 +5,7 @@
 # instance fields
 .field private a:Z
 
-.field private b:Lcom/jakex/makeupcore/dialog/e;
+.field private b:Lcom/jakex/ymluxscore/dialog/e;
 
 .field private c:J
 
@@ -40,11 +40,11 @@
 .method protected a()V
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupalbum/activity/a;->b:Lcom/jakex/makeupcore/dialog/e;
+    iget-object v0, p0, Lcom/jakex/makeupalbum/activity/a;->b:Lcom/jakex/ymluxscore/dialog/e;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/dialog/e;->dismiss()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/dialog/e;->dismiss()V
 
     :cond_0
     return-void
@@ -90,31 +90,31 @@
 
     invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->onCreate(Landroid/os/Bundle;)V
 
-    new-instance p1, Lcom/jakex/makeupcore/dialog/e$a;
+    new-instance p1, Lcom/jakex/ymluxscore/dialog/e$a;
 
     invoke-virtual {p0}, Lcom/jakex/makeupalbum/activity/a;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v0
 
-    invoke-direct {p1, v0}, Lcom/jakex/makeupcore/dialog/e$a;-><init>(Landroid/content/Context;)V
+    invoke-direct {p1, v0}, Lcom/jakex/ymluxscore/dialog/e$a;-><init>(Landroid/content/Context;)V
 
     const/4 v0, 0x0
 
-    invoke-virtual {p1, v0}, Lcom/jakex/makeupcore/dialog/e$a;->a(Z)Lcom/jakex/makeupcore/dialog/e$a;
+    invoke-virtual {p1, v0}, Lcom/jakex/ymluxscore/dialog/e$a;->a(Z)Lcom/jakex/ymluxscore/dialog/e$a;
 
     move-result-object p1
 
     const/4 v0, 0x1
 
-    invoke-virtual {p1, v0}, Lcom/jakex/makeupcore/dialog/e$a;->b(Z)Lcom/jakex/makeupcore/dialog/e$a;
+    invoke-virtual {p1, v0}, Lcom/jakex/ymluxscore/dialog/e$a;->b(Z)Lcom/jakex/ymluxscore/dialog/e$a;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/dialog/e$a;->a()Lcom/jakex/makeupcore/dialog/e;
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/dialog/e$a;->a()Lcom/jakex/ymluxscore/dialog/e;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/jakex/makeupalbum/activity/a;->b:Lcom/jakex/makeupcore/dialog/e;
+    iput-object p1, p0, Lcom/jakex/makeupalbum/activity/a;->b:Lcom/jakex/ymluxscore/dialog/e;
 
     return-void
 .end method
@@ -124,11 +124,11 @@
 
     invoke-super {p0}, Landroidx/fragment/app/Fragment;->onDestroy()V
 
-    iget-object v0, p0, Lcom/jakex/makeupalbum/activity/a;->b:Lcom/jakex/makeupcore/dialog/e;
+    iget-object v0, p0, Lcom/jakex/makeupalbum/activity/a;->b:Lcom/jakex/ymluxscore/dialog/e;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/dialog/e;->dismiss()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/dialog/e;->dismiss()V
 
     :cond_0
     return-void

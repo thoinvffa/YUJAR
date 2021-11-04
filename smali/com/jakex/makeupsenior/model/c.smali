@@ -73,7 +73,7 @@
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/model/c;->a:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -184,10 +184,10 @@
     return-void
 .end method
 
-.method public a(Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;)V
+.method public a(Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;)V
     .locals 2
 
-    invoke-static {p1}, Lcom/jakex/makeupsenior/model/g;->a(Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;)Z
+    invoke-static {p1}, Lcom/jakex/makeupsenior/model/g;->a(Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;)Z
 
     move-result v0
 
@@ -196,7 +196,7 @@
     return-void
 
     :cond_0
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;->getNativePosition()I
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;->getNativePosition()I
 
     move-result p1
 

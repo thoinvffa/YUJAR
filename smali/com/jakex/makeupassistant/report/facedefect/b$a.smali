@@ -1,5 +1,5 @@
 .class Lcom/jakex/makeupassistant/report/facedefect/b$a;
-.super Lcom/jakex/makeupcore/util/bm;
+.super Lcom/jakex/ymluxscore/util/bm;
 
 
 # annotations
@@ -14,7 +14,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupcore/util/bm<",
+        "Lcom/jakex/ymluxscore/util/bm<",
         "Lcom/jakex/makeupassistant/report/facedefect/b;",
         "Ljava/lang/Void;",
         "Ljava/lang/Void;",
@@ -34,7 +34,7 @@
 .method constructor <init>(Lcom/jakex/makeupassistant/report/facedefect/b;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupcore/util/bm;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscore/util/bm;-><init>(Ljava/lang/Object;)V
 
     return-void
 .end method

@@ -14,12 +14,12 @@
 
 
 # direct methods
-.method static a(Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkin;)F
+.method static a(Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkin;)F
     .locals 1
 
-    iget-object p0, p0, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkin;->lipColorSampler:Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/attribute/MTSkinTone;
+    iget-object p0, p0, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkin;->lipColorSampler:Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/attribute/MTSkinTone;
 
-    iget p0, p0, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/attribute/MTSkinTone;->skinBrightLvl:I
+    iget p0, p0, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/attribute/MTSkinTone;->skinBrightLvl:I
 
     if-ltz p0, :cond_0
 
@@ -41,12 +41,12 @@
     return p0
 .end method
 
-.method static b(Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkin;)F
+.method static b(Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkin;)F
     .locals 0
 
-    iget-object p0, p0, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkin;->skinToneSampler:Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/attribute/MTSkinTone;
+    iget-object p0, p0, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkin;->skinToneSampler:Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/attribute/MTSkinTone;
 
-    iget p0, p0, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/attribute/MTSkinTone;->skinTone24:I
+    iget p0, p0, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/attribute/MTSkinTone;->skinTone24:I
 
     packed-switch p0, :pswitch_data_0
 

@@ -3,7 +3,7 @@
 
 
 # direct methods
-.method public static a(Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;)Z
+.method public static a(Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;)Z
     .locals 6
 
     const/4 v0, 0x0
@@ -13,7 +13,7 @@
     return v0
 
     :cond_0
-    invoke-virtual {p0}, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;->getMaterialId()J
+    invoke-virtual {p0}, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;->getMaterialId()J
 
     move-result-wide v1
 
@@ -26,18 +26,18 @@
     return v0
 
     :cond_1
-    invoke-static {p0}, Lcom/jakex/makeupcore/bean/download/b;->a(Lcom/jakex/makeupcore/bean/download/a;)Lcom/jakex/makeupcore/bean/download/DownloadState;
+    invoke-static {p0}, Lcom/jakex/ymluxscore/bean/download/b;->a(Lcom/jakex/ymluxscore/bean/download/a;)Lcom/jakex/ymluxscore/bean/download/DownloadState;
 
     move-result-object v1
 
-    sget-object v2, Lcom/jakex/makeupcore/bean/download/DownloadState;->FINISH:Lcom/jakex/makeupcore/bean/download/DownloadState;
+    sget-object v2, Lcom/jakex/ymluxscore/bean/download/DownloadState;->FINISH:Lcom/jakex/ymluxscore/bean/download/DownloadState;
 
     if-eq v1, v2, :cond_2
 
     return v0
 
     :cond_2
-    invoke-virtual {p0}, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;->getIsLocal()Z
+    invoke-virtual {p0}, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;->getIsLocal()Z
 
     move-result v1
 
@@ -46,13 +46,13 @@
     return v0
 
     :cond_3
-    invoke-virtual {p0}, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;->getNeedShow()Z
+    invoke-virtual {p0}, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;->getNeedShow()Z
 
     move-result v1
 
     if-eqz v1, :cond_4
 
-    invoke-virtual {p0}, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;->getUpdateFlag()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;->getUpdateFlag()Ljava/lang/String;
 
     move-result-object p0
 

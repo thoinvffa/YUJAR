@@ -69,13 +69,13 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/jakex/mtlab/arkernelinterface/core/ParamControl/ARKernelParamCheckControlJNI;
+    check-cast v1, Lcom/jakex/ymlux/arkernelinterface/core/ParamControl/ARKernelParamCheckControlJNI;
 
     iget-boolean v2, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/l;->b:Z
 
-    invoke-virtual {v1, v2}, Lcom/jakex/mtlab/arkernelinterface/core/ParamControl/ARKernelParamCheckControlJNI;->setCurrentValue(Z)V
+    invoke-virtual {v1, v2}, Lcom/jakex/ymlux/arkernelinterface/core/ParamControl/ARKernelParamCheckControlJNI;->setCurrentValue(Z)V
 
-    invoke-virtual {v1}, Lcom/jakex/mtlab/arkernelinterface/core/ParamControl/ARKernelParamCheckControlJNI;->dispatch()V
+    invoke-virtual {v1}, Lcom/jakex/ymlux/arkernelinterface/core/ParamControl/ARKernelParamCheckControlJNI;->dispatch()V
 
     goto :goto_0
 

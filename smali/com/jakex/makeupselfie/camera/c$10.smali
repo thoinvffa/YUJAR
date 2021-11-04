@@ -1,4 +1,4 @@
-.class Lcom/jakex/makeupselfie/camera/c$10;
+.class Lcom/jakex/ymluxscoresf/camera/c$10;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -7,7 +7,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/jakex/makeupselfie/camera/c;
+    value = Lcom/jakex/ymluxscoresf/camera/c;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,14 +17,14 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/jakex/makeupselfie/camera/c;
+.field final synthetic a:Lcom/jakex/ymluxscoresf/camera/c;
 
 
 # direct methods
-.method constructor <init>(Lcom/jakex/makeupselfie/camera/c;)V
+.method constructor <init>(Lcom/jakex/ymluxscoresf/camera/c;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/camera/c$10;->a:Lcom/jakex/makeupselfie/camera/c;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/camera/c$10;->a:Lcom/jakex/ymluxscoresf/camera/c;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -38,7 +38,7 @@
 
     const/16 v0, 0x12c
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/g/a;->c(I)Z
+    invoke-static {v0}, Lcom/jakex/ymluxscore/g/a;->c(I)Z
 
     move-result v0
 
@@ -55,17 +55,17 @@
 
     if-ne p1, v0, :cond_1
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/c$10;->a:Lcom/jakex/makeupselfie/camera/c;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/c$10;->a:Lcom/jakex/ymluxscoresf/camera/c;
 
-    invoke-virtual {p1}, Lcom/jakex/makeupselfie/camera/c;->d()V
+    invoke-virtual {p1}, Lcom/jakex/ymluxscoresf/camera/c;->d()V
 
-    invoke-static {}, Lcom/jakex/makeupselfie/camera/g/c$m;->a()V
+    invoke-static {}, Lcom/jakex/ymluxscoresf/camera/g/c$m;->a()V
 
-    invoke-static {}, Lcom/jakex/makeupselfie/camera/g/a;->a()Lcom/jakex/makeupselfie/camera/g/a;
+    invoke-static {}, Lcom/jakex/ymluxscoresf/camera/g/a;->a()Lcom/jakex/ymluxscoresf/camera/g/a;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/jakex/makeupselfie/camera/g/a;->b()V
+    invoke-virtual {p1}, Lcom/jakex/ymluxscoresf/camera/g/a;->b()V
 
     :cond_1
     return-void

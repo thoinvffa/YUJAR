@@ -1,10 +1,10 @@
-.class public Lcom/jakex/makeupselfie/save/a/a$c;
+.class public Lcom/jakex/ymluxscoresf/save/a/a$c;
 .super Ljava/lang/Object;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/jakex/makeupselfie/save/a/a;
+    value = Lcom/jakex/ymluxscoresf/save/a/a;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -23,11 +23,11 @@
 
     invoke-direct {v0, v1}, Ljava/util/HashMap;-><init>(I)V
 
-    invoke-static {}, Lcom/jakex/makeupselfie/save/b;->a()Lcom/jakex/makeupselfie/save/b;
+    invoke-static {}, Lcom/jakex/ymluxscoresf/save/b;->a()Lcom/jakex/ymluxscoresf/save/b;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/jakex/makeupselfie/save/b;->c()Lcom/jakex/makeupfacedetector/a;
+    invoke-virtual {v1}, Lcom/jakex/ymluxscoresf/save/b;->c()Lcom/jakex/makeupfacedetector/a;
 
     move-result-object v1
 
@@ -80,11 +80,11 @@
 
     invoke-virtual {v0, v2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-static {}, Lcom/jakex/makeupselfie/save/b;->a()Lcom/jakex/makeupselfie/save/b;
+    invoke-static {}, Lcom/jakex/ymluxscoresf/save/b;->a()Lcom/jakex/ymluxscoresf/save/b;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/jakex/makeupselfie/save/b;->b()Z
+    invoke-virtual {v1}, Lcom/jakex/ymluxscoresf/save/b;->b()Z
 
     move-result v1
 
@@ -95,11 +95,11 @@
     invoke-virtual {v0, v1, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_3
-    invoke-static {}, Lcom/jakex/makeupselfie/save/b;->a()Lcom/jakex/makeupselfie/save/b;
+    invoke-static {}, Lcom/jakex/ymluxscoresf/save/b;->a()Lcom/jakex/ymluxscoresf/save/b;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/jakex/makeupselfie/save/b;->l()Z
+    invoke-virtual {v1}, Lcom/jakex/ymluxscoresf/save/b;->l()Z
 
     move-result v1
 
@@ -167,11 +167,11 @@
 .method public static b()V
     .locals 5
 
-    invoke-static {}, Lcom/jakex/makeupselfie/save/b;->a()Lcom/jakex/makeupselfie/save/b;
+    invoke-static {}, Lcom/jakex/ymluxscoresf/save/b;->a()Lcom/jakex/ymluxscoresf/save/b;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupselfie/save/b;->j()[I
+    invoke-virtual {v0}, Lcom/jakex/ymluxscoresf/save/b;->j()[I
 
     move-result-object v0
 
@@ -414,11 +414,11 @@
 .method public static c()V
     .locals 4
 
-    invoke-static {}, Lcom/jakex/makeupselfie/save/b;->a()Lcom/jakex/makeupselfie/save/b;
+    invoke-static {}, Lcom/jakex/ymluxscoresf/save/b;->a()Lcom/jakex/ymluxscoresf/save/b;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupselfie/save/b;->k()Lcom/jakex/makeupcore/bean/MakeupFilter;
+    invoke-virtual {v0}, Lcom/jakex/ymluxscoresf/save/b;->k()Lcom/jakex/ymluxscore/bean/MakeupFilter;
 
     move-result-object v0
 
@@ -433,7 +433,7 @@
 
     invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    invoke-static {v0}, Lcom/jakex/makeupeditor/c/a;->a(Lcom/jakex/makeupcore/bean/MakeupFilter;)Z
+    invoke-static {v0}, Lcom/jakex/ymluxseditor/c/a;->a(Lcom/jakex/ymluxscore/bean/MakeupFilter;)Z
 
     move-result v2
 
@@ -448,7 +448,7 @@
     goto :goto_0
 
     :cond_1
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/bean/MakeupFilter;->getFilterId()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/bean/MakeupFilter;->getFilterId()Ljava/lang/String;
 
     move-result-object v2
 
@@ -458,7 +458,7 @@
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {v0}, Lcom/jakex/makeupeditor/c/a;->b(Lcom/jakex/makeupcore/bean/MakeupFilter;)I
+    invoke-static {v0}, Lcom/jakex/ymluxseditor/c/a;->b(Lcom/jakex/ymluxscore/bean/MakeupFilter;)I
 
     move-result v0
 

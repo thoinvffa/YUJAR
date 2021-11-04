@@ -1,10 +1,10 @@
-.class public interface abstract Lcom/jakex/makeupselfie/operating/theme/OperatingThemeListFragment$b;
+.class public interface abstract Lcom/jakex/ymluxscoresf/operating/theme/OperatingThemeListFragment$b;
 .super Ljava/lang/Object;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/jakex/makeupselfie/operating/theme/OperatingThemeListFragment;
+    value = Lcom/jakex/ymluxscoresf/operating/theme/OperatingThemeListFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -14,5 +14,5 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;)V
+.method public abstract a(Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;)V
 .end method

@@ -15,7 +15,7 @@
 
 .field private b:Lmakeup/image/request/h;
 
-.field private c:Lcom/jakex/makeupcore/widget/CircleImageView;
+.field private c:Lcom/jakex/ymluxscore/widget/CircleImageView;
 
 .field private d:Landroid/widget/TextView;
 
@@ -44,13 +44,13 @@
 
     sget p1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$drawable;->btn_header_default:I
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/glide/e;->a(I)Lmakeup/image/request/h;
+    invoke-static {p1}, Lcom/jakex/ymluxscore/glide/e;->a(I)Lmakeup/image/request/h;
 
     move-result-object p1
 
-    new-instance v0, Lcom/jakex/makeupcore/glide/b/a;
+    new-instance v0, Lcom/jakex/ymluxscore/glide/b/a;
 
-    invoke-direct {v0}, Lcom/jakex/makeupcore/glide/b/a;-><init>()V
+    invoke-direct {v0}, Lcom/jakex/ymluxscore/glide/b/a;-><init>()V
 
     invoke-virtual {p1, v0}, Lmakeup/image/request/h;->a(Lmakeup/image/load/h;)Lmakeup/image/request/a;
 
@@ -66,9 +66,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/jakex/makeupcore/widget/CircleImageView;
+    check-cast p1, Lcom/jakex/ymluxscore/widget/CircleImageView;
 
-    iput-object p1, p0, Lcom/jakex/makeupassistant/report/b;->c:Lcom/jakex/makeupcore/widget/CircleImageView;
+    iput-object p1, p0, Lcom/jakex/makeupassistant/report/b;->c:Lcom/jakex/ymluxscore/widget/CircleImageView;
 
     sget p1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->assistant_facial_report_user_name_tv:I
 
@@ -152,29 +152,29 @@
 
     invoke-virtual {p1, p2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    invoke-static {}, Lcom/jakex/makeupaccount/d/a;->i()Lcom/jakex/makeupcore/bean/AccountUser;
+    invoke-static {}, Lcom/jakex/makeupaccount/d/a;->i()Lcom/jakex/ymluxscore/bean/AccountUser;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    iget-object p2, p0, Lcom/jakex/makeupassistant/report/b;->c:Lcom/jakex/makeupcore/widget/CircleImageView;
+    iget-object p2, p0, Lcom/jakex/makeupassistant/report/b;->c:Lcom/jakex/ymluxscore/widget/CircleImageView;
 
-    invoke-static {p2}, Lcom/jakex/makeupcore/glide/a;->a(Landroid/widget/ImageView;)Lcom/jakex/makeupcore/glide/a;
+    invoke-static {p2}, Lcom/jakex/ymluxscore/glide/a;->a(Landroid/widget/ImageView;)Lcom/jakex/ymluxscore/glide/a;
 
     move-result-object p2
 
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/bean/AccountUser;->getAvatar()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/bean/AccountUser;->getAvatar()Ljava/lang/String;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/jakex/makeupassistant/report/b;->b:Lmakeup/image/request/h;
 
-    invoke-virtual {p2, v0, v1}, Lcom/jakex/makeupcore/glide/a;->a(Ljava/lang/Object;Lmakeup/image/request/h;)V
+    invoke-virtual {p2, v0, v1}, Lcom/jakex/ymluxscore/glide/a;->a(Ljava/lang/Object;Lmakeup/image/request/h;)V
 
     iget-object p2, p0, Lcom/jakex/makeupassistant/report/b;->d:Landroid/widget/TextView;
 
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/bean/AccountUser;->getName()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/bean/AccountUser;->getName()Ljava/lang/String;
 
     move-result-object p1
 

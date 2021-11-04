@@ -100,25 +100,25 @@
 .method private a(Lnet/lucode/hackware/magicindicator/MagicIndicator;)V
     .locals 4
 
-    new-instance v0, Lcom/jakex/makeupcore/widget/indicator/c;
+    new-instance v0, Lcom/jakex/ymluxscore/widget/indicator/c;
 
     invoke-virtual {p1}, Lnet/lucode/hackware/magicindicator/MagicIndicator;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/jakex/makeupcore/widget/indicator/c;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v1}, Lcom/jakex/ymluxscore/widget/indicator/c;-><init>(Landroid/content/Context;)V
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/widget/indicator/c;->setFollowTouch(Z)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/widget/indicator/c;->setFollowTouch(Z)V
 
     const/4 v1, 0x1
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/widget/indicator/c;->setPreviewAdjacentTitle(Z)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/widget/indicator/c;->setPreviewAdjacentTitle(Z)V
 
     iget-object v1, p0, Lcom/jakex/makeupassistant/report/skin/a;->e:Lnet/lucode/hackware/magicindicator/buildins/commonnavigator/a/a;
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/widget/indicator/c;->setAdapter(Lnet/lucode/hackware/magicindicator/buildins/commonnavigator/a/a;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/widget/indicator/c;->setAdapter(Lnet/lucode/hackware/magicindicator/buildins/commonnavigator/a/a;)V
 
     invoke-virtual {p1, v0}, Lnet/lucode/hackware/magicindicator/MagicIndicator;->setNavigator(Lnet/lucode/hackware/magicindicator/a/a;)V
 

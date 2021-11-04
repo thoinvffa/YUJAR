@@ -74,7 +74,7 @@
 
     iput-object v1, v0, Lcom/jakex/makeupsenior/bean/HairColorExtra;->mPointMask:[F
 
-    invoke-static {}, Lcom/jakex/makeupcore/c/a/b;->a()V
+    invoke-static {}, Lcom/jakex/ymluxscore/c/a/b;->a()V
 
     invoke-static {}, Lcom/jakex/makeupsenior/model/e;->a()Lcom/jakex/makeupsenior/model/e;
 

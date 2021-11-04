@@ -1,10 +1,10 @@
-.class Lcom/jakex/makeupselfie/camera/f/b$1;
-.super Lcom/jakex/makeupcore/widget/scroll/a$a;
+.class Lcom/jakex/ymluxscoresf/camera/f/b$1;
+.super Lcom/jakex/ymluxscore/widget/scroll/a$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/jakex/makeupselfie/camera/f/b;-><init>(Lnet/lucode/hackware/magicindicator/MagicIndicator;)V
+    value = Lcom/jakex/ymluxscoresf/camera/f/b;-><init>(Lnet/lucode/hackware/magicindicator/MagicIndicator;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -14,16 +14,16 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/jakex/makeupselfie/camera/f/b;
+.field final synthetic a:Lcom/jakex/ymluxscoresf/camera/f/b;
 
 
 # direct methods
-.method constructor <init>(Lcom/jakex/makeupselfie/camera/f/b;)V
+.method constructor <init>(Lcom/jakex/ymluxscoresf/camera/f/b;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/camera/f/b$1;->a:Lcom/jakex/makeupselfie/camera/f/b;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/camera/f/b$1;->a:Lcom/jakex/ymluxscoresf/camera/f/b;
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/widget/scroll/a$a;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/widget/scroll/a$a;-><init>()V
 
     return-void
 .end method
@@ -33,9 +33,9 @@
 .method public a(Landroid/view/View;)V
     .locals 0
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/f/b$1;->a:Lcom/jakex/makeupselfie/camera/f/b;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/f/b$1;->a:Lcom/jakex/ymluxscoresf/camera/f/b;
 
-    invoke-static {p1}, Lcom/jakex/makeupselfie/camera/f/b;->a(Lcom/jakex/makeupselfie/camera/f/b;)V
+    invoke-static {p1}, Lcom/jakex/ymluxscoresf/camera/f/b;->a(Lcom/jakex/ymluxscoresf/camera/f/b;)V
 
     return-void
 .end method

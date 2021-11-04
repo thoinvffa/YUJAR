@@ -1,10 +1,10 @@
-.class synthetic Lcom/jakex/makeupselfie/camera/b$19;
+.class synthetic Lcom/jakex/ymluxscoresf/camera/b$19;
 .super Ljava/lang/Object;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/jakex/makeupselfie/camera/b;
+    value = Lcom/jakex/ymluxscoresf/camera/b;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -25,7 +25,7 @@
 .method static constructor <clinit>()V
     .locals 6
 
-    invoke-static {}, Lcom/jakex/makeupselfie/camera/SelfieCameraPanelState;->values()[Lcom/jakex/makeupselfie/camera/SelfieCameraPanelState;
+    invoke-static {}, Lcom/jakex/ymluxscoresf/camera/SelfieCameraPanelState;->values()[Lcom/jakex/ymluxscoresf/camera/SelfieCameraPanelState;
 
     move-result-object v0
 
@@ -33,14 +33,14 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lcom/jakex/makeupselfie/camera/b$19;->c:[I
+    sput-object v0, Lcom/jakex/ymluxscoresf/camera/b$19;->c:[I
 
     const/4 v1, 0x1
 
     :try_start_0
-    sget-object v2, Lcom/jakex/makeupselfie/camera/SelfieCameraPanelState;->BEAUTY:Lcom/jakex/makeupselfie/camera/SelfieCameraPanelState;
+    sget-object v2, Lcom/jakex/ymluxscoresf/camera/SelfieCameraPanelState;->BEAUTY:Lcom/jakex/ymluxscoresf/camera/SelfieCameraPanelState;
 
-    invoke-virtual {v2}, Lcom/jakex/makeupselfie/camera/SelfieCameraPanelState;->ordinal()I
+    invoke-virtual {v2}, Lcom/jakex/ymluxscoresf/camera/SelfieCameraPanelState;->ordinal()I
 
     move-result v2
 
@@ -57,11 +57,11 @@
     const/4 v0, 0x2
 
     :try_start_1
-    sget-object v2, Lcom/jakex/makeupselfie/camera/b$19;->c:[I
+    sget-object v2, Lcom/jakex/ymluxscoresf/camera/b$19;->c:[I
 
-    sget-object v3, Lcom/jakex/makeupselfie/camera/SelfieCameraPanelState;->PART_MATERIAL:Lcom/jakex/makeupselfie/camera/SelfieCameraPanelState;
+    sget-object v3, Lcom/jakex/ymluxscoresf/camera/SelfieCameraPanelState;->PART_MATERIAL:Lcom/jakex/ymluxscoresf/camera/SelfieCameraPanelState;
 
-    invoke-virtual {v3}, Lcom/jakex/makeupselfie/camera/SelfieCameraPanelState;->ordinal()I
+    invoke-virtual {v3}, Lcom/jakex/ymluxscoresf/camera/SelfieCameraPanelState;->ordinal()I
 
     move-result v3
 
@@ -78,11 +78,11 @@
     const/4 v2, 0x3
 
     :try_start_2
-    sget-object v3, Lcom/jakex/makeupselfie/camera/b$19;->c:[I
+    sget-object v3, Lcom/jakex/ymluxscoresf/camera/b$19;->c:[I
 
-    sget-object v4, Lcom/jakex/makeupselfie/camera/SelfieCameraPanelState;->THEME:Lcom/jakex/makeupselfie/camera/SelfieCameraPanelState;
+    sget-object v4, Lcom/jakex/ymluxscoresf/camera/SelfieCameraPanelState;->THEME:Lcom/jakex/ymluxscoresf/camera/SelfieCameraPanelState;
 
-    invoke-virtual {v4}, Lcom/jakex/makeupselfie/camera/SelfieCameraPanelState;->ordinal()I
+    invoke-virtual {v4}, Lcom/jakex/ymluxscoresf/camera/SelfieCameraPanelState;->ordinal()I
 
     move-result v4
 
@@ -97,11 +97,11 @@
 
     :goto_2
     :try_start_3
-    sget-object v3, Lcom/jakex/makeupselfie/camera/b$19;->c:[I
+    sget-object v3, Lcom/jakex/ymluxscoresf/camera/b$19;->c:[I
 
-    sget-object v4, Lcom/jakex/makeupselfie/camera/SelfieCameraPanelState;->NONE:Lcom/jakex/makeupselfie/camera/SelfieCameraPanelState;
+    sget-object v4, Lcom/jakex/ymluxscoresf/camera/SelfieCameraPanelState;->NONE:Lcom/jakex/ymluxscoresf/camera/SelfieCameraPanelState;
 
-    invoke-virtual {v4}, Lcom/jakex/makeupselfie/camera/SelfieCameraPanelState;->ordinal()I
+    invoke-virtual {v4}, Lcom/jakex/ymluxscoresf/camera/SelfieCameraPanelState;->ordinal()I
 
     move-result v4
 
@@ -125,7 +125,7 @@
 
     new-array v3, v3, [I
 
-    sput-object v3, Lcom/jakex/makeupselfie/camera/b$19;->b:[I
+    sput-object v3, Lcom/jakex/ymluxscoresf/camera/b$19;->b:[I
 
     :try_start_4
     sget-object v4, Lcom/jakex/makeupcamera/util/CamProperty$PreviewRatio;->FULL_SCREEN:Lcom/jakex/makeupcamera/util/CamProperty$PreviewRatio;
@@ -145,7 +145,7 @@
 
     :goto_4
     :try_start_5
-    sget-object v3, Lcom/jakex/makeupselfie/camera/b$19;->b:[I
+    sget-object v3, Lcom/jakex/ymluxscoresf/camera/b$19;->b:[I
 
     sget-object v4, Lcom/jakex/makeupcamera/util/CamProperty$PreviewRatio;->_1_1:Lcom/jakex/makeupcamera/util/CamProperty$PreviewRatio;
 
@@ -164,7 +164,7 @@
 
     :goto_5
     :try_start_6
-    sget-object v3, Lcom/jakex/makeupselfie/camera/b$19;->b:[I
+    sget-object v3, Lcom/jakex/ymluxscoresf/camera/b$19;->b:[I
 
     sget-object v4, Lcom/jakex/makeupcamera/util/CamProperty$PreviewRatio;->_4_3:Lcom/jakex/makeupcamera/util/CamProperty$PreviewRatio;
 
@@ -182,7 +182,7 @@
     move-exception v2
 
     :goto_6
-    invoke-static {}, Lcom/jakex/makeupselfie/camera/SelfieCameraBottomFragment$Mode;->values()[Lcom/jakex/makeupselfie/camera/SelfieCameraBottomFragment$Mode;
+    invoke-static {}, Lcom/jakex/ymluxscoresf/camera/SelfieCameraBottomFragment$Mode;->values()[Lcom/jakex/ymluxscoresf/camera/SelfieCameraBottomFragment$Mode;
 
     move-result-object v2
 
@@ -190,12 +190,12 @@
 
     new-array v2, v2, [I
 
-    sput-object v2, Lcom/jakex/makeupselfie/camera/b$19;->a:[I
+    sput-object v2, Lcom/jakex/ymluxscoresf/camera/b$19;->a:[I
 
     :try_start_7
-    sget-object v3, Lcom/jakex/makeupselfie/camera/SelfieCameraBottomFragment$Mode;->THEME:Lcom/jakex/makeupselfie/camera/SelfieCameraBottomFragment$Mode;
+    sget-object v3, Lcom/jakex/ymluxscoresf/camera/SelfieCameraBottomFragment$Mode;->THEME:Lcom/jakex/ymluxscoresf/camera/SelfieCameraBottomFragment$Mode;
 
-    invoke-virtual {v3}, Lcom/jakex/makeupselfie/camera/SelfieCameraBottomFragment$Mode;->ordinal()I
+    invoke-virtual {v3}, Lcom/jakex/ymluxscoresf/camera/SelfieCameraBottomFragment$Mode;->ordinal()I
 
     move-result v3
 
@@ -210,11 +210,11 @@
 
     :goto_7
     :try_start_8
-    sget-object v1, Lcom/jakex/makeupselfie/camera/b$19;->a:[I
+    sget-object v1, Lcom/jakex/ymluxscoresf/camera/b$19;->a:[I
 
-    sget-object v2, Lcom/jakex/makeupselfie/camera/SelfieCameraBottomFragment$Mode;->CUSTOM_MAKEUP:Lcom/jakex/makeupselfie/camera/SelfieCameraBottomFragment$Mode;
+    sget-object v2, Lcom/jakex/ymluxscoresf/camera/SelfieCameraBottomFragment$Mode;->CUSTOM_MAKEUP:Lcom/jakex/ymluxscoresf/camera/SelfieCameraBottomFragment$Mode;
 
-    invoke-virtual {v2}, Lcom/jakex/makeupselfie/camera/SelfieCameraBottomFragment$Mode;->ordinal()I
+    invoke-virtual {v2}, Lcom/jakex/ymluxscoresf/camera/SelfieCameraBottomFragment$Mode;->ordinal()I
 
     move-result v2
 

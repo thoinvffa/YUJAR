@@ -1,12 +1,12 @@
-.class public Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;
-.super Lcom/jakex/makeupcore/activity/MTBaseActivity;
+.class public Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;
+.super Lcom/jakex/ymluxscore/activity/MTBaseActivity;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$a;,
-        Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$b;
+        Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$a;,
+        Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$b;
     }
 .end annotation
 
@@ -28,17 +28,17 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/jakex/makeupselfie/camera/customconcrete/b;",
+            "Lcom/jakex/ymluxscoresf/camera/customconcrete/b;",
             ">;"
         }
     .end annotation
 .end field
 
-.field private k:Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$b;
+.field private k:Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$b;
 
-.field private l:Lcom/jakex/makeupcore/dialog/CommonAlertDialog;
+.field private l:Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;
 
-.field private m:Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$a;
+.field private m:Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$a;
 
 .field private n:Z
 
@@ -51,25 +51,25 @@
 .method public constructor <init>()V
     .locals 2
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;-><init>()V
 
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    iput-object v0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->j:Ljava/util/List;
+    iput-object v0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->j:Ljava/util/List;
 
-    new-instance v1, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$b;
+    new-instance v1, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$b;
 
-    invoke-direct {v1, p0, v0}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$b;-><init>(Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;Ljava/util/List;)V
+    invoke-direct {v1, p0, v0}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$b;-><init>(Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;Ljava/util/List;)V
 
-    iput-object v1, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->k:Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$b;
+    iput-object v1, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->k:Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$b;
 
-    new-instance v0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$2;
+    new-instance v0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$2;
 
-    invoke-direct {v0, p0}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$2;-><init>(Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;)V
+    invoke-direct {v0, p0}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$2;-><init>(Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;)V
 
-    iput-object v0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->p:Landroid/view/View$OnClickListener;
+    iput-object v0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->p:Landroid/view/View$OnClickListener;
 
     return-void
 .end method
@@ -79,89 +79,89 @@
 
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->top_bar:I
 
-    invoke-virtual {p0, v0}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    check-cast v0, Lcom/jakex/makeupcore/widget/bar/MDTopBarView;
+    check-cast v0, Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;
 
     const/4 v1, 0x0
 
     const/4 v2, 0x1
 
-    invoke-virtual {p0, v0, v1, v2}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->a(Landroid/view/View;ZZ)V
+    invoke-virtual {p0, v0, v1, v2}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->a(Landroid/view/View;ZZ)V
 
-    new-instance v2, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$1;
+    new-instance v2, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$1;
 
-    invoke-direct {v2, p0}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$1;-><init>(Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;)V
+    invoke-direct {v2, p0}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$1;-><init>(Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;)V
 
-    invoke-virtual {v0, v2}, Lcom/jakex/makeupcore/widget/bar/MDTopBarView;->setOnLeftClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, v2}, Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;->setOnLeftClickListener(Landroid/view/View$OnClickListener;)V
 
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->manager_delete_ll:I
 
-    invoke-virtual {p0, v0}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     check-cast v0, Landroid/widget/LinearLayout;
 
-    iput-object v0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->a:Landroid/widget/LinearLayout;
+    iput-object v0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->a:Landroid/widget/LinearLayout;
 
-    iget-object v2, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->p:Landroid/view/View$OnClickListener;
+    iget-object v2, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->p:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v2}, Landroid/widget/LinearLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->manager_delete_count_tv:I
 
-    invoke-virtual {p0, v0}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->b:Landroid/widget/TextView;
+    iput-object v0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->b:Landroid/widget/TextView;
 
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->manager_check_all_ll:I
 
-    invoke-virtual {p0, v0}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     check-cast v0, Landroid/widget/LinearLayout;
 
-    iput-object v0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->c:Landroid/widget/LinearLayout;
+    iput-object v0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->c:Landroid/widget/LinearLayout;
 
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->manager_check_all_btn:I
 
-    invoke-virtual {p0, v0}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     check-cast v0, Landroid/widget/Button;
 
-    iput-object v0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->d:Landroid/widget/Button;
+    iput-object v0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->d:Landroid/widget/Button;
 
-    iget-object v2, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->p:Landroid/view/View$OnClickListener;
+    iget-object v2, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->p:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v2}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->empty_tv:I
 
-    invoke-virtual {p0, v0}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->h:Landroid/view/View;
+    iput-object v0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->h:Landroid/view/View;
 
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->manager_rv:I
 
-    invoke-virtual {p0, v0}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     check-cast v0, Landroidx/recyclerview/widget/RecyclerView;
 
-    iput-object v0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->i:Landroidx/recyclerview/widget/RecyclerView;
+    iput-object v0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->i:Landroidx/recyclerview/widget/RecyclerView;
 
     new-instance v0, Landroidx/recyclerview/widget/GridLayoutManager;
 
@@ -169,25 +169,25 @@
 
     invoke-direct {v0, p0, v2}, Landroidx/recyclerview/widget/GridLayoutManager;-><init>(Landroid/content/Context;I)V
 
-    iget-object v2, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->i:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object v2, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->i:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-virtual {v2, v0}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->i:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->i:Landroidx/recyclerview/widget/RecyclerView;
 
-    iget-object v2, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->k:Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$b;
+    iget-object v2, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->k:Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$b;
 
     invoke-virtual {v0, v2}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->k:Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$b;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->k:Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$b;
 
-    invoke-direct {p0}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->f()Lcom/jakex/makeupcore/b/d$a;
+    invoke-direct {p0}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->f()Lcom/jakex/ymluxscore/b/d$a;
 
     move-result-object v2
 
-    invoke-virtual {v0, v2}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$b;->a(Lcom/jakex/makeupcore/b/d$a;)V
+    invoke-virtual {v0, v2}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$b;->a(Lcom/jakex/ymluxscore/b/d$a;)V
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->i:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->i:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView;->getItemAnimator()Landroidx/recyclerview/widget/RecyclerView$ItemAnimator;
 
@@ -200,18 +200,18 @@
     return-void
 .end method
 
-.method static synthetic a(Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;)V
+.method static synthetic a(Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;)V
     .locals 0
 
-    invoke-direct {p0}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->c()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->c()V
 
     return-void
 .end method
 
-.method static synthetic a(Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;Ljava/util/List;)V
+.method static synthetic a(Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;Ljava/util/List;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->a(Ljava/util/List;)V
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->a(Ljava/util/List;)V
 
     return-void
 .end method
@@ -222,29 +222,29 @@
         value = {
             "(",
             "Ljava/util/List<",
-            "Lcom/jakex/makeupselfie/camera/customconcrete/b;",
+            "Lcom/jakex/ymluxscoresf/camera/customconcrete/b;",
             ">;)V"
         }
     .end annotation
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->j:Ljava/util/List;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->j:Ljava/util/List;
 
     if-eq v0, p1, :cond_0
 
     invoke-interface {v0}, Ljava/util/List;->clear()V
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->j:Ljava/util/List;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->j:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
     :cond_0
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->j:Ljava/util/List;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->j:Ljava/util/List;
 
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
@@ -256,38 +256,38 @@
 
     if-eqz p1, :cond_1
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->h:Landroid/view/View;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->h:Landroid/view/View;
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->a:Landroid/widget/LinearLayout;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->a:Landroid/widget/LinearLayout;
 
     invoke-virtual {p1, v1}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->c:Landroid/widget/LinearLayout;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->c:Landroid/widget/LinearLayout;
 
     invoke-virtual {p1, v1}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->i:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->i:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-virtual {p1, v1}, Landroidx/recyclerview/widget/RecyclerView;->setVisibility(I)V
 
     goto :goto_0
 
     :cond_1
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->h:Landroid/view/View;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->h:Landroid/view/View;
 
     invoke-virtual {p1, v1}, Landroid/view/View;->setVisibility(I)V
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->a:Landroid/widget/LinearLayout;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->a:Landroid/widget/LinearLayout;
 
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->c:Landroid/widget/LinearLayout;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->c:Landroid/widget/LinearLayout;
 
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->i:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->i:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/RecyclerView;->setVisibility(I)V
 
@@ -298,7 +298,7 @@
 .method private b()V
     .locals 6
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->j:Ljava/util/List;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->j:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -320,9 +320,9 @@
 
     move-result-object v3
 
-    check-cast v3, Lcom/jakex/makeupselfie/camera/customconcrete/b;
+    check-cast v3, Lcom/jakex/ymluxscoresf/camera/customconcrete/b;
 
-    invoke-virtual {v3}, Lcom/jakex/makeupselfie/camera/customconcrete/b;->b()Z
+    invoke-virtual {v3}, Lcom/jakex/ymluxscoresf/camera/customconcrete/b;->b()Z
 
     move-result v3
 
@@ -347,11 +347,11 @@
 
     aput-object v5, v4, v1
 
-    invoke-virtual {p0, v3, v4}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-virtual {p0, v3, v4}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v3
 
-    iget-object v4, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->j:Ljava/util/List;
+    iget-object v4, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->j:Ljava/util/List;
 
     invoke-interface {v4}, Ljava/util/List;->size()I
 
@@ -366,7 +366,7 @@
     :cond_2
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$string;->material_manage_del_normal:I
 
-    invoke-virtual {p0, v0}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->getString(I)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
@@ -374,25 +374,25 @@
 
     :cond_3
     :goto_1
-    iget-object v2, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->d:Landroid/widget/Button;
+    iget-object v2, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->d:Landroid/widget/Button;
 
     invoke-virtual {v2, v1}, Landroid/widget/Button;->setSelected(Z)V
 
-    iget-object v1, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->b:Landroid/widget/TextView;
+    iget-object v1, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->b:Landroid/widget/TextView;
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    iget-object v1, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->a:Landroid/widget/LinearLayout;
+    iget-object v1, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->a:Landroid/widget/LinearLayout;
 
     invoke-virtual {v1, v0}, Landroid/widget/LinearLayout;->setEnabled(Z)V
 
     return-void
 .end method
 
-.method static synthetic b(Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;)V
+.method static synthetic b(Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;)V
     .locals 0
 
-    invoke-direct {p0}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->d()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->d()V
 
     return-void
 .end method
@@ -400,7 +400,7 @@
 .method private c()V
     .locals 3
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->d:Landroid/widget/Button;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->d:Landroid/widget/Button;
 
     invoke-virtual {v0}, Landroid/widget/Button;->isSelected()Z
 
@@ -408,7 +408,7 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->j:Ljava/util/List;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->j:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -425,16 +425,16 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/jakex/makeupselfie/camera/customconcrete/b;
+    check-cast v1, Lcom/jakex/ymluxscoresf/camera/customconcrete/b;
 
     const/4 v2, 0x0
 
-    invoke-virtual {v1, v2}, Lcom/jakex/makeupselfie/camera/customconcrete/b;->a(Z)V
+    invoke-virtual {v1, v2}, Lcom/jakex/ymluxscoresf/camera/customconcrete/b;->a(Z)V
 
     goto :goto_0
 
     :cond_0
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->j:Ljava/util/List;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->j:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -451,36 +451,36 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/jakex/makeupselfie/camera/customconcrete/b;
+    check-cast v1, Lcom/jakex/ymluxscoresf/camera/customconcrete/b;
 
     const/4 v2, 0x1
 
-    invoke-virtual {v1, v2}, Lcom/jakex/makeupselfie/camera/customconcrete/b;->a(Z)V
+    invoke-virtual {v1, v2}, Lcom/jakex/ymluxscoresf/camera/customconcrete/b;->a(Z)V
 
     goto :goto_1
 
     :cond_1
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->k:Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$b;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->k:Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$b;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$b;->notifyDataSetChanged()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$b;->notifyDataSetChanged()V
 
-    invoke-direct {p0}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->b()V
-
-    return-void
-.end method
-
-.method static synthetic c(Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;)V
-    .locals 0
-
-    invoke-direct {p0}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->e()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->b()V
 
     return-void
 .end method
 
-.method static synthetic d(Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;)Ljava/util/List;
+.method static synthetic c(Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;)V
     .locals 0
 
-    iget-object p0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->j:Ljava/util/List;
+    invoke-direct {p0}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->e()V
+
+    return-void
+.end method
+
+.method static synthetic d(Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;)Ljava/util/List;
+    .locals 0
+
+    iget-object p0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->j:Ljava/util/List;
 
     return-object p0
 .end method
@@ -488,33 +488,33 @@
 .method private d()V
     .locals 3
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->l:Lcom/jakex/makeupcore/dialog/CommonAlertDialog;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->l:Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;
 
     if-nez v0, :cond_0
 
-    new-instance v0, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;
+    new-instance v0, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;
 
-    invoke-direct {v0, p0}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, p0}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;-><init>(Landroid/content/Context;)V
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;->b(Z)Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;->b(Z)Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;
 
     move-result-object v0
 
     sget v1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$string;->selfie_custom_concrete_manager_delete_tip:I
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;->c(I)Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;->c(I)Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;
 
     move-result-object v0
 
     sget v1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$string;->sure:I
 
-    new-instance v2, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$3;
+    new-instance v2, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$3;
 
-    invoke-direct {v2, p0}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$3;-><init>(Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;)V
+    invoke-direct {v2, p0}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$3;-><init>(Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;)V
 
-    invoke-virtual {v0, v1, v2}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;->b(ILandroid/content/DialogInterface$OnClickListener;)Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;
+    invoke-virtual {v0, v1, v2}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;->b(ILandroid/content/DialogInterface$OnClickListener;)Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;
 
     move-result-object v0
 
@@ -522,28 +522,28 @@
 
     const/4 v2, 0x0
 
-    invoke-virtual {v0, v1, v2}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;->c(ILandroid/content/DialogInterface$OnClickListener;)Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;
+    invoke-virtual {v0, v1, v2}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;->c(ILandroid/content/DialogInterface$OnClickListener;)Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;->a()Lcom/jakex/makeupcore/dialog/CommonAlertDialog;
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;->a()Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->l:Lcom/jakex/makeupcore/dialog/CommonAlertDialog;
+    iput-object v0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->l:Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;
 
     :cond_0
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->l:Lcom/jakex/makeupcore/dialog/CommonAlertDialog;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->l:Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog;->show()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;->show()V
 
     return-void
 .end method
 
-.method static synthetic e(Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;)Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$b;
+.method static synthetic e(Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;)Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$b;
     .locals 0
 
-    iget-object p0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->k:Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$b;
+    iget-object p0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->k:Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$b;
 
     return-object p0
 .end method
@@ -555,7 +555,7 @@
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    iget-object v1, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->j:Ljava/util/List;
+    iget-object v1, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->j:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -573,9 +573,9 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/jakex/makeupselfie/camera/customconcrete/b;
+    check-cast v2, Lcom/jakex/ymluxscoresf/camera/customconcrete/b;
 
-    invoke-virtual {v2}, Lcom/jakex/makeupselfie/camera/customconcrete/b;->b()Z
+    invoke-virtual {v2}, Lcom/jakex/ymluxscoresf/camera/customconcrete/b;->b()Z
 
     move-result v3
 
@@ -583,7 +583,7 @@
 
     invoke-interface {v1}, Ljava/util/Iterator;->remove()V
 
-    invoke-virtual {v2}, Lcom/jakex/makeupselfie/camera/customconcrete/b;->a()Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;
+    invoke-virtual {v2}, Lcom/jakex/ymluxscoresf/camera/customconcrete/b;->a()Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;
 
     move-result-object v2
 
@@ -592,39 +592,39 @@
     goto :goto_0
 
     :cond_1
-    invoke-static {v0}, Lcom/jakex/makeupselfie/a/a/a;->a(Ljava/lang/Iterable;)V
+    invoke-static {v0}, Lcom/jakex/ymluxscoresf/a/a/a;->a(Ljava/lang/Iterable;)V
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->k:Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$b;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->k:Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$b;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$b;->notifyDataSetChanged()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$b;->notifyDataSetChanged()V
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->j:Ljava/util/List;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->j:Ljava/util/List;
 
-    invoke-direct {p0, v0}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->a(Ljava/util/List;)V
+    invoke-direct {p0, v0}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->a(Ljava/util/List;)V
 
-    invoke-direct {p0}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->b()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->b()V
 
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->n:Z
+    iput-boolean v0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->n:Z
 
     return-void
 .end method
 
-.method private f()Lcom/jakex/makeupcore/b/d$a;
+.method private f()Lcom/jakex/ymluxscore/b/d$a;
     .locals 1
 
-    new-instance v0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$4;
+    new-instance v0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$4;
 
-    invoke-direct {v0, p0}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$4;-><init>(Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;)V
+    invoke-direct {v0, p0}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$4;-><init>(Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;)V
 
     return-object v0
 .end method
 
-.method static synthetic f(Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;)V
+.method static synthetic f(Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;)V
     .locals 0
 
-    invoke-direct {p0}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->b()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->b()V
 
     return-void
 .end method
@@ -634,13 +634,13 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 2
 
-    invoke-super {p0, p1}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onCreate(Landroid/os/Bundle;)V
 
     sget p1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$layout;->selfie_custom_concrete_manager_activity:I
 
-    invoke-virtual {p0, p1}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->setContentView(I)V
+    invoke-virtual {p0, p1}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->setContentView(I)V
 
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->getIntent()Landroid/content/Intent;
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object p1
 
@@ -648,7 +648,7 @@
 
     if-eqz p1, :cond_0
 
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->getIntent()Landroid/content/Intent;
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object p1
 
@@ -658,24 +658,24 @@
 
     move-result p1
 
-    iput p1, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->o:I
+    iput p1, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->o:I
 
     :cond_0
-    invoke-direct {p0}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->a()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->a()V
 
-    new-instance p1, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$a;
+    new-instance p1, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$a;
 
-    invoke-direct {p1, p0}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$a;-><init>(Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;)V
+    invoke-direct {p1, p0}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$a;-><init>(Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;)V
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->m:Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$a;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->m:Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$a;
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/i;->a()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/jakex/ymluxscore/util/i;->a()Ljava/util/concurrent/Executor;
 
     move-result-object v1
 
     new-array v0, v0, [Ljava/lang/Void;
 
-    invoke-virtual {p1, v1, v0}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$a;->executeOnExecutor(Ljava/util/concurrent/Executor;[Ljava/lang/Object;)Landroid/os/AsyncTask;
+    invoke-virtual {p1, v1, v0}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$a;->executeOnExecutor(Ljava/util/concurrent/Executor;[Ljava/lang/Object;)Landroid/os/AsyncTask;
 
     return-void
 .end method
@@ -683,33 +683,33 @@
 .method protected onDestroy()V
     .locals 2
 
-    invoke-super {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onDestroy()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onDestroy()V
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->m:Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$a;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->m:Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$a;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$a;->isCancelled()Z
+    invoke-virtual {v0}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$a;->isCancelled()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->m:Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$a;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->m:Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$a;
 
     const/4 v1, 0x1
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$a;->cancel(Z)Z
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$a;->cancel(Z)Z
 
     :cond_0
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->l:Lcom/jakex/makeupcore/dialog/CommonAlertDialog;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->l:Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog;->dismiss()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;->dismiss()V
 
     :cond_1
-    iget-boolean v0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->n:Z
+    iget-boolean v0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->n:Z
 
     if-eqz v0, :cond_2
 
@@ -717,9 +717,9 @@
 
     move-result-object v0
 
-    new-instance v1, Lcom/jakex/makeupeditor/material/thememakeup/a/b;
+    new-instance v1, Lcom/jakex/ymluxseditor/material/thememakeup/a/b;
 
-    invoke-direct {v1}, Lcom/jakex/makeupeditor/material/thememakeup/a/b;-><init>()V
+    invoke-direct {v1}, Lcom/jakex/ymluxseditor/material/thememakeup/a/b;-><init>()V
 
     invoke-virtual {v0, v1}, Lorg/greenrobot/eventbus/EventBus;->post(Ljava/lang/Object;)V
 

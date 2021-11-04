@@ -1,4 +1,4 @@
-.class Lcom/jakex/makeupselfie/camera/b$10;
+.class Lcom/jakex/ymluxscoresf/camera/b$10;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -7,7 +7,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/jakex/makeupselfie/camera/b;->a(Lcom/jakex/makeupcamera/statistics/CameraStatistics$TakeType;)V
+    value = Lcom/jakex/ymluxscoresf/camera/b;->a(Lcom/jakex/makeupcamera/statistics/CameraStatistics$TakeType;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,16 +19,16 @@
 # instance fields
 .field final synthetic a:Lcom/jakex/makeupcamera/util/CamProperty$DelayMode;
 
-.field final synthetic b:Lcom/jakex/makeupselfie/camera/b;
+.field final synthetic b:Lcom/jakex/ymluxscoresf/camera/b;
 
 
 # direct methods
-.method constructor <init>(Lcom/jakex/makeupselfie/camera/b;Lcom/jakex/makeupcamera/util/CamProperty$DelayMode;)V
+.method constructor <init>(Lcom/jakex/ymluxscoresf/camera/b;Lcom/jakex/makeupcamera/util/CamProperty$DelayMode;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/camera/b$10;->b:Lcom/jakex/makeupselfie/camera/b;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/camera/b$10;->b:Lcom/jakex/ymluxscoresf/camera/b;
 
-    iput-object p2, p0, Lcom/jakex/makeupselfie/camera/b$10;->a:Lcom/jakex/makeupcamera/util/CamProperty$DelayMode;
+    iput-object p2, p0, Lcom/jakex/ymluxscoresf/camera/b$10;->a:Lcom/jakex/makeupcamera/util/CamProperty$DelayMode;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -40,11 +40,11 @@
 .method public a(I)V
     .locals 1
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/b$10;->b:Lcom/jakex/makeupselfie/camera/b;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/b$10;->b:Lcom/jakex/ymluxscoresf/camera/b;
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/b$10;->a:Lcom/jakex/makeupcamera/util/CamProperty$DelayMode;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/b$10;->a:Lcom/jakex/makeupcamera/util/CamProperty$DelayMode;
 
-    invoke-static {p1, v0}, Lcom/jakex/makeupselfie/camera/b;->a(Lcom/jakex/makeupselfie/camera/b;Lcom/jakex/makeupcamera/util/CamProperty$DelayMode;)V
+    invoke-static {p1, v0}, Lcom/jakex/ymluxscoresf/camera/b;->a(Lcom/jakex/ymluxscoresf/camera/b;Lcom/jakex/makeupcamera/util/CamProperty$DelayMode;)V
 
     return-void
 .end method

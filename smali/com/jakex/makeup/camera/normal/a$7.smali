@@ -52,7 +52,7 @@
 
     move-result-object v1
 
-    const-class v2, Lcom/jakex/usercenter/setting/activity/CameraSettingActivity;
+    const-class v2, Lcom/jakex/uct/setting/activity/CameraSettingActivity;
 
     invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 

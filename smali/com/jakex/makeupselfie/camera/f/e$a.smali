@@ -1,10 +1,10 @@
-.class Lcom/jakex/makeupselfie/camera/f/e$a;
+.class Lcom/jakex/ymluxscoresf/camera/f/e$a;
 .super Ljava/lang/Object;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/jakex/makeupselfie/camera/f/e;
+    value = Lcom/jakex/ymluxscoresf/camera/f/e;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -14,24 +14,24 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/jakex/makeupselfie/camera/f/e;
+.field final synthetic a:Lcom/jakex/ymluxscoresf/camera/f/e;
 
 
 # direct methods
-.method private constructor <init>(Lcom/jakex/makeupselfie/camera/f/e;)V
+.method private constructor <init>(Lcom/jakex/ymluxscoresf/camera/f/e;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/camera/f/e$a;->a:Lcom/jakex/makeupselfie/camera/f/e;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/camera/f/e$a;->a:Lcom/jakex/ymluxscoresf/camera/f/e;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
-.method synthetic constructor <init>(Lcom/jakex/makeupselfie/camera/f/e;Lcom/jakex/makeupselfie/camera/f/e$1;)V
+.method synthetic constructor <init>(Lcom/jakex/ymluxscoresf/camera/f/e;Lcom/jakex/ymluxscoresf/camera/f/e$1;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupselfie/camera/f/e$a;-><init>(Lcom/jakex/makeupselfie/camera/f/e;)V
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscoresf/camera/f/e$a;-><init>(Lcom/jakex/ymluxscoresf/camera/f/e;)V
 
     return-void
 .end method
@@ -44,17 +44,17 @@
         threadMode = .enum Lorg/greenrobot/eventbus/ThreadMode;->MAIN:Lorg/greenrobot/eventbus/ThreadMode;
     .end annotation
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/f/e$a;->a:Lcom/jakex/makeupselfie/camera/f/e;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/f/e$a;->a:Lcom/jakex/ymluxscoresf/camera/f/e;
 
-    invoke-virtual {p1}, Lcom/jakex/makeupselfie/camera/f/e;->h()Z
+    invoke-virtual {p1}, Lcom/jakex/ymluxscoresf/camera/f/e;->h()Z
 
     move-result p1
 
     if-nez p1, :cond_0
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/f/e$a;->a:Lcom/jakex/makeupselfie/camera/f/e;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/f/e$a;->a:Lcom/jakex/ymluxscoresf/camera/f/e;
 
-    invoke-virtual {p1}, Lcom/jakex/makeupselfie/camera/f/e;->d()V
+    invoke-virtual {p1}, Lcom/jakex/ymluxscoresf/camera/f/e;->d()V
 
     :cond_0
     return-void
@@ -66,17 +66,17 @@
         threadMode = .enum Lorg/greenrobot/eventbus/ThreadMode;->MAIN:Lorg/greenrobot/eventbus/ThreadMode;
     .end annotation
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/f/e$a;->a:Lcom/jakex/makeupselfie/camera/f/e;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/f/e$a;->a:Lcom/jakex/ymluxscoresf/camera/f/e;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupselfie/camera/f/e;->h()Z
+    invoke-virtual {v0}, Lcom/jakex/ymluxscoresf/camera/f/e;->h()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/f/e$a;->a:Lcom/jakex/makeupselfie/camera/f/e;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/f/e$a;->a:Lcom/jakex/ymluxscoresf/camera/f/e;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupselfie/camera/f/e;->d()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxscoresf/camera/f/e;->d()V
 
     :cond_0
     invoke-virtual {p1}, Lcom/tbuonomo/viewpagerdotsindicator/event/ThemeEvent;->a()Z
@@ -85,9 +85,9 @@
 
     if-eqz p1, :cond_1
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/f/e$a;->a:Lcom/jakex/makeupselfie/camera/f/e;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/f/e$a;->a:Lcom/jakex/ymluxscoresf/camera/f/e;
 
-    invoke-static {p1}, Lcom/jakex/makeupselfie/camera/f/e;->i(Lcom/jakex/makeupselfie/camera/f/e;)V
+    invoke-static {p1}, Lcom/jakex/ymluxscoresf/camera/f/e;->i(Lcom/jakex/ymluxscoresf/camera/f/e;)V
 
     :cond_1
     return-void
@@ -99,52 +99,52 @@
         threadMode = .enum Lorg/greenrobot/eventbus/ThreadMode;->MAIN:Lorg/greenrobot/eventbus/ThreadMode;
     .end annotation
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/f/e$a;->a:Lcom/jakex/makeupselfie/camera/f/e;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/f/e$a;->a:Lcom/jakex/ymluxscoresf/camera/f/e;
 
-    invoke-static {v0}, Lcom/jakex/makeupselfie/camera/f/e;->d(Lcom/jakex/makeupselfie/camera/f/e;)Lcom/jakex/makeupselfie/camera/f/c;
+    invoke-static {v0}, Lcom/jakex/ymluxscoresf/camera/f/e;->d(Lcom/jakex/ymluxscoresf/camera/f/e;)Lcom/jakex/ymluxscoresf/camera/f/c;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/f/e$a;->a:Lcom/jakex/makeupselfie/camera/f/e;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/f/e$a;->a:Lcom/jakex/ymluxscoresf/camera/f/e;
 
-    invoke-static {v0}, Lcom/jakex/makeupselfie/camera/f/e;->d(Lcom/jakex/makeupselfie/camera/f/e;)Lcom/jakex/makeupselfie/camera/f/c;
+    invoke-static {v0}, Lcom/jakex/ymluxscoresf/camera/f/e;->d(Lcom/jakex/ymluxscoresf/camera/f/e;)Lcom/jakex/ymluxscoresf/camera/f/c;
 
     move-result-object v0
 
-    invoke-virtual {p1}, Lcom/tbuonomo/viewpagerdotsindicator/event/ThemeConcreteEvent;->a()Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+    invoke-virtual {p1}, Lcom/tbuonomo/viewpagerdotsindicator/event/ThemeConcreteEvent;->a()Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupselfie/camera/f/c;->a(Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscoresf/camera/f/c;->a(Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;)V
 
     :cond_0
-    invoke-static {}, Lcom/jakex/makeupselfie/camera/g/a;->a()Lcom/jakex/makeupselfie/camera/g/a;
+    invoke-static {}, Lcom/jakex/ymluxscoresf/camera/g/a;->a()Lcom/jakex/ymluxscoresf/camera/g/a;
 
     move-result-object v0
 
-    invoke-virtual {p1}, Lcom/tbuonomo/viewpagerdotsindicator/event/ThemeConcreteEvent;->a()Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+    invoke-virtual {p1}, Lcom/tbuonomo/viewpagerdotsindicator/event/ThemeConcreteEvent;->a()Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupselfie/camera/g/a;->b(Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;)Z
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscoresf/camera/g/a;->b(Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;)Z
 
     move-result v0
 
     if-eqz v0, :cond_2
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/f/e$a;->a:Lcom/jakex/makeupselfie/camera/f/e;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/f/e$a;->a:Lcom/jakex/ymluxscoresf/camera/f/e;
 
-    invoke-static {v0}, Lcom/jakex/makeupselfie/camera/f/e;->d(Lcom/jakex/makeupselfie/camera/f/e;)Lcom/jakex/makeupselfie/camera/f/c;
+    invoke-static {v0}, Lcom/jakex/ymluxscoresf/camera/f/e;->d(Lcom/jakex/ymluxscoresf/camera/f/e;)Lcom/jakex/ymluxscoresf/camera/f/c;
 
     move-result-object v0
 
-    invoke-virtual {p1}, Lcom/tbuonomo/viewpagerdotsindicator/event/ThemeConcreteEvent;->a()Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+    invoke-virtual {p1}, Lcom/tbuonomo/viewpagerdotsindicator/event/ThemeConcreteEvent;->a()Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupselfie/camera/f/c;->b(Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;)I
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscoresf/camera/f/c;->b(Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;)I
 
     move-result v0
 
@@ -155,15 +155,15 @@
     return-void
 
     :cond_1
-    iget-object v1, p0, Lcom/jakex/makeupselfie/camera/f/e$a;->a:Lcom/jakex/makeupselfie/camera/f/e;
+    iget-object v1, p0, Lcom/jakex/ymluxscoresf/camera/f/e$a;->a:Lcom/jakex/ymluxscoresf/camera/f/e;
 
-    invoke-virtual {p1}, Lcom/tbuonomo/viewpagerdotsindicator/event/ThemeConcreteEvent;->a()Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+    invoke-virtual {p1}, Lcom/tbuonomo/viewpagerdotsindicator/event/ThemeConcreteEvent;->a()Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
 
     move-result-object p1
 
     const/4 v2, 0x1
 
-    invoke-static {v1, v0, p1, v2}, Lcom/jakex/makeupselfie/camera/f/e;->a(Lcom/jakex/makeupselfie/camera/f/e;ILcom/jakex/makeupcore/bean/ThemeMakeupConcrete;Z)V
+    invoke-static {v1, v0, p1, v2}, Lcom/jakex/ymluxscoresf/camera/f/e;->a(Lcom/jakex/ymluxscoresf/camera/f/e;ILcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;Z)V
 
     :cond_2
     return-void

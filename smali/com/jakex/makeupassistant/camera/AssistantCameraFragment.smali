@@ -540,11 +540,11 @@
 .method protected a(Ljava/lang/String;)V
     .locals 1
 
-    new-instance v0, Lcom/jakex/makeupcore/webview/CommonWebViewExtra;
+    new-instance v0, Lcom/jakex/ymluxscore/webview/CommonWebViewExtra;
 
-    invoke-direct {v0}, Lcom/jakex/makeupcore/webview/CommonWebViewExtra;-><init>()V
+    invoke-direct {v0}, Lcom/jakex/ymluxscore/webview/CommonWebViewExtra;-><init>()V
 
-    iput-object p1, v0, Lcom/jakex/makeupcore/webview/CommonWebViewExtra;->mUrl:Ljava/lang/String;
+    iput-object p1, v0, Lcom/jakex/ymluxscore/webview/CommonWebViewExtra;->mUrl:Ljava/lang/String;
 
     sget p1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$string;->set_permission_title:I
 
@@ -552,13 +552,13 @@
 
     move-result-object p1
 
-    iput-object p1, v0, Lcom/jakex/makeupcore/webview/CommonWebViewExtra;->mTitle:Ljava/lang/String;
+    iput-object p1, v0, Lcom/jakex/ymluxscore/webview/CommonWebViewExtra;->mTitle:Ljava/lang/String;
 
     invoke-virtual {p0}, Lcom/jakex/makeupassistant/camera/AssistantCameraFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object p1
 
-    invoke-static {p1, v0}, Lcom/jakex/makeupcore/modular/c/h;->a(Landroid/app/Activity;Lcom/jakex/makeupcore/webview/CommonWebViewExtra;)V
+    invoke-static {p1, v0}, Lcom/jakex/ymluxscore/modular/c/h;->a(Landroid/app/Activity;Lcom/jakex/ymluxscore/webview/CommonWebViewExtra;)V
 
     return-void
 .end method
@@ -776,7 +776,7 @@
 
     invoke-virtual {v0}, Lcom/jakex/makeupassistant/camera/audio/a;->d()V
 
-    invoke-static {}, Lcom/jakex/makeupcore/widget/a/a;->a()V
+    invoke-static {}, Lcom/jakex/ymluxscore/widget/a/a;->a()V
 
     return-void
 .end method

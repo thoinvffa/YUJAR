@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeupsenior/makeup/k;
-.super Lcom/jakex/makeupeditor/b/a/b;
+.super Lcom/jakex/ymluxseditor/b/a/b;
 
 
 # instance fields
@@ -16,7 +16,7 @@
 
     const/4 v0, -0x7
 
-    invoke-direct {p0, v0}, Lcom/jakex/makeupeditor/b/a/b;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/jakex/ymluxseditor/b/a/b;-><init>(I)V
 
     const/4 v0, 0x0
 
@@ -32,7 +32,7 @@
 
     const/4 v0, -0x7
 
-    invoke-direct {p0, v0}, Lcom/jakex/makeupeditor/b/a/b;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/jakex/ymluxseditor/b/a/b;-><init>(I)V
 
     const/4 v0, 0x0
 
@@ -160,12 +160,12 @@
     return p2
 .end method
 
-.method public e()Lcom/jakex/makeupeditor/a/a;
+.method public e()Lcom/jakex/ymluxseditor/a/a;
     .locals 4
 
-    new-instance v0, Lcom/jakex/makeupeditor/a/a;
+    new-instance v0, Lcom/jakex/ymluxseditor/a/a;
 
-    invoke-direct {v0}, Lcom/jakex/makeupeditor/a/a;-><init>()V
+    invoke-direct {v0}, Lcom/jakex/ymluxseditor/a/a;-><init>()V
 
     iget-object v1, p0, Lcom/jakex/makeupsenior/makeup/k;->i:Lcom/jakex/makeupsenior/model/BeautyFaceLiftManager$FaceLiftPart;
 
@@ -216,7 +216,7 @@
     :goto_0
     const/4 v1, 0x1
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupeditor/a/a;->a(Z)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxseditor/a/a;->a(Z)V
 
     return-object v0
 .end method

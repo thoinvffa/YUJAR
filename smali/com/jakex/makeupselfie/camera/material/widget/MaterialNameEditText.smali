@@ -1,4 +1,4 @@
-.class public Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText;
+.class public Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText;
 .super Landroid/widget/EditText;
 
 
@@ -22,13 +22,13 @@
 
     invoke-direct {p0, p1}, Landroid/widget/EditText;-><init>(Landroid/content/Context;)V
 
-    new-instance p1, Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText$1;
+    new-instance p1, Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText$1;
 
-    invoke-direct {p1, p0}, Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText$1;-><init>(Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText;)V
+    invoke-direct {p1, p0}, Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText$1;-><init>(Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText;)V
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText;->b:Landroid/text/TextWatcher;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText;->b:Landroid/text/TextWatcher;
 
-    invoke-direct {p0}, Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText;->a()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText;->a()V
 
     return-void
 .end method
@@ -38,13 +38,13 @@
 
     invoke-direct {p0, p1, p2}, Landroid/widget/EditText;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    new-instance p1, Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText$1;
+    new-instance p1, Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText$1;
 
-    invoke-direct {p1, p0}, Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText$1;-><init>(Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText;)V
+    invoke-direct {p1, p0}, Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText$1;-><init>(Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText;)V
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText;->b:Landroid/text/TextWatcher;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText;->b:Landroid/text/TextWatcher;
 
-    invoke-direct {p0}, Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText;->a()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText;->a()V
 
     return-void
 .end method
@@ -54,13 +54,13 @@
 
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/EditText;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    new-instance p1, Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText$1;
+    new-instance p1, Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText$1;
 
-    invoke-direct {p1, p0}, Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText$1;-><init>(Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText;)V
+    invoke-direct {p1, p0}, Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText$1;-><init>(Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText;)V
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText;->b:Landroid/text/TextWatcher;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText;->b:Landroid/text/TextWatcher;
 
-    invoke-direct {p0}, Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText;->a()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText;->a()V
 
     return-void
 .end method
@@ -68,9 +68,9 @@
 .method private a()V
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText;->b:Landroid/text/TextWatcher;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText;->b:Landroid/text/TextWatcher;
 
-    invoke-virtual {p0, v0}, Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText;->addTextChangedListener(Landroid/text/TextWatcher;)V
+    invoke-virtual {p0, v0}, Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText;->addTextChangedListener(Landroid/text/TextWatcher;)V
 
     return-void
 .end method
@@ -80,7 +80,7 @@
 .method public getNameText()Ljava/lang/String;
     .locals 2
 
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText;->getText()Landroid/text/Editable;
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText;->getText()Landroid/text/Editable;
 
     move-result-object v0
 
@@ -94,7 +94,7 @@
 
     if-eqz v1, :cond_0
 
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/camera/material/widget/MaterialNameEditText;->getHint()Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/camera/material/widget/MaterialNameEditText;->getHint()Ljava/lang/CharSequence;
 
     move-result-object v0
 

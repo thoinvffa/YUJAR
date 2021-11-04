@@ -1,4 +1,4 @@
-.class Lcom/jakex/makeupselfie/save/d$1;
+.class Lcom/jakex/ymluxscoresf/save/d$1;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -7,7 +7,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/jakex/makeupselfie/save/d;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+    value = Lcom/jakex/ymluxscoresf/save/d;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,14 +17,14 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/jakex/makeupselfie/save/d;
+.field final synthetic a:Lcom/jakex/ymluxscoresf/save/d;
 
 
 # direct methods
-.method constructor <init>(Lcom/jakex/makeupselfie/save/d;)V
+.method constructor <init>(Lcom/jakex/ymluxscoresf/save/d;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/save/d$1;->a:Lcom/jakex/makeupselfie/save/d;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/save/d$1;->a:Lcom/jakex/ymluxscoresf/save/d;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -36,21 +36,21 @@
 .method public onClick(Landroid/view/View;)V
     .locals 0
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/save/d$1;->a:Lcom/jakex/makeupselfie/save/d;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/save/d$1;->a:Lcom/jakex/ymluxscoresf/save/d;
 
-    invoke-static {p1}, Lcom/jakex/makeupselfie/save/d;->a(Lcom/jakex/makeupselfie/save/d;)Lcom/jakex/makeupselfie/save/d$a;
+    invoke-static {p1}, Lcom/jakex/ymluxscoresf/save/d;->a(Lcom/jakex/ymluxscoresf/save/d;)Lcom/jakex/ymluxscoresf/save/d$a;
 
     move-result-object p1
 
     if-eqz p1, :cond_0
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/save/d$1;->a:Lcom/jakex/makeupselfie/save/d;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/save/d$1;->a:Lcom/jakex/ymluxscoresf/save/d;
 
-    invoke-static {p1}, Lcom/jakex/makeupselfie/save/d;->a(Lcom/jakex/makeupselfie/save/d;)Lcom/jakex/makeupselfie/save/d$a;
+    invoke-static {p1}, Lcom/jakex/ymluxscoresf/save/d;->a(Lcom/jakex/ymluxscoresf/save/d;)Lcom/jakex/ymluxscoresf/save/d$a;
 
     move-result-object p1
 
-    invoke-interface {p1}, Lcom/jakex/makeupselfie/save/d$a;->a()V
+    invoke-interface {p1}, Lcom/jakex/ymluxscoresf/save/d$a;->a()V
 
     :cond_0
     return-void

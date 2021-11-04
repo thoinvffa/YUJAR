@@ -3,5 +3,5 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFace;)Z
+.method public abstract a(Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFace;)Z
 .end method

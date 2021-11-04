@@ -34,7 +34,7 @@
 
 
 # virtual methods
-.method public a(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;)J
+.method public a(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;)J
     .locals 2
 
     iget-wide v0, p0, Lcom/jakex/makeup/camera/normal/a$1;->a:J
@@ -42,12 +42,12 @@
     return-wide v0
 .end method
 
-.method public a(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)V
+.method public a(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;)V
     .locals 0
 
     iget-object p1, p0, Lcom/jakex/makeup/camera/normal/a$1;->b:Lcom/jakex/makeup/camera/normal/a;
 
-    invoke-static {p2}, Lcom/jakex/makeupfacedetector/b;->a(Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)Lcom/jakex/makeupfacedetector/a;
+    invoke-static {p2}, Lcom/jakex/makeupfacedetector/b;->a(Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;)Lcom/jakex/makeupfacedetector/a;
 
     move-result-object p2
 

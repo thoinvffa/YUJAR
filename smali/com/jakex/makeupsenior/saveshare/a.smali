@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeupsenior/saveshare/a;
-.super Lcom/jakex/makeupcore/g/a;
+.super Lcom/jakex/ymluxscore/g/a;
 
 
 # instance fields
@@ -30,7 +30,7 @@
 .method public constructor <init>()V
     .locals 1
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/g/a;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/g/a;-><init>()V
 
     const/4 v0, 0x0
 
@@ -376,7 +376,7 @@
 
     iget-object p1, p0, Lcom/jakex/makeupsenior/saveshare/a;->c:Landroid/widget/ImageView;
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/glide/a;->a(Landroid/widget/ImageView;)Lcom/jakex/makeupcore/glide/a;
+    invoke-static {p1}, Lcom/jakex/ymluxscore/glide/a;->a(Landroid/widget/ImageView;)Lcom/jakex/ymluxscore/glide/a;
 
     move-result-object p1
 
@@ -386,7 +386,7 @@
 
     iget-object v1, p0, Lcom/jakex/makeupsenior/saveshare/a;->a:Lmakeup/image/request/h;
 
-    invoke-virtual {p1, v0, v1}, Lcom/jakex/makeupcore/glide/a;->a(Ljava/lang/Object;Lmakeup/image/request/h;)V
+    invoke-virtual {p1, v0, v1}, Lcom/jakex/ymluxscore/glide/a;->a(Ljava/lang/Object;Lmakeup/image/request/h;)V
 
     iget-object p1, p0, Lcom/jakex/makeupsenior/saveshare/a;->c:Landroid/widget/ImageView;
 
@@ -428,7 +428,7 @@
 .method public onDestroy()V
     .locals 1
 
-    invoke-super {p0}, Lcom/jakex/makeupcore/g/a;->onDestroy()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/g/a;->onDestroy()V
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/saveshare/a;->i:Lcom/jakex/business/ads/core/view/MtbBaseLayout;
 
@@ -450,7 +450,7 @@
 .method public onHiddenChanged(Z)V
     .locals 1
 
-    invoke-super {p0, p1}, Lcom/jakex/makeupcore/g/a;->onHiddenChanged(Z)V
+    invoke-super {p0, p1}, Lcom/jakex/ymluxscore/g/a;->onHiddenChanged(Z)V
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/saveshare/a;->i:Lcom/jakex/business/ads/core/view/MtbBaseLayout;
 
@@ -467,7 +467,7 @@
 .method public onResume()V
     .locals 1
 
-    invoke-super {p0}, Lcom/jakex/makeupcore/g/a;->onResume()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/g/a;->onResume()V
 
     iget-boolean v0, p0, Lcom/jakex/makeupsenior/saveshare/a;->b:Z
 
@@ -500,7 +500,7 @@
 .method public onStop()V
     .locals 1
 
-    invoke-super {p0}, Lcom/jakex/makeupcore/g/a;->onStop()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/g/a;->onStop()V
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/saveshare/a;->i:Lcom/jakex/business/ads/core/view/MtbBaseLayout;
 
@@ -533,7 +533,7 @@
 .method public onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 0
 
-    invoke-super {p0, p1, p2}, Lcom/jakex/makeupcore/g/a;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+    invoke-super {p0, p1, p2}, Lcom/jakex/ymluxscore/g/a;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
     iput-object p1, p0, Lcom/jakex/makeupsenior/saveshare/a;->k:Landroid/view/View;
 

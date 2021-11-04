@@ -48,7 +48,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/widget/a/a;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/jakex/ymluxscore/widget/a/a;->a(Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupActivity$20;->a:Lcom/jakex/makeupsenior/BeautyMakeupActivity;
 

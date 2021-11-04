@@ -36,7 +36,7 @@
 
     iput-object p1, p0, Lcom/jakex/makeupassistant/a/c;->d:Lmakeup/image/request/h;
 
-    invoke-static {}, Lcom/jakex/makeupcore/glide/e;->a()Lmakeup/image/request/h;
+    invoke-static {}, Lcom/jakex/ymluxscore/glide/e;->a()Lmakeup/image/request/h;
 
     move-result-object p1
 
@@ -100,15 +100,15 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/jakex/makeupcore/util/at;->b(Ljava/lang/String;)I
+    invoke-static {v1}, Lcom/jakex/ymluxscore/util/at;->b(Ljava/lang/String;)I
 
     move-result v1
 
-    invoke-static {v1}, Lcom/jakex/makeupeditor/configuration/PartPosition;->get(I)Lcom/jakex/makeupeditor/configuration/PartPosition;
+    invoke-static {v1}, Lcom/jakex/ymluxseditor/configuration/PartPosition;->get(I)Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/jakex/makeupeditor/configuration/PartPosition;->getStatisticName()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jakex/ymluxseditor/configuration/PartPosition;->getStatisticName()Ljava/lang/String;
 
     move-result-object v1
 
@@ -132,7 +132,7 @@
 
     iget-object p1, p1, Lcom/jakex/makeupassistant/a/c$b;->d:Landroid/widget/ImageView;
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/glide/a;->a(Landroid/widget/ImageView;)Lcom/jakex/makeupcore/glide/a;
+    invoke-static {p1}, Lcom/jakex/ymluxscore/glide/a;->a(Landroid/widget/ImageView;)Lcom/jakex/ymluxscore/glide/a;
 
     move-result-object p1
 
@@ -142,7 +142,7 @@
 
     iget-object v0, p0, Lcom/jakex/makeupassistant/a/c;->d:Lmakeup/image/request/h;
 
-    invoke-virtual {p1, p2, v0}, Lcom/jakex/makeupcore/glide/a;->a(Ljava/lang/Object;Lmakeup/image/request/h;)V
+    invoke-virtual {p1, p2, v0}, Lcom/jakex/ymluxscore/glide/a;->a(Ljava/lang/Object;Lmakeup/image/request/h;)V
 
     return-void
 .end method

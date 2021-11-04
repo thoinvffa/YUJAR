@@ -1,10 +1,10 @@
-.class Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity$a;
-.super Lcom/jakex/makeupcore/util/bm;
+.class Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity$a;
+.super Lcom/jakex/ymluxscore/util/bm;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;
+    value = Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -14,8 +14,8 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupcore/util/bm<",
-        "Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;",
+        "Lcom/jakex/ymluxscore/util/bm<",
+        "Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;",
         "Ljava/lang/Void;",
         "Ljava/lang/Void;",
         "Ljava/lang/String;",
@@ -29,20 +29,20 @@
 
 
 # direct methods
-.method private constructor <init>(Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;Landroid/graphics/Bitmap;)V
+.method private constructor <init>(Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;Landroid/graphics/Bitmap;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupcore/util/bm;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscore/util/bm;-><init>(Ljava/lang/Object;)V
 
-    iput-object p2, p0, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity$a;->a:Landroid/graphics/Bitmap;
+    iput-object p2, p0, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity$a;->a:Landroid/graphics/Bitmap;
 
     return-void
 .end method
 
-.method synthetic constructor <init>(Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;Landroid/graphics/Bitmap;Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity$1;)V
+.method synthetic constructor <init>(Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;Landroid/graphics/Bitmap;Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity$1;)V
     .locals 0
 
-    invoke-direct {p0, p1, p2}, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity$a;-><init>(Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;Landroid/graphics/Bitmap;)V
+    invoke-direct {p0, p1, p2}, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity$a;-><init>(Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;Landroid/graphics/Bitmap;)V
 
     return-void
 .end method
@@ -55,7 +55,7 @@
     const/4 p1, 0x0
 
     :try_start_0
-    iget-object v0, p0, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity$a;->a:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity$a;->a:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/jakex/library/util/bitmap/a;->a(Landroid/graphics/Bitmap;)Z
 
@@ -63,11 +63,11 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/n;->b()Ljava/lang/String;
+    invoke-static {}, Lcom/jakex/ymluxscore/util/n;->b()Ljava/lang/String;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity$a;->a:Landroid/graphics/Bitmap;
+    iget-object v1, p0, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity$a;->a:Landroid/graphics/Bitmap;
 
     sget-object v2, Landroid/graphics/Bitmap$CompressFormat;->JPEG:Landroid/graphics/Bitmap$CompressFormat;
 
@@ -100,21 +100,21 @@
     return-object p1
 .end method
 
-.method protected a(Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;)V
+.method protected a(Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;)V
     .locals 0
 
     if-eqz p1, :cond_0
 
-    invoke-virtual {p1}, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;->m()V
+    invoke-virtual {p1}, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;->m()V
 
     :cond_0
     return-void
 .end method
 
-.method protected a(Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;Ljava/lang/String;)V
+.method protected a(Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;Ljava/lang/String;)V
     .locals 1
 
-    invoke-virtual {p1}, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;->n()V
+    invoke-virtual {p1}, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;->n()V
 
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -122,7 +122,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {p1, p2}, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;->a(Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;->a(Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;Ljava/lang/String;)V
 
     :cond_0
     return-void
@@ -131,9 +131,9 @@
 .method protected bridge synthetic a(Ljava/lang/Object;)V
     .locals 0
 
-    check-cast p1, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;
+    check-cast p1, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;
 
-    invoke-virtual {p0, p1}, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity$a;->a(Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;)V
+    invoke-virtual {p0, p1}, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity$a;->a(Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;)V
 
     return-void
 .end method
@@ -141,11 +141,11 @@
 .method protected bridge synthetic a(Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 0
 
-    check-cast p1, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;
+    check-cast p1, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;
 
     check-cast p2, Ljava/lang/String;
 
-    invoke-virtual {p0, p1, p2}, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity$a;->a(Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;Ljava/lang/String;)V
+    invoke-virtual {p0, p1, p2}, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity$a;->a(Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -155,7 +155,7 @@
 
     check-cast p1, [Ljava/lang/Void;
 
-    invoke-virtual {p0, p1}, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity$a;->a([Ljava/lang/Void;)Ljava/lang/String;
+    invoke-virtual {p0, p1}, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity$a;->a([Ljava/lang/Void;)Ljava/lang/String;
 
     move-result-object p1
 

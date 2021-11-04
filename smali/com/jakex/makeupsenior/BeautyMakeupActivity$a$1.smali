@@ -7,7 +7,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/jakex/makeupsenior/BeautyMakeupActivity$a;->onEventBackgroundThread(Lcom/jakex/makeupeditor/material/a/g;)V
+    value = Lcom/jakex/makeupsenior/BeautyMakeupActivity$a;->onEventBackgroundThread(Lcom/jakex/ymluxseditor/material/a/g;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

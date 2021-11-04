@@ -38,7 +38,7 @@
 
 
 # virtual methods
-.method public onEvent(Lcom/jakex/makeupcore/modular/b/a;)V
+.method public onEvent(Lcom/jakex/ymluxscore/modular/b/a;)V
     .locals 1
     .annotation runtime Lorg/greenrobot/eventbus/Subscribe;
         threadMode = .enum Lorg/greenrobot/eventbus/ThreadMode;->MAIN:Lorg/greenrobot/eventbus/ThreadMode;
@@ -52,7 +52,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lcom/jakex/makeupcore/modular/b/a;->a(Ljava/lang/Class;)Z
+    invoke-virtual {p1, v0}, Lcom/jakex/ymluxscore/modular/b/a;->a(Ljava/lang/Class;)Z
 
     move-result p1
 

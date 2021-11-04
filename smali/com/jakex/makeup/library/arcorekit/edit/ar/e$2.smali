@@ -72,11 +72,11 @@
 
     iget-object v2, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/e$2;->c:Lcom/jakex/makeup/library/arcorekit/edit/ar/e;
 
-    invoke-static {v2}, Lcom/jakex/makeup/library/arcorekit/edit/ar/e;->a(Lcom/jakex/makeup/library/arcorekit/edit/ar/e;)Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    invoke-static {v2}, Lcom/jakex/makeup/library/arcorekit/edit/ar/e;->a(Lcom/jakex/makeup/library/arcorekit/edit/ar/e;)Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
     move-result-object v2
 
-    invoke-interface {v1, v2}, Lcom/jakex/makeup/library/arcorekit/edit/ar/a/a$b;->b(Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;)V
+    invoke-interface {v1, v2}, Lcom/jakex/makeup/library/arcorekit/edit/ar/a/a$b;->b(Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;)V
 
     goto :goto_0
 

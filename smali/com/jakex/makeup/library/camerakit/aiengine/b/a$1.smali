@@ -38,27 +38,27 @@
 
     iget-object v0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b/a$1;->a:Lcom/jakex/makeup/library/camerakit/aiengine/b/a;
 
-    invoke-static {v0}, Lcom/jakex/makeup/library/camerakit/aiengine/b/a;->b(Lcom/jakex/makeup/library/camerakit/aiengine/b/a;)Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;
+    invoke-static {v0}, Lcom/jakex/makeup/library/camerakit/aiengine/b/a;->b(Lcom/jakex/makeup/library/camerakit/aiengine/b/a;)Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b/a$1;->a:Lcom/jakex/makeup/library/camerakit/aiengine/b/a;
 
-    invoke-static {v1}, Lcom/jakex/makeup/library/camerakit/aiengine/b/a;->a(Lcom/jakex/makeup/library/camerakit/aiengine/b/a;)Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinOption;
+    invoke-static {v1}, Lcom/jakex/makeup/library/camerakit/aiengine/b/a;->a(Lcom/jakex/makeup/library/camerakit/aiengine/b/a;)Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinOption;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinOption;->detectorType()I
+    invoke-virtual {v1}, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinOption;->detectorType()I
 
     move-result v1
 
     iget-object v2, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b/a$1;->a:Lcom/jakex/makeup/library/camerakit/aiengine/b/a;
 
-    invoke-static {v2}, Lcom/jakex/makeup/library/camerakit/aiengine/b/a;->a(Lcom/jakex/makeup/library/camerakit/aiengine/b/a;)Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinOption;
+    invoke-static {v2}, Lcom/jakex/makeup/library/camerakit/aiengine/b/a;->a(Lcom/jakex/makeup/library/camerakit/aiengine/b/a;)Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinOption;
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;->registerModule(ILcom/jakex/mtlab/MTAiInterface/common/MTAiEngineOption;)I
+    invoke-virtual {v0, v1, v2}, Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;->registerModule(ILcom/jakex/ymlux/MTAiInterface/common/MTAiEngineOption;)I
 
     const-string v0, "AiEngineSkinDetector"
 

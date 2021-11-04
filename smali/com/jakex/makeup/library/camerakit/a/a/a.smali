@@ -57,15 +57,15 @@
     return-object v0
 .end method
 
-.method static synthetic a(Lcom/jakex/makeup/library/camerakit/a/a/a;Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinResult;)V
+.method static synthetic a(Lcom/jakex/makeup/library/camerakit/a/a/a;Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinResult;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeup/library/camerakit/a/a/a;->a(Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinResult;)V
+    invoke-direct {p0, p1}, Lcom/jakex/makeup/library/camerakit/a/a/a;->a(Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinResult;)V
 
     return-void
 .end method
 
-.method private a(Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinResult;)V
+.method private a(Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinResult;)V
     .locals 4
 
     iget-object v0, p0, Lcom/jakex/makeup/library/camerakit/a/a/a;->a:Lcom/jakex/makeup/library/arcorekit/edit/ar/e;
@@ -78,14 +78,14 @@
 
     if-eqz p1, :cond_1
 
-    iget-object v2, p1, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinResult;->skins:[Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkin;
+    iget-object v2, p1, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinResult;->skins:[Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkin;
 
     if-eqz v2, :cond_1
 
     const/4 v2, 0x0
 
     :goto_0
-    iget-object v3, p1, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinResult;->skins:[Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkin;
+    iget-object v3, p1, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinResult;->skins:[Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkin;
 
     array-length v3, v3
 
@@ -95,15 +95,15 @@
 
     if-ne v3, v2, :cond_0
 
-    iget-object p1, p1, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinResult;->skins:[Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkin;
+    iget-object p1, p1, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinResult;->skins:[Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkin;
 
     aget-object p1, p1, v2
 
-    invoke-static {p1}, Lcom/jakex/makeup/library/camerakit/a/a/a$a;->a(Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkin;)F
+    invoke-static {p1}, Lcom/jakex/makeup/library/camerakit/a/a/a$a;->a(Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkin;)F
 
     move-result v1
 
-    invoke-static {p1}, Lcom/jakex/makeup/library/camerakit/a/a/a$a;->b(Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkin;)F
+    invoke-static {p1}, Lcom/jakex/makeup/library/camerakit/a/a/a$a;->b(Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkin;)F
 
     move-result p1
 

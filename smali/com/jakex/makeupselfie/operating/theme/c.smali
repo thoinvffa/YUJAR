@@ -1,12 +1,12 @@
-.class public Lcom/jakex/makeupselfie/operating/theme/c;
-.super Lcom/jakex/makeupselfie/camera/f/a/a;
+.class public Lcom/jakex/ymluxscoresf/operating/theme/c;
+.super Lcom/jakex/ymluxscoresf/camera/f/a/a;
 
 
 # direct methods
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lcom/jakex/makeupselfie/camera/f/a/a;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscoresf/camera/f/a/a;-><init>()V
 
     return-void
 .end method
@@ -16,13 +16,13 @@
 .method public h()I
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/operating/theme/c;->a:Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/operating/theme/c;->a:Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/operating/theme/c;->a:Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/operating/theme/c;->a:Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;->getRealTimeAlpha()I
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;->getRealTimeAlpha()I
 
     move-result v0
 

@@ -1,11 +1,11 @@
 .class public Lcom/jakex/makeup/startup/widget/a;
-.super Lcom/jakex/makeupcore/b/d;
+.super Lcom/jakex/ymluxscore/b/d;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupcore/b/d<",
+        "Lcom/jakex/ymluxscore/b/d<",
         "Lcom/jakex/makeup/startup/bean/PermissionBean;",
         ">;"
     }
@@ -24,7 +24,7 @@
         }
     .end annotation
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupcore/b/d;-><init>(Ljava/util/List;)V
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscore/b/d;-><init>(Ljava/util/List;)V
 
     return-void
 .end method
@@ -39,24 +39,24 @@
     return p1
 .end method
 
-.method public a(Lcom/jakex/makeupcore/b/e;ILcom/jakex/makeup/startup/bean/PermissionBean;)V
+.method public a(Lcom/jakex/ymluxscore/b/e;ILcom/jakex/makeup/startup/bean/PermissionBean;)V
     .locals 2
 
     const p2, 0x7f070491
 
-    invoke-virtual {p1, p2}, Lcom/jakex/makeupcore/b/e;->c(I)Landroid/widget/ImageView;
+    invoke-virtual {p1, p2}, Lcom/jakex/ymluxscore/b/e;->c(I)Landroid/widget/ImageView;
 
     move-result-object p2
 
     const v0, 0x7f070492
 
-    invoke-virtual {p1, v0}, Lcom/jakex/makeupcore/b/e;->b(I)Landroid/widget/TextView;
+    invoke-virtual {p1, v0}, Lcom/jakex/ymluxscore/b/e;->b(I)Landroid/widget/TextView;
 
     move-result-object v0
 
     const v1, 0x7f070490
 
-    invoke-virtual {p1, v1}, Lcom/jakex/makeupcore/b/e;->b(I)Landroid/widget/TextView;
+    invoke-virtual {p1, v1}, Lcom/jakex/ymluxscore/b/e;->b(I)Landroid/widget/TextView;
 
     move-result-object p1
 
@@ -81,12 +81,12 @@
     return-void
 .end method
 
-.method public bridge synthetic a(Lcom/jakex/makeupcore/b/e;ILjava/lang/Object;)V
+.method public bridge synthetic a(Lcom/jakex/ymluxscore/b/e;ILjava/lang/Object;)V
     .locals 0
 
     check-cast p3, Lcom/jakex/makeup/startup/bean/PermissionBean;
 
-    invoke-virtual {p0, p1, p2, p3}, Lcom/jakex/makeup/startup/widget/a;->a(Lcom/jakex/makeupcore/b/e;ILcom/jakex/makeup/startup/bean/PermissionBean;)V
+    invoke-virtual {p0, p1, p2, p3}, Lcom/jakex/makeup/startup/widget/a;->a(Lcom/jakex/ymluxscore/b/e;ILcom/jakex/makeup/startup/bean/PermissionBean;)V
 
     return-void
 .end method

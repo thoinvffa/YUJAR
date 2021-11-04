@@ -29,7 +29,7 @@
 
 .field private g:Z
 
-.field private h:Lcom/jakex/makeupcore/util/bh;
+.field private h:Lcom/jakex/ymluxscore/util/bh;
 
 
 # direct methods
@@ -38,11 +38,11 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    new-instance v0, Lcom/jakex/makeupcore/util/bh;
+    new-instance v0, Lcom/jakex/ymluxscore/util/bh;
 
-    invoke-direct {v0}, Lcom/jakex/makeupcore/util/bh;-><init>()V
+    invoke-direct {v0}, Lcom/jakex/ymluxscore/util/bh;-><init>()V
 
-    iput-object v0, p0, Lcom/jakex/makeupcamera/component/c;->h:Lcom/jakex/makeupcore/util/bh;
+    iput-object v0, p0, Lcom/jakex/makeupcamera/component/c;->h:Lcom/jakex/ymluxscore/util/bh;
 
     iput p3, p0, Lcom/jakex/makeupcamera/component/c;->b:I
 
@@ -316,13 +316,13 @@
 .method public a(Ljava/lang/String;)V
     .locals 1
 
-    iget-object p1, p0, Lcom/jakex/makeupcamera/component/c;->h:Lcom/jakex/makeupcore/util/bh;
+    iget-object p1, p0, Lcom/jakex/makeupcamera/component/c;->h:Lcom/jakex/ymluxscore/util/bh;
 
     new-instance v0, Lcom/jakex/makeupcamera/component/c$3;
 
     invoke-direct {v0, p0}, Lcom/jakex/makeupcamera/component/c$3;-><init>(Lcom/jakex/makeupcamera/component/c;)V
 
-    invoke-virtual {p1, v0}, Lcom/jakex/makeupcore/util/bh;->a(Ljava/lang/Runnable;)V
+    invoke-virtual {p1, v0}, Lcom/jakex/ymluxscore/util/bh;->a(Ljava/lang/Runnable;)V
 
     return-void
 .end method
@@ -393,13 +393,13 @@
 .method public b(Ljava/lang/String;)V
     .locals 1
 
-    iget-object p1, p0, Lcom/jakex/makeupcamera/component/c;->h:Lcom/jakex/makeupcore/util/bh;
+    iget-object p1, p0, Lcom/jakex/makeupcamera/component/c;->h:Lcom/jakex/ymluxscore/util/bh;
 
     new-instance v0, Lcom/jakex/makeupcamera/component/c$4;
 
     invoke-direct {v0, p0}, Lcom/jakex/makeupcamera/component/c$4;-><init>(Lcom/jakex/makeupcamera/component/c;)V
 
-    invoke-virtual {p1, v0}, Lcom/jakex/makeupcore/util/bh;->a(Ljava/lang/Runnable;)V
+    invoke-virtual {p1, v0}, Lcom/jakex/ymluxscore/util/bh;->a(Ljava/lang/Runnable;)V
 
     return-void
 .end method
@@ -638,13 +638,13 @@
 .method public i()V
     .locals 2
 
-    iget-object v0, p0, Lcom/jakex/makeupcamera/component/c;->h:Lcom/jakex/makeupcore/util/bh;
+    iget-object v0, p0, Lcom/jakex/makeupcamera/component/c;->h:Lcom/jakex/ymluxscore/util/bh;
 
     new-instance v1, Lcom/jakex/makeupcamera/component/c$2;
 
     invoke-direct {v1, p0}, Lcom/jakex/makeupcamera/component/c$2;-><init>(Lcom/jakex/makeupcamera/component/c;)V
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/util/bh;->a(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/util/bh;->a(Ljava/lang/Runnable;)V
 
     return-void
 .end method

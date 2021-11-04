@@ -75,13 +75,13 @@
 .method public a(Landroid/content/Context;)Lnet/lucode/hackware/magicindicator/buildins/commonnavigator/a/c;
     .locals 1
 
-    new-instance v0, Lcom/jakex/makeupcore/widget/indicator/d;
+    new-instance v0, Lcom/jakex/ymluxscore/widget/indicator/d;
 
-    invoke-direct {v0, p1}, Lcom/jakex/makeupcore/widget/indicator/d;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, p1}, Lcom/jakex/ymluxscore/widget/indicator/d;-><init>(Landroid/content/Context;)V
 
     const/4 p1, 0x3
 
-    invoke-virtual {v0, p1}, Lcom/jakex/makeupcore/widget/indicator/d;->setMode(I)V
+    invoke-virtual {v0, p1}, Lcom/jakex/ymluxscore/widget/indicator/d;->setMode(I)V
 
     const/high16 p1, 0x41500000    # 13.0f
 
@@ -91,11 +91,11 @@
 
     int-to-float p1, p1
 
-    invoke-virtual {v0, p1}, Lcom/jakex/makeupcore/widget/indicator/d;->setXOffset(F)V
+    invoke-virtual {v0, p1}, Lcom/jakex/ymluxscore/widget/indicator/d;->setXOffset(F)V
 
     const/high16 p1, -0x1000000
 
-    invoke-virtual {v0, p1}, Lcom/jakex/makeupcore/widget/indicator/d;->setIndicatorColor(I)V
+    invoke-virtual {v0, p1}, Lcom/jakex/ymluxscore/widget/indicator/d;->setIndicatorColor(I)V
 
     const/high16 p1, 0x40400000    # 3.0f
 
@@ -103,7 +103,7 @@
 
     move-result p1
 
-    invoke-virtual {v0, p1}, Lcom/jakex/makeupcore/widget/indicator/d;->setIndicatorHeight(F)V
+    invoke-virtual {v0, p1}, Lcom/jakex/ymluxscore/widget/indicator/d;->setIndicatorHeight(F)V
 
     return-object v0
 .end method

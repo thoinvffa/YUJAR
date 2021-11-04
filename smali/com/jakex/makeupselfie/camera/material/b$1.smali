@@ -1,10 +1,10 @@
-.class synthetic Lcom/jakex/makeupselfie/camera/material/b$1;
+.class synthetic Lcom/jakex/ymluxscoresf/camera/material/b$1;
 .super Ljava/lang/Object;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/jakex/makeupselfie/camera/material/b;
+    value = Lcom/jakex/ymluxscoresf/camera/material/b;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

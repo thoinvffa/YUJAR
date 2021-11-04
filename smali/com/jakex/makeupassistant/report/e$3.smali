@@ -38,19 +38,19 @@
 
     iget-object v0, p0, Lcom/jakex/makeupassistant/report/e$3;->a:Lcom/jakex/makeupassistant/report/e;
 
-    iget-object v0, v0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;
+    iget-object v0, v0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;->getChildCount()I
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;->getChildCount()I
 
     move-result v0
 
     iget-object v1, p0, Lcom/jakex/makeupassistant/report/e$3;->a:Lcom/jakex/makeupassistant/report/e;
 
-    iget-object v1, v1, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;
+    iget-object v1, v1, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;
 
     add-int/lit8 v0, v0, -0x1
 
-    invoke-virtual {v1, v0}, Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;->getChildAt(I)Landroid/view/View;
+    invoke-virtual {v1, v0}, Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;->getChildAt(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -64,9 +64,9 @@
 
     iget-object v1, p0, Lcom/jakex/makeupassistant/report/e$3;->a:Lcom/jakex/makeupassistant/report/e;
 
-    iget-object v1, v1, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;
+    iget-object v1, v1, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;
 
-    invoke-virtual {v1}, Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v1}, Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v1
 
@@ -78,9 +78,9 @@
 
     iget-object v0, p0, Lcom/jakex/makeupassistant/report/e$3;->a:Lcom/jakex/makeupassistant/report/e;
 
-    iget-object v0, v0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;
+    iget-object v0, v0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     :cond_0
     return-void

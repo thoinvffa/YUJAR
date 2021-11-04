@@ -1,4 +1,4 @@
-.class Lcom/jakex/makeupselfie/camera/f/b$2;
+.class Lcom/jakex/ymluxscoresf/camera/f/b$2;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -7,7 +7,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/jakex/makeupselfie/camera/f/b;-><init>(Lnet/lucode/hackware/magicindicator/MagicIndicator;)V
+    value = Lcom/jakex/ymluxscoresf/camera/f/b;-><init>(Lnet/lucode/hackware/magicindicator/MagicIndicator;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,14 +17,14 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/jakex/makeupselfie/camera/f/b;
+.field final synthetic a:Lcom/jakex/ymluxscoresf/camera/f/b;
 
 
 # direct methods
-.method constructor <init>(Lcom/jakex/makeupselfie/camera/f/b;)V
+.method constructor <init>(Lcom/jakex/ymluxscoresf/camera/f/b;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/camera/f/b$2;->a:Lcom/jakex/makeupselfie/camera/f/b;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/camera/f/b$2;->a:Lcom/jakex/ymluxscoresf/camera/f/b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -36,23 +36,23 @@
 .method public onLayoutChange(Landroid/view/View;IIIIIIII)V
     .locals 0
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/f/b$2;->a:Lcom/jakex/makeupselfie/camera/f/b;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/f/b$2;->a:Lcom/jakex/ymluxscoresf/camera/f/b;
 
-    invoke-static {p1}, Lcom/jakex/makeupselfie/camera/f/b;->b(Lcom/jakex/makeupselfie/camera/f/b;)Z
+    invoke-static {p1}, Lcom/jakex/ymluxscoresf/camera/f/b;->b(Lcom/jakex/ymluxscoresf/camera/f/b;)Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/f/b$2;->a:Lcom/jakex/makeupselfie/camera/f/b;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/f/b$2;->a:Lcom/jakex/ymluxscoresf/camera/f/b;
 
     const/4 p2, 0x0
 
-    invoke-static {p1, p2}, Lcom/jakex/makeupselfie/camera/f/b;->a(Lcom/jakex/makeupselfie/camera/f/b;Z)Z
+    invoke-static {p1, p2}, Lcom/jakex/ymluxscoresf/camera/f/b;->a(Lcom/jakex/ymluxscoresf/camera/f/b;Z)Z
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/f/b$2;->a:Lcom/jakex/makeupselfie/camera/f/b;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/f/b$2;->a:Lcom/jakex/ymluxscoresf/camera/f/b;
 
-    invoke-static {p1}, Lcom/jakex/makeupselfie/camera/f/b;->a(Lcom/jakex/makeupselfie/camera/f/b;)V
+    invoke-static {p1}, Lcom/jakex/ymluxscoresf/camera/f/b;->a(Lcom/jakex/ymluxscoresf/camera/f/b;)V
 
     :cond_0
     return-void

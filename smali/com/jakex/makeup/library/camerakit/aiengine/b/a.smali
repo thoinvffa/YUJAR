@@ -13,7 +13,7 @@
 # instance fields
 .field private volatile a:J
 
-.field private b:Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinOption;
+.field private b:Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinOption;
 
 .field private c:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
@@ -40,21 +40,21 @@
 
     iput-object v0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b/a;->d:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    new-instance v0, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinOption;
+    new-instance v0, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinOption;
 
-    invoke-direct {v0}, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinOption;-><init>()V
+    invoke-direct {v0}, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinOption;-><init>()V
 
-    iput-object v0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b/a;->b:Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinOption;
+    iput-object v0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b/a;->b:Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinOption;
 
     iput-wide p1, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b/a;->a:J
 
     return-void
 .end method
 
-.method static synthetic a(Lcom/jakex/makeup/library/camerakit/aiengine/b/a;)Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinOption;
+.method static synthetic a(Lcom/jakex/makeup/library/camerakit/aiengine/b/a;)Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinOption;
     .locals 0
 
-    iget-object p0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b/a;->b:Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinOption;
+    iget-object p0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b/a;->b:Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinOption;
 
     return-object p0
 .end method
@@ -115,10 +115,10 @@
     return-void
 .end method
 
-.method static synthetic b(Lcom/jakex/makeup/library/camerakit/aiengine/b/a;)Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;
+.method static synthetic b(Lcom/jakex/makeup/library/camerakit/aiengine/b/a;)Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;
     .locals 0
 
-    invoke-virtual {p0}, Lcom/jakex/makeup/library/camerakit/aiengine/b/a;->a()Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;
+    invoke-virtual {p0}, Lcom/jakex/makeup/library/camerakit/aiengine/b/a;->a()Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;
 
     move-result-object p0
 
@@ -136,7 +136,7 @@
 .method private g()V
     .locals 5
 
-    invoke-virtual {p0}, Lcom/jakex/makeup/library/camerakit/aiengine/b/a;->a()Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;
+    invoke-virtual {p0}, Lcom/jakex/makeup/library/camerakit/aiengine/b/a;->a()Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;
 
     move-result-object v0
 
@@ -147,9 +147,9 @@
     :cond_0
     iget-wide v0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b/a;->a:J
 
-    iget-object v2, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b/a;->b:Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinOption;
+    iget-object v2, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b/a;->b:Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinOption;
 
-    iget-wide v2, v2, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinOption;->option:J
+    iget-wide v2, v2, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinOption;->option:J
 
     cmp-long v4, v0, v2
 
@@ -164,11 +164,11 @@
 
     invoke-virtual {v0, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;->set(Z)V
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b/a;->b:Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinOption;
+    iget-object v0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b/a;->b:Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinOption;
 
     iget-wide v1, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b/a;->a:J
 
-    iput-wide v1, v0, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinOption;->option:J
+    iput-wide v1, v0, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinOption;->option:J
 
     invoke-virtual {p0}, Lcom/jakex/makeup/library/camerakit/aiengine/b/a;->O_()Lcom/jakex/library/renderarch/arch/d/g;
 
@@ -226,10 +226,10 @@
     return-void
 .end method
 
-.method public a(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/MTAiEngineResult;)V
+.method public a(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/MTAiEngineResult;)V
     .locals 2
 
-    invoke-super {p0, p1, p2}, Lcom/jakex/makeup/library/camerakit/aiengine/a;->a(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/MTAiEngineResult;)V
+    invoke-super {p0, p1, p2}, Lcom/jakex/makeup/library/camerakit/aiengine/a;->a(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/MTAiEngineResult;)V
 
     if-nez p2, :cond_0
 
@@ -238,7 +238,7 @@
     goto :goto_0
 
     :cond_0
-    iget-object p2, p2, Lcom/jakex/mtlab/MTAiInterface/MTAiEngineResult;->skinResult:Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinResult;
+    iget-object p2, p2, Lcom/jakex/ymlux/MTAiInterface/MTAiEngineResult;->skinResult:Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinResult;
 
     :goto_0
     iget-object v0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b/a;->c:Ljava/util/List;
@@ -262,24 +262,24 @@
 
     check-cast v1, Lcom/jakex/makeup/library/camerakit/aiengine/b/a$a;
 
-    invoke-interface {v1, p1, p2}, Lcom/jakex/makeup/library/camerakit/aiengine/b/a$a;->a(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinResult;)V
+    invoke-interface {v1, p1, p2}, Lcom/jakex/makeup/library/camerakit/aiengine/b/a$a;->a(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinResult;)V
 
     goto :goto_1
 
     :cond_1
     new-instance v0, Lcom/jakex/makeup/library/camerakit/aiengine/b/a$3;
 
-    invoke-direct {v0, p0, p1, p2}, Lcom/jakex/makeup/library/camerakit/aiengine/b/a$3;-><init>(Lcom/jakex/makeup/library/camerakit/aiengine/b/a;Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinResult;)V
+    invoke-direct {v0, p0, p1, p2}, Lcom/jakex/makeup/library/camerakit/aiengine/b/a$3;-><init>(Lcom/jakex/makeup/library/camerakit/aiengine/b/a;Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinResult;)V
 
     invoke-direct {p0, v0}, Lcom/jakex/makeup/library/camerakit/aiengine/b/a;->a(Lcom/jakex/makeup/library/camerakit/aiengine/f;)V
 
     return-void
 .end method
 
-.method public a(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;)Z
+.method public a(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;)Z
     .locals 7
 
-    invoke-super {p0, p1, p2}, Lcom/jakex/makeup/library/camerakit/aiengine/a;->a(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;)Z
+    invoke-super {p0, p1, p2}, Lcom/jakex/makeup/library/camerakit/aiengine/a;->a(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;)Z
 
     invoke-direct {p0}, Lcom/jakex/makeup/library/camerakit/aiengine/b/a;->g()V
 
@@ -296,7 +296,7 @@
     return v1
 
     :cond_0
-    iget-object p2, p2, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->skinOption:Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinOption;
+    iget-object p2, p2, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;->skinOption:Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinOption;
 
     iget-object v0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b/a;->c:Ljava/util/List;
 
@@ -319,26 +319,26 @@
 
     check-cast v2, Lcom/jakex/makeup/library/camerakit/aiengine/b/a$a;
 
-    iget-wide v3, p2, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinOption;->option:J
+    iget-wide v3, p2, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinOption;->option:J
 
-    invoke-interface {v2, p1}, Lcom/jakex/makeup/library/camerakit/aiengine/b/a$a;->a(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;)J
+    invoke-interface {v2, p1}, Lcom/jakex/makeup/library/camerakit/aiengine/b/a$a;->a(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;)J
 
     move-result-wide v5
 
     or-long v2, v3, v5
 
-    iput-wide v2, p2, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinOption;->option:J
+    iput-wide v2, p2, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinOption;->option:J
 
     goto :goto_0
 
     :cond_1
     new-instance v0, Lcom/jakex/makeup/library/camerakit/aiengine/b/a$2;
 
-    invoke-direct {v0, p0, p2, p1}, Lcom/jakex/makeup/library/camerakit/aiengine/b/a$2;-><init>(Lcom/jakex/makeup/library/camerakit/aiengine/b/a;Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinOption;Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;)V
+    invoke-direct {v0, p0, p2, p1}, Lcom/jakex/makeup/library/camerakit/aiengine/b/a$2;-><init>(Lcom/jakex/makeup/library/camerakit/aiengine/b/a;Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinOption;Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;)V
 
     invoke-direct {p0, v0}, Lcom/jakex/makeup/library/camerakit/aiengine/b/a;->a(Lcom/jakex/makeup/library/camerakit/aiengine/f;)V
 
-    iget-wide p1, p2, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinOption;->option:J
+    iget-wide p1, p2, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinOption;->option:J
 
     const-wide/16 v2, 0x0
 
@@ -371,17 +371,17 @@
 
     invoke-super {p0}, Lcom/jakex/makeup/library/camerakit/aiengine/a;->d()V
 
-    invoke-virtual {p0}, Lcom/jakex/makeup/library/camerakit/aiengine/b/a;->a()Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;
+    invoke-virtual {p0}, Lcom/jakex/makeup/library/camerakit/aiengine/b/a;->a()Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b/a;->b:Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinOption;
+    iget-object v1, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b/a;->b:Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinOption;
 
-    invoke-virtual {v1}, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinOption;->detectorType()I
+    invoke-virtual {v1}, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinOption;->detectorType()I
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;->unregisterModule(I)I
+    invoke-virtual {v0, v1}, Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;->unregisterModule(I)I
 
     const-string v0, "AiEngineSkinDetector"
 

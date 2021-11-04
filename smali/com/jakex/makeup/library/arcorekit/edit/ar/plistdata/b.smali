@@ -140,13 +140,13 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/jakex/mtlab/arkernelinterface/core/ParamControl/ARKernelParamSliderControlJNI;
+    check-cast v1, Lcom/jakex/ymlux/arkernelinterface/core/ParamControl/ARKernelParamSliderControlJNI;
 
     iget v2, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/b;->d:F
 
-    invoke-virtual {v1, v2}, Lcom/jakex/mtlab/arkernelinterface/core/ParamControl/ARKernelParamSliderControlJNI;->setCurrentValue(F)V
+    invoke-virtual {v1, v2}, Lcom/jakex/ymlux/arkernelinterface/core/ParamControl/ARKernelParamSliderControlJNI;->setCurrentValue(F)V
 
-    invoke-virtual {v1}, Lcom/jakex/mtlab/arkernelinterface/core/ParamControl/ARKernelParamSliderControlJNI;->dispatch()V
+    invoke-virtual {v1}, Lcom/jakex/ymlux/arkernelinterface/core/ParamControl/ARKernelParamSliderControlJNI;->dispatch()V
 
     goto :goto_0
 
@@ -239,7 +239,7 @@
 
     move-result-object v4
 
-    check-cast v4, Lcom/jakex/mtlab/arkernelinterface/core/ParamControl/ARKernelParamSliderControlJNI;
+    check-cast v4, Lcom/jakex/ymlux/arkernelinterface/core/ParamControl/ARKernelParamSliderControlJNI;
 
     invoke-virtual {v0, v2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -251,9 +251,9 @@
 
     move-result v5
 
-    invoke-virtual {v4, v5}, Lcom/jakex/mtlab/arkernelinterface/core/ParamControl/ARKernelParamSliderControlJNI;->setCurrentValue(F)V
+    invoke-virtual {v4, v5}, Lcom/jakex/ymlux/arkernelinterface/core/ParamControl/ARKernelParamSliderControlJNI;->setCurrentValue(F)V
 
-    invoke-virtual {v4}, Lcom/jakex/mtlab/arkernelinterface/core/ParamControl/ARKernelParamSliderControlJNI;->dispatch()V
+    invoke-virtual {v4}, Lcom/jakex/ymlux/arkernelinterface/core/ParamControl/ARKernelParamSliderControlJNI;->dispatch()V
 
     goto :goto_1
 
@@ -346,7 +346,7 @@
 
     move-result-object v4
 
-    check-cast v4, Lcom/jakex/mtlab/arkernelinterface/core/ParamControl/ARKernelParamCheckControlJNI;
+    check-cast v4, Lcom/jakex/ymlux/arkernelinterface/core/ParamControl/ARKernelParamCheckControlJNI;
 
     invoke-virtual {v0, v2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -358,9 +358,9 @@
 
     move-result v5
 
-    invoke-virtual {v4, v5}, Lcom/jakex/mtlab/arkernelinterface/core/ParamControl/ARKernelParamCheckControlJNI;->setCurrentValue(Z)V
+    invoke-virtual {v4, v5}, Lcom/jakex/ymlux/arkernelinterface/core/ParamControl/ARKernelParamCheckControlJNI;->setCurrentValue(Z)V
 
-    invoke-virtual {v4}, Lcom/jakex/mtlab/arkernelinterface/core/ParamControl/ARKernelParamCheckControlJNI;->dispatch()V
+    invoke-virtual {v4}, Lcom/jakex/ymlux/arkernelinterface/core/ParamControl/ARKernelParamCheckControlJNI;->dispatch()V
 
     goto :goto_1
 

@@ -2,7 +2,7 @@
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lcom/jakex/makeupcore/b/d$a;
+.implements Lcom/jakex/ymluxscore/b/d$a;
 
 
 # annotations
@@ -84,22 +84,22 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    check-cast p1, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
     if-nez p1, :cond_2
 
     return-void
 
     :cond_2
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;->getMaxVersion()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;->getMaxVersion()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;->getMinVersion()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;->getMinVersion()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/jakex/makeupcore/util/bk;->a(Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-static {v0, v1}, Lcom/jakex/ymluxscore/util/bk;->a(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v0
 
@@ -125,7 +125,7 @@
     return-void
 
     :cond_4
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;->getMaterialId()J
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;->getMaterialId()J
 
     move-result-wide v0
 
@@ -135,18 +135,18 @@
 
     if-eqz v4, :cond_7
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/bean/download/b;->a(Lcom/jakex/makeupcore/bean/download/a;)Lcom/jakex/makeupcore/bean/download/DownloadState;
+    invoke-static {p1}, Lcom/jakex/ymluxscore/bean/download/b;->a(Lcom/jakex/ymluxscore/bean/download/a;)Lcom/jakex/ymluxscore/bean/download/DownloadState;
 
     move-result-object v2
 
-    sget-object v3, Lcom/jakex/makeupcore/bean/download/DownloadState;->DOWNLOADING:Lcom/jakex/makeupcore/bean/download/DownloadState;
+    sget-object v3, Lcom/jakex/ymluxscore/bean/download/DownloadState;->DOWNLOADING:Lcom/jakex/ymluxscore/bean/download/DownloadState;
 
     if-ne v2, v3, :cond_5
 
     return-void
 
     :cond_5
-    sget-object v3, Lcom/jakex/makeupcore/bean/download/DownloadState;->INIT:Lcom/jakex/makeupcore/bean/download/DownloadState;
+    sget-object v3, Lcom/jakex/ymluxscore/bean/download/DownloadState;->INIT:Lcom/jakex/ymluxscore/bean/download/DownloadState;
 
     if-ne v2, v3, :cond_7
 
@@ -164,7 +164,7 @@
 
     move-result-object p2
 
-    invoke-interface {p2, p1}, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView$a;->a(Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;)V
+    invoke-interface {p2, p1}, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView$a;->a(Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;)V
 
     :cond_6
     return-void
@@ -172,7 +172,7 @@
     :cond_7
     iget-object v2, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView$1;->a:Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;
 
-    invoke-static {v2}, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->b(Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;)Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    invoke-static {v2}, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->b(Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;)Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
     move-result-object v2
 
@@ -180,11 +180,11 @@
 
     iget-object v2, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView$1;->a:Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;
 
-    invoke-static {v2}, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->b(Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;)Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    invoke-static {v2}, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->b(Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;)Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;->getMaterialId()J
+    invoke-virtual {v2}, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;->getMaterialId()J
 
     move-result-wide v2
 
@@ -201,9 +201,9 @@
     :cond_8
     iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView$1;->a:Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;
 
-    invoke-static {v0, p1}, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->a(Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;)Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    invoke-static {v0, p1}, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;->a(Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;)Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
-    invoke-static {p1}, Lcom/jakex/makeupsenior/model/g;->a(Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;)Z
+    invoke-static {p1}, Lcom/jakex/makeupsenior/model/g;->a(Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;)Z
 
     move-result v0
 
@@ -211,11 +211,11 @@
 
     const-string v0, "-1"
 
-    invoke-virtual {p1, v0}, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;->setUpdateFlag(Ljava/lang/String;)V
+    invoke-virtual {p1, v0}, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;->setUpdateFlag(Ljava/lang/String;)V
 
     const/4 v0, 0x1
 
-    invoke-virtual {p1, v0}, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;->setNeedClearNewSign(Z)V
+    invoke-virtual {p1, v0}, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;->setNeedClearNewSign(Z)V
 
     :cond_9
     iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView$1;->a:Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView;
@@ -278,7 +278,7 @@
 
     const/4 v1, 0x0
 
-    invoke-interface {v0, p1, p2, v1}, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView$a;->a(Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;IZ)V
+    invoke-interface {v0, p1, p2, v1}, Lcom/jakex/makeupsenior/widget/PartMakeupRecyclerView$a;->a(Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;IZ)V
 
     :cond_a
     :goto_0

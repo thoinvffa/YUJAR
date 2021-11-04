@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeupsenior/BeautySeniorPresenter;
-.super Lcom/jakex/makeupcore/l/a;
+.super Lcom/jakex/ymluxscore/l/a;
 
 
 # annotations
@@ -12,7 +12,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupcore/l/a<",
+        "Lcom/jakex/ymluxscore/l/a<",
         "Lcom/jakex/makeupsenior/g$a;",
         ">;"
     }
@@ -27,7 +27,7 @@
 .method public constructor <init>(Lcom/jakex/makeupsenior/g$a;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupcore/l/a;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscore/l/a;-><init>(Ljava/lang/Object;)V
 
     return-void
 .end method
@@ -86,7 +86,7 @@
 
     iput-object v0, p0, Lcom/jakex/makeupsenior/BeautySeniorPresenter;->a:Lcom/jakex/makeupsenior/BeautySeniorPresenter$a;
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/i;->a()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/jakex/ymluxscore/util/i;->a()Ljava/util/concurrent/Executor;
 
     move-result-object p1
 
@@ -99,14 +99,14 @@
     return-void
 .end method
 
-.method public a(Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;I)V
+.method public a(Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;I)V
     .locals 3
 
     invoke-static {}, Lcom/jakex/makeupsenior/model/b;->a()Lcom/jakex/makeupsenior/model/b;
 
     move-result-object v0
 
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;->getMaterialId()J
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;->getMaterialId()J
 
     move-result-wide v1
 

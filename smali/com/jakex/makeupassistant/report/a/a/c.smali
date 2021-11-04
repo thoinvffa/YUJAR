@@ -1,11 +1,11 @@
 .class public Lcom/jakex/makeupassistant/report/a/a/c;
-.super Lcom/jakex/makeupcore/b/d;
+.super Lcom/jakex/ymluxscore/b/d;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupcore/b/d<",
+        "Lcom/jakex/ymluxscore/b/d<",
         "Ljava/lang/String;",
         ">;"
     }
@@ -24,7 +24,7 @@
         }
     .end annotation
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupcore/b/d;-><init>(Ljava/util/List;)V
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscore/b/d;-><init>(Ljava/util/List;)V
 
     return-void
 .end method
@@ -39,26 +39,26 @@
     return p1
 .end method
 
-.method public bridge synthetic a(Lcom/jakex/makeupcore/b/e;ILjava/lang/Object;)V
+.method public bridge synthetic a(Lcom/jakex/ymluxscore/b/e;ILjava/lang/Object;)V
     .locals 0
 
     check-cast p3, Ljava/lang/String;
 
-    invoke-virtual {p0, p1, p2, p3}, Lcom/jakex/makeupassistant/report/a/a/c;->a(Lcom/jakex/makeupcore/b/e;ILjava/lang/String;)V
+    invoke-virtual {p0, p1, p2, p3}, Lcom/jakex/makeupassistant/report/a/a/c;->a(Lcom/jakex/ymluxscore/b/e;ILjava/lang/String;)V
 
     return-void
 .end method
 
-.method public a(Lcom/jakex/makeupcore/b/e;ILjava/lang/String;)V
+.method public a(Lcom/jakex/ymluxscore/b/e;ILjava/lang/String;)V
     .locals 0
 
     sget p2, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->makeup_report_recommend_color_civ:I
 
-    invoke-virtual {p1, p2}, Lcom/jakex/makeupcore/b/e;->a(I)Landroid/view/View;
+    invoke-virtual {p1, p2}, Lcom/jakex/ymluxscore/b/e;->a(I)Landroid/view/View;
 
     move-result-object p1
 
-    check-cast p1, Lcom/jakex/makeupcore/widget/CircleImageView;
+    check-cast p1, Lcom/jakex/ymluxscore/widget/CircleImageView;
 
     :try_start_0
     invoke-static {p3}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
@@ -79,7 +79,7 @@
 
     invoke-direct {p3, p2}, Landroid/graphics/drawable/ColorDrawable;-><init>(I)V
 
-    invoke-virtual {p1, p3}, Lcom/jakex/makeupcore/widget/CircleImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p1, p3}, Lcom/jakex/ymluxscore/widget/CircleImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     return-void
 .end method

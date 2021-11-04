@@ -1,17 +1,17 @@
-.class public Lcom/jakex/makeupselfie/camera/customconcrete/d;
+.class public Lcom/jakex/ymluxscoresf/camera/customconcrete/d;
 .super Ljava/lang/Object;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/jakex/makeupselfie/camera/customconcrete/d$a;
+        Lcom/jakex/ymluxscoresf/camera/customconcrete/d$a;
     }
 .end annotation
 
 
 # instance fields
-.field private a:Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;
+.field private a:Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;
 
 
 # direct methods
@@ -23,18 +23,18 @@
     return-void
 .end method
 
-.method synthetic constructor <init>(Lcom/jakex/makeupselfie/camera/customconcrete/d$1;)V
+.method synthetic constructor <init>(Lcom/jakex/ymluxscoresf/camera/customconcrete/d$1;)V
     .locals 0
 
-    invoke-direct {p0}, Lcom/jakex/makeupselfie/camera/customconcrete/d;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscoresf/camera/customconcrete/d;-><init>()V
 
     return-void
 .end method
 
-.method public static a()Lcom/jakex/makeupselfie/camera/customconcrete/d;
+.method public static a()Lcom/jakex/ymluxscoresf/camera/customconcrete/d;
     .locals 1
 
-    invoke-static {}, Lcom/jakex/makeupselfie/camera/customconcrete/d$a;->a()Lcom/jakex/makeupselfie/camera/customconcrete/d;
+    invoke-static {}, Lcom/jakex/ymluxscoresf/camera/customconcrete/d$a;->a()Lcom/jakex/ymluxscoresf/camera/customconcrete/d;
 
     move-result-object v0
 
@@ -43,10 +43,10 @@
 
 
 # virtual methods
-.method public a(Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;)Z
+.method public a(Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;)Z
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/d;->a:Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/d;->a:Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;
 
     if-ne v0, p1, :cond_0
 
@@ -61,31 +61,31 @@
     return p1
 .end method
 
-.method public b()Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;
+.method public b()Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;
     .locals 2
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/d;->a:Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/d;->a:Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;
 
     if-nez v0, :cond_0
 
-    new-instance v0, Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;
+    new-instance v0, Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;
 
-    invoke-direct {v0}, Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;-><init>()V
+    invoke-direct {v0}, Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;-><init>()V
 
-    iput-object v0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/d;->a:Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;
+    iput-object v0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/d;->a:Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;
 
     const-string v1, "-1"
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;->setConcreteId(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;->setConcreteId(Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/d;->a:Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/d;->a:Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;
 
-    sget-object v1, Lcom/jakex/makeupcore/bean/download/DownloadState;->FINISH:Lcom/jakex/makeupcore/bean/download/DownloadState;
+    sget-object v1, Lcom/jakex/ymluxscore/bean/download/DownloadState;->FINISH:Lcom/jakex/ymluxscore/bean/download/DownloadState;
 
-    invoke-static {v0, v1}, Lcom/jakex/makeupcore/bean/download/b;->a(Lcom/jakex/makeupcore/bean/download/a;Lcom/jakex/makeupcore/bean/download/DownloadState;)V
+    invoke-static {v0, v1}, Lcom/jakex/ymluxscore/bean/download/b;->a(Lcom/jakex/ymluxscore/bean/download/a;Lcom/jakex/ymluxscore/bean/download/DownloadState;)V
 
     :cond_0
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/d;->a:Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/d;->a:Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;
 
     return-object v0
 .end method
@@ -96,7 +96,7 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;",
+            "Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;",
             ">;"
         }
     .end annotation
@@ -105,7 +105,7 @@
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    invoke-static {}, Lcom/jakex/makeupselfie/a/a/a;->a()Ljava/util/List;
+    invoke-static {}, Lcom/jakex/ymluxscoresf/a/a/a;->a()Ljava/util/List;
 
     move-result-object v1
 
@@ -115,7 +115,7 @@
 
     if-nez v2, :cond_0
 
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/camera/customconcrete/d;->b()Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/camera/customconcrete/d;->b()Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;
 
     move-result-object v2
 

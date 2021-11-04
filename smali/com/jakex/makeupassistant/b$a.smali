@@ -1,5 +1,5 @@
 .class Lcom/jakex/makeupassistant/b$a;
-.super Lcom/jakex/makeupcore/net/callback/a;
+.super Lcom/jakex/ymluxscore/net/callback/a;
 
 
 # annotations
@@ -14,7 +14,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupcore/net/callback/a<",
+        "Lcom/jakex/ymluxscore/net/callback/a<",
         "Lcom/jakex/makeupassistant/bean/result/AssistantAnalysisResult;",
         ">;"
     }
@@ -37,7 +37,7 @@
 .method public constructor <init>(Lcom/jakex/makeupassistant/b;)V
     .locals 1
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/net/callback/a;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/net/callback/a;-><init>()V
 
     new-instance v0, Ljava/lang/ref/WeakReference;
 
@@ -65,7 +65,7 @@
         }
     .end annotation
 
-    invoke-super {p0, p1, p2, p3}, Lcom/jakex/makeupcore/net/callback/a;->a(ILjava/util/Map;Ljava/lang/String;)V
+    invoke-super {p0, p1, p2, p3}, Lcom/jakex/ymluxscore/net/callback/a;->a(ILjava/util/Map;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -73,7 +73,7 @@
 .method public a(Lcom/jakex/makeupassistant/bean/result/AssistantAnalysisResult;)V
     .locals 2
 
-    invoke-super {p0, p1}, Lcom/jakex/makeupcore/net/callback/a;->a(Ljava/lang/Object;)V
+    invoke-super {p0, p1}, Lcom/jakex/ymluxscore/net/callback/a;->a(Ljava/lang/Object;)V
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -169,12 +169,12 @@
     return-void
 .end method
 
-.method public a(Lcom/jakex/makeupcore/net/callback/ErrorResponseBean;)V
+.method public a(Lcom/jakex/ymluxscore/net/callback/ErrorResponseBean;)V
     .locals 1
 
-    invoke-super {p0, p1}, Lcom/jakex/makeupcore/net/callback/a;->a(Lcom/jakex/makeupcore/net/callback/ErrorResponseBean;)V
+    invoke-super {p0, p1}, Lcom/jakex/ymluxscore/net/callback/a;->a(Lcom/jakex/ymluxscore/net/callback/ErrorResponseBean;)V
 
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/net/callback/ErrorResponseBean;->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/net/callback/ErrorResponseBean;->toString()Ljava/lang/String;
 
     move-result-object p1
 

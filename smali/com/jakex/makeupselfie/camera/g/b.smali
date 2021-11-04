@@ -1,4 +1,4 @@
-.class public Lcom/jakex/makeupselfie/camera/g/b;
+.class public Lcom/jakex/ymluxscoresf/camera/g/b;
 .super Ljava/lang/Object;
 
 

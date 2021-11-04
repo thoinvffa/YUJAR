@@ -101,7 +101,7 @@
 
     sget p1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$string;->senior_none_eyebow_tip:I
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/widget/a/a;->a(I)V
+    invoke-static {p1}, Lcom/jakex/ymluxscore/widget/a/a;->a(I)V
 
     const-string p1, "\u7709\u6bdb"
 
@@ -112,7 +112,7 @@
 
     sget p1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$string;->senior_none_eyeline_tip:I
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/widget/a/a;->a(I)V
+    invoke-static {p1}, Lcom/jakex/ymluxscore/widget/a/a;->a(I)V
 
     const-string p1, "\u773c\u7ebf"
 
@@ -123,7 +123,7 @@
 
     sget p1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$string;->senior_none_eyelash_tip:I
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/widget/a/a;->a(I)V
+    invoke-static {p1}, Lcom/jakex/ymluxscore/widget/a/a;->a(I)V
 
     const-string p1, "\u776b\u6bdb"
 

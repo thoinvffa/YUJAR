@@ -38,7 +38,7 @@
 
 
 # virtual methods
-.method public onMaterialDownloadUpdate(Lcom/jakex/makeupeditor/material/a/g;)V
+.method public onMaterialDownloadUpdate(Lcom/jakex/ymluxseditor/material/a/g;)V
     .locals 2
     .annotation runtime Lorg/greenrobot/eventbus/Subscribe;
     .end annotation
@@ -48,17 +48,17 @@
     return-void
 
     :cond_0
-    invoke-virtual {p1}, Lcom/jakex/makeupeditor/material/a/g;->a()Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    invoke-virtual {p1}, Lcom/jakex/ymluxseditor/material/a/g;->a()Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
     move-result-object p1
 
     if-eqz p1, :cond_2
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/bean/download/b;->a(Lcom/jakex/makeupcore/bean/download/a;)Lcom/jakex/makeupcore/bean/download/DownloadState;
+    invoke-static {p1}, Lcom/jakex/ymluxscore/bean/download/b;->a(Lcom/jakex/ymluxscore/bean/download/a;)Lcom/jakex/ymluxscore/bean/download/DownloadState;
 
     move-result-object v0
 
-    sget-object v1, Lcom/jakex/makeupcore/bean/download/DownloadState;->FINISH:Lcom/jakex/makeupcore/bean/download/DownloadState;
+    sget-object v1, Lcom/jakex/ymluxscore/bean/download/DownloadState;->FINISH:Lcom/jakex/ymluxscore/bean/download/DownloadState;
 
     if-eq v0, v1, :cond_1
 
@@ -67,7 +67,7 @@
     :cond_1
     iget-object v0, p0, Lcom/jakex/makeupsenior/model/c$a;->a:Lcom/jakex/makeupsenior/model/c;
 
-    invoke-virtual {v0, p1}, Lcom/jakex/makeupsenior/model/c;->a(Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;)V
+    invoke-virtual {v0, p1}, Lcom/jakex/makeupsenior/model/c;->a(Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;)V
 
     :cond_2
     :goto_0

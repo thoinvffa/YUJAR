@@ -11,14 +11,14 @@
     return-void
 .end method
 
-.method public static getMaterialCourseAdFromId(Ljava/lang/String;)Lcom/jakex/makeupcore/bean/MaterialCourseAd;
+.method public static getMaterialCourseAdFromId(Ljava/lang/String;)Lcom/jakex/ymluxscore/bean/MaterialCourseAd;
     .locals 1
 
     invoke-static {}, Lcom/jakex/makeupsenior/saveshare/materialcourse/d;->a()Lcom/jakex/makeupsenior/saveshare/materialcourse/d;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lcom/jakex/makeupsenior/saveshare/materialcourse/d;->a(Ljava/lang/String;)Lcom/jakex/makeupcore/bean/MaterialCourseAd;
+    invoke-virtual {v0, p0}, Lcom/jakex/makeupsenior/saveshare/materialcourse/d;->a(Ljava/lang/String;)Lcom/jakex/ymluxscore/bean/MaterialCourseAd;
 
     move-result-object p0
 
@@ -33,10 +33,10 @@
     return-void
 .end method
 
-.method public static start(Landroid/app/Activity;Lcom/jakex/makeupcore/modular/extra/BeautyMakeupExtra;I)V
+.method public static start(Landroid/app/Activity;Lcom/jakex/ymluxscore/modular/extra/BeautyMakeupExtra;I)V
     .locals 0
 
-    invoke-static {p0, p1, p2}, Lcom/jakex/makeupsenior/BeautyMakeupActivity;->a(Landroid/app/Activity;Lcom/jakex/makeupcore/modular/extra/BeautyMakeupExtra;I)V
+    invoke-static {p0, p1, p2}, Lcom/jakex/makeupsenior/BeautyMakeupActivity;->a(Landroid/app/Activity;Lcom/jakex/ymluxscore/modular/extra/BeautyMakeupExtra;I)V
 
     return-void
 .end method

@@ -1,4 +1,4 @@
-.class Lcom/jakex/makeupselfie/camera/b$1;
+.class Lcom/jakex/ymluxscoresf/camera/b$1;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -7,7 +7,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/jakex/makeupselfie/camera/b;->b()Lcom/jakex/library/camera/MTCamera$e;
+    value = Lcom/jakex/ymluxscoresf/camera/b;->b()Lcom/jakex/library/camera/MTCamera$e;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,14 +17,14 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/jakex/makeupselfie/camera/b;
+.field final synthetic a:Lcom/jakex/ymluxscoresf/camera/b;
 
 
 # direct methods
-.method constructor <init>(Lcom/jakex/makeupselfie/camera/b;)V
+.method constructor <init>(Lcom/jakex/ymluxscoresf/camera/b;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/camera/b$1;->a:Lcom/jakex/makeupselfie/camera/b;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/camera/b$1;->a:Lcom/jakex/ymluxscoresf/camera/b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -40,9 +40,9 @@
 
     if-eqz p1, :cond_0
 
-    iget-object v1, p0, Lcom/jakex/makeupselfie/camera/b$1;->a:Lcom/jakex/makeupselfie/camera/b;
+    iget-object v1, p0, Lcom/jakex/ymluxscoresf/camera/b$1;->a:Lcom/jakex/ymluxscoresf/camera/b;
 
-    invoke-static {v1}, Lcom/jakex/makeupselfie/camera/b;->a(Lcom/jakex/makeupselfie/camera/b;)Lcom/jakex/makeupcamera/util/CamProperty$PreviewRatio;
+    invoke-static {v1}, Lcom/jakex/ymluxscoresf/camera/b;->a(Lcom/jakex/ymluxscoresf/camera/b;)Lcom/jakex/makeupcamera/util/CamProperty$PreviewRatio;
 
     move-result-object v1
 
@@ -65,9 +65,9 @@
     move-result v0
 
     :cond_0
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/b$1;->a:Lcom/jakex/makeupselfie/camera/b;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/b$1;->a:Lcom/jakex/ymluxscoresf/camera/b;
 
-    invoke-static {p1}, Lcom/jakex/makeupselfie/camera/b;->b(Lcom/jakex/makeupselfie/camera/b;)Lcom/jakex/makeup/library/camerakit/a/l;
+    invoke-static {p1}, Lcom/jakex/ymluxscoresf/camera/b;->b(Lcom/jakex/ymluxscoresf/camera/b;)Lcom/jakex/makeup/library/camerakit/a/l;
 
     move-result-object p1
 

@@ -39,7 +39,7 @@
     return-void
 
     :cond_0
-    invoke-virtual {p0}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/g;->k()[Lcom/jakex/mtlab/arkernelinterface/core/ARKernelPartControlInterfaceJNI;
+    invoke-virtual {p0}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/g;->k()[Lcom/jakex/ymlux/arkernelinterface/core/ARKernelPartControlInterfaceJNI;
 
     move-result-object v0
 
@@ -57,15 +57,15 @@
 
     aget-object v3, v0, v2
 
-    instance-of v4, v3, Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI;
+    instance-of v4, v3, Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI;
 
     if-eqz v4, :cond_2
 
-    check-cast v3, Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI;
+    check-cast v3, Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI;
 
     iget-object v4, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/g;->b:[F
 
-    invoke-virtual {v3, v4}, Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI;->setHairMidPoints([F)Z
+    invoke-virtual {v3, v4}, Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI;->setHairMidPoints([F)Z
 
     :cond_2
     add-int/lit8 v2, v2, 0x1
@@ -120,7 +120,7 @@
     return-object v0
 
     :cond_0
-    invoke-virtual {p0}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/g;->k()[Lcom/jakex/mtlab/arkernelinterface/core/ARKernelPartControlInterfaceJNI;
+    invoke-virtual {p0}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/g;->k()[Lcom/jakex/ymlux/arkernelinterface/core/ARKernelPartControlInterfaceJNI;
 
     move-result-object v0
 
@@ -140,13 +140,13 @@
 
     aget-object v4, v0, v3
 
-    instance-of v5, v4, Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI;
+    instance-of v5, v4, Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI;
 
     if-eqz v5, :cond_2
 
-    check-cast v4, Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI;
+    check-cast v4, Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI;
 
-    invoke-virtual {v4}, Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI;->getHairMidPoints()[F
+    invoke-virtual {v4}, Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI;->getHairMidPoints()[F
 
     move-result-object v0
 

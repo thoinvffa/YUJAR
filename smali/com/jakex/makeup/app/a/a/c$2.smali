@@ -2,7 +2,7 @@
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lcom/jakex/makeupcore/e/c$a;
+.implements Lcom/jakex/ymluxscore/e/c$a;
 
 
 # annotations
@@ -36,7 +36,7 @@
 .method public a(Lcom/google/gson/GsonBuilder;)V
     .locals 2
 
-    const-class v0, Lcom/jakex/makeupcore/bean/MainPopBean;
+    const-class v0, Lcom/jakex/ymluxscore/bean/MainPopBean;
 
     new-instance v1, Lcom/jakex/makeup/api/dataanalysis/MainPopDeserializer;
 
@@ -52,7 +52,7 @@
 
     invoke-virtual {p1, v0, v1}, Lcom/google/gson/GsonBuilder;->registerTypeAdapter(Ljava/lang/reflect/Type;Ljava/lang/Object;)Lcom/google/gson/GsonBuilder;
 
-    const-class v0, Lcom/jakex/makeupcore/bean/BannerResultEntity;
+    const-class v0, Lcom/jakex/ymluxscore/bean/BannerResultEntity;
 
     new-instance v1, Lcom/jakex/makeup/api/dataanalysis/BannerDeserializer;
 

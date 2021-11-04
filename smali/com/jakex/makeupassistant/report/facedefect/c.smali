@@ -268,7 +268,7 @@
     move-result-object v1
 
     :cond_2
-    invoke-static {v2}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v2}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v3
 
@@ -277,7 +277,7 @@
     invoke-virtual {v0, v2}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
     :cond_3
-    invoke-static {v1}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v1}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v2
 
@@ -356,7 +356,7 @@
 
     move-result-object v7
 
-    invoke-static {v1}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v1}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v8
 
@@ -373,7 +373,7 @@
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
     :cond_1
-    invoke-static {v2}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v2}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v1
 
@@ -390,7 +390,7 @@
     invoke-virtual {v0, v2}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
     :cond_2
-    invoke-static {v3}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v3}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v1
 
@@ -407,7 +407,7 @@
     invoke-virtual {v0, v3}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
     :cond_3
-    invoke-static {v4}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v4}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v1
 
@@ -424,7 +424,7 @@
     invoke-virtual {v0, v4}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
     :cond_4
-    invoke-static {v5}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v5}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v1
 
@@ -441,7 +441,7 @@
     invoke-virtual {v0, v5}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
     :cond_5
-    invoke-static {v6}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v6}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v1
 
@@ -458,7 +458,7 @@
     invoke-virtual {v0, v6}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
     :cond_6
-    invoke-static {v7}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v7}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v1
 
@@ -491,7 +491,7 @@
 
     iget-object v0, p0, Lcom/jakex/makeupassistant/report/facedefect/c;->e:Ljava/util/ArrayList;
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -506,7 +506,7 @@
     :cond_0
     iget-object v0, p0, Lcom/jakex/makeupassistant/report/facedefect/c;->f:Ljava/util/ArrayList;
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -521,7 +521,7 @@
     :cond_1
     iget-object v0, p0, Lcom/jakex/makeupassistant/report/facedefect/c;->c:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -536,7 +536,7 @@
     :cond_2
     iget-object v0, p0, Lcom/jakex/makeupassistant/report/facedefect/c;->d:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -551,7 +551,7 @@
     :cond_3
     iget-object v0, p0, Lcom/jakex/makeupassistant/report/facedefect/c;->g:Ljava/util/ArrayList;
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v0
 

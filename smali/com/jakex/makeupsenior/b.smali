@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeupsenior/b;
-.super Lcom/jakex/makeupcore/g/a;
+.super Lcom/jakex/ymluxscore/g/a;
 
 
 # annotations
@@ -19,7 +19,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;",
+            "Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;",
             ">;"
         }
     .end annotation
@@ -34,7 +34,7 @@
 .method public constructor <init>()V
     .locals 1
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/g/a;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/g/a;-><init>()V
 
     const/4 v0, 0x0
 
@@ -57,7 +57,7 @@
         value = {
             "(",
             "Ljava/util/List<",
-            "Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;",
+            "Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;",
             ">;J)V"
         }
     .end annotation
@@ -160,7 +160,7 @@
 .method public onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 2
 
-    invoke-super {p0, p1, p2}, Lcom/jakex/makeupcore/g/a;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+    invoke-super {p0, p1, p2}, Lcom/jakex/ymluxscore/g/a;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
     sget p2, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->beauty_color_v:I
 

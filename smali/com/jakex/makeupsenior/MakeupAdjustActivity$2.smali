@@ -44,7 +44,7 @@
 
     const-wide/16 v1, 0x1f4
 
-    invoke-static {v1, v2}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->a(J)Z
+    invoke-static {v1, v2}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->a(J)Z
 
     move-result p1
 
@@ -71,7 +71,7 @@
 
     move-result-object p1
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/i;->a()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/jakex/ymluxscore/util/i;->a()Ljava/util/concurrent/Executor;
 
     move-result-object v1
 

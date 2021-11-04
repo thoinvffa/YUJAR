@@ -2,12 +2,12 @@
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lcom/jakex/mtlab/arkernelinterface/callback/ARKernelCallback;
+.implements Lcom/jakex/ymlux/arkernelinterface/callback/ARKernelCallback;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->p()Lcom/jakex/mtlab/arkernelinterface/callback/ARKernelCallback;
+    value = Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->p()Lcom/jakex/ymlux/arkernelinterface/callback/ARKernelCallback;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -56,7 +56,7 @@
 
     move-wide/from16 v8, p6
 
-    invoke-virtual/range {v2 .. v9}, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->a(IIIZZJ)Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;
+    invoke-virtual/range {v2 .. v9}, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->a(IIIZZJ)Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace3DReconstructorInterfaceJNI;
 
     move-result-object v1
 
@@ -64,11 +64,11 @@
 
     iget-object v2, v0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b$3;->a:Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;
 
-    invoke-static {v2}, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->e(Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;)Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    invoke-static {v2}, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->e(Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;)Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
     move-result-object v2
 
-    invoke-virtual {v2, v1}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->setNativeData(Lcom/jakex/mtlab/arkernelinterface/core/ARKernelBaseDataInterfaceClass;)V
+    invoke-virtual {v2, v1}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->setNativeData(Lcom/jakex/ymlux/arkernelinterface/core/ARKernelBaseDataInterfaceClass;)V
 
     :cond_0
     return-void

@@ -7,7 +7,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/jakex/makeup/library/camerakit/aiengine/b;->a(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;)Z
+    value = Lcom/jakex/makeup/library/camerakit/aiengine/b;->a(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;)Z
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,9 +26,9 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;
+.field final synthetic a:Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;
 
-.field final synthetic b:Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
+.field final synthetic b:Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;
 
 .field final synthetic c:[Z
 
@@ -36,14 +36,14 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/jakex/makeup/library/camerakit/aiengine/b;Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;[Z)V
+.method constructor <init>(Lcom/jakex/makeup/library/camerakit/aiengine/b;Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;[Z)V
     .locals 0
 
     iput-object p1, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b$1;->d:Lcom/jakex/makeup/library/camerakit/aiengine/b;
 
-    iput-object p2, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b$1;->a:Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;
+    iput-object p2, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b$1;->a:Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;
 
-    iput-object p3, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b$1;->b:Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
+    iput-object p3, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b$1;->b:Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;
 
     iput-object p4, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b$1;->c:[Z
 
@@ -67,11 +67,11 @@
 .method public a(Lcom/jakex/makeup/library/camerakit/aiengine/e;)V
     .locals 2
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b$1;->a:Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;
+    iget-object v0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b$1;->a:Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;
 
-    iget-object v1, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b$1;->b:Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
+    iget-object v1, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b$1;->b:Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;
 
-    invoke-interface {p1, v0, v1}, Lcom/jakex/makeup/library/camerakit/aiengine/e;->a(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;)Z
+    invoke-interface {p1, v0, v1}, Lcom/jakex/makeup/library/camerakit/aiengine/e;->a(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;)Z
 
     move-result p1
 

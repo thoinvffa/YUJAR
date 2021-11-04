@@ -1,5 +1,5 @@
 .class Lcom/jakex/makeup/startup/business/a/a$4;
-.super Lcom/jakex/makeupcore/net/j;
+.super Lcom/jakex/ymluxscore/net/j;
 
 
 # annotations
@@ -14,8 +14,8 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupcore/net/j<",
-        "Lcom/jakex/makeupeditor/material/thememakeup/api/MakeupMaterialBean;",
+        "Lcom/jakex/ymluxscore/net/j<",
+        "Lcom/jakex/ymluxseditor/material/thememakeup/api/MakeupMaterialBean;",
         ">;"
     }
 .end annotation
@@ -35,7 +35,7 @@
 
     iput p2, p0, Lcom/jakex/makeup/startup/business/a/a$4;->a:I
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/net/j;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/net/j;-><init>()V
 
     return-void
 .end method
@@ -48,24 +48,24 @@
         value = {
             "(I",
             "Ljava/util/ArrayList<",
-            "Lcom/jakex/makeupeditor/material/thememakeup/api/MakeupMaterialBean;",
+            "Lcom/jakex/ymluxseditor/material/thememakeup/api/MakeupMaterialBean;",
             ">;)V"
         }
     .end annotation
 
-    invoke-super {p0, p1, p2}, Lcom/jakex/makeupcore/net/j;->a(ILjava/util/ArrayList;)V
+    invoke-super {p0, p1, p2}, Lcom/jakex/ymluxscore/net/j;->a(ILjava/util/ArrayList;)V
 
     iget p1, p0, Lcom/jakex/makeup/startup/business/a/a$4;->a:I
 
-    invoke-static {p1, p2}, Lcom/jakex/makeupeditor/material/thememakeup/api/b;->a(ILjava/util/List;)V
+    invoke-static {p1, p2}, Lcom/jakex/ymluxseditor/material/thememakeup/api/b;->a(ILjava/util/List;)V
 
     return-void
 .end method
 
-.method public b(Lcom/jakex/makeupcore/net/APIException;)V
+.method public b(Lcom/jakex/ymluxscore/net/APIException;)V
     .locals 3
 
-    invoke-super {p0, p1}, Lcom/jakex/makeupcore/net/j;->b(Lcom/jakex/makeupcore/net/APIException;)V
+    invoke-super {p0, p1}, Lcom/jakex/ymluxscore/net/j;->b(Lcom/jakex/ymluxscore/net/APIException;)V
 
     invoke-static {}, Lcom/jakex/makeup/startup/business/a/a;->d()Ljava/lang/String;
 

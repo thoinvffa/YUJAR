@@ -1,5 +1,5 @@
-.class public abstract Lcom/jakex/makeupselfie/save/f;
-.super Lcom/jakex/makeupcore/util/bm;
+.class public abstract Lcom/jakex/ymluxscoresf/save/f;
+.super Lcom/jakex/ymluxscore/util/bm;
 
 
 # annotations
@@ -8,7 +8,7 @@
         "<Target:",
         "Ljava/lang/Object;",
         ">",
-        "Lcom/jakex/makeupcore/util/bm<",
+        "Lcom/jakex/ymluxscore/util/bm<",
         "TTarget;",
         "Ljava/lang/Void;",
         "Ljava/lang/Void;",
@@ -36,11 +36,11 @@
         }
     .end annotation
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupcore/util/bm;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscore/util/bm;-><init>(Ljava/lang/Object;)V
 
-    iput-object p2, p0, Lcom/jakex/makeupselfie/save/f;->a:Landroid/graphics/Bitmap;
+    iput-object p2, p0, Lcom/jakex/ymluxscoresf/save/f;->a:Landroid/graphics/Bitmap;
 
-    iput-object p3, p0, Lcom/jakex/makeupselfie/save/f;->b:Landroid/graphics/Bitmap;
+    iput-object p3, p0, Lcom/jakex/ymluxscoresf/save/f;->b:Landroid/graphics/Bitmap;
 
     return-void
 .end method
@@ -50,7 +50,7 @@
 .method public a()Landroid/graphics/Bitmap;
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/save/f;->a:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/save/f;->a:Landroid/graphics/Bitmap;
 
     return-object v0
 .end method
@@ -61,11 +61,11 @@
     const/4 p1, 0x0
 
     :try_start_0
-    invoke-static {}, Lcom/jakex/makeupselfie/save/b;->a()Lcom/jakex/makeupselfie/save/b;
+    invoke-static {}, Lcom/jakex/ymluxscoresf/save/b;->a()Lcom/jakex/ymluxscoresf/save/b;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupselfie/save/b;->h()Z
+    invoke-virtual {v0}, Lcom/jakex/ymluxscoresf/save/b;->h()Z
 
     move-result v0
 
@@ -79,9 +79,9 @@
     const/4 v0, 0x1
 
     :goto_0
-    sget-object v1, Lcom/jakex/makeupeditor/util/CloudPictureCollectionUtil$Scene;->SELFIE:Lcom/jakex/makeupeditor/util/CloudPictureCollectionUtil$Scene;
+    sget-object v1, Lcom/jakex/ymluxseditor/util/CloudPictureCollectionUtil$Scene;->SELFIE:Lcom/jakex/ymluxseditor/util/CloudPictureCollectionUtil$Scene;
 
-    iget-object v2, p0, Lcom/jakex/makeupselfie/save/f;->a:Landroid/graphics/Bitmap;
+    iget-object v2, p0, Lcom/jakex/ymluxscoresf/save/f;->a:Landroid/graphics/Bitmap;
 
     invoke-static {v2}, Lcom/jakex/library/util/bitmap/a;->a(Landroid/graphics/Bitmap;)Z
 
@@ -89,7 +89,7 @@
 
     if-eqz v2, :cond_1
 
-    invoke-static {}, Lcom/jakex/makeupcore/modular/a/a;->g()Ljava/lang/String;
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/a/a;->g()Ljava/lang/String;
 
     move-result-object v2
 
@@ -101,7 +101,7 @@
 
     invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/n;->f()Ljava/lang/String;
+    invoke-static {}, Lcom/jakex/ymluxscore/util/n;->f()Ljava/lang/String;
 
     move-result-object v2
 
@@ -111,7 +111,7 @@
 
     move-result-object v2
 
-    iget-object v3, p0, Lcom/jakex/makeupselfie/save/f;->a:Landroid/graphics/Bitmap;
+    iget-object v3, p0, Lcom/jakex/ymluxscoresf/save/f;->a:Landroid/graphics/Bitmap;
 
     sget-object v4, Landroid/graphics/Bitmap$CompressFormat;->JPEG:Landroid/graphics/Bitmap$CompressFormat;
 
@@ -123,13 +123,13 @@
 
     move-result-object v4
 
-    invoke-static {v2, v4}, Lcom/jakex/makeupcore/util/ae;->b(Ljava/lang/String;Landroid/content/Context;)Landroid/net/Uri;
+    invoke-static {v2, v4}, Lcom/jakex/ymluxscore/util/ae;->b(Ljava/lang/String;Landroid/content/Context;)Landroid/net/Uri;
 
     invoke-static {}, Lcom/jakex/library/application/BaseApplication;->a()Landroid/app/Application;
 
     move-result-object v4
 
-    invoke-static {v2, v4}, Lcom/jakex/makeupcore/util/ae;->a(Ljava/lang/String;Landroid/content/Context;)V
+    invoke-static {v2, v4}, Lcom/jakex/ymluxscore/util/ae;->a(Ljava/lang/String;Landroid/content/Context;)V
 
     goto :goto_1
 
@@ -139,7 +139,7 @@
     move-object v2, p1
 
     :goto_1
-    iget-object v4, p0, Lcom/jakex/makeupselfie/save/f;->b:Landroid/graphics/Bitmap;
+    iget-object v4, p0, Lcom/jakex/ymluxscoresf/save/f;->b:Landroid/graphics/Bitmap;
 
     invoke-static {v4}, Lcom/jakex/library/util/bitmap/a;->a(Landroid/graphics/Bitmap;)Z
 
@@ -147,11 +147,11 @@
 
     if-eqz v4, :cond_2
 
-    iget-object v4, p0, Lcom/jakex/makeupselfie/save/f;->b:Landroid/graphics/Bitmap;
+    iget-object v4, p0, Lcom/jakex/ymluxscoresf/save/f;->b:Landroid/graphics/Bitmap;
 
     const/4 v5, 0x3
 
-    invoke-static {v1, v4, v0, v5}, Lcom/jakex/makeupeditor/util/CloudPictureCollectionUtil;->a(Lcom/jakex/makeupeditor/util/CloudPictureCollectionUtil$Scene;Landroid/graphics/Bitmap;II)V
+    invoke-static {v1, v4, v0, v5}, Lcom/jakex/ymluxseditor/util/CloudPictureCollectionUtil;->a(Lcom/jakex/ymluxseditor/util/CloudPictureCollectionUtil$Scene;Landroid/graphics/Bitmap;II)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -176,7 +176,7 @@
 
     check-cast p1, [Ljava/lang/Void;
 
-    invoke-virtual {p0, p1}, Lcom/jakex/makeupselfie/save/f;->a([Ljava/lang/Void;)Ljava/lang/String;
+    invoke-virtual {p0, p1}, Lcom/jakex/ymluxscoresf/save/f;->a([Ljava/lang/Void;)Ljava/lang/String;
 
     move-result-object p1
 

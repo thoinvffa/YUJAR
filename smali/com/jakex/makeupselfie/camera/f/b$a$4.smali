@@ -1,10 +1,10 @@
-.class Lcom/jakex/makeupselfie/camera/f/b$a$4;
-.super Lcom/jakex/makeupcore/widget/indicator/d;
+.class Lcom/jakex/ymluxscoresf/camera/f/b$a$4;
+.super Lcom/jakex/ymluxscore/widget/indicator/d;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/jakex/makeupselfie/camera/f/b$a;->a(Landroid/content/Context;)Lnet/lucode/hackware/magicindicator/buildins/commonnavigator/a/c;
+    value = Lcom/jakex/ymluxscoresf/camera/f/b$a;->a(Landroid/content/Context;)Lnet/lucode/hackware/magicindicator/buildins/commonnavigator/a/c;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -16,18 +16,18 @@
 # instance fields
 .field final synthetic a:F
 
-.field final synthetic b:Lcom/jakex/makeupselfie/camera/f/b$a;
+.field final synthetic b:Lcom/jakex/ymluxscoresf/camera/f/b$a;
 
 
 # direct methods
-.method constructor <init>(Lcom/jakex/makeupselfie/camera/f/b$a;Landroid/content/Context;F)V
+.method constructor <init>(Lcom/jakex/ymluxscoresf/camera/f/b$a;Landroid/content/Context;F)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/camera/f/b$a$4;->b:Lcom/jakex/makeupselfie/camera/f/b$a;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/camera/f/b$a$4;->b:Lcom/jakex/ymluxscoresf/camera/f/b$a;
 
-    iput p3, p0, Lcom/jakex/makeupselfie/camera/f/b$a$4;->a:F
+    iput p3, p0, Lcom/jakex/ymluxscoresf/camera/f/b$a$4;->a:F
 
-    invoke-direct {p0, p2}, Lcom/jakex/makeupcore/widget/indicator/d;-><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p2}, Lcom/jakex/ymluxscore/widget/indicator/d;-><init>(Landroid/content/Context;)V
 
     return-void
 .end method
@@ -53,7 +53,7 @@
     sub-float/2addr v0, p4
 
     :goto_0
-    iget p1, p0, Lcom/jakex/makeupselfie/camera/f/b$a$4;->a:F
+    iget p1, p0, Lcom/jakex/ymluxscoresf/camera/f/b$a$4;->a:F
 
     mul-float p1, p1, v0
 

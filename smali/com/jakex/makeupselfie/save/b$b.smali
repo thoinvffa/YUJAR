@@ -1,10 +1,10 @@
-.class public Lcom/jakex/makeupselfie/save/b$b;
+.class public Lcom/jakex/ymluxscoresf/save/b$b;
 .super Ljava/lang/Object;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/jakex/makeupselfie/save/b;
+    value = Lcom/jakex/ymluxscoresf/save/b;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -35,7 +35,7 @@
 .method public a()Landroid/graphics/Bitmap;
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/save/b$b;->a:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/save/b$b;->a:Landroid/graphics/Bitmap;
 
     return-object v0
 .end method
@@ -43,7 +43,7 @@
 .method public a(Landroid/graphics/Bitmap;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/save/b$b;->a:Landroid/graphics/Bitmap;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/save/b$b;->a:Landroid/graphics/Bitmap;
 
     return-void
 .end method
@@ -51,7 +51,7 @@
 .method public a(Z)V
     .locals 0
 
-    iput-boolean p1, p0, Lcom/jakex/makeupselfie/save/b$b;->c:Z
+    iput-boolean p1, p0, Lcom/jakex/ymluxscoresf/save/b$b;->c:Z
 
     return-void
 .end method
@@ -59,7 +59,7 @@
 .method public b()Landroid/graphics/Bitmap;
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/save/b$b;->b:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/save/b$b;->b:Landroid/graphics/Bitmap;
 
     return-object v0
 .end method
@@ -67,7 +67,7 @@
 .method public b(Landroid/graphics/Bitmap;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/save/b$b;->b:Landroid/graphics/Bitmap;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/save/b$b;->b:Landroid/graphics/Bitmap;
 
     return-void
 .end method
@@ -75,11 +75,11 @@
 .method public c()V
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/save/b$b;->a:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/save/b$b;->a:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/jakex/library/util/bitmap/a;->b(Landroid/graphics/Bitmap;)V
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/save/b$b;->b:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/save/b$b;->b:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/jakex/library/util/bitmap/a;->b(Landroid/graphics/Bitmap;)V
 

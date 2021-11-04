@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView;
-.super Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;
+.super Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;
 
 
 # annotations
@@ -16,7 +16,7 @@
 # instance fields
 .field private c:Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView$a;
 
-.field private d:Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
+.field private d:Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
 
 .field private e:Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView$d;
 
@@ -51,9 +51,9 @@
 
 .field private l:Z
 
-.field private m:Lcom/jakex/makeupcore/dialog/CommonAlertDialog;
+.field private m:Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;
 
-.field private n:Lcom/jakex/makeupcore/b/d$a;
+.field private n:Lcom/jakex/ymluxscore/b/d$a;
 
 .field private o:Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView$b;
 
@@ -74,7 +74,7 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 0
 
-    invoke-direct {p0, p1, p2}, Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     const/4 p2, -0x1
 
@@ -92,7 +92,7 @@
 
     invoke-direct {p2, p0}, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView$5;-><init>(Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView;)V
 
-    iput-object p2, p0, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView;->n:Lcom/jakex/makeupcore/b/d$a;
+    iput-object p2, p0, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView;->n:Lcom/jakex/ymluxscore/b/d$a;
 
     invoke-direct {p0}, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView;->c()V
 
@@ -263,7 +263,7 @@
 .method private c()V
     .locals 5
 
-    new-instance v0, Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
+    new-instance v0, Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
 
     invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView;->getContext()Landroid/content/Context;
 
@@ -271,15 +271,15 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v0, v1, v2, v2}, Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;-><init>(Landroid/content/Context;IZ)V
+    invoke-direct {v0, v1, v2, v2}, Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;-><init>(Landroid/content/Context;IZ)V
 
-    iput-object v0, p0, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView;->d:Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
+    iput-object v0, p0, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView;->d:Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
 
     const/high16 v1, 0x43480000    # 200.0f
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;->a(F)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;->a(F)V
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView;->d:Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView;->d:Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
 
     invoke-virtual {p0, v0}, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
@@ -291,9 +291,9 @@
 
     iput-object v0, p0, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView;->c:Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView$a;
 
-    iget-object v1, p0, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView;->n:Lcom/jakex/makeupcore/b/d$a;
+    iget-object v1, p0, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView;->n:Lcom/jakex/ymluxscore/b/d$a;
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView$a;->a(Lcom/jakex/makeupcore/b/d$a;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView$a;->a(Lcom/jakex/ymluxscore/b/d$a;)V
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView;->c:Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView$a;
 
@@ -349,33 +349,33 @@
 .method private d()V
     .locals 3
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView;->m:Lcom/jakex/makeupcore/dialog/CommonAlertDialog;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView;->m:Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;
 
     if-nez v0, :cond_0
 
-    new-instance v0, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;
+    new-instance v0, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;
 
     invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v1}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;-><init>(Landroid/content/Context;)V
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;->b(Z)Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;->b(Z)Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;
 
     move-result-object v0
 
     sget v1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$string;->face_lift_reset_tip:I
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;->c(I)Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;->c(I)Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;
 
     move-result-object v0
 
     const/high16 v1, 0x41880000    # 17.0f
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;->a(F)Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;->a(F)Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;
 
     move-result-object v0
 
@@ -385,7 +385,7 @@
 
     invoke-direct {v2, p0}, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView$3;-><init>(Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView;)V
 
-    invoke-virtual {v0, v1, v2}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;->b(ILandroid/content/DialogInterface$OnClickListener;)Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;
+    invoke-virtual {v0, v1, v2}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;->b(ILandroid/content/DialogInterface$OnClickListener;)Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;
 
     move-result-object v0
 
@@ -393,26 +393,26 @@
 
     const/4 v2, 0x0
 
-    invoke-virtual {v0, v1, v2}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;->c(ILandroid/content/DialogInterface$OnClickListener;)Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;
+    invoke-virtual {v0, v1, v2}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;->c(ILandroid/content/DialogInterface$OnClickListener;)Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;->a()Lcom/jakex/makeupcore/dialog/CommonAlertDialog;
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;->a()Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView;->m:Lcom/jakex/makeupcore/dialog/CommonAlertDialog;
+    iput-object v0, p0, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView;->m:Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;
 
     new-instance v1, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView$4;
 
     invoke-direct {v1, p0}, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView$4;-><init>(Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView;)V
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog;->setOnCancelListener(Landroid/content/DialogInterface$OnCancelListener;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;->setOnCancelListener(Landroid/content/DialogInterface$OnCancelListener;)V
 
     :cond_0
-    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView;->m:Lcom/jakex/makeupcore/dialog/CommonAlertDialog;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView;->m:Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog;->show()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;->show()V
 
     return-void
 .end method
@@ -482,14 +482,14 @@
 .method public a(I)V
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView;->d:Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView;->d:Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
 
     if-nez v0, :cond_0
 
     return-void
 
     :cond_0
-    invoke-static {v0, p0, p1}, Lcom/jakex/makeupcore/widget/recyclerview/a;->a(Landroidx/recyclerview/widget/LinearLayoutManager;Landroidx/recyclerview/widget/RecyclerView;I)V
+    invoke-static {v0, p0, p1}, Lcom/jakex/ymluxscore/widget/recyclerview/a;->a(Landroidx/recyclerview/widget/LinearLayoutManager;Landroidx/recyclerview/widget/RecyclerView;I)V
 
     return-void
 .end method
@@ -559,13 +559,13 @@
 .method protected onDetachedFromWindow()V
     .locals 1
 
-    invoke-super {p0}, Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;->onDetachedFromWindow()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;->onDetachedFromWindow()V
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView;->m:Lcom/jakex/makeupcore/dialog/CommonAlertDialog;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView;->m:Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog;->dismiss()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;->dismiss()V
 
     :cond_0
     return-void

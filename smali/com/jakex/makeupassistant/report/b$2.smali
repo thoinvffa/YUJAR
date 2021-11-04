@@ -93,7 +93,7 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/jakex/makeupcore/widget/IconFontView;
+    check-cast v1, Lcom/jakex/ymluxscore/widget/IconFontView;
 
     invoke-virtual {v0, p3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
@@ -145,7 +145,7 @@
 
     move-result-object p2
 
-    invoke-virtual {v1, p2}, Lcom/jakex/makeupcore/widget/IconFontView;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {v1, p2}, Lcom/jakex/ymluxscore/widget/IconFontView;->setText(Ljava/lang/CharSequence;)V
 
     :goto_1
     return-object p1

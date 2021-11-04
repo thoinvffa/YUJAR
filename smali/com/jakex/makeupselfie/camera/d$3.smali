@@ -1,4 +1,4 @@
-.class Lcom/jakex/makeupselfie/camera/d$3;
+.class Lcom/jakex/ymluxscoresf/camera/d$3;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -7,7 +7,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/jakex/makeupselfie/camera/d;->q()Landroid/widget/SeekBar$OnSeekBarChangeListener;
+    value = Lcom/jakex/ymluxscoresf/camera/d;->q()Landroid/widget/SeekBar$OnSeekBarChangeListener;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,14 +17,14 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/jakex/makeupselfie/camera/d;
+.field final synthetic a:Lcom/jakex/ymluxscoresf/camera/d;
 
 
 # direct methods
-.method constructor <init>(Lcom/jakex/makeupselfie/camera/d;)V
+.method constructor <init>(Lcom/jakex/ymluxscoresf/camera/d;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/camera/d$3;->a:Lcom/jakex/makeupselfie/camera/d;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/camera/d$3;->a:Lcom/jakex/ymluxscoresf/camera/d;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -50,9 +50,9 @@
 
     move-result-object p1
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/d$3;->a:Lcom/jakex/makeupselfie/camera/d;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/d$3;->a:Lcom/jakex/ymluxscoresf/camera/d;
 
-    invoke-static {v0}, Lcom/jakex/makeupselfie/camera/d;->f(Lcom/jakex/makeupselfie/camera/d;)Landroid/widget/TextView;
+    invoke-static {v0}, Lcom/jakex/ymluxscoresf/camera/d;->f(Lcom/jakex/ymluxscoresf/camera/d;)Landroid/widget/TextView;
 
     move-result-object v0
 
@@ -60,13 +60,13 @@
 
     if-eqz p3, :cond_0
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/d$3;->a:Lcom/jakex/makeupselfie/camera/d;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/d$3;->a:Lcom/jakex/ymluxscoresf/camera/d;
 
-    invoke-static {p1}, Lcom/jakex/makeupselfie/camera/d;->g(Lcom/jakex/makeupselfie/camera/d;)Lcom/jakex/makeupselfie/camera/d$a;
+    invoke-static {p1}, Lcom/jakex/ymluxscoresf/camera/d;->g(Lcom/jakex/ymluxscoresf/camera/d;)Lcom/jakex/ymluxscoresf/camera/d$a;
 
     move-result-object p1
 
-    invoke-interface {p1, p2}, Lcom/jakex/makeupselfie/camera/d$a;->a(I)V
+    invoke-interface {p1, p2}, Lcom/jakex/ymluxscoresf/camera/d$a;->a(I)V
 
     :cond_0
     return-void
@@ -75,11 +75,11 @@
 .method public onStartTrackingTouch(Landroid/widget/SeekBar;)V
     .locals 0
 
-    invoke-static {}, Lcom/jakex/makeupselfie/camera/g/a;->a()Lcom/jakex/makeupselfie/camera/g/a;
+    invoke-static {}, Lcom/jakex/ymluxscoresf/camera/g/a;->a()Lcom/jakex/ymluxscoresf/camera/g/a;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/jakex/makeupselfie/camera/g/a;->b()V
+    invoke-virtual {p1}, Lcom/jakex/ymluxscoresf/camera/g/a;->b()V
 
     return-void
 .end method
@@ -87,9 +87,9 @@
 .method public onStopTrackingTouch(Landroid/widget/SeekBar;)V
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/d$3;->a:Lcom/jakex/makeupselfie/camera/d;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/d$3;->a:Lcom/jakex/ymluxscoresf/camera/d;
 
-    invoke-static {v0}, Lcom/jakex/makeupselfie/camera/d;->h(Lcom/jakex/makeupselfie/camera/d;)Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+    invoke-static {v0}, Lcom/jakex/ymluxscoresf/camera/d;->h(Lcom/jakex/ymluxscoresf/camera/d;)Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
 
     move-result-object v0
 
@@ -101,25 +101,25 @@
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;->setUserRealTimeAlpha(Ljava/lang/Integer;)V
+    invoke-virtual {v0, p1}, Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;->setUserRealTimeAlpha(Ljava/lang/Integer;)V
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/d$3;->a:Lcom/jakex/makeupselfie/camera/d;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/d$3;->a:Lcom/jakex/ymluxscoresf/camera/d;
 
-    invoke-static {p1}, Lcom/jakex/makeupselfie/camera/d;->h(Lcom/jakex/makeupselfie/camera/d;)Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+    invoke-static {p1}, Lcom/jakex/ymluxscoresf/camera/d;->h(Lcom/jakex/ymluxscoresf/camera/d;)Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/jakex/makeupeditor/a/a/f;->a(Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;)V
+    invoke-static {p1}, Lcom/jakex/ymluxseditor/a/a/f;->a(Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;)V
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/d$3;->a:Lcom/jakex/makeupselfie/camera/d;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/d$3;->a:Lcom/jakex/ymluxscoresf/camera/d;
 
-    invoke-static {p1}, Lcom/jakex/makeupselfie/camera/d;->h(Lcom/jakex/makeupselfie/camera/d;)Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+    invoke-static {p1}, Lcom/jakex/ymluxscoresf/camera/d;->h(Lcom/jakex/ymluxscoresf/camera/d;)Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
 
     move-result-object p1
 
     const/4 v0, 0x0
 
-    invoke-static {p1, v0, v0}, Lcom/jakex/makeupselfie/camera/g/c$y;->a(Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;Lcom/jakex/makeupeditor/configuration/PartPosition;Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;)V
+    invoke-static {p1, v0, v0}, Lcom/jakex/ymluxscoresf/camera/g/c$y;->a(Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;Lcom/jakex/ymluxseditor/configuration/PartPosition;Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;)V
 
     return-void
 .end method

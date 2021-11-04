@@ -79,7 +79,7 @@
     :cond_0
     iget-wide v0, p0, Lcom/jakex/makeupsenior/hairdaub/a$3;->a:J
 
-    invoke-static {v0, v1}, Lcom/jakex/makeupeditor/a/a/g;->a(J)Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    invoke-static {v0, v1}, Lcom/jakex/ymluxseditor/a/a/g;->a(J)Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
     move-result-object v0
 
@@ -88,41 +88,41 @@
     return-void
 
     :cond_1
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;->downloadedFromOnline()Z
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;->downloadedFromOnline()Z
 
     move-result v0
 
     if-eqz v0, :cond_2
 
-    sget-object v0, Lcom/jakex/makeupeditor/configuration/MaterialStorage;->EXTERNAL_FILES:Lcom/jakex/makeupeditor/configuration/MaterialStorage;
+    sget-object v0, Lcom/jakex/ymluxseditor/configuration/MaterialStorage;->EXTERNAL_FILES:Lcom/jakex/ymluxseditor/configuration/MaterialStorage;
 
     goto :goto_0
 
     :cond_2
-    sget-object v0, Lcom/jakex/makeupeditor/configuration/MaterialStorage;->ASSETS:Lcom/jakex/makeupeditor/configuration/MaterialStorage;
+    sget-object v0, Lcom/jakex/ymluxseditor/configuration/MaterialStorage;->ASSETS:Lcom/jakex/ymluxseditor/configuration/MaterialStorage;
 
     :goto_0
-    sget-object v2, Lcom/jakex/makeupeditor/configuration/MaterialStorage$Module;->DEFAULT:Lcom/jakex/makeupeditor/configuration/MaterialStorage$Module;
+    sget-object v2, Lcom/jakex/ymluxseditor/configuration/MaterialStorage$Module;->DEFAULT:Lcom/jakex/ymluxseditor/configuration/MaterialStorage$Module;
 
-    sget-object v3, Lcom/jakex/makeupeditor/configuration/MaterialStorage$Module$Scene;->PICTURE:Lcom/jakex/makeupeditor/configuration/MaterialStorage$Module$Scene;
+    sget-object v3, Lcom/jakex/ymluxseditor/configuration/MaterialStorage$Module$Scene;->PICTURE:Lcom/jakex/ymluxseditor/configuration/MaterialStorage$Module$Scene;
 
-    sget-object v4, Lcom/jakex/makeupeditor/configuration/PartPosition;->HAIR:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v4, Lcom/jakex/ymluxseditor/configuration/PartPosition;->HAIR:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     iget-wide v5, p0, Lcom/jakex/makeupsenior/hairdaub/a$3;->a:J
 
     move-object v1, v0
 
-    invoke-virtual/range {v1 .. v6}, Lcom/jakex/makeupeditor/configuration/MaterialStorage;->appendAbsolutePath(Lcom/jakex/makeupeditor/configuration/MaterialStorage$Module;Lcom/jakex/makeupeditor/configuration/MaterialStorage$Module$Scene;Lcom/jakex/makeupeditor/configuration/PartPosition;J)Ljava/lang/String;
+    invoke-virtual/range {v1 .. v6}, Lcom/jakex/ymluxseditor/configuration/MaterialStorage;->appendAbsolutePath(Lcom/jakex/ymluxseditor/configuration/MaterialStorage$Module;Lcom/jakex/ymluxseditor/configuration/MaterialStorage$Module$Scene;Lcom/jakex/ymluxseditor/configuration/PartPosition;J)Ljava/lang/String;
 
     move-result-object v1
 
     sget-object v2, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/ARPlistDataType;->HAIR:Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/ARPlistDataType;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/configuration/MaterialStorage;->getRootPath()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/configuration/MaterialStorage;->getRootPath()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {v2, v1, v0}, Lcom/jakex/makeupeditor/b/b;->a(Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/ARPlistDataType;Ljava/lang/String;Ljava/lang/String;)Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/i;
+    invoke-static {v2, v1, v0}, Lcom/jakex/ymluxseditor/b/b;->a(Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/ARPlistDataType;Ljava/lang/String;Ljava/lang/String;)Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/i;
 
     move-result-object v0
 
@@ -147,19 +147,19 @@
 
     invoke-virtual {v0, v1}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/g;->a([F)V
 
-    new-instance v1, Lcom/jakex/makeupeditor/b/a/a/c;
+    new-instance v1, Lcom/jakex/ymluxseditor/b/a/a/c;
 
-    invoke-direct {v1}, Lcom/jakex/makeupeditor/b/a/a/c;-><init>()V
+    invoke-direct {v1}, Lcom/jakex/ymluxseditor/b/a/a/c;-><init>()V
 
     const/4 v2, 0x0
 
-    invoke-virtual {v1, v2}, Lcom/jakex/makeupeditor/b/a/a/c;->a(Ljava/lang/Void;)Lcom/jakex/makeupeditor/b/a/c;
+    invoke-virtual {v1, v2}, Lcom/jakex/ymluxseditor/b/a/a/c;->a(Ljava/lang/Void;)Lcom/jakex/ymluxseditor/b/a/c;
 
     move-result-object v1
 
     if-eqz v1, :cond_4
 
-    invoke-virtual {v1}, Lcom/jakex/makeupeditor/b/a/c;->a()Ljava/util/List;
+    invoke-virtual {v1}, Lcom/jakex/ymluxseditor/b/a/c;->a()Ljava/util/List;
 
     move-result-object v1
 

@@ -44,7 +44,7 @@
 
     const/4 v2, 0x0
 
-    invoke-static {v0, v1, v2}, Lcom/jakex/makeup/home/MakeupMainActivity;->a(Landroid/app/Activity;Lcom/jakex/makeupcore/modular/extra/HomeExtra;Z)V
+    invoke-static {v0, v1, v2}, Lcom/jakex/makeup/home/MakeupMainActivity;->a(Landroid/app/Activity;Lcom/jakex/ymluxscore/modular/extra/HomeExtra;Z)V
 
     iget-object v0, p0, Lcom/jakex/makeup/startup/activity/MakeupStartupBaseActivity$4$1;->a:Lcom/jakex/makeup/startup/activity/MakeupStartupBaseActivity$4;
 

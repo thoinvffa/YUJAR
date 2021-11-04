@@ -82,7 +82,7 @@
 
     sget p1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$string;->take_picture_fail:I
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/widget/a/a;->a(I)V
+    invoke-static {p1}, Lcom/jakex/ymluxscore/widget/a/a;->a(I)V
 
     return-void
 

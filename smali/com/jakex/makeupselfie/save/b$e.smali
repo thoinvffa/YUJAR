@@ -1,10 +1,10 @@
-.class public Lcom/jakex/makeupselfie/save/b$e;
+.class public Lcom/jakex/ymluxscoresf/save/b$e;
 .super Ljava/lang/Object;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/jakex/makeupselfie/save/b;
+    value = Lcom/jakex/ymluxscoresf/save/b;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -27,7 +27,7 @@
 
     const-string v0, ""
 
-    iput-object v0, p0, Lcom/jakex/makeupselfie/save/b$e;->b:Ljava/lang/String;
+    iput-object v0, p0, Lcom/jakex/ymluxscoresf/save/b$e;->b:Ljava/lang/String;
 
     return-void
 .end method
@@ -37,7 +37,7 @@
 .method public a()I
     .locals 1
 
-    iget v0, p0, Lcom/jakex/makeupselfie/save/b$e;->a:I
+    iget v0, p0, Lcom/jakex/ymluxscoresf/save/b$e;->a:I
 
     return v0
 .end method
@@ -45,7 +45,7 @@
 .method public a(I)V
     .locals 0
 
-    iput p1, p0, Lcom/jakex/makeupselfie/save/b$e;->a:I
+    iput p1, p0, Lcom/jakex/ymluxscoresf/save/b$e;->a:I
 
     return-void
 .end method
@@ -53,7 +53,7 @@
 .method public a(Ljava/lang/String;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/save/b$e;->b:Ljava/lang/String;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/save/b$e;->b:Ljava/lang/String;
 
     return-void
 .end method
@@ -61,7 +61,7 @@
 .method public b()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/save/b$e;->b:Ljava/lang/String;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/save/b$e;->b:Ljava/lang/String;
 
     return-object v0
 .end method

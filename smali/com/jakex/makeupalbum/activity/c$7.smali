@@ -108,11 +108,11 @@
     :goto_1
     iget-object p1, p0, Lcom/jakex/makeupalbum/activity/c$7;->b:Lcom/jakex/makeupalbum/activity/c;
 
-    invoke-static {p1}, Lcom/jakex/makeupalbum/activity/c;->a(Lcom/jakex/makeupalbum/activity/c;)Lcom/jakex/makeupcore/widget/bar/MDTopBarView;
+    invoke-static {p1}, Lcom/jakex/makeupalbum/activity/c;->a(Lcom/jakex/makeupalbum/activity/c;)Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;
 
     move-result-object p1
 
-    invoke-virtual {p1, p4}, Lcom/jakex/makeupcore/widget/bar/MDTopBarView;->setRightButtonVisibility(Z)V
+    invoke-virtual {p1, p4}, Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;->setRightButtonVisibility(Z)V
 
     return-void
 .end method

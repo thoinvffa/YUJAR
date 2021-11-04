@@ -1,8 +1,8 @@
 .class public Lcom/jakex/makeupsenior/MakeupAdjustActivity;
-.super Lcom/jakex/makeupcore/activity/MTBaseActivity;
+.super Lcom/jakex/ymluxscore/activity/MTBaseActivity;
 
 # interfaces
-.implements Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView$a;
+.implements Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView$a;
 .implements Lcom/jakex/makeupsenior/widget/a/a$a;
 
 
@@ -16,7 +16,7 @@
 
 
 # instance fields
-.field private a:Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+.field private a:Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
 .field private b:Lcom/jakex/makeupsenior/widget/a/a;
 
@@ -42,7 +42,7 @@
             "Landroid/util/SparseArray<",
             "Ljava/util/HashMap<",
             "Ljava/lang/String;",
-            "Lcom/jakex/makeupcore/bean/PointBean;",
+            "Lcom/jakex/ymluxscore/bean/PointBean;",
             ">;>;"
         }
     .end annotation
@@ -57,7 +57,7 @@
 .method public constructor <init>()V
     .locals 2
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;-><init>()V
 
     const/4 v0, 0x0
 
@@ -129,7 +129,7 @@
 
     invoke-virtual {p0, v0, p1}, Landroid/app/Activity;->startActivityForResult(Landroid/content/Intent;I)V
 
-    invoke-static {p0}, Lcom/jakex/makeupcore/util/a;->c(Landroid/app/Activity;)V
+    invoke-static {p0}, Lcom/jakex/ymluxscore/util/a;->c(Landroid/app/Activity;)V
 
     return-void
 .end method
@@ -421,7 +421,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/ah;->a(Landroid/view/Window;)V
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/ah;->a(Landroid/view/Window;)V
 
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->makeup_adjust_root_rl:I
 
@@ -429,7 +429,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/ah;->b(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/ah;->b(Landroid/view/View;)V
 
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->ppview:I
 
@@ -437,41 +437,41 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    check-cast v0, Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
-    iput-object v0, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->a:Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    iput-object v0, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->a:Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
     const/4 v1, 0x1
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupeditor/widget/BeautyMakeupView;->setIsSupportGlass(Z)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;->setIsSupportGlass(Z)V
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->a:Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->a:Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
-    invoke-virtual {v0, p0}, Lcom/jakex/makeupeditor/widget/BeautyMakeupView;->setBeautyMakeupViewListener(Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView$a;)V
+    invoke-virtual {v0, p0}, Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;->setBeautyMakeupViewListener(Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView$a;)V
 
     new-instance v0, Lcom/jakex/makeupsenior/widget/a/a;
 
-    iget-object v2, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->a:Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    iget-object v2, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->a:Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
-    invoke-direct {v0, v2}, Lcom/jakex/makeupsenior/widget/a/a;-><init>(Lcom/jakex/makeupeditor/widget/BeautyMakeupView;)V
+    invoke-direct {v0, v2}, Lcom/jakex/makeupsenior/widget/a/a;-><init>(Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;)V
 
     iput-object v0, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->b:Lcom/jakex/makeupsenior/widget/a/a;
 
     invoke-virtual {v0, p0}, Lcom/jakex/makeupsenior/widget/a/a;->a(Lcom/jakex/makeupsenior/widget/a/a$a;)V
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->a:Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->a:Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
     iget-object v2, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->b:Lcom/jakex/makeupsenior/widget/a/a;
 
     const-string v3, "FacePositionLayer"
 
-    invoke-virtual {v0, v3, v2}, Lcom/jakex/makeupeditor/widget/BeautyMakeupView;->a(Ljava/lang/String;Lcom/jakex/makeupeditor/widget/makeuplayer/a;)V
+    invoke-virtual {v0, v3, v2}, Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;->a(Ljava/lang/String;Lcom/jakex/ymluxseditor/widget/makeuplayer/a;)V
 
-    invoke-static {}, Lcom/jakex/makeupcore/modular/a/b;->a()Lcom/jakex/makeupcore/modular/a/b;
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/a/b;->a()Lcom/jakex/ymluxscore/modular/a/b;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/modular/a/b;->d()Landroid/graphics/Bitmap;
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/modular/a/b;->d()Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -485,18 +485,18 @@
 
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$string;->data_lost:I
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/widget/a/a;->b(I)V
+    invoke-static {v0}, Lcom/jakex/ymluxscore/widget/a/a;->b(I)V
 
-    invoke-static {p0}, Lcom/jakex/makeupcore/modular/c/h;->a(Landroid/app/Activity;)V
+    invoke-static {p0}, Lcom/jakex/ymluxscore/modular/c/h;->a(Landroid/app/Activity;)V
 
     return-void
 
     :cond_0
-    iget-object v0, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->a:Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->a:Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
     iget-object v2, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->d:Landroid/graphics/Bitmap;
 
-    invoke-virtual {v0, v2, v1}, Lcom/jakex/makeupeditor/widget/BeautyMakeupView;->a(Landroid/graphics/Bitmap;Z)V
+    invoke-virtual {v0, v2, v1}, Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;->a(Landroid/graphics/Bitmap;Z)V
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->d:Landroid/graphics/Bitmap;
 
@@ -586,7 +586,7 @@
 
     invoke-direct {v0, v2}, Ljava/util/HashMap;-><init>(I)V
 
-    new-instance v2, Lcom/jakex/makeupcore/bean/PointBean;
+    new-instance v2, Lcom/jakex/ymluxscore/bean/PointBean;
 
     iget v3, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->l:I
 
@@ -604,15 +604,15 @@
 
     mul-float v4, v4, v5
 
-    invoke-direct {v2, v3, v4}, Lcom/jakex/makeupcore/bean/PointBean;-><init>(FF)V
+    invoke-direct {v2, v3, v4}, Lcom/jakex/ymluxscore/bean/PointBean;-><init>(FF)V
 
     const-string v3, "POINT_ADJUST_LEFT_EYE"
 
-    invoke-virtual {v2, v3}, Lcom/jakex/makeupcore/bean/PointBean;->setPointName(Ljava/lang/String;)V
+    invoke-virtual {v2, v3}, Lcom/jakex/ymluxscore/bean/PointBean;->setPointName(Ljava/lang/String;)V
 
     invoke-virtual {v0, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    new-instance v2, Lcom/jakex/makeupcore/bean/PointBean;
+    new-instance v2, Lcom/jakex/ymluxscore/bean/PointBean;
 
     iget v3, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->l:I
 
@@ -628,15 +628,15 @@
 
     mul-float v6, v6, v5
 
-    invoke-direct {v2, v3, v6}, Lcom/jakex/makeupcore/bean/PointBean;-><init>(FF)V
+    invoke-direct {v2, v3, v6}, Lcom/jakex/ymluxscore/bean/PointBean;-><init>(FF)V
 
     const-string v3, "POINT_ADJUST_RIGHT_EYE"
 
-    invoke-virtual {v2, v3}, Lcom/jakex/makeupcore/bean/PointBean;->setPointName(Ljava/lang/String;)V
+    invoke-virtual {v2, v3}, Lcom/jakex/ymluxscore/bean/PointBean;->setPointName(Ljava/lang/String;)V
 
     invoke-virtual {v0, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    new-instance v2, Lcom/jakex/makeupcore/bean/PointBean;
+    new-instance v2, Lcom/jakex/ymluxscore/bean/PointBean;
 
     iget v3, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->l:I
 
@@ -652,11 +652,11 @@
 
     mul-float v5, v5, v4
 
-    invoke-direct {v2, v3, v5}, Lcom/jakex/makeupcore/bean/PointBean;-><init>(FF)V
+    invoke-direct {v2, v3, v5}, Lcom/jakex/ymluxscore/bean/PointBean;-><init>(FF)V
 
     const-string v3, "POINT_ADJUST_MOUTH"
 
-    invoke-virtual {v2, v3}, Lcom/jakex/makeupcore/bean/PointBean;->setPointName(Ljava/lang/String;)V
+    invoke-virtual {v2, v3}, Lcom/jakex/ymluxscore/bean/PointBean;->setPointName(Ljava/lang/String;)V
 
     invoke-virtual {v0, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -745,7 +745,7 @@
 .method private f()V
     .locals 1
 
-    invoke-static {}, Lcom/jakex/makeupcore/modular/a/a;->y()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/a/a;->y()Z
 
     move-result v0
 
@@ -755,7 +755,7 @@
 
     const/4 v0, 0x0
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/modular/a/a;->k(Z)V
+    invoke-static {v0}, Lcom/jakex/ymluxscore/modular/a/a;->k(Z)V
 
     :cond_0
     return-void
@@ -772,9 +772,9 @@
 .method private g()V
     .locals 13
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->a:Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->a:Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/widget/BeautyMakeupView;->a()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;->a()V
 
     iget v0, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->h:I
 
@@ -823,7 +823,7 @@
 
     invoke-direct {v0, v4}, Ljava/util/HashMap;-><init>(I)V
 
-    new-instance v4, Lcom/jakex/makeupcore/bean/PointBean;
+    new-instance v4, Lcom/jakex/ymluxscore/bean/PointBean;
 
     iget v10, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->l:I
 
@@ -837,13 +837,13 @@
 
     mul-float v11, v11, v5
 
-    invoke-direct {v4, v10, v11}, Lcom/jakex/makeupcore/bean/PointBean;-><init>(FF)V
+    invoke-direct {v4, v10, v11}, Lcom/jakex/ymluxscore/bean/PointBean;-><init>(FF)V
 
-    invoke-virtual {v4, v9}, Lcom/jakex/makeupcore/bean/PointBean;->setPointName(Ljava/lang/String;)V
+    invoke-virtual {v4, v9}, Lcom/jakex/ymluxscore/bean/PointBean;->setPointName(Ljava/lang/String;)V
 
     invoke-virtual {v0, v9, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    new-instance v4, Lcom/jakex/makeupcore/bean/PointBean;
+    new-instance v4, Lcom/jakex/ymluxscore/bean/PointBean;
 
     iget v9, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->l:I
 
@@ -857,13 +857,13 @@
 
     mul-float v3, v3, v6
 
-    invoke-direct {v4, v9, v3}, Lcom/jakex/makeupcore/bean/PointBean;-><init>(FF)V
+    invoke-direct {v4, v9, v3}, Lcom/jakex/ymluxscore/bean/PointBean;-><init>(FF)V
 
-    invoke-virtual {v4, v8}, Lcom/jakex/makeupcore/bean/PointBean;->setPointName(Ljava/lang/String;)V
+    invoke-virtual {v4, v8}, Lcom/jakex/ymluxscore/bean/PointBean;->setPointName(Ljava/lang/String;)V
 
     invoke-virtual {v0, v8, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    new-instance v3, Lcom/jakex/makeupcore/bean/PointBean;
+    new-instance v3, Lcom/jakex/ymluxscore/bean/PointBean;
 
     iget v4, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->l:I
 
@@ -877,9 +877,9 @@
 
     mul-float v5, v5, v2
 
-    invoke-direct {v3, v4, v5}, Lcom/jakex/makeupcore/bean/PointBean;-><init>(FF)V
+    invoke-direct {v3, v4, v5}, Lcom/jakex/ymluxscore/bean/PointBean;-><init>(FF)V
 
-    invoke-virtual {v3, v7}, Lcom/jakex/makeupcore/bean/PointBean;->setPointName(Ljava/lang/String;)V
+    invoke-virtual {v3, v7}, Lcom/jakex/ymluxscore/bean/PointBean;->setPointName(Ljava/lang/String;)V
 
     invoke-virtual {v0, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -898,7 +898,7 @@
 
     invoke-direct {v0, v4}, Ljava/util/HashMap;-><init>(I)V
 
-    new-instance v3, Lcom/jakex/makeupcore/bean/PointBean;
+    new-instance v3, Lcom/jakex/ymluxscore/bean/PointBean;
 
     iget v4, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->l:I
 
@@ -912,13 +912,13 @@
 
     mul-float v5, v5, v10
 
-    invoke-direct {v3, v4, v5}, Lcom/jakex/makeupcore/bean/PointBean;-><init>(FF)V
+    invoke-direct {v3, v4, v5}, Lcom/jakex/ymluxscore/bean/PointBean;-><init>(FF)V
 
-    invoke-virtual {v3, v9}, Lcom/jakex/makeupcore/bean/PointBean;->setPointName(Ljava/lang/String;)V
+    invoke-virtual {v3, v9}, Lcom/jakex/ymluxscore/bean/PointBean;->setPointName(Ljava/lang/String;)V
 
     invoke-virtual {v0, v9, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    new-instance v3, Lcom/jakex/makeupcore/bean/PointBean;
+    new-instance v3, Lcom/jakex/ymluxscore/bean/PointBean;
 
     iget v4, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->l:I
 
@@ -932,13 +932,13 @@
 
     mul-float v5, v5, v10
 
-    invoke-direct {v3, v4, v5}, Lcom/jakex/makeupcore/bean/PointBean;-><init>(FF)V
+    invoke-direct {v3, v4, v5}, Lcom/jakex/ymluxscore/bean/PointBean;-><init>(FF)V
 
-    invoke-virtual {v3, v8}, Lcom/jakex/makeupcore/bean/PointBean;->setPointName(Ljava/lang/String;)V
+    invoke-virtual {v3, v8}, Lcom/jakex/ymluxscore/bean/PointBean;->setPointName(Ljava/lang/String;)V
 
     invoke-virtual {v0, v8, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    new-instance v3, Lcom/jakex/makeupcore/bean/PointBean;
+    new-instance v3, Lcom/jakex/ymluxscore/bean/PointBean;
 
     iget v4, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->l:I
 
@@ -952,9 +952,9 @@
 
     mul-float v2, v2, v6
 
-    invoke-direct {v3, v4, v2}, Lcom/jakex/makeupcore/bean/PointBean;-><init>(FF)V
+    invoke-direct {v3, v4, v2}, Lcom/jakex/ymluxscore/bean/PointBean;-><init>(FF)V
 
-    invoke-virtual {v3, v7}, Lcom/jakex/makeupcore/bean/PointBean;->setPointName(Ljava/lang/String;)V
+    invoke-virtual {v3, v7}, Lcom/jakex/ymluxscore/bean/PointBean;->setPointName(Ljava/lang/String;)V
 
     invoke-virtual {v0, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -974,7 +974,7 @@
 
     invoke-direct {v0, v4}, Ljava/util/HashMap;-><init>(I)V
 
-    new-instance v3, Lcom/jakex/makeupcore/bean/PointBean;
+    new-instance v3, Lcom/jakex/ymluxscore/bean/PointBean;
 
     iget v11, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->l:I
 
@@ -988,13 +988,13 @@
 
     mul-float v12, v12, v6
 
-    invoke-direct {v3, v11, v12}, Lcom/jakex/makeupcore/bean/PointBean;-><init>(FF)V
+    invoke-direct {v3, v11, v12}, Lcom/jakex/ymluxscore/bean/PointBean;-><init>(FF)V
 
-    invoke-virtual {v3, v9}, Lcom/jakex/makeupcore/bean/PointBean;->setPointName(Ljava/lang/String;)V
+    invoke-virtual {v3, v9}, Lcom/jakex/ymluxscore/bean/PointBean;->setPointName(Ljava/lang/String;)V
 
     invoke-virtual {v0, v9, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    new-instance v3, Lcom/jakex/makeupcore/bean/PointBean;
+    new-instance v3, Lcom/jakex/ymluxscore/bean/PointBean;
 
     iget v9, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->l:I
 
@@ -1008,13 +1008,13 @@
 
     mul-float v10, v10, v5
 
-    invoke-direct {v3, v9, v10}, Lcom/jakex/makeupcore/bean/PointBean;-><init>(FF)V
+    invoke-direct {v3, v9, v10}, Lcom/jakex/ymluxscore/bean/PointBean;-><init>(FF)V
 
-    invoke-virtual {v3, v8}, Lcom/jakex/makeupcore/bean/PointBean;->setPointName(Ljava/lang/String;)V
+    invoke-virtual {v3, v8}, Lcom/jakex/ymluxscore/bean/PointBean;->setPointName(Ljava/lang/String;)V
 
     invoke-virtual {v0, v8, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    new-instance v3, Lcom/jakex/makeupcore/bean/PointBean;
+    new-instance v3, Lcom/jakex/ymluxscore/bean/PointBean;
 
     iget v5, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->l:I
 
@@ -1028,9 +1028,9 @@
 
     mul-float v6, v6, v2
 
-    invoke-direct {v3, v5, v6}, Lcom/jakex/makeupcore/bean/PointBean;-><init>(FF)V
+    invoke-direct {v3, v5, v6}, Lcom/jakex/ymluxscore/bean/PointBean;-><init>(FF)V
 
-    invoke-virtual {v3, v7}, Lcom/jakex/makeupcore/bean/PointBean;->setPointName(Ljava/lang/String;)V
+    invoke-virtual {v3, v7}, Lcom/jakex/ymluxscore/bean/PointBean;->setPointName(Ljava/lang/String;)V
 
     invoke-virtual {v0, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1049,7 +1049,7 @@
 
     invoke-direct {v0, v4}, Ljava/util/HashMap;-><init>(I)V
 
-    new-instance v4, Lcom/jakex/makeupcore/bean/PointBean;
+    new-instance v4, Lcom/jakex/ymluxscore/bean/PointBean;
 
     iget v10, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->l:I
 
@@ -1063,13 +1063,13 @@
 
     mul-float v6, v6, v3
 
-    invoke-direct {v4, v10, v6}, Lcom/jakex/makeupcore/bean/PointBean;-><init>(FF)V
+    invoke-direct {v4, v10, v6}, Lcom/jakex/ymluxscore/bean/PointBean;-><init>(FF)V
 
-    invoke-virtual {v4, v9}, Lcom/jakex/makeupcore/bean/PointBean;->setPointName(Ljava/lang/String;)V
+    invoke-virtual {v4, v9}, Lcom/jakex/ymluxscore/bean/PointBean;->setPointName(Ljava/lang/String;)V
 
     invoke-virtual {v0, v9, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    new-instance v4, Lcom/jakex/makeupcore/bean/PointBean;
+    new-instance v4, Lcom/jakex/ymluxscore/bean/PointBean;
 
     iget v6, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->l:I
 
@@ -1083,13 +1083,13 @@
 
     mul-float v9, v9, v3
 
-    invoke-direct {v4, v6, v9}, Lcom/jakex/makeupcore/bean/PointBean;-><init>(FF)V
+    invoke-direct {v4, v6, v9}, Lcom/jakex/ymluxscore/bean/PointBean;-><init>(FF)V
 
-    invoke-virtual {v4, v8}, Lcom/jakex/makeupcore/bean/PointBean;->setPointName(Ljava/lang/String;)V
+    invoke-virtual {v4, v8}, Lcom/jakex/ymluxscore/bean/PointBean;->setPointName(Ljava/lang/String;)V
 
     invoke-virtual {v0, v8, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    new-instance v3, Lcom/jakex/makeupcore/bean/PointBean;
+    new-instance v3, Lcom/jakex/ymluxscore/bean/PointBean;
 
     iget v4, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->l:I
 
@@ -1103,9 +1103,9 @@
 
     mul-float v2, v2, v5
 
-    invoke-direct {v3, v4, v2}, Lcom/jakex/makeupcore/bean/PointBean;-><init>(FF)V
+    invoke-direct {v3, v4, v2}, Lcom/jakex/ymluxscore/bean/PointBean;-><init>(FF)V
 
-    invoke-virtual {v3, v7}, Lcom/jakex/makeupcore/bean/PointBean;->setPointName(Ljava/lang/String;)V
+    invoke-virtual {v3, v7}, Lcom/jakex/ymluxscore/bean/PointBean;->setPointName(Ljava/lang/String;)V
 
     invoke-virtual {v0, v7, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1118,17 +1118,17 @@
     iput v1, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->i:I
 
     :goto_1
-    iget-object v0, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->a:Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->a:Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
     const/4 v2, 0x0
 
     const/high16 v3, -0x3d4c0000    # -90.0f
 
-    invoke-virtual {v0, v2, v1, v3}, Lcom/jakex/makeupeditor/widget/BeautyMakeupView;->a(ZZF)V
+    invoke-virtual {v0, v2, v1, v3}, Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;->a(ZZF)V
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->a:Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->a:Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/widget/BeautyMakeupView;->invalidate()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;->invalidate()V
 
     :goto_2
     return-void
@@ -1175,9 +1175,9 @@
 
     new-instance v0, Lcom/jakex/makeupsenior/widget/a/a;
 
-    iget-object v1, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->a:Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    iget-object v1, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->a:Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
-    invoke-direct {v0, v1}, Lcom/jakex/makeupsenior/widget/a/a;-><init>(Lcom/jakex/makeupeditor/widget/BeautyMakeupView;)V
+    invoke-direct {v0, v1}, Lcom/jakex/makeupsenior/widget/a/a;-><init>(Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;)V
 
     iput-object v0, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->b:Lcom/jakex/makeupsenior/widget/a/a;
 
@@ -1198,17 +1198,17 @@
 
     invoke-virtual {v1, v0}, Lcom/jakex/makeupsenior/widget/a/a;->a(Ljava/util/HashMap;)V
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->a:Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->a:Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
     iget-object v1, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->b:Lcom/jakex/makeupsenior/widget/a/a;
 
     const-string v2, "FacePositionLayer"
 
-    invoke-virtual {v0, v2, v1}, Lcom/jakex/makeupeditor/widget/BeautyMakeupView;->a(Ljava/lang/String;Lcom/jakex/makeupeditor/widget/makeuplayer/a;)V
+    invoke-virtual {v0, v2, v1}, Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;->a(Ljava/lang/String;Lcom/jakex/ymluxseditor/widget/makeuplayer/a;)V
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->a:Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->a:Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/widget/BeautyMakeupView;->invalidate()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;->invalidate()V
 
     return-void
 .end method
@@ -1239,9 +1239,9 @@
 .method public finish()V
     .locals 0
 
-    invoke-super {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->finish()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->finish()V
 
-    invoke-static {p0}, Lcom/jakex/makeupcore/util/a;->b(Landroid/app/Activity;)V
+    invoke-static {p0}, Lcom/jakex/ymluxscore/util/a;->b(Landroid/app/Activity;)V
 
     return-void
 .end method
@@ -1249,7 +1249,7 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 1
 
-    invoke-super {p0, p1}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onCreate(Landroid/os/Bundle;)V
 
     sget p1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$layout;->beauty_common_makeup_adjust_activity:I
 
@@ -1271,7 +1271,7 @@
 .method public onDestroy()V
     .locals 3
 
-    invoke-super {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onDestroy()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onDestroy()V
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->k:Lcom/jakex/makeupsenior/MakeupAdjustActivity$b;
 
@@ -1330,7 +1330,7 @@
     invoke-virtual {p0}, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->finish()V
 
     :cond_0
-    invoke-super {p0, p1, p2}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onKeyDown(ILandroid/view/KeyEvent;)Z
+    invoke-super {p0, p1, p2}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
     move-result p1
 

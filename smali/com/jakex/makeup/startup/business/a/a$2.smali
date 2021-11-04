@@ -1,5 +1,5 @@
 .class Lcom/jakex/makeup/startup/business/a/a$2;
-.super Lcom/jakex/makeupcore/net/j;
+.super Lcom/jakex/ymluxscore/net/j;
 
 
 # annotations
@@ -14,8 +14,8 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupcore/net/j<",
-        "Lcom/jakex/makeupeditor/material/thememakeup/api/ThemeMakeupCategoryWrapperBean;",
+        "Lcom/jakex/ymluxscore/net/j<",
+        "Lcom/jakex/ymluxseditor/material/thememakeup/api/ThemeMakeupCategoryWrapperBean;",
         ">;"
     }
 .end annotation
@@ -31,30 +31,30 @@
 
     iput-object p1, p0, Lcom/jakex/makeup/startup/business/a/a$2;->a:Lcom/jakex/makeup/startup/business/a/a;
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/net/j;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/net/j;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public a(ILcom/jakex/makeupeditor/material/thememakeup/api/ThemeMakeupCategoryWrapperBean;)V
+.method public a(ILcom/jakex/ymluxseditor/material/thememakeup/api/ThemeMakeupCategoryWrapperBean;)V
     .locals 2
 
-    invoke-super {p0, p1, p2}, Lcom/jakex/makeupcore/net/j;->a(ILjava/lang/Object;)V
+    invoke-super {p0, p1, p2}, Lcom/jakex/ymluxscore/net/j;->a(ILjava/lang/Object;)V
 
-    sget-object p1, Lcom/jakex/makeupeditor/material/thememakeup/api/d;->a:Ljava/lang/Object;
+    sget-object p1, Lcom/jakex/ymluxseditor/material/thememakeup/api/d;->a:Ljava/lang/Object;
 
     monitor-enter p1
 
     :try_start_0
-    invoke-static {}, Lcom/jakex/makeupeditor/material/a/d;->a()Lcom/jakex/makeupeditor/material/a/d;
+    invoke-static {}, Lcom/jakex/ymluxseditor/material/a/d;->a()Lcom/jakex/ymluxseditor/material/a/d;
 
     move-result-object v0
 
-    sget-object v1, Lcom/jakex/makeupcore/bean/ThemeMakeupCategory$Type;->NORMAL:Lcom/jakex/makeupcore/bean/ThemeMakeupCategory$Type;
+    sget-object v1, Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory$Type;->NORMAL:Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory$Type;
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupeditor/material/a/d;->a(Lcom/jakex/makeupcore/bean/ThemeMakeupCategory$Type;)Z
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxseditor/material/a/d;->a(Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory$Type;)Z
 
     move-result v0
 
@@ -65,9 +65,9 @@
     return-void
 
     :cond_0
-    invoke-static {p2}, Lcom/jakex/makeupeditor/material/thememakeup/api/d;->a(Lcom/jakex/makeupeditor/material/thememakeup/api/ThemeMakeupCategoryWrapperBean;)Ljava/util/List;
+    invoke-static {p2}, Lcom/jakex/ymluxseditor/material/thememakeup/api/d;->a(Lcom/jakex/ymluxseditor/material/thememakeup/api/ThemeMakeupCategoryWrapperBean;)Ljava/util/List;
 
-    invoke-static {}, Lcom/jakex/makeupeditor/material/thememakeup/c/d;->a()V
+    invoke-static {}, Lcom/jakex/ymluxseditor/material/thememakeup/c/d;->a()V
 
     monitor-exit p1
 
@@ -86,17 +86,17 @@
 .method public bridge synthetic a(ILjava/lang/Object;)V
     .locals 0
 
-    check-cast p2, Lcom/jakex/makeupeditor/material/thememakeup/api/ThemeMakeupCategoryWrapperBean;
+    check-cast p2, Lcom/jakex/ymluxseditor/material/thememakeup/api/ThemeMakeupCategoryWrapperBean;
 
-    invoke-virtual {p0, p1, p2}, Lcom/jakex/makeup/startup/business/a/a$2;->a(ILcom/jakex/makeupeditor/material/thememakeup/api/ThemeMakeupCategoryWrapperBean;)V
+    invoke-virtual {p0, p1, p2}, Lcom/jakex/makeup/startup/business/a/a$2;->a(ILcom/jakex/ymluxseditor/material/thememakeup/api/ThemeMakeupCategoryWrapperBean;)V
 
     return-void
 .end method
 
-.method public b(Lcom/jakex/makeupcore/net/APIException;)V
+.method public b(Lcom/jakex/ymluxscore/net/APIException;)V
     .locals 3
 
-    invoke-super {p0, p1}, Lcom/jakex/makeupcore/net/j;->b(Lcom/jakex/makeupcore/net/APIException;)V
+    invoke-super {p0, p1}, Lcom/jakex/ymluxscore/net/j;->b(Lcom/jakex/ymluxscore/net/APIException;)V
 
     invoke-static {}, Lcom/jakex/makeup/startup/business/a/a;->d()Ljava/lang/String;
 

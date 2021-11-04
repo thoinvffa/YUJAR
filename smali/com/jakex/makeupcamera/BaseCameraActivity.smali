@@ -1,5 +1,5 @@
 .class public abstract Lcom/jakex/makeupcamera/BaseCameraActivity;
-.super Lcom/jakex/makeupcore/activity/MTBaseActivity;
+.super Lcom/jakex/ymluxscore/activity/MTBaseActivity;
 
 
 # annotations
@@ -18,7 +18,7 @@
 .method public constructor <init>()V
     .locals 2
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;-><init>()V
 
     new-instance v0, Lcom/jakex/makeupcamera/BaseCameraActivity$a;
 
@@ -71,7 +71,7 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 1
 
-    invoke-super {p0, p1}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onCreate(Landroid/os/Bundle;)V
 
     invoke-direct {p0}, Lcom/jakex/makeupcamera/BaseCameraActivity;->a()V
 
@@ -95,7 +95,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/util/ah;->a(Landroid/view/Window;)V
+    invoke-static {p1}, Lcom/jakex/ymluxscore/util/ah;->a(Landroid/view/Window;)V
 
     return-void
 .end method
@@ -103,7 +103,7 @@
 .method protected onDestroy()V
     .locals 2
 
-    invoke-super {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onDestroy()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onDestroy()V
 
     invoke-static {}, Lorg/greenrobot/eventbus/EventBus;->getDefault()Lorg/greenrobot/eventbus/EventBus;
 
@@ -119,7 +119,7 @@
 .method protected onPause()V
     .locals 0
 
-    invoke-super {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onPause()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onPause()V
 
     return-void
 .end method
@@ -127,7 +127,7 @@
 .method protected onResume()V
     .locals 0
 
-    invoke-super {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onResume()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onResume()V
 
     return-void
 .end method

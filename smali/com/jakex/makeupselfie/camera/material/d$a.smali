@@ -1,10 +1,10 @@
-.class public interface abstract Lcom/jakex/makeupselfie/camera/material/d$a;
+.class public interface abstract Lcom/jakex/ymluxscoresf/camera/material/d$a;
 .super Ljava/lang/Object;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/jakex/makeupselfie/camera/material/d;
+    value = Lcom/jakex/ymluxscoresf/camera/material/d;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -22,7 +22,7 @@
         value = {
             "(",
             "Ljava/util/List<",
-            "Lcom/jakex/makeupselfie/camera/material/model/SelfiePart;",
+            "Lcom/jakex/ymluxscoresf/camera/material/model/SelfiePart;",
             ">;)V"
         }
     .end annotation

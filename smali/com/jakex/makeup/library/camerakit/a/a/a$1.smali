@@ -33,12 +33,12 @@
 
 
 # virtual methods
-.method public a(Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinResult;)V
+.method public a(Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinResult;)V
     .locals 1
 
     iget-object v0, p0, Lcom/jakex/makeup/library/camerakit/a/a/a$1;->a:Lcom/jakex/makeup/library/camerakit/a/a/a;
 
-    invoke-static {v0, p1}, Lcom/jakex/makeup/library/camerakit/a/a/a;->a(Lcom/jakex/makeup/library/camerakit/a/a/a;Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinResult;)V
+    invoke-static {v0, p1}, Lcom/jakex/makeup/library/camerakit/a/a/a;->a(Lcom/jakex/makeup/library/camerakit/a/a/a;Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinResult;)V
 
     return-void
 .end method

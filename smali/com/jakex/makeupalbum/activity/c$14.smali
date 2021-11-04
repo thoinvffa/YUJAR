@@ -2,7 +2,7 @@
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lcom/jakex/makeupcore/util/be$a;
+.implements Lcom/jakex/ymluxscore/util/be$a;
 
 
 # annotations

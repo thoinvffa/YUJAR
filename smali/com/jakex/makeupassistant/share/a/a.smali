@@ -1,5 +1,5 @@
 .class public abstract Lcom/jakex/makeupassistant/share/a/a;
-.super Lcom/jakex/makeupcore/g/a;
+.super Lcom/jakex/ymluxscore/g/a;
 
 
 # instance fields
@@ -12,7 +12,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/g/a;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/g/a;-><init>()V
 
     return-void
 .end method
@@ -155,7 +155,7 @@
 .method public onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 1
 
-    invoke-super {p0, p1, p2}, Lcom/jakex/makeupcore/g/a;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+    invoke-super {p0, p1, p2}, Lcom/jakex/ymluxscore/g/a;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
     iget-object p2, p0, Lcom/jakex/makeupassistant/share/a/a;->a:Landroid/view/View;
 

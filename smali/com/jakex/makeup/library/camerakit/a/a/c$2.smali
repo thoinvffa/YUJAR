@@ -19,7 +19,7 @@
 # instance fields
 .field final synthetic a:Lcom/jakex/makeup/library/camerakit/a/a/c;
 
-.field private b:Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;
+.field private b:Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;
 
 
 # direct methods
@@ -35,7 +35,7 @@
 
 
 # virtual methods
-.method public a(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;)J
+.method public a(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;)J
     .locals 2
 
     iget-object v0, p0, Lcom/jakex/makeup/library/camerakit/a/a/c$2;->a:Lcom/jakex/makeup/library/camerakit/a/a/c;
@@ -52,7 +52,7 @@
 
     invoke-static {v0, v1}, Lcom/jakex/makeup/library/camerakit/a/a/c;->a(Lcom/jakex/makeup/library/camerakit/a/a/c;Z)Z
 
-    iput-object p1, p0, Lcom/jakex/makeup/library/camerakit/a/a/c$2;->b:Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;
+    iput-object p1, p0, Lcom/jakex/makeup/library/camerakit/a/a/c$2;->b:Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;
 
     const-wide v0, 0x600000000L
 
@@ -64,20 +64,20 @@
     return-wide v0
 .end method
 
-.method public a(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinResult;)V
+.method public a(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinResult;)V
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/camerakit/a/a/c$2;->b:Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;
+    iget-object v0, p0, Lcom/jakex/makeup/library/camerakit/a/a/c$2;->b:Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;
 
     if-ne v0, p1, :cond_0
 
     iget-object p1, p0, Lcom/jakex/makeup/library/camerakit/a/a/c$2;->a:Lcom/jakex/makeup/library/camerakit/a/a/c;
 
-    invoke-static {p1, p2}, Lcom/jakex/makeup/library/camerakit/a/a/c;->a(Lcom/jakex/makeup/library/camerakit/a/a/c;Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinResult;)Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinResult;
+    invoke-static {p1, p2}, Lcom/jakex/makeup/library/camerakit/a/a/c;->a(Lcom/jakex/makeup/library/camerakit/a/a/c;Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinResult;)Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinResult;
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lcom/jakex/makeup/library/camerakit/a/a/c$2;->b:Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;
+    iput-object p1, p0, Lcom/jakex/makeup/library/camerakit/a/a/c$2;->b:Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;
 
     :cond_0
     iget-object p1, p0, Lcom/jakex/makeup/library/camerakit/a/a/c$2;->a:Lcom/jakex/makeup/library/camerakit/a/a/c;

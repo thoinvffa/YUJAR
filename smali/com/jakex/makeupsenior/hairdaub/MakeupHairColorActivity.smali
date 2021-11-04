@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity;
-.super Lcom/jakex/makeupcore/activity/MTBaseActivity;
+.super Lcom/jakex/ymluxscore/activity/MTBaseActivity;
 
 # interfaces
 .implements Landroid/widget/RadioGroup$OnCheckedChangeListener;
@@ -95,7 +95,7 @@
 
 .field private r:I
 
-.field private s:Lcom/jakex/makeupcore/dialog/e;
+.field private s:Lcom/jakex/ymluxscore/dialog/e;
 
 .field private t:Z
 
@@ -107,7 +107,7 @@
 
 .field private x:F
 
-.field private y:Lcom/jakex/makeupeditor/widget/BitmapRecycledImageView;
+.field private y:Lcom/jakex/ymluxseditor/widget/BitmapRecycledImageView;
 
 .field private z:Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity$a;
 
@@ -144,7 +144,7 @@
 .method public constructor <init>()V
     .locals 2
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;-><init>()V
 
     new-instance v0, Ljava/util/ArrayList;
 
@@ -434,7 +434,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/ah;->a(Landroid/view/Window;)V
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/ah;->a(Landroid/view/Window;)V
 
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->beauty_adjust_top_layout_container:I
 
@@ -442,7 +442,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/ah;->b(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/ah;->b(Landroid/view/View;)V
 
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->beauty_hair_color_gl_view:I
 
@@ -450,7 +450,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/ah;->a(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/ah;->a(Landroid/view/View;)V
 
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->beauty_hair_paint_size_iv:I
 
@@ -458,7 +458,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/ah;->a(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/ah;->a(Landroid/view/View;)V
 
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->beauty_hair_layer_v:I
 
@@ -466,7 +466,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/ah;->a(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/ah;->a(Landroid/view/View;)V
 
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->v3_beauty_adjust_back_ibtn:I
 
@@ -526,27 +526,27 @@
 
     iput v0, p0, Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity;->x:F
 
-    new-instance v0, Lcom/jakex/makeupcore/dialog/e$a;
+    new-instance v0, Lcom/jakex/ymluxscore/dialog/e$a;
 
-    invoke-direct {v0, p0}, Lcom/jakex/makeupcore/dialog/e$a;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, p0}, Lcom/jakex/ymluxscore/dialog/e$a;-><init>(Landroid/content/Context;)V
 
     const/4 v1, 0x1
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/dialog/e$a;->b(Z)Lcom/jakex/makeupcore/dialog/e$a;
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/dialog/e$a;->b(Z)Lcom/jakex/ymluxscore/dialog/e$a;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/dialog/e$a;->a(Z)Lcom/jakex/makeupcore/dialog/e$a;
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/dialog/e$a;->a(Z)Lcom/jakex/ymluxscore/dialog/e$a;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/dialog/e$a;->a()Lcom/jakex/makeupcore/dialog/e;
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/dialog/e$a;->a()Lcom/jakex/ymluxscore/dialog/e;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity;->s:Lcom/jakex/makeupcore/dialog/e;
+    iput-object v0, p0, Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity;->s:Lcom/jakex/ymluxscore/dialog/e;
 
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->v3_beauty_adjust_paint_size_gp:I
 
@@ -652,9 +652,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/jakex/makeupeditor/widget/BitmapRecycledImageView;
+    check-cast v0, Lcom/jakex/ymluxseditor/widget/BitmapRecycledImageView;
 
-    iput-object v0, p0, Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity;->y:Lcom/jakex/makeupeditor/widget/BitmapRecycledImageView;
+    iput-object v0, p0, Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity;->y:Lcom/jakex/ymluxseditor/widget/BitmapRecycledImageView;
 
     invoke-static {}, Lcom/jakex/makeupsenior/model/e;->a()Lcom/jakex/makeupsenior/model/e;
 
@@ -670,14 +670,14 @@
 
     if-eqz v1, :cond_0
 
-    iget-object v1, p0, Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity;->y:Lcom/jakex/makeupeditor/widget/BitmapRecycledImageView;
+    iget-object v1, p0, Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity;->y:Lcom/jakex/ymluxseditor/widget/BitmapRecycledImageView;
 
-    invoke-virtual {v1, v0}, Lcom/jakex/makeupeditor/widget/BitmapRecycledImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
+    invoke-virtual {v1, v0}, Lcom/jakex/ymluxseditor/widget/BitmapRecycledImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
     goto :goto_0
 
     :cond_0
-    iget-object v0, p0, Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity;->y:Lcom/jakex/makeupeditor/widget/BitmapRecycledImageView;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity;->y:Lcom/jakex/ymluxseditor/widget/BitmapRecycledImageView;
 
     const-string v1, "#f5f5f5"
 
@@ -685,7 +685,7 @@
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupeditor/widget/BitmapRecycledImageView;->setBackgroundColor(I)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxseditor/widget/BitmapRecycledImageView;->setBackgroundColor(I)V
 
     :goto_0
     return-void
@@ -1040,10 +1040,10 @@
     return-wide v0
 .end method
 
-.method static synthetic x(Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity;)Lcom/jakex/makeupeditor/widget/BitmapRecycledImageView;
+.method static synthetic x(Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity;)Lcom/jakex/ymluxseditor/widget/BitmapRecycledImageView;
     .locals 0
 
-    iget-object p0, p0, Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity;->y:Lcom/jakex/makeupeditor/widget/BitmapRecycledImageView;
+    iget-object p0, p0, Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity;->y:Lcom/jakex/ymluxseditor/widget/BitmapRecycledImageView;
 
     return-object p0
 .end method
@@ -1069,11 +1069,11 @@
 .method public a()V
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity;->s:Lcom/jakex/makeupcore/dialog/e;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity;->s:Lcom/jakex/ymluxscore/dialog/e;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/dialog/e;->show()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/dialog/e;->show()V
 
     :cond_0
     return-void
@@ -1082,11 +1082,11 @@
 .method public b()V
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity;->s:Lcom/jakex/makeupcore/dialog/e;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity;->s:Lcom/jakex/ymluxscore/dialog/e;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/dialog/e;->dismiss()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/dialog/e;->dismiss()V
 
     :cond_0
     return-void
@@ -1151,7 +1151,7 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 1
 
-    invoke-super {p0, p1}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onCreate(Landroid/os/Bundle;)V
 
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$layout;->beauty_hair_color_activity:I
 
@@ -1161,9 +1161,9 @@
 
     sget p1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$string;->data_lost:I
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/widget/a/a;->b(I)V
+    invoke-static {p1}, Lcom/jakex/ymluxscore/widget/a/a;->b(I)V
 
-    invoke-static {p0}, Lcom/jakex/makeupcore/modular/c/h;->a(Landroid/app/Activity;)V
+    invoke-static {p0}, Lcom/jakex/ymluxscore/modular/c/h;->a(Landroid/app/Activity;)V
 
     :cond_0
     invoke-virtual {p0}, Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity;->getIntent()Landroid/content/Intent;
@@ -1224,7 +1224,7 @@
 .method protected onDestroy()V
     .locals 3
 
-    invoke-super {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onDestroy()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onDestroy()V
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity;->A:Lcom/jakex/makeupsenior/hairdaub/a;
 
@@ -1242,11 +1242,11 @@
 
     invoke-virtual {v0}, Lcom/jakex/makeupsenior/model/a;->d()V
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity;->s:Lcom/jakex/makeupcore/dialog/e;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity;->s:Lcom/jakex/ymluxscore/dialog/e;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/dialog/e;->dismiss()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/dialog/e;->dismiss()V
 
     :cond_0
     iget-object v0, p0, Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity;->j:Landroid/graphics/Bitmap;
@@ -1286,7 +1286,7 @@
 .method protected onPause()V
     .locals 1
 
-    invoke-super {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onPause()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onPause()V
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity;->h:Lcom/jakex/makeupsenior/hairdaub/widget/MakeupHairSurfaceView;
 
@@ -1298,7 +1298,7 @@
 .method protected onResume()V
     .locals 1
 
-    invoke-super {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onResume()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onResume()V
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity;->h:Lcom/jakex/makeupsenior/hairdaub/widget/MakeupHairSurfaceView;
 

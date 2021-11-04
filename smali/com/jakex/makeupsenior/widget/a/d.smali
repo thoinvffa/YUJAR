@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeupsenior/widget/a/d;
-.super Lcom/jakex/makeupeditor/widget/makeuplayer/a;
+.super Lcom/jakex/ymluxseditor/widget/makeuplayer/a;
 
 
 # annotations
@@ -41,10 +41,10 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;)V
+.method public constructor <init>(Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;)V
     .locals 1
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupeditor/widget/makeuplayer/a;-><init>(Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;)V
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxseditor/widget/makeuplayer/a;-><init>(Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;)V
 
     new-instance p1, Landroid/graphics/PointF;
 
@@ -97,10 +97,10 @@
     return-void
 .end method
 
-.method static synthetic a(Lcom/jakex/makeupsenior/widget/a/d;)Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+.method static synthetic a(Lcom/jakex/makeupsenior/widget/a/d;)Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
     .locals 0
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/d;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/d;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object p0
 
@@ -208,11 +208,11 @@
 
     iget-object p1, p0, Lcom/jakex/makeupsenior/widget/a/d;->d:Landroid/graphics/PointF;
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/d;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/d;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->getViewWidth()F
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->getViewWidth()F
 
     move-result v0
 
@@ -220,11 +220,11 @@
 
     div-float/2addr v0, v1
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/d;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/d;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->getViewHeight()F
+    invoke-virtual {v2}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->getViewHeight()F
 
     move-result v2
 
@@ -232,11 +232,11 @@
 
     invoke-virtual {p1, v0, v2}, Landroid/graphics/PointF;->set(FF)V
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/d;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/d;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->invalidate()V
+    invoke-virtual {p1}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->invalidate()V
 
     iget-object p1, p0, Lcom/jakex/makeupsenior/widget/a/d;->i:Landroid/os/Handler;
 
@@ -352,15 +352,15 @@
 
     iget v3, v3, Landroid/graphics/PointF;->y:F
 
-    invoke-static {v0, v1, v2, v3}, Lcom/jakex/makeupcore/util/bg;->b(FFFF)F
+    invoke-static {v0, v1, v2, v3}, Lcom/jakex/ymluxscore/util/bg;->b(FFFF)F
 
     move-result v0
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/d;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/d;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->getMinMoveDis()F
+    invoke-virtual {v1}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->getMinMoveDis()F
 
     move-result v1
 

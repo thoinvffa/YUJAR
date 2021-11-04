@@ -16,7 +16,7 @@
 # instance fields
 .field private volatile a:J
 
-.field private b:Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;
+.field private b:Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegmentOption;
 
 .field private c:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
@@ -45,23 +45,23 @@
 
     iput-object v0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/a/a;->d:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    new-instance v0, Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;
+    new-instance v0, Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegmentOption;
 
-    invoke-direct {v0}, Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;-><init>()V
+    invoke-direct {v0}, Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegmentOption;-><init>()V
 
-    iput-object v0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/a/a;->b:Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;
+    iput-object v0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/a/a;->b:Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegmentOption;
 
-    iput p1, v0, Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->mode:I
+    iput p1, v0, Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegmentOption;->mode:I
 
     iput-wide p2, p0, Lcom/jakex/makeup/library/camerakit/aiengine/a/a;->a:J
 
     return-void
 .end method
 
-.method static synthetic a(Lcom/jakex/makeup/library/camerakit/aiengine/a/a;)Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;
+.method static synthetic a(Lcom/jakex/makeup/library/camerakit/aiengine/a/a;)Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegmentOption;
     .locals 0
 
-    iget-object p0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/a/a;->b:Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;
+    iget-object p0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/a/a;->b:Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegmentOption;
 
     return-object p0
 .end method
@@ -122,10 +122,10 @@
     return-void
 .end method
 
-.method static synthetic b(Lcom/jakex/makeup/library/camerakit/aiengine/a/a;)Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;
+.method static synthetic b(Lcom/jakex/makeup/library/camerakit/aiengine/a/a;)Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;
     .locals 0
 
-    invoke-virtual {p0}, Lcom/jakex/makeup/library/camerakit/aiengine/a/a;->b()Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;
+    invoke-virtual {p0}, Lcom/jakex/makeup/library/camerakit/aiengine/a/a;->b()Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;
 
     move-result-object p0
 
@@ -143,7 +143,7 @@
 .method private f()V
     .locals 5
 
-    invoke-virtual {p0}, Lcom/jakex/makeup/library/camerakit/aiengine/a/a;->b()Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;
+    invoke-virtual {p0}, Lcom/jakex/makeup/library/camerakit/aiengine/a/a;->b()Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;
 
     move-result-object v0
 
@@ -154,9 +154,9 @@
     :cond_0
     iget-wide v0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/a/a;->a:J
 
-    iget-object v2, p0, Lcom/jakex/makeup/library/camerakit/aiengine/a/a;->b:Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;
+    iget-object v2, p0, Lcom/jakex/makeup/library/camerakit/aiengine/a/a;->b:Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegmentOption;
 
-    iget-wide v2, v2, Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->option:J
+    iget-wide v2, v2, Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegmentOption;->option:J
 
     cmp-long v4, v0, v2
 
@@ -171,15 +171,15 @@
 
     invoke-virtual {v0, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;->set(Z)V
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/a/a;->b:Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;
+    iget-object v0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/a/a;->b:Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegmentOption;
 
     iget-wide v2, p0, Lcom/jakex/makeup/library/camerakit/aiengine/a/a;->a:J
 
-    iput-wide v2, v0, Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->option:J
+    iput-wide v2, v0, Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegmentOption;->option:J
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/a/a;->b:Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;
+    iget-object v0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/a/a;->b:Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegmentOption;
 
-    iput-boolean v1, v0, Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->isFstFrameInit:Z
+    iput-boolean v1, v0, Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegmentOption;->isFstFrameInit:Z
 
     invoke-virtual {p0}, Lcom/jakex/makeup/library/camerakit/aiengine/a/a;->O_()Lcom/jakex/library/renderarch/arch/d/g;
 
@@ -227,7 +227,7 @@
     return-void
 .end method
 
-.method public b(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/MTAiEngineResult;)V
+.method public b(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/MTAiEngineResult;)V
     .locals 2
 
     if-nez p2, :cond_0
@@ -237,7 +237,7 @@
     goto :goto_0
 
     :cond_0
-    iget-object p2, p2, Lcom/jakex/mtlab/MTAiInterface/MTAiEngineResult;->segmentResult:Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegmentResult;
+    iget-object p2, p2, Lcom/jakex/ymlux/MTAiInterface/MTAiEngineResult;->segmentResult:Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegmentResult;
 
     :goto_0
     iget-object v0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/a/a;->c:Ljava/util/List;
@@ -261,21 +261,21 @@
 
     check-cast v1, Lcom/jakex/makeup/library/camerakit/aiengine/a/a$a;
 
-    invoke-interface {v1, p1, p2}, Lcom/jakex/makeup/library/camerakit/aiengine/a/a$a;->a(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegmentResult;)V
+    invoke-interface {v1, p1, p2}, Lcom/jakex/makeup/library/camerakit/aiengine/a/a$a;->a(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegmentResult;)V
 
     goto :goto_1
 
     :cond_1
     new-instance v0, Lcom/jakex/makeup/library/camerakit/aiengine/a/a$2;
 
-    invoke-direct {v0, p0, p1, p2}, Lcom/jakex/makeup/library/camerakit/aiengine/a/a$2;-><init>(Lcom/jakex/makeup/library/camerakit/aiengine/a/a;Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegmentResult;)V
+    invoke-direct {v0, p0, p1, p2}, Lcom/jakex/makeup/library/camerakit/aiengine/a/a$2;-><init>(Lcom/jakex/makeup/library/camerakit/aiengine/a/a;Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegmentResult;)V
 
     invoke-direct {p0, v0}, Lcom/jakex/makeup/library/camerakit/aiengine/a/a;->a(Lcom/jakex/makeup/library/camerakit/aiengine/f;)V
 
     return-void
 .end method
 
-.method public b(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;)Z
+.method public b(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;)Z
     .locals 9
 
     const/4 v0, 0x1
@@ -307,7 +307,7 @@
 
     aget-wide v5, v1, v3
 
-    invoke-interface {v4, p1}, Lcom/jakex/makeup/library/camerakit/aiengine/a/a$a;->a(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;)J
+    invoke-interface {v4, p1}, Lcom/jakex/makeup/library/camerakit/aiengine/a/a$a;->a(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;)J
 
     move-result-wide v7
 
@@ -320,7 +320,7 @@
     :cond_0
     new-instance v2, Lcom/jakex/makeup/library/camerakit/aiengine/a/a$1;
 
-    invoke-direct {v2, p0, v1, p1}, Lcom/jakex/makeup/library/camerakit/aiengine/a/a$1;-><init>(Lcom/jakex/makeup/library/camerakit/aiengine/a/a;[JLcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;)V
+    invoke-direct {v2, p0, v1, p1}, Lcom/jakex/makeup/library/camerakit/aiengine/a/a$1;-><init>(Lcom/jakex/makeup/library/camerakit/aiengine/a/a;[JLcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;)V
 
     invoke-direct {p0, v2}, Lcom/jakex/makeup/library/camerakit/aiengine/a/a;->a(Lcom/jakex/makeup/library/camerakit/aiengine/f;)V
 
@@ -360,18 +360,18 @@
 
     if-eqz p1, :cond_4
 
-    iget-object p1, p2, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->segmentOption:Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;
+    iget-object p1, p2, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;->segmentOption:Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegmentOption;
 
     aget-wide v2, v1, v3
 
-    iput-wide v2, p1, Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->option:J
+    iput-wide v2, p1, Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegmentOption;->option:J
 
     return v0
 
     :cond_4
-    iget-object p1, p2, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->segmentOption:Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;
+    iget-object p1, p2, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;->segmentOption:Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegmentOption;
 
-    iput-wide v6, p1, Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->option:J
+    iput-wide v6, p1, Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegmentOption;->option:J
 
     return v3
 .end method
@@ -379,23 +379,23 @@
 .method public c()V
     .locals 3
 
-    invoke-virtual {p0}, Lcom/jakex/makeup/library/camerakit/aiengine/a/a;->b()Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;
+    invoke-virtual {p0}, Lcom/jakex/makeup/library/camerakit/aiengine/a/a;->b()Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/jakex/makeup/library/camerakit/aiengine/a/a;->b:Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;
+    iget-object v1, p0, Lcom/jakex/makeup/library/camerakit/aiengine/a/a;->b:Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegmentOption;
 
-    invoke-virtual {v1}, Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->detectorType()I
+    invoke-virtual {v1}, Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegmentOption;->detectorType()I
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;->unregisterModule(I)I
+    invoke-virtual {v0, v1}, Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;->unregisterModule(I)I
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/a/a;->b:Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;
+    iget-object v0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/a/a;->b:Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegmentOption;
 
     const-wide/16 v1, 0x0
 
-    iput-wide v1, v0, Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegmentOption;->option:J
+    iput-wide v1, v0, Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegmentOption;->option:J
 
     iget-object v0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/a/a;->d:Ljava/util/concurrent/atomic/AtomicBoolean;
 

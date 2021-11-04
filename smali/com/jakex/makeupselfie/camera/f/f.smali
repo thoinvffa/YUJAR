@@ -1,23 +1,23 @@
-.class public Lcom/jakex/makeupselfie/camera/f/f;
-.super Lcom/jakex/makeupcore/l/a;
+.class public Lcom/jakex/ymluxscoresf/camera/f/f;
+.super Lcom/jakex/ymluxscore/l/a;
 
 # interfaces
-.implements Lcom/jakex/makeupselfie/camera/f/d$a;
+.implements Lcom/jakex/ymluxscoresf/camera/f/d$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/jakex/makeupselfie/camera/f/f$a;
+        Lcom/jakex/ymluxscoresf/camera/f/f$a;
     }
 .end annotation
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupcore/l/a<",
-        "Lcom/jakex/makeupselfie/camera/f/d$b;",
+        "Lcom/jakex/ymluxscore/l/a<",
+        "Lcom/jakex/ymluxscoresf/camera/f/d$b;",
         ">;",
-        "Lcom/jakex/makeupselfie/camera/f/d$a;"
+        "Lcom/jakex/ymluxscoresf/camera/f/d$a;"
     }
 .end annotation
 
@@ -27,7 +27,7 @@
 
 
 # instance fields
-.field private b:Lcom/jakex/makeupselfie/camera/f/f$a;
+.field private b:Lcom/jakex/ymluxscoresf/camera/f/f$a;
 
 .field private c:Z
 
@@ -44,7 +44,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const-class v1, Lcom/jakex/makeupselfie/camera/f/f;
+    const-class v1, Lcom/jakex/ymluxscoresf/camera/f/f;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
@@ -56,17 +56,17 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/jakex/makeupselfie/camera/f/f;->a:Ljava/lang/String;
+    sput-object v0, Lcom/jakex/ymluxscoresf/camera/f/f;->a:Ljava/lang/String;
 
     return-void
 .end method
 
-.method constructor <init>(Lcom/jakex/makeupselfie/camera/f/d$b;Z)V
+.method constructor <init>(Lcom/jakex/ymluxscoresf/camera/f/d$b;Z)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupcore/l/a;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscore/l/a;-><init>(Ljava/lang/Object;)V
 
-    iput-boolean p2, p0, Lcom/jakex/makeupselfie/camera/f/f;->c:Z
+    iput-boolean p2, p0, Lcom/jakex/ymluxscoresf/camera/f/f;->c:Z
 
     return-void
 .end method
@@ -74,7 +74,7 @@
 .method static synthetic c()Ljava/lang/String;
     .locals 1
 
-    sget-object v0, Lcom/jakex/makeupselfie/camera/f/f;->a:Ljava/lang/String;
+    sget-object v0, Lcom/jakex/ymluxscoresf/camera/f/f;->a:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -94,7 +94,7 @@
 
     sget v1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$string;->net_error_content:I
 
-    invoke-static {v1}, Lcom/jakex/makeupcore/widget/a/a;->a(I)V
+    invoke-static {v1}, Lcom/jakex/ymluxscore/widget/a/a;->a(I)V
 
     :cond_0
     return v0
@@ -102,17 +102,17 @@
 
 
 # virtual methods
-.method public a(Ljava/util/List;JLjava/lang/String;)Lcom/jakex/makeupeditor/material/thememakeup/c/a;
+.method public a(Ljava/util/List;JLjava/lang/String;)Lcom/jakex/ymluxseditor/material/thememakeup/c/a;
     .locals 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/util/List<",
-            "Lcom/jakex/makeupcore/bean/ThemeMakeupCategory;",
+            "Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory;",
             ">;J",
             "Ljava/lang/String;",
             ")",
-            "Lcom/jakex/makeupeditor/material/thememakeup/c/a;"
+            "Lcom/jakex/ymluxseditor/material/thememakeup/c/a;"
         }
     .end annotation
 
@@ -146,9 +146,9 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/jakex/makeupcore/bean/ThemeMakeupCategory;
+    check-cast v2, Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory;
 
-    invoke-virtual {v2}, Lcom/jakex/makeupcore/bean/ThemeMakeupCategory;->getCategoryId()J
+    invoke-virtual {v2}, Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory;->getCategoryId()J
 
     move-result-wide v3
 
@@ -156,13 +156,13 @@
 
     if-nez v5, :cond_3
 
-    new-instance p1, Lcom/jakex/makeupeditor/material/thememakeup/c/a;
+    new-instance p1, Lcom/jakex/ymluxseditor/material/thememakeup/c/a;
 
-    invoke-direct {p1}, Lcom/jakex/makeupeditor/material/thememakeup/c/a;-><init>()V
+    invoke-direct {p1}, Lcom/jakex/ymluxseditor/material/thememakeup/c/a;-><init>()V
 
-    invoke-virtual {p1, v1}, Lcom/jakex/makeupeditor/material/thememakeup/c/a;->a(I)V
+    invoke-virtual {p1, v1}, Lcom/jakex/ymluxseditor/material/thememakeup/c/a;->a(I)V
 
-    invoke-virtual {p1, v2}, Lcom/jakex/makeupeditor/material/thememakeup/c/a;->a(Lcom/jakex/makeupcore/bean/ThemeMakeupCategory;)V
+    invoke-virtual {p1, v2}, Lcom/jakex/ymluxseditor/material/thememakeup/c/a;->a(Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory;)V
 
     const-string p2, "-1"
 
@@ -174,24 +174,24 @@
 
     const/4 p2, -0x1
 
-    invoke-virtual {p1, p2}, Lcom/jakex/makeupeditor/material/thememakeup/c/a;->b(I)V
+    invoke-virtual {p1, p2}, Lcom/jakex/ymluxseditor/material/thememakeup/c/a;->b(I)V
 
-    invoke-static {}, Lcom/jakex/makeupeditor/material/thememakeup/b/d;->a()Lcom/jakex/makeupeditor/material/thememakeup/b/d;
-
-    move-result-object p2
-
-    invoke-virtual {p2}, Lcom/jakex/makeupeditor/material/thememakeup/b/d;->e()Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+    invoke-static {}, Lcom/jakex/ymluxseditor/material/thememakeup/b/d;->a()Lcom/jakex/ymluxseditor/material/thememakeup/b/d;
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lcom/jakex/makeupeditor/material/thememakeup/c/a;->a(Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;)V
+    invoke-virtual {p2}, Lcom/jakex/ymluxseditor/material/thememakeup/b/d;->e()Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
+
+    move-result-object p2
+
+    invoke-virtual {p1, p2}, Lcom/jakex/ymluxseditor/material/thememakeup/c/a;->a(Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;)V
 
     return-object p1
 
     :cond_1
-    iget-boolean p2, p0, Lcom/jakex/makeupselfie/camera/f/f;->c:Z
+    iget-boolean p2, p0, Lcom/jakex/ymluxscoresf/camera/f/f;->c:Z
 
-    invoke-virtual {v2, p2}, Lcom/jakex/makeupcore/bean/ThemeMakeupCategory;->getConcreteList(Z)Ljava/util/List;
+    invoke-virtual {v2, p2}, Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory;->getConcreteList(Z)Ljava/util/List;
 
     move-result-object p2
 
@@ -206,9 +206,9 @@
 
     move-result-object p3
 
-    check-cast p3, Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+    check-cast p3, Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
 
-    invoke-virtual {p3}, Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;->getMakeupId()Ljava/lang/String;
+    invoke-virtual {p3}, Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;->getMakeupId()Ljava/lang/String;
 
     move-result-object v1
 
@@ -218,17 +218,17 @@
 
     if-eqz v1, :cond_2
 
-    invoke-static {p3}, Lcom/jakex/makeupcore/bean/download/b;->a(Lcom/jakex/makeupcore/bean/download/a;)Lcom/jakex/makeupcore/bean/download/DownloadState;
+    invoke-static {p3}, Lcom/jakex/ymluxscore/bean/download/b;->a(Lcom/jakex/ymluxscore/bean/download/a;)Lcom/jakex/ymluxscore/bean/download/DownloadState;
 
     move-result-object v1
 
-    sget-object v2, Lcom/jakex/makeupcore/bean/download/DownloadState;->FINISH:Lcom/jakex/makeupcore/bean/download/DownloadState;
+    sget-object v2, Lcom/jakex/ymluxscore/bean/download/DownloadState;->FINISH:Lcom/jakex/ymluxscore/bean/download/DownloadState;
 
     if-ne v1, v2, :cond_2
 
-    invoke-virtual {p1, v0}, Lcom/jakex/makeupeditor/material/thememakeup/c/a;->b(I)V
+    invoke-virtual {p1, v0}, Lcom/jakex/ymluxseditor/material/thememakeup/c/a;->b(I)V
 
-    invoke-virtual {p1, p3}, Lcom/jakex/makeupeditor/material/thememakeup/c/a;->a(Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;)V
+    invoke-virtual {p1, p3}, Lcom/jakex/ymluxseditor/material/thememakeup/c/a;->a(Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;)V
 
     return-object p1
 
@@ -250,17 +250,17 @@
     return-object p1
 .end method
 
-.method public a(Ljava/util/List;Ljava/lang/String;)Lcom/jakex/makeupeditor/material/thememakeup/c/a;
+.method public a(Ljava/util/List;Ljava/lang/String;)Lcom/jakex/ymluxseditor/material/thememakeup/c/a;
     .locals 9
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/util/List<",
-            "Lcom/jakex/makeupcore/bean/ThemeMakeupCategory;",
+            "Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory;",
             ">;",
             "Ljava/lang/String;",
             ")",
-            "Lcom/jakex/makeupeditor/material/thememakeup/c/a;"
+            "Lcom/jakex/ymluxseditor/material/thememakeup/c/a;"
         }
     .end annotation
 
@@ -290,15 +290,15 @@
 
     move-result-object v3
 
-    check-cast v3, Lcom/jakex/makeupcore/bean/ThemeMakeupCategory;
+    check-cast v3, Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory;
 
-    iget-boolean v4, p0, Lcom/jakex/makeupselfie/camera/f/f;->c:Z
+    iget-boolean v4, p0, Lcom/jakex/ymluxscoresf/camera/f/f;->c:Z
 
-    invoke-virtual {v3, v4}, Lcom/jakex/makeupcore/bean/ThemeMakeupCategory;->getConcreteList(Z)Ljava/util/List;
+    invoke-virtual {v3, v4}, Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory;->getConcreteList(Z)Ljava/util/List;
 
     move-result-object v4
 
-    invoke-static {v4}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v4}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v5
 
@@ -320,9 +320,9 @@
 
     move-result-object v6
 
-    check-cast v6, Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+    check-cast v6, Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
 
-    invoke-virtual {v6}, Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;->getMakeupId()Ljava/lang/String;
+    invoke-virtual {v6}, Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;->getMakeupId()Ljava/lang/String;
 
     move-result-object v7
 
@@ -332,21 +332,21 @@
 
     if-eqz v7, :cond_3
 
-    invoke-static {v6}, Lcom/jakex/makeupcore/bean/download/b;->a(Lcom/jakex/makeupcore/bean/download/a;)Lcom/jakex/makeupcore/bean/download/DownloadState;
+    invoke-static {v6}, Lcom/jakex/ymluxscore/bean/download/b;->a(Lcom/jakex/ymluxscore/bean/download/a;)Lcom/jakex/ymluxscore/bean/download/DownloadState;
 
     move-result-object v7
 
-    sget-object v8, Lcom/jakex/makeupcore/bean/download/DownloadState;->FINISH:Lcom/jakex/makeupcore/bean/download/DownloadState;
+    sget-object v8, Lcom/jakex/ymluxscore/bean/download/DownloadState;->FINISH:Lcom/jakex/ymluxscore/bean/download/DownloadState;
 
     if-ne v7, v8, :cond_3
 
-    new-instance p1, Lcom/jakex/makeupeditor/material/thememakeup/c/a;
+    new-instance p1, Lcom/jakex/ymluxseditor/material/thememakeup/c/a;
 
-    invoke-direct {p1}, Lcom/jakex/makeupeditor/material/thememakeup/c/a;-><init>()V
+    invoke-direct {p1}, Lcom/jakex/ymluxseditor/material/thememakeup/c/a;-><init>()V
 
-    invoke-virtual {p1, v2}, Lcom/jakex/makeupeditor/material/thememakeup/c/a;->a(I)V
+    invoke-virtual {p1, v2}, Lcom/jakex/ymluxseditor/material/thememakeup/c/a;->a(I)V
 
-    invoke-virtual {p1, v3}, Lcom/jakex/makeupeditor/material/thememakeup/c/a;->a(Lcom/jakex/makeupcore/bean/ThemeMakeupCategory;)V
+    invoke-virtual {p1, v3}, Lcom/jakex/ymluxseditor/material/thememakeup/c/a;->a(Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory;)V
 
     const-string v0, "-1"
 
@@ -358,24 +358,24 @@
 
     const/4 p2, -0x1
 
-    invoke-virtual {p1, p2}, Lcom/jakex/makeupeditor/material/thememakeup/c/a;->b(I)V
+    invoke-virtual {p1, p2}, Lcom/jakex/ymluxseditor/material/thememakeup/c/a;->b(I)V
 
-    invoke-static {}, Lcom/jakex/makeupeditor/material/thememakeup/b/d;->a()Lcom/jakex/makeupeditor/material/thememakeup/b/d;
-
-    move-result-object p2
-
-    invoke-virtual {p2}, Lcom/jakex/makeupeditor/material/thememakeup/b/d;->e()Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+    invoke-static {}, Lcom/jakex/ymluxseditor/material/thememakeup/b/d;->a()Lcom/jakex/ymluxseditor/material/thememakeup/b/d;
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lcom/jakex/makeupeditor/material/thememakeup/c/a;->a(Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;)V
+    invoke-virtual {p2}, Lcom/jakex/ymluxseditor/material/thememakeup/b/d;->e()Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
+
+    move-result-object p2
+
+    invoke-virtual {p1, p2}, Lcom/jakex/ymluxseditor/material/thememakeup/c/a;->a(Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;)V
 
     goto :goto_2
 
     :cond_2
-    invoke-virtual {p1, v5}, Lcom/jakex/makeupeditor/material/thememakeup/c/a;->b(I)V
+    invoke-virtual {p1, v5}, Lcom/jakex/ymluxseditor/material/thememakeup/c/a;->b(I)V
 
-    invoke-virtual {p1, v6}, Lcom/jakex/makeupeditor/material/thememakeup/c/a;->a(Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;)V
+    invoke-virtual {p1, v6}, Lcom/jakex/ymluxseditor/material/thememakeup/c/a;->a(Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;)V
 
     :goto_2
     return-object p1
@@ -398,7 +398,7 @@
 .method public a()V
     .locals 5
 
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/camera/f/f;->b()Z
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/camera/f/f;->b()Z
 
     move-result v0
 
@@ -406,24 +406,24 @@
 
     if-eqz v0, :cond_0
 
-    sget-object v0, Lcom/jakex/makeupselfie/camera/f/f;->a:Ljava/lang/String;
+    sget-object v0, Lcom/jakex/ymluxscoresf/camera/f/f;->a:Ljava/lang/String;
 
     const-string v2, "loadCategoryList()...isLoadCategoryTaskRunning,cancel task"
 
     invoke-static {v0, v2}, Lcom/jakex/library/util/Debug/Debug;->c(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/f/f;->b:Lcom/jakex/makeupselfie/camera/f/f$a;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/f/f;->b:Lcom/jakex/ymluxscoresf/camera/f/f$a;
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupselfie/camera/f/f$a;->cancel(Z)Z
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscoresf/camera/f/f$a;->cancel(Z)Z
 
     :cond_0
-    new-instance v0, Lcom/jakex/makeupselfie/camera/f/f$a;
+    new-instance v0, Lcom/jakex/ymluxscoresf/camera/f/f$a;
 
-    invoke-direct {v0, p0}, Lcom/jakex/makeupselfie/camera/f/f$a;-><init>(Lcom/jakex/makeupselfie/camera/f/f;)V
+    invoke-direct {v0, p0}, Lcom/jakex/ymluxscoresf/camera/f/f$a;-><init>(Lcom/jakex/ymluxscoresf/camera/f/f;)V
 
-    iput-object v0, p0, Lcom/jakex/makeupselfie/camera/f/f;->b:Lcom/jakex/makeupselfie/camera/f/f$a;
+    iput-object v0, p0, Lcom/jakex/ymluxscoresf/camera/f/f;->b:Lcom/jakex/ymluxscoresf/camera/f/f$a;
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/i;->a()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/jakex/ymluxscore/util/i;->a()Ljava/util/concurrent/Executor;
 
     move-result-object v2
 
@@ -431,7 +431,7 @@
 
     new-array v3, v3, [Ljava/lang/Boolean;
 
-    iget-boolean v4, p0, Lcom/jakex/makeupselfie/camera/f/f;->c:Z
+    iget-boolean v4, p0, Lcom/jakex/ymluxscoresf/camera/f/f;->c:Z
 
     invoke-static {v4}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -439,15 +439,15 @@
 
     aput-object v4, v3, v1
 
-    invoke-virtual {v0, v2, v3}, Lcom/jakex/makeupselfie/camera/f/f$a;->executeOnExecutor(Ljava/util/concurrent/Executor;[Ljava/lang/Object;)Landroid/os/AsyncTask;
+    invoke-virtual {v0, v2, v3}, Lcom/jakex/ymluxscoresf/camera/f/f$a;->executeOnExecutor(Ljava/util/concurrent/Executor;[Ljava/lang/Object;)Landroid/os/AsyncTask;
 
     return-void
 .end method
 
-.method public a(Lcom/jakex/makeupcore/bean/ThemeMakeupCategory;Lcom/jakex/makeupeditor/material/a/a$a;)V
+.method public a(Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory;Lcom/jakex/ymluxseditor/material/a/a$a;)V
     .locals 1
 
-    invoke-direct {p0}, Lcom/jakex/makeupselfie/camera/f/f;->d()Z
+    invoke-direct {p0}, Lcom/jakex/ymluxscoresf/camera/f/f;->d()Z
 
     move-result v0
 
@@ -456,25 +456,25 @@
     return-void
 
     :cond_0
-    new-instance v0, Lcom/jakex/makeupeditor/material/a/a;
+    new-instance v0, Lcom/jakex/ymluxseditor/material/a/a;
 
-    invoke-direct {v0, p1}, Lcom/jakex/makeupeditor/material/a/a;-><init>(Lcom/jakex/makeupcore/bean/ThemeMakeupCategory;)V
+    invoke-direct {v0, p1}, Lcom/jakex/ymluxseditor/material/a/a;-><init>(Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory;)V
 
-    invoke-virtual {v0, p2}, Lcom/jakex/makeupeditor/material/a/a;->a(Lcom/jakex/makeupeditor/material/a/a$a;)V
+    invoke-virtual {v0, p2}, Lcom/jakex/ymluxseditor/material/a/a;->a(Lcom/jakex/ymluxseditor/material/a/a$a;)V
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/material/a/a;->a()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/material/a/a;->a()V
 
     const/4 p1, 0x0
 
-    invoke-virtual {v0, p1}, Lcom/jakex/makeupeditor/material/a/a;->a(Lcom/jakex/makeupeditor/material/a/a$a;)V
+    invoke-virtual {v0, p1}, Lcom/jakex/ymluxseditor/material/a/a;->a(Lcom/jakex/ymluxseditor/material/a/a$a;)V
 
     return-void
 .end method
 
-.method public a(Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;Z)V
+.method public a(Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;Z)V
     .locals 1
 
-    invoke-direct {p0}, Lcom/jakex/makeupselfie/camera/f/f;->d()Z
+    invoke-direct {p0}, Lcom/jakex/ymluxscoresf/camera/f/f;->d()Z
 
     move-result p2
 
@@ -483,13 +483,13 @@
     return-void
 
     :cond_0
-    new-instance p2, Lcom/jakex/makeupeditor/material/a/c;
+    new-instance p2, Lcom/jakex/ymluxseditor/material/a/c;
 
     const/4 v0, 0x1
 
-    invoke-direct {p2, p1, v0}, Lcom/jakex/makeupeditor/material/a/c;-><init>(Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;Z)V
+    invoke-direct {p2, p1, v0}, Lcom/jakex/ymluxseditor/material/a/c;-><init>(Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;Z)V
 
-    invoke-virtual {p2}, Lcom/jakex/makeupeditor/material/a/c;->a()V
+    invoke-virtual {p2}, Lcom/jakex/ymluxseditor/material/a/c;->a()V
 
     return-void
 .end method
@@ -497,11 +497,11 @@
 .method public b()Z
     .locals 2
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/f/f;->b:Lcom/jakex/makeupselfie/camera/f/f$a;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/f/f;->b:Lcom/jakex/ymluxscoresf/camera/f/f$a;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupselfie/camera/f/f$a;->getStatus()Landroid/os/AsyncTask$Status;
+    invoke-virtual {v0}, Lcom/jakex/ymluxscoresf/camera/f/f$a;->getStatus()Landroid/os/AsyncTask$Status;
 
     move-result-object v0
 

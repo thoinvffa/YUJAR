@@ -151,7 +151,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/widget/a/a;->b(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/jakex/ymluxscore/widget/a/a;->b(Ljava/lang/String;)V
 
     :cond_1
     return-void

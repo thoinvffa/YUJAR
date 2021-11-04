@@ -1,4 +1,4 @@
-.class public Lcom/jakex/makeupselfie/camera/ar/a/a;
+.class public Lcom/jakex/ymluxscoresf/camera/ar/a/a;
 .super Ljava/lang/Object;
 
 
@@ -6,7 +6,7 @@
 .method public static a()Z
     .locals 1
 
-    invoke-static {}, Lcom/jakex/makeupselfie/camera/ar/a/b;->a()Z
+    invoke-static {}, Lcom/jakex/ymluxscoresf/camera/ar/a/b;->a()Z
 
     move-result v0
 

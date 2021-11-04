@@ -1,5 +1,5 @@
 .class Lcom/jakex/makeupassistant/camera/b$a;
-.super Lcom/jakex/makeupcore/util/bm;
+.super Lcom/jakex/ymluxscore/util/bm;
 
 
 # annotations
@@ -14,7 +14,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupcore/util/bm<",
+        "Lcom/jakex/ymluxscore/util/bm<",
         "Lcom/jakex/makeupassistant/camera/b;",
         "Ljava/lang/Void;",
         "Ljava/lang/Void;",
@@ -34,7 +34,7 @@
 .method private constructor <init>(Lcom/jakex/makeupassistant/camera/b;Ljava/lang/String;Landroid/graphics/Bitmap;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupcore/util/bm;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscore/util/bm;-><init>(Ljava/lang/Object;)V
 
     iput-object p3, p0, Lcom/jakex/makeupassistant/camera/b$a;->b:Landroid/graphics/Bitmap;
 
@@ -113,7 +113,7 @@
 
     if-eqz p1, :cond_0
 
-    invoke-static {p2}, Lcom/jakex/makeupcore/util/bj;->a(Ljava/lang/Boolean;)Z
+    invoke-static {p2}, Lcom/jakex/ymluxscore/util/bj;->a(Ljava/lang/Boolean;)Z
 
     move-result p2
 

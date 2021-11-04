@@ -1,4 +1,4 @@
-.class public Lcom/jakex/makeupselfie/camera/customconcrete/f;
+.class public Lcom/jakex/ymluxscoresf/camera/customconcrete/f;
 .super Ljava/lang/Object;
 
 

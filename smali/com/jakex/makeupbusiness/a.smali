@@ -25,11 +25,11 @@
 
     invoke-interface {v0, v1, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-static {}, Lcom/jakex/makeupcore/c/b;->b()Lcom/jakex/makeupcore/c/b;
+    invoke-static {}, Lcom/jakex/ymluxscore/c/b;->b()Lcom/jakex/ymluxscore/c/b;
 
     move-result-object p1
 
-    invoke-virtual {p1, p0, v0}, Lcom/jakex/makeupcore/c/b;->a(Ljava/lang/String;Ljava/util/Map;)V
+    invoke-virtual {p1, p0, v0}, Lcom/jakex/ymluxscore/c/b;->a(Ljava/lang/String;Ljava/util/Map;)V
 
     return-void
 .end method

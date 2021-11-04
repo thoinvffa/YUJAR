@@ -1,5 +1,5 @@
 .class public abstract Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;
-.super Lcom/jakex/makeupcore/activity/MTBaseActivity;
+.super Lcom/jakex/ymluxscore/activity/MTBaseActivity;
 
 
 # annotations
@@ -11,21 +11,21 @@
 
 
 # instance fields
-.field private a:Lcom/jakex/makeupcore/util/az;
+.field private a:Lcom/jakex/ymluxscore/util/az;
 
-.field protected b:Lcom/jakex/makeupeditor/widget/a;
+.field protected b:Lcom/jakex/ymluxseditor/widget/a;
 
-.field protected c:Lcom/jakex/makeupcore/dialog/e;
+.field protected c:Lcom/jakex/ymluxscore/dialog/e;
 
-.field protected d:Lcom/jakex/makeupcore/dialog/CommonAlertDialog;
+.field protected d:Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;
 
-.field protected h:Lcom/jakex/makeupcore/modular/a/b;
+.field protected h:Lcom/jakex/ymluxscore/modular/a/b;
 
 .field protected i:Landroid/graphics/Bitmap;
 
 .field protected j:Landroid/graphics/Bitmap;
 
-.field protected k:Lcom/jakex/makeupcore/modular/extra/BeautyCommonExtra;
+.field protected k:Lcom/jakex/ymluxscore/modular/extra/BeautyCommonExtra;
 
 .field protected l:I
 
@@ -50,11 +50,11 @@
 .method public constructor <init>()V
     .locals 2
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;-><init>()V
 
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->h:Lcom/jakex/makeupcore/modular/a/b;
+    iput-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->h:Lcom/jakex/ymluxscore/modular/a/b;
 
     iput-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->i:Landroid/graphics/Bitmap;
 
@@ -82,7 +82,7 @@
 
     iput-object v1, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->r:Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity$a;
 
-    iput-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->a:Lcom/jakex/makeupcore/util/az;
+    iput-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->a:Lcom/jakex/ymluxscore/util/az;
 
     return-void
 .end method
@@ -90,47 +90,47 @@
 .method private a()V
     .locals 3
 
-    new-instance v0, Lcom/jakex/makeupeditor/widget/a;
+    new-instance v0, Lcom/jakex/ymluxseditor/widget/a;
 
     sget v1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$style;->FaceDialog:I
 
-    invoke-direct {v0, p0, v1}, Lcom/jakex/makeupeditor/widget/a;-><init>(Landroid/content/Context;I)V
+    invoke-direct {v0, p0, v1}, Lcom/jakex/ymluxseditor/widget/a;-><init>(Landroid/content/Context;I)V
 
-    iput-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->b:Lcom/jakex/makeupeditor/widget/a;
+    iput-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->b:Lcom/jakex/ymluxseditor/widget/a;
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupeditor/widget/a;->setCancelable(Z)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxseditor/widget/a;->setCancelable(Z)V
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->b:Lcom/jakex/makeupeditor/widget/a;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->b:Lcom/jakex/ymluxseditor/widget/a;
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupeditor/widget/a;->setCanceledOnTouchOutside(Z)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxseditor/widget/a;->setCanceledOnTouchOutside(Z)V
 
-    new-instance v0, Lcom/jakex/makeupcore/dialog/e$a;
+    new-instance v0, Lcom/jakex/ymluxscore/dialog/e$a;
 
-    invoke-direct {v0, p0}, Lcom/jakex/makeupcore/dialog/e$a;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, p0}, Lcom/jakex/ymluxscore/dialog/e$a;-><init>(Landroid/content/Context;)V
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/dialog/e$a;->b(Z)Lcom/jakex/makeupcore/dialog/e$a;
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/dialog/e$a;->b(Z)Lcom/jakex/ymluxscore/dialog/e$a;
 
     move-result-object v0
 
     sget v2, Lcom/tbuonomo/viewpagerdotsindicator/Resource$style;->FaceDialog:I
 
-    invoke-virtual {v0, v2}, Lcom/jakex/makeupcore/dialog/e$a;->a(I)Lcom/jakex/makeupcore/dialog/e$a;
+    invoke-virtual {v0, v2}, Lcom/jakex/ymluxscore/dialog/e$a;->a(I)Lcom/jakex/ymluxscore/dialog/e$a;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/dialog/e$a;->a(Z)Lcom/jakex/makeupcore/dialog/e$a;
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/dialog/e$a;->a(Z)Lcom/jakex/ymluxscore/dialog/e$a;
 
     move-result-object v0
 
     const/4 v2, 0x3
 
-    invoke-virtual {v0, v2, v1}, Lcom/jakex/makeupcore/dialog/e$a;->a(II)Lcom/jakex/makeupcore/dialog/e;
+    invoke-virtual {v0, v2, v1}, Lcom/jakex/ymluxscore/dialog/e$a;->a(II)Lcom/jakex/ymluxscore/dialog/e;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->c:Lcom/jakex/makeupcore/dialog/e;
+    iput-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->c:Lcom/jakex/ymluxscore/dialog/e;
 
     return-void
 .end method
@@ -146,9 +146,9 @@
 .method private b()V
     .locals 0
 
-    invoke-static {p0}, Lcom/jakex/makeupcore/modular/c/h;->a(Landroid/app/Activity;)V
+    invoke-static {p0}, Lcom/jakex/ymluxscore/modular/c/h;->a(Landroid/app/Activity;)V
 
-    invoke-static {p0}, Lcom/jakex/makeupcore/util/a;->g(Landroid/app/Activity;)V
+    invoke-static {p0}, Lcom/jakex/ymluxscore/util/a;->g(Landroid/app/Activity;)V
 
     return-void
 .end method
@@ -198,9 +198,9 @@
 
     if-eqz v0, :cond_2
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->a:Lcom/jakex/makeupcore/util/az;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->a:Lcom/jakex/ymluxscore/util/az;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/util/az;->a()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/util/az;->a()V
 
     :cond_2
     iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->r:Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity$a;
@@ -259,7 +259,7 @@
 
     invoke-virtual {p0}, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->finish()V
 
-    invoke-static {p0}, Lcom/jakex/makeupcore/util/a;->f(Landroid/app/Activity;)V
+    invoke-static {p0}, Lcom/jakex/ymluxscore/util/a;->f(Landroid/app/Activity;)V
 
     return-void
 
@@ -274,13 +274,13 @@
 
     move-result-object v0
 
-    new-instance v1, Lcom/jakex/makeupcore/modular/b/a;
+    new-instance v1, Lcom/jakex/ymluxscore/modular/b/a;
 
     const/4 v2, 0x0
 
     new-array v2, v2, [Ljava/lang/Class;
 
-    invoke-direct {v1, v2}, Lcom/jakex/makeupcore/modular/b/a;-><init>([Ljava/lang/Class;)V
+    invoke-direct {v1, v2}, Lcom/jakex/ymluxscore/modular/b/a;-><init>([Ljava/lang/Class;)V
 
     invoke-virtual {v0, v1}, Lorg/greenrobot/eventbus/EventBus;->post(Ljava/lang/Object;)V
 
@@ -299,11 +299,11 @@
 .method protected B()Z
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->k:Lcom/jakex/makeupcore/modular/extra/BeautyCommonExtra;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->k:Lcom/jakex/ymluxscore/modular/extra/BeautyCommonExtra;
 
-    iget-object v0, v0, Lcom/jakex/makeupcore/modular/extra/BeautyCommonExtra;->mFromOtherAppExtra:Lcom/jakex/makeupcore/modular/extra/FromOtherAppExtra;
+    iget-object v0, v0, Lcom/jakex/ymluxscore/modular/extra/BeautyCommonExtra;->mFromOtherAppExtra:Lcom/jakex/ymluxscore/modular/extra/FromOtherAppExtra;
 
-    iget-boolean v0, v0, Lcom/jakex/makeupcore/modular/extra/FromOtherAppExtra;->mFromOtherApp:Z
+    iget-boolean v0, v0, Lcom/jakex/ymluxscore/modular/extra/FromOtherAppExtra;->mFromOtherApp:Z
 
     return v0
 .end method
@@ -317,11 +317,11 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->k:Lcom/jakex/makeupcore/modular/extra/BeautyCommonExtra;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->k:Lcom/jakex/ymluxscore/modular/extra/BeautyCommonExtra;
 
-    iget-object v0, v0, Lcom/jakex/makeupcore/modular/extra/BeautyCommonExtra;->mFromOtherAppExtra:Lcom/jakex/makeupcore/modular/extra/FromOtherAppExtra;
+    iget-object v0, v0, Lcom/jakex/ymluxscore/modular/extra/BeautyCommonExtra;->mFromOtherAppExtra:Lcom/jakex/ymluxscore/modular/extra/FromOtherAppExtra;
 
-    iget-boolean v0, v0, Lcom/jakex/makeupcore/modular/extra/FromOtherAppExtra;->mFromOtherAppNeedResult:Z
+    iget-boolean v0, v0, Lcom/jakex/ymluxscore/modular/extra/FromOtherAppExtra;->mFromOtherAppNeedResult:Z
 
     if-eqz v0, :cond_0
 
@@ -339,19 +339,19 @@
 .method protected d(I)V
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->b:Lcom/jakex/makeupeditor/widget/a;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->b:Lcom/jakex/ymluxseditor/widget/a;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/widget/a;->isShowing()Z
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/widget/a;->isShowing()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->b:Lcom/jakex/makeupeditor/widget/a;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->b:Lcom/jakex/ymluxseditor/widget/a;
 
-    invoke-virtual {v0, p1}, Lcom/jakex/makeupeditor/widget/a;->a(I)V
+    invoke-virtual {v0, p1}, Lcom/jakex/ymluxseditor/widget/a;->a(I)V
 
     :cond_0
     return-void
@@ -360,7 +360,7 @@
 .method public finish()V
     .locals 2
 
-    invoke-super {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->finish()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->finish()V
 
     invoke-static {}, Lcom/jakex/makeupsenior/model/e;->a()Lcom/jakex/makeupsenior/model/e;
 
@@ -410,29 +410,29 @@
 
     if-lez v0, :cond_1
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->d:Lcom/jakex/makeupcore/dialog/CommonAlertDialog;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->d:Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;
 
     if-nez v0, :cond_0
 
-    new-instance v0, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;
+    new-instance v0, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;
 
-    invoke-direct {v0, p0}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, p0}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;-><init>(Landroid/content/Context;)V
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;->b(Z)Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;->b(Z)Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;
 
     move-result-object v0
 
     sget v1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$string;->makeup_unsave_tip:I
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;->c(I)Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;->c(I)Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;
 
     move-result-object v0
 
     const/high16 v1, 0x41880000    # 17.0f
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;->a(F)Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;->a(F)Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;
 
     move-result-object v0
 
@@ -442,7 +442,7 @@
 
     invoke-direct {v2, p0}, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity$1;-><init>(Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;)V
 
-    invoke-virtual {v0, v1, v2}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;->b(ILandroid/content/DialogInterface$OnClickListener;)Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;
+    invoke-virtual {v0, v1, v2}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;->b(ILandroid/content/DialogInterface$OnClickListener;)Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;
 
     move-result-object v0
 
@@ -450,20 +450,20 @@
 
     const/4 v2, 0x0
 
-    invoke-virtual {v0, v1, v2}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;->c(ILandroid/content/DialogInterface$OnClickListener;)Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;
+    invoke-virtual {v0, v1, v2}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;->c(ILandroid/content/DialogInterface$OnClickListener;)Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;->a()Lcom/jakex/makeupcore/dialog/CommonAlertDialog;
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;->a()Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->d:Lcom/jakex/makeupcore/dialog/CommonAlertDialog;
+    iput-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->d:Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;
 
     :cond_0
-    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->d:Lcom/jakex/makeupcore/dialog/CommonAlertDialog;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->d:Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog;->show()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;->show()V
 
     goto :goto_0
 
@@ -477,26 +477,26 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 1
 
-    invoke-super {p0, p1}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onCreate(Landroid/os/Bundle;)V
 
     if-eqz p1, :cond_0
 
     sget p1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$string;->data_lost:I
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/widget/a/a;->b(I)V
+    invoke-static {p1}, Lcom/jakex/ymluxscore/widget/a/a;->b(I)V
 
-    invoke-static {p0}, Lcom/jakex/makeupcore/modular/c/h;->a(Landroid/app/Activity;)V
+    invoke-static {p0}, Lcom/jakex/ymluxscore/modular/c/h;->a(Landroid/app/Activity;)V
 
     :cond_0
     invoke-direct {p0}, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->a()V
 
-    invoke-static {}, Lcom/jakex/makeupcore/modular/a/b;->a()Lcom/jakex/makeupcore/modular/a/b;
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/a/b;->a()Lcom/jakex/ymluxscore/modular/a/b;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->h:Lcom/jakex/makeupcore/modular/a/b;
+    iput-object p1, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->h:Lcom/jakex/ymluxscore/modular/a/b;
 
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/modular/a/b;->d()Landroid/graphics/Bitmap;
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/modular/a/b;->d()Landroid/graphics/Bitmap;
 
     move-result-object p1
 
@@ -504,13 +504,13 @@
 
     iput-object p1, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->i:Landroid/graphics/Bitmap;
 
-    new-instance p1, Lcom/jakex/makeupcore/util/az;
+    new-instance p1, Lcom/jakex/ymluxscore/util/az;
 
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$raw;->beauty:I
 
-    invoke-direct {p1, v0}, Lcom/jakex/makeupcore/util/az;-><init>(I)V
+    invoke-direct {p1, v0}, Lcom/jakex/ymluxscore/util/az;-><init>(I)V
 
-    iput-object p1, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->a:Lcom/jakex/makeupcore/util/az;
+    iput-object p1, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->a:Lcom/jakex/ymluxscore/util/az;
 
     return-void
 .end method
@@ -527,44 +527,44 @@
     invoke-virtual {v0, v1}, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity$a;->removeCallbacksAndMessages(Ljava/lang/Object;)V
 
     :cond_0
-    invoke-super {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onDestroy()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onDestroy()V
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->b:Lcom/jakex/makeupeditor/widget/a;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->b:Lcom/jakex/ymluxseditor/widget/a;
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/widget/a;->a()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/widget/a;->a()V
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->b:Lcom/jakex/makeupeditor/widget/a;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->b:Lcom/jakex/ymluxseditor/widget/a;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/widget/a;->dismiss()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/widget/a;->dismiss()V
 
-    iput-object v1, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->b:Lcom/jakex/makeupeditor/widget/a;
+    iput-object v1, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->b:Lcom/jakex/ymluxseditor/widget/a;
 
     :cond_1
-    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->c:Lcom/jakex/makeupcore/dialog/e;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->c:Lcom/jakex/ymluxscore/dialog/e;
 
     if-eqz v0, :cond_2
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/dialog/e;->dismiss()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/dialog/e;->dismiss()V
 
-    iput-object v1, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->c:Lcom/jakex/makeupcore/dialog/e;
+    iput-object v1, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->c:Lcom/jakex/ymluxscore/dialog/e;
 
     :cond_2
-    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->a:Lcom/jakex/makeupcore/util/az;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->a:Lcom/jakex/ymluxscore/util/az;
 
     if-eqz v0, :cond_3
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/util/az;->b()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/util/az;->b()V
 
     :cond_3
-    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->d:Lcom/jakex/makeupcore/dialog/CommonAlertDialog;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->d:Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;
 
     if-eqz v0, :cond_4
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog;->dismiss()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;->dismiss()V
 
-    iput-object v1, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->d:Lcom/jakex/makeupcore/dialog/CommonAlertDialog;
+    iput-object v1, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->d:Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;
 
     :cond_4
     return-void
@@ -573,14 +573,14 @@
 .method protected v()V
     .locals 3
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->h:Lcom/jakex/makeupcore/modular/a/b;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->h:Lcom/jakex/ymluxscore/modular/a/b;
 
     if-nez v0, :cond_0
 
     return-void
 
     :cond_0
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/modular/a/b;->d()Landroid/graphics/Bitmap;
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/modular/a/b;->d()Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -591,11 +591,11 @@
     return-void
 
     :cond_1
-    iget-object v1, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->h:Lcom/jakex/makeupcore/modular/a/b;
+    iget-object v1, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->h:Lcom/jakex/ymluxscore/modular/a/b;
 
     const/4 v2, 0x0
 
-    invoke-virtual {v1, v2}, Lcom/jakex/makeupcore/modular/a/b;->a(Landroid/graphics/Bitmap;)V
+    invoke-virtual {v1, v2}, Lcom/jakex/ymluxscore/modular/a/b;->a(Landroid/graphics/Bitmap;)V
 
     invoke-static {v0}, Lcom/jakex/library/util/bitmap/a;->b(Landroid/graphics/Bitmap;)V
 
@@ -605,11 +605,11 @@
 .method protected w()V
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->b:Lcom/jakex/makeupeditor/widget/a;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->b:Lcom/jakex/ymluxseditor/widget/a;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/widget/a;->show()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/widget/a;->show()V
 
     :cond_0
     return-void
@@ -618,11 +618,11 @@
 .method protected x()V
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->b:Lcom/jakex/makeupeditor/widget/a;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->b:Lcom/jakex/ymluxseditor/widget/a;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/widget/a;->dismiss()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/widget/a;->dismiss()V
 
     :cond_0
     return-void
@@ -631,11 +631,11 @@
 .method protected y()V
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->b:Lcom/jakex/makeupeditor/widget/a;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->b:Lcom/jakex/ymluxseditor/widget/a;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/widget/a;->isShowing()Z
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/widget/a;->isShowing()Z
 
     move-result v0
 
@@ -644,11 +644,11 @@
     return-void
 
     :cond_0
-    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->c:Lcom/jakex/makeupcore/dialog/e;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->c:Lcom/jakex/ymluxscore/dialog/e;
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/dialog/e;->show()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/dialog/e;->show()V
 
     :cond_1
     return-void
@@ -657,11 +657,11 @@
 .method protected z()V
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->c:Lcom/jakex/makeupcore/dialog/e;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->c:Lcom/jakex/ymluxscore/dialog/e;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/dialog/e;->dismiss()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/dialog/e;->dismiss()V
 
     :cond_0
     return-void

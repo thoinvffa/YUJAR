@@ -122,7 +122,7 @@
 
     invoke-static {p1}, Lkotlin/i;->a(Ljava/lang/Object;)V
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/l;->b()I
+    invoke-static {}, Lcom/jakex/ymluxscore/util/l;->b()I
 
     move-result p1
 

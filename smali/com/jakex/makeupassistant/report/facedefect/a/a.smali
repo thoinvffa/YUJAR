@@ -1,12 +1,12 @@
 .class public Lcom/jakex/makeupassistant/report/facedefect/a/a;
-.super Lcom/jakex/makeupeditor/widget/makeuplayer/a;
+.super Lcom/jakex/ymluxseditor/widget/makeuplayer/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupeditor/widget/makeuplayer/a<",
-        "Lcom/jakex/makeupeditor/widget/BeautyMakeupView;",
+        "Lcom/jakex/ymluxseditor/widget/makeuplayer/a<",
+        "Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;",
         ">;"
     }
 .end annotation
@@ -39,10 +39,10 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/jakex/makeupeditor/widget/BeautyMakeupView;)V
+.method public constructor <init>(Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupeditor/widget/makeuplayer/a;-><init>(Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;)V
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxseditor/widget/makeuplayer/a;-><init>(Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;)V
 
     invoke-direct {p0}, Lcom/jakex/makeupassistant/report/facedefect/a/a;->b()V
 
@@ -52,13 +52,13 @@
 .method private a(Landroid/graphics/PointF;Landroid/graphics/PointF;)V
     .locals 5
 
-    invoke-virtual {p0}, Lcom/jakex/makeupassistant/report/facedefect/a/a;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupassistant/report/facedefect/a/a;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object v0
 
-    check-cast v0, Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    check-cast v0, Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/widget/BeautyMakeupView;->getBitmapMatrix()Landroid/graphics/Matrix;
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;->getBitmapMatrix()Landroid/graphics/Matrix;
 
     move-result-object v0
 
@@ -134,7 +134,7 @@
 
     iget-object v0, p0, Lcom/jakex/makeupassistant/report/facedefect/a/a;->a:Ljava/util/ArrayList;
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -142,7 +142,7 @@
 
     iget-object v0, p0, Lcom/jakex/makeupassistant/report/facedefect/a/a;->b:Ljava/util/ArrayList;
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -153,7 +153,7 @@
     :cond_0
     iget-object v0, p0, Lcom/jakex/makeupassistant/report/facedefect/a/a;->a:Ljava/util/ArrayList;
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -278,7 +278,7 @@
         }
     .end annotation
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v0
 

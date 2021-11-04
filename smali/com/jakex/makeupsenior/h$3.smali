@@ -77,7 +77,7 @@
     :cond_0
     sget p1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$string;->senior_none_mouth_tip:I
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/widget/a/a;->a(I)V
+    invoke-static {p1}, Lcom/jakex/ymluxscore/widget/a/a;->a(I)V
 
     const-string p1, "\u5507\u5f69"
 

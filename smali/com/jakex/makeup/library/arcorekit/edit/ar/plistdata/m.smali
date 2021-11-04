@@ -15,7 +15,7 @@
     return-void
 .end method
 
-.method private a(Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI$WaterMarkDescriptor;)Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/ARWatermark;
+.method private a(Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI$WaterMarkDescriptor;)Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/ARWatermark;
     .locals 6
 
     if-nez p1, :cond_0
@@ -29,7 +29,7 @@
 
     invoke-direct {v0}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/ARWatermark;-><init>()V
 
-    iget v1, p1, Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI$WaterMarkDescriptor;->location:I
+    iget v1, p1, Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI$WaterMarkDescriptor;->location:I
 
     const/4 v2, 0x1
 
@@ -83,25 +83,25 @@
 
     new-instance v1, Landroid/graphics/Rect;
 
-    iget-object v2, p1, Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI$WaterMarkDescriptor;->rect:Landroid/graphics/RectF;
+    iget-object v2, p1, Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI$WaterMarkDescriptor;->rect:Landroid/graphics/RectF;
 
     iget v2, v2, Landroid/graphics/RectF;->left:F
 
     float-to-int v2, v2
 
-    iget-object v3, p1, Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI$WaterMarkDescriptor;->rect:Landroid/graphics/RectF;
+    iget-object v3, p1, Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI$WaterMarkDescriptor;->rect:Landroid/graphics/RectF;
 
     iget v3, v3, Landroid/graphics/RectF;->top:F
 
     float-to-int v3, v3
 
-    iget-object v4, p1, Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI$WaterMarkDescriptor;->rect:Landroid/graphics/RectF;
+    iget-object v4, p1, Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI$WaterMarkDescriptor;->rect:Landroid/graphics/RectF;
 
     iget v4, v4, Landroid/graphics/RectF;->right:F
 
     float-to-int v4, v4
 
-    iget-object v5, p1, Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI$WaterMarkDescriptor;->rect:Landroid/graphics/RectF;
+    iget-object v5, p1, Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI$WaterMarkDescriptor;->rect:Landroid/graphics/RectF;
 
     iget v5, v5, Landroid/graphics/RectF;->bottom:F
 
@@ -111,7 +111,7 @@
 
     invoke-virtual {v0, v1}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/ARWatermark;->a(Landroid/graphics/Rect;)V
 
-    iget-object p1, p1, Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI$WaterMarkDescriptor;->filePath:Ljava/lang/String;
+    iget-object p1, p1, Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI$WaterMarkDescriptor;->filePath:Ljava/lang/String;
 
     invoke-virtual {v0, p1}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/ARWatermark;->a(Ljava/lang/String;)V
 
@@ -120,14 +120,14 @@
 
 
 # virtual methods
-.method protected l()Lcom/jakex/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
+.method protected l()Lcom/jakex/ymlux/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
     .locals 6
 
-    invoke-super {p0}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/i;->l()Lcom/jakex/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
+    invoke-super {p0}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/i;->l()Lcom/jakex/ymlux/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;->getPartControl()[Lcom/jakex/mtlab/arkernelinterface/core/ARKernelPartControlInterfaceJNI;
+    invoke-virtual {v0}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;->getPartControl()[Lcom/jakex/ymlux/arkernelinterface/core/ARKernelPartControlInterfaceJNI;
 
     move-result-object v1
 
@@ -142,17 +142,17 @@
 
     aget-object v4, v1, v3
 
-    instance-of v5, v4, Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI;
+    instance-of v5, v4, Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI;
 
     if-eqz v5, :cond_0
 
-    check-cast v4, Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI;
+    check-cast v4, Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI;
 
-    invoke-virtual {v4}, Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI;->getMakeupInfoWaterMark()Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI$WaterMarkDescriptor;
+    invoke-virtual {v4}, Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI;->getMakeupInfoWaterMark()Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI$WaterMarkDescriptor;
 
     move-result-object v1
 
-    invoke-direct {p0, v1}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/m;->a(Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI$WaterMarkDescriptor;)Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/ARWatermark;
+    invoke-direct {p0, v1}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/m;->a(Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI$WaterMarkDescriptor;)Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/ARWatermark;
 
     move-result-object v1
 

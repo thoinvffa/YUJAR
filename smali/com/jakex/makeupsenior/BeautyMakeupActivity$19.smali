@@ -62,7 +62,7 @@
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupActivity$19;->a:Lcom/jakex/makeupsenior/BeautyMakeupActivity;
 
-    invoke-static {v0}, Lcom/jakex/makeupsenior/BeautyMakeupActivity;->h(Lcom/jakex/makeupsenior/BeautyMakeupActivity;)Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    invoke-static {v0}, Lcom/jakex/makeupsenior/BeautyMakeupActivity;->h(Lcom/jakex/makeupsenior/BeautyMakeupActivity;)Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
     move-result-object v0
 
@@ -70,7 +70,7 @@
 
     iget-object v4, v4, Lcom/jakex/makeupsenior/BeautyMakeupActivity;->j:Landroid/graphics/Bitmap;
 
-    invoke-virtual {v0, v4, v2}, Lcom/jakex/makeupeditor/widget/BeautyMakeupView;->a(Landroid/graphics/Bitmap;Z)V
+    invoke-virtual {v0, v4, v2}, Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;->a(Landroid/graphics/Bitmap;Z)V
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupActivity$19;->a:Lcom/jakex/makeupsenior/BeautyMakeupActivity;
 
@@ -126,7 +126,7 @@
 
     sget-object v4, La/a/a/a/a/f;->a:La/a/a/a/a/f;
 
-    invoke-static {v0, v1, v2, v4}, Lcom/jakex/makeupcore/widget/a;->a(Landroid/app/Activity;Ljava/lang/CharSequence;Landroid/view/ViewGroup;La/a/a/a/a/f;)V
+    invoke-static {v0, v1, v2, v4}, Lcom/jakex/ymluxscore/widget/a;->a(Landroid/app/Activity;Ljava/lang/CharSequence;Landroid/view/ViewGroup;La/a/a/a/a/f;)V
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupActivity$19;->a:Lcom/jakex/makeupsenior/BeautyMakeupActivity;
 
@@ -211,11 +211,11 @@
 
     iget-object v4, p0, Lcom/jakex/makeupsenior/BeautyMakeupActivity$19;->a:Lcom/jakex/makeupsenior/BeautyMakeupActivity;
 
-    invoke-static {v4}, Lcom/jakex/makeupsenior/BeautyMakeupActivity;->h(Lcom/jakex/makeupsenior/BeautyMakeupActivity;)Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    invoke-static {v4}, Lcom/jakex/makeupsenior/BeautyMakeupActivity;->h(Lcom/jakex/makeupsenior/BeautyMakeupActivity;)Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
     move-result-object v4
 
-    invoke-virtual {v4, v2}, Lcom/jakex/makeupeditor/widget/BeautyMakeupView;->b(Landroid/graphics/RectF;)Landroid/graphics/RectF;
+    invoke-virtual {v4, v2}, Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;->b(Landroid/graphics/RectF;)Landroid/graphics/RectF;
 
     move-result-object v2
 

@@ -21,7 +21,7 @@
     return-void
 
     :cond_0
-    invoke-static {}, Lcom/jakex/makeupcore/j/a;->d()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/j/a;->d()Z
 
     move-result v2
 
@@ -43,7 +43,7 @@
 .method public static b()V
     .locals 3
 
-    invoke-static {}, Lcom/jakex/makeupcore/j/a;->c()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/j/a;->c()Z
 
     move-result v0
 

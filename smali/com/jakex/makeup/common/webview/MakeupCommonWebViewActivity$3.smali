@@ -1,5 +1,5 @@
 .class Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity$3;
-.super Lcom/jakex/makeupcore/webview/g;
+.super Lcom/jakex/ymluxscore/webview/g;
 
 
 # annotations
@@ -23,7 +23,7 @@
 
     iput-object p1, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity$3;->a:Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/webview/g;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/webview/g;-><init>()V
 
     return-void
 .end method
@@ -35,11 +35,11 @@
 
     iget-object p1, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity$3;->a:Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;
 
-    invoke-static {p1}, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->b(Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;)Lcom/jakex/makeupcore/widget/bar/MDTopBarView;
+    invoke-static {p1}, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->b(Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;)Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;
 
     move-result-object p1
 
-    invoke-virtual {p1, p2}, Lcom/jakex/makeupcore/widget/bar/MDTopBarView;->setTitle(Ljava/lang/String;)V
+    invoke-virtual {p1, p2}, Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;->setTitle(Ljava/lang/String;)V
 
     return-void
 .end method
@@ -47,7 +47,7 @@
 .method public a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/jakex/webview/listener/MTCommandScriptListener$ShareCallback;)V
     .locals 1
 
-    invoke-super/range {p0 .. p5}, Lcom/jakex/makeupcore/webview/g;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/jakex/webview/listener/MTCommandScriptListener$ShareCallback;)V
+    invoke-super/range {p0 .. p5}, Lcom/jakex/ymluxscore/webview/g;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/jakex/webview/listener/MTCommandScriptListener$ShareCallback;)V
 
     iget-object v0, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity$3;->a:Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;
 
@@ -163,22 +163,22 @@
 
     iget-object p1, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity$3;->a:Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;
 
-    invoke-static {p1}, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->b(Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;)Lcom/jakex/makeupcore/widget/bar/MDTopBarView;
+    invoke-static {p1}, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->b(Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;)Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/widget/bar/MDTopBarView;->b()V
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;->b()V
 
     goto :goto_0
 
     :cond_0
     iget-object p1, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity$3;->a:Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;
 
-    invoke-static {p1}, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->b(Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;)Lcom/jakex/makeupcore/widget/bar/MDTopBarView;
+    invoke-static {p1}, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->b(Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;)Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/widget/bar/MDTopBarView;->a()V
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;->a()V
 
     :goto_0
     return-void

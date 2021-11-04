@@ -1,5 +1,5 @@
 .class final Lcom/jakex/makeupsenior/saveshare/materialcourse/b$1;
-.super Lcom/jakex/makeupcore/net/j;
+.super Lcom/jakex/ymluxscore/net/j;
 
 
 # annotations
@@ -14,7 +14,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupcore/net/j<",
+        "Lcom/jakex/ymluxscore/net/j<",
         "Lcom/jakex/makeupsenior/saveshare/materialcourse/MaterialCourseBean;",
         ">;"
     }
@@ -25,7 +25,7 @@
 .method constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/net/j;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/net/j;-><init>()V
 
     return-void
 .end method
@@ -35,7 +35,7 @@
 .method public a(ILjava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    invoke-super {p0, p1, p2, p3}, Lcom/jakex/makeupcore/net/j;->a(ILjava/lang/String;Ljava/lang/String;)V
+    invoke-super {p0, p1, p2, p3}, Lcom/jakex/ymluxscore/net/j;->a(ILjava/lang/String;Ljava/lang/String;)V
 
     invoke-static {}, Lcom/jakex/makeupsenior/saveshare/materialcourse/d;->a()Lcom/jakex/makeupsenior/saveshare/materialcourse/d;
 
@@ -57,7 +57,7 @@
         }
     .end annotation
 
-    invoke-super {p0, p1, p2}, Lcom/jakex/makeupcore/net/j;->a(ILjava/util/ArrayList;)V
+    invoke-super {p0, p1, p2}, Lcom/jakex/ymluxscore/net/j;->a(ILjava/util/ArrayList;)V
 
     const-string p1, "load material course end"
 
@@ -126,7 +126,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/jakex/makeupcore/util/bk;->a(Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-static {v1, v2}, Lcom/jakex/ymluxscore/util/bk;->a(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v1
 

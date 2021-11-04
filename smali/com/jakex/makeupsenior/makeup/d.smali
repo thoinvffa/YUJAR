@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeupsenior/makeup/d;
-.super Lcom/jakex/makeupeditor/b/a/b;
+.super Lcom/jakex/ymluxseditor/b/a/b;
 
 
 # direct methods
@@ -8,7 +8,7 @@
 
     const/4 v0, -0x1
 
-    invoke-direct {p0, v0}, Lcom/jakex/makeupeditor/b/a/b;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/jakex/ymluxseditor/b/a/b;-><init>(I)V
 
     return-void
 .end method
@@ -81,11 +81,11 @@
     :cond_3
     iget v1, p0, Lcom/jakex/makeupsenior/makeup/d;->c:I
 
-    invoke-static {v1}, Lcom/jakex/makeupeditor/configuration/PartPosition;->getByNativeValue(I)Lcom/jakex/makeupeditor/configuration/PartPosition;
+    invoke-static {v1}, Lcom/jakex/ymluxseditor/configuration/PartPosition;->getByNativeValue(I)Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/jakex/makeupeditor/configuration/PartPosition;->getARPlistDataType()Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/ARPlistDataType;
+    invoke-virtual {v1}, Lcom/jakex/ymluxseditor/configuration/PartPosition;->getARPlistDataType()Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/ARPlistDataType;
 
     move-result-object v1
 
@@ -140,12 +140,12 @@
     return p1
 .end method
 
-.method public e()Lcom/jakex/makeupeditor/a/a;
+.method public e()Lcom/jakex/ymluxseditor/a/a;
     .locals 7
 
-    new-instance v0, Lcom/jakex/makeupeditor/a/a;
+    new-instance v0, Lcom/jakex/ymluxseditor/a/a;
 
-    invoke-direct {v0}, Lcom/jakex/makeupeditor/a/a;-><init>()V
+    invoke-direct {v0}, Lcom/jakex/ymluxseditor/a/a;-><init>()V
 
     iget-boolean v1, p0, Lcom/jakex/makeupsenior/makeup/d;->d:Z
 
@@ -157,7 +157,7 @@
 
     const/4 v2, 0x0
 
-    invoke-virtual {v1, v2}, Lcom/jakex/makeupsenior/model/b;->a(Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;)V
+    invoke-virtual {v1, v2}, Lcom/jakex/makeupsenior/model/b;->a(Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;)V
 
     :cond_0
     iget v1, p0, Lcom/jakex/makeupsenior/makeup/d;->c:I
@@ -216,9 +216,9 @@
 
     const/4 v2, 0x1
 
-    invoke-virtual {v0, v2}, Lcom/jakex/makeupeditor/a/a;->b(Z)V
+    invoke-virtual {v0, v2}, Lcom/jakex/ymluxseditor/a/a;->b(Z)V
 
-    invoke-virtual {v0, v2}, Lcom/jakex/makeupeditor/a/a;->a(Z)V
+    invoke-virtual {v0, v2}, Lcom/jakex/ymluxseditor/a/a;->a(Z)V
 
     const/16 v3, 0x11
 
@@ -230,7 +230,7 @@
     const/4 v2, 0x0
 
     :goto_0
-    invoke-virtual {v0, v2}, Lcom/jakex/makeupeditor/a/a;->c(Z)V
+    invoke-virtual {v0, v2}, Lcom/jakex/ymluxseditor/a/a;->c(Z)V
 
     return-object v0
 .end method

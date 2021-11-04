@@ -70,7 +70,7 @@
 
 .field private u:[Ljava/lang/String;
 
-.field private v:Lcom/jakex/makeupcore/b/d;
+.field private v:Lcom/jakex/ymluxscore/b/d;
 
 .field private w:Lcom/jakex/makeup/startup/widget/PermissionAlertDialog$b;
 
@@ -223,11 +223,11 @@
 
     invoke-virtual {v1, v3}, Landroidx/recyclerview/widget/RecyclerView;->setHasFixedSize(Z)V
 
-    new-instance v5, Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
+    new-instance v5, Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
 
     iget-object v6, p0, Lcom/jakex/makeup/startup/widget/PermissionAlertDialog$a;->a:Landroid/content/Context;
 
-    invoke-direct {v5, v6, v3, v2}, Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;-><init>(Landroid/content/Context;IZ)V
+    invoke-direct {v5, v6, v3, v2}, Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;-><init>(Landroid/content/Context;IZ)V
 
     invoke-virtual {v1, v5}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
@@ -653,7 +653,7 @@
 .method public b()V
     .locals 5
 
-    iget-object v0, p0, Lcom/jakex/makeup/startup/widget/PermissionAlertDialog$a;->v:Lcom/jakex/makeupcore/b/d;
+    iget-object v0, p0, Lcom/jakex/makeup/startup/widget/PermissionAlertDialog$a;->v:Lcom/jakex/ymluxscore/b/d;
 
     if-nez v0, :cond_0
 
@@ -696,11 +696,11 @@
 
     if-ne v0, v2, :cond_1
 
-    new-instance v0, Lcom/jakex/makeupcore/widget/recyclerview/a/c;
+    new-instance v0, Lcom/jakex/ymluxscore/widget/recyclerview/a/c;
 
     iget-object v2, p0, Lcom/jakex/makeup/startup/widget/PermissionAlertDialog$a;->a:Landroid/content/Context;
 
-    invoke-direct {v0, v2, v1}, Lcom/jakex/makeupcore/widget/recyclerview/a/c;-><init>(Landroid/content/Context;I)V
+    invoke-direct {v0, v2, v1}, Lcom/jakex/ymluxscore/widget/recyclerview/a/c;-><init>(Landroid/content/Context;I)V
 
     iget-object v1, p0, Lcom/jakex/makeup/startup/widget/PermissionAlertDialog$a;->a:Landroid/content/Context;
 
@@ -714,14 +714,14 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/widget/recyclerview/a/c;->a(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/widget/recyclerview/a/c;->a(Landroid/graphics/drawable/Drawable;)V
 
     iget-object v1, p0, Lcom/jakex/makeup/startup/widget/PermissionAlertDialog$a;->t:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-virtual {v1, v0}, Landroidx/recyclerview/widget/RecyclerView;->addItemDecoration(Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;)V
 
     :cond_1
-    iget-object v0, p0, Lcom/jakex/makeup/startup/widget/PermissionAlertDialog$a;->v:Lcom/jakex/makeupcore/b/d;
+    iget-object v0, p0, Lcom/jakex/makeup/startup/widget/PermissionAlertDialog$a;->v:Lcom/jakex/ymluxscore/b/d;
 
     if-nez v0, :cond_2
 
@@ -735,7 +735,7 @@
 
     invoke-direct {v0, p0, v1}, Lcom/jakex/makeup/startup/widget/PermissionAlertDialog$a$a;-><init>(Lcom/jakex/makeup/startup/widget/PermissionAlertDialog$a;Ljava/util/List;)V
 
-    iput-object v0, p0, Lcom/jakex/makeup/startup/widget/PermissionAlertDialog$a;->v:Lcom/jakex/makeupcore/b/d;
+    iput-object v0, p0, Lcom/jakex/makeup/startup/widget/PermissionAlertDialog$a;->v:Lcom/jakex/ymluxscore/b/d;
 
     goto :goto_0
 
@@ -744,12 +744,12 @@
 
     invoke-direct {v1, p0}, Lcom/jakex/makeup/startup/widget/PermissionAlertDialog$a$4;-><init>(Lcom/jakex/makeup/startup/widget/PermissionAlertDialog$a;)V
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/b/d;->a(Lcom/jakex/makeupcore/b/d$a;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/b/d;->a(Lcom/jakex/ymluxscore/b/d$a;)V
 
     :goto_0
     iget-object v0, p0, Lcom/jakex/makeup/startup/widget/PermissionAlertDialog$a;->t:Landroidx/recyclerview/widget/RecyclerView;
 
-    iget-object v1, p0, Lcom/jakex/makeup/startup/widget/PermissionAlertDialog$a;->v:Lcom/jakex/makeupcore/b/d;
+    iget-object v1, p0, Lcom/jakex/makeup/startup/widget/PermissionAlertDialog$a;->v:Lcom/jakex/ymluxscore/b/d;
 
     invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 

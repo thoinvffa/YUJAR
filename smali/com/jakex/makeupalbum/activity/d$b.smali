@@ -1,5 +1,5 @@
 .class Lcom/jakex/makeupalbum/activity/d$b;
-.super Lcom/jakex/makeupcore/util/bm;
+.super Lcom/jakex/ymluxscore/util/bm;
 
 
 # annotations
@@ -14,7 +14,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupcore/util/bm<",
+        "Lcom/jakex/ymluxscore/util/bm<",
         "Lcom/jakex/makeupalbum/activity/d;",
         "Ljava/lang/Void;",
         "Ljava/lang/Void;",
@@ -38,7 +38,7 @@
 .method constructor <init>(Lcom/jakex/makeupalbum/activity/d;Lcom/jakex/makeupalbum/c/a;ZZZ)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupcore/util/bm;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscore/util/bm;-><init>(Ljava/lang/Object;)V
 
     iput-object p2, p0, Lcom/jakex/makeupalbum/activity/d$b;->a:Lcom/jakex/makeupalbum/c/a;
 

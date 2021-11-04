@@ -14,5 +14,5 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinResult;)V
+.method public abstract a(Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinResult;)V
 .end method

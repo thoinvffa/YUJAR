@@ -76,9 +76,9 @@
 
     invoke-static {v0, v1}, Lcom/jakex/library/util/Debug/Debug;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {p1, p2}, Lcom/jakex/makeupcore/j/b;->a(D)V
+    invoke-static {p1, p2}, Lcom/jakex/ymluxscore/j/b;->a(D)V
 
-    invoke-static {p3, p4}, Lcom/jakex/makeupcore/j/b;->b(D)V
+    invoke-static {p3, p4}, Lcom/jakex/ymluxscore/j/b;->b(D)V
 
     return-void
 .end method
@@ -116,7 +116,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/j/b;->d(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/jakex/ymluxscore/j/b;->d(Ljava/lang/String;)V
 
     const/4 p1, 0x0
 

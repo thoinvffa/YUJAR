@@ -87,15 +87,15 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/jakex/makeupcore/util/at;->b(Ljava/lang/String;)I
+    invoke-static {v1}, Lcom/jakex/ymluxscore/util/at;->b(Ljava/lang/String;)I
 
     move-result v1
 
-    invoke-static {v1}, Lcom/jakex/makeupeditor/configuration/PartPosition;->get(I)Lcom/jakex/makeupeditor/configuration/PartPosition;
+    invoke-static {v1}, Lcom/jakex/ymluxseditor/configuration/PartPosition;->get(I)Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     move-result-object v1
 
-    sget-object v2, Lcom/jakex/makeupeditor/configuration/PartPosition;->MOUTH:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v2, Lcom/jakex/ymluxseditor/configuration/PartPosition;->MOUTH:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     if-ne v1, v2, :cond_1
 
@@ -104,7 +104,7 @@
     goto :goto_0
 
     :cond_1
-    sget-object v2, Lcom/jakex/makeupeditor/configuration/PartPosition;->EYE_BROW:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v2, Lcom/jakex/ymluxseditor/configuration/PartPosition;->EYE_BROW:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     if-ne v1, v2, :cond_2
 
@@ -113,7 +113,7 @@
     goto :goto_0
 
     :cond_2
-    sget-object v2, Lcom/jakex/makeupeditor/configuration/PartPosition;->BLUSHER:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v2, Lcom/jakex/ymluxseditor/configuration/PartPosition;->BLUSHER:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     if-ne v1, v2, :cond_3
 
@@ -122,7 +122,7 @@
     goto :goto_0
 
     :cond_3
-    sget-object v2, Lcom/jakex/makeupeditor/configuration/PartPosition;->EYE_SHADOW:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v2, Lcom/jakex/ymluxseditor/configuration/PartPosition;->EYE_SHADOW:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     if-ne v1, v2, :cond_4
 
@@ -267,15 +267,15 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/jakex/makeupcore/util/at;->b(Ljava/lang/String;)I
+    invoke-static {v1}, Lcom/jakex/ymluxscore/util/at;->b(Ljava/lang/String;)I
 
     move-result v1
 
-    invoke-static {v1}, Lcom/jakex/makeupeditor/configuration/PartPosition;->get(I)Lcom/jakex/makeupeditor/configuration/PartPosition;
+    invoke-static {v1}, Lcom/jakex/ymluxseditor/configuration/PartPosition;->get(I)Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     move-result-object v1
 
-    sget-object v2, Lcom/jakex/makeupeditor/configuration/PartPosition;->MOUTH:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v2, Lcom/jakex/ymluxseditor/configuration/PartPosition;->MOUTH:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     if-ne v1, v2, :cond_1
 
@@ -284,7 +284,7 @@
     goto :goto_0
 
     :cond_1
-    sget-object v2, Lcom/jakex/makeupeditor/configuration/PartPosition;->EYE_BROW:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v2, Lcom/jakex/ymluxseditor/configuration/PartPosition;->EYE_BROW:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     if-ne v1, v2, :cond_2
 
@@ -293,7 +293,7 @@
     goto :goto_0
 
     :cond_2
-    sget-object v2, Lcom/jakex/makeupeditor/configuration/PartPosition;->BLUSHER:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v2, Lcom/jakex/ymluxseditor/configuration/PartPosition;->BLUSHER:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     if-ne v1, v2, :cond_3
 
@@ -302,7 +302,7 @@
     goto :goto_0
 
     :cond_3
-    sget-object v2, Lcom/jakex/makeupeditor/configuration/PartPosition;->EYE_SHADOW:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v2, Lcom/jakex/ymluxseditor/configuration/PartPosition;->EYE_SHADOW:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     if-ne v1, v2, :cond_4
 
@@ -376,15 +376,15 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/jakex/makeupcore/util/at;->b(Ljava/lang/String;)I
+    invoke-static {v1}, Lcom/jakex/ymluxscore/util/at;->b(Ljava/lang/String;)I
 
     move-result v1
 
-    invoke-static {v1}, Lcom/jakex/makeupeditor/configuration/PartPosition;->get(I)Lcom/jakex/makeupeditor/configuration/PartPosition;
+    invoke-static {v1}, Lcom/jakex/ymluxseditor/configuration/PartPosition;->get(I)Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     move-result-object v1
 
-    sget-object v2, Lcom/jakex/makeupeditor/configuration/PartPosition;->MOUTH:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v2, Lcom/jakex/ymluxseditor/configuration/PartPosition;->MOUTH:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     if-ne v1, v2, :cond_1
 
@@ -393,7 +393,7 @@
     goto :goto_0
 
     :cond_1
-    sget-object v2, Lcom/jakex/makeupeditor/configuration/PartPosition;->EYE_BROW:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v2, Lcom/jakex/ymluxseditor/configuration/PartPosition;->EYE_BROW:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     if-ne v1, v2, :cond_2
 
@@ -402,7 +402,7 @@
     goto :goto_0
 
     :cond_2
-    sget-object v2, Lcom/jakex/makeupeditor/configuration/PartPosition;->BLUSHER:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v2, Lcom/jakex/ymluxseditor/configuration/PartPosition;->BLUSHER:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     if-ne v1, v2, :cond_3
 
@@ -411,7 +411,7 @@
     goto :goto_0
 
     :cond_3
-    sget-object v2, Lcom/jakex/makeupeditor/configuration/PartPosition;->EYE_SHADOW:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v2, Lcom/jakex/ymluxseditor/configuration/PartPosition;->EYE_SHADOW:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     if-ne v1, v2, :cond_4
 
@@ -503,7 +503,7 @@
 
     check-cast v0, Ljava/util/List;
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v6
 
@@ -549,7 +549,7 @@
 
     check-cast v0, Ljava/util/List;
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v6
 
@@ -595,7 +595,7 @@
 
     check-cast v0, Ljava/util/List;
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v6
 
@@ -645,7 +645,7 @@
 
     check-cast v0, Ljava/util/List;
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v8
 
@@ -764,7 +764,7 @@
 
     check-cast v0, Ljava/util/List;
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v7
 
@@ -859,7 +859,7 @@
 
     check-cast v0, Ljava/util/List;
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v6
 
@@ -905,7 +905,7 @@
 
     check-cast v0, Ljava/util/List;
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v6
 
@@ -951,7 +951,7 @@
 
     check-cast v0, Ljava/util/List;
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v6
 
@@ -995,7 +995,7 @@
 
     check-cast v0, Ljava/util/List;
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v4
 

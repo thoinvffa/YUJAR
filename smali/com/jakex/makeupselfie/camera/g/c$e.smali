@@ -1,10 +1,10 @@
-.class public Lcom/jakex/makeupselfie/camera/g/c$e;
+.class public Lcom/jakex/ymluxscoresf/camera/g/c$e;
 .super Ljava/lang/Object;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/jakex/makeupselfie/camera/g/c;
+    value = Lcom/jakex/ymluxscoresf/camera/g/c;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -23,7 +23,7 @@
 
     invoke-direct {v0, v1}, Ljava/util/HashMap;-><init>(I)V
 
-    invoke-static {p1, v0}, Lcom/jakex/makeupselfie/camera/g/c$e;->a([ILjava/util/HashMap;)V
+    invoke-static {p1, v0}, Lcom/jakex/ymluxscoresf/camera/g/c$e;->a([ILjava/util/HashMap;)V
 
     if-eqz p4, :cond_0
 

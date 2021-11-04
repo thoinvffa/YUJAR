@@ -1,10 +1,10 @@
-.class synthetic Lcom/jakex/makeupselfie/camera/a/a$1;
+.class synthetic Lcom/jakex/ymluxscoresf/camera/a/a$1;
 .super Ljava/lang/Object;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/jakex/makeupselfie/camera/a/a;
+    value = Lcom/jakex/ymluxscoresf/camera/a/a;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -29,7 +29,7 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lcom/jakex/makeupselfie/camera/a/a$1;->a:[I
+    sput-object v0, Lcom/jakex/ymluxscoresf/camera/a/a$1;->a:[I
 
     :try_start_0
     sget-object v1, Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;->SMOOTH:Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;
@@ -51,7 +51,7 @@
 
     :goto_0
     :try_start_1
-    sget-object v0, Lcom/jakex/makeupselfie/camera/a/a$1;->a:[I
+    sget-object v0, Lcom/jakex/ymluxscoresf/camera/a/a$1;->a:[I
 
     sget-object v1, Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;->BIG_EYE:Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;
 
@@ -72,7 +72,7 @@
 
     :goto_1
     :try_start_2
-    sget-object v0, Lcom/jakex/makeupselfie/camera/a/a$1;->a:[I
+    sget-object v0, Lcom/jakex/ymluxscoresf/camera/a/a$1;->a:[I
 
     sget-object v1, Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;->THIN_FACE:Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;
 
@@ -93,7 +93,7 @@
 
     :goto_2
     :try_start_3
-    sget-object v0, Lcom/jakex/makeupselfie/camera/a/a$1;->a:[I
+    sget-object v0, Lcom/jakex/ymluxscoresf/camera/a/a$1;->a:[I
 
     sget-object v1, Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;->CHIN:Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;
 
@@ -114,7 +114,7 @@
 
     :goto_3
     :try_start_4
-    sget-object v0, Lcom/jakex/makeupselfie/camera/a/a$1;->a:[I
+    sget-object v0, Lcom/jakex/ymluxscoresf/camera/a/a$1;->a:[I
 
     sget-object v1, Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;->NOSE:Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;
 

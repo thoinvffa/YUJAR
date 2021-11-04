@@ -36,7 +36,7 @@
 .method public run()V
     .locals 3
 
-    invoke-static {}, Lcom/jakex/makeupcore/e/b;->d()Ljava/lang/String;
+    invoke-static {}, Lcom/jakex/ymluxscore/e/b;->d()Ljava/lang/String;
 
     move-result-object v0
 

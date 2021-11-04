@@ -189,13 +189,13 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/jakex/makeupcore/widget/CommonCloseLinerLayout;
+    check-cast v2, Lcom/jakex/ymluxscore/widget/CommonCloseLinerLayout;
 
     new-instance v3, Lcom/jakex/makeupsenior/saveshare/b/b$a$2;
 
     invoke-direct {v3, p0, v1}, Lcom/jakex/makeupsenior/saveshare/b/b$a$2;-><init>(Lcom/jakex/makeupsenior/saveshare/b/b$a;Lcom/jakex/makeupsenior/saveshare/b/b;)V
 
-    invoke-virtual {v2, v3}, Lcom/jakex/makeupcore/widget/CommonCloseLinerLayout;->setOnCloseListener(Lcom/jakex/makeupcore/widget/CommonCloseLinerLayout$b;)V
+    invoke-virtual {v2, v3}, Lcom/jakex/ymluxscore/widget/CommonCloseLinerLayout;->setOnCloseListener(Lcom/jakex/ymluxscore/widget/CommonCloseLinerLayout$b;)V
 
     invoke-virtual {v1}, Lcom/jakex/makeupsenior/saveshare/b/b;->getWindow()Landroid/view/Window;
 

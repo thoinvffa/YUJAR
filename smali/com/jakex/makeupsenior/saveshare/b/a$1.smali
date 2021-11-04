@@ -65,7 +65,7 @@
     return-void
 
     :cond_0
-    invoke-static {}, Lcom/jakex/makeupcore/util/f;->b()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/util/f;->b()Z
 
     move-result p2
 
@@ -85,7 +85,7 @@
 
     move-result-object v1
 
-    invoke-static {p2, v0, v1}, Lcom/jakex/makeupcore/util/ad;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, v0, v1}, Lcom/jakex/ymluxscore/util/ad;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -95,7 +95,7 @@
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
 
-    sget-object v0, Lcom/jakex/makeupcore/util/aw;->g:Ljava/lang/String;
+    sget-object v0, Lcom/jakex/ymluxscore/util/aw;->g:Ljava/lang/String;
 
     invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -149,7 +149,7 @@
 
     const/4 v2, 0x0
 
-    invoke-static {v0, v1, p2, v2}, Lcom/jakex/makeupcore/modular/c/h;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
+    invoke-static {v0, v1, p2, v2}, Lcom/jakex/ymluxscore/modular/c/h;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 

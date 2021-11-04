@@ -1,5 +1,5 @@
-.class public Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;
-.super Lcom/jakex/makeupcore/activity/MTBaseActivity;
+.class public Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;
+.super Lcom/jakex/ymluxscore/activity/MTBaseActivity;
 
 # interfaces
 .implements Landroid/view/View$OnClickListener;
@@ -8,7 +8,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity$a;
+        Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity$a;
     }
 .end annotation
 
@@ -23,7 +23,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;-><init>()V
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 
     new-instance v0, Landroid/content/Intent;
 
-    const-class v1, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;
+    const-class v1, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;
 
     invoke-direct {v0, p0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
@@ -48,10 +48,10 @@
     return-void
 .end method
 
-.method static synthetic a(Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;Ljava/lang/String;)V
+.method static synthetic a(Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;Ljava/lang/String;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;->a(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;->a(Ljava/lang/String;)V
 
     return-void
 .end method
@@ -59,7 +59,7 @@
 .method private a(Ljava/lang/String;)V
     .locals 2
 
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;->isFinishing()Z
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;->isFinishing()Z
 
     move-result v0
 
@@ -76,7 +76,7 @@
 
     invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;->b:Ljava/lang/String;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;->b:Ljava/lang/String;
 
     const-string v1, "materialId"
 
@@ -84,9 +84,9 @@
 
     const/4 p1, -0x1
 
-    invoke-virtual {p0, p1, v0}, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;->setResult(ILandroid/content/Intent;)V
+    invoke-virtual {p0, p1, v0}, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;->setResult(ILandroid/content/Intent;)V
 
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;->finish()V
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;->finish()V
 
     return-void
 .end method
@@ -96,7 +96,7 @@
 
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->operating_camera_save_iv:I
 
-    invoke-virtual {p0, v0}, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -104,7 +104,7 @@
 
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->operating_camera_share_cancel_iv:I
 
-    invoke-virtual {p0, v0}, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -112,23 +112,23 @@
 
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->operating_camera_share_cancel_iv:I
 
-    invoke-virtual {p0, v0}, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    check-cast v0, Lcom/jakex/makeupcore/widget/text/MagicTextView;
+    check-cast v0, Lcom/jakex/ymluxscore/widget/text/MagicTextView;
 
     sget v1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$drawable;->selfie_camera_save_back_white_sel:I
 
     const/4 v2, 0x0
 
-    invoke-virtual {v0, v2, v1, v2, v2}, Lcom/jakex/makeupcore/widget/text/MagicTextView;->setCompoundDrawablesWithIntrinsicBounds(IIII)V
+    invoke-virtual {v0, v2, v1, v2, v2}, Lcom/jakex/ymluxscore/widget/text/MagicTextView;->setCompoundDrawablesWithIntrinsicBounds(IIII)V
 
     const/4 v1, 0x1
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/widget/text/MagicTextView;->setShowStroke(Z)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/widget/text/MagicTextView;->setShowStroke(Z)V
 
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -138,7 +138,7 @@
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/widget/text/MagicTextView;->setTextColor(I)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/widget/text/MagicTextView;->setTextColor(I)V
 
     return-void
 .end method
@@ -148,21 +148,21 @@
 
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->operating_camera_save_pic_iv:I
 
-    invoke-virtual {p0, v0}, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    check-cast v0, Lcom/jakex/makeupeditor/widget/BitmapRecycledImageView;
+    check-cast v0, Lcom/jakex/ymluxseditor/widget/BitmapRecycledImageView;
 
-    invoke-static {}, Lcom/jakex/makeupselfie/save/b;->a()Lcom/jakex/makeupselfie/save/b;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Lcom/jakex/makeupselfie/save/b;->f()Landroid/graphics/Bitmap;
+    invoke-static {}, Lcom/jakex/ymluxscoresf/save/b;->a()Lcom/jakex/ymluxscoresf/save/b;
 
     move-result-object v1
 
-    iput-object v1, p0, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;->a:Landroid/graphics/Bitmap;
+    invoke-virtual {v1}, Lcom/jakex/ymluxscoresf/save/b;->f()Landroid/graphics/Bitmap;
+
+    move-result-object v1
+
+    iput-object v1, p0, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;->a:Landroid/graphics/Bitmap;
 
     invoke-static {v1}, Lcom/jakex/library/util/bitmap/a;->a(Landroid/graphics/Bitmap;)Z
 
@@ -170,13 +170,13 @@
 
     if-eqz v1, :cond_1
 
-    iget-object v1, p0, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;->a:Landroid/graphics/Bitmap;
+    iget-object v1, p0, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;->a:Landroid/graphics/Bitmap;
 
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v1
 
-    iget-object v2, p0, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;->a:Landroid/graphics/Bitmap;
+    iget-object v2, p0, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;->a:Landroid/graphics/Bitmap;
 
     invoke-virtual {v2}, Landroid/graphics/Bitmap;->getHeight()I
 
@@ -198,7 +198,7 @@
 
     if-gtz v1, :cond_0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/widget/BitmapRecycledImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/widget/BitmapRecycledImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v1
 
@@ -226,12 +226,12 @@
 
     iput v2, v1, Landroid/view/ViewGroup$LayoutParams;->height:I
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupeditor/widget/BitmapRecycledImageView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxseditor/widget/BitmapRecycledImageView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     :cond_0
-    iget-object v1, p0, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;->a:Landroid/graphics/Bitmap;
+    iget-object v1, p0, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;->a:Landroid/graphics/Bitmap;
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupeditor/widget/BitmapRecycledImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxseditor/widget/BitmapRecycledImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
     :cond_1
     return-void
@@ -242,15 +242,15 @@
 .method public a()V
     .locals 3
 
-    new-instance v0, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity$a;
+    new-instance v0, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity$a;
 
-    iget-object v1, p0, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;->a:Landroid/graphics/Bitmap;
+    iget-object v1, p0, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;->a:Landroid/graphics/Bitmap;
 
     const/4 v2, 0x0
 
-    invoke-direct {v0, p0, v1, v2}, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity$a;-><init>(Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;Landroid/graphics/Bitmap;Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity$1;)V
+    invoke-direct {v0, p0, v1, v2}, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity$a;-><init>(Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;Landroid/graphics/Bitmap;Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity$1;)V
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/i;->a()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/jakex/ymluxscore/util/i;->a()Ljava/util/concurrent/Executor;
 
     move-result-object v1
 
@@ -258,7 +258,7 @@
 
     new-array v2, v2, [Ljava/lang/Void;
 
-    invoke-virtual {v0, v1, v2}, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity$a;->executeOnExecutor(Ljava/util/concurrent/Executor;[Ljava/lang/Object;)Landroid/os/AsyncTask;
+    invoke-virtual {v0, v1, v2}, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity$a;->executeOnExecutor(Ljava/util/concurrent/Executor;[Ljava/lang/Object;)Landroid/os/AsyncTask;
 
     return-void
 .end method
@@ -268,7 +268,7 @@
 
     const-wide/16 v0, 0x1f4
 
-    invoke-static {v0, v1}, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;->a(J)Z
+    invoke-static {v0, v1}, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;->a(J)Z
 
     move-result v0
 
@@ -285,7 +285,7 @@
 
     if-ne v0, v1, :cond_1
 
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;->a()V
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;->a()V
 
     goto :goto_0
 
@@ -298,7 +298,7 @@
 
     if-ne p1, v0, :cond_2
 
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;->finish()V
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;->finish()V
 
     :cond_2
     :goto_0
@@ -308,13 +308,13 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 1
 
-    invoke-super {p0, p1}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onCreate(Landroid/os/Bundle;)V
 
     sget p1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$layout;->operating_camera_save_activity:I
 
-    invoke-virtual {p0, p1}, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;->setContentView(I)V
+    invoke-virtual {p0, p1}, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;->setContentView(I)V
 
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;->getIntent()Landroid/content/Intent;
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object p1
 
@@ -324,11 +324,11 @@
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;->b:Ljava/lang/String;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;->b:Ljava/lang/String;
 
-    invoke-direct {p0}, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;->b()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;->b()V
 
-    invoke-direct {p0}, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;->c()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;->c()V
 
     return-void
 .end method
@@ -336,9 +336,9 @@
 .method protected onDestroy()V
     .locals 1
 
-    invoke-super {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onDestroy()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onDestroy()V
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;->a:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;->a:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lcom/jakex/library/util/bitmap/a;->b(Landroid/graphics/Bitmap;)V
 

@@ -1,5 +1,5 @@
-.class public Lcom/jakex/makeupselfie/operating/a;
-.super Lcom/jakex/makeupcore/g/a;
+.class public Lcom/jakex/ymluxscoresf/operating/a;
+.super Lcom/jakex/ymluxscore/g/a;
 
 # interfaces
 .implements Landroid/view/View$OnClickListener;
@@ -8,50 +8,50 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/jakex/makeupselfie/operating/a$a;
+        Lcom/jakex/ymluxscoresf/operating/a$a;
     }
 .end annotation
 
 
 # instance fields
-.field private a:Lcom/jakex/makeupselfie/operating/a$a;
+.field private a:Lcom/jakex/ymluxscoresf/operating/a$a;
 
 .field private b:Landroid/widget/TextView;
 
-.field private c:Lcom/jakex/makeupselfie/operating/theme/OperatingThemeListFragment;
+.field private c:Lcom/jakex/ymluxscoresf/operating/theme/OperatingThemeListFragment;
 
-.field private d:Lcom/jakex/makeupcore/bean/H5Param;
+.field private d:Lcom/jakex/ymluxscore/bean/H5Param;
 
 
 # direct methods
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/g/a;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/g/a;-><init>()V
 
     return-void
 .end method
 
-.method static synthetic a(Lcom/jakex/makeupselfie/operating/a;)Lcom/jakex/makeupselfie/operating/a$a;
+.method static synthetic a(Lcom/jakex/ymluxscoresf/operating/a;)Lcom/jakex/ymluxscoresf/operating/a$a;
     .locals 0
 
-    iget-object p0, p0, Lcom/jakex/makeupselfie/operating/a;->a:Lcom/jakex/makeupselfie/operating/a$a;
+    iget-object p0, p0, Lcom/jakex/ymluxscoresf/operating/a;->a:Lcom/jakex/ymluxscoresf/operating/a$a;
 
     return-object p0
 .end method
 
-.method public static a(Lcom/jakex/makeupcore/bean/H5Param;)Lcom/jakex/makeupselfie/operating/a;
+.method public static a(Lcom/jakex/ymluxscore/bean/H5Param;)Lcom/jakex/ymluxscoresf/operating/a;
     .locals 3
 
-    new-instance v0, Lcom/jakex/makeupselfie/operating/a;
+    new-instance v0, Lcom/jakex/ymluxscoresf/operating/a;
 
-    invoke-direct {v0}, Lcom/jakex/makeupselfie/operating/a;-><init>()V
+    invoke-direct {v0}, Lcom/jakex/ymluxscoresf/operating/a;-><init>()V
 
     new-instance v1, Landroid/os/Bundle;
 
     invoke-direct {v1}, Landroid/os/Bundle;-><init>()V
 
-    const-class v2, Lcom/jakex/makeupcore/bean/H5Param;
+    const-class v2, Lcom/jakex/ymluxscore/bean/H5Param;
 
     invoke-virtual {v2}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
@@ -59,7 +59,7 @@
 
     invoke-virtual {v1, v2, p0}, Landroid/os/Bundle;->putSerializable(Ljava/lang/String;Ljava/io/Serializable;)V
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupselfie/operating/a;->setArguments(Landroid/os/Bundle;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscoresf/operating/a;->setArguments(Landroid/os/Bundle;)V
 
     return-object v0
 .end method
@@ -75,11 +75,11 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p0, Lcom/jakex/makeupselfie/operating/a;->b:Landroid/widget/TextView;
+    iput-object v0, p0, Lcom/jakex/ymluxscoresf/operating/a;->b:Landroid/widget/TextView;
 
-    iget-object v1, p0, Lcom/jakex/makeupselfie/operating/a;->d:Lcom/jakex/makeupcore/bean/H5Param;
+    iget-object v1, p0, Lcom/jakex/ymluxscoresf/operating/a;->d:Lcom/jakex/ymluxscore/bean/H5Param;
 
-    invoke-virtual {v1}, Lcom/jakex/makeupcore/bean/H5Param;->getTypeName()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jakex/ymluxscore/bean/H5Param;->getTypeName()Ljava/lang/String;
 
     move-result-object v1
 
@@ -115,9 +115,9 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/util/ah;->a(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/jakex/ymluxscore/util/ah;->a(Landroid/view/View;)V
 
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/operating/a;->getChildFragmentManager()Landroidx/fragment/app/FragmentManager;
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/operating/a;->getChildFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object p1
 
@@ -127,41 +127,41 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/jakex/makeupselfie/operating/theme/OperatingThemeListFragment;
+    check-cast p1, Lcom/jakex/ymluxscoresf/operating/theme/OperatingThemeListFragment;
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/operating/a;->c:Lcom/jakex/makeupselfie/operating/theme/OperatingThemeListFragment;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/operating/a;->c:Lcom/jakex/ymluxscoresf/operating/theme/OperatingThemeListFragment;
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/operating/a;->d:Lcom/jakex/makeupcore/bean/H5Param;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/operating/a;->d:Lcom/jakex/ymluxscore/bean/H5Param;
 
-    invoke-virtual {p1, v0}, Lcom/jakex/makeupselfie/operating/theme/OperatingThemeListFragment;->a(Lcom/jakex/makeupcore/bean/H5Param;)V
+    invoke-virtual {p1, v0}, Lcom/jakex/ymluxscoresf/operating/theme/OperatingThemeListFragment;->a(Lcom/jakex/ymluxscore/bean/H5Param;)V
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/operating/a;->c:Lcom/jakex/makeupselfie/operating/theme/OperatingThemeListFragment;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/operating/a;->c:Lcom/jakex/ymluxscoresf/operating/theme/OperatingThemeListFragment;
 
-    new-instance v0, Lcom/jakex/makeupselfie/operating/a$1;
+    new-instance v0, Lcom/jakex/ymluxscoresf/operating/a$1;
 
-    invoke-direct {v0, p0}, Lcom/jakex/makeupselfie/operating/a$1;-><init>(Lcom/jakex/makeupselfie/operating/a;)V
+    invoke-direct {v0, p0}, Lcom/jakex/ymluxscoresf/operating/a$1;-><init>(Lcom/jakex/ymluxscoresf/operating/a;)V
 
-    invoke-virtual {p1, v0}, Lcom/jakex/makeupselfie/operating/theme/OperatingThemeListFragment;->a(Lcom/jakex/makeupselfie/operating/theme/OperatingThemeListFragment$b;)V
+    invoke-virtual {p1, v0}, Lcom/jakex/ymluxscoresf/operating/theme/OperatingThemeListFragment;->a(Lcom/jakex/ymluxscoresf/operating/theme/OperatingThemeListFragment$b;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public a(Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;)V
+.method public a(Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;)V
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/operating/a;->c:Lcom/jakex/makeupselfie/operating/theme/OperatingThemeListFragment;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/operating/a;->c:Lcom/jakex/ymluxscoresf/operating/theme/OperatingThemeListFragment;
 
-    invoke-virtual {v0, p1}, Lcom/jakex/makeupselfie/operating/theme/OperatingThemeListFragment;->a(Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;)V
+    invoke-virtual {v0, p1}, Lcom/jakex/ymluxscoresf/operating/theme/OperatingThemeListFragment;->a(Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;)V
 
     return-void
 .end method
 
-.method public a(Lcom/jakex/makeupselfie/operating/a$a;)V
+.method public a(Lcom/jakex/ymluxscoresf/operating/a$a;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/operating/a;->a:Lcom/jakex/makeupselfie/operating/a$a;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/operating/a;->a:Lcom/jakex/ymluxscoresf/operating/a$a;
 
     return-void
 .end method
@@ -177,7 +177,7 @@
 
     if-ne p1, v0, :cond_0
 
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/operating/a;->getActivity()Landroidx/fragment/app/FragmentActivity;
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/operating/a;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object p1
 
@@ -190,11 +190,11 @@
 
     if-ne p1, v0, :cond_1
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/operating/a;->a:Lcom/jakex/makeupselfie/operating/a$a;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/operating/a;->a:Lcom/jakex/ymluxscoresf/operating/a$a;
 
     if-eqz p1, :cond_2
 
-    invoke-interface {p1}, Lcom/jakex/makeupselfie/operating/a$a;->b()V
+    invoke-interface {p1}, Lcom/jakex/ymluxscoresf/operating/a$a;->b()V
 
     goto :goto_0
 
@@ -203,11 +203,11 @@
 
     if-ne p1, v0, :cond_2
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/operating/a;->a:Lcom/jakex/makeupselfie/operating/a$a;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/operating/a;->a:Lcom/jakex/ymluxscoresf/operating/a$a;
 
     if-eqz p1, :cond_2
 
-    invoke-interface {p1}, Lcom/jakex/makeupselfie/operating/a$a;->a()V
+    invoke-interface {p1}, Lcom/jakex/ymluxscoresf/operating/a$a;->a()V
 
     :cond_2
     :goto_0
@@ -231,19 +231,19 @@
 .method public onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 1
 
-    invoke-super {p0, p1, p2}, Lcom/jakex/makeupcore/g/a;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+    invoke-super {p0, p1, p2}, Lcom/jakex/ymluxscore/g/a;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/operating/a;->getArguments()Landroid/os/Bundle;
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/operating/a;->getArguments()Landroid/os/Bundle;
 
     move-result-object p2
 
     if-eqz p2, :cond_0
 
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/operating/a;->getArguments()Landroid/os/Bundle;
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/operating/a;->getArguments()Landroid/os/Bundle;
 
     move-result-object p2
 
-    const-class v0, Lcom/jakex/makeupcore/bean/H5Param;
+    const-class v0, Lcom/jakex/ymluxscore/bean/H5Param;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
@@ -253,23 +253,23 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/jakex/makeupcore/bean/H5Param;
+    check-cast p2, Lcom/jakex/ymluxscore/bean/H5Param;
 
-    iput-object p2, p0, Lcom/jakex/makeupselfie/operating/a;->d:Lcom/jakex/makeupcore/bean/H5Param;
+    iput-object p2, p0, Lcom/jakex/ymluxscoresf/operating/a;->d:Lcom/jakex/ymluxscore/bean/H5Param;
 
     :cond_0
-    iget-object p2, p0, Lcom/jakex/makeupselfie/operating/a;->d:Lcom/jakex/makeupcore/bean/H5Param;
+    iget-object p2, p0, Lcom/jakex/ymluxscoresf/operating/a;->d:Lcom/jakex/ymluxscore/bean/H5Param;
 
     if-nez p2, :cond_1
 
-    new-instance p2, Lcom/jakex/makeupcore/bean/H5Param;
+    new-instance p2, Lcom/jakex/ymluxscore/bean/H5Param;
 
-    invoke-direct {p2}, Lcom/jakex/makeupcore/bean/H5Param;-><init>()V
+    invoke-direct {p2}, Lcom/jakex/ymluxscore/bean/H5Param;-><init>()V
 
-    iput-object p2, p0, Lcom/jakex/makeupselfie/operating/a;->d:Lcom/jakex/makeupcore/bean/H5Param;
+    iput-object p2, p0, Lcom/jakex/ymluxscoresf/operating/a;->d:Lcom/jakex/ymluxscore/bean/H5Param;
 
     :cond_1
-    invoke-direct {p0, p1}, Lcom/jakex/makeupselfie/operating/a;->a(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscoresf/operating/a;->a(Landroid/view/View;)V
 
     return-void
 .end method

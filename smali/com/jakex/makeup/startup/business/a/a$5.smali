@@ -1,5 +1,5 @@
 .class Lcom/jakex/makeup/startup/business/a/a$5;
-.super Lcom/jakex/makeupcore/net/c;
+.super Lcom/jakex/ymluxscore/net/c;
 
 
 # annotations
@@ -14,10 +14,10 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupcore/net/c<",
-        "Lcom/jakex/makeupcore/net/BaseResponse<",
+        "Lcom/jakex/ymluxscore/net/c<",
+        "Lcom/jakex/ymluxscore/net/BaseResponse<",
         "Ljava/util/List<",
-        "Lcom/jakex/makeupeditor/material/thememakeup/api/MakeupMaterialBean;",
+        "Lcom/jakex/ymluxseditor/material/thememakeup/api/MakeupMaterialBean;",
         ">;>;>;"
     }
 .end annotation
@@ -33,39 +33,39 @@
 
     iput-object p1, p0, Lcom/jakex/makeup/startup/business/a/a$5;->a:Lcom/jakex/makeup/startup/business/a/a;
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/net/c;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/net/c;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public a(ILcom/jakex/makeupcore/net/BaseResponse;)V
+.method public a(ILcom/jakex/ymluxscore/net/BaseResponse;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
-            "Lcom/jakex/makeupcore/net/BaseResponse<",
+            "Lcom/jakex/ymluxscore/net/BaseResponse<",
             "Ljava/util/List<",
-            "Lcom/jakex/makeupeditor/material/thememakeup/api/MakeupMaterialBean;",
+            "Lcom/jakex/ymluxseditor/material/thememakeup/api/MakeupMaterialBean;",
             ">;>;)V"
         }
     .end annotation
 
-    invoke-super {p0, p1, p2}, Lcom/jakex/makeupcore/net/c;->a(ILcom/jakex/makeupcore/net/BaseResponse;)V
+    invoke-super {p0, p1, p2}, Lcom/jakex/ymluxscore/net/c;->a(ILcom/jakex/ymluxscore/net/BaseResponse;)V
 
-    sget-object p1, Lcom/jakex/makeupeditor/material/a/j;->a:Ljava/lang/Object;
+    sget-object p1, Lcom/jakex/ymluxseditor/material/a/j;->a:Ljava/lang/Object;
 
     monitor-enter p1
 
     :try_start_0
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/net/BaseResponse;->getData()Ljava/lang/Object;
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/net/BaseResponse;->getData()Ljava/lang/Object;
 
     move-result-object p2
 
     check-cast p2, Ljava/util/List;
 
-    invoke-static {p2}, Lcom/jakex/makeupeditor/material/thememakeup/api/b;->a(Ljava/util/List;)V
+    invoke-static {p2}, Lcom/jakex/ymluxseditor/material/thememakeup/api/b;->a(Ljava/util/List;)V
 
     monitor-exit p1
 
@@ -84,7 +84,7 @@
 .method public a(ILjava/lang/String;)V
     .locals 3
 
-    invoke-super {p0, p1, p2}, Lcom/jakex/makeupcore/net/c;->a(ILjava/lang/String;)V
+    invoke-super {p0, p1, p2}, Lcom/jakex/ymluxscore/net/c;->a(ILjava/lang/String;)V
 
     invoke-static {}, Lcom/jakex/makeup/startup/business/a/a;->d()Ljava/lang/String;
 
@@ -119,10 +119,10 @@
     return-void
 .end method
 
-.method public a(Lcom/jakex/makeupcore/net/APIException;)V
+.method public a(Lcom/jakex/ymluxscore/net/APIException;)V
     .locals 3
 
-    invoke-super {p0, p1}, Lcom/jakex/makeupcore/net/c;->a(Lcom/jakex/makeupcore/net/APIException;)V
+    invoke-super {p0, p1}, Lcom/jakex/ymluxscore/net/c;->a(Lcom/jakex/ymluxscore/net/APIException;)V
 
     invoke-static {}, Lcom/jakex/makeup/startup/business/a/a;->d()Ljava/lang/String;
 

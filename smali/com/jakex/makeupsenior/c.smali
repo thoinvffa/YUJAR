@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeupsenior/c;
-.super Lcom/jakex/makeupcore/g/a;
+.super Lcom/jakex/ymluxscore/g/a;
 
 # interfaces
 .implements Lcom/jakex/makeupsenior/widget/FaceLiftPartRecyclerView$b;
@@ -23,7 +23,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/g/a;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/g/a;-><init>()V
 
     return-void
 .end method
@@ -268,7 +268,7 @@
 .method public onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 0
 
-    invoke-super {p0, p1, p2}, Lcom/jakex/makeupcore/g/a;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+    invoke-super {p0, p1, p2}, Lcom/jakex/ymluxscore/g/a;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
     sget p2, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->beauty_face_lift_rv:I
 

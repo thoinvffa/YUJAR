@@ -16,7 +16,7 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-static {}, Lcom/jakex/makeupcore/j/a;->c()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/j/a;->c()Z
 
     move-result v0
 

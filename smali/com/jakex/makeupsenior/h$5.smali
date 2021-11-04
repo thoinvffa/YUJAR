@@ -52,7 +52,7 @@
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/h$5;->a:Lcom/jakex/makeupsenior/h;
 
-    invoke-static {v0}, Lcom/jakex/makeupsenior/h;->g(Lcom/jakex/makeupsenior/h;)Lcom/jakex/makeupcore/widget/seekbar/MTSeekBar;
+    invoke-static {v0}, Lcom/jakex/makeupsenior/h;->g(Lcom/jakex/makeupsenior/h;)Lcom/jakex/ymluxscore/widget/seekbar/MTSeekBar;
 
     move-result-object v0
 
@@ -66,7 +66,7 @@
 
     iget-object p1, p0, Lcom/jakex/makeupsenior/h$5;->a:Lcom/jakex/makeupsenior/h;
 
-    invoke-static {p1}, Lcom/jakex/makeupsenior/h;->g(Lcom/jakex/makeupsenior/h;)Lcom/jakex/makeupcore/widget/seekbar/MTSeekBar;
+    invoke-static {p1}, Lcom/jakex/makeupsenior/h;->g(Lcom/jakex/makeupsenior/h;)Lcom/jakex/ymluxscore/widget/seekbar/MTSeekBar;
 
     move-result-object p1
 
@@ -77,22 +77,22 @@
     :cond_0
     iget-object p1, p0, Lcom/jakex/makeupsenior/h$5;->a:Lcom/jakex/makeupsenior/h;
 
-    invoke-static {p1}, Lcom/jakex/makeupsenior/h;->g(Lcom/jakex/makeupsenior/h;)Lcom/jakex/makeupcore/widget/seekbar/MTSeekBar;
+    invoke-static {p1}, Lcom/jakex/makeupsenior/h;->g(Lcom/jakex/makeupsenior/h;)Lcom/jakex/ymluxscore/widget/seekbar/MTSeekBar;
 
     move-result-object p1
 
     const/4 v0, 0x0
 
     :goto_0
-    invoke-virtual {p1, v0}, Lcom/jakex/makeupcore/widget/seekbar/MTSeekBar;->setCenterStartProgress(Z)V
+    invoke-virtual {p1, v0}, Lcom/jakex/ymluxscore/widget/seekbar/MTSeekBar;->setCenterStartProgress(Z)V
 
     iget-object p1, p0, Lcom/jakex/makeupsenior/h$5;->a:Lcom/jakex/makeupsenior/h;
 
-    invoke-static {p1}, Lcom/jakex/makeupsenior/h;->g(Lcom/jakex/makeupsenior/h;)Lcom/jakex/makeupcore/widget/seekbar/MTSeekBar;
+    invoke-static {p1}, Lcom/jakex/makeupsenior/h;->g(Lcom/jakex/makeupsenior/h;)Lcom/jakex/ymluxscore/widget/seekbar/MTSeekBar;
 
     move-result-object p1
 
-    invoke-virtual {p1, p2}, Lcom/jakex/makeupcore/widget/seekbar/MTSeekBar;->setProgress(I)V
+    invoke-virtual {p1, p2}, Lcom/jakex/ymluxscore/widget/seekbar/MTSeekBar;->setProgress(I)V
 
     :cond_1
     return-void

@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeupassistant/AssistantHomeActivity;
-.super Lcom/jakex/makeupcore/activity/MTBaseActivity;
+.super Lcom/jakex/ymluxscore/activity/MTBaseActivity;
 
 # interfaces
 .implements Landroid/view/View$OnClickListener;
@@ -52,7 +52,7 @@
 .method public constructor <init>()V
     .locals 2
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;-><init>()V
 
     new-instance v0, Lcom/jakex/makeupassistant/AssistantHomeActivity$a;
 
@@ -218,7 +218,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/jakex/makeupcore/widget/bar/MDTopBarView;
+    check-cast v0, Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;
 
     invoke-virtual {p0, v0}, Lcom/jakex/makeupassistant/AssistantHomeActivity;->useImmersiveMode(Landroid/view/View;)V
 
@@ -226,11 +226,11 @@
 
     invoke-direct {v1, p0}, Lcom/jakex/makeupassistant/AssistantHomeActivity$2;-><init>(Lcom/jakex/makeupassistant/AssistantHomeActivity;)V
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/widget/bar/MDTopBarView;->setOnLeftClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;->setOnLeftClickListener(Landroid/view/View$OnClickListener;)V
 
-    sget v1, Lcom/jakex/makeupcore/widget/bar/MDTopBarView;->d:I
+    sget v1, Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;->d:I
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/widget/bar/MDTopBarView;->findViewById(I)Landroid/view/View;
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
@@ -293,12 +293,12 @@
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/widget/bar/MDTopBarView;->setElevation(F)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;->setElevation(F)V
 
     goto :goto_0
 
     :cond_1
-    invoke-virtual {v0, v5}, Lcom/jakex/makeupcore/widget/bar/MDTopBarView;->a(Z)V
+    invoke-virtual {v0, v5}, Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;->a(Z)V
 
     :goto_0
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->assistant_home_answer_option_tv:I
@@ -333,9 +333,9 @@
 
     iget-object v0, p0, Lcom/jakex/makeupassistant/AssistantHomeActivity;->b:Landroidx/recyclerview/widget/RecyclerView;
 
-    new-instance v1, Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
+    new-instance v1, Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
 
-    invoke-direct {v1, p0}, Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;-><init>(Landroid/content/Context;)V
+    invoke-direct {v1, p0}, Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;-><init>(Landroid/content/Context;)V
 
     invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
@@ -891,7 +891,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/util/at;->a(Ljava/lang/String;)J
+    invoke-static {p1}, Lcom/jakex/ymluxscore/util/at;->a(Ljava/lang/String;)J
 
     move-result-wide p3
 
@@ -904,55 +904,55 @@
     return-void
 
     :cond_0
-    new-instance p1, Lcom/jakex/makeupcore/modular/extra/CameraExtra;
+    new-instance p1, Lcom/jakex/ymluxscore/modular/extra/CameraExtra;
 
-    invoke-direct {p1}, Lcom/jakex/makeupcore/modular/extra/CameraExtra;-><init>()V
+    invoke-direct {p1}, Lcom/jakex/ymluxscore/modular/extra/CameraExtra;-><init>()V
 
     const/4 p3, 0x2
 
-    iput p3, p1, Lcom/jakex/makeupcore/modular/extra/CameraExtra;->mWhat:I
+    iput p3, p1, Lcom/jakex/ymluxscore/modular/extra/CameraExtra;->mWhat:I
 
-    iget-object p3, p1, Lcom/jakex/makeupcore/modular/extra/CameraExtra;->mTryMakeupProductExtra:Lcom/jakex/makeupcore/modular/extra/TryMakeupProductExtra;
+    iget-object p3, p1, Lcom/jakex/ymluxscore/modular/extra/CameraExtra;->mTryMakeupProductExtra:Lcom/jakex/ymluxscore/modular/extra/TryMakeupProductExtra;
 
     invoke-virtual {p2}, Lcom/jakex/makeupassistant/bean/AnalysisMaterialProduct;->getCategory_id()Ljava/lang/String;
 
     move-result-object p4
 
-    iput-object p4, p3, Lcom/jakex/makeupcore/modular/extra/TryMakeupProductExtra;->categoryId:Ljava/lang/String;
+    iput-object p4, p3, Lcom/jakex/ymluxscore/modular/extra/TryMakeupProductExtra;->categoryId:Ljava/lang/String;
 
-    iget-object p3, p1, Lcom/jakex/makeupcore/modular/extra/CameraExtra;->mTryMakeupProductExtra:Lcom/jakex/makeupcore/modular/extra/TryMakeupProductExtra;
+    iget-object p3, p1, Lcom/jakex/ymluxscore/modular/extra/CameraExtra;->mTryMakeupProductExtra:Lcom/jakex/ymluxscore/modular/extra/TryMakeupProductExtra;
 
     invoke-virtual {p2}, Lcom/jakex/makeupassistant/bean/AnalysisMaterialProduct;->getBrand_id()Ljava/lang/String;
 
     move-result-object p4
 
-    iput-object p4, p3, Lcom/jakex/makeupcore/modular/extra/TryMakeupProductExtra;->brandId:Ljava/lang/String;
+    iput-object p4, p3, Lcom/jakex/ymluxscore/modular/extra/TryMakeupProductExtra;->brandId:Ljava/lang/String;
 
-    iget-object p3, p1, Lcom/jakex/makeupcore/modular/extra/CameraExtra;->mTryMakeupProductExtra:Lcom/jakex/makeupcore/modular/extra/TryMakeupProductExtra;
+    iget-object p3, p1, Lcom/jakex/ymluxscore/modular/extra/CameraExtra;->mTryMakeupProductExtra:Lcom/jakex/ymluxscore/modular/extra/TryMakeupProductExtra;
 
     invoke-virtual {p2}, Lcom/jakex/makeupassistant/bean/AnalysisMaterialProduct;->getPro_uuid()Ljava/lang/String;
 
     move-result-object p4
 
-    invoke-static {p4}, Lcom/jakex/makeupcore/util/at;->a(Ljava/lang/String;)J
+    invoke-static {p4}, Lcom/jakex/ymluxscore/util/at;->a(Ljava/lang/String;)J
 
     move-result-wide v0
 
-    iput-wide v0, p3, Lcom/jakex/makeupcore/modular/extra/TryMakeupProductExtra;->productId:J
+    iput-wide v0, p3, Lcom/jakex/ymluxscore/modular/extra/TryMakeupProductExtra;->productId:J
 
-    iget-object p3, p1, Lcom/jakex/makeupcore/modular/extra/CameraExtra;->mTryMakeupProductExtra:Lcom/jakex/makeupcore/modular/extra/TryMakeupProductExtra;
+    iget-object p3, p1, Lcom/jakex/ymluxscore/modular/extra/CameraExtra;->mTryMakeupProductExtra:Lcom/jakex/ymluxscore/modular/extra/TryMakeupProductExtra;
 
     invoke-virtual {p2}, Lcom/jakex/makeupassistant/bean/AnalysisMaterialProduct;->getColor_uuid()Ljava/lang/String;
 
     move-result-object p4
 
-    invoke-static {p4}, Lcom/jakex/makeupcore/util/at;->a(Ljava/lang/String;)J
+    invoke-static {p4}, Lcom/jakex/ymluxscore/util/at;->a(Ljava/lang/String;)J
 
     move-result-wide v0
 
-    iput-wide v0, p3, Lcom/jakex/makeupcore/modular/extra/TryMakeupProductExtra;->colorId:J
+    iput-wide v0, p3, Lcom/jakex/ymluxscore/modular/extra/TryMakeupProductExtra;->colorId:J
 
-    invoke-static {p0, p1}, Lcom/jakex/makeupcore/modular/c/bh;->a(Landroid/app/Activity;Lcom/jakex/makeupcore/modular/extra/CameraExtra;)Landroid/content/Intent;
+    invoke-static {p0, p1}, Lcom/jakex/ymluxscore/modular/c/bh;->a(Landroid/app/Activity;Lcom/jakex/ymluxscore/modular/extra/CameraExtra;)Landroid/content/Intent;
 
     move-result-object p1
 
@@ -982,7 +982,7 @@
 .method protected onActivityResult(IILandroid/content/Intent;)V
     .locals 3
 
-    invoke-super {p0, p1, p2, p3}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onActivityResult(IILandroid/content/Intent;)V
+    invoke-super {p0, p1, p2, p3}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onActivityResult(IILandroid/content/Intent;)V
 
     const/16 p3, 0x8
 
@@ -1200,7 +1200,7 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 1
 
-    invoke-super {p0, p1}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onCreate(Landroid/os/Bundle;)V
 
     sget p1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$layout;->assistant_home_activity:I
 
@@ -1262,7 +1262,7 @@
 
     invoke-virtual {v0}, Lcom/jakex/makeupassistant/e/b;->f()V
 
-    invoke-super {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onDestroy()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onDestroy()V
 
     invoke-static {}, Lorg/greenrobot/eventbus/EventBus;->getDefault()Lorg/greenrobot/eventbus/EventBus;
 
@@ -1290,7 +1290,7 @@
 .method protected onResume()V
     .locals 0
 
-    invoke-super {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onResume()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onResume()V
 
     invoke-direct {p0}, Lcom/jakex/makeupassistant/AssistantHomeActivity;->e()V
 

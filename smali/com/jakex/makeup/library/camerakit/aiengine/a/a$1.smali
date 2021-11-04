@@ -7,7 +7,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/jakex/makeup/library/camerakit/aiengine/a/a;->b(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;)Z
+    value = Lcom/jakex/makeup/library/camerakit/aiengine/a/a;->b(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;)Z
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,20 +28,20 @@
 # instance fields
 .field final synthetic a:[J
 
-.field final synthetic b:Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;
+.field final synthetic b:Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;
 
 .field final synthetic c:Lcom/jakex/makeup/library/camerakit/aiengine/a/a;
 
 
 # direct methods
-.method constructor <init>(Lcom/jakex/makeup/library/camerakit/aiengine/a/a;[JLcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;)V
+.method constructor <init>(Lcom/jakex/makeup/library/camerakit/aiengine/a/a;[JLcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;)V
     .locals 0
 
     iput-object p1, p0, Lcom/jakex/makeup/library/camerakit/aiengine/a/a$1;->c:Lcom/jakex/makeup/library/camerakit/aiengine/a/a;
 
     iput-object p2, p0, Lcom/jakex/makeup/library/camerakit/aiengine/a/a$1;->a:[J
 
-    iput-object p3, p0, Lcom/jakex/makeup/library/camerakit/aiengine/a/a$1;->b:Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;
+    iput-object p3, p0, Lcom/jakex/makeup/library/camerakit/aiengine/a/a$1;->b:Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -69,9 +69,9 @@
 
     aget-wide v2, v0, v1
 
-    iget-object v4, p0, Lcom/jakex/makeup/library/camerakit/aiengine/a/a$1;->b:Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;
+    iget-object v4, p0, Lcom/jakex/makeup/library/camerakit/aiengine/a/a$1;->b:Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;
 
-    invoke-interface {p1, v4}, Lcom/jakex/makeup/library/camerakit/aiengine/a/b;->b(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;)J
+    invoke-interface {p1, v4}, Lcom/jakex/makeup/library/camerakit/aiengine/a/b;->b(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;)J
 
     move-result-wide v4
 

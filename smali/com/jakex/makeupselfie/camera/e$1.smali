@@ -1,10 +1,10 @@
-.class synthetic Lcom/jakex/makeupselfie/camera/e$1;
+.class synthetic Lcom/jakex/ymluxscoresf/camera/e$1;
 .super Ljava/lang/Object;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/jakex/makeupselfie/camera/e;
+    value = Lcom/jakex/ymluxscoresf/camera/e;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -29,7 +29,7 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lcom/jakex/makeupselfie/camera/e$1;->a:[I
+    sput-object v0, Lcom/jakex/ymluxscoresf/camera/e$1;->a:[I
 
     :try_start_0
     sget-object v1, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/ARWatermark$Location;->ALIGN_LEFT_TOP:Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/ARWatermark$Location;
@@ -51,7 +51,7 @@
 
     :goto_0
     :try_start_1
-    sget-object v0, Lcom/jakex/makeupselfie/camera/e$1;->a:[I
+    sget-object v0, Lcom/jakex/ymluxscoresf/camera/e$1;->a:[I
 
     sget-object v1, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/ARWatermark$Location;->ALIGN_RIGHT_TOP:Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/ARWatermark$Location;
 
@@ -72,7 +72,7 @@
 
     :goto_1
     :try_start_2
-    sget-object v0, Lcom/jakex/makeupselfie/camera/e$1;->a:[I
+    sget-object v0, Lcom/jakex/ymluxscoresf/camera/e$1;->a:[I
 
     sget-object v1, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/ARWatermark$Location;->ALIGN_RIGHT_BOTTOM:Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/ARWatermark$Location;
 
@@ -93,7 +93,7 @@
 
     :goto_2
     :try_start_3
-    sget-object v0, Lcom/jakex/makeupselfie/camera/e$1;->a:[I
+    sget-object v0, Lcom/jakex/ymluxscoresf/camera/e$1;->a:[I
 
     sget-object v1, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/ARWatermark$Location;->ALIGN_LEFT_BOTTOM:Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/ARWatermark$Location;
 

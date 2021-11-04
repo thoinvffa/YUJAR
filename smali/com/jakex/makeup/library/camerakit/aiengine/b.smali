@@ -20,13 +20,13 @@
 
 .field private c:Lcom/jakex/library/renderarch/arch/d/g;
 
-.field private d:Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;
+.field private d:Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;
 
-.field private e:Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
+.field private e:Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;
 
-.field private f:Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;
+.field private f:Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;
 
-.field private g:Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
+.field private g:Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;
 
 .field private h:Z
 
@@ -56,15 +56,15 @@
     return-void
 .end method
 
-.method static synthetic a(Lcom/jakex/makeup/library/camerakit/aiengine/b;)Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;
+.method static synthetic a(Lcom/jakex/makeup/library/camerakit/aiengine/b;)Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;
     .locals 0
 
-    iget-object p0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b;->f:Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;
+    iget-object p0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b;->f:Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;
 
     return-object p0
 .end method
 
-.method private a(Lcom/jakex/library/renderarch/arch/data/a/c;)Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineImage;
+.method private a(Lcom/jakex/library/renderarch/arch/data/a/c;)Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineImage;
     .locals 11
 
     iget-boolean v0, p1, Lcom/jakex/library/renderarch/arch/data/a/c;->c:Z
@@ -103,7 +103,7 @@
 
     iget v6, p1, Lcom/jakex/library/renderarch/arch/data/a/f;->d:I
 
-    invoke-static/range {v1 .. v6}, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineImage;->createImageFromFormatByteBuffer(IILjava/nio/ByteBuffer;III)Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineImage;
+    invoke-static/range {v1 .. v6}, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineImage;->createImageFromFormatByteBuffer(IILjava/nio/ByteBuffer;III)Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineImage;
 
     move-result-object p1
 
@@ -186,7 +186,7 @@
     const/4 v8, 0x4
 
     :goto_0
-    invoke-static/range {v5 .. v10}, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineImage;->createImageFromFormatByteArray(II[BIII)Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineImage;
+    invoke-static/range {v5 .. v10}, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineImage;->createImageFromFormatByteArray(II[BIII)Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineImage;
 
     move-result-object p1
 
@@ -194,10 +194,10 @@
     return-object p1
 .end method
 
-.method static synthetic a(Lcom/jakex/makeup/library/camerakit/aiengine/b;Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;)V
+.method static synthetic a(Lcom/jakex/makeup/library/camerakit/aiengine/b;Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeup/library/camerakit/aiengine/b;->a(Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;)V
+    invoke-direct {p0, p1}, Lcom/jakex/makeup/library/camerakit/aiengine/b;->a(Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;)V
 
     return-void
 .end method
@@ -258,7 +258,7 @@
     return-void
 .end method
 
-.method private a(Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;)V
+.method private a(Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;)V
     .locals 1
 
     if-nez p1, :cond_0
@@ -270,7 +270,7 @@
 
     if-nez v0, :cond_2
 
-    invoke-virtual {p1}, Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;->registerGpuEnvironment()I
+    invoke-virtual {p1}, Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;->registerGpuEnvironment()I
 
     move-result p1
 
@@ -296,14 +296,14 @@
     return-void
 .end method
 
-.method private a(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;I)V
+.method private a(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;I)V
     .locals 7
 
-    iput p2, p1, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;->frameTextureID:I
+    iput p2, p1, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;->frameTextureID:I
 
-    iget-object p2, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b;->g:Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
+    iget-object p2, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b;->g:Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;
 
-    invoke-virtual {p2}, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->clearOption()V
+    invoke-virtual {p2}, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;->clearOption()V
 
     iget-object p2, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b;->b:[Lcom/jakex/makeup/library/camerakit/aiengine/c;
 
@@ -330,9 +330,9 @@
 
     check-cast v5, Lcom/jakex/makeup/library/camerakit/aiengine/d;
 
-    iget-object v6, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b;->g:Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
+    iget-object v6, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b;->g:Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;
 
-    invoke-interface {v5, p1, v6}, Lcom/jakex/makeup/library/camerakit/aiengine/d;->b(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;)Z
+    invoke-interface {v5, p1, v6}, Lcom/jakex/makeup/library/camerakit/aiengine/d;->b(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;)Z
 
     move-result v5
 
@@ -350,11 +350,11 @@
 
     if-eqz v3, :cond_2
 
-    iget-object p2, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b;->f:Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;
+    iget-object p2, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b;->f:Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b;->g:Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
+    iget-object v0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b;->g:Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;
 
-    invoke-virtual {p2, p1, v0, v4}, Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;->run(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;I)Lcom/jakex/mtlab/MTAiInterface/MTAiEngineResult;
+    invoke-virtual {p2, p1, v0, v4}, Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;->run(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;I)Lcom/jakex/ymlux/MTAiInterface/MTAiEngineResult;
 
     move-result-object p2
 
@@ -376,7 +376,7 @@
 
     check-cast v3, Lcom/jakex/makeup/library/camerakit/aiengine/d;
 
-    invoke-interface {v3, p1, p2}, Lcom/jakex/makeup/library/camerakit/aiengine/d;->b(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/MTAiEngineResult;)V
+    invoke-interface {v3, p1, p2}, Lcom/jakex/makeup/library/camerakit/aiengine/d;->b(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/MTAiEngineResult;)V
 
     :cond_3
     add-int/lit8 v1, v1, 0x1
@@ -387,12 +387,12 @@
     return-void
 .end method
 
-.method private a(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/MTAiEngineResult;)V
+.method private a(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/MTAiEngineResult;)V
     .locals 1
 
     new-instance v0, Lcom/jakex/makeup/library/camerakit/aiengine/b$2;
 
-    invoke-direct {v0, p0, p1, p2}, Lcom/jakex/makeup/library/camerakit/aiengine/b$2;-><init>(Lcom/jakex/makeup/library/camerakit/aiengine/b;Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/MTAiEngineResult;)V
+    invoke-direct {v0, p0, p1, p2}, Lcom/jakex/makeup/library/camerakit/aiengine/b$2;-><init>(Lcom/jakex/makeup/library/camerakit/aiengine/b;Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/MTAiEngineResult;)V
 
     invoke-direct {p0, v0}, Lcom/jakex/makeup/library/camerakit/aiengine/b;->a(Lcom/jakex/makeup/library/camerakit/aiengine/f;)V
 
@@ -435,7 +435,7 @@
     return p1
 .end method
 
-.method private a(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;)Z
+.method private a(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;)Z
     .locals 3
 
     const/4 v0, 0x1
@@ -448,7 +448,7 @@
 
     new-instance v2, Lcom/jakex/makeup/library/camerakit/aiengine/b$1;
 
-    invoke-direct {v2, p0, p1, p2, v0}, Lcom/jakex/makeup/library/camerakit/aiengine/b$1;-><init>(Lcom/jakex/makeup/library/camerakit/aiengine/b;Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;[Z)V
+    invoke-direct {v2, p0, p1, p2, v0}, Lcom/jakex/makeup/library/camerakit/aiengine/b$1;-><init>(Lcom/jakex/makeup/library/camerakit/aiengine/b;Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;[Z)V
 
     invoke-direct {p0, v2}, Lcom/jakex/makeup/library/camerakit/aiengine/b;->a(Lcom/jakex/makeup/library/camerakit/aiengine/f;)V
 
@@ -457,15 +457,15 @@
     return p1
 .end method
 
-.method static synthetic b(Lcom/jakex/makeup/library/camerakit/aiengine/b;Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;)V
+.method static synthetic b(Lcom/jakex/makeup/library/camerakit/aiengine/b;Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeup/library/camerakit/aiengine/b;->b(Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;)V
+    invoke-direct {p0, p1}, Lcom/jakex/makeup/library/camerakit/aiengine/b;->b(Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;)V
 
     return-void
 .end method
 
-.method private b(Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;)V
+.method private b(Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;)V
     .locals 1
 
     if-nez p1, :cond_0
@@ -477,7 +477,7 @@
 
     if-eqz v0, :cond_2
 
-    invoke-virtual {p1}, Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;->unregisterGpuEnvironment()I
+    invoke-virtual {p1}, Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;->unregisterGpuEnvironment()I
 
     move-result p1
 
@@ -565,46 +565,46 @@
     return-object p2
 
     :cond_1
-    invoke-direct {p0, p1}, Lcom/jakex/makeup/library/camerakit/aiengine/b;->a(Lcom/jakex/library/renderarch/arch/data/a/c;)Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineImage;
+    invoke-direct {p0, p1}, Lcom/jakex/makeup/library/camerakit/aiengine/b;->a(Lcom/jakex/library/renderarch/arch/data/a/c;)Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineImage;
 
     move-result-object v0
 
-    new-instance v1, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;
+    new-instance v1, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;
 
-    invoke-direct {v1}, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;-><init>()V
+    invoke-direct {v1}, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;-><init>()V
 
-    iput-object v0, v1, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;->colorImage:Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineImage;
+    iput-object v0, v1, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;->colorImage:Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineImage;
 
     iget-boolean p1, p1, Lcom/jakex/library/renderarch/arch/data/a/c;->g:Z
 
-    iput-boolean p1, v1, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;->captureFrame:Z
+    iput-boolean p1, v1, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;->captureFrame:Z
 
-    iget-object p1, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b;->e:Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
+    iget-object p1, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b;->e:Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;
 
-    invoke-virtual {p1}, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->clearOption()V
+    invoke-virtual {p1}, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;->clearOption()V
 
-    iget-object p1, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b;->e:Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
+    iget-object p1, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b;->e:Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;
 
-    invoke-direct {p0, v1, p1}, Lcom/jakex/makeup/library/camerakit/aiengine/b;->a(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;)Z
+    invoke-direct {p0, v1, p1}, Lcom/jakex/makeup/library/camerakit/aiengine/b;->a(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;)Z
 
     move-result p1
 
     if-eqz p1, :cond_2
 
-    iget-object p1, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b;->d:Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;
+    iget-object p1, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b;->d:Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;
 
-    iget-object p2, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b;->e:Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
+    iget-object p2, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b;->e:Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;
 
     const/4 v0, 0x1
 
-    invoke-virtual {p1, v1, p2, v0}, Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;->run(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;I)Lcom/jakex/mtlab/MTAiInterface/MTAiEngineResult;
+    invoke-virtual {p1, v1, p2, v0}, Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;->run(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;I)Lcom/jakex/ymlux/MTAiInterface/MTAiEngineResult;
 
     move-result-object p2
 
     :cond_2
     new-instance p1, Lcom/jakex/makeup/library/camerakit/aiengine/b$a;
 
-    invoke-direct {p1, v1, p2}, Lcom/jakex/makeup/library/camerakit/aiengine/b$a;-><init>(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/MTAiEngineResult;)V
+    invoke-direct {p1, v1, p2}, Lcom/jakex/makeup/library/camerakit/aiengine/b$a;-><init>(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/MTAiEngineResult;)V
 
     return-object p1
 .end method
@@ -738,19 +738,19 @@
     return-void
 
     :cond_0
-    new-instance p2, Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;
+    new-instance p2, Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;
 
     const/4 v0, 0x1
 
-    invoke-direct {p2, p1, v0}, Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;-><init>(Landroid/content/Context;I)V
+    invoke-direct {p2, p1, v0}, Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;-><init>(Landroid/content/Context;I)V
 
-    iput-object p2, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b;->d:Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;
+    iput-object p2, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b;->d:Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;
 
-    new-instance p2, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
+    new-instance p2, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;
 
-    invoke-direct {p2}, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;-><init>()V
+    invoke-direct {p2}, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;-><init>()V
 
-    iput-object p2, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b;->e:Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
+    iput-object p2, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b;->e:Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;
 
     iget-object p2, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b;->b:[Lcom/jakex/makeup/library/camerakit/aiengine/c;
 
@@ -769,17 +769,17 @@
 
     if-eqz v3, :cond_1
 
-    new-instance p2, Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;
+    new-instance p2, Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;
 
-    invoke-direct {p2, p1, v0}, Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;-><init>(Landroid/content/Context;I)V
+    invoke-direct {p2, p1, v0}, Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;-><init>(Landroid/content/Context;I)V
 
-    iput-object p2, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b;->f:Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;
+    iput-object p2, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b;->f:Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;
 
-    new-instance p1, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
+    new-instance p1, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;
 
-    invoke-direct {p1}, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;-><init>()V
+    invoke-direct {p1}, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;-><init>()V
 
-    iput-object p1, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b;->g:Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
+    iput-object p1, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b;->g:Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;
 
     goto :goto_1
 
@@ -819,7 +819,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {p1}, Lcom/jakex/makeup/library/camerakit/aiengine/b$a;->a(Lcom/jakex/makeup/library/camerakit/aiengine/b$a;)Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;
+    invoke-static {p1}, Lcom/jakex/makeup/library/camerakit/aiengine/b$a;->a(Lcom/jakex/makeup/library/camerakit/aiengine/b$a;)Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;
 
     move-result-object v1
 
@@ -829,7 +829,7 @@
     goto :goto_1
 
     :cond_1
-    invoke-static {p1}, Lcom/jakex/makeup/library/camerakit/aiengine/b$a;->b(Lcom/jakex/makeup/library/camerakit/aiengine/b$a;)Lcom/jakex/mtlab/MTAiInterface/MTAiEngineResult;
+    invoke-static {p1}, Lcom/jakex/makeup/library/camerakit/aiengine/b$a;->b(Lcom/jakex/makeup/library/camerakit/aiengine/b$a;)Lcom/jakex/ymlux/MTAiInterface/MTAiEngineResult;
 
     move-result-object v0
 
@@ -839,9 +839,9 @@
     return-void
 
     :cond_2
-    invoke-direct {p0, v1, v0}, Lcom/jakex/makeup/library/camerakit/aiengine/b;->a(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/MTAiEngineResult;)V
+    invoke-direct {p0, v1, v0}, Lcom/jakex/makeup/library/camerakit/aiengine/b;->a(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/MTAiEngineResult;)V
 
-    iget-object p1, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b;->f:Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;
+    iget-object p1, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b;->f:Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;
 
     if-eqz p1, :cond_3
 
@@ -855,28 +855,28 @@
 
     move-result p1
 
-    invoke-direct {p0, v1, p1}, Lcom/jakex/makeup/library/camerakit/aiengine/b;->a(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;I)V
+    invoke-direct {p0, v1, p1}, Lcom/jakex/makeup/library/camerakit/aiengine/b;->a(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;I)V
 
     :cond_3
-    iget-object p1, v1, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;->colorImage:Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineImage;
+    iget-object p1, v1, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;->colorImage:Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineImage;
 
     if-eqz p1, :cond_4
 
-    iget-object p1, v1, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;->colorImage:Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineImage;
+    iget-object p1, v1, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;->colorImage:Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineImage;
 
-    invoke-virtual {p1}, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineImage;->release()V
+    invoke-virtual {p1}, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineImage;->release()V
 
     :cond_4
-    iget-object p1, v1, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;->grayImage:Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineImage;
+    iget-object p1, v1, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;->grayImage:Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineImage;
 
     if-eqz p1, :cond_5
 
-    iget-object p1, v1, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;->grayImage:Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineImage;
+    iget-object p1, v1, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;->grayImage:Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineImage;
 
-    invoke-virtual {p1}, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineImage;->release()V
+    invoke-virtual {p1}, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineImage;->release()V
 
     :cond_5
-    invoke-virtual {v1}, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;->clearFrame()V
+    invoke-virtual {v1}, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;->clearFrame()V
 
     return-void
 .end method
@@ -971,18 +971,18 @@
     return-object v0
 .end method
 
-.method public k()Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;
+.method public k()Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b;->d:Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;
+    iget-object v0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b;->d:Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;
 
     return-object v0
 .end method
 
-.method public l()Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;
+.method public l()Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b;->f:Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;
+    iget-object v0, p0, Lcom/jakex/makeup/library/camerakit/aiengine/b;->f:Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;
 
     return-object v0
 .end method

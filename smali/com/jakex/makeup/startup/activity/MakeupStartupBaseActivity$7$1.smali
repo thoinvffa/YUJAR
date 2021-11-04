@@ -38,7 +38,7 @@
 
     const/4 v0, 0x0
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/e/b;->b(Z)V
+    invoke-static {v0}, Lcom/jakex/ymluxscore/e/b;->b(Z)V
 
     iget-object v0, p0, Lcom/jakex/makeup/startup/activity/MakeupStartupBaseActivity$7$1;->a:Lcom/jakex/makeup/startup/activity/MakeupStartupBaseActivity$7;
 

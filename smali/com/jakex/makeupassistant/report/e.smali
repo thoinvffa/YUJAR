@@ -1,5 +1,5 @@
 .class public abstract Lcom/jakex/makeupassistant/report/e;
-.super Lcom/jakex/makeupcore/g/a;
+.super Lcom/jakex/ymluxscore/g/a;
 
 
 # annotations
@@ -15,7 +15,7 @@
 
 .field protected b:Lnet/lucode/hackware/magicindicator/MagicIndicator;
 
-.field protected c:Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;
+.field protected c:Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;
 
 .field protected d:Landroid/view/View;
 
@@ -30,7 +30,7 @@
 .method public constructor <init>()V
     .locals 1
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/g/a;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/g/a;-><init>()V
 
     const/4 v0, 0x0
 
@@ -64,13 +64,13 @@
 .method private l()V
     .locals 2
 
-    iget-object v0, p0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;
+    iget-object v0, p0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;
 
     new-instance v1, Lcom/jakex/makeupassistant/report/e$1;
 
     invoke-direct {v1, p0}, Lcom/jakex/makeupassistant/report/e$1;-><init>(Lcom/jakex/makeupassistant/report/e;)V
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;->addOnScrollListener(Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;->addOnScrollListener(Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;)V
 
     return-void
 .end method
@@ -93,7 +93,7 @@
 
     sget v1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$layout;->assistant_report_bottom_layout:I
 
-    iget-object v2, p0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;
+    iget-object v2, p0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;
 
     const/4 v3, 0x0
 
@@ -101,9 +101,9 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;
+    iget-object v1, p0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;
 
-    invoke-virtual {v1, v0}, Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;->b(Landroid/view/View;)V
+    invoke-virtual {v1, v0}, Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;->b(Landroid/view/View;)V
 
     return-void
 .end method
@@ -169,9 +169,9 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;
+    check-cast p1, Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;
 
-    iput-object p1, p0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;
+    iput-object p1, p0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;
 
     invoke-virtual {p0}, Lcom/jakex/makeupassistant/report/e;->a()Z
 
@@ -179,15 +179,15 @@
 
     if-eqz p1, :cond_0
 
-    iget-object p1, p0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;
+    iget-object p1, p0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;
 
     const/4 v0, -0x1
 
-    invoke-virtual {p1, v0}, Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;->setBackgroundColor(I)V
+    invoke-virtual {p1, v0}, Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;->setBackgroundColor(I)V
 
-    iget-object p1, p0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;
+    iget-object p1, p0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;
 
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object p1
 
@@ -200,7 +200,7 @@
     iput v0, p1, Landroid/view/ViewGroup$LayoutParams;->height:I
 
     :cond_0
-    new-instance p1, Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
+    new-instance p1, Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
 
     invoke-virtual {p0}, Lcom/jakex/makeupassistant/report/e;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
@@ -210,23 +210,23 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {p1, v0, v1, v2}, Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;-><init>(Landroid/content/Context;IZ)V
+    invoke-direct {p1, v0, v1, v2}, Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;-><init>(Landroid/content/Context;IZ)V
 
     const/high16 v0, 0x43480000    # 200.0f
 
-    invoke-virtual {p1, v0}, Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;->a(F)V
+    invoke-virtual {p1, v0}, Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;->a(F)V
 
-    iget-object v0, p0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;
+    iget-object v0, p0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;
 
-    invoke-virtual {v0, p1}, Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
+    invoke-virtual {v0, p1}, Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    iget-object p1, p0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;
+    iget-object p1, p0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;
 
-    invoke-virtual {p1, v1}, Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;->setHasFixedSize(Z)V
+    invoke-virtual {p1, v1}, Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;->setHasFixedSize(Z)V
 
-    iget-object p1, p0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;
+    iget-object p1, p0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;
 
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;->getItemAnimator()Landroidx/recyclerview/widget/RecyclerView$ItemAnimator;
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;->getItemAnimator()Landroidx/recyclerview/widget/RecyclerView$ItemAnimator;
 
     move-result-object p1
 
@@ -246,7 +246,7 @@
 
     move-result v0
 
-    iget-object v1, p0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;
+    iget-object v1, p0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;
 
     invoke-virtual {p1, v0, v1, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -254,13 +254,13 @@
 
     iput-object v0, p0, Lcom/jakex/makeupassistant/report/e;->d:Landroid/view/View;
 
-    iget-object v1, p0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;
+    iget-object v1, p0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;
 
-    invoke-virtual {v1, v0}, Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;->a(Landroid/view/View;)V
+    invoke-virtual {v1, v0}, Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;->a(Landroid/view/View;)V
 
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$layout;->report_tab_layout:I
 
-    iget-object v1, p0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;
+    iget-object v1, p0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;
 
     invoke-virtual {p1, v0, v1, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -270,9 +270,9 @@
 
     iput-object p1, p0, Lcom/jakex/makeupassistant/report/e;->a:Lnet/lucode/hackware/magicindicator/MagicIndicator;
 
-    iget-object v0, p0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;
+    iget-object v0, p0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;
 
-    invoke-virtual {v0, p1}, Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;->a(Landroid/view/View;)V
+    invoke-virtual {v0, p1}, Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;->a(Landroid/view/View;)V
 
     invoke-direct {p0}, Lcom/jakex/makeupassistant/report/e;->l()V
 
@@ -326,19 +326,19 @@
 .method public i()I
     .locals 3
 
-    iget-object v0, p0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;
+    iget-object v0, p0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
 
     move-result-object v0
 
-    check-cast v0, Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
+    check-cast v0, Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;->findFirstVisibleItemPosition()I
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;->findFirstVisibleItemPosition()I
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;->findViewByPosition(I)Landroid/view/View;
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;->findViewByPosition(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -377,21 +377,21 @@
     return-void
 
     :cond_0
-    iget-object v0, p0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;
+    iget-object v0, p0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;
 
     new-instance v1, Lcom/jakex/makeupassistant/report/e$2;
 
     invoke-direct {v1, p0}, Lcom/jakex/makeupassistant/report/e$2;-><init>(Lcom/jakex/makeupassistant/report/e;)V
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
-    iget-object v0, p0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;
+    iget-object v0, p0, Lcom/jakex/makeupassistant/report/e;->c:Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;
 
     new-instance v1, Lcom/jakex/makeupassistant/report/e$3;
 
     invoke-direct {v1, p0}, Lcom/jakex/makeupassistant/report/e$3;-><init>(Lcom/jakex/makeupassistant/report/e;)V
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;->post(Ljava/lang/Runnable;)Z
 
     return-void
 .end method
@@ -413,7 +413,7 @@
 .method public onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 0
 
-    invoke-super {p0, p1, p2}, Lcom/jakex/makeupcore/g/a;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+    invoke-super {p0, p1, p2}, Lcom/jakex/ymluxscore/g/a;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
     invoke-virtual {p0}, Lcom/jakex/makeupassistant/report/e;->getArguments()Landroid/os/Bundle;
 

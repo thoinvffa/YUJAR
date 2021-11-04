@@ -2,7 +2,7 @@
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lcom/jakex/makeupcore/util/UnProguard;
+.implements Lcom/jakex/ymluxscore/util/UnProguard;
 
 
 # instance fields

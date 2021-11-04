@@ -1,11 +1,11 @@
 .class public Lcom/jakex/makeupassistant/report/a/a/e;
-.super Lcom/jakex/makeupcore/b/d;
+.super Lcom/jakex/ymluxscore/b/d;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupcore/b/d<",
+        "Lcom/jakex/ymluxscore/b/d<",
         "Lcom/jakex/makeupassistant/bean/result/makeup/plan/EyelinerPlanBean;",
         ">;"
     }
@@ -28,9 +28,9 @@
         }
     .end annotation
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupcore/b/d;-><init>(Ljava/util/List;)V
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscore/b/d;-><init>(Ljava/util/List;)V
 
-    invoke-static {}, Lcom/jakex/makeupcore/glide/e;->a()Lmakeup/image/request/h;
+    invoke-static {}, Lcom/jakex/ymluxscore/glide/e;->a()Lmakeup/image/request/h;
 
     move-result-object p1
 
@@ -49,12 +49,12 @@
     return p1
 .end method
 
-.method public a(Lcom/jakex/makeupcore/b/e;ILcom/jakex/makeupassistant/bean/result/makeup/plan/EyelinerPlanBean;)V
+.method public a(Lcom/jakex/ymluxscore/b/e;ILcom/jakex/makeupassistant/bean/result/makeup/plan/EyelinerPlanBean;)V
     .locals 3
 
     sget p2, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->makeup_report_result_analysis_scroll_item_no_abc_iv:I
 
-    invoke-virtual {p1, p2}, Lcom/jakex/makeupcore/b/e;->a(I)Landroid/view/View;
+    invoke-virtual {p1, p2}, Lcom/jakex/ymluxscore/b/e;->a(I)Landroid/view/View;
 
     move-result-object p2
 
@@ -62,7 +62,7 @@
 
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->makeup_report_result_analysis_scroll_item_no_abc_title_tv:I
 
-    invoke-virtual {p1, v0}, Lcom/jakex/makeupcore/b/e;->a(I)Landroid/view/View;
+    invoke-virtual {p1, v0}, Lcom/jakex/ymluxscore/b/e;->a(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -70,13 +70,13 @@
 
     sget v1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->makeup_report_result_analysis_scroll_item_no_abc_content_tv:I
 
-    invoke-virtual {p1, v1}, Lcom/jakex/makeupcore/b/e;->a(I)Landroid/view/View;
+    invoke-virtual {p1, v1}, Lcom/jakex/ymluxscore/b/e;->a(I)Landroid/view/View;
 
     move-result-object p1
 
     check-cast p1, Landroid/widget/TextView;
 
-    invoke-static {p2}, Lcom/jakex/makeupcore/glide/a;->a(Landroid/widget/ImageView;)Lcom/jakex/makeupcore/glide/a;
+    invoke-static {p2}, Lcom/jakex/ymluxscore/glide/a;->a(Landroid/widget/ImageView;)Lcom/jakex/ymluxscore/glide/a;
 
     move-result-object p2
 
@@ -86,7 +86,7 @@
 
     iget-object v2, p0, Lcom/jakex/makeupassistant/report/a/a/e;->a:Lmakeup/image/request/h;
 
-    invoke-virtual {p2, v1, v2}, Lcom/jakex/makeupcore/glide/a;->a(Ljava/lang/Object;Lmakeup/image/request/h;)V
+    invoke-virtual {p2, v1, v2}, Lcom/jakex/ymluxscore/glide/a;->a(Ljava/lang/Object;Lmakeup/image/request/h;)V
 
     invoke-virtual {p3}, Lcom/jakex/makeupassistant/bean/result/makeup/plan/EyelinerPlanBean;->getTitle()Ljava/lang/String;
 
@@ -103,12 +103,12 @@
     return-void
 .end method
 
-.method public bridge synthetic a(Lcom/jakex/makeupcore/b/e;ILjava/lang/Object;)V
+.method public bridge synthetic a(Lcom/jakex/ymluxscore/b/e;ILjava/lang/Object;)V
     .locals 0
 
     check-cast p3, Lcom/jakex/makeupassistant/bean/result/makeup/plan/EyelinerPlanBean;
 
-    invoke-virtual {p0, p1, p2, p3}, Lcom/jakex/makeupassistant/report/a/a/e;->a(Lcom/jakex/makeupcore/b/e;ILcom/jakex/makeupassistant/bean/result/makeup/plan/EyelinerPlanBean;)V
+    invoke-virtual {p0, p1, p2, p3}, Lcom/jakex/makeupassistant/report/a/a/e;->a(Lcom/jakex/ymluxscore/b/e;ILcom/jakex/makeupassistant/bean/result/makeup/plan/EyelinerPlanBean;)V
 
     return-void
 .end method

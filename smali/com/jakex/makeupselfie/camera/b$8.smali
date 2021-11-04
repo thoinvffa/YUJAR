@@ -1,4 +1,4 @@
-.class Lcom/jakex/makeupselfie/camera/b$8;
+.class Lcom/jakex/ymluxscoresf/camera/b$8;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -7,7 +7,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/jakex/makeupselfie/camera/b;->G()V
+    value = Lcom/jakex/ymluxscoresf/camera/b;->G()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,16 +19,16 @@
 # instance fields
 .field final synthetic a:Landroid/view/View;
 
-.field final synthetic b:Lcom/jakex/makeupselfie/camera/b;
+.field final synthetic b:Lcom/jakex/ymluxscoresf/camera/b;
 
 
 # direct methods
-.method constructor <init>(Lcom/jakex/makeupselfie/camera/b;Landroid/view/View;)V
+.method constructor <init>(Lcom/jakex/ymluxscoresf/camera/b;Landroid/view/View;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/camera/b$8;->b:Lcom/jakex/makeupselfie/camera/b;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/camera/b$8;->b:Lcom/jakex/ymluxscoresf/camera/b;
 
-    iput-object p2, p0, Lcom/jakex/makeupselfie/camera/b$8;->a:Landroid/view/View;
+    iput-object p2, p0, Lcom/jakex/ymluxscoresf/camera/b$8;->a:Landroid/view/View;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -40,7 +40,7 @@
 .method public onDismiss()V
     .locals 2
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/b$8;->a:Landroid/view/View;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/b$8;->a:Landroid/view/View;
 
     const/4 v1, 0x0
 

@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeupassistant/bean/result/FacialReportBean;
-.super Lcom/jakex/makeupcore/bean/BaseBean;
+.super Lcom/jakex/ymluxscore/bean/BaseBean;
 
 
 # instance fields
@@ -35,7 +35,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/bean/BaseBean;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/bean/BaseBean;-><init>()V
 
     return-void
 .end method

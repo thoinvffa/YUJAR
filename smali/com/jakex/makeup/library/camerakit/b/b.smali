@@ -126,7 +126,7 @@
 
 
 # virtual methods
-.method public a(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;)J
+.method public a(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;)J
     .locals 2
 
     const-wide/16 v0, 0x0
@@ -293,13 +293,13 @@
     return-void
 .end method
 
-.method public a(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)V
+.method public a(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;)V
     .locals 0
 
     return-void
 .end method
 
-.method public a(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegmentResult;)V
+.method public a(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegmentResult;)V
     .locals 0
 
     return-void
@@ -403,7 +403,7 @@
     return p1
 .end method
 
-.method public b(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;)J
+.method public b(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;)J
     .locals 2
 
     const-wide/16 v0, 0x0

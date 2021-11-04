@@ -14,7 +14,7 @@
         value = {
             "(I",
             "Ljava/util/List<",
-            "Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;",
+            "Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;",
             ">;)V"
         }
     .end annotation
@@ -23,10 +23,10 @@
 .method public abstract a(Landroid/graphics/Bitmap;)V
 .end method
 
-.method public abstract a(Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;)V
+.method public abstract a(Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;)V
 .end method
 
-.method public abstract a(Lcom/jakex/makeupeditor/b/a/b;)V
+.method public abstract a(Lcom/jakex/ymluxseditor/b/a/b;)V
 .end method
 
 .method public abstract a(Lcom/jakex/makeupsenior/model/BeautyFaceLiftManager$FaceLiftPart;I)V
@@ -37,7 +37,7 @@
         value = {
             "(",
             "Ljava/util/HashMap<",
-            "Lcom/jakex/makeupeditor/configuration/PartPosition;",
+            "Lcom/jakex/ymluxseditor/configuration/PartPosition;",
             "Ljava/lang/Integer;",
             ">;)V"
         }
@@ -49,7 +49,7 @@
         value = {
             "(",
             "Ljava/util/List<",
-            "Lcom/jakex/makeupcore/bean/MaskBean;",
+            "Lcom/jakex/ymluxscore/bean/MaskBean;",
             ">;)V"
         }
     .end annotation

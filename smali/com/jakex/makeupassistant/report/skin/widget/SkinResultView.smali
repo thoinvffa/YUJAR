@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeupassistant/report/skin/widget/SkinResultView;
-.super Lcom/jakex/makeupcore/widget/ratio/RatioImageView;
+.super Lcom/jakex/ymluxscore/widget/ratio/RatioImageView;
 
 
 # static fields
@@ -638,7 +638,7 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 1
 
-    invoke-direct {p0, p1, p2, p3}, Lcom/jakex/makeupcore/widget/ratio/RatioImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/jakex/ymluxscore/widget/ratio/RatioImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/4 p2, 0x1
 
@@ -1026,7 +1026,7 @@
 .method protected onDraw(Landroid/graphics/Canvas;)V
     .locals 3
 
-    invoke-super {p0, p1}, Lcom/jakex/makeupcore/widget/ratio/RatioImageView;->onDraw(Landroid/graphics/Canvas;)V
+    invoke-super {p0, p1}, Lcom/jakex/ymluxscore/widget/ratio/RatioImageView;->onDraw(Landroid/graphics/Canvas;)V
 
     iget-boolean v0, p0, Lcom/jakex/makeupassistant/report/skin/widget/SkinResultView;->c:Z
 
@@ -1042,11 +1042,11 @@
     return-void
 
     :cond_1
-    invoke-static {}, Lcom/jakex/makeupcore/e/Aa;->b()Lcom/jakex/makeupcore/e/Aa$BB;
+    invoke-static {}, Lcom/jakex/ymluxscore/e/Aa;->b()Lcom/jakex/ymluxscore/e/Aa$BB;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/e/Aa$BB;->c()Z
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/e/Aa$BB;->c()Z
 
     move-result v0
 
@@ -1087,7 +1087,7 @@
     :cond_4
     iget-object v0, p0, Lcom/jakex/makeupassistant/report/skin/widget/SkinResultView;->i:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -1102,7 +1102,7 @@
     :cond_5
     iget-object v0, p0, Lcom/jakex/makeupassistant/report/skin/widget/SkinResultView;->j:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -1121,7 +1121,7 @@
 .method protected onMeasure(II)V
     .locals 0
 
-    invoke-super {p0, p1, p2}, Lcom/jakex/makeupcore/widget/ratio/RatioImageView;->onMeasure(II)V
+    invoke-super {p0, p1, p2}, Lcom/jakex/ymluxscore/widget/ratio/RatioImageView;->onMeasure(II)V
 
     return-void
 .end method
@@ -1129,7 +1129,7 @@
 .method protected onSizeChanged(IIII)V
     .locals 0
 
-    invoke-super {p0, p1, p2, p3, p4}, Lcom/jakex/makeupcore/widget/ratio/RatioImageView;->onSizeChanged(IIII)V
+    invoke-super {p0, p1, p2, p3, p4}, Lcom/jakex/ymluxscore/widget/ratio/RatioImageView;->onSizeChanged(IIII)V
 
     iput p1, p0, Lcom/jakex/makeupassistant/report/skin/widget/SkinResultView;->a:I
 

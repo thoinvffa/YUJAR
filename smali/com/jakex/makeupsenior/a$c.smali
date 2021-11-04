@@ -46,11 +46,11 @@
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/a$c;->a:Lcom/jakex/makeupsenior/a;
 
-    invoke-static {v0}, Lcom/jakex/makeupsenior/a;->d(Lcom/jakex/makeupsenior/a;)Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    invoke-static {v0}, Lcom/jakex/makeupsenior/a;->d(Lcom/jakex/makeupsenior/a;)Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
     move-result-object v0
 
-    invoke-static {}, Lcom/jakex/makeupeditor/d/a;->a()Lcom/jakex/makeupeditor/d/a;
+    invoke-static {}, Lcom/jakex/ymluxseditor/d/a;->a()Lcom/jakex/ymluxseditor/d/a;
 
     move-result-object v1
 
@@ -60,19 +60,19 @@
 
     move-result v2
 
-    invoke-virtual {v1, v2}, Lcom/jakex/makeupeditor/d/a;->b(I)Landroid/graphics/RectF;
+    invoke-virtual {v1, v2}, Lcom/jakex/ymluxseditor/d/a;->b(I)Landroid/graphics/RectF;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupeditor/widget/BeautyMakeupView;->a(Landroid/graphics/RectF;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;->a(Landroid/graphics/RectF;)V
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/a$c;->a:Lcom/jakex/makeupsenior/a;
 
-    invoke-static {v0}, Lcom/jakex/makeupsenior/a;->d(Lcom/jakex/makeupsenior/a;)Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    invoke-static {v0}, Lcom/jakex/makeupsenior/a;->d(Lcom/jakex/makeupsenior/a;)Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/widget/BeautyMakeupView;->invalidate()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;->invalidate()V
 
     return-void
 .end method

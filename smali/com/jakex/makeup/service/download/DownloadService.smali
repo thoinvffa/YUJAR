@@ -149,7 +149,7 @@
 
     const p0, 0x7f0c040b
 
-    invoke-static {p0}, Lcom/jakex/makeupcore/widget/a/a;->b(I)V
+    invoke-static {p0}, Lcom/jakex/ymluxscore/widget/a/a;->b(I)V
 
     return-void
 
@@ -234,7 +234,7 @@
 
     const p1, 0x7f0c023a
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/widget/a/a;->b(I)V
+    invoke-static {p1}, Lcom/jakex/ymluxscore/widget/a/a;->b(I)V
 
     :cond_2
     return-void
@@ -473,7 +473,7 @@
 
     const p0, 0x7f0c0337
 
-    invoke-static {p0}, Lcom/jakex/makeupcore/widget/a/a;->b(I)V
+    invoke-static {p0}, Lcom/jakex/ymluxscore/widget/a/a;->b(I)V
 
     goto :goto_0
 

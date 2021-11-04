@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeupassistant/bean/SensitiveBean;
-.super Lcom/jakex/makeupcore/bean/BaseBean;
+.super Lcom/jakex/ymluxscore/bean/BaseBean;
 
 
 # instance fields
@@ -12,7 +12,7 @@
 .method public constructor <init>(IF)V
     .locals 0
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/bean/BaseBean;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/bean/BaseBean;-><init>()V
 
     iput p1, p0, Lcom/jakex/makeupassistant/bean/SensitiveBean;->has:I
 

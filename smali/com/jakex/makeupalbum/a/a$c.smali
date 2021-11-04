@@ -17,5 +17,5 @@
 .method public abstract a(Lcom/jakex/makeupalbum/c/b;I)V
 .end method
 
-.method public abstract a(Lcom/jakex/makeupcore/bean/ModelAlbumBean;I)V
+.method public abstract a(Lcom/jakex/ymluxscore/bean/ModelAlbumBean;I)V
 .end method

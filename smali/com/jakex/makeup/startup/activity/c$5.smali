@@ -71,7 +71,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/protocol/a;->b(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/jakex/ymluxscore/protocol/a;->b(Ljava/lang/String;)Z
 
     move-result v1
 

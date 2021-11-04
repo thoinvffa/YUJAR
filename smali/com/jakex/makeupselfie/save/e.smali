@@ -1,18 +1,18 @@
-.class public Lcom/jakex/makeupselfie/save/e;
-.super Lcom/jakex/makeupcore/g/a;
+.class public Lcom/jakex/ymluxscoresf/save/e;
+.super Lcom/jakex/ymluxscore/g/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/jakex/makeupselfie/save/e$a;,
-        Lcom/jakex/makeupselfie/save/e$b;
+        Lcom/jakex/ymluxscoresf/save/e$a;,
+        Lcom/jakex/ymluxscoresf/save/e$b;
     }
 .end annotation
 
 
 # instance fields
-.field private a:Lcom/jakex/makeupcore/k/a;
+.field private a:Lcom/jakex/ymluxscore/k/a;
 
 .field private b:Landroid/view/TextureView;
 
@@ -20,7 +20,7 @@
 
 .field private d:Z
 
-.field private e:Lcom/jakex/makeupselfie/save/e$a;
+.field private e:Lcom/jakex/ymluxscoresf/save/e$a;
 
 .field private f:Ljava/lang/String;
 
@@ -29,31 +29,31 @@
 .method public constructor <init>()V
     .locals 1
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/g/a;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/g/a;-><init>()V
 
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lcom/jakex/makeupselfie/save/e;->c:Z
+    iput-boolean v0, p0, Lcom/jakex/ymluxscoresf/save/e;->c:Z
 
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lcom/jakex/makeupselfie/save/e;->d:Z
+    iput-boolean v0, p0, Lcom/jakex/ymluxscoresf/save/e;->d:Z
 
     return-void
 .end method
 
-.method static synthetic a(Lcom/jakex/makeupselfie/save/e;Lcom/jakex/makeupcore/k/a;)Lcom/jakex/makeupcore/k/a;
+.method static synthetic a(Lcom/jakex/ymluxscoresf/save/e;Lcom/jakex/ymluxscore/k/a;)Lcom/jakex/ymluxscore/k/a;
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/save/e;->a:Lcom/jakex/makeupcore/k/a;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/save/e;->a:Lcom/jakex/ymluxscore/k/a;
 
     return-object p1
 .end method
 
-.method static synthetic a(Lcom/jakex/makeupselfie/save/e;)Ljava/lang/String;
+.method static synthetic a(Lcom/jakex/ymluxscoresf/save/e;)Ljava/lang/String;
     .locals 0
 
-    iget-object p0, p0, Lcom/jakex/makeupselfie/save/e;->f:Ljava/lang/String;
+    iget-object p0, p0, Lcom/jakex/ymluxscoresf/save/e;->f:Ljava/lang/String;
 
     return-object p0
 .end method
@@ -61,25 +61,25 @@
 .method private a()V
     .locals 2
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/save/e;->a:Lcom/jakex/makeupcore/k/a;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/save/e;->a:Lcom/jakex/ymluxscore/k/a;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/k/a;->isPlaying()Z
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/k/a;->isPlaying()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/save/e;->a:Lcom/jakex/makeupcore/k/a;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/save/e;->a:Lcom/jakex/ymluxscore/k/a;
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1, v1}, Lcom/jakex/makeupcore/k/a;->setVolume(FF)V
+    invoke-virtual {v0, v1, v1}, Lcom/jakex/ymluxscore/k/a;->setVolume(FF)V
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/save/e;->a:Lcom/jakex/makeupcore/k/a;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/save/e;->a:Lcom/jakex/ymluxscore/k/a;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/k/a;->pause()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/k/a;->pause()V
 
     :cond_0
     return-void
@@ -88,13 +88,13 @@
 .method private a(II)V
     .locals 7
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/save/e;->b:Landroid/view/TextureView;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/save/e;->b:Landroid/view/TextureView;
 
     invoke-virtual {v0}, Landroid/view/TextureView;->getWidth()I
 
     move-result v0
 
-    iget-object v1, p0, Lcom/jakex/makeupselfie/save/e;->b:Landroid/view/TextureView;
+    iget-object v1, p0, Lcom/jakex/ymluxscoresf/save/e;->b:Landroid/view/TextureView;
 
     invoke-virtual {v1}, Landroid/view/TextureView;->getHeight()I
 
@@ -170,7 +170,7 @@
 
     invoke-direct {p1}, Landroid/graphics/Matrix;-><init>()V
 
-    iget-object v6, p0, Lcom/jakex/makeupselfie/save/e;->b:Landroid/view/TextureView;
+    iget-object v6, p0, Lcom/jakex/ymluxscoresf/save/e;->b:Landroid/view/TextureView;
 
     invoke-virtual {v6, p1}, Landroid/view/TextureView;->getTransform(Landroid/graphics/Matrix;)Landroid/graphics/Matrix;
 
@@ -184,7 +184,7 @@
 
     invoke-virtual {p1, v4, v5}, Landroid/graphics/Matrix;->postTranslate(FF)Z
 
-    iget-object p2, p0, Lcom/jakex/makeupselfie/save/e;->b:Landroid/view/TextureView;
+    iget-object p2, p0, Lcom/jakex/ymluxscoresf/save/e;->b:Landroid/view/TextureView;
 
     invoke-virtual {p2, p1}, Landroid/view/TextureView;->setTransform(Landroid/graphics/Matrix;)V
 
@@ -202,43 +202,43 @@
 
     check-cast p1, Landroid/view/TextureView;
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/save/e;->b:Landroid/view/TextureView;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/save/e;->b:Landroid/view/TextureView;
 
     const/4 v0, 0x0
 
     invoke-virtual {p1, v0}, Landroid/view/TextureView;->setVisibility(I)V
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/save/e;->b:Landroid/view/TextureView;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/save/e;->b:Landroid/view/TextureView;
 
-    new-instance v0, Lcom/jakex/makeupselfie/save/e$1;
+    new-instance v0, Lcom/jakex/ymluxscoresf/save/e$1;
 
-    invoke-direct {v0, p0}, Lcom/jakex/makeupselfie/save/e$1;-><init>(Lcom/jakex/makeupselfie/save/e;)V
+    invoke-direct {v0, p0}, Lcom/jakex/ymluxscoresf/save/e$1;-><init>(Lcom/jakex/ymluxscoresf/save/e;)V
 
     invoke-virtual {p1, v0}, Landroid/view/TextureView;->setSurfaceTextureListener(Landroid/view/TextureView$SurfaceTextureListener;)V
 
     return-void
 .end method
 
-.method static synthetic a(Lcom/jakex/makeupselfie/save/e;II)V
+.method static synthetic a(Lcom/jakex/ymluxscoresf/save/e;II)V
     .locals 0
 
-    invoke-direct {p0, p1, p2}, Lcom/jakex/makeupselfie/save/e;->a(II)V
+    invoke-direct {p0, p1, p2}, Lcom/jakex/ymluxscoresf/save/e;->a(II)V
 
     return-void
 .end method
 
-.method static synthetic a(Lcom/jakex/makeupselfie/save/e;Z)Z
+.method static synthetic a(Lcom/jakex/ymluxscoresf/save/e;Z)Z
     .locals 0
 
-    iput-boolean p1, p0, Lcom/jakex/makeupselfie/save/e;->c:Z
+    iput-boolean p1, p0, Lcom/jakex/ymluxscoresf/save/e;->c:Z
 
     return p1
 .end method
 
-.method static synthetic b(Lcom/jakex/makeupselfie/save/e;)Lcom/jakex/makeupcore/k/a;
+.method static synthetic b(Lcom/jakex/ymluxscoresf/save/e;)Lcom/jakex/ymluxscore/k/a;
     .locals 0
 
-    iget-object p0, p0, Lcom/jakex/makeupselfie/save/e;->a:Lcom/jakex/makeupcore/k/a;
+    iget-object p0, p0, Lcom/jakex/ymluxscoresf/save/e;->a:Lcom/jakex/ymluxscore/k/a;
 
     return-object p0
 .end method
@@ -246,15 +246,15 @@
 .method private b()V
     .locals 2
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/save/e;->a:Lcom/jakex/makeupcore/k/a;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/save/e;->a:Lcom/jakex/ymluxscore/k/a;
 
     if-eqz v0, :cond_1
 
-    iget-boolean v1, p0, Lcom/jakex/makeupselfie/save/e;->c:Z
+    iget-boolean v1, p0, Lcom/jakex/ymluxscoresf/save/e;->c:Z
 
     if-eqz v1, :cond_1
 
-    iget-boolean v1, p0, Lcom/jakex/makeupselfie/save/e;->d:Z
+    iget-boolean v1, p0, Lcom/jakex/ymluxscoresf/save/e;->d:Z
 
     if-eqz v1, :cond_0
 
@@ -266,11 +266,11 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-virtual {v0, v1, v1}, Lcom/jakex/makeupcore/k/a;->setVolume(FF)V
+    invoke-virtual {v0, v1, v1}, Lcom/jakex/ymluxscore/k/a;->setVolume(FF)V
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/save/e;->a:Lcom/jakex/makeupcore/k/a;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/save/e;->a:Lcom/jakex/ymluxscore/k/a;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/k/a;->start()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/k/a;->start()V
 
     :cond_1
     return-void
@@ -279,46 +279,46 @@
 .method private c()V
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/save/e;->e:Lcom/jakex/makeupselfie/save/e$a;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/save/e;->e:Lcom/jakex/ymluxscoresf/save/e$a;
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0}, Lcom/jakex/makeupselfie/save/e$a;->a()V
+    invoke-interface {v0}, Lcom/jakex/ymluxscoresf/save/e$a;->a()V
 
     :cond_0
     return-void
 .end method
 
-.method static synthetic c(Lcom/jakex/makeupselfie/save/e;)Z
+.method static synthetic c(Lcom/jakex/ymluxscoresf/save/e;)Z
     .locals 0
 
-    iget-boolean p0, p0, Lcom/jakex/makeupselfie/save/e;->d:Z
+    iget-boolean p0, p0, Lcom/jakex/ymluxscoresf/save/e;->d:Z
 
     return p0
 .end method
 
-.method static synthetic d(Lcom/jakex/makeupselfie/save/e;)V
+.method static synthetic d(Lcom/jakex/ymluxscoresf/save/e;)V
     .locals 0
 
-    invoke-direct {p0}, Lcom/jakex/makeupselfie/save/e;->b()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscoresf/save/e;->b()V
 
     return-void
 .end method
 
-.method static synthetic e(Lcom/jakex/makeupselfie/save/e;)V
+.method static synthetic e(Lcom/jakex/ymluxscoresf/save/e;)V
     .locals 0
 
-    invoke-direct {p0}, Lcom/jakex/makeupselfie/save/e;->c()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscoresf/save/e;->c()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public a(Lcom/jakex/makeupselfie/save/e$a;)V
+.method public a(Lcom/jakex/ymluxscoresf/save/e$a;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/save/e;->e:Lcom/jakex/makeupselfie/save/e$a;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/save/e;->e:Lcom/jakex/ymluxscoresf/save/e$a;
 
     return-void
 .end method
@@ -326,11 +326,11 @@
 .method public a(Ljava/lang/String;Ljava/lang/String;)V
     .locals 8
 
-    new-instance v7, Lcom/jakex/makeupselfie/save/e$b;
+    new-instance v7, Lcom/jakex/ymluxscoresf/save/e$b;
 
-    iget-boolean v2, p0, Lcom/jakex/makeupselfie/save/e;->d:Z
+    iget-boolean v2, p0, Lcom/jakex/ymluxscoresf/save/e;->d:Z
 
-    iget-object v3, p0, Lcom/jakex/makeupselfie/save/e;->f:Ljava/lang/String;
+    iget-object v3, p0, Lcom/jakex/ymluxscoresf/save/e;->f:Ljava/lang/String;
 
     const/4 v6, 0x0
 
@@ -342,9 +342,9 @@
 
     move-object v5, p2
 
-    invoke-direct/range {v0 .. v6}, Lcom/jakex/makeupselfie/save/e$b;-><init>(Lcom/jakex/makeupselfie/save/e;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/jakex/makeupselfie/save/e$1;)V
+    invoke-direct/range {v0 .. v6}, Lcom/jakex/ymluxscoresf/save/e$b;-><init>(Lcom/jakex/ymluxscoresf/save/e;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/jakex/ymluxscoresf/save/e$1;)V
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/i;->a()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/jakex/ymluxscore/util/i;->a()Ljava/util/concurrent/Executor;
 
     move-result-object p1
 
@@ -352,7 +352,7 @@
 
     new-array p2, p2, [Ljava/lang/Void;
 
-    invoke-virtual {v7, p1, p2}, Lcom/jakex/makeupselfie/save/e$b;->executeOnExecutor(Ljava/util/concurrent/Executor;[Ljava/lang/Object;)Landroid/os/AsyncTask;
+    invoke-virtual {v7, p1, p2}, Lcom/jakex/ymluxscoresf/save/e$b;->executeOnExecutor(Ljava/util/concurrent/Executor;[Ljava/lang/Object;)Landroid/os/AsyncTask;
 
     return-void
 .end method
@@ -360,9 +360,9 @@
 .method public a(Ljava/lang/String;Z)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/save/e;->f:Ljava/lang/String;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/save/e;->f:Ljava/lang/String;
 
-    iput-boolean p2, p0, Lcom/jakex/makeupselfie/save/e;->d:Z
+    iput-boolean p2, p0, Lcom/jakex/ymluxscoresf/save/e;->d:Z
 
     return-void
 .end method
@@ -370,9 +370,9 @@
 .method public a(Z)V
     .locals 1
 
-    iput-boolean p1, p0, Lcom/jakex/makeupselfie/save/e;->d:Z
+    iput-boolean p1, p0, Lcom/jakex/ymluxscoresf/save/e;->d:Z
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/save/e;->a:Lcom/jakex/makeupcore/k/a;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/save/e;->a:Lcom/jakex/ymluxscore/k/a;
 
     if-eqz v0, :cond_1
 
@@ -386,7 +386,7 @@
     const/4 p1, 0x0
 
     :goto_0
-    invoke-virtual {v0, p1, p1}, Lcom/jakex/makeupcore/k/a;->setVolume(FF)V
+    invoke-virtual {v0, p1, p1}, Lcom/jakex/ymluxscore/k/a;->setVolume(FF)V
 
     :cond_1
     return-void
@@ -409,9 +409,9 @@
 .method public onPause()V
     .locals 0
 
-    invoke-super {p0}, Lcom/jakex/makeupcore/g/a;->onPause()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/g/a;->onPause()V
 
-    invoke-direct {p0}, Lcom/jakex/makeupselfie/save/e;->a()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscoresf/save/e;->a()V
 
     return-void
 .end method
@@ -419,9 +419,9 @@
 .method public onResume()V
     .locals 0
 
-    invoke-super {p0}, Lcom/jakex/makeupcore/g/a;->onResume()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/g/a;->onResume()V
 
-    invoke-direct {p0}, Lcom/jakex/makeupselfie/save/e;->b()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscoresf/save/e;->b()V
 
     return-void
 .end method
@@ -429,9 +429,9 @@
 .method public onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 0
 
-    invoke-super {p0, p1, p2}, Lcom/jakex/makeupcore/g/a;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+    invoke-super {p0, p1, p2}, Lcom/jakex/ymluxscore/g/a;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupselfie/save/e;->a(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscoresf/save/e;->a(Landroid/view/View;)V
 
     return-void
 .end method

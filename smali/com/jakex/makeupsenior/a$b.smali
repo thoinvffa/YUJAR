@@ -70,7 +70,7 @@
 
     if-eqz p1, :cond_1
 
-    invoke-static {}, Lcom/jakex/makeupeditor/d/a;->a()Lcom/jakex/makeupeditor/d/a;
+    invoke-static {}, Lcom/jakex/ymluxseditor/d/a;->a()Lcom/jakex/ymluxseditor/d/a;
 
     move-result-object p1
 
@@ -86,7 +86,7 @@
 
     move-result v2
 
-    invoke-virtual {p1, v0, v2}, Lcom/jakex/makeupeditor/d/a;->a(Ljava/util/HashMap;I)V
+    invoke-virtual {p1, v0, v2}, Lcom/jakex/ymluxseditor/d/a;->a(Ljava/util/HashMap;I)V
 
     iget-object p1, p0, Lcom/jakex/makeupsenior/a$b;->a:Lcom/jakex/makeupsenior/a;
 

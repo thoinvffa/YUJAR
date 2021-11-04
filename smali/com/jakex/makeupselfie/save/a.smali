@@ -1,5 +1,5 @@
-.class public Lcom/jakex/makeupselfie/save/a;
-.super Lcom/jakex/makeupcore/g/a;
+.class public Lcom/jakex/ymluxscoresf/save/a;
+.super Lcom/jakex/ymluxscore/g/a;
 
 # interfaces
 .implements Landroid/view/View$OnClickListener;
@@ -8,7 +8,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/jakex/makeupselfie/save/a$a;
+        Lcom/jakex/ymluxscoresf/save/a$a;
     }
 .end annotation
 
@@ -16,15 +16,15 @@
 # instance fields
 .field private a:Landroid/widget/ImageView;
 
-.field private b:Lcom/jakex/makeupcore/widget/text/MagicTextView;
+.field private b:Lcom/jakex/ymluxscore/widget/text/MagicTextView;
 
 .field private c:Z
 
 .field private d:Z
 
-.field private e:Lcom/jakex/makeupcore/widget/text/MagicTextView;
+.field private e:Lcom/jakex/ymluxscore/widget/text/MagicTextView;
 
-.field private f:Lcom/jakex/makeupselfie/save/a$a;
+.field private f:Lcom/jakex/ymluxscoresf/save/a$a;
 
 .field private g:Z
 
@@ -33,25 +33,25 @@
 .method public constructor <init>()V
     .locals 1
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/g/a;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/g/a;-><init>()V
 
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lcom/jakex/makeupselfie/save/a;->c:Z
+    iput-boolean v0, p0, Lcom/jakex/ymluxscoresf/save/a;->c:Z
 
-    iput-boolean v0, p0, Lcom/jakex/makeupselfie/save/a;->d:Z
+    iput-boolean v0, p0, Lcom/jakex/ymluxscoresf/save/a;->d:Z
 
-    iput-boolean v0, p0, Lcom/jakex/makeupselfie/save/a;->g:Z
+    iput-boolean v0, p0, Lcom/jakex/ymluxscoresf/save/a;->g:Z
 
     return-void
 .end method
 
-.method public static a()Lcom/jakex/makeupselfie/save/a;
+.method public static a()Lcom/jakex/ymluxscoresf/save/a;
     .locals 1
 
-    new-instance v0, Lcom/jakex/makeupselfie/save/a;
+    new-instance v0, Lcom/jakex/ymluxscoresf/save/a;
 
-    invoke-direct {v0}, Lcom/jakex/makeupselfie/save/a;-><init>()V
+    invoke-direct {v0}, Lcom/jakex/ymluxscoresf/save/a;-><init>()V
 
     return-object v0
 .end method
@@ -59,7 +59,7 @@
 .method private b()Z
     .locals 3
 
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/save/a;->getActivity()Landroidx/fragment/app/FragmentActivity;
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/save/a;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v0
 
@@ -70,9 +70,9 @@
     return v0
 
     :cond_0
-    iget-object v0, p0, Lcom/jakex/makeupselfie/save/a;->e:Lcom/jakex/makeupcore/widget/text/MagicTextView;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/save/a;->e:Lcom/jakex/ymluxscore/widget/text/MagicTextView;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/widget/text/MagicTextView;->getVisibility()I
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/widget/text/MagicTextView;->getVisibility()I
 
     move-result v0
 
@@ -80,43 +80,43 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lcom/jakex/makeupcore/modular/c/aa;->a()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/c/aa;->a()Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    new-instance v0, Lcom/jakex/makeupcore/dialog/c$a;
+    new-instance v0, Lcom/jakex/ymluxscore/dialog/c$a;
 
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/save/a;->getActivity()Landroidx/fragment/app/FragmentActivity;
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/save/a;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v2
 
-    invoke-direct {v0, v2}, Lcom/jakex/makeupcore/dialog/c$a;-><init>(Landroid/app/Activity;)V
+    invoke-direct {v0, v2}, Lcom/jakex/ymluxscore/dialog/c$a;-><init>(Landroid/app/Activity;)V
 
     sget v2, Lcom/tbuonomo/viewpagerdotsindicator/Resource$layout;->selfie_camera_facial_analysis_guide_popup:I
 
-    invoke-virtual {v0, v2}, Lcom/jakex/makeupcore/dialog/c$a;->a(I)Lcom/jakex/makeupcore/dialog/c$a;
+    invoke-virtual {v0, v2}, Lcom/jakex/ymluxscore/dialog/c$a;->a(I)Lcom/jakex/ymluxscore/dialog/c$a;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/dialog/c$a;->b(I)Lcom/jakex/makeupcore/dialog/c$a;
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/dialog/c$a;->b(I)Lcom/jakex/ymluxscore/dialog/c$a;
 
     move-result-object v0
 
     const/4 v2, 0x3
 
-    invoke-virtual {v0, v2}, Lcom/jakex/makeupcore/dialog/c$a;->c(I)Lcom/jakex/makeupcore/dialog/c$a;
+    invoke-virtual {v0, v2}, Lcom/jakex/ymluxscore/dialog/c$a;->c(I)Lcom/jakex/ymluxscore/dialog/c$a;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/dialog/c$a;->a()Lcom/jakex/makeupcore/dialog/c;
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/dialog/c$a;->a()Lcom/jakex/ymluxscore/dialog/c;
 
     move-result-object v0
 
-    iget-object v2, p0, Lcom/jakex/makeupselfie/save/a;->e:Lcom/jakex/makeupcore/widget/text/MagicTextView;
+    iget-object v2, p0, Lcom/jakex/ymluxscoresf/save/a;->e:Lcom/jakex/ymluxscore/widget/text/MagicTextView;
 
-    invoke-virtual {v0, v2}, Lcom/jakex/makeupcore/dialog/c;->b(Landroid/view/View;)V
+    invoke-virtual {v0, v2}, Lcom/jakex/ymluxscore/dialog/c;->b(Landroid/view/View;)V
 
     :cond_1
     return v1
@@ -125,11 +125,11 @@
 .method private c()V
     .locals 3
 
-    invoke-static {}, Lcom/jakex/makeupselfie/save/b;->a()Lcom/jakex/makeupselfie/save/b;
+    invoke-static {}, Lcom/jakex/ymluxscoresf/save/b;->a()Lcom/jakex/ymluxscoresf/save/b;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupselfie/save/b;->f()Landroid/graphics/Bitmap;
+    invoke-virtual {v0}, Lcom/jakex/ymluxscoresf/save/b;->f()Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -175,7 +175,7 @@
     const/4 v0, 0x1
 
     :goto_1
-    iput-boolean v0, p0, Lcom/jakex/makeupselfie/save/a;->g:Z
+    iput-boolean v0, p0, Lcom/jakex/ymluxscoresf/save/a;->g:Z
 
     return-void
 .end method
@@ -187,9 +187,9 @@
 
     sget v1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$drawable;->selfie_camera_save_facial_analysis_black_sel:I
 
-    iget-object v2, p0, Lcom/jakex/makeupselfie/save/a;->e:Lcom/jakex/makeupcore/widget/text/MagicTextView;
+    iget-object v2, p0, Lcom/jakex/ymluxscoresf/save/a;->e:Lcom/jakex/ymluxscore/widget/text/MagicTextView;
 
-    iget-boolean v3, p0, Lcom/jakex/makeupselfie/save/a;->g:Z
+    iget-boolean v3, p0, Lcom/jakex/ymluxscoresf/save/a;->g:Z
 
     if-eqz v3, :cond_0
 
@@ -201,7 +201,7 @@
     :goto_0
     const/4 v1, 0x0
 
-    invoke-virtual {v2, v1, v0, v1, v1}, Lcom/jakex/makeupcore/widget/text/MagicTextView;->setCompoundDrawablesWithIntrinsicBounds(IIII)V
+    invoke-virtual {v2, v1, v0, v1, v1}, Lcom/jakex/ymluxscore/widget/text/MagicTextView;->setCompoundDrawablesWithIntrinsicBounds(IIII)V
 
     return-void
 .end method
@@ -211,53 +211,53 @@
 
     if-eqz p1, :cond_1
 
-    iget-boolean p1, p0, Lcom/jakex/makeupselfie/save/a;->g:Z
+    iget-boolean p1, p0, Lcom/jakex/ymluxscoresf/save/a;->g:Z
 
     if-eqz p1, :cond_0
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/save/a;->b:Lcom/jakex/makeupcore/widget/text/MagicTextView;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/save/a;->b:Lcom/jakex/ymluxscore/widget/text/MagicTextView;
 
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$drawable;->selfie_camera_save_voi_open_white_sel:I
 
     goto :goto_0
 
     :cond_0
-    iget-object p1, p0, Lcom/jakex/makeupselfie/save/a;->b:Lcom/jakex/makeupcore/widget/text/MagicTextView;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/save/a;->b:Lcom/jakex/ymluxscore/widget/text/MagicTextView;
 
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$drawable;->selfie_camera_save_voi_open_sel:I
 
     goto :goto_0
 
     :cond_1
-    iget-boolean p1, p0, Lcom/jakex/makeupselfie/save/a;->g:Z
+    iget-boolean p1, p0, Lcom/jakex/ymluxscoresf/save/a;->g:Z
 
     if-eqz p1, :cond_2
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/save/a;->b:Lcom/jakex/makeupcore/widget/text/MagicTextView;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/save/a;->b:Lcom/jakex/ymluxscore/widget/text/MagicTextView;
 
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$drawable;->selfie_camera_save_voi_close_white_sel:I
 
     goto :goto_0
 
     :cond_2
-    iget-object p1, p0, Lcom/jakex/makeupselfie/save/a;->b:Lcom/jakex/makeupcore/widget/text/MagicTextView;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/save/a;->b:Lcom/jakex/ymluxscore/widget/text/MagicTextView;
 
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$drawable;->selfie_camera_save_voi_close_sel:I
 
     :goto_0
     const/4 v1, 0x0
 
-    invoke-virtual {p1, v1, v0, v1, v1}, Lcom/jakex/makeupcore/widget/text/MagicTextView;->setCompoundDrawablesWithIntrinsicBounds(IIII)V
+    invoke-virtual {p1, v1, v0, v1, v1}, Lcom/jakex/ymluxscore/widget/text/MagicTextView;->setCompoundDrawablesWithIntrinsicBounds(IIII)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public a(Lcom/jakex/makeupselfie/save/a$a;)V
+.method public a(Lcom/jakex/ymluxscoresf/save/a$a;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/save/a;->f:Lcom/jakex/makeupselfie/save/a$a;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/save/a;->f:Lcom/jakex/ymluxscoresf/save/a$a;
 
     return-void
 .end method
@@ -265,9 +265,9 @@
 .method public a(Z)V
     .locals 1
 
-    iput-boolean p1, p0, Lcom/jakex/makeupselfie/save/a;->d:Z
+    iput-boolean p1, p0, Lcom/jakex/ymluxscoresf/save/a;->d:Z
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/save/a;->b:Lcom/jakex/makeupcore/widget/text/MagicTextView;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/save/a;->b:Lcom/jakex/ymluxscore/widget/text/MagicTextView;
 
     if-nez v0, :cond_0
 
@@ -284,7 +284,7 @@
     const/16 p1, 0x8
 
     :goto_0
-    invoke-virtual {v0, p1}, Lcom/jakex/makeupcore/widget/text/MagicTextView;->setVisibility(I)V
+    invoke-virtual {v0, p1}, Lcom/jakex/ymluxscore/widget/text/MagicTextView;->setVisibility(I)V
 
     return-void
 .end method
@@ -326,7 +326,7 @@
 
     const-wide/16 v1, 0x1f4
 
-    invoke-static {v1, v2}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->a(J)Z
+    invoke-static {v1, v2}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->a(J)Z
 
     move-result p1
 
@@ -335,11 +335,11 @@
     return v0
 
     :cond_1
-    iget-object p1, p0, Lcom/jakex/makeupselfie/save/a;->f:Lcom/jakex/makeupselfie/save/a$a;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/save/a;->f:Lcom/jakex/ymluxscoresf/save/a$a;
 
     if-eqz p1, :cond_2
 
-    invoke-interface {p1}, Lcom/jakex/makeupselfie/save/a$a;->b()V
+    invoke-interface {p1}, Lcom/jakex/ymluxscoresf/save/a$a;->b()V
 
     :cond_2
     return v0
@@ -357,16 +357,16 @@
 .method public b(Z)V
     .locals 1
 
-    iput-boolean p1, p0, Lcom/jakex/makeupselfie/save/a;->c:Z
+    iput-boolean p1, p0, Lcom/jakex/ymluxscoresf/save/a;->c:Z
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/save/a;->b:Lcom/jakex/makeupcore/widget/text/MagicTextView;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/save/a;->b:Lcom/jakex/ymluxscore/widget/text/MagicTextView;
 
     if-nez v0, :cond_0
 
     return-void
 
     :cond_0
-    invoke-direct {p0, p1}, Lcom/jakex/makeupselfie/save/a;->e(Z)V
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscoresf/save/a;->e(Z)V
 
     return-void
 .end method
@@ -374,7 +374,7 @@
 .method public c(Z)V
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/save/a;->e:Lcom/jakex/makeupcore/widget/text/MagicTextView;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/save/a;->e:Lcom/jakex/ymluxscore/widget/text/MagicTextView;
 
     if-nez v0, :cond_0
 
@@ -391,7 +391,7 @@
     const/16 p1, 0x8
 
     :goto_0
-    invoke-virtual {v0, p1}, Lcom/jakex/makeupcore/widget/text/MagicTextView;->setVisibility(I)V
+    invoke-virtual {v0, p1}, Lcom/jakex/ymluxscore/widget/text/MagicTextView;->setVisibility(I)V
 
     return-void
 .end method
@@ -399,7 +399,7 @@
 .method public d(Z)V
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/save/a;->a:Landroid/widget/ImageView;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/save/a;->a:Landroid/widget/ImageView;
 
     if-nez v0, :cond_0
 
@@ -408,7 +408,7 @@
     :cond_0
     if-eqz p1, :cond_2
 
-    iget-boolean p1, p0, Lcom/jakex/makeupselfie/save/a;->g:Z
+    iget-boolean p1, p0, Lcom/jakex/ymluxscoresf/save/a;->g:Z
 
     if-eqz p1, :cond_1
 
@@ -422,7 +422,7 @@
     goto :goto_0
 
     :cond_2
-    iget-boolean p1, p0, Lcom/jakex/makeupselfie/save/a;->g:Z
+    iget-boolean p1, p0, Lcom/jakex/ymluxscoresf/save/a;->g:Z
 
     if-eqz p1, :cond_3
 
@@ -444,7 +444,7 @@
 
     const/16 v0, 0x1f4
 
-    invoke-static {v0}, Lcom/jakex/makeupselfie/save/a;->c(I)Z
+    invoke-static {v0}, Lcom/jakex/ymluxscoresf/save/a;->c(I)Z
 
     move-result v0
 
@@ -461,11 +461,11 @@
 
     if-ne p1, v0, :cond_1
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/save/a;->f:Lcom/jakex/makeupselfie/save/a$a;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/save/a;->f:Lcom/jakex/ymluxscoresf/save/a$a;
 
     if-eqz p1, :cond_6
 
-    invoke-interface {p1}, Lcom/jakex/makeupselfie/save/a$a;->c()V
+    invoke-interface {p1}, Lcom/jakex/ymluxscoresf/save/a$a;->c()V
 
     goto :goto_0
 
@@ -474,11 +474,11 @@
 
     if-ne p1, v0, :cond_2
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/save/a;->f:Lcom/jakex/makeupselfie/save/a$a;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/save/a;->f:Lcom/jakex/ymluxscoresf/save/a$a;
 
     if-eqz p1, :cond_6
 
-    invoke-interface {p1}, Lcom/jakex/makeupselfie/save/a$a;->b()V
+    invoke-interface {p1}, Lcom/jakex/ymluxscoresf/save/a$a;->b()V
 
     goto :goto_0
 
@@ -487,11 +487,11 @@
 
     if-ne p1, v0, :cond_3
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/save/a;->f:Lcom/jakex/makeupselfie/save/a$a;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/save/a;->f:Lcom/jakex/ymluxscoresf/save/a$a;
 
     if-eqz p1, :cond_6
 
-    invoke-interface {p1}, Lcom/jakex/makeupselfie/save/a$a;->d()V
+    invoke-interface {p1}, Lcom/jakex/ymluxscoresf/save/a$a;->d()V
 
     goto :goto_0
 
@@ -500,11 +500,11 @@
 
     if-ne p1, v0, :cond_4
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/save/a;->f:Lcom/jakex/makeupselfie/save/a$a;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/save/a;->f:Lcom/jakex/ymluxscoresf/save/a$a;
 
     if-eqz p1, :cond_6
 
-    invoke-interface {p1}, Lcom/jakex/makeupselfie/save/a$a;->a()V
+    invoke-interface {p1}, Lcom/jakex/ymluxscoresf/save/a$a;->a()V
 
     goto :goto_0
 
@@ -513,11 +513,11 @@
 
     if-ne p1, v0, :cond_6
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/save/a;->f:Lcom/jakex/makeupselfie/save/a$a;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/save/a;->f:Lcom/jakex/ymluxscoresf/save/a$a;
 
     if-eqz p1, :cond_5
 
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/save/a;->getActivity()Landroidx/fragment/app/FragmentActivity;
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/save/a;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object p1
 
@@ -525,10 +525,10 @@
 
     const-string v1, "\u7f8e\u5986\u81ea\u62cd"
 
-    invoke-static {p1, v1, v0}, Lcom/jakex/makeupcore/modular/c/aa;->a(Landroid/app/Activity;Ljava/lang/String;I)V
+    invoke-static {p1, v1, v0}, Lcom/jakex/ymluxscore/modular/c/aa;->a(Landroid/app/Activity;Ljava/lang/String;I)V
 
     :cond_5
-    invoke-static {}, Lcom/jakex/makeupselfie/save/a/a$b;->a()V
+    invoke-static {}, Lcom/jakex/ymluxscoresf/save/a/a$b;->a()V
 
     :cond_6
     :goto_0
@@ -552,9 +552,9 @@
 .method public onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 4
 
-    invoke-super {p0, p1, p2}, Lcom/jakex/makeupcore/g/a;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+    invoke-super {p0, p1, p2}, Lcom/jakex/ymluxscore/g/a;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    invoke-direct {p0}, Lcom/jakex/makeupselfie/save/a;->c()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscoresf/save/a;->c()V
 
     sget p2, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->selfie_camera_share_save_iv:I
 
@@ -564,7 +564,7 @@
 
     check-cast p2, Landroid/widget/ImageView;
 
-    iput-object p2, p0, Lcom/jakex/makeupselfie/save/a;->a:Landroid/widget/ImageView;
+    iput-object p2, p0, Lcom/jakex/ymluxscoresf/save/a;->a:Landroid/widget/ImageView;
 
     invoke-virtual {p2, p0}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -574,19 +574,19 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/jakex/makeupcore/widget/text/MagicTextView;
+    check-cast p2, Lcom/jakex/ymluxscore/widget/text/MagicTextView;
 
-    iput-object p2, p0, Lcom/jakex/makeupselfie/save/a;->b:Lcom/jakex/makeupcore/widget/text/MagicTextView;
+    iput-object p2, p0, Lcom/jakex/ymluxscoresf/save/a;->b:Lcom/jakex/ymluxscore/widget/text/MagicTextView;
 
-    invoke-virtual {p2, p0}, Lcom/jakex/makeupcore/widget/text/MagicTextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {p2, p0}, Lcom/jakex/ymluxscore/widget/text/MagicTextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    iget-boolean p2, p0, Lcom/jakex/makeupselfie/save/a;->d:Z
+    iget-boolean p2, p0, Lcom/jakex/ymluxscoresf/save/a;->d:Z
 
-    invoke-virtual {p0, p2}, Lcom/jakex/makeupselfie/save/a;->a(Z)V
+    invoke-virtual {p0, p2}, Lcom/jakex/ymluxscoresf/save/a;->a(Z)V
 
-    iget-boolean p2, p0, Lcom/jakex/makeupselfie/save/a;->c:Z
+    iget-boolean p2, p0, Lcom/jakex/ymluxscoresf/save/a;->c:Z
 
-    invoke-direct {p0, p2}, Lcom/jakex/makeupselfie/save/a;->e(Z)V
+    invoke-direct {p0, p2}, Lcom/jakex/ymluxscoresf/save/a;->e(Z)V
 
     sget p2, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->selfie_camera_share_cancel_iv:I
 
@@ -594,9 +594,9 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/jakex/makeupcore/widget/text/MagicTextView;
+    check-cast p2, Lcom/jakex/ymluxscore/widget/text/MagicTextView;
 
-    invoke-virtual {p2, p0}, Lcom/jakex/makeupcore/widget/text/MagicTextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {p2, p0}, Lcom/jakex/ymluxscore/widget/text/MagicTextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->selfie_camera_share_share_iv:I
 
@@ -604,9 +604,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/jakex/makeupcore/widget/text/MagicTextView;
+    check-cast v0, Lcom/jakex/ymluxscore/widget/text/MagicTextView;
 
-    invoke-virtual {v0, p0}, Lcom/jakex/makeupcore/widget/text/MagicTextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, p0}, Lcom/jakex/ymluxscore/widget/text/MagicTextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     sget v1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->selfie_camera_assistant_tv:I
 
@@ -614,11 +614,11 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/jakex/makeupcore/widget/text/MagicTextView;
+    check-cast p1, Lcom/jakex/ymluxscore/widget/text/MagicTextView;
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/save/a;->e:Lcom/jakex/makeupcore/widget/text/MagicTextView;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/save/a;->e:Lcom/jakex/ymluxscore/widget/text/MagicTextView;
 
-    invoke-static {}, Lcom/jakex/makeupcore/j/a;->j()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/j/a;->j()Z
 
     move-result p1
 
@@ -626,27 +626,27 @@
 
     if-eqz p1, :cond_0
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/save/a;->e:Lcom/jakex/makeupcore/widget/text/MagicTextView;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/save/a;->e:Lcom/jakex/ymluxscore/widget/text/MagicTextView;
 
-    invoke-virtual {p1, v1}, Lcom/jakex/makeupcore/widget/text/MagicTextView;->setVisibility(I)V
+    invoke-virtual {p1, v1}, Lcom/jakex/ymluxscore/widget/text/MagicTextView;->setVisibility(I)V
 
-    invoke-direct {p0}, Lcom/jakex/makeupselfie/save/a;->d()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscoresf/save/a;->d()V
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/save/a;->e:Lcom/jakex/makeupcore/widget/text/MagicTextView;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/save/a;->e:Lcom/jakex/ymluxscore/widget/text/MagicTextView;
 
-    invoke-virtual {p1, p0}, Lcom/jakex/makeupcore/widget/text/MagicTextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {p1, p0}, Lcom/jakex/ymluxscore/widget/text/MagicTextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     goto :goto_0
 
     :cond_0
-    iget-object p1, p0, Lcom/jakex/makeupselfie/save/a;->e:Lcom/jakex/makeupcore/widget/text/MagicTextView;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/save/a;->e:Lcom/jakex/ymluxscore/widget/text/MagicTextView;
 
     const/16 v2, 0x8
 
-    invoke-virtual {p1, v2}, Lcom/jakex/makeupcore/widget/text/MagicTextView;->setVisibility(I)V
+    invoke-virtual {p1, v2}, Lcom/jakex/ymluxscore/widget/text/MagicTextView;->setVisibility(I)V
 
     :goto_0
-    iget-boolean p1, p0, Lcom/jakex/makeupselfie/save/a;->g:Z
+    iget-boolean p1, p0, Lcom/jakex/ymluxscoresf/save/a;->g:Z
 
     const/4 v2, 0x1
 
@@ -654,11 +654,11 @@
 
     sget p1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$drawable;->selfie_camera_save_back_white_sel:I
 
-    invoke-virtual {p2, v1, p1, v1, v1}, Lcom/jakex/makeupcore/widget/text/MagicTextView;->setCompoundDrawablesWithIntrinsicBounds(IIII)V
+    invoke-virtual {p2, v1, p1, v1, v1}, Lcom/jakex/ymluxscore/widget/text/MagicTextView;->setCompoundDrawablesWithIntrinsicBounds(IIII)V
 
-    invoke-virtual {p2, v2}, Lcom/jakex/makeupcore/widget/text/MagicTextView;->setShowStroke(Z)V
+    invoke-virtual {p2, v2}, Lcom/jakex/ymluxscore/widget/text/MagicTextView;->setShowStroke(Z)V
 
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/save/a;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/save/a;->getResources()Landroid/content/res/Resources;
 
     move-result-object p1
 
@@ -668,15 +668,15 @@
 
     move-result p1
 
-    invoke-virtual {p2, p1}, Lcom/jakex/makeupcore/widget/text/MagicTextView;->setTextColor(I)V
+    invoke-virtual {p2, p1}, Lcom/jakex/ymluxscore/widget/text/MagicTextView;->setTextColor(I)V
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/save/a;->e:Lcom/jakex/makeupcore/widget/text/MagicTextView;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/save/a;->e:Lcom/jakex/ymluxscore/widget/text/MagicTextView;
 
-    invoke-virtual {p1, v2}, Lcom/jakex/makeupcore/widget/text/MagicTextView;->setShowStroke(Z)V
+    invoke-virtual {p1, v2}, Lcom/jakex/ymluxscore/widget/text/MagicTextView;->setShowStroke(Z)V
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/save/a;->e:Lcom/jakex/makeupcore/widget/text/MagicTextView;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/save/a;->e:Lcom/jakex/ymluxscore/widget/text/MagicTextView;
 
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/save/a;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/save/a;->getResources()Landroid/content/res/Resources;
 
     move-result-object p2
 
@@ -686,15 +686,15 @@
 
     move-result p2
 
-    invoke-virtual {p1, p2}, Lcom/jakex/makeupcore/widget/text/MagicTextView;->setTextColor(I)V
+    invoke-virtual {p1, p2}, Lcom/jakex/ymluxscore/widget/text/MagicTextView;->setTextColor(I)V
 
     sget p1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$drawable;->selfie_camera_save_share_white_sel:I
 
-    invoke-virtual {v0, v1, p1, v1, v1}, Lcom/jakex/makeupcore/widget/text/MagicTextView;->setCompoundDrawablesWithIntrinsicBounds(IIII)V
+    invoke-virtual {v0, v1, p1, v1, v1}, Lcom/jakex/ymluxscore/widget/text/MagicTextView;->setCompoundDrawablesWithIntrinsicBounds(IIII)V
 
-    invoke-virtual {v0, v2}, Lcom/jakex/makeupcore/widget/text/MagicTextView;->setShowStroke(Z)V
+    invoke-virtual {v0, v2}, Lcom/jakex/ymluxscore/widget/text/MagicTextView;->setShowStroke(Z)V
 
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/save/a;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/save/a;->getResources()Landroid/content/res/Resources;
 
     move-result-object p1
 
@@ -704,15 +704,15 @@
 
     move-result p1
 
-    invoke-virtual {v0, p1}, Lcom/jakex/makeupcore/widget/text/MagicTextView;->setTextColor(I)V
+    invoke-virtual {v0, p1}, Lcom/jakex/ymluxscore/widget/text/MagicTextView;->setTextColor(I)V
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/save/a;->b:Lcom/jakex/makeupcore/widget/text/MagicTextView;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/save/a;->b:Lcom/jakex/ymluxscore/widget/text/MagicTextView;
 
-    invoke-virtual {p1, v2}, Lcom/jakex/makeupcore/widget/text/MagicTextView;->setShowStroke(Z)V
+    invoke-virtual {p1, v2}, Lcom/jakex/ymluxscore/widget/text/MagicTextView;->setShowStroke(Z)V
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/save/a;->b:Lcom/jakex/makeupcore/widget/text/MagicTextView;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/save/a;->b:Lcom/jakex/ymluxscore/widget/text/MagicTextView;
 
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/save/a;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/save/a;->getResources()Landroid/content/res/Resources;
 
     move-result-object p2
 
@@ -722,9 +722,9 @@
 
     move-result p2
 
-    invoke-virtual {p1, p2}, Lcom/jakex/makeupcore/widget/text/MagicTextView;->setTextColor(I)V
+    invoke-virtual {p1, p2}, Lcom/jakex/ymluxscore/widget/text/MagicTextView;->setTextColor(I)V
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/save/a;->a:Landroid/widget/ImageView;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/save/a;->a:Landroid/widget/ImageView;
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setImageLevel(I)V
 
@@ -733,11 +733,11 @@
     :cond_1
     sget p1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$drawable;->selfie_camera_save_back_sel:I
 
-    invoke-virtual {p2, v1, p1, v1, v1}, Lcom/jakex/makeupcore/widget/text/MagicTextView;->setCompoundDrawablesWithIntrinsicBounds(IIII)V
+    invoke-virtual {p2, v1, p1, v1, v1}, Lcom/jakex/ymluxscore/widget/text/MagicTextView;->setCompoundDrawablesWithIntrinsicBounds(IIII)V
 
-    invoke-virtual {p2, v1}, Lcom/jakex/makeupcore/widget/text/MagicTextView;->setShowStroke(Z)V
+    invoke-virtual {p2, v1}, Lcom/jakex/ymluxscore/widget/text/MagicTextView;->setShowStroke(Z)V
 
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/save/a;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/save/a;->getResources()Landroid/content/res/Resources;
 
     move-result-object p1
 
@@ -747,15 +747,15 @@
 
     move-result p1
 
-    invoke-virtual {p2, p1}, Lcom/jakex/makeupcore/widget/text/MagicTextView;->setTextColor(I)V
+    invoke-virtual {p2, p1}, Lcom/jakex/ymluxscore/widget/text/MagicTextView;->setTextColor(I)V
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/save/a;->e:Lcom/jakex/makeupcore/widget/text/MagicTextView;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/save/a;->e:Lcom/jakex/ymluxscore/widget/text/MagicTextView;
 
-    invoke-virtual {p1, v1}, Lcom/jakex/makeupcore/widget/text/MagicTextView;->setShowStroke(Z)V
+    invoke-virtual {p1, v1}, Lcom/jakex/ymluxscore/widget/text/MagicTextView;->setShowStroke(Z)V
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/save/a;->e:Lcom/jakex/makeupcore/widget/text/MagicTextView;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/save/a;->e:Lcom/jakex/ymluxscore/widget/text/MagicTextView;
 
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/save/a;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/save/a;->getResources()Landroid/content/res/Resources;
 
     move-result-object p2
 
@@ -765,15 +765,15 @@
 
     move-result p2
 
-    invoke-virtual {p1, p2}, Lcom/jakex/makeupcore/widget/text/MagicTextView;->setTextColor(I)V
+    invoke-virtual {p1, p2}, Lcom/jakex/ymluxscore/widget/text/MagicTextView;->setTextColor(I)V
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/widget/text/MagicTextView;->setShowStroke(Z)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/widget/text/MagicTextView;->setShowStroke(Z)V
 
     sget p1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$drawable;->selfie_camera_save_share_sel:I
 
-    invoke-virtual {v0, v1, p1, v1, v1}, Lcom/jakex/makeupcore/widget/text/MagicTextView;->setCompoundDrawablesWithIntrinsicBounds(IIII)V
+    invoke-virtual {v0, v1, p1, v1, v1}, Lcom/jakex/ymluxscore/widget/text/MagicTextView;->setCompoundDrawablesWithIntrinsicBounds(IIII)V
 
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/save/a;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/save/a;->getResources()Landroid/content/res/Resources;
 
     move-result-object p1
 
@@ -783,15 +783,15 @@
 
     move-result p1
 
-    invoke-virtual {v0, p1}, Lcom/jakex/makeupcore/widget/text/MagicTextView;->setTextColor(I)V
+    invoke-virtual {v0, p1}, Lcom/jakex/ymluxscore/widget/text/MagicTextView;->setTextColor(I)V
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/save/a;->b:Lcom/jakex/makeupcore/widget/text/MagicTextView;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/save/a;->b:Lcom/jakex/ymluxscore/widget/text/MagicTextView;
 
-    invoke-virtual {p1, v1}, Lcom/jakex/makeupcore/widget/text/MagicTextView;->setShowStroke(Z)V
+    invoke-virtual {p1, v1}, Lcom/jakex/ymluxscore/widget/text/MagicTextView;->setShowStroke(Z)V
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/save/a;->b:Lcom/jakex/makeupcore/widget/text/MagicTextView;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/save/a;->b:Lcom/jakex/ymluxscore/widget/text/MagicTextView;
 
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/save/a;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/save/a;->getResources()Landroid/content/res/Resources;
 
     move-result-object p2
 
@@ -801,14 +801,14 @@
 
     move-result p2
 
-    invoke-virtual {p1, p2}, Lcom/jakex/makeupcore/widget/text/MagicTextView;->setTextColor(I)V
+    invoke-virtual {p1, p2}, Lcom/jakex/ymluxscore/widget/text/MagicTextView;->setTextColor(I)V
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/save/a;->a:Landroid/widget/ImageView;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/save/a;->a:Landroid/widget/ImageView;
 
     invoke-virtual {p1, v2}, Landroid/widget/ImageView;->setImageLevel(I)V
 
     :goto_1
-    invoke-direct {p0}, Lcom/jakex/makeupselfie/save/a;->b()Z
+    invoke-direct {p0}, Lcom/jakex/ymluxscoresf/save/a;->b()Z
 
     return-void
 .end method

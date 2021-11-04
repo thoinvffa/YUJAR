@@ -38,7 +38,7 @@
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupActivity$15;->a:Lcom/jakex/makeupsenior/BeautyMakeupActivity;
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/t;->j(Landroid/content/Context;)I
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/t;->j(Landroid/content/Context;)I
 
     move-result v0
 
@@ -54,7 +54,7 @@
 
     iget-object v1, p0, Lcom/jakex/makeupsenior/BeautyMakeupActivity$15;->a:Lcom/jakex/makeupsenior/BeautyMakeupActivity;
 
-    invoke-static {v1}, Lcom/jakex/makeupsenior/BeautyMakeupActivity;->h(Lcom/jakex/makeupsenior/BeautyMakeupActivity;)Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    invoke-static {v1}, Lcom/jakex/makeupsenior/BeautyMakeupActivity;->h(Lcom/jakex/makeupsenior/BeautyMakeupActivity;)Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
     move-result-object v1
 
@@ -64,7 +64,7 @@
 
     const/4 v2, 0x1
 
-    invoke-virtual {v1, v0, v2}, Lcom/jakex/makeupeditor/widget/BeautyMakeupView;->a(FZ)V
+    invoke-virtual {v1, v0, v2}, Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;->a(FZ)V
 
     return-void
 .end method

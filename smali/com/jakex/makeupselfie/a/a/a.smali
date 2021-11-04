@@ -1,16 +1,16 @@
-.class public Lcom/jakex/makeupselfie/a/a/a;
+.class public Lcom/jakex/ymluxscoresf/a/a/a;
 .super Ljava/lang/Object;
 
 
 # direct methods
-.method public static a(Ljava/lang/String;)Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;
+.method public static a(Ljava/lang/String;)Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;
     .locals 3
 
-    invoke-static {}, Lcom/jakex/makeupselfie/a/a/a;->b()Lorg/greenrobot/greendao/query/QueryBuilder;
+    invoke-static {}, Lcom/jakex/ymluxscoresf/a/a/a;->b()Lorg/greenrobot/greendao/query/QueryBuilder;
 
     move-result-object v0
 
-    sget-object v1, Lcom/jakex/makeupcore/bean/dao/CustomMakeupConcreteDao$Properties;->b:Lorg/greenrobot/greendao/Property;
+    sget-object v1, Lcom/jakex/ymluxscore/bean/dao/CustomMakeupConcreteDao$Properties;->b:Lorg/greenrobot/greendao/Property;
 
     invoke-virtual {v1, p0}, Lorg/greenrobot/greendao/Property;->eq(Ljava/lang/Object;)Lorg/greenrobot/greendao/query/WhereCondition;
 
@@ -43,7 +43,7 @@
 
     move-result-object p0
 
-    check-cast p0, Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;
+    check-cast p0, Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;
 
     return-object p0
 
@@ -60,12 +60,12 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;",
+            "Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;",
             ">;"
         }
     .end annotation
 
-    invoke-static {}, Lcom/jakex/makeupselfie/a/a/a;->b()Lorg/greenrobot/greendao/query/QueryBuilder;
+    invoke-static {}, Lcom/jakex/ymluxscoresf/a/a/a;->b()Lorg/greenrobot/greendao/query/QueryBuilder;
 
     move-result-object v0
 
@@ -73,7 +73,7 @@
 
     new-array v1, v1, [Lorg/greenrobot/greendao/Property;
 
-    sget-object v2, Lcom/jakex/makeupcore/bean/dao/CustomMakeupConcreteDao$Properties;->c:Lorg/greenrobot/greendao/Property;
+    sget-object v2, Lcom/jakex/ymluxscore/bean/dao/CustomMakeupConcreteDao$Properties;->c:Lorg/greenrobot/greendao/Property;
 
     const/4 v3, 0x0
 
@@ -90,19 +90,19 @@
     return-object v0
 .end method
 
-.method public static a(Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;)V
+.method public static a(Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;)V
     .locals 2
 
-    const-class v0, Lcom/jakex/makeupselfie/a/a/a;
+    const-class v0, Lcom/jakex/ymluxscoresf/a/a/a;
 
     monitor-enter v0
 
     :try_start_0
-    invoke-static {}, Lcom/jakex/makeupcore/bean/a;->w()Lcom/jakex/makeupcore/bean/dao/CustomMakeupConcreteDao;
+    invoke-static {}, Lcom/jakex/ymluxscore/bean/a;->w()Lcom/jakex/ymluxscore/bean/dao/CustomMakeupConcreteDao;
 
     move-result-object v1
 
-    invoke-virtual {v1, p0}, Lcom/jakex/makeupcore/bean/dao/CustomMakeupConcreteDao;->insertOrReplace(Ljava/lang/Object;)J
+    invoke-virtual {v1, p0}, Lcom/jakex/ymluxscore/bean/dao/CustomMakeupConcreteDao;->insertOrReplace(Ljava/lang/Object;)J
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -124,21 +124,21 @@
         value = {
             "(",
             "Ljava/lang/Iterable<",
-            "Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;",
+            "Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;",
             ">;)V"
         }
     .end annotation
 
-    const-class v0, Lcom/jakex/makeupselfie/a/a/a;
+    const-class v0, Lcom/jakex/ymluxscoresf/a/a/a;
 
     monitor-enter v0
 
     :try_start_0
-    invoke-static {}, Lcom/jakex/makeupcore/bean/a;->w()Lcom/jakex/makeupcore/bean/dao/CustomMakeupConcreteDao;
+    invoke-static {}, Lcom/jakex/ymluxscore/bean/a;->w()Lcom/jakex/ymluxscore/bean/dao/CustomMakeupConcreteDao;
 
     move-result-object v1
 
-    invoke-virtual {v1, p0}, Lcom/jakex/makeupcore/bean/dao/CustomMakeupConcreteDao;->deleteInTx(Ljava/lang/Iterable;)V
+    invoke-virtual {v1, p0}, Lcom/jakex/ymluxscore/bean/dao/CustomMakeupConcreteDao;->deleteInTx(Ljava/lang/Iterable;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -160,35 +160,35 @@
         value = {
             "()",
             "Lorg/greenrobot/greendao/query/QueryBuilder<",
-            "Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;",
+            "Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;",
             ">;"
         }
     .end annotation
 
-    invoke-static {}, Lcom/jakex/makeupcore/bean/a;->w()Lcom/jakex/makeupcore/bean/dao/CustomMakeupConcreteDao;
+    invoke-static {}, Lcom/jakex/ymluxscore/bean/a;->w()Lcom/jakex/ymluxscore/bean/dao/CustomMakeupConcreteDao;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/bean/dao/CustomMakeupConcreteDao;->queryBuilder()Lorg/greenrobot/greendao/query/QueryBuilder;
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/bean/dao/CustomMakeupConcreteDao;->queryBuilder()Lorg/greenrobot/greendao/query/QueryBuilder;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public static b(Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;)V
+.method public static b(Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;)V
     .locals 2
 
-    const-class v0, Lcom/jakex/makeupselfie/a/a/a;
+    const-class v0, Lcom/jakex/ymluxscoresf/a/a/a;
 
     monitor-enter v0
 
     :try_start_0
-    invoke-static {}, Lcom/jakex/makeupcore/bean/a;->w()Lcom/jakex/makeupcore/bean/dao/CustomMakeupConcreteDao;
+    invoke-static {}, Lcom/jakex/ymluxscore/bean/a;->w()Lcom/jakex/ymluxscore/bean/dao/CustomMakeupConcreteDao;
 
     move-result-object v1
 
-    invoke-virtual {v1, p0}, Lcom/jakex/makeupcore/bean/dao/CustomMakeupConcreteDao;->update(Ljava/lang/Object;)V
+    invoke-virtual {v1, p0}, Lcom/jakex/ymluxscore/bean/dao/CustomMakeupConcreteDao;->update(Ljava/lang/Object;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -204,19 +204,19 @@
     throw p0
 .end method
 
-.method public static c(Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;)V
+.method public static c(Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;)V
     .locals 2
 
-    const-class v0, Lcom/jakex/makeupselfie/a/a/a;
+    const-class v0, Lcom/jakex/ymluxscoresf/a/a/a;
 
     monitor-enter v0
 
     :try_start_0
-    invoke-static {}, Lcom/jakex/makeupcore/bean/a;->w()Lcom/jakex/makeupcore/bean/dao/CustomMakeupConcreteDao;
+    invoke-static {}, Lcom/jakex/ymluxscore/bean/a;->w()Lcom/jakex/ymluxscore/bean/dao/CustomMakeupConcreteDao;
 
     move-result-object v1
 
-    invoke-virtual {v1, p0}, Lcom/jakex/makeupcore/bean/dao/CustomMakeupConcreteDao;->delete(Ljava/lang/Object;)V
+    invoke-virtual {v1, p0}, Lcom/jakex/ymluxscore/bean/dao/CustomMakeupConcreteDao;->delete(Ljava/lang/Object;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

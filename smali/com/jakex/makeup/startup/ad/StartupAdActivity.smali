@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeup/startup/ad/StartupAdActivity;
-.super Lcom/jakex/makeupcore/activity/MTBaseActivity;
+.super Lcom/jakex/ymluxscore/activity/MTBaseActivity;
 
 
 # annotations
@@ -39,7 +39,7 @@
 .method public constructor <init>()V
     .locals 2
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;-><init>()V
 
     new-instance v0, Landroid/os/Handler;
 
@@ -324,7 +324,7 @@
 
     const/4 v1, 0x0
 
-    invoke-static {p0, v0, v1}, Lcom/jakex/makeupcore/modular/c/h;->a(Landroid/app/Activity;Lcom/jakex/makeupcore/modular/extra/HomeExtra;Z)V
+    invoke-static {p0, v0, v1}, Lcom/jakex/ymluxscore/modular/c/h;->a(Landroid/app/Activity;Lcom/jakex/ymluxscore/modular/extra/HomeExtra;Z)V
 
     goto :goto_0
 
@@ -348,7 +348,7 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 1
 
-    invoke-super {p0, p1}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onCreate(Landroid/os/Bundle;)V
 
     const p1, 0x7f0901fd
 
@@ -372,7 +372,7 @@
 .method protected onDestroy()V
     .locals 2
 
-    invoke-super {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onDestroy()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onDestroy()V
 
     iget-object v0, p0, Lcom/jakex/makeup/startup/ad/StartupAdActivity;->a:Lcom/jakex/hwbusinesskit/core/ad/MixAd;
 
@@ -411,10 +411,10 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {p0}, Lcom/jakex/makeupcore/modular/c/h;->a(Landroid/app/Activity;)V
+    invoke-static {p0}, Lcom/jakex/ymluxscore/modular/c/h;->a(Landroid/app/Activity;)V
 
     :cond_0
-    invoke-super {p0, p1, p2}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onKeyDown(ILandroid/view/KeyEvent;)Z
+    invoke-super {p0, p1, p2}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
     move-result p1
 
@@ -424,7 +424,7 @@
 .method protected onNewIntent(Landroid/content/Intent;)V
     .locals 0
 
-    invoke-super {p0, p1}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onNewIntent(Landroid/content/Intent;)V
+    invoke-super {p0, p1}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onNewIntent(Landroid/content/Intent;)V
 
     invoke-direct {p0}, Lcom/jakex/makeup/startup/ad/StartupAdActivity;->a()V
 
@@ -434,7 +434,7 @@
 .method protected onPause()V
     .locals 1
 
-    invoke-super {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onPause()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onPause()V
 
     const/4 v0, 0x1
 
@@ -446,7 +446,7 @@
 .method protected onResume()V
     .locals 1
 
-    invoke-super {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onResume()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onResume()V
 
     iget-boolean v0, p0, Lcom/jakex/makeup/startup/ad/StartupAdActivity;->k:Z
 

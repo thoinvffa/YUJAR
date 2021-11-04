@@ -2,7 +2,7 @@
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lcom/jakex/makeupcore/b/d$a;
+.implements Lcom/jakex/ymluxscore/b/d$a;
 
 
 # annotations
@@ -38,7 +38,7 @@
 
     const-wide/16 v0, 0x1f4
 
-    invoke-static {v0, v1}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->a(J)Z
+    invoke-static {v0, v1}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->a(J)Z
 
     move-result p1
 
@@ -82,7 +82,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1, p2}, Lcom/jakex/makeupcore/widget/recyclerview/a;->a(Landroidx/recyclerview/widget/LinearLayoutManager;Landroidx/recyclerview/widget/RecyclerView;I)V
+    invoke-static {v0, v1, p2}, Lcom/jakex/ymluxscore/widget/recyclerview/a;->a(Landroidx/recyclerview/widget/LinearLayoutManager;Landroidx/recyclerview/widget/RecyclerView;I)V
 
     iget-object p2, p0, Lcom/jakex/makeupassistant/share/AssistantAnalysisShareFragment$2;->a:Lcom/jakex/makeupassistant/share/AssistantAnalysisShareFragment;
 

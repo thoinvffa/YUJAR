@@ -114,7 +114,7 @@
 
     iput-boolean v0, p0, Lcom/jakex/makeupsenior/model/BeautyFaceLiftManager;->f:Z
 
-    invoke-static {}, Lcom/jakex/makeupcore/a/a;->f()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/a/a;->f()Z
 
     move-result v0
 
@@ -801,7 +801,7 @@
 .method private v()Z
     .locals 1
 
-    invoke-static {}, Lcom/jakex/makeupcore/j/a;->c()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/j/a;->c()Z
 
     move-result v0
 
@@ -1274,7 +1274,7 @@
 
     check-cast v5, Ljava/lang/Integer;
 
-    invoke-static {v5}, Lcom/jakex/makeupcore/util/bj;->a(Ljava/lang/Integer;)I
+    invoke-static {v5}, Lcom/jakex/ymluxscore/util/bj;->a(Ljava/lang/Integer;)I
 
     move-result v5
 

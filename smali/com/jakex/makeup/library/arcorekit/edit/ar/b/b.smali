@@ -11,7 +11,7 @@
 
 
 # instance fields
-.field private a:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+.field private a:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
 
 # direct methods
@@ -20,11 +20,11 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    new-instance v0, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    new-instance v0, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
-    invoke-direct {v0}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;-><init>()V
+    invoke-direct {v0}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;-><init>()V
 
-    iput-object v0, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/b/b;->a:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iput-object v0, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/b/b;->a:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
     invoke-static {}, Lcom/jakex/makeup/library/arcorekit/a;->a()Landroid/content/Context;
 
@@ -32,12 +32,12 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {v0}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelGlobalInterfaceJNI;->setContext(Landroid/content/Context;)V
+    invoke-static {v0}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelGlobalInterfaceJNI;->setContext(Landroid/content/Context;)V
 
     :cond_0
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/b/b;->a:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/b/b;->a:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
-    invoke-virtual {v0}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->initializeWithNoOpenGLContext()V
+    invoke-virtual {v0}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->initializeWithNoOpenGLContext()V
 
     return-void
 .end method
@@ -62,7 +62,7 @@
 
 
 # virtual methods
-.method public a(Ljava/lang/String;Ljava/lang/String;Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/subtype/ARMouthType;)Lcom/jakex/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
+.method public a(Ljava/lang/String;Ljava/lang/String;Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/subtype/ARMouthType;)Lcom/jakex/ymlux/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
     .locals 2
 
     if-nez p3, :cond_0
@@ -77,35 +77,35 @@
     move-result p3
 
     :goto_0
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/b/b;->a:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/b/b;->a:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
     const-string v1, ""
 
-    invoke-virtual {v0, p1, p2, v1, p3}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->parserMTDataConfiguration(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)Lcom/jakex/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
+    invoke-virtual {v0, p1, p2, v1, p3}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->parserMTDataConfiguration(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)Lcom/jakex/ymlux/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public a(Ljava/lang/String;)Lcom/jakex/mtlab/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;
+.method public a(Ljava/lang/String;)Lcom/jakex/ymlux/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/b/b;->a:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/b/b;->a:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
-    invoke-virtual {v0, p1}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->parserMakeupPartColorConfiguration(Ljava/lang/String;)Lcom/jakex/mtlab/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;
+    invoke-virtual {v0, p1}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->parserMakeupPartColorConfiguration(Ljava/lang/String;)Lcom/jakex/ymlux/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public a(Lcom/jakex/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;)V
+.method public a(Lcom/jakex/ymlux/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;)V
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/b/b;->a:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/b/b;->a:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
-    invoke-virtual {v0, p1}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->deleteConfiguration(Lcom/jakex/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;)V
+    invoke-virtual {v0, p1}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->deleteConfiguration(Lcom/jakex/ymlux/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;)V
 
     return-void
 .end method
@@ -114,9 +114,9 @@
     .locals 1
 
     :try_start_0
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/b/b;->a:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/b/b;->a:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
-    invoke-virtual {v0}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->release()V
+    invoke-virtual {v0}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->release()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 

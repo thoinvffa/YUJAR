@@ -38,11 +38,11 @@
 
     iget-object p1, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity$1;->a:Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;
 
-    invoke-static {p1}, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->a(Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;)Lcom/jakex/makeupcore/webview/a;
+    invoke-static {p1}, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->a(Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;)Lcom/jakex/ymluxscore/webview/a;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/webview/a;->b()Z
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/webview/a;->b()Z
 
     move-result p1
 

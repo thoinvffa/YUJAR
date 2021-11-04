@@ -24,7 +24,7 @@
 
 .field private D:Lcom/jakex/makeup/library/arcorekit/b/a;
 
-.field private E:Lcom/jakex/mtlab/arkernelinterface/callback/ARKernelCallback;
+.field private E:Lcom/jakex/ymlux/arkernelinterface/callback/ARKernelCallback;
 
 .field private F:Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/n;
 
@@ -32,19 +32,19 @@
 
 .field private final b:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-.field private c:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+.field private c:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
 .field private d:Lcom/jakex/makeup/library/arcorekit/edit/ar/b/a;
 
-.field private e:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFaceInterfaceJNI;
+.field private e:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFaceInterfaceJNI;
 
-.field private f:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelImageDataInterfaceJNI;
+.field private f:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelImageDataInterfaceJNI;
 
-.field private g:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelPreviewDataInterfaceJNI;
+.field private g:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelPreviewDataInterfaceJNI;
 
-.field private h:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;
+.field private h:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;
 
-.field private i:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelTextureDataInterfaceJNI;
+.field private i:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelTextureDataInterfaceJNI;
 
 .field private final j:Ljava/lang/Object;
 
@@ -188,11 +188,11 @@
 .method private a(Landroid/content/Context;)V
     .locals 1
 
-    new-instance v0, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    new-instance v0, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
-    invoke-direct {v0}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;-><init>()V
+    invoke-direct {v0}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;-><init>()V
 
-    iput-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iput-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
     new-instance v0, Lcom/jakex/makeup/library/arcorekit/edit/ar/b/a;
 
@@ -200,11 +200,11 @@
 
     iput-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->d:Lcom/jakex/makeup/library/arcorekit/edit/ar/b/a;
 
-    new-instance v0, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFaceInterfaceJNI;
+    new-instance v0, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFaceInterfaceJNI;
 
-    invoke-direct {v0}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFaceInterfaceJNI;-><init>()V
+    invoke-direct {v0}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFaceInterfaceJNI;-><init>()V
 
-    iput-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->e:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFaceInterfaceJNI;
+    iput-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->e:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFaceInterfaceJNI;
 
     new-instance v0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;
 
@@ -212,29 +212,29 @@
 
     iput-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->B:Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;
 
-    new-instance p1, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelImageDataInterfaceJNI;
+    new-instance p1, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelImageDataInterfaceJNI;
 
-    invoke-direct {p1}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelImageDataInterfaceJNI;-><init>()V
+    invoke-direct {p1}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelImageDataInterfaceJNI;-><init>()V
 
-    iput-object p1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->f:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelImageDataInterfaceJNI;
+    iput-object p1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->f:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelImageDataInterfaceJNI;
 
-    new-instance p1, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelPreviewDataInterfaceJNI;
+    new-instance p1, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelPreviewDataInterfaceJNI;
 
-    invoke-direct {p1}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelPreviewDataInterfaceJNI;-><init>()V
+    invoke-direct {p1}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelPreviewDataInterfaceJNI;-><init>()V
 
-    iput-object p1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->g:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelPreviewDataInterfaceJNI;
+    iput-object p1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->g:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelPreviewDataInterfaceJNI;
 
-    new-instance p1, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;
+    new-instance p1, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;
 
-    invoke-direct {p1}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;-><init>()V
+    invoke-direct {p1}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;-><init>()V
 
-    iput-object p1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->h:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;
+    iput-object p1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->h:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;
 
-    new-instance p1, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelTextureDataInterfaceJNI;
+    new-instance p1, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelTextureDataInterfaceJNI;
 
-    invoke-direct {p1}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelTextureDataInterfaceJNI;-><init>()V
+    invoke-direct {p1}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelTextureDataInterfaceJNI;-><init>()V
 
-    iput-object p1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->i:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelTextureDataInterfaceJNI;
+    iput-object p1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->i:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelTextureDataInterfaceJNI;
 
     return-void
 .end method
@@ -244,13 +244,13 @@
 
     new-instance v0, Lcom/jakex/makeup/library/arcorekit/edit/ar/e;
 
-    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
     new-instance v2, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b$1;
 
     invoke-direct {v2, p0}, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b$1;-><init>(Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;)V
 
-    invoke-direct {v0, v1, v2, p1}, Lcom/jakex/makeup/library/arcorekit/edit/ar/e;-><init>(Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;Lcom/jakex/makeup/library/arcorekit/d;Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/c/a;)V
+    invoke-direct {v0, v1, v2, p1}, Lcom/jakex/makeup/library/arcorekit/edit/ar/e;-><init>(Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;Lcom/jakex/makeup/library/arcorekit/d;Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/c/a;)V
 
     iput-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->w:Lcom/jakex/makeup/library/arcorekit/edit/ar/e;
 
@@ -266,7 +266,7 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->f:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelImageDataInterfaceJNI;
+    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->f:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelImageDataInterfaceJNI;
 
     invoke-static {p1}, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b$a;->b(Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b$a;)I
 
@@ -296,7 +296,7 @@
 
     move-result v8
 
-    invoke-virtual/range {v1 .. v8}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelImageDataInterfaceJNI;->pushImageDataWithByteBuffer(IILjava/nio/ByteBuffer;IIII)I
+    invoke-virtual/range {v1 .. v8}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelImageDataInterfaceJNI;->pushImageDataWithByteBuffer(IILjava/nio/ByteBuffer;IIII)I
 
     goto :goto_0
 
@@ -307,7 +307,7 @@
 
     if-eqz v0, :cond_1
 
-    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->f:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelImageDataInterfaceJNI;
+    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->f:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelImageDataInterfaceJNI;
 
     invoke-static {p1}, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b$a;->b(Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b$a;)I
 
@@ -337,7 +337,7 @@
 
     move-result v8
 
-    invoke-virtual/range {v1 .. v8}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelImageDataInterfaceJNI;->pushImageData(II[BIIII)I
+    invoke-virtual/range {v1 .. v8}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelImageDataInterfaceJNI;->pushImageData(II[BIIII)I
 
     :cond_1
     :goto_0
@@ -529,10 +529,10 @@
     return-object p0
 .end method
 
-.method static synthetic e(Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;)Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+.method static synthetic e(Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;)Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
     .locals 0
 
-    iget-object p0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object p0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
     return-object p0
 .end method
@@ -556,11 +556,11 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->i:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelTextureDataInterfaceJNI;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->i:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelTextureDataInterfaceJNI;
 
     const/4 v1, 0x7
 
-    invoke-virtual {v0, v1, p1, p2, p3}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelTextureDataInterfaceJNI;->pushTextureData(IIII)I
+    invoke-virtual {v0, v1, p1, p2, p3}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelTextureDataInterfaceJNI;->pushTextureData(IIII)I
 
     :cond_0
     return-void
@@ -583,13 +583,13 @@
 
     invoke-static {v1}, Lcom/jakex/makeup/library/opengl/b/b;->a(Z)V
 
-    invoke-static {v0}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelGlobalInterfaceJNI;->setContext(Landroid/content/Context;)V
+    invoke-static {v0}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelGlobalInterfaceJNI;->setContext(Landroid/content/Context;)V
 
     const-string v2, "ARKernelBuiltin"
 
     const/4 v3, 0x0
 
-    invoke-static {v2, v3}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelGlobalInterfaceJNI;->setDirectory(Ljava/lang/String;I)V
+    invoke-static {v2, v3}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelGlobalInterfaceJNI;->setDirectory(Ljava/lang/String;I)V
 
     if-eqz v1, :cond_0
 
@@ -599,7 +599,7 @@
     const/4 v3, 0x7
 
     :goto_0
-    invoke-static {v3}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelGlobalInterfaceJNI;->setInternalLogLevel(I)V
+    invoke-static {v3}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelGlobalInterfaceJNI;->setInternalLogLevel(I)V
 
     const/4 v1, 0x1
 
@@ -614,29 +614,29 @@
 .method private o()V
     .locals 3
 
-    invoke-static {}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelGlobalInterfaceJNI;->startSoundService()Z
+    invoke-static {}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelGlobalInterfaceJNI;->startSoundService()Z
 
     move-result v0
 
-    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
     const/4 v2, 0x3
 
-    invoke-virtual {v1, v2, v0}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->setOption(IZ)V
+    invoke-virtual {v1, v2, v0}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->setOption(IZ)V
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
     iget v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->v:F
 
-    invoke-virtual {v0, v1}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->setMusicVolume(F)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->setMusicVolume(F)V
 
     return-void
 .end method
 
-.method private p()Lcom/jakex/mtlab/arkernelinterface/callback/ARKernelCallback;
+.method private p()Lcom/jakex/ymlux/arkernelinterface/callback/ARKernelCallback;
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->E:Lcom/jakex/mtlab/arkernelinterface/callback/ARKernelCallback;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->E:Lcom/jakex/ymlux/arkernelinterface/callback/ARKernelCallback;
 
     if-nez v0, :cond_0
 
@@ -644,10 +644,10 @@
 
     invoke-direct {v0, p0}, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b$3;-><init>(Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;)V
 
-    iput-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->E:Lcom/jakex/mtlab/arkernelinterface/callback/ARKernelCallback;
+    iput-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->E:Lcom/jakex/ymlux/arkernelinterface/callback/ARKernelCallback;
 
     :cond_0
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->E:Lcom/jakex/mtlab/arkernelinterface/callback/ARKernelCallback;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->E:Lcom/jakex/ymlux/arkernelinterface/callback/ARKernelCallback;
 
     return-object v0
 .end method
@@ -686,11 +686,11 @@
     invoke-direct {p0, v0}, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->a(Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b$a;)V
 
     :cond_2
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->g:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelPreviewDataInterfaceJNI;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->g:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelPreviewDataInterfaceJNI;
 
-    invoke-virtual {v0, p5, p6}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelPreviewDataInterfaceJNI;->setPreviewSize(II)V
+    invoke-virtual {v0, p5, p6}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelPreviewDataInterfaceJNI;->setPreviewSize(II)V
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->g:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelPreviewDataInterfaceJNI;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->g:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelPreviewDataInterfaceJNI;
 
     iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->q:Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b$b;
 
@@ -700,25 +700,25 @@
 
     iget v2, v2, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b$b;->b:I
 
-    invoke-virtual {v0, v1, v2}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelPreviewDataInterfaceJNI;->setPreviewResolution(II)V
+    invoke-virtual {v0, v1, v2}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelPreviewDataInterfaceJNI;->setPreviewResolution(II)V
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->h:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->h:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;->setDataSourceType(I)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;->setDataSourceType(I)V
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->h:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->h:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;
 
     iget-boolean v2, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->o:Z
 
-    invoke-virtual {v0, v2}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;->setIsFrontCamera(Z)V
+    invoke-virtual {v0, v2}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;->setIsFrontCamera(Z)V
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->h:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->h:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;
 
     iget v2, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->p:I
 
-    invoke-virtual {v0, v2}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;->setDeviceOrientationType(I)V
+    invoke-virtual {v0, v2}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;->setDeviceOrientationType(I)V
 
     iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->n:Ljava/util/concurrent/atomic/AtomicReference;
 
@@ -730,7 +730,7 @@
 
     if-eqz v0, :cond_3
 
-    iget-object v2, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->h:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;
+    iget-object v2, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->h:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;
 
     aget v1, v0, v1
 
@@ -746,14 +746,14 @@
 
     aget v0, v0, v7
 
-    invoke-virtual {v2, v1, v5, v6, v0}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;->setGyroscopeQuaternionData(FFFF)V
+    invoke-virtual {v2, v1, v5, v6, v0}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;->setGyroscopeQuaternionData(FFFF)V
 
     :cond_3
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
     const/16 v1, 0xf
 
-    invoke-virtual {v0, v1}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->needDataRequireType(I)Z
+    invoke-virtual {v0, v1}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->needDataRequireType(I)Z
 
     move-result v0
 
@@ -768,19 +768,19 @@
     invoke-virtual {v0, v1, p5, p6, v2}, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->a(Lcom/jakex/makeup/library/arcorekit/b/a;IIZ)V
 
     :cond_4
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
     const/16 v1, 0xe
 
-    invoke-virtual {v0, v1}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->needDataRequireType(I)Z
+    invoke-virtual {v0, v1}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->needDataRequireType(I)Z
 
     move-result v0
 
-    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
     const/16 v2, 0x24
 
-    invoke-virtual {v1, v2}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->needDataRequireType(I)Z
+    invoke-virtual {v1, v2}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->needDataRequireType(I)Z
 
     move-result v1
 
@@ -790,15 +790,15 @@
 
     iget-object v2, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->D:Lcom/jakex/makeup/library/arcorekit/b/a;
 
-    invoke-virtual {v0, v2}, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->a(Lcom/jakex/makeup/library/arcorekit/b/a;)Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
+    invoke-virtual {v0, v2}, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->a(Lcom/jakex/makeup/library/arcorekit/b/a;)Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
 
     move-result-object v0
 
     if-eqz v0, :cond_5
 
-    iget-object v2, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object v2, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
-    invoke-virtual {v2, v0}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->setNativeData(Lcom/jakex/mtlab/arkernelinterface/core/ARKernelBaseDataInterfaceClass;)V
+    invoke-virtual {v2, v0}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->setNativeData(Lcom/jakex/ymlux/arkernelinterface/core/ARKernelBaseDataInterfaceClass;)V
 
     :cond_5
     if-eqz v1, :cond_6
@@ -807,54 +807,54 @@
 
     iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->D:Lcom/jakex/makeup/library/arcorekit/b/a;
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->b(Lcom/jakex/makeup/library/arcorekit/b/a;)Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
+    invoke-virtual {v0, v1}, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/a;->b(Lcom/jakex/makeup/library/arcorekit/b/a;)Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFace2DReconstructorInterfaceJNI;
 
     move-result-object v0
 
     if-eqz v0, :cond_6
 
-    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
-    invoke-virtual {v1, v0}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->setNativeData(Lcom/jakex/mtlab/arkernelinterface/core/ARKernelBaseDataInterfaceClass;)V
+    invoke-virtual {v1, v0}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->setNativeData(Lcom/jakex/ymlux/arkernelinterface/core/ARKernelBaseDataInterfaceClass;)V
 
     :cond_6
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
-    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->f:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelImageDataInterfaceJNI;
+    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->f:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelImageDataInterfaceJNI;
 
-    invoke-virtual {v0, v1}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->setNativeData(Lcom/jakex/mtlab/arkernelinterface/core/ARKernelBaseDataInterfaceClass;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->setNativeData(Lcom/jakex/ymlux/arkernelinterface/core/ARKernelBaseDataInterfaceClass;)V
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
-    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->g:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelPreviewDataInterfaceJNI;
+    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->g:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelPreviewDataInterfaceJNI;
 
-    invoke-virtual {v0, v1}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->setNativeData(Lcom/jakex/mtlab/arkernelinterface/core/ARKernelBaseDataInterfaceClass;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->setNativeData(Lcom/jakex/ymlux/arkernelinterface/core/ARKernelBaseDataInterfaceClass;)V
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
-    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->i:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelTextureDataInterfaceJNI;
+    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->i:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelTextureDataInterfaceJNI;
 
-    invoke-virtual {v0, v1}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->setNativeData(Lcom/jakex/mtlab/arkernelinterface/core/ARKernelBaseDataInterfaceClass;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->setNativeData(Lcom/jakex/ymlux/arkernelinterface/core/ARKernelBaseDataInterfaceClass;)V
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
-    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->h:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;
+    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->h:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;
 
-    invoke-virtual {v0, v1}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->setNativeData(Lcom/jakex/mtlab/arkernelinterface/core/ARKernelBaseDataInterfaceClass;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->setNativeData(Lcom/jakex/ymlux/arkernelinterface/core/ARKernelBaseDataInterfaceClass;)V
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
-    invoke-virtual {v0}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->updateCacheData()V
+    invoke-virtual {v0}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->updateCacheData()V
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
     const/4 v1, 0x5
 
     iget-boolean v2, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->x:Z
 
-    invoke-virtual {v0, v1, v2}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->setOption(IZ)V
+    invoke-virtual {v0, v1, v2}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->setOption(IZ)V
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
     move v1, p3
 
@@ -868,15 +868,15 @@
 
     move v6, p2
 
-    invoke-virtual/range {v0 .. v6}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->onDrawFrame(IIIIII)Z
+    invoke-virtual/range {v0 .. v6}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->onDrawFrame(IIIIII)Z
 
     move-result v0
 
     if-eqz v0, :cond_7
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
-    invoke-virtual {v0}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->getResult()I
+    invoke-virtual {v0}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->getResult()I
 
     move-result v0
 
@@ -886,21 +886,21 @@
     move v0, p3
 
     :goto_0
-    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->f:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelImageDataInterfaceJNI;
+    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->f:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelImageDataInterfaceJNI;
 
-    invoke-virtual {v1}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelImageDataInterfaceJNI;->reset()V
+    invoke-virtual {v1}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelImageDataInterfaceJNI;->reset()V
 
-    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->g:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelPreviewDataInterfaceJNI;
+    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->g:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelPreviewDataInterfaceJNI;
 
-    invoke-virtual {v1}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelPreviewDataInterfaceJNI;->reset()V
+    invoke-virtual {v1}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelPreviewDataInterfaceJNI;->reset()V
 
-    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->i:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelTextureDataInterfaceJNI;
+    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->i:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelTextureDataInterfaceJNI;
 
-    invoke-virtual {v1}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelTextureDataInterfaceJNI;->reset()V
+    invoke-virtual {v1}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelTextureDataInterfaceJNI;->reset()V
 
-    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->h:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;
+    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->h:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;
 
-    invoke-virtual {v1}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;->reset()V
+    invoke-virtual {v1}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelAugmentedRealityDataInterfaceJNI;->reset()V
 
     return v0
 .end method
@@ -913,17 +913,17 @@
     monitor-enter v0
 
     :try_start_0
-    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
-    invoke-direct {p0}, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->p()Lcom/jakex/mtlab/arkernelinterface/callback/ARKernelCallback;
+    invoke-direct {p0}, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->p()Lcom/jakex/ymlux/arkernelinterface/callback/ARKernelCallback;
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->setCallbackObject(Lcom/jakex/mtlab/arkernelinterface/callback/ARKernelCallback;)V
+    invoke-virtual {v1, v2}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->setCallbackObject(Lcom/jakex/ymlux/arkernelinterface/callback/ARKernelCallback;)V
 
-    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
-    invoke-virtual {v1}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->initialize()V
+    invoke-virtual {v1}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->initialize()V
 
     iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->F:Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/n;
 
@@ -951,9 +951,9 @@
     if-eqz v4, :cond_0
 
     :try_start_1
-    iget-object v5, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object v5, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
-    invoke-virtual {v5, v4}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->loadPublicParamConfiguration(Ljava/lang/String;)Z
+    invoke-virtual {v5, v4}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->loadPublicParamConfiguration(Ljava/lang/String;)Z
 
     :cond_0
     add-int/lit8 v3, v3, 0x1
@@ -1035,9 +1035,9 @@
 
     move-result p2
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
-    invoke-virtual {v0, p1, p2, p3}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->onTouchBegin(FFI)V
+    invoke-virtual {v0, p1, p2, p3}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->onTouchBegin(FFI)V
 
     return-void
 .end method
@@ -1117,19 +1117,19 @@
 
     iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->d:Lcom/jakex/makeup/library/arcorekit/edit/ar/b/a;
 
-    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->e:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFaceInterfaceJNI;
+    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->e:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFaceInterfaceJNI;
 
-    invoke-virtual {v0, p1, v1}, Lcom/jakex/makeup/library/arcorekit/edit/ar/b/a;->a(Lcom/jakex/makeup/library/arcorekit/b/a;Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFaceInterfaceJNI;)Z
+    invoke-virtual {v0, p1, v1}, Lcom/jakex/makeup/library/arcorekit/edit/ar/b/a;->a(Lcom/jakex/makeup/library/arcorekit/b/a;Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFaceInterfaceJNI;)Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    iget-object p1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object p1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->e:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFaceInterfaceJNI;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->e:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFaceInterfaceJNI;
 
-    invoke-virtual {p1, v0}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->setNativeData(Lcom/jakex/mtlab/arkernelinterface/core/ARKernelBaseDataInterfaceClass;)V
+    invoke-virtual {p1, v0}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->setNativeData(Lcom/jakex/ymlux/arkernelinterface/core/ARKernelBaseDataInterfaceClass;)V
 
     :cond_0
     return-void
@@ -1233,7 +1233,7 @@
 
     iput p2, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->p:I
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->f:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelImageDataInterfaceJNI;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->f:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelImageDataInterfaceJNI;
 
     move-object v1, p4
 
@@ -1245,7 +1245,7 @@
 
     move v5, p7
 
-    invoke-virtual/range {v0 .. v5}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelImageDataInterfaceJNI;->pushSourceGrayImageData([BIIII)I
+    invoke-virtual/range {v0 .. v5}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelImageDataInterfaceJNI;->pushSourceGrayImageData([BIIII)I
 
     move-result p3
 
@@ -1253,7 +1253,7 @@
 
     if-eq p3, p2, :cond_0
 
-    iget-object p2, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->f:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelImageDataInterfaceJNI;
+    iget-object p2, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->f:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelImageDataInterfaceJNI;
 
     iget-object p4, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->k:Landroid/graphics/Rect;
 
@@ -1275,12 +1275,12 @@
 
     move-result p7
 
-    invoke-virtual/range {p2 .. p7}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelImageDataInterfaceJNI;->setImageValidRect(IIIII)V
+    invoke-virtual/range {p2 .. p7}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelImageDataInterfaceJNI;->setImageValidRect(IIIII)V
 
     :cond_0
-    iget-object p2, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->g:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelPreviewDataInterfaceJNI;
+    iget-object p2, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->g:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelPreviewDataInterfaceJNI;
 
-    invoke-virtual {p2, p1}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelPreviewDataInterfaceJNI;->setIsCaptureFrame(Z)V
+    invoke-virtual {p2, p1}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelPreviewDataInterfaceJNI;->setIsCaptureFrame(Z)V
 
     :cond_1
     return-void
@@ -1317,9 +1317,9 @@
     monitor-enter v0
 
     :try_start_0
-    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
-    invoke-virtual {v1}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->clearCallbackObject()V
+    invoke-virtual {v1}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->clearCallbackObject()V
 
     iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->b:Ljava/util/concurrent/atomic/AtomicBoolean;
 
@@ -1331,11 +1331,11 @@
 
     invoke-virtual {v1}, Lcom/jakex/makeup/library/arcorekit/edit/ar/e;->c()V
 
-    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object v1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
-    invoke-virtual {v1}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->release()V
+    invoke-virtual {v1}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->release()V
 
-    invoke-static {}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelGlobalInterfaceJNI;->stopSoundService()V
+    invoke-static {}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelGlobalInterfaceJNI;->stopSoundService()V
 
     const/4 v1, 0x0
 
@@ -1387,9 +1387,9 @@
 
     move-result p2
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
-    invoke-virtual {v0, p1, p2, p3}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->onTouchMove(FFI)V
+    invoke-virtual {v0, p1, p2, p3}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->onTouchMove(FFI)V
 
     return-void
 .end method
@@ -1442,9 +1442,9 @@
 
     move-result p2
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
-    invoke-virtual {v0, p1, p2, p3}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->onTouchEnd(FFI)V
+    invoke-virtual {v0, p1, p2, p3}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->onTouchEnd(FFI)V
 
     return-void
 .end method
@@ -1460,11 +1460,11 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->i:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelTextureDataInterfaceJNI;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->i:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelTextureDataInterfaceJNI;
 
     const/4 v1, 0x2
 
-    invoke-virtual {v0, v1, p1, p2, p3}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelTextureDataInterfaceJNI;->pushTextureData(IIII)I
+    invoke-virtual {v0, v1, p1, p2, p3}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelTextureDataInterfaceJNI;->pushTextureData(IIII)I
 
     :cond_0
     return-void
@@ -1497,15 +1497,15 @@
     goto :goto_0
 
     :cond_1
-    invoke-static {}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelGlobalInterfaceJNI;->stopSoundService()V
+    invoke-static {}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelGlobalInterfaceJNI;->stopSoundService()V
 
-    iget-object p1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object p1, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
     const/4 v0, 0x3
 
     const/4 v1, 0x0
 
-    invoke-virtual {p1, v0, v1}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->setOption(IZ)V
+    invoke-virtual {p1, v0, v1}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->setOption(IZ)V
 
     :cond_2
     :goto_0
@@ -1523,11 +1523,11 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->i:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelTextureDataInterfaceJNI;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->i:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelTextureDataInterfaceJNI;
 
     const/4 v1, 0x3
 
-    invoke-virtual {v0, v1, p1, p2, p3}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelTextureDataInterfaceJNI;->pushTextureData(IIII)I
+    invoke-virtual {v0, v1, p1, p2, p3}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelTextureDataInterfaceJNI;->pushTextureData(IIII)I
 
     :cond_0
     return-void
@@ -1546,11 +1546,11 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
     const/4 v1, 0x6
 
-    invoke-virtual {v0, v1, p1}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->setOption(IZ)V
+    invoke-virtual {v0, v1, p1}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->setOption(IZ)V
 
     :cond_0
     return-void
@@ -1598,11 +1598,11 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->i:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelTextureDataInterfaceJNI;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->i:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelTextureDataInterfaceJNI;
 
     const/4 v1, 0x4
 
-    invoke-virtual {v0, v1, p1, p2, p3}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelTextureDataInterfaceJNI;->pushTextureData(IIII)I
+    invoke-virtual {v0, v1, p1, p2, p3}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelTextureDataInterfaceJNI;->pushTextureData(IIII)I
 
     :cond_0
     return-void
@@ -1655,11 +1655,11 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->c:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
     const/4 v1, 0x7
 
-    invoke-virtual {v0, v1}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->needDataRequireType(I)Z
+    invoke-virtual {v0, v1}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->needDataRequireType(I)Z
 
     move-result v0
 

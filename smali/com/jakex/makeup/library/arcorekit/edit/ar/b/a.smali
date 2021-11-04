@@ -79,7 +79,7 @@
     return p1
 .end method
 
-.method public a(Lcom/jakex/makeup/library/arcorekit/b/a;Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFaceInterfaceJNI;)Z
+.method public a(Lcom/jakex/makeup/library/arcorekit/b/a;Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFaceInterfaceJNI;)Z
     .locals 10
 
     const/4 v0, 0x0
@@ -102,7 +102,7 @@
     :cond_1
     array-length v1, p1
 
-    invoke-virtual {p2, v1}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFaceInterfaceJNI;->setFaceCount(I)V
+    invoke-virtual {p2, v1}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFaceInterfaceJNI;->setFaceCount(I)V
 
     const/4 v1, 0x0
 
@@ -119,7 +119,7 @@
 
     move-result v2
 
-    invoke-virtual {p2, v1, v2}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFaceInterfaceJNI;->setFaceID(II)V
+    invoke-virtual {p2, v1, v2}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFaceInterfaceJNI;->setFaceID(II)V
 
     invoke-virtual {v9}, Lcom/jakex/makeup/library/arcorekit/b/a$a;->b()Landroid/graphics/RectF;
 
@@ -141,7 +141,7 @@
 
     move v3, v1
 
-    invoke-virtual/range {v2 .. v7}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFaceInterfaceJNI;->setFaceRect(IFFFF)V
+    invoke-virtual/range {v2 .. v7}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFaceInterfaceJNI;->setFaceRect(IFFFF)V
 
     invoke-virtual {v9}, Lcom/jakex/makeup/library/arcorekit/b/a$a;->c()[Landroid/graphics/PointF;
 
@@ -149,7 +149,7 @@
 
     array-length v3, v2
 
-    invoke-virtual {p2, v1, v3}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFaceInterfaceJNI;->setPointCount2D(II)V
+    invoke-virtual {p2, v1, v3}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFaceInterfaceJNI;->setPointCount2D(II)V
 
     array-length v3, v2
 
@@ -213,14 +213,14 @@
     :cond_4
     iget-object v2, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/b/a;->a:[F
 
-    invoke-virtual {p2, v1, v2}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFaceInterfaceJNI;->setFacialLandmark2D(I[F)V
+    invoke-virtual {p2, v1, v2}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFaceInterfaceJNI;->setFacialLandmark2D(I[F)V
 
     :cond_5
     invoke-virtual {v9}, Lcom/jakex/makeup/library/arcorekit/b/a$a;->f()I
 
     move-result v2
 
-    invoke-virtual {p2, v1, v2}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFaceInterfaceJNI;->setAge(II)V
+    invoke-virtual {p2, v1, v2}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFaceInterfaceJNI;->setAge(II)V
 
     invoke-virtual {v9}, Lcom/jakex/makeup/library/arcorekit/b/a$a;->g()I
 
@@ -239,7 +239,7 @@
 
     :cond_7
     :goto_2
-    invoke-virtual {p2, v1, v8}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelFaceInterfaceJNI;->setGender(II)V
+    invoke-virtual {p2, v1, v8}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelFaceInterfaceJNI;->setGender(II)V
 
     add-int/lit8 v1, v1, 0x1
 

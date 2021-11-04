@@ -1,5 +1,5 @@
 .class Lcom/jakex/makeupalbum/activity/AlbumActivity$b;
-.super Lcom/jakex/makeupcore/util/bm;
+.super Lcom/jakex/ymluxscore/util/bm;
 
 
 # annotations
@@ -14,7 +14,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupcore/util/bm<",
+        "Lcom/jakex/ymluxscore/util/bm<",
         "Lcom/jakex/makeupalbum/activity/AlbumActivity;",
         "Ljava/lang/Void;",
         "Ljava/lang/Void;",
@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/jakex/makeupalbum/activity/AlbumActivity;Landroid/net/Uri;IZ)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupcore/util/bm;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscore/util/bm;-><init>(Ljava/lang/Object;)V
 
     iput-object p2, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity$b;->a:Landroid/net/Uri;
 
@@ -218,7 +218,7 @@
 
     sget p1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$string;->picture_read_fail:I
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/widget/a/a;->a(I)V
+    invoke-static {p1}, Lcom/jakex/ymluxscore/widget/a/a;->a(I)V
 
     return-void
 

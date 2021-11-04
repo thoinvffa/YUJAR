@@ -60,18 +60,18 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/widget/a/a;->a(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/jakex/ymluxscore/widget/a/a;->a(Ljava/lang/String;)V
 
     return-void
 
     :cond_0
     iget-object p1, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity$2;->a:Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;
 
-    invoke-static {p1}, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->a(Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;)Lcom/jakex/makeupcore/webview/a;
+    invoke-static {p1}, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->a(Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;)Lcom/jakex/ymluxscore/webview/a;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/webview/a;->a()V
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/webview/a;->a()V
 
     return-void
 .end method

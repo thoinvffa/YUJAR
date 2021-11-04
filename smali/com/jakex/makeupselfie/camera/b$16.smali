@@ -1,4 +1,4 @@
-.class Lcom/jakex/makeupselfie/camera/b$16;
+.class Lcom/jakex/ymluxscoresf/camera/b$16;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -7,7 +7,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/jakex/makeupselfie/camera/b;
+    value = Lcom/jakex/ymluxscoresf/camera/b;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,14 +17,14 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/jakex/makeupselfie/camera/b;
+.field final synthetic a:Lcom/jakex/ymluxscoresf/camera/b;
 
 
 # direct methods
-.method constructor <init>(Lcom/jakex/makeupselfie/camera/b;)V
+.method constructor <init>(Lcom/jakex/ymluxscoresf/camera/b;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/camera/b$16;->a:Lcom/jakex/makeupselfie/camera/b;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/camera/b$16;->a:Lcom/jakex/ymluxscoresf/camera/b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -51,9 +51,9 @@
 
     invoke-virtual {v0, p1, p2, p3}, Lcom/jakex/makeupcamera/statistics/a;->a(JLjava/util/Map;)V
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/b$16;->a:Lcom/jakex/makeupselfie/camera/b;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/b$16;->a:Lcom/jakex/ymluxscoresf/camera/b;
 
-    invoke-static {p1}, Lcom/jakex/makeupselfie/camera/b;->I(Lcom/jakex/makeupselfie/camera/b;)Lcom/jakex/makeup/library/camerakit/a/i;
+    invoke-static {p1}, Lcom/jakex/ymluxscoresf/camera/b;->I(Lcom/jakex/ymluxscoresf/camera/b;)Lcom/jakex/makeup/library/camerakit/a/i;
 
     move-result-object p1
 

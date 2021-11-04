@@ -58,19 +58,19 @@
 
     invoke-virtual {v1, p1, v0}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    new-instance p1, Lcom/jakex/makeupeditor/b/a/a/b;
+    new-instance p1, Lcom/jakex/ymluxseditor/b/a/a/b;
 
-    invoke-direct {p1}, Lcom/jakex/makeupeditor/b/a/a/b;-><init>()V
+    invoke-direct {p1}, Lcom/jakex/ymluxseditor/b/a/a/b;-><init>()V
 
     const/4 v1, 0x0
 
-    invoke-virtual {p1, v1}, Lcom/jakex/makeupeditor/b/a/a/b;->a(Ljava/lang/Void;)Lcom/jakex/makeupeditor/b/a/c;
+    invoke-virtual {p1, v1}, Lcom/jakex/ymluxseditor/b/a/a/b;->a(Ljava/lang/Void;)Lcom/jakex/ymluxseditor/b/a/c;
 
     move-result-object p1
 
     if-eqz p1, :cond_2
 
-    invoke-virtual {p1}, Lcom/jakex/makeupeditor/b/a/c;->a()Ljava/util/List;
+    invoke-virtual {p1}, Lcom/jakex/ymluxseditor/b/a/c;->a()Ljava/util/List;
 
     move-result-object p1
 

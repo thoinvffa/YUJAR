@@ -548,7 +548,7 @@
 .method public static l()Z
     .locals 3
 
-    invoke-static {}, Lcom/jakex/makeupcore/j/a;->a()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/j/a;->a()Z
 
     move-result v0
 

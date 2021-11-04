@@ -1,12 +1,12 @@
-.class public Lcom/jakex/makeupselfie/save/d;
-.super Lcom/jakex/makeupcore/g/a;
+.class public Lcom/jakex/ymluxscoresf/save/d;
+.super Lcom/jakex/ymluxscore/g/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/jakex/makeupselfie/save/d$a;,
-        Lcom/jakex/makeupselfie/save/d$b;
+        Lcom/jakex/ymluxscoresf/save/d$a;,
+        Lcom/jakex/ymluxscoresf/save/d$b;
     }
 .end annotation
 
@@ -28,7 +28,7 @@
 
 .field private d:Landroidx/recyclerview/widget/RecyclerView;
 
-.field private e:Lcom/jakex/makeupcore/dialog/CommonAlertDialog;
+.field private e:Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;
 
 .field private f:Z
 
@@ -36,38 +36,38 @@
 
 .field private h:Lcom/jakex/makeupshare/statistics/SharePlatformStatistics$Module;
 
-.field private i:Lcom/jakex/makeupselfie/save/d$a;
+.field private i:Lcom/jakex/ymluxscoresf/save/d$a;
 
 
 # direct methods
 .method public constructor <init>()V
     .locals 1
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/g/a;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/g/a;-><init>()V
 
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/jakex/makeupselfie/save/d;->b:Lcom/jakex/makeupshare/d;
+    iput-object v0, p0, Lcom/jakex/ymluxscoresf/save/d;->b:Lcom/jakex/makeupshare/d;
 
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lcom/jakex/makeupselfie/save/d;->f:Z
+    iput-boolean v0, p0, Lcom/jakex/ymluxscoresf/save/d;->f:Z
 
     return-void
 .end method
 
-.method static synthetic a(Lcom/jakex/makeupselfie/save/d;)Lcom/jakex/makeupselfie/save/d$a;
+.method static synthetic a(Lcom/jakex/ymluxscoresf/save/d;)Lcom/jakex/ymluxscoresf/save/d$a;
     .locals 0
 
-    iget-object p0, p0, Lcom/jakex/makeupselfie/save/d;->i:Lcom/jakex/makeupselfie/save/d$a;
+    iget-object p0, p0, Lcom/jakex/ymluxscoresf/save/d;->i:Lcom/jakex/ymluxscoresf/save/d$a;
 
     return-object p0
 .end method
 
-.method static synthetic a(Lcom/jakex/makeupselfie/save/d;Lcom/jakex/makeupshare/platform/SharePlatform;)V
+.method static synthetic a(Lcom/jakex/ymluxscoresf/save/d;Lcom/jakex/makeupshare/platform/SharePlatform;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupselfie/save/d;->a(Lcom/jakex/makeupshare/platform/SharePlatform;)V
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscoresf/save/d;->a(Lcom/jakex/makeupshare/platform/SharePlatform;)V
 
     return-void
 .end method
@@ -80,7 +80,7 @@
     return-void
 
     :cond_0
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/save/d;->getActivity()Landroidx/fragment/app/FragmentActivity;
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/save/d;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v0
 
@@ -89,7 +89,7 @@
     return-void
 
     :cond_1
-    iget-object v0, p0, Lcom/jakex/makeupselfie/save/d;->g:Ljava/lang/String;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/save/d;->g:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/jakex/library/util/c/d;->j(Ljava/lang/String;)Z
 
@@ -100,11 +100,11 @@
     return-void
 
     :cond_2
-    iget-object v0, p0, Lcom/jakex/makeupselfie/save/d;->a:Lcom/jakex/makeupshare/f;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/save/d;->a:Lcom/jakex/makeupshare/f;
 
     if-eqz v0, :cond_5
 
-    iget-object v1, p0, Lcom/jakex/makeupselfie/save/d;->g:Ljava/lang/String;
+    iget-object v1, p0, Lcom/jakex/ymluxscoresf/save/d;->g:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/jakex/makeupshare/b/v$a;->a(Ljava/lang/String;)Lcom/jakex/makeupshare/b/v;
 
@@ -114,7 +114,7 @@
 
     move-result v0
 
-    iget-object v1, p0, Lcom/jakex/makeupselfie/save/d;->h:Lcom/jakex/makeupshare/statistics/SharePlatformStatistics$Module;
+    iget-object v1, p0, Lcom/jakex/ymluxscoresf/save/d;->h:Lcom/jakex/makeupshare/statistics/SharePlatformStatistics$Module;
 
     if-eqz v1, :cond_3
 
@@ -123,25 +123,25 @@
     :cond_3
     if-nez v0, :cond_5
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/save/d;->e:Lcom/jakex/makeupcore/dialog/CommonAlertDialog;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/save/d;->e:Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;
 
     if-nez p1, :cond_4
 
-    new-instance p1, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;
+    new-instance p1, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;
 
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/save/d;->getActivity()Landroidx/fragment/app/FragmentActivity;
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/save/d;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v0
 
-    invoke-direct {p1, v0}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;-><init>(Landroid/content/Context;)V
+    invoke-direct {p1, v0}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;-><init>(Landroid/content/Context;)V
 
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$string;->video_share_fail_tips:I
 
-    invoke-virtual {p0, v0}, Lcom/jakex/makeupselfie/save/d;->getString(I)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Lcom/jakex/ymluxscoresf/save/d;->getString(I)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;->b(Ljava/lang/String;)Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;
+    invoke-virtual {p1, v0}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;->b(Ljava/lang/String;)Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;
 
     move-result-object p1
 
@@ -149,43 +149,43 @@
 
     const/4 v1, 0x0
 
-    invoke-virtual {p1, v0, v1}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;->b(ILandroid/content/DialogInterface$OnClickListener;)Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;
+    invoke-virtual {p1, v0, v1}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;->b(ILandroid/content/DialogInterface$OnClickListener;)Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;
 
     move-result-object p1
 
     const/4 v0, 0x0
 
-    invoke-virtual {p1, v0}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;->b(Z)Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;
+    invoke-virtual {p1, v0}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;->b(Z)Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog$a;->a()Lcom/jakex/makeupcore/dialog/CommonAlertDialog;
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog$a;->a()Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/save/d;->e:Lcom/jakex/makeupcore/dialog/CommonAlertDialog;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/save/d;->e:Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;
 
     :cond_4
-    iget-object p1, p0, Lcom/jakex/makeupselfie/save/d;->e:Lcom/jakex/makeupcore/dialog/CommonAlertDialog;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/save/d;->e:Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;
 
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog;->show()V
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;->show()V
 
     :cond_5
     return-void
 .end method
 
-.method static synthetic b(Lcom/jakex/makeupselfie/save/d;)Ljava/util/List;
+.method static synthetic b(Lcom/jakex/ymluxscoresf/save/d;)Ljava/util/List;
     .locals 0
 
-    iget-object p0, p0, Lcom/jakex/makeupselfie/save/d;->c:Ljava/util/List;
+    iget-object p0, p0, Lcom/jakex/ymluxscoresf/save/d;->c:Ljava/util/List;
 
     return-object p0
 .end method
 
-.method static synthetic b(Lcom/jakex/makeupselfie/save/d;Lcom/jakex/makeupshare/platform/SharePlatform;)V
+.method static synthetic b(Lcom/jakex/ymluxscoresf/save/d;Lcom/jakex/makeupshare/platform/SharePlatform;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupselfie/save/d;->b(Lcom/jakex/makeupshare/platform/SharePlatform;)V
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscoresf/save/d;->b(Lcom/jakex/makeupshare/platform/SharePlatform;)V
 
     return-void
 .end method
@@ -198,7 +198,7 @@
     return-void
 
     :cond_0
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/save/d;->getActivity()Landroidx/fragment/app/FragmentActivity;
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/save/d;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v0
 
@@ -207,7 +207,7 @@
     return-void
 
     :cond_1
-    iget-object v0, p0, Lcom/jakex/makeupselfie/save/d;->g:Ljava/lang/String;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/save/d;->g:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/jakex/library/util/c/d;->j(Ljava/lang/String;)Z
 
@@ -218,7 +218,7 @@
     return-void
 
     :cond_2
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/save/d;->getActivity()Landroidx/fragment/app/FragmentActivity;
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/save/d;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v0
 
@@ -226,11 +226,11 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/jakex/makeupselfie/save/d;->b:Lcom/jakex/makeupshare/d;
+    iget-object v1, p0, Lcom/jakex/ymluxscoresf/save/d;->b:Lcom/jakex/makeupshare/d;
 
     if-eqz v1, :cond_3
 
-    iget-object v2, p0, Lcom/jakex/makeupselfie/save/d;->g:Ljava/lang/String;
+    iget-object v2, p0, Lcom/jakex/ymluxscoresf/save/d;->g:Ljava/lang/String;
 
     invoke-static {v0, v2}, Lcom/jakex/makeupshare/b/v$a;->a(Ljava/lang/String;Ljava/lang/String;)Lcom/jakex/makeupshare/b/v;
 
@@ -238,7 +238,7 @@
 
     invoke-virtual {v1, p1, v0}, Lcom/jakex/makeupshare/d;->a(Lcom/jakex/makeupshare/platform/SharePlatform;Lcom/jakex/makeupshare/b/v;)V
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/save/d;->h:Lcom/jakex/makeupshare/statistics/SharePlatformStatistics$Module;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/save/d;->h:Lcom/jakex/makeupshare/statistics/SharePlatformStatistics$Module;
 
     if-eqz v0, :cond_3
 
@@ -248,18 +248,18 @@
     return-void
 .end method
 
-.method static synthetic c(Lcom/jakex/makeupselfie/save/d;)Landroidx/recyclerview/widget/RecyclerView;
+.method static synthetic c(Lcom/jakex/ymluxscoresf/save/d;)Landroidx/recyclerview/widget/RecyclerView;
     .locals 0
 
-    iget-object p0, p0, Lcom/jakex/makeupselfie/save/d;->d:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object p0, p0, Lcom/jakex/ymluxscoresf/save/d;->d:Landroidx/recyclerview/widget/RecyclerView;
 
     return-object p0
 .end method
 
-.method static synthetic d(Lcom/jakex/makeupselfie/save/d;)Z
+.method static synthetic d(Lcom/jakex/ymluxscoresf/save/d;)Z
     .locals 0
 
-    iget-boolean p0, p0, Lcom/jakex/makeupselfie/save/d;->f:Z
+    iget-boolean p0, p0, Lcom/jakex/ymluxscoresf/save/d;->f:Z
 
     return p0
 .end method
@@ -269,7 +269,7 @@
 .method public a(Landroid/content/Intent;)V
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/save/d;->b:Lcom/jakex/makeupshare/d;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/save/d;->b:Lcom/jakex/makeupshare/d;
 
     if-eqz v0, :cond_0
 
@@ -279,10 +279,10 @@
     return-void
 .end method
 
-.method public a(Lcom/jakex/makeupselfie/save/d$a;)V
+.method public a(Lcom/jakex/ymluxscoresf/save/d$a;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/save/d;->i:Lcom/jakex/makeupselfie/save/d$a;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/save/d;->i:Lcom/jakex/ymluxscoresf/save/d$a;
 
     return-void
 .end method
@@ -290,7 +290,7 @@
 .method public a(Ljava/lang/String;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/save/d;->g:Ljava/lang/String;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/save/d;->g:Ljava/lang/String;
 
     return-void
 .end method
@@ -298,9 +298,9 @@
 .method public a(ZLcom/jakex/makeupshare/statistics/SharePlatformStatistics$Module;)V
     .locals 0
 
-    iput-object p2, p0, Lcom/jakex/makeupselfie/save/d;->h:Lcom/jakex/makeupshare/statistics/SharePlatformStatistics$Module;
+    iput-object p2, p0, Lcom/jakex/ymluxscoresf/save/d;->h:Lcom/jakex/makeupshare/statistics/SharePlatformStatistics$Module;
 
-    iput-boolean p1, p0, Lcom/jakex/makeupselfie/save/d;->f:Z
+    iput-boolean p1, p0, Lcom/jakex/ymluxscoresf/save/d;->f:Z
 
     return-void
 .end method
@@ -308,7 +308,7 @@
 .method public onActivityResult(IILandroid/content/Intent;)V
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/save/d;->b:Lcom/jakex/makeupshare/d;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/save/d;->b:Lcom/jakex/makeupshare/d;
 
     if-eqz v0, :cond_0
 
@@ -317,7 +317,7 @@
     goto :goto_0
 
     :cond_0
-    iget-object v0, p0, Lcom/jakex/makeupselfie/save/d;->a:Lcom/jakex/makeupshare/f;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/save/d;->a:Lcom/jakex/makeupshare/f;
 
     if-eqz v0, :cond_1
 
@@ -325,7 +325,7 @@
 
     :cond_1
     :goto_0
-    invoke-super {p0, p1, p2, p3}, Lcom/jakex/makeupcore/g/a;->onActivityResult(IILandroid/content/Intent;)V
+    invoke-super {p0, p1, p2, p3}, Lcom/jakex/ymluxscore/g/a;->onActivityResult(IILandroid/content/Intent;)V
 
     return-void
 .end method
@@ -347,17 +347,17 @@
 .method public onDestroyView()V
     .locals 1
 
-    invoke-super {p0}, Lcom/jakex/makeupcore/g/a;->onDestroyView()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/g/a;->onDestroyView()V
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/save/d;->e:Lcom/jakex/makeupcore/dialog/CommonAlertDialog;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/save/d;->e:Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/dialog/CommonAlertDialog;->dismiss()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;->dismiss()V
 
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/jakex/makeupselfie/save/d;->e:Lcom/jakex/makeupcore/dialog/CommonAlertDialog;
+    iput-object v0, p0, Lcom/jakex/ymluxscoresf/save/d;->e:Lcom/jakex/ymluxscore/dialog/CommonAlertDialog;
 
     :cond_0
     return-void
@@ -366,7 +366,7 @@
 .method public onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 1
 
-    invoke-super {p0, p1, p2}, Lcom/jakex/makeupcore/g/a;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+    invoke-super {p0, p1, p2}, Lcom/jakex/ymluxscore/g/a;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
     sget p2, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->beauty_selfie_share_close_iv:I
 
@@ -374,9 +374,9 @@
 
     move-result-object p2
 
-    new-instance v0, Lcom/jakex/makeupselfie/save/d$1;
+    new-instance v0, Lcom/jakex/ymluxscoresf/save/d$1;
 
-    invoke-direct {v0, p0}, Lcom/jakex/makeupselfie/save/d$1;-><init>(Lcom/jakex/makeupselfie/save/d;)V
+    invoke-direct {v0, p0}, Lcom/jakex/ymluxscoresf/save/d$1;-><init>(Lcom/jakex/ymluxscoresf/save/d;)V
 
     invoke-virtual {p2, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -388,14 +388,14 @@
 
     check-cast p1, Landroidx/recyclerview/widget/RecyclerView;
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/save/d;->d:Landroidx/recyclerview/widget/RecyclerView;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/save/d;->d:Landroidx/recyclerview/widget/RecyclerView;
 
-    iget-boolean p1, p0, Lcom/jakex/makeupselfie/save/d;->f:Z
+    iget-boolean p1, p0, Lcom/jakex/ymluxscoresf/save/d;->f:Z
 
     if-nez p1, :cond_0
 
     :try_start_0
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/save/d;->getChildFragmentManager()Landroidx/fragment/app/FragmentManager;
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/save/d;->getChildFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object p1
 
@@ -407,7 +407,7 @@
 
     invoke-direct {p2}, Lcom/jakex/makeupshare/f;-><init>()V
 
-    iput-object p2, p0, Lcom/jakex/makeupselfie/save/d;->a:Lcom/jakex/makeupshare/f;
+    iput-object p2, p0, Lcom/jakex/ymluxscoresf/save/d;->a:Lcom/jakex/makeupshare/f;
 
     sget-object v0, Lcom/jakex/makeupshare/f;->a:Ljava/lang/String;
 
@@ -437,7 +437,7 @@
 
     :cond_0
     :try_start_1
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/save/d;->getChildFragmentManager()Landroidx/fragment/app/FragmentManager;
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/save/d;->getChildFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object p1
 
@@ -447,7 +447,7 @@
 
     sget-object p2, Lcom/jakex/makeupshare/statistics/SharePlatformStatistics$Module;->UNDEFINE:Lcom/jakex/makeupshare/statistics/SharePlatformStatistics$Module;
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/save/d;->h:Lcom/jakex/makeupshare/statistics/SharePlatformStatistics$Module;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/save/d;->h:Lcom/jakex/makeupshare/statistics/SharePlatformStatistics$Module;
 
     if-eqz v0, :cond_1
 
@@ -458,7 +458,7 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/jakex/makeupselfie/save/d;->b:Lcom/jakex/makeupshare/d;
+    iput-object v0, p0, Lcom/jakex/ymluxscoresf/save/d;->b:Lcom/jakex/makeupshare/d;
 
     invoke-virtual {p2}, Lcom/jakex/makeupshare/statistics/SharePlatformStatistics$Module;->name()Ljava/lang/String;
 
@@ -489,45 +489,45 @@
     move-result-object p1
 
     :goto_2
-    iput-object p1, p0, Lcom/jakex/makeupselfie/save/d;->c:Ljava/util/List;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/save/d;->c:Ljava/util/List;
 
-    new-instance p2, Lcom/jakex/makeupselfie/save/d$b;
+    new-instance p2, Lcom/jakex/ymluxscoresf/save/d$b;
 
     const/4 v0, 0x0
 
-    invoke-direct {p2, p0, p1, v0}, Lcom/jakex/makeupselfie/save/d$b;-><init>(Lcom/jakex/makeupselfie/save/d;Ljava/util/List;Lcom/jakex/makeupselfie/save/d$1;)V
+    invoke-direct {p2, p0, p1, v0}, Lcom/jakex/ymluxscoresf/save/d$b;-><init>(Lcom/jakex/ymluxscoresf/save/d;Ljava/util/List;Lcom/jakex/ymluxscoresf/save/d$1;)V
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/save/d;->d:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/save/d;->d:Landroidx/recyclerview/widget/RecyclerView;
 
     const/4 v0, 0x2
 
     invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/RecyclerView;->setOverScrollMode(I)V
 
-    new-instance p1, Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
+    new-instance p1, Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
 
-    invoke-virtual {p0}, Lcom/jakex/makeupselfie/save/d;->getActivity()Landroidx/fragment/app/FragmentActivity;
+    invoke-virtual {p0}, Lcom/jakex/ymluxscoresf/save/d;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v0
 
-    invoke-direct {p1, v0}, Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;-><init>(Landroid/content/Context;)V
+    invoke-direct {p1, v0}, Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;-><init>(Landroid/content/Context;)V
 
     const/4 v0, 0x0
 
-    invoke-virtual {p1, v0}, Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;->setOrientation(I)V
+    invoke-virtual {p1, v0}, Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;->setOrientation(I)V
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/save/d;->d:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/save/d;->d:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/save/d;->d:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/save/d;->d:Landroidx/recyclerview/widget/RecyclerView;
 
     invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    new-instance p1, Lcom/jakex/makeupselfie/save/d$2;
+    new-instance p1, Lcom/jakex/ymluxscoresf/save/d$2;
 
-    invoke-direct {p1, p0}, Lcom/jakex/makeupselfie/save/d$2;-><init>(Lcom/jakex/makeupselfie/save/d;)V
+    invoke-direct {p1, p0}, Lcom/jakex/ymluxscoresf/save/d$2;-><init>(Lcom/jakex/ymluxscoresf/save/d;)V
 
-    invoke-virtual {p2, p1}, Lcom/jakex/makeupselfie/save/d$b;->a(Lcom/jakex/makeupcore/b/d$a;)V
+    invoke-virtual {p2, p1}, Lcom/jakex/ymluxscoresf/save/d$b;->a(Lcom/jakex/ymluxscore/b/d$a;)V
 
     return-void
 .end method

@@ -1,5 +1,5 @@
 .class final Lcom/jakex/makeup/startup/business/a/b$2;
-.super Lcom/jakex/makeupcore/net/j;
+.super Lcom/jakex/ymluxscore/net/j;
 
 
 # annotations
@@ -14,8 +14,8 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupcore/net/j<",
-        "Lcom/jakex/makeupcore/bean/ResultModelBean;",
+        "Lcom/jakex/ymluxscore/net/j<",
+        "Lcom/jakex/ymluxscore/bean/ResultModelBean;",
         ">;"
     }
 .end annotation
@@ -25,17 +25,17 @@
 .method constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/net/j;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/net/j;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public a(ILcom/jakex/makeupcore/bean/ResultModelBean;)V
+.method public a(ILcom/jakex/ymluxscore/bean/ResultModelBean;)V
     .locals 2
 
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/ResultModelBean;->getCode()I
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/ResultModelBean;->getCode()I
 
     move-result p1
 
@@ -61,7 +61,7 @@
 
     invoke-static {v0, p1}, Lcom/jakex/library/util/Debug/Debug;->c(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/ResultModelBean;->getData()Ljava/util/List;
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/ResultModelBean;->getData()Ljava/util/List;
 
     move-result-object p1
 
@@ -82,27 +82,27 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/jakex/makeupcore/bean/ModelBean;
+    check-cast p2, Lcom/jakex/ymluxscore/bean/ModelBean;
 
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/ModelBean;->getMaxversion()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/ModelBean;->getMaxversion()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/ModelBean;->getMinversion()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/ModelBean;->getMinversion()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/jakex/makeupcore/util/bk;->a(Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-static {v0, v1}, Lcom/jakex/ymluxscore/util/bk;->a(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/ModelBean;->getUrl()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/ModelBean;->getUrl()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/jakex/makeupeditor/e/a;->b(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/jakex/ymluxseditor/e/a;->b(Ljava/lang/String;)V
 
     :cond_1
     return-void
@@ -111,9 +111,9 @@
 .method public bridge synthetic a(ILjava/lang/Object;)V
     .locals 0
 
-    check-cast p2, Lcom/jakex/makeupcore/bean/ResultModelBean;
+    check-cast p2, Lcom/jakex/ymluxscore/bean/ResultModelBean;
 
-    invoke-virtual {p0, p1, p2}, Lcom/jakex/makeup/startup/business/a/b$2;->a(ILcom/jakex/makeupcore/bean/ResultModelBean;)V
+    invoke-virtual {p0, p1, p2}, Lcom/jakex/makeup/startup/business/a/b$2;->a(ILcom/jakex/ymluxscore/bean/ResultModelBean;)V
 
     return-void
 .end method
@@ -121,7 +121,7 @@
 .method public a(ILjava/lang/String;Ljava/lang/String;)V
     .locals 1
 
-    invoke-super {p0, p1, p2, p3}, Lcom/jakex/makeupcore/net/j;->a(ILjava/lang/String;Ljava/lang/String;)V
+    invoke-super {p0, p1, p2, p3}, Lcom/jakex/ymluxscore/net/j;->a(ILjava/lang/String;Ljava/lang/String;)V
 
     new-instance p3, Ljava/lang/StringBuilder;
 

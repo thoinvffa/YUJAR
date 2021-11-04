@@ -1,4 +1,4 @@
-.class Lcom/jakex/makeupselfie/camera/f/b$a$2;
+.class Lcom/jakex/ymluxscoresf/camera/f/b$a$2;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -7,7 +7,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/jakex/makeupselfie/camera/f/b$a;->a(Lcom/jakex/makeupcore/bean/ThemeMakeupCategory;Lnet/lucode/hackware/magicindicator/buildins/commonnavigator/titles/a;)V
+    value = Lcom/jakex/ymluxscoresf/camera/f/b$a;->a(Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory;Lnet/lucode/hackware/magicindicator/buildins/commonnavigator/titles/a;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,16 +19,16 @@
 # instance fields
 .field final synthetic a:Landroid/widget/TextView;
 
-.field final synthetic b:Lcom/jakex/makeupselfie/camera/f/b$a;
+.field final synthetic b:Lcom/jakex/ymluxscoresf/camera/f/b$a;
 
 
 # direct methods
-.method constructor <init>(Lcom/jakex/makeupselfie/camera/f/b$a;Landroid/widget/TextView;)V
+.method constructor <init>(Lcom/jakex/ymluxscoresf/camera/f/b$a;Landroid/widget/TextView;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/camera/f/b$a$2;->b:Lcom/jakex/makeupselfie/camera/f/b$a;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/camera/f/b$a$2;->b:Lcom/jakex/ymluxscoresf/camera/f/b$a;
 
-    iput-object p2, p0, Lcom/jakex/makeupselfie/camera/f/b$a$2;->a:Landroid/widget/TextView;
+    iput-object p2, p0, Lcom/jakex/ymluxscoresf/camera/f/b$a$2;->a:Landroid/widget/TextView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -40,7 +40,7 @@
 .method public a(II)V
     .locals 0
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/f/b$a$2;->a:Landroid/widget/TextView;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/f/b$a$2;->a:Landroid/widget/TextView;
 
     const/4 p2, 0x1
 
@@ -62,7 +62,7 @@
 .method public b(II)V
     .locals 0
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/f/b$a$2;->a:Landroid/widget/TextView;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/f/b$a$2;->a:Landroid/widget/TextView;
 
     const/4 p2, 0x0
 

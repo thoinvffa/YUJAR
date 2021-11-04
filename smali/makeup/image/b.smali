@@ -3,7 +3,7 @@
 
 
 # instance fields
-.field private final a:Lcom/jakex/makeupcore/glide/MakeupGlideModule;
+.field private final a:Lcom/jakex/ymluxscore/glide/MakeupGlideModule;
 
 
 # direct methods
@@ -12,11 +12,11 @@
 
     invoke-direct {p0}, Lmakeup/image/a;-><init>()V
 
-    new-instance v0, Lcom/jakex/makeupcore/glide/MakeupGlideModule;
+    new-instance v0, Lcom/jakex/ymluxscore/glide/MakeupGlideModule;
 
-    invoke-direct {v0}, Lcom/jakex/makeupcore/glide/MakeupGlideModule;-><init>()V
+    invoke-direct {v0}, Lcom/jakex/ymluxscore/glide/MakeupGlideModule;-><init>()V
 
-    iput-object v0, p0, Lmakeup/image/b;->a:Lcom/jakex/makeupcore/glide/MakeupGlideModule;
+    iput-object v0, p0, Lmakeup/image/b;->a:Lcom/jakex/ymluxscore/glide/MakeupGlideModule;
 
     const-string v0, "Glide"
 
@@ -28,7 +28,7 @@
 
     if-eqz v1, :cond_0
 
-    const-string v1, "Discovered AppGlideModule from annotation: com.jakex.makeupcore.glide.MakeupGlideModule"
+    const-string v1, "Discovered AppGlideModule from annotation: com.jakex.ymluxscore.glide.MakeupGlideModule"
 
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
@@ -36,7 +36,7 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    const-string v1, "Discovered LibraryGlideModule from annotation: com.jakex.makeupcore.glide.ProgressAppGlideModule"
+    const-string v1, "Discovered LibraryGlideModule from annotation: com.jakex.ymluxscore.glide.ProgressAppGlideModule"
 
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
@@ -73,15 +73,15 @@
 
     invoke-virtual {v0, p1, p2, p3}, Lmakeup/image/integration/okhttp3/a;->a(Landroid/content/Context;Lmakeup/image/e;Lmakeup/image/Registry;)V
 
-    new-instance v0, Lcom/jakex/makeupcore/glide/g;
+    new-instance v0, Lcom/jakex/ymluxscore/glide/g;
 
-    invoke-direct {v0}, Lcom/jakex/makeupcore/glide/g;-><init>()V
+    invoke-direct {v0}, Lcom/jakex/ymluxscore/glide/g;-><init>()V
 
-    invoke-virtual {v0, p1, p2, p3}, Lcom/jakex/makeupcore/glide/g;->a(Landroid/content/Context;Lmakeup/image/e;Lmakeup/image/Registry;)V
+    invoke-virtual {v0, p1, p2, p3}, Lcom/jakex/ymluxscore/glide/g;->a(Landroid/content/Context;Lmakeup/image/e;Lmakeup/image/Registry;)V
 
-    iget-object v0, p0, Lmakeup/image/b;->a:Lcom/jakex/makeupcore/glide/MakeupGlideModule;
+    iget-object v0, p0, Lmakeup/image/b;->a:Lcom/jakex/ymluxscore/glide/MakeupGlideModule;
 
-    invoke-virtual {v0, p1, p2, p3}, Lcom/jakex/makeupcore/glide/MakeupGlideModule;->a(Landroid/content/Context;Lmakeup/image/e;Lmakeup/image/Registry;)V
+    invoke-virtual {v0, p1, p2, p3}, Lcom/jakex/ymluxscore/glide/MakeupGlideModule;->a(Landroid/content/Context;Lmakeup/image/e;Lmakeup/image/Registry;)V
 
     return-void
 .end method
@@ -89,9 +89,9 @@
 .method public a(Landroid/content/Context;Lmakeup/image/f;)V
     .locals 1
 
-    iget-object v0, p0, Lmakeup/image/b;->a:Lcom/jakex/makeupcore/glide/MakeupGlideModule;
+    iget-object v0, p0, Lmakeup/image/b;->a:Lcom/jakex/ymluxscore/glide/MakeupGlideModule;
 
-    invoke-virtual {v0, p1, p2}, Lcom/jakex/makeupcore/glide/MakeupGlideModule;->a(Landroid/content/Context;Lmakeup/image/f;)V
+    invoke-virtual {v0, p1, p2}, Lcom/jakex/ymluxscore/glide/MakeupGlideModule;->a(Landroid/content/Context;Lmakeup/image/f;)V
 
     return-void
 .end method
@@ -109,9 +109,9 @@
 .method public c()Z
     .locals 1
 
-    iget-object v0, p0, Lmakeup/image/b;->a:Lcom/jakex/makeupcore/glide/MakeupGlideModule;
+    iget-object v0, p0, Lmakeup/image/b;->a:Lcom/jakex/ymluxscore/glide/MakeupGlideModule;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/glide/MakeupGlideModule;->c()Z
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/glide/MakeupGlideModule;->c()Z
 
     move-result v0
 

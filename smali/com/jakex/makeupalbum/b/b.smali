@@ -48,11 +48,11 @@
 .method public static a()Lcom/jakex/makeupalbum/b/a/a;
     .locals 4
 
-    invoke-static {}, Lcom/jakex/makeupcore/modular/c/ba;->a()Ljava/util/List;
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/c/ba;->a()Ljava/util/List;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v1
 
@@ -79,9 +79,9 @@
 
     move-result-object v3
 
-    check-cast v3, Lcom/jakex/makeupcore/bean/ModelAlbumBean;
+    check-cast v3, Lcom/jakex/ymluxscore/bean/ModelAlbumBean;
 
-    invoke-virtual {v3}, Lcom/jakex/makeupcore/bean/ModelAlbumBean;->getPath()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/jakex/ymluxscore/bean/ModelAlbumBean;->getPath()Ljava/lang/String;
 
     move-result-object v3
 
@@ -155,7 +155,7 @@
 
     sput-object p0, Lcom/jakex/makeupalbum/b/b;->a:Ljava/util/List;
 
-    invoke-static {p0}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {p0}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result p0
 
@@ -181,7 +181,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v1
 
@@ -216,7 +216,7 @@
 
     sput-object p1, Lcom/jakex/makeupalbum/b/b;->a:Ljava/util/List;
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {p1}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result p1
 
@@ -277,7 +277,7 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {p0}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result p1
 

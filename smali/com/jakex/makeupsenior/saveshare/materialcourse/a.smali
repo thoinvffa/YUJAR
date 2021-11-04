@@ -1,46 +1,46 @@
 .class public Lcom/jakex/makeupsenior/saveshare/materialcourse/a;
-.super Lcom/jakex/makeupcore/net/b;
+.super Lcom/jakex/ymluxscore/net/b;
 
 
 # direct methods
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/net/b;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/net/b;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public a(Lcom/jakex/makeupcore/net/j;)V
+.method public a(Lcom/jakex/ymluxscore/net/j;)V
     .locals 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/jakex/makeupcore/net/j<",
+            "Lcom/jakex/ymluxscore/net/j<",
             "Lcom/jakex/makeupsenior/saveshare/materialcourse/MaterialCourseBean;",
             ">;)V"
         }
     .end annotation
 
-    new-instance v3, Lcom/jakex/makeupcore/net/k;
+    new-instance v3, Lcom/jakex/ymluxscore/net/k;
 
-    invoke-direct {v3}, Lcom/jakex/makeupcore/net/k;-><init>()V
+    invoke-direct {v3}, Lcom/jakex/ymluxscore/net/k;-><init>()V
 
-    new-instance v0, Lcom/jakex/makeupcore/net/l;
+    new-instance v0, Lcom/jakex/ymluxscore/net/l;
 
-    invoke-direct {v0, v3}, Lcom/jakex/makeupcore/net/l;-><init>(Lcom/jakex/makeupcore/net/k;)V
+    invoke-direct {v0, v3}, Lcom/jakex/ymluxscore/net/l;-><init>(Lcom/jakex/ymluxscore/net/k;)V
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/net/l;->a()Lcom/jakex/makeupcore/net/l;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/net/l;->b()Lcom/jakex/makeupcore/net/l;
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/net/l;->a()Lcom/jakex/ymluxscore/net/l;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/net/l;->i()Lcom/jakex/makeupcore/net/l;
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/net/l;->b()Lcom/jakex/ymluxscore/net/l;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/net/l;->i()Lcom/jakex/ymluxscore/net/l;
 
     invoke-static {}, Lcom/jakex/makeupsenior/saveshare/materialcourse/a;->a()Ljava/lang/StringBuilder;
 
@@ -54,7 +54,7 @@
 
     move-result-object v1
 
-    invoke-static {}, Lcom/jakex/makeupcore/net/i;->a()Ljava/util/HashMap;
+    invoke-static {}, Lcom/jakex/ymluxscore/net/i;->a()Ljava/util/HashMap;
 
     move-result-object v2
 
@@ -66,7 +66,7 @@
 
     move-object v6, p1
 
-    invoke-virtual/range {v0 .. v6}, Lcom/jakex/makeupsenior/saveshare/materialcourse/a;->a(Ljava/lang/String;Ljava/util/HashMap;Lcom/jakex/makeupcore/net/k;Ljava/util/HashMap;Ljava/lang/String;Lcom/jakex/makeupcore/net/a;)V
+    invoke-virtual/range {v0 .. v6}, Lcom/jakex/makeupsenior/saveshare/materialcourse/a;->a(Ljava/lang/String;Ljava/util/HashMap;Lcom/jakex/ymluxscore/net/k;Ljava/util/HashMap;Ljava/lang/String;Lcom/jakex/ymluxscore/net/a;)V
 
     return-void
 .end method

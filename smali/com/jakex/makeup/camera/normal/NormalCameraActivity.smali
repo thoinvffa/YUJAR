@@ -47,7 +47,7 @@
     return-void
 .end method
 
-.method public static a(Landroid/app/Activity;Lcom/jakex/makeupcore/modular/extra/CameraExtra;)Landroid/content/Intent;
+.method public static a(Landroid/app/Activity;Lcom/jakex/ymluxscore/modular/extra/CameraExtra;)Landroid/content/Intent;
     .locals 2
 
     new-instance v0, Landroid/content/Intent;
@@ -60,7 +60,7 @@
 
     invoke-virtual {v0, p0}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    const-class p0, Lcom/jakex/makeupcore/modular/extra/CameraExtra;
+    const-class p0, Lcom/jakex/ymluxscore/modular/extra/CameraExtra;
 
     invoke-virtual {p0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
@@ -71,10 +71,10 @@
     return-object v0
 .end method
 
-.method public static a(Landroid/app/Activity;Lcom/jakex/makeupcore/modular/extra/CameraExtra;ZI)V
+.method public static a(Landroid/app/Activity;Lcom/jakex/ymluxscore/modular/extra/CameraExtra;ZI)V
     .locals 0
 
-    invoke-static {p0, p1}, Lcom/jakex/makeup/camera/normal/NormalCameraActivity;->a(Landroid/app/Activity;Lcom/jakex/makeupcore/modular/extra/CameraExtra;)Landroid/content/Intent;
+    invoke-static {p0, p1}, Lcom/jakex/makeup/camera/normal/NormalCameraActivity;->a(Landroid/app/Activity;Lcom/jakex/ymluxscore/modular/extra/CameraExtra;)Landroid/content/Intent;
 
     move-result-object p1
 
@@ -190,7 +190,7 @@
 
     move-result-object p1
 
-    const-class v0, Lcom/jakex/makeupcore/modular/extra/CameraExtra;
+    const-class v0, Lcom/jakex/ymluxscore/modular/extra/CameraExtra;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
@@ -200,13 +200,13 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/jakex/makeupcore/modular/extra/CameraExtra;
+    check-cast p1, Lcom/jakex/ymluxscore/modular/extra/CameraExtra;
 
     if-nez p1, :cond_0
 
-    new-instance p1, Lcom/jakex/makeupcore/modular/extra/CameraExtra;
+    new-instance p1, Lcom/jakex/ymluxscore/modular/extra/CameraExtra;
 
-    invoke-direct {p1}, Lcom/jakex/makeupcore/modular/extra/CameraExtra;-><init>()V
+    invoke-direct {p1}, Lcom/jakex/ymluxscore/modular/extra/CameraExtra;-><init>()V
 
     :cond_0
     const-class v0, Lcom/jakex/makeupcamera/a;
@@ -229,7 +229,7 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {p1}, Lcom/jakex/makeup/camera/normal/a;->a(Lcom/jakex/makeupcore/modular/extra/CameraExtra;)Lcom/jakex/makeup/camera/normal/a;
+    invoke-static {p1}, Lcom/jakex/makeup/camera/normal/a;->a(Lcom/jakex/ymluxscore/modular/extra/CameraExtra;)Lcom/jakex/makeup/camera/normal/a;
 
     move-result-object p1
 
@@ -288,7 +288,7 @@
 
     move-result-object p1
 
-    const-class v0, Lcom/jakex/makeupcore/modular/extra/CameraExtra;
+    const-class v0, Lcom/jakex/ymluxscore/modular/extra/CameraExtra;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
@@ -298,11 +298,11 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/jakex/makeupcore/modular/extra/CameraExtra;
+    check-cast p1, Lcom/jakex/ymluxscore/modular/extra/CameraExtra;
 
     iget-object v0, p0, Lcom/jakex/makeup/camera/normal/NormalCameraActivity;->b:Lcom/jakex/makeupcamera/a;
 
-    invoke-virtual {v0, p1}, Lcom/jakex/makeupcamera/a;->b(Lcom/jakex/makeupcore/modular/extra/CameraExtra;)V
+    invoke-virtual {v0, p1}, Lcom/jakex/makeupcamera/a;->b(Lcom/jakex/ymluxscore/modular/extra/CameraExtra;)V
 
     :cond_0
     return-void

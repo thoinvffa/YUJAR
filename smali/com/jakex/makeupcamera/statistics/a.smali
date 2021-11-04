@@ -166,7 +166,7 @@
 
     invoke-direct {v0, p0, p1}, Lcom/jakex/makeupcamera/statistics/a$1;-><init>(Lcom/jakex/makeupcamera/statistics/a;Ljava/util/Map;)V
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/i;->a(Ljava/lang/Runnable;)V
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/i;->a(Ljava/lang/Runnable;)V
 
     const/4 p1, 0x1
 

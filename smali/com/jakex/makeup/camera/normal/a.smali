@@ -162,11 +162,11 @@
 
     iput-boolean v0, p0, Lcom/jakex/makeup/camera/normal/a;->D:Z
 
-    iget-object v0, p0, Lcom/jakex/makeup/camera/normal/a;->m:Lcom/jakex/makeupcore/modular/extra/CameraExtra;
+    iget-object v0, p0, Lcom/jakex/makeup/camera/normal/a;->m:Lcom/jakex/ymluxscore/modular/extra/CameraExtra;
 
-    iget-object v0, v0, Lcom/jakex/makeupcore/modular/extra/CameraExtra;->mFromOtherAppExtra:Lcom/jakex/makeupcore/modular/extra/FromOtherAppExtra;
+    iget-object v0, v0, Lcom/jakex/ymluxscore/modular/extra/CameraExtra;->mFromOtherAppExtra:Lcom/jakex/ymluxscore/modular/extra/FromOtherAppExtra;
 
-    iget-boolean v0, v0, Lcom/jakex/makeupcore/modular/extra/FromOtherAppExtra;->mFromOtherAppNeedResult:Z
+    iget-boolean v0, v0, Lcom/jakex/ymluxscore/modular/extra/FromOtherAppExtra;->mFromOtherAppNeedResult:Z
 
     if-eqz v0, :cond_0
 
@@ -184,29 +184,29 @@
 
     if-eqz v1, :cond_1
 
-    iget-object v1, p0, Lcom/jakex/makeup/camera/normal/a;->m:Lcom/jakex/makeupcore/modular/extra/CameraExtra;
+    iget-object v1, p0, Lcom/jakex/makeup/camera/normal/a;->m:Lcom/jakex/ymluxscore/modular/extra/CameraExtra;
 
-    iget-object v1, v1, Lcom/jakex/makeupcore/modular/extra/CameraExtra;->mBeautyMakeupExtra:Lcom/jakex/makeupcore/modular/extra/BeautyMakeupExtra;
+    iget-object v1, v1, Lcom/jakex/ymluxscore/modular/extra/CameraExtra;->mBeautyMakeupExtra:Lcom/jakex/ymluxscore/modular/extra/BeautyMakeupExtra;
 
     const/4 v2, 0x0
 
-    iput-boolean v2, v1, Lcom/jakex/makeupcore/modular/extra/BeautyMakeupExtra;->mFromAlbum:Z
+    iput-boolean v2, v1, Lcom/jakex/ymluxscore/modular/extra/BeautyMakeupExtra;->mFromAlbum:Z
 
-    iget-object v1, p0, Lcom/jakex/makeup/camera/normal/a;->m:Lcom/jakex/makeupcore/modular/extra/CameraExtra;
+    iget-object v1, p0, Lcom/jakex/makeup/camera/normal/a;->m:Lcom/jakex/ymluxscore/modular/extra/CameraExtra;
 
-    iget-object v1, v1, Lcom/jakex/makeupcore/modular/extra/CameraExtra;->mBeautyMakeupExtra:Lcom/jakex/makeupcore/modular/extra/BeautyMakeupExtra;
+    iget-object v1, v1, Lcom/jakex/ymluxscore/modular/extra/CameraExtra;->mBeautyMakeupExtra:Lcom/jakex/ymluxscore/modular/extra/BeautyMakeupExtra;
 
-    iput-boolean v2, v1, Lcom/jakex/makeupcore/modular/extra/BeautyMakeupExtra;->mIsModel:Z
+    iput-boolean v2, v1, Lcom/jakex/ymluxscore/modular/extra/BeautyMakeupExtra;->mIsModel:Z
 
     invoke-virtual {p0}, Lcom/jakex/makeup/camera/normal/a;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v1
 
-    iget-object v2, p0, Lcom/jakex/makeup/camera/normal/a;->m:Lcom/jakex/makeupcore/modular/extra/CameraExtra;
+    iget-object v2, p0, Lcom/jakex/makeup/camera/normal/a;->m:Lcom/jakex/ymluxscore/modular/extra/CameraExtra;
 
-    iget-object v2, v2, Lcom/jakex/makeupcore/modular/extra/CameraExtra;->mBeautyMakeupExtra:Lcom/jakex/makeupcore/modular/extra/BeautyMakeupExtra;
+    iget-object v2, v2, Lcom/jakex/ymluxscore/modular/extra/CameraExtra;->mBeautyMakeupExtra:Lcom/jakex/ymluxscore/modular/extra/BeautyMakeupExtra;
 
-    invoke-static {v1, v2, v0}, Lcom/jakex/makeupcore/modular/c/av;->a(Landroid/app/Activity;Lcom/jakex/makeupcore/modular/extra/BeautyMakeupExtra;I)V
+    invoke-static {v1, v2, v0}, Lcom/jakex/ymluxscore/modular/c/av;->a(Landroid/app/Activity;Lcom/jakex/ymluxscore/modular/extra/BeautyMakeupExtra;I)V
 
     :cond_1
     return-void
@@ -215,9 +215,9 @@
 .method private C()Z
     .locals 2
 
-    iget-object v0, p0, Lcom/jakex/makeup/camera/normal/a;->m:Lcom/jakex/makeupcore/modular/extra/CameraExtra;
+    iget-object v0, p0, Lcom/jakex/makeup/camera/normal/a;->m:Lcom/jakex/ymluxscore/modular/extra/CameraExtra;
 
-    iget v0, v0, Lcom/jakex/makeupcore/modular/extra/CameraExtra;->mWhat:I
+    iget v0, v0, Lcom/jakex/ymluxscore/modular/extra/CameraExtra;->mWhat:I
 
     const/4 v1, 0x1
 
@@ -235,9 +235,9 @@
 .method private D()Z
     .locals 2
 
-    iget-object v0, p0, Lcom/jakex/makeup/camera/normal/a;->m:Lcom/jakex/makeupcore/modular/extra/CameraExtra;
+    iget-object v0, p0, Lcom/jakex/makeup/camera/normal/a;->m:Lcom/jakex/ymluxscore/modular/extra/CameraExtra;
 
-    iget v0, v0, Lcom/jakex/makeupcore/modular/extra/CameraExtra;->mWhat:I
+    iget v0, v0, Lcom/jakex/ymluxscore/modular/extra/CameraExtra;->mWhat:I
 
     const/16 v1, 0x8
 
@@ -262,14 +262,14 @@
     return-object p1
 .end method
 
-.method public static a(Lcom/jakex/makeupcore/modular/extra/CameraExtra;)Lcom/jakex/makeup/camera/normal/a;
+.method public static a(Lcom/jakex/ymluxscore/modular/extra/CameraExtra;)Lcom/jakex/makeup/camera/normal/a;
     .locals 1
 
     new-instance v0, Lcom/jakex/makeup/camera/normal/a;
 
     invoke-direct {v0}, Lcom/jakex/makeup/camera/normal/a;-><init>()V
 
-    invoke-static {p0}, Lcom/jakex/makeup/camera/normal/a;->c(Lcom/jakex/makeupcore/modular/extra/CameraExtra;)Landroid/os/Bundle;
+    invoke-static {p0}, Lcom/jakex/makeup/camera/normal/a;->c(Lcom/jakex/ymluxscore/modular/extra/CameraExtra;)Landroid/os/Bundle;
 
     move-result-object p0
 
@@ -301,13 +301,13 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/jakex/makeupcore/modular/a/a;->g()Ljava/lang/String;
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/a/a;->g()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/n;->d()Ljava/lang/String;
+    invoke-static {}, Lcom/jakex/ymluxscore/util/n;->d()Ljava/lang/String;
 
     move-result-object v1
 
@@ -335,13 +335,13 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/jakex/makeupcore/util/ae;->b(Ljava/lang/String;Landroid/content/Context;)Landroid/net/Uri;
+    invoke-static {v0, v1}, Lcom/jakex/ymluxscore/util/ae;->b(Ljava/lang/String;Landroid/content/Context;)Landroid/net/Uri;
 
     invoke-static {}, Lcom/jakex/makeup/app/MakeupApplication;->a()Landroid/app/Application;
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/jakex/makeupcore/util/ae;->a(Ljava/lang/String;Landroid/content/Context;)V
+    invoke-static {v0, v1}, Lcom/jakex/ymluxscore/util/ae;->a(Ljava/lang/String;Landroid/content/Context;)V
 
     invoke-virtual {p0}, Lcom/jakex/makeup/camera/normal/a;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
@@ -586,7 +586,7 @@
 
     invoke-direct {v0, p0, p1, p3, p2}, Lcom/jakex/makeup/camera/normal/a$3;-><init>(Lcom/jakex/makeup/camera/normal/a;[BILandroid/graphics/RectF;)V
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/i;->a(Ljava/lang/Runnable;)V
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/i;->a(Ljava/lang/Runnable;)V
 
     return-void
 .end method
@@ -814,13 +814,13 @@
 .method private b(Landroid/graphics/Bitmap;)V
     .locals 1
 
-    invoke-static {}, Lcom/jakex/makeupcore/modular/a/b;->b()V
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/a/b;->b()V
 
-    invoke-static {}, Lcom/jakex/makeupcore/modular/a/b;->a()Lcom/jakex/makeupcore/modular/a/b;
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/a/b;->a()Lcom/jakex/ymluxscore/modular/a/b;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/jakex/makeupcore/modular/a/b;->a(Landroid/graphics/Bitmap;)V
+    invoke-virtual {v0, p1}, Lcom/jakex/ymluxscore/modular/a/b;->a(Landroid/graphics/Bitmap;)V
 
     iget-object p1, p0, Lcom/jakex/makeup/camera/normal/a;->b:Lcom/jakex/library/camera/MTCamera;
 
@@ -828,11 +828,11 @@
 
     move-result p1
 
-    invoke-virtual {v0, p1}, Lcom/jakex/makeupcore/modular/a/b;->a(Z)V
+    invoke-virtual {v0, p1}, Lcom/jakex/ymluxscore/modular/a/b;->a(Z)V
 
     const/4 p1, 0x1
 
-    invoke-virtual {v0, p1}, Lcom/jakex/makeupcore/modular/a/b;->b(Z)V
+    invoke-virtual {v0, p1}, Lcom/jakex/ymluxscore/modular/a/b;->b(Z)V
 
     return-void
 .end method
@@ -987,7 +987,7 @@
 
     add-int/2addr v0, v1
 
-    invoke-static {p1, v0}, Lcom/jakex/makeupcore/widget/a/a;->a(Ljava/lang/String;I)V
+    invoke-static {p1, v0}, Lcom/jakex/ymluxscore/widget/a/a;->a(Ljava/lang/String;I)V
 
     return-void
 .end method
@@ -1112,10 +1112,10 @@
     return p0
 .end method
 
-.method static synthetic n(Lcom/jakex/makeup/camera/normal/a;)Lcom/jakex/makeupcore/modular/extra/CameraExtra;
+.method static synthetic n(Lcom/jakex/makeup/camera/normal/a;)Lcom/jakex/ymluxscore/modular/extra/CameraExtra;
     .locals 0
 
-    iget-object p0, p0, Lcom/jakex/makeup/camera/normal/a;->m:Lcom/jakex/makeupcore/modular/extra/CameraExtra;
+    iget-object p0, p0, Lcom/jakex/makeup/camera/normal/a;->m:Lcom/jakex/ymluxscore/modular/extra/CameraExtra;
 
     return-object p0
 .end method
@@ -1319,13 +1319,13 @@
     goto :goto_1
 
     :cond_1
-    new-instance v0, Lcom/jakex/makeupcore/modular/extra/AlbumExtra;
+    new-instance v0, Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;
 
-    invoke-direct {v0}, Lcom/jakex/makeupcore/modular/extra/AlbumExtra;-><init>()V
+    invoke-direct {v0}, Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;-><init>()V
 
     const/4 v1, 0x2
 
-    iput v1, v0, Lcom/jakex/makeupcore/modular/extra/AlbumExtra;->mFrom:I
+    iput v1, v0, Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;->mFrom:I
 
     iget-object v1, p0, Lcom/jakex/makeup/camera/normal/a;->b:Lcom/jakex/library/camera/MTCamera;
 
@@ -1333,25 +1333,25 @@
 
     move-result v1
 
-    iput-boolean v1, v0, Lcom/jakex/makeupcore/modular/extra/AlbumExtra;->mIsCameraFrontOpen:Z
+    iput-boolean v1, v0, Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;->mIsCameraFrontOpen:Z
 
-    iget-object v1, p0, Lcom/jakex/makeup/camera/normal/a;->m:Lcom/jakex/makeupcore/modular/extra/CameraExtra;
+    iget-object v1, p0, Lcom/jakex/makeup/camera/normal/a;->m:Lcom/jakex/ymluxscore/modular/extra/CameraExtra;
 
-    iget-object v1, v1, Lcom/jakex/makeupcore/modular/extra/CameraExtra;->mFromOtherAppExtra:Lcom/jakex/makeupcore/modular/extra/FromOtherAppExtra;
+    iget-object v1, v1, Lcom/jakex/ymluxscore/modular/extra/CameraExtra;->mFromOtherAppExtra:Lcom/jakex/ymluxscore/modular/extra/FromOtherAppExtra;
 
-    iput-object v1, v0, Lcom/jakex/makeupcore/modular/extra/AlbumExtra;->mFromOtherAppExtra:Lcom/jakex/makeupcore/modular/extra/FromOtherAppExtra;
+    iput-object v1, v0, Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;->mFromOtherAppExtra:Lcom/jakex/ymluxscore/modular/extra/FromOtherAppExtra;
 
-    iget-object v1, p0, Lcom/jakex/makeup/camera/normal/a;->m:Lcom/jakex/makeupcore/modular/extra/CameraExtra;
+    iget-object v1, p0, Lcom/jakex/makeup/camera/normal/a;->m:Lcom/jakex/ymluxscore/modular/extra/CameraExtra;
 
-    iget-object v1, v1, Lcom/jakex/makeupcore/modular/extra/CameraExtra;->mBeautyMakeupExtra:Lcom/jakex/makeupcore/modular/extra/BeautyMakeupExtra;
+    iget-object v1, v1, Lcom/jakex/ymluxscore/modular/extra/CameraExtra;->mBeautyMakeupExtra:Lcom/jakex/ymluxscore/modular/extra/BeautyMakeupExtra;
 
-    iput-object v1, v0, Lcom/jakex/makeupcore/modular/extra/AlbumExtra;->mBeautyMakeupExtra:Lcom/jakex/makeupcore/modular/extra/BeautyMakeupExtra;
+    iput-object v1, v0, Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;->mBeautyMakeupExtra:Lcom/jakex/ymluxscore/modular/extra/BeautyMakeupExtra;
 
-    iget-object v1, p0, Lcom/jakex/makeup/camera/normal/a;->m:Lcom/jakex/makeupcore/modular/extra/CameraExtra;
+    iget-object v1, p0, Lcom/jakex/makeup/camera/normal/a;->m:Lcom/jakex/ymluxscore/modular/extra/CameraExtra;
 
-    iget-object v1, v1, Lcom/jakex/makeupcore/modular/extra/CameraExtra;->mFromOtherAppExtra:Lcom/jakex/makeupcore/modular/extra/FromOtherAppExtra;
+    iget-object v1, v1, Lcom/jakex/ymluxscore/modular/extra/CameraExtra;->mFromOtherAppExtra:Lcom/jakex/ymluxscore/modular/extra/FromOtherAppExtra;
 
-    iget-boolean v1, v1, Lcom/jakex/makeupcore/modular/extra/FromOtherAppExtra;->mFromOtherAppNeedResult:Z
+    iget-boolean v1, v1, Lcom/jakex/ymluxscore/modular/extra/FromOtherAppExtra;->mFromOtherAppNeedResult:Z
 
     if-eqz v1, :cond_2
 
@@ -1367,7 +1367,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, v0, v1}, Lcom/jakex/makeupcore/modular/c/a;->a(Landroid/app/Activity;Lcom/jakex/makeupcore/modular/extra/AlbumExtra;I)V
+    invoke-static {v2, v0, v1}, Lcom/jakex/ymluxscore/modular/c/a;->a(Landroid/app/Activity;Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;I)V
 
     :goto_1
     return-void
@@ -1581,9 +1581,9 @@
 
     new-instance v0, Lcom/jakex/makeupcamera/component/c;
 
-    iget-object v1, p0, Lcom/jakex/makeup/camera/normal/a;->m:Lcom/jakex/makeupcore/modular/extra/CameraExtra;
+    iget-object v1, p0, Lcom/jakex/makeup/camera/normal/a;->m:Lcom/jakex/ymluxscore/modular/extra/CameraExtra;
 
-    iget-boolean v1, v1, Lcom/jakex/makeupcore/modular/extra/CameraExtra;->mForbidCameraAnim:Z
+    iget-boolean v1, v1, Lcom/jakex/ymluxscore/modular/extra/CameraExtra;->mForbidCameraAnim:Z
 
     xor-int/lit8 v1, v1, 0x1
 
@@ -1619,11 +1619,11 @@
 .method protected a(Ljava/lang/String;)V
     .locals 1
 
-    new-instance v0, Lcom/jakex/makeupcore/webview/CommonWebViewExtra;
+    new-instance v0, Lcom/jakex/ymluxscore/webview/CommonWebViewExtra;
 
-    invoke-direct {v0}, Lcom/jakex/makeupcore/webview/CommonWebViewExtra;-><init>()V
+    invoke-direct {v0}, Lcom/jakex/ymluxscore/webview/CommonWebViewExtra;-><init>()V
 
-    iput-object p1, v0, Lcom/jakex/makeupcore/webview/CommonWebViewExtra;->mUrl:Ljava/lang/String;
+    iput-object p1, v0, Lcom/jakex/ymluxscore/webview/CommonWebViewExtra;->mUrl:Ljava/lang/String;
 
     sget p1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$string;->set_permission_title:I
 
@@ -1631,13 +1631,13 @@
 
     move-result-object p1
 
-    iput-object p1, v0, Lcom/jakex/makeupcore/webview/CommonWebViewExtra;->mTitle:Ljava/lang/String;
+    iput-object p1, v0, Lcom/jakex/ymluxscore/webview/CommonWebViewExtra;->mTitle:Ljava/lang/String;
 
     invoke-virtual {p0}, Lcom/jakex/makeup/camera/normal/a;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object p1
 
-    invoke-static {p1, v0}, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->a(Landroid/content/Context;Lcom/jakex/makeupcore/webview/CommonWebViewExtra;)Landroid/content/Intent;
+    invoke-static {p1, v0}, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->a(Landroid/content/Context;Lcom/jakex/ymluxscore/webview/CommonWebViewExtra;)Landroid/content/Intent;
 
     move-result-object p1
 
@@ -1688,10 +1688,10 @@
     return-object v0
 .end method
 
-.method public b(Lcom/jakex/makeupcore/modular/extra/CameraExtra;)V
+.method public b(Lcom/jakex/ymluxscore/modular/extra/CameraExtra;)V
     .locals 0
 
-    invoke-super {p0, p1}, Lcom/jakex/makeupcamera/a;->b(Lcom/jakex/makeupcore/modular/extra/CameraExtra;)V
+    invoke-super {p0, p1}, Lcom/jakex/makeupcamera/a;->b(Lcom/jakex/ymluxscore/modular/extra/CameraExtra;)V
 
     return-void
 .end method
@@ -1820,7 +1820,7 @@
     invoke-virtual {v0}, Lcom/jakex/makeupcamera/b/a;->a()V
 
     :cond_0
-    invoke-static {}, Lcom/jakex/makeupcore/widget/a/a;->a()V
+    invoke-static {}, Lcom/jakex/ymluxscore/widget/a/a;->a()V
 
     return-void
 .end method
@@ -1864,7 +1864,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/jakex/makeupcore/c/a/a$a$a;->a()V
+    invoke-static {}, Lcom/jakex/ymluxscore/c/a/a$a$a;->a()V
 
     :cond_0
     return-void
@@ -1879,7 +1879,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/jakex/makeupcore/c/a/a$a$a;->b()V
+    invoke-static {}, Lcom/jakex/ymluxscore/c/a/a$a$a;->b()V
 
     :cond_0
     invoke-super {p0}, Lcom/jakex/makeupcamera/a;->onStop()V

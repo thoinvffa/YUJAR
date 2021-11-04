@@ -377,11 +377,11 @@
 
     div-float/2addr p2, p0
 
-    invoke-static {}, Lcom/jakex/makeupeditor/d/a;->a()Lcom/jakex/makeupeditor/d/a;
+    invoke-static {}, Lcom/jakex/ymluxseditor/d/a;->a()Lcom/jakex/ymluxseditor/d/a;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/jakex/makeupeditor/d/a;->d()I
+    invoke-virtual {v1}, Lcom/jakex/ymluxseditor/d/a;->d()I
 
     move-result v1
 
@@ -2518,11 +2518,11 @@
     const/4 v0, 0x1
 
     :try_start_0
-    invoke-static {}, Lcom/jakex/makeupeditor/d/a;->a()Lcom/jakex/makeupeditor/d/a;
+    invoke-static {}, Lcom/jakex/ymluxseditor/d/a;->a()Lcom/jakex/ymluxseditor/d/a;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/jakex/makeupeditor/d/a;->d()I
+    invoke-virtual {v1}, Lcom/jakex/ymluxseditor/d/a;->d()I
 
     move-result v1
 

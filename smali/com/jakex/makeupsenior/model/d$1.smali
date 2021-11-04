@@ -19,7 +19,7 @@
     value = {
         "Ljava/lang/Object;",
         "Ljava/util/Comparator<",
-        "Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;",
+        "Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;",
         ">;"
     }
 .end annotation
@@ -40,10 +40,10 @@
     return-void
 .end method
 
-.method private a(Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;)I
+.method private a(Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;)I
     .locals 5
 
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;->getMaterialId()J
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;->getMaterialId()J
 
     move-result-wide v0
 
@@ -58,7 +58,7 @@
     return p1
 
     :cond_0
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;->getIsRecommend()Z
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;->getIsRecommend()Z
 
     move-result v0
 
@@ -69,7 +69,7 @@
     return p1
 
     :cond_1
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;->getIsLocal()Z
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;->getIsLocal()Z
 
     move-result v0
 
@@ -80,11 +80,11 @@
     return p1
 
     :cond_2
-    invoke-static {p1}, Lcom/jakex/makeupcore/bean/download/b;->a(Lcom/jakex/makeupcore/bean/download/a;)Lcom/jakex/makeupcore/bean/download/DownloadState;
+    invoke-static {p1}, Lcom/jakex/ymluxscore/bean/download/b;->a(Lcom/jakex/ymluxscore/bean/download/a;)Lcom/jakex/ymluxscore/bean/download/DownloadState;
 
     move-result-object v0
 
-    sget-object v1, Lcom/jakex/makeupcore/bean/download/DownloadState;->FINISH:Lcom/jakex/makeupcore/bean/download/DownloadState;
+    sget-object v1, Lcom/jakex/ymluxscore/bean/download/DownloadState;->FINISH:Lcom/jakex/ymluxscore/bean/download/DownloadState;
 
     if-ne v0, v1, :cond_3
 
@@ -93,7 +93,7 @@
     return p1
 
     :cond_3
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;->getIsSelfie()Z
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;->getIsSelfie()Z
 
     move-result p1
 
@@ -111,14 +111,14 @@
 
 
 # virtual methods
-.method public a(Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;)I
+.method public a(Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;)I
     .locals 3
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupsenior/model/d$1;->a(Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;)I
+    invoke-direct {p0, p1}, Lcom/jakex/makeupsenior/model/d$1;->a(Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;)I
 
     move-result v0
 
-    invoke-direct {p0, p2}, Lcom/jakex/makeupsenior/model/d$1;->a(Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;)I
+    invoke-direct {p0, p2}, Lcom/jakex/makeupsenior/model/d$1;->a(Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;)I
 
     move-result v1
 
@@ -130,11 +130,11 @@
 
     if-ne v0, v1, :cond_0
 
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;->getRealSort()I
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;->getRealSort()I
 
     move-result p1
 
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;->getRealSort()I
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;->getRealSort()I
 
     move-result p2
 
@@ -145,11 +145,11 @@
     return p1
 
     :cond_0
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;->getInsertOrder()J
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;->getInsertOrder()J
 
     move-result-wide v0
 
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;->getInsertOrder()J
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;->getInsertOrder()J
 
     move-result-wide p1
 
@@ -170,11 +170,11 @@
 .method public synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
     .locals 0
 
-    check-cast p1, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    check-cast p1, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
-    check-cast p2, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;
+    check-cast p2, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;
 
-    invoke-virtual {p0, p1, p2}, Lcom/jakex/makeupsenior/model/d$1;->a(Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;)I
+    invoke-virtual {p0, p1, p2}, Lcom/jakex/makeupsenior/model/d$1;->a(Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;)I
 
     move-result p1
 

@@ -5,7 +5,7 @@
 # instance fields
 .field private a:Ljava/lang/String;
 
-.field private b:Lcom/jakex/mtlab/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;
+.field private b:Lcom/jakex/ymlux/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;
 
 
 # direct methods
@@ -20,7 +20,7 @@
 .method private e()V
     .locals 2
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/a;->b:Lcom/jakex/mtlab/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/a;->b:Lcom/jakex/ymlux/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;
 
     if-eqz v0, :cond_0
 
@@ -43,9 +43,9 @@
 
     invoke-direct {p0}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/a;->e()V
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/a;->b:Lcom/jakex/mtlab/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/a;->b:Lcom/jakex/ymlux/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;
 
-    invoke-virtual {v0}, Lcom/jakex/mtlab/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;->getAlpha()I
+    invoke-virtual {v0}, Lcom/jakex/ymlux/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;->getAlpha()I
 
     move-result v0
 
@@ -55,7 +55,7 @@
 .method public a(Ljava/lang/String;)V
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/a;->b:Lcom/jakex/mtlab/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/a;->b:Lcom/jakex/ymlux/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;
 
     if-eqz v0, :cond_0
 
@@ -70,11 +70,11 @@
 
     iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/a;->a:Ljava/lang/String;
 
-    invoke-virtual {p1, v0}, Lcom/jakex/makeup/library/arcorekit/edit/ar/b/b;->a(Ljava/lang/String;)Lcom/jakex/mtlab/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;
+    invoke-virtual {p1, v0}, Lcom/jakex/makeup/library/arcorekit/edit/ar/b/b;->a(Ljava/lang/String;)Lcom/jakex/ymlux/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/a;->b:Lcom/jakex/mtlab/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;
+    iput-object p1, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/a;->b:Lcom/jakex/ymlux/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;
 
     return-void
 .end method
@@ -84,9 +84,9 @@
 
     invoke-direct {p0}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/a;->e()V
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/a;->b:Lcom/jakex/mtlab/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/a;->b:Lcom/jakex/ymlux/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;
 
-    invoke-virtual {v0}, Lcom/jakex/mtlab/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;->getRGBA()[F
+    invoke-virtual {v0}, Lcom/jakex/ymlux/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;->getRGBA()[F
 
     move-result-object v0
 
@@ -98,9 +98,9 @@
 
     invoke-direct {p0}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/a;->e()V
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/a;->b:Lcom/jakex/mtlab/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/a;->b:Lcom/jakex/ymlux/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;
 
-    invoke-virtual {v0}, Lcom/jakex/mtlab/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;->getOpacity()F
+    invoke-virtual {v0}, Lcom/jakex/ymlux/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;->getOpacity()F
 
     move-result v0
 
@@ -112,9 +112,9 @@
 
     invoke-direct {p0}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/a;->e()V
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/a;->b:Lcom/jakex/mtlab/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/extra/a;->b:Lcom/jakex/ymlux/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;
 
-    invoke-virtual {v0}, Lcom/jakex/mtlab/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;->isParseSuccess()Z
+    invoke-virtual {v0}, Lcom/jakex/ymlux/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;->isParseSuccess()Z
 
     move-result v0
 

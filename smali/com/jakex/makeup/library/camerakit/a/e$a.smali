@@ -14,11 +14,11 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;Ljava/util/List;Landroid/graphics/Rect;)V
+.method public abstract a(Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;Ljava/util/List;Landroid/graphics/Rect;)V
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;",
+            "Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;",
             "Ljava/util/List<",
             "Landroid/graphics/RectF;",
             ">;",

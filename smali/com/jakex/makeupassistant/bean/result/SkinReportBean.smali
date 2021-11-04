@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeupassistant/bean/result/SkinReportBean;
-.super Lcom/jakex/makeupcore/bean/BaseBean;
+.super Lcom/jakex/ymluxscore/bean/BaseBean;
 
 
 # instance fields
@@ -24,7 +24,7 @@
 .method public constructor <init>()V
     .locals 1
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/bean/BaseBean;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/bean/BaseBean;-><init>()V
 
     const/4 v0, 0x1
 
@@ -48,7 +48,7 @@
 
     iget-object v0, p0, Lcom/jakex/makeupassistant/bean/result/SkinReportBean;->skin_report:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v0
 

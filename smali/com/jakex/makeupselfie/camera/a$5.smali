@@ -1,10 +1,10 @@
-.class synthetic Lcom/jakex/makeupselfie/camera/a$5;
+.class synthetic Lcom/jakex/ymluxscoresf/camera/a$5;
 .super Ljava/lang/Object;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/jakex/makeupselfie/camera/a;
+    value = Lcom/jakex/ymluxscoresf/camera/a;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -29,7 +29,7 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lcom/jakex/makeupselfie/camera/a$5;->a:[I
+    sput-object v0, Lcom/jakex/ymluxscoresf/camera/a$5;->a:[I
 
     :try_start_0
     sget-object v1, Lcom/jakex/makeupcamera/util/CamProperty$PreviewRatio;->FULL_SCREEN:Lcom/jakex/makeupcamera/util/CamProperty$PreviewRatio;

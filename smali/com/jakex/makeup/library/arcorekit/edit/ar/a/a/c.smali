@@ -15,7 +15,7 @@
 
 
 # virtual methods
-.method public a(Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;)V
+.method public a(Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;)V
     .locals 2
 
     invoke-virtual {p0}, Lcom/jakex/makeup/library/arcorekit/edit/ar/a/a/c;->b()Z
@@ -48,7 +48,7 @@
 
     check-cast v1, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/a;
 
-    invoke-virtual {p0, p1, v1}, Lcom/jakex/makeup/library/arcorekit/edit/ar/a/a/c;->b(Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/a;)V
+    invoke-virtual {p0, p1, v1}, Lcom/jakex/makeup/library/arcorekit/edit/ar/a/a/c;->b(Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/a;)V
 
     goto :goto_0
 

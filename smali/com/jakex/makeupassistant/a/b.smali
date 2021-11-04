@@ -144,7 +144,7 @@
 
     check-cast p2, Ljava/lang/String;
 
-    invoke-static {p2}, Lcom/jakex/makeupcore/util/at;->b(Ljava/lang/String;)I
+    invoke-static {p2}, Lcom/jakex/ymluxscore/util/at;->b(Ljava/lang/String;)I
 
     move-result p2
 

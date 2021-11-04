@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeupsenior/saveshare/materialcourse/MaterialCourseBean;
-.super Lcom/jakex/makeupcore/bean/BaseBean;
+.super Lcom/jakex/ymluxscore/bean/BaseBean;
 
 
 # instance fields
@@ -28,7 +28,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/bean/BaseBean;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/bean/BaseBean;-><init>()V
 
     return-void
 .end method
@@ -41,7 +41,7 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Lcom/jakex/makeupcore/bean/MaterialCourseAd;",
+            "Lcom/jakex/ymluxscore/bean/MaterialCourseAd;",
             ">;"
         }
     .end annotation
@@ -71,11 +71,11 @@
 
     check-cast v2, Ljava/lang/String;
 
-    new-instance v3, Lcom/jakex/makeupcore/bean/MaterialCourseAd;
+    new-instance v3, Lcom/jakex/ymluxscore/bean/MaterialCourseAd;
 
-    invoke-direct {v3}, Lcom/jakex/makeupcore/bean/MaterialCourseAd;-><init>()V
+    invoke-direct {v3}, Lcom/jakex/ymluxscore/bean/MaterialCourseAd;-><init>()V
 
-    invoke-virtual {v3, v2}, Lcom/jakex/makeupcore/bean/MaterialCourseAd;->setMakeupId(Ljava/lang/String;)V
+    invoke-virtual {v3, v2}, Lcom/jakex/ymluxscore/bean/MaterialCourseAd;->setMakeupId(Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/jakex/makeupsenior/saveshare/materialcourse/MaterialCourseBean;->getId()I
 
@@ -85,31 +85,31 @@
 
     move-result-object v2
 
-    invoke-virtual {v3, v2}, Lcom/jakex/makeupcore/bean/MaterialCourseAd;->setId(Ljava/lang/Integer;)V
+    invoke-virtual {v3, v2}, Lcom/jakex/ymluxscore/bean/MaterialCourseAd;->setId(Ljava/lang/Integer;)V
 
     invoke-virtual {p0}, Lcom/jakex/makeupsenior/saveshare/materialcourse/MaterialCourseBean;->getMinversion()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {v3, v2}, Lcom/jakex/makeupcore/bean/MaterialCourseAd;->setMinversion(Ljava/lang/String;)V
+    invoke-virtual {v3, v2}, Lcom/jakex/ymluxscore/bean/MaterialCourseAd;->setMinversion(Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/jakex/makeupsenior/saveshare/materialcourse/MaterialCourseBean;->getMaxversion()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {v3, v2}, Lcom/jakex/makeupcore/bean/MaterialCourseAd;->setMaxversion(Ljava/lang/String;)V
+    invoke-virtual {v3, v2}, Lcom/jakex/ymluxscore/bean/MaterialCourseAd;->setMaxversion(Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/jakex/makeupsenior/saveshare/materialcourse/MaterialCourseBean;->getPic()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {v3, v2}, Lcom/jakex/makeupcore/bean/MaterialCourseAd;->setPic(Ljava/lang/String;)V
+    invoke-virtual {v3, v2}, Lcom/jakex/ymluxscore/bean/MaterialCourseAd;->setPic(Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/jakex/makeupsenior/saveshare/materialcourse/MaterialCourseBean;->getUrl()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {v3, v2}, Lcom/jakex/makeupcore/bean/MaterialCourseAd;->setUrl(Ljava/lang/String;)V
+    invoke-virtual {v3, v2}, Lcom/jakex/ymluxscore/bean/MaterialCourseAd;->setUrl(Ljava/lang/String;)V
 
     invoke-interface {v0, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 

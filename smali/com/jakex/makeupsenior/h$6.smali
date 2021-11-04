@@ -62,7 +62,7 @@
 
     const/4 v0, 0x0
 
-    invoke-virtual {p2, v0}, Lcom/jakex/makeupsenior/model/b;->a(Lcom/jakex/makeupcore/bean/RecentMakeupConcrete;)V
+    invoke-virtual {p2, v0}, Lcom/jakex/makeupsenior/model/b;->a(Lcom/jakex/ymluxscore/bean/RecentMakeupConcrete;)V
 
     invoke-static {}, Lcom/jakex/makeupsenior/i;->a()V
 
@@ -85,7 +85,7 @@
     return-void
 
     :cond_0
-    invoke-virtual {v0}, Lcom/jakex/makeupsenior/makeup/PartMakeupProcessor;->getSchemeProcessor()Lcom/jakex/makeupeditor/b/a/b;
+    invoke-virtual {v0}, Lcom/jakex/makeupsenior/makeup/PartMakeupProcessor;->getSchemeProcessor()Lcom/jakex/ymluxseditor/b/a/b;
 
     move-result-object v0
 
@@ -110,7 +110,7 @@
 
     const/4 p2, 0x0
 
-    invoke-virtual {v0, p2}, Lcom/jakex/makeupeditor/b/a/b;->a(Z)V
+    invoke-virtual {v0, p2}, Lcom/jakex/ymluxseditor/b/a/b;->a(Z)V
 
     :cond_2
     iget-object p2, p0, Lcom/jakex/makeupsenior/h$6;->a:Lcom/jakex/makeupsenior/h;
@@ -119,7 +119,7 @@
 
     move-result p2
 
-    invoke-virtual {v0, p2}, Lcom/jakex/makeupeditor/b/a/b;->a(I)V
+    invoke-virtual {v0, p2}, Lcom/jakex/ymluxseditor/b/a/b;->a(I)V
 
     iget-object p2, p0, Lcom/jakex/makeupsenior/h$6;->a:Lcom/jakex/makeupsenior/h;
 
@@ -143,7 +143,7 @@
 
     move-result-object p1
 
-    invoke-interface {p1, v0}, Lcom/jakex/makeupsenior/d;->a(Lcom/jakex/makeupeditor/b/a/b;)V
+    invoke-interface {p1, v0}, Lcom/jakex/makeupsenior/d;->a(Lcom/jakex/ymluxseditor/b/a/b;)V
 
     iget-object p1, p0, Lcom/jakex/makeupsenior/h$6;->a:Lcom/jakex/makeupsenior/h;
 

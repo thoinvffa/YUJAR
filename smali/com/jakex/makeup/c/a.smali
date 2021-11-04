@@ -70,7 +70,7 @@
 
     invoke-direct {v3, v2}, Lcom/jakex/makeup/c/a$1;-><init>(I)V
 
-    invoke-static {v3}, Lcom/jakex/makeupcore/util/i;->a(Ljava/lang/Runnable;)V
+    invoke-static {v3}, Lcom/jakex/ymluxscore/util/i;->a(Ljava/lang/Runnable;)V
 
     const-wide/16 v2, 0x0
 
@@ -82,7 +82,7 @@
 
     invoke-static {v1}, Lcom/jakex/makeup/c/a;->a(I)V
 
-    invoke-static {}, Lcom/jakex/makeupeditor/a/a/b;->a()V
+    invoke-static {}, Lcom/jakex/ymluxseditor/a/a/b;->a()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 

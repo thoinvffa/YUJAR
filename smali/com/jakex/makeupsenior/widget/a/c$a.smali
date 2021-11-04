@@ -14,5 +14,5 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/jakex/makeupcore/bean/MaskBean;)V
+.method public abstract a(Lcom/jakex/ymluxscore/bean/MaskBean;)V
 .end method

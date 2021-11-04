@@ -1,13 +1,13 @@
-.class Lcom/jakex/makeupselfie/camera/material/e$3;
+.class Lcom/jakex/ymluxscoresf/camera/material/e$3;
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lcom/jakex/makeupcore/b/d$a;
+.implements Lcom/jakex/ymluxscore/b/d$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/jakex/makeupselfie/camera/material/e;
+    value = Lcom/jakex/ymluxscoresf/camera/material/e;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,14 +17,14 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/jakex/makeupselfie/camera/material/e;
+.field final synthetic a:Lcom/jakex/ymluxscoresf/camera/material/e;
 
 
 # direct methods
-.method constructor <init>(Lcom/jakex/makeupselfie/camera/material/e;)V
+.method constructor <init>(Lcom/jakex/ymluxscoresf/camera/material/e;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/camera/material/e$3;->a:Lcom/jakex/makeupselfie/camera/material/e;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/camera/material/e$3;->a:Lcom/jakex/ymluxscoresf/camera/material/e;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -38,7 +38,7 @@
 
     const/16 p1, 0x12c
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/g/a;->c(I)Z
+    invoke-static {p1}, Lcom/jakex/ymluxscore/g/a;->c(I)Z
 
     move-result p1
 
@@ -47,25 +47,25 @@
     return-void
 
     :cond_0
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/material/e$3;->a:Lcom/jakex/makeupselfie/camera/material/e;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/material/e$3;->a:Lcom/jakex/ymluxscoresf/camera/material/e;
 
-    invoke-static {p1}, Lcom/jakex/makeupselfie/camera/material/e;->b(Lcom/jakex/makeupselfie/camera/material/e;)Lcom/jakex/makeupselfie/camera/customconcrete/e;
+    invoke-static {p1}, Lcom/jakex/ymluxscoresf/camera/material/e;->b(Lcom/jakex/ymluxscoresf/camera/material/e;)Lcom/jakex/ymluxscoresf/camera/customconcrete/e;
 
     move-result-object p1
 
-    invoke-virtual {p1, p2}, Lcom/jakex/makeupselfie/camera/customconcrete/e;->a(I)Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;
+    invoke-virtual {p1, p2}, Lcom/jakex/ymluxscoresf/camera/customconcrete/e;->a(I)Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;
 
     move-result-object p1
 
     if-eqz p1, :cond_6
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/material/e$3;->a:Lcom/jakex/makeupselfie/camera/material/e;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/material/e$3;->a:Lcom/jakex/ymluxscoresf/camera/material/e;
 
-    invoke-static {v0}, Lcom/jakex/makeupselfie/camera/material/e;->b(Lcom/jakex/makeupselfie/camera/material/e;)Lcom/jakex/makeupselfie/camera/customconcrete/e;
+    invoke-static {v0}, Lcom/jakex/ymluxscoresf/camera/material/e;->b(Lcom/jakex/ymluxscoresf/camera/material/e;)Lcom/jakex/ymluxscoresf/camera/customconcrete/e;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupselfie/camera/customconcrete/e;->b()Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;
+    invoke-virtual {v0}, Lcom/jakex/ymluxscoresf/camera/customconcrete/e;->b()Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;
 
     move-result-object v0
 
@@ -74,55 +74,55 @@
     goto :goto_0
 
     :cond_1
-    invoke-static {}, Lcom/jakex/makeupselfie/camera/customconcrete/d;->a()Lcom/jakex/makeupselfie/camera/customconcrete/d;
+    invoke-static {}, Lcom/jakex/ymluxscoresf/camera/customconcrete/d;->a()Lcom/jakex/ymluxscoresf/camera/customconcrete/d;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/jakex/makeupselfie/camera/customconcrete/d;->a(Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;)Z
+    invoke-virtual {v0, p1}, Lcom/jakex/ymluxscoresf/camera/customconcrete/d;->a(Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;)Z
 
     move-result v0
 
     if-eqz v0, :cond_3
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/material/e$3;->a:Lcom/jakex/makeupselfie/camera/material/e;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/material/e$3;->a:Lcom/jakex/ymluxscoresf/camera/material/e;
 
-    invoke-static {v0}, Lcom/jakex/makeupselfie/camera/material/e;->b(Lcom/jakex/makeupselfie/camera/material/e;)Lcom/jakex/makeupselfie/camera/customconcrete/e;
+    invoke-static {v0}, Lcom/jakex/ymluxscoresf/camera/material/e;->b(Lcom/jakex/ymluxscoresf/camera/material/e;)Lcom/jakex/ymluxscoresf/camera/customconcrete/e;
 
     move-result-object v0
 
-    invoke-virtual {v0, p2}, Lcom/jakex/makeupselfie/camera/customconcrete/e;->b(I)V
+    invoke-virtual {v0, p2}, Lcom/jakex/ymluxscoresf/camera/customconcrete/e;->b(I)V
 
-    sget-object p2, Lcom/jakex/makeupselfie/camera/material/model/SelfiePart;->CUSTOM_CONCRETE:Lcom/jakex/makeupselfie/camera/material/model/SelfiePart;
+    sget-object p2, Lcom/jakex/ymluxscoresf/camera/material/model/SelfiePart;->CUSTOM_CONCRETE:Lcom/jakex/ymluxscoresf/camera/material/model/SelfiePart;
 
-    invoke-virtual {p2, p1}, Lcom/jakex/makeupselfie/camera/material/model/SelfiePart;->setSelectedConcrete(Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;)V
+    invoke-virtual {p2, p1}, Lcom/jakex/ymluxscoresf/camera/material/model/SelfiePart;->setSelectedConcrete(Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;)V
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/material/e$3;->a:Lcom/jakex/makeupselfie/camera/material/e;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/material/e$3;->a:Lcom/jakex/ymluxscoresf/camera/material/e;
 
-    invoke-static {p1}, Lcom/jakex/makeupselfie/camera/material/e;->f(Lcom/jakex/makeupselfie/camera/material/e;)Lcom/jakex/makeupselfie/camera/material/c;
+    invoke-static {p1}, Lcom/jakex/ymluxscoresf/camera/material/e;->f(Lcom/jakex/ymluxscoresf/camera/material/e;)Lcom/jakex/ymluxscoresf/camera/material/c;
 
     move-result-object p1
 
     if-eqz p1, :cond_2
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/material/e$3;->a:Lcom/jakex/makeupselfie/camera/material/e;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/material/e$3;->a:Lcom/jakex/ymluxscoresf/camera/material/e;
 
-    invoke-static {p1}, Lcom/jakex/makeupselfie/camera/material/e;->f(Lcom/jakex/makeupselfie/camera/material/e;)Lcom/jakex/makeupselfie/camera/material/c;
+    invoke-static {p1}, Lcom/jakex/ymluxscoresf/camera/material/e;->f(Lcom/jakex/ymluxscoresf/camera/material/e;)Lcom/jakex/ymluxscoresf/camera/material/c;
 
     move-result-object p1
 
-    invoke-interface {p1}, Lcom/jakex/makeupselfie/camera/material/c;->d()V
+    invoke-interface {p1}, Lcom/jakex/ymluxscoresf/camera/material/c;->d()V
 
     :cond_2
     return-void
 
     :cond_3
-    invoke-static {p1}, Lcom/jakex/makeupcore/bean/download/b;->a(Lcom/jakex/makeupcore/bean/download/a;)Lcom/jakex/makeupcore/bean/download/DownloadState;
+    invoke-static {p1}, Lcom/jakex/ymluxscore/bean/download/b;->a(Lcom/jakex/ymluxscore/bean/download/a;)Lcom/jakex/ymluxscore/bean/download/DownloadState;
 
     move-result-object v0
 
-    sget-object v1, Lcom/jakex/makeupselfie/camera/material/e$4;->a:[I
+    sget-object v1, Lcom/jakex/ymluxscoresf/camera/material/e$4;->a:[I
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/bean/download/DownloadState;->ordinal()I
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/bean/download/DownloadState;->ordinal()I
 
     move-result v0
 
@@ -139,48 +139,48 @@
     goto :goto_0
 
     :cond_4
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/material/e$3;->a:Lcom/jakex/makeupselfie/camera/material/e;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/material/e$3;->a:Lcom/jakex/ymluxscoresf/camera/material/e;
 
-    invoke-static {v0, p2, p1, v1}, Lcom/jakex/makeupselfie/camera/material/e;->a(Lcom/jakex/makeupselfie/camera/material/e;ILcom/jakex/makeupcore/bean/CustomMakeupConcrete;Z)V
+    invoke-static {v0, p2, p1, v1}, Lcom/jakex/ymluxscoresf/camera/material/e;->a(Lcom/jakex/ymluxscoresf/camera/material/e;ILcom/jakex/ymluxscore/bean/CustomMakeupConcrete;Z)V
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/material/e$3;->a:Lcom/jakex/makeupselfie/camera/material/e;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/material/e$3;->a:Lcom/jakex/ymluxscoresf/camera/material/e;
 
-    invoke-static {p1}, Lcom/jakex/makeupselfie/camera/material/e;->b(Lcom/jakex/makeupselfie/camera/material/e;)Lcom/jakex/makeupselfie/camera/customconcrete/e;
-
-    move-result-object p1
-
-    invoke-virtual {p1, p2}, Lcom/jakex/makeupselfie/camera/customconcrete/e;->c(I)V
-
-    invoke-static {}, Lcom/jakex/makeupselfie/camera/g/a;->a()Lcom/jakex/makeupselfie/camera/g/a;
+    invoke-static {p1}, Lcom/jakex/ymluxscoresf/camera/material/e;->b(Lcom/jakex/ymluxscoresf/camera/material/e;)Lcom/jakex/ymluxscoresf/camera/customconcrete/e;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/jakex/makeupselfie/camera/g/a;->b()V
+    invoke-virtual {p1, p2}, Lcom/jakex/ymluxscoresf/camera/customconcrete/e;->c(I)V
+
+    invoke-static {}, Lcom/jakex/ymluxscoresf/camera/g/a;->a()Lcom/jakex/ymluxscoresf/camera/g/a;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Lcom/jakex/ymluxscoresf/camera/g/a;->b()V
 
     goto :goto_0
 
     :cond_5
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/material/e$3;->a:Lcom/jakex/makeupselfie/camera/material/e;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/material/e$3;->a:Lcom/jakex/ymluxscoresf/camera/material/e;
 
-    invoke-static {v0}, Lcom/jakex/makeupselfie/camera/material/e;->d(Lcom/jakex/makeupselfie/camera/material/e;)Lcom/jakex/makeupselfie/camera/material/g;
-
-    move-result-object v0
-
-    invoke-virtual {v0, p1}, Lcom/jakex/makeupselfie/camera/material/g;->a(Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;)V
-
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/material/e$3;->a:Lcom/jakex/makeupselfie/camera/material/e;
-
-    invoke-static {v0}, Lcom/jakex/makeupselfie/camera/material/e;->b(Lcom/jakex/makeupselfie/camera/material/e;)Lcom/jakex/makeupselfie/camera/customconcrete/e;
+    invoke-static {v0}, Lcom/jakex/ymluxscoresf/camera/material/e;->d(Lcom/jakex/ymluxscoresf/camera/material/e;)Lcom/jakex/ymluxscoresf/camera/material/g;
 
     move-result-object v0
 
-    invoke-virtual {v0, p2}, Lcom/jakex/makeupselfie/camera/customconcrete/e;->c(I)V
+    invoke-virtual {v0, p1}, Lcom/jakex/ymluxscoresf/camera/material/g;->a(Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;)V
 
-    invoke-static {}, Lcom/jakex/makeupselfie/camera/g/a;->a()Lcom/jakex/makeupselfie/camera/g/a;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/material/e$3;->a:Lcom/jakex/ymluxscoresf/camera/material/e;
+
+    invoke-static {v0}, Lcom/jakex/ymluxscoresf/camera/material/e;->b(Lcom/jakex/ymluxscoresf/camera/material/e;)Lcom/jakex/ymluxscoresf/camera/customconcrete/e;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p2}, Lcom/jakex/ymluxscoresf/camera/customconcrete/e;->c(I)V
+
+    invoke-static {}, Lcom/jakex/ymluxscoresf/camera/g/a;->a()Lcom/jakex/ymluxscoresf/camera/g/a;
 
     move-result-object p2
 
-    invoke-virtual {p2, p1}, Lcom/jakex/makeupselfie/camera/g/a;->a(Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;)V
+    invoke-virtual {p2, p1}, Lcom/jakex/ymluxscoresf/camera/g/a;->a(Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;)V
 
     :cond_6
     :goto_0

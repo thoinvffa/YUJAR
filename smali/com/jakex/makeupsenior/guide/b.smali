@@ -488,13 +488,13 @@
 
     move-result-object p2
 
-    check-cast p2, Lcom/jakex/makeupcore/widget/CommonCloseLinerLayout;
+    check-cast p2, Lcom/jakex/ymluxscore/widget/CommonCloseLinerLayout;
 
     new-instance p3, Lcom/jakex/makeupsenior/guide/b$a;
 
     invoke-direct {p3, p0}, Lcom/jakex/makeupsenior/guide/b$a;-><init>(Lcom/jakex/makeupsenior/guide/b;)V
 
-    invoke-virtual {p2, p3}, Lcom/jakex/makeupcore/widget/CommonCloseLinerLayout;->setOnCloseListener(Lcom/jakex/makeupcore/widget/CommonCloseLinerLayout$b;)V
+    invoke-virtual {p2, p3}, Lcom/jakex/ymluxscore/widget/CommonCloseLinerLayout;->setOnCloseListener(Lcom/jakex/ymluxscore/widget/CommonCloseLinerLayout$b;)V
 
     return-object p1
 .end method

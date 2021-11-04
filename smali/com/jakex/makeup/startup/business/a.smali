@@ -121,7 +121,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {v0}, Lcom/jakex/makeupcore/protocol/a;->b(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/jakex/ymluxscore/protocol/a;->b(Ljava/lang/String;)Z
 
     move-result v1
 

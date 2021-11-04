@@ -17,8 +17,8 @@
 .method public abstract a()V
 .end method
 
-.method public abstract a(Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;)V
+.method public abstract a(Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;)V
 .end method
 
-.method public abstract a(Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;IZ)V
+.method public abstract a(Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;IZ)V
 .end method

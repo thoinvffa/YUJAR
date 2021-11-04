@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeupsenior/j;
-.super Lcom/jakex/makeupcore/g/a;
+.super Lcom/jakex/ymluxscore/g/a;
 
 # interfaces
 .implements Landroid/widget/RadioGroup$OnCheckedChangeListener;
@@ -27,7 +27,7 @@
 .method public constructor <init>()V
     .locals 1
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/g/a;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/g/a;-><init>()V
 
     const/4 v0, 0x0
 
@@ -60,9 +60,9 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/RadioGroup;->setOnCheckedChangeListener(Landroid/widget/RadioGroup$OnCheckedChangeListener;)V
 
-    sget-object v0, Lcom/jakex/makeupeditor/configuration/MouthType;->WATER:Lcom/jakex/makeupeditor/configuration/MouthType;
+    sget-object v0, Lcom/jakex/ymluxseditor/configuration/MouthType;->WATER:Lcom/jakex/ymluxseditor/configuration/MouthType;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/configuration/MouthType;->getNativeType()I
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/configuration/MouthType;->getNativeType()I
 
     move-result v0
 
@@ -75,9 +75,9 @@
     goto :goto_0
 
     :cond_1
-    sget-object v0, Lcom/jakex/makeupeditor/configuration/MouthType;->MOIST:Lcom/jakex/makeupeditor/configuration/MouthType;
+    sget-object v0, Lcom/jakex/ymluxseditor/configuration/MouthType;->MOIST:Lcom/jakex/ymluxseditor/configuration/MouthType;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/configuration/MouthType;->getNativeType()I
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/configuration/MouthType;->getNativeType()I
 
     move-result v0
 
@@ -90,9 +90,9 @@
     goto :goto_0
 
     :cond_2
-    sget-object v0, Lcom/jakex/makeupeditor/configuration/MouthType;->MATT:Lcom/jakex/makeupeditor/configuration/MouthType;
+    sget-object v0, Lcom/jakex/ymluxseditor/configuration/MouthType;->MATT:Lcom/jakex/ymluxseditor/configuration/MouthType;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/configuration/MouthType;->getNativeType()I
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/configuration/MouthType;->getNativeType()I
 
     move-result v0
 
@@ -105,9 +105,9 @@
     goto :goto_0
 
     :cond_3
-    sget-object v0, Lcom/jakex/makeupeditor/configuration/MouthType;->BIT:Lcom/jakex/makeupeditor/configuration/MouthType;
+    sget-object v0, Lcom/jakex/ymluxseditor/configuration/MouthType;->BIT:Lcom/jakex/ymluxseditor/configuration/MouthType;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/configuration/MouthType;->getNativeType()I
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/configuration/MouthType;->getNativeType()I
 
     move-result v0
 
@@ -143,9 +143,9 @@
 
     if-ne p2, p1, :cond_0
 
-    sget-object p1, Lcom/jakex/makeupeditor/configuration/MouthType;->WATER:Lcom/jakex/makeupeditor/configuration/MouthType;
+    sget-object p1, Lcom/jakex/ymluxseditor/configuration/MouthType;->WATER:Lcom/jakex/ymluxseditor/configuration/MouthType;
 
-    invoke-virtual {p1}, Lcom/jakex/makeupeditor/configuration/MouthType;->getNativeType()I
+    invoke-virtual {p1}, Lcom/jakex/ymluxseditor/configuration/MouthType;->getNativeType()I
 
     move-result p1
 
@@ -162,9 +162,9 @@
 
     if-ne p2, p1, :cond_1
 
-    sget-object p1, Lcom/jakex/makeupeditor/configuration/MouthType;->MOIST:Lcom/jakex/makeupeditor/configuration/MouthType;
+    sget-object p1, Lcom/jakex/ymluxseditor/configuration/MouthType;->MOIST:Lcom/jakex/ymluxseditor/configuration/MouthType;
 
-    invoke-virtual {p1}, Lcom/jakex/makeupeditor/configuration/MouthType;->getNativeType()I
+    invoke-virtual {p1}, Lcom/jakex/ymluxseditor/configuration/MouthType;->getNativeType()I
 
     move-result p1
 
@@ -181,9 +181,9 @@
 
     if-ne p2, p1, :cond_2
 
-    sget-object p1, Lcom/jakex/makeupeditor/configuration/MouthType;->MATT:Lcom/jakex/makeupeditor/configuration/MouthType;
+    sget-object p1, Lcom/jakex/ymluxseditor/configuration/MouthType;->MATT:Lcom/jakex/ymluxseditor/configuration/MouthType;
 
-    invoke-virtual {p1}, Lcom/jakex/makeupeditor/configuration/MouthType;->getNativeType()I
+    invoke-virtual {p1}, Lcom/jakex/ymluxseditor/configuration/MouthType;->getNativeType()I
 
     move-result p1
 
@@ -200,9 +200,9 @@
 
     if-ne p2, p1, :cond_3
 
-    sget-object p1, Lcom/jakex/makeupeditor/configuration/MouthType;->BIT:Lcom/jakex/makeupeditor/configuration/MouthType;
+    sget-object p1, Lcom/jakex/ymluxseditor/configuration/MouthType;->BIT:Lcom/jakex/ymluxseditor/configuration/MouthType;
 
-    invoke-virtual {p1}, Lcom/jakex/makeupeditor/configuration/MouthType;->getNativeType()I
+    invoke-virtual {p1}, Lcom/jakex/ymluxseditor/configuration/MouthType;->getNativeType()I
 
     move-result p1
 
@@ -252,7 +252,7 @@
 .method public onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 0
 
-    invoke-super {p0, p1, p2}, Lcom/jakex/makeupcore/g/a;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+    invoke-super {p0, p1, p2}, Lcom/jakex/ymluxscore/g/a;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
     sget p2, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->v3_beauty_part_mouth_rl:I
 

@@ -187,19 +187,19 @@
 
     move-result-object p3
 
-    check-cast p3, Lcom/jakex/makeupcore/widget/SwitchButton;
+    check-cast p3, Lcom/jakex/ymluxscore/widget/SwitchButton;
 
     invoke-static {}, Lcom/jakex/makeupcamera/util/b;->g()Z
 
     move-result v0
 
-    invoke-virtual {p3, v0}, Lcom/jakex/makeupcore/widget/SwitchButton;->setChecked(Z)V
+    invoke-virtual {p3, v0}, Lcom/jakex/ymluxscore/widget/SwitchButton;->setChecked(Z)V
 
     new-instance v0, Lcom/jakex/makeupcamera/b/a$1;
 
     invoke-direct {v0, p0}, Lcom/jakex/makeupcamera/b/a$1;-><init>(Lcom/jakex/makeupcamera/b/a;)V
 
-    invoke-virtual {p3, v0}, Lcom/jakex/makeupcore/widget/SwitchButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
+    invoke-virtual {p3, v0}, Lcom/jakex/ymluxscore/widget/SwitchButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
     invoke-direct {p0, p1, p2}, Lcom/jakex/makeupcamera/b/a;->a(Landroid/view/View;Lcom/jakex/makeupcamera/util/CamProperty$PreviewRatio;)V
 

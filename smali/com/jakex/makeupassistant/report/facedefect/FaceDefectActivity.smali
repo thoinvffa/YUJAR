@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;
-.super Lcom/jakex/makeupcore/activity/MTBaseActivity;
+.super Lcom/jakex/ymluxscore/activity/MTBaseActivity;
 
 # interfaces
 .implements Lcom/jakex/makeupassistant/report/facedefect/a$a;
@@ -8,7 +8,7 @@
 # instance fields
 .field private a:Lcom/jakex/makeupassistant/report/facedefect/b;
 
-.field private b:Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+.field private b:Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
 .field private c:Lnet/lucode/hackware/magicindicator/MagicIndicator;
 
@@ -43,7 +43,7 @@
 .method public constructor <init>()V
     .locals 2
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;-><init>()V
 
     new-instance v0, Ljava/util/ArrayList;
 
@@ -101,17 +101,17 @@
 
     invoke-virtual {v2, v3}, Lnet/lucode/hackware/magicindicator/a;->a(I)V
 
-    new-instance v2, Lcom/jakex/makeupcore/widget/indicator/c;
+    new-instance v2, Lcom/jakex/ymluxscore/widget/indicator/c;
 
-    invoke-direct {v2, p0}, Lcom/jakex/makeupcore/widget/indicator/c;-><init>(Landroid/content/Context;)V
+    invoke-direct {v2, p0}, Lcom/jakex/ymluxscore/widget/indicator/c;-><init>(Landroid/content/Context;)V
 
     const/4 v3, 0x1
 
-    invoke-virtual {v2, v3}, Lcom/jakex/makeupcore/widget/indicator/c;->setPreviewAdjacentTitle(Z)V
+    invoke-virtual {v2, v3}, Lcom/jakex/ymluxscore/widget/indicator/c;->setPreviewAdjacentTitle(Z)V
 
     const/4 v3, 0x0
 
-    invoke-virtual {v2, v3}, Lcom/jakex/makeupcore/widget/indicator/c;->setFollowTouch(Z)V
+    invoke-virtual {v2, v3}, Lcom/jakex/ymluxscore/widget/indicator/c;->setFollowTouch(Z)V
 
     new-instance v3, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity$2;
 
@@ -119,7 +119,7 @@
 
     iput-object v3, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->n:Lnet/lucode/hackware/magicindicator/buildins/commonnavigator/a/a;
 
-    invoke-virtual {v2, v3}, Lcom/jakex/makeupcore/widget/indicator/c;->setAdapter(Lnet/lucode/hackware/magicindicator/buildins/commonnavigator/a/a;)V
+    invoke-virtual {v2, v3}, Lcom/jakex/ymluxscore/widget/indicator/c;->setAdapter(Lnet/lucode/hackware/magicindicator/buildins/commonnavigator/a/a;)V
 
     iget-object v0, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->c:Lnet/lucode/hackware/magicindicator/MagicIndicator;
 
@@ -145,9 +145,9 @@
 .method private a(Lcom/jakex/makeupassistant/report/facedefect/DefectPartPosition;)V
     .locals 3
 
-    iget-object v0, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    iget-object v0, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/widget/BeautyMakeupView;->a()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;->a()V
 
     sget-object v0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity$3;->a:[I
 
@@ -162,7 +162,7 @@
     goto :goto_1
 
     :pswitch_0
-    iget-object v0, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    iget-object v0, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
     iget-object v1, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->k:Lcom/jakex/makeupassistant/report/facedefect/a/a;
 
@@ -171,7 +171,7 @@
     goto :goto_0
 
     :pswitch_1
-    iget-object v0, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    iget-object v0, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
     iget-object v1, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->l:Lcom/jakex/makeupassistant/report/facedefect/a/a;
 
@@ -180,7 +180,7 @@
     goto :goto_0
 
     :pswitch_2
-    iget-object v0, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    iget-object v0, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
     iget-object v1, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->j:Lcom/jakex/makeupassistant/report/facedefect/a/a;
 
@@ -189,7 +189,7 @@
     goto :goto_0
 
     :pswitch_3
-    iget-object v0, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    iget-object v0, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
     iget-object v1, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->i:Lcom/jakex/makeupassistant/report/facedefect/a/b;
 
@@ -198,23 +198,23 @@
     goto :goto_0
 
     :pswitch_4
-    iget-object v0, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    iget-object v0, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
     iget-object v1, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->h:Lcom/jakex/makeupassistant/report/facedefect/a/b;
 
     const-string v2, "LAYER_TAG_ACE"
 
     :goto_0
-    invoke-virtual {v0, v2, v1}, Lcom/jakex/makeupeditor/widget/BeautyMakeupView;->a(Ljava/lang/String;Lcom/jakex/makeupeditor/widget/makeuplayer/a;)V
+    invoke-virtual {v0, v2, v1}, Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;->a(Ljava/lang/String;Lcom/jakex/ymluxseditor/widget/makeuplayer/a;)V
 
     :pswitch_5
-    iget-object v0, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    iget-object v0, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
     iget-object v1, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->d:Landroid/graphics/Bitmap;
 
     const/4 v2, 0x1
 
-    invoke-virtual {v0, v1, v2}, Lcom/jakex/makeupeditor/widget/BeautyMakeupView;->a(Landroid/graphics/Bitmap;Z)V
+    invoke-virtual {v0, v1, v2}, Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;->a(Landroid/graphics/Bitmap;Z)V
 
     :goto_1
     invoke-virtual {p1}, Lcom/jakex/makeupassistant/report/facedefect/DefectPartPosition;->getName()Ljava/lang/String;
@@ -424,7 +424,7 @@
     goto :goto_1
 
     :cond_2
-    iget-object p1, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    iget-object p1, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
     iget-object p3, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->k:Lcom/jakex/makeupassistant/report/facedefect/a/a;
 
@@ -433,7 +433,7 @@
     goto :goto_0
 
     :cond_3
-    iget-object p1, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    iget-object p1, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
     iget-object p3, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->l:Lcom/jakex/makeupassistant/report/facedefect/a/a;
 
@@ -442,7 +442,7 @@
     goto :goto_0
 
     :cond_4
-    iget-object p1, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    iget-object p1, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
     iget-object p3, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->j:Lcom/jakex/makeupassistant/report/facedefect/a/a;
 
@@ -451,7 +451,7 @@
     goto :goto_0
 
     :cond_5
-    iget-object p1, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    iget-object p1, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
     iget-object p3, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->i:Lcom/jakex/makeupassistant/report/facedefect/a/b;
 
@@ -460,20 +460,20 @@
     goto :goto_0
 
     :cond_6
-    iget-object p1, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    iget-object p1, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
     iget-object p3, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->h:Lcom/jakex/makeupassistant/report/facedefect/a/b;
 
     const-string p4, "LAYER_TAG_ACE"
 
     :goto_0
-    invoke-virtual {p1, p4, p3}, Lcom/jakex/makeupeditor/widget/BeautyMakeupView;->a(Ljava/lang/String;Lcom/jakex/makeupeditor/widget/makeuplayer/a;)V
+    invoke-virtual {p1, p4, p3}, Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;->a(Ljava/lang/String;Lcom/jakex/ymluxseditor/widget/makeuplayer/a;)V
 
     :cond_7
     :goto_1
-    iget-object p1, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    iget-object p1, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
-    invoke-virtual {p1, p2, v0}, Lcom/jakex/makeupeditor/widget/BeautyMakeupView;->a(Landroid/graphics/Bitmap;Z)V
+    invoke-virtual {p1, p2, v0}, Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;->a(Landroid/graphics/Bitmap;Z)V
 
     return-void
 .end method
@@ -481,7 +481,7 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 1
 
-    invoke-super {p0, p1}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onCreate(Landroid/os/Bundle;)V
 
     sget p1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$layout;->assistant_report_face_defect_fragment:I
 
@@ -499,45 +499,45 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    check-cast p1, Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
-    iput-object p1, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    iput-object p1, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
     new-instance v0, Lcom/jakex/makeupassistant/report/facedefect/a/b;
 
-    invoke-direct {v0, p1}, Lcom/jakex/makeupassistant/report/facedefect/a/b;-><init>(Lcom/jakex/makeupeditor/widget/BeautyMakeupView;)V
+    invoke-direct {v0, p1}, Lcom/jakex/makeupassistant/report/facedefect/a/b;-><init>(Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;)V
 
     iput-object v0, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->h:Lcom/jakex/makeupassistant/report/facedefect/a/b;
 
     new-instance p1, Lcom/jakex/makeupassistant/report/facedefect/a/b;
 
-    iget-object v0, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    iget-object v0, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
-    invoke-direct {p1, v0}, Lcom/jakex/makeupassistant/report/facedefect/a/b;-><init>(Lcom/jakex/makeupeditor/widget/BeautyMakeupView;)V
+    invoke-direct {p1, v0}, Lcom/jakex/makeupassistant/report/facedefect/a/b;-><init>(Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;)V
 
     iput-object p1, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->i:Lcom/jakex/makeupassistant/report/facedefect/a/b;
 
     new-instance p1, Lcom/jakex/makeupassistant/report/facedefect/a/a;
 
-    iget-object v0, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    iget-object v0, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
-    invoke-direct {p1, v0}, Lcom/jakex/makeupassistant/report/facedefect/a/a;-><init>(Lcom/jakex/makeupeditor/widget/BeautyMakeupView;)V
+    invoke-direct {p1, v0}, Lcom/jakex/makeupassistant/report/facedefect/a/a;-><init>(Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;)V
 
     iput-object p1, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->k:Lcom/jakex/makeupassistant/report/facedefect/a/a;
 
     new-instance p1, Lcom/jakex/makeupassistant/report/facedefect/a/a;
 
-    iget-object v0, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    iget-object v0, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
-    invoke-direct {p1, v0}, Lcom/jakex/makeupassistant/report/facedefect/a/a;-><init>(Lcom/jakex/makeupeditor/widget/BeautyMakeupView;)V
+    invoke-direct {p1, v0}, Lcom/jakex/makeupassistant/report/facedefect/a/a;-><init>(Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;)V
 
     iput-object p1, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->j:Lcom/jakex/makeupassistant/report/facedefect/a/a;
 
     new-instance p1, Lcom/jakex/makeupassistant/report/facedefect/a/a;
 
-    iget-object v0, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    iget-object v0, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->b:Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
-    invoke-direct {p1, v0}, Lcom/jakex/makeupassistant/report/facedefect/a/a;-><init>(Lcom/jakex/makeupeditor/widget/BeautyMakeupView;)V
+    invoke-direct {p1, v0}, Lcom/jakex/makeupassistant/report/facedefect/a/a;-><init>(Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;)V
 
     iput-object p1, p0, Lcom/jakex/makeupassistant/report/facedefect/FaceDefectActivity;->l:Lcom/jakex/makeupassistant/report/facedefect/a/a;
 
@@ -561,7 +561,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/util/ah;->a(Landroid/view/Window;)V
+    invoke-static {p1}, Lcom/jakex/ymluxscore/util/ah;->a(Landroid/view/Window;)V
 
     sget p1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->face_defect_back_ibtn:I
 
@@ -569,7 +569,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/util/ah;->a(Landroid/view/View;)V
+    invoke-static {p1}, Lcom/jakex/ymluxscore/util/ah;->a(Landroid/view/View;)V
 
     return-void
 .end method

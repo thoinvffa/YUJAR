@@ -1,10 +1,10 @@
-.class Lcom/jakex/makeupselfie/camera/customconcrete/e$a;
-.super Lcom/jakex/makeupcore/b/d;
+.class Lcom/jakex/ymluxscoresf/camera/customconcrete/e$a;
+.super Lcom/jakex/ymluxscore/b/d;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/jakex/makeupselfie/camera/customconcrete/e;
+    value = Lcom/jakex/ymluxscoresf/camera/customconcrete/e;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -14,42 +14,42 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupcore/b/d<",
-        "Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;",
+        "Lcom/jakex/ymluxscore/b/d<",
+        "Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;",
         ">;"
     }
 .end annotation
 
 
 # instance fields
-.field final synthetic a:Lcom/jakex/makeupselfie/camera/customconcrete/e;
+.field final synthetic a:Lcom/jakex/ymluxscoresf/camera/customconcrete/e;
 
 
 # direct methods
-.method constructor <init>(Lcom/jakex/makeupselfie/camera/customconcrete/e;Ljava/util/List;)V
+.method constructor <init>(Lcom/jakex/ymluxscoresf/camera/customconcrete/e;Ljava/util/List;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/util/List<",
-            "Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;",
+            "Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;",
             ">;)V"
         }
     .end annotation
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/camera/customconcrete/e$a;->a:Lcom/jakex/makeupselfie/camera/customconcrete/e;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/e$a;->a:Lcom/jakex/ymluxscoresf/camera/customconcrete/e;
 
-    invoke-direct {p0, p2}, Lcom/jakex/makeupcore/b/d;-><init>(Ljava/util/List;)V
+    invoke-direct {p0, p2}, Lcom/jakex/ymluxscore/b/d;-><init>(Ljava/util/List;)V
 
     return-void
 .end method
 
-.method private a(Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;)Z
+.method private a(Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;)Z
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/customconcrete/e$a;->a:Lcom/jakex/makeupselfie/camera/customconcrete/e;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/e$a;->a:Lcom/jakex/ymluxscoresf/camera/customconcrete/e;
 
-    invoke-static {v0}, Lcom/jakex/makeupselfie/camera/customconcrete/e;->a(Lcom/jakex/makeupselfie/camera/customconcrete/e;)Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;
+    invoke-static {v0}, Lcom/jakex/ymluxscoresf/camera/customconcrete/e;->a(Lcom/jakex/ymluxscoresf/camera/customconcrete/e;)Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;
 
     move-result-object v0
 
@@ -76,34 +76,34 @@
     return p1
 .end method
 
-.method public a(Lcom/jakex/makeupcore/b/e;ILcom/jakex/makeupcore/bean/CustomMakeupConcrete;)V
+.method public a(Lcom/jakex/ymluxscore/b/e;ILcom/jakex/ymluxscore/bean/CustomMakeupConcrete;)V
     .locals 4
 
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/b/e;->a()Landroid/view/View;
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/b/e;->a()Landroid/view/View;
 
     move-result-object p2
 
-    invoke-virtual {p3}, Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;->getConcreteId()Ljava/lang/String;
+    invoke-virtual {p3}, Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;->getConcreteId()Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p2, v0}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
-    invoke-static {}, Lcom/jakex/makeupselfie/camera/customconcrete/d;->a()Lcom/jakex/makeupselfie/camera/customconcrete/d;
+    invoke-static {}, Lcom/jakex/ymluxscoresf/camera/customconcrete/d;->a()Lcom/jakex/ymluxscoresf/camera/customconcrete/d;
 
     move-result-object p2
 
-    invoke-virtual {p2, p3}, Lcom/jakex/makeupselfie/camera/customconcrete/d;->a(Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;)Z
+    invoke-virtual {p2, p3}, Lcom/jakex/ymluxscoresf/camera/customconcrete/d;->a(Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;)Z
 
     move-result p2
 
-    invoke-direct {p0, p3}, Lcom/jakex/makeupselfie/camera/customconcrete/e$a;->a(Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;)Z
+    invoke-direct {p0, p3}, Lcom/jakex/ymluxscoresf/camera/customconcrete/e$a;->a(Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;)Z
 
     move-result v0
 
     sget v1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->selected_iv:I
 
-    invoke-virtual {p1, v1}, Lcom/jakex/makeupcore/b/e;->a(I)Landroid/view/View;
+    invoke-virtual {p1, v1}, Lcom/jakex/ymluxscore/b/e;->a(I)Landroid/view/View;
 
     move-result-object v1
 
@@ -111,7 +111,7 @@
 
     sget v2, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->thumb_iv:I
 
-    invoke-virtual {p1, v2}, Lcom/jakex/makeupcore/b/e;->a(I)Landroid/view/View;
+    invoke-virtual {p1, v2}, Lcom/jakex/ymluxscore/b/e;->a(I)Landroid/view/View;
 
     move-result-object v2
 
@@ -119,7 +119,7 @@
 
     sget v3, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->name_tv:I
 
-    invoke-virtual {p1, v3}, Lcom/jakex/makeupcore/b/e;->b(I)Landroid/widget/TextView;
+    invoke-virtual {p1, v3}, Lcom/jakex/ymluxscore/b/e;->b(I)Landroid/widget/TextView;
 
     move-result-object v3
 
@@ -150,7 +150,7 @@
 
     invoke-virtual {v2, p2}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    invoke-virtual {p3}, Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;->getName()Ljava/lang/String;
+    invoke-virtual {p3}, Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;->getName()Ljava/lang/String;
 
     move-result-object p2
 
@@ -175,15 +175,15 @@
 
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->download_pb:I
 
-    invoke-virtual {p1, v0}, Lcom/jakex/makeupcore/b/e;->a(I)Landroid/view/View;
+    invoke-virtual {p1, v0}, Lcom/jakex/ymluxscore/b/e;->a(I)Landroid/view/View;
 
     move-result-object v0
 
-    check-cast v0, Lcom/jakex/makeupcore/widget/RoundProgressBar;
+    check-cast v0, Lcom/jakex/ymluxscore/widget/RoundProgressBar;
 
     sget v1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->download_iv:I
 
-    invoke-virtual {p1, v1}, Lcom/jakex/makeupcore/b/e;->a(I)Landroid/view/View;
+    invoke-virtual {p1, v1}, Lcom/jakex/ymluxscore/b/e;->a(I)Landroid/view/View;
 
     move-result-object p1
 
@@ -191,15 +191,15 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    invoke-virtual {v0, v2}, Lcom/jakex/makeupcore/widget/RoundProgressBar;->setVisibility(I)V
+    invoke-virtual {v0, v2}, Lcom/jakex/ymluxscore/widget/RoundProgressBar;->setVisibility(I)V
 
-    invoke-static {p3}, Lcom/jakex/makeupcore/bean/download/b;->a(Lcom/jakex/makeupcore/bean/download/a;)Lcom/jakex/makeupcore/bean/download/DownloadState;
+    invoke-static {p3}, Lcom/jakex/ymluxscore/bean/download/b;->a(Lcom/jakex/ymluxscore/bean/download/a;)Lcom/jakex/ymluxscore/bean/download/DownloadState;
 
     move-result-object v1
 
-    sget-object v2, Lcom/jakex/makeupselfie/camera/customconcrete/e$1;->a:[I
+    sget-object v2, Lcom/jakex/ymluxscoresf/camera/customconcrete/e$1;->a:[I
 
-    invoke-virtual {v1}, Lcom/jakex/makeupcore/bean/download/DownloadState;->ordinal()I
+    invoke-virtual {v1}, Lcom/jakex/ymluxscore/bean/download/DownloadState;->ordinal()I
 
     move-result v1
 
@@ -221,26 +221,26 @@
     goto :goto_3
 
     :cond_4
-    invoke-virtual {v0, p2}, Lcom/jakex/makeupcore/widget/RoundProgressBar;->setVisibility(I)V
+    invoke-virtual {v0, p2}, Lcom/jakex/ymluxscore/widget/RoundProgressBar;->setVisibility(I)V
 
-    invoke-static {p3}, Lcom/jakex/makeupcore/bean/download/b;->b(Lcom/jakex/makeupcore/bean/download/a;)I
+    invoke-static {p3}, Lcom/jakex/ymluxscore/bean/download/b;->b(Lcom/jakex/ymluxscore/bean/download/a;)I
 
     move-result p1
 
-    invoke-virtual {v0, p1}, Lcom/jakex/makeupcore/widget/RoundProgressBar;->setProgress(I)V
+    invoke-virtual {v0, p1}, Lcom/jakex/ymluxscore/widget/RoundProgressBar;->setProgress(I)V
 
     :goto_3
     return-void
 .end method
 
-.method public a(Lcom/jakex/makeupcore/b/e;ILcom/jakex/makeupcore/bean/CustomMakeupConcrete;Ljava/util/List;)V
+.method public a(Lcom/jakex/ymluxscore/b/e;ILcom/jakex/ymluxscore/bean/CustomMakeupConcrete;Ljava/util/List;)V
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/jakex/makeupcore/b/e;",
+            "Lcom/jakex/ymluxscore/b/e;",
             "I",
-            "Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;",
+            "Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;",
             "Ljava/util/List<",
             "Ljava/lang/Object;",
             ">;)V"
@@ -273,7 +273,7 @@
 
     sget p4, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->download_iv:I
 
-    invoke-virtual {p1, p4}, Lcom/jakex/makeupcore/b/e;->a(I)Landroid/view/View;
+    invoke-virtual {p1, p4}, Lcom/jakex/ymluxscore/b/e;->a(I)Landroid/view/View;
 
     move-result-object p4
 
@@ -285,25 +285,25 @@
 
     sget p4, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->download_pb:I
 
-    invoke-virtual {p1, p4}, Lcom/jakex/makeupcore/b/e;->a(I)Landroid/view/View;
+    invoke-virtual {p1, p4}, Lcom/jakex/ymluxscore/b/e;->a(I)Landroid/view/View;
 
     move-result-object p4
 
-    check-cast p4, Lcom/jakex/makeupcore/widget/RoundProgressBar;
+    check-cast p4, Lcom/jakex/ymluxscore/widget/RoundProgressBar;
 
     const/4 v1, 0x0
 
-    invoke-virtual {p4, v1}, Lcom/jakex/makeupcore/widget/RoundProgressBar;->setVisibility(I)V
+    invoke-virtual {p4, v1}, Lcom/jakex/ymluxscore/widget/RoundProgressBar;->setVisibility(I)V
 
-    invoke-static {p3}, Lcom/jakex/makeupcore/bean/download/b;->b(Lcom/jakex/makeupcore/bean/download/a;)I
+    invoke-static {p3}, Lcom/jakex/ymluxscore/bean/download/b;->b(Lcom/jakex/ymluxscore/bean/download/a;)I
 
     move-result v1
 
-    invoke-virtual {p4, v1}, Lcom/jakex/makeupcore/widget/RoundProgressBar;->setProgress(I)V
+    invoke-virtual {p4, v1}, Lcom/jakex/ymluxscore/widget/RoundProgressBar;->setProgress(I)V
 
     sget p4, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->selected_iv:I
 
-    invoke-virtual {p1, p4}, Lcom/jakex/makeupcore/b/e;->a(I)Landroid/view/View;
+    invoke-virtual {p1, p4}, Lcom/jakex/ymluxscore/b/e;->a(I)Landroid/view/View;
 
     move-result-object p4
 
@@ -315,22 +315,22 @@
     return-void
 .end method
 
-.method public bridge synthetic a(Lcom/jakex/makeupcore/b/e;ILjava/lang/Object;)V
+.method public bridge synthetic a(Lcom/jakex/ymluxscore/b/e;ILjava/lang/Object;)V
     .locals 0
 
-    check-cast p3, Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;
+    check-cast p3, Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;
 
-    invoke-virtual {p0, p1, p2, p3}, Lcom/jakex/makeupselfie/camera/customconcrete/e$a;->a(Lcom/jakex/makeupcore/b/e;ILcom/jakex/makeupcore/bean/CustomMakeupConcrete;)V
+    invoke-virtual {p0, p1, p2, p3}, Lcom/jakex/ymluxscoresf/camera/customconcrete/e$a;->a(Lcom/jakex/ymluxscore/b/e;ILcom/jakex/ymluxscore/bean/CustomMakeupConcrete;)V
 
     return-void
 .end method
 
-.method public bridge synthetic a(Lcom/jakex/makeupcore/b/e;ILjava/lang/Object;Ljava/util/List;)V
+.method public bridge synthetic a(Lcom/jakex/ymluxscore/b/e;ILjava/lang/Object;Ljava/util/List;)V
     .locals 0
 
-    check-cast p3, Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;
+    check-cast p3, Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;
 
-    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/jakex/makeupselfie/camera/customconcrete/e$a;->a(Lcom/jakex/makeupcore/b/e;ILcom/jakex/makeupcore/bean/CustomMakeupConcrete;Ljava/util/List;)V
+    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/jakex/ymluxscoresf/camera/customconcrete/e$a;->a(Lcom/jakex/ymluxscore/b/e;ILcom/jakex/ymluxscore/bean/CustomMakeupConcrete;Ljava/util/List;)V
 
     return-void
 .end method

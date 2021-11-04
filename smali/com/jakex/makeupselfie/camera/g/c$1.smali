@@ -1,10 +1,10 @@
-.class synthetic Lcom/jakex/makeupselfie/camera/g/c$1;
+.class synthetic Lcom/jakex/ymluxscoresf/camera/g/c$1;
 .super Ljava/lang/Object;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/jakex/makeupselfie/camera/g/c;
+    value = Lcom/jakex/ymluxscoresf/camera/g/c;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -21,7 +21,7 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    invoke-static {}, Lcom/jakex/makeupeditor/configuration/PartPosition;->values()[Lcom/jakex/makeupeditor/configuration/PartPosition;
+    invoke-static {}, Lcom/jakex/ymluxseditor/configuration/PartPosition;->values()[Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     move-result-object v0
 
@@ -29,12 +29,12 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lcom/jakex/makeupselfie/camera/g/c$1;->a:[I
+    sput-object v0, Lcom/jakex/ymluxscoresf/camera/g/c$1;->a:[I
 
     :try_start_0
-    sget-object v1, Lcom/jakex/makeupeditor/configuration/PartPosition;->MOUTH:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v1, Lcom/jakex/ymluxseditor/configuration/PartPosition;->MOUTH:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
-    invoke-virtual {v1}, Lcom/jakex/makeupeditor/configuration/PartPosition;->ordinal()I
+    invoke-virtual {v1}, Lcom/jakex/ymluxseditor/configuration/PartPosition;->ordinal()I
 
     move-result v1
 
@@ -51,11 +51,11 @@
 
     :goto_0
     :try_start_1
-    sget-object v0, Lcom/jakex/makeupselfie/camera/g/c$1;->a:[I
+    sget-object v0, Lcom/jakex/ymluxscoresf/camera/g/c$1;->a:[I
 
-    sget-object v1, Lcom/jakex/makeupeditor/configuration/PartPosition;->BLUSHER:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v1, Lcom/jakex/ymluxseditor/configuration/PartPosition;->BLUSHER:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
-    invoke-virtual {v1}, Lcom/jakex/makeupeditor/configuration/PartPosition;->ordinal()I
+    invoke-virtual {v1}, Lcom/jakex/ymluxseditor/configuration/PartPosition;->ordinal()I
 
     move-result v1
 
@@ -72,11 +72,11 @@
 
     :goto_1
     :try_start_2
-    sget-object v0, Lcom/jakex/makeupselfie/camera/g/c$1;->a:[I
+    sget-object v0, Lcom/jakex/ymluxscoresf/camera/g/c$1;->a:[I
 
-    sget-object v1, Lcom/jakex/makeupeditor/configuration/PartPosition;->BLUSHER_COLOR:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v1, Lcom/jakex/ymluxseditor/configuration/PartPosition;->BLUSHER_COLOR:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
-    invoke-virtual {v1}, Lcom/jakex/makeupeditor/configuration/PartPosition;->ordinal()I
+    invoke-virtual {v1}, Lcom/jakex/ymluxseditor/configuration/PartPosition;->ordinal()I
 
     move-result v1
 
@@ -93,11 +93,11 @@
 
     :goto_2
     :try_start_3
-    sget-object v0, Lcom/jakex/makeupselfie/camera/g/c$1;->a:[I
+    sget-object v0, Lcom/jakex/ymluxscoresf/camera/g/c$1;->a:[I
 
-    sget-object v1, Lcom/jakex/makeupeditor/configuration/PartPosition;->EYE_BROW:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v1, Lcom/jakex/ymluxseditor/configuration/PartPosition;->EYE_BROW:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
-    invoke-virtual {v1}, Lcom/jakex/makeupeditor/configuration/PartPosition;->ordinal()I
+    invoke-virtual {v1}, Lcom/jakex/ymluxseditor/configuration/PartPosition;->ordinal()I
 
     move-result v1
 
@@ -114,11 +114,11 @@
 
     :goto_3
     :try_start_4
-    sget-object v0, Lcom/jakex/makeupselfie/camera/g/c$1;->a:[I
+    sget-object v0, Lcom/jakex/ymluxscoresf/camera/g/c$1;->a:[I
 
-    sget-object v1, Lcom/jakex/makeupeditor/configuration/PartPosition;->EYE_SHADOW:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v1, Lcom/jakex/ymluxseditor/configuration/PartPosition;->EYE_SHADOW:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
-    invoke-virtual {v1}, Lcom/jakex/makeupeditor/configuration/PartPosition;->ordinal()I
+    invoke-virtual {v1}, Lcom/jakex/ymluxseditor/configuration/PartPosition;->ordinal()I
 
     move-result v1
 
@@ -135,11 +135,11 @@
 
     :goto_4
     :try_start_5
-    sget-object v0, Lcom/jakex/makeupselfie/camera/g/c$1;->a:[I
+    sget-object v0, Lcom/jakex/ymluxscoresf/camera/g/c$1;->a:[I
 
-    sget-object v1, Lcom/jakex/makeupeditor/configuration/PartPosition;->EYE_LASH:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v1, Lcom/jakex/ymluxseditor/configuration/PartPosition;->EYE_LASH:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
-    invoke-virtual {v1}, Lcom/jakex/makeupeditor/configuration/PartPosition;->ordinal()I
+    invoke-virtual {v1}, Lcom/jakex/ymluxseditor/configuration/PartPosition;->ordinal()I
 
     move-result v1
 
@@ -156,11 +156,11 @@
 
     :goto_5
     :try_start_6
-    sget-object v0, Lcom/jakex/makeupselfie/camera/g/c$1;->a:[I
+    sget-object v0, Lcom/jakex/ymluxscoresf/camera/g/c$1;->a:[I
 
-    sget-object v1, Lcom/jakex/makeupeditor/configuration/PartPosition;->EYE_LINER:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v1, Lcom/jakex/ymluxseditor/configuration/PartPosition;->EYE_LINER:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
-    invoke-virtual {v1}, Lcom/jakex/makeupeditor/configuration/PartPosition;->ordinal()I
+    invoke-virtual {v1}, Lcom/jakex/ymluxseditor/configuration/PartPosition;->ordinal()I
 
     move-result v1
 
@@ -177,11 +177,11 @@
 
     :goto_6
     :try_start_7
-    sget-object v0, Lcom/jakex/makeupselfie/camera/g/c$1;->a:[I
+    sget-object v0, Lcom/jakex/ymluxscoresf/camera/g/c$1;->a:[I
 
-    sget-object v1, Lcom/jakex/makeupeditor/configuration/PartPosition;->EYE_PUPIL:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v1, Lcom/jakex/ymluxseditor/configuration/PartPosition;->EYE_PUPIL:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
-    invoke-virtual {v1}, Lcom/jakex/makeupeditor/configuration/PartPosition;->ordinal()I
+    invoke-virtual {v1}, Lcom/jakex/ymluxseditor/configuration/PartPosition;->ordinal()I
 
     move-result v1
 
@@ -198,11 +198,11 @@
 
     :goto_7
     :try_start_8
-    sget-object v0, Lcom/jakex/makeupselfie/camera/g/c$1;->a:[I
+    sget-object v0, Lcom/jakex/ymluxscoresf/camera/g/c$1;->a:[I
 
-    sget-object v1, Lcom/jakex/makeupeditor/configuration/PartPosition;->HAIR:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v1, Lcom/jakex/ymluxseditor/configuration/PartPosition;->HAIR:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
-    invoke-virtual {v1}, Lcom/jakex/makeupeditor/configuration/PartPosition;->ordinal()I
+    invoke-virtual {v1}, Lcom/jakex/ymluxseditor/configuration/PartPosition;->ordinal()I
 
     move-result v1
 
@@ -219,11 +219,11 @@
 
     :goto_8
     :try_start_9
-    sget-object v0, Lcom/jakex/makeupselfie/camera/g/c$1;->a:[I
+    sget-object v0, Lcom/jakex/ymluxscoresf/camera/g/c$1;->a:[I
 
-    sget-object v1, Lcom/jakex/makeupeditor/configuration/PartPosition;->FOUNDATION:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v1, Lcom/jakex/ymluxseditor/configuration/PartPosition;->FOUNDATION:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
-    invoke-virtual {v1}, Lcom/jakex/makeupeditor/configuration/PartPosition;->ordinal()I
+    invoke-virtual {v1}, Lcom/jakex/ymluxseditor/configuration/PartPosition;->ordinal()I
 
     move-result v1
 
@@ -240,11 +240,11 @@
 
     :goto_9
     :try_start_a
-    sget-object v0, Lcom/jakex/makeupselfie/camera/g/c$1;->a:[I
+    sget-object v0, Lcom/jakex/ymluxscoresf/camera/g/c$1;->a:[I
 
-    sget-object v1, Lcom/jakex/makeupeditor/configuration/PartPosition;->HEADWEAR:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v1, Lcom/jakex/ymluxseditor/configuration/PartPosition;->HEADWEAR:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
-    invoke-virtual {v1}, Lcom/jakex/makeupeditor/configuration/PartPosition;->ordinal()I
+    invoke-virtual {v1}, Lcom/jakex/ymluxseditor/configuration/PartPosition;->ordinal()I
 
     move-result v1
 
@@ -261,11 +261,11 @@
 
     :goto_a
     :try_start_b
-    sget-object v0, Lcom/jakex/makeupselfie/camera/g/c$1;->a:[I
+    sget-object v0, Lcom/jakex/ymluxscoresf/camera/g/c$1;->a:[I
 
-    sget-object v1, Lcom/jakex/makeupeditor/configuration/PartPosition;->EARDROP:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v1, Lcom/jakex/ymluxseditor/configuration/PartPosition;->EARDROP:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
-    invoke-virtual {v1}, Lcom/jakex/makeupeditor/configuration/PartPosition;->ordinal()I
+    invoke-virtual {v1}, Lcom/jakex/ymluxseditor/configuration/PartPosition;->ordinal()I
 
     move-result v1
 
@@ -282,11 +282,11 @@
 
     :goto_b
     :try_start_c
-    sget-object v0, Lcom/jakex/makeupselfie/camera/g/c$1;->a:[I
+    sget-object v0, Lcom/jakex/ymluxscoresf/camera/g/c$1;->a:[I
 
-    sget-object v1, Lcom/jakex/makeupeditor/configuration/PartPosition;->EYE_DECORATE:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v1, Lcom/jakex/ymluxseditor/configuration/PartPosition;->EYE_DECORATE:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
-    invoke-virtual {v1}, Lcom/jakex/makeupeditor/configuration/PartPosition;->ordinal()I
+    invoke-virtual {v1}, Lcom/jakex/ymluxseditor/configuration/PartPosition;->ordinal()I
 
     move-result v1
 

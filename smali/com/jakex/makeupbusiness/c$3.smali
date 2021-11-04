@@ -49,13 +49,13 @@
     return p2
 
     :cond_0
-    invoke-static {p3}, Lcom/jakex/makeupcore/util/au;->a(Ljava/lang/String;)Z
+    invoke-static {p3}, Lcom/jakex/ymluxscore/util/au;->a(Ljava/lang/String;)Z
 
     move-result p1
 
     if-nez p1, :cond_2
 
-    invoke-static {p3}, Lcom/jakex/makeupcore/util/au;->b(Ljava/lang/String;)Z
+    invoke-static {p3}, Lcom/jakex/ymluxscore/util/au;->b(Ljava/lang/String;)Z
 
     move-result p1
 

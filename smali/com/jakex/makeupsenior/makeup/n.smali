@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeupsenior/makeup/n;
-.super Lcom/jakex/makeupeditor/b/a/b;
+.super Lcom/jakex/ymluxseditor/b/a/b;
 
 
 # instance fields
@@ -14,7 +14,7 @@
 
     const/4 v0, -0x5
 
-    invoke-direct {p0, v0}, Lcom/jakex/makeupeditor/b/a/b;-><init>(I)V
+    invoke-direct {p0, v0}, Lcom/jakex/ymluxseditor/b/a/b;-><init>(I)V
 
     return-void
 .end method
@@ -52,12 +52,12 @@
     return p1
 .end method
 
-.method public e()Lcom/jakex/makeupeditor/a/a;
+.method public e()Lcom/jakex/ymluxseditor/a/a;
     .locals 8
 
-    new-instance v0, Lcom/jakex/makeupeditor/a/a;
+    new-instance v0, Lcom/jakex/ymluxseditor/a/a;
 
-    invoke-direct {v0}, Lcom/jakex/makeupeditor/a/a;-><init>()V
+    invoke-direct {v0}, Lcom/jakex/ymluxseditor/a/a;-><init>()V
 
     invoke-static {}, Lcom/jakex/makeupsenior/model/b;->a()Lcom/jakex/makeupsenior/model/b;
 
@@ -93,19 +93,19 @@
 
     if-eqz v1, :cond_3
 
-    new-instance v1, Lcom/jakex/makeupeditor/b/a/a/d;
+    new-instance v1, Lcom/jakex/ymluxseditor/b/a/a/d;
 
-    invoke-direct {v1}, Lcom/jakex/makeupeditor/b/a/a/d;-><init>()V
+    invoke-direct {v1}, Lcom/jakex/ymluxseditor/b/a/a/d;-><init>()V
 
     const/4 v2, 0x0
 
-    invoke-virtual {v1, v2}, Lcom/jakex/makeupeditor/b/a/a/d;->a(Ljava/lang/Void;)Lcom/jakex/makeupeditor/b/a/c;
+    invoke-virtual {v1, v2}, Lcom/jakex/ymluxseditor/b/a/a/d;->a(Ljava/lang/Void;)Lcom/jakex/ymluxseditor/b/a/c;
 
     move-result-object v1
 
     if-eqz v1, :cond_1
 
-    invoke-virtual {v1}, Lcom/jakex/makeupeditor/b/a/c;->a()Ljava/util/List;
+    invoke-virtual {v1}, Lcom/jakex/ymluxseditor/b/a/c;->a()Ljava/util/List;
 
     move-result-object v1
 
@@ -120,7 +120,7 @@
     :cond_1
     iget-object v1, p0, Lcom/jakex/makeupsenior/makeup/n;->h:Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/a;
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupeditor/a/a;->a(Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/a;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxseditor/a/a;->a(Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/a;)V
 
     iget-object v1, p0, Lcom/jakex/makeupsenior/makeup/n;->h:Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/a;
 
@@ -129,14 +129,14 @@
     const/4 v3, 0x1
 
     :cond_2
-    invoke-virtual {v0, v3}, Lcom/jakex/makeupeditor/a/a;->a(Z)V
+    invoke-virtual {v0, v3}, Lcom/jakex/ymluxseditor/a/a;->a(Z)V
 
     goto :goto_1
 
     :cond_3
-    invoke-virtual {v0, v4}, Lcom/jakex/makeupeditor/a/a;->b(Z)V
+    invoke-virtual {v0, v4}, Lcom/jakex/ymluxseditor/a/a;->b(Z)V
 
-    invoke-virtual {v0, v4}, Lcom/jakex/makeupeditor/a/a;->a(Z)V
+    invoke-virtual {v0, v4}, Lcom/jakex/ymluxseditor/a/a;->a(Z)V
 
     :goto_1
     return-object v0

@@ -1,4 +1,4 @@
-.class public interface abstract Lcom/jakex/makeupselfie/camera/material/c;
+.class public interface abstract Lcom/jakex/ymluxscoresf/camera/material/c;
 .super Ljava/lang/Object;
 
 
@@ -6,13 +6,13 @@
 .method public abstract a()V
 .end method
 
-.method public abstract a(Lcom/jakex/makeupselfie/camera/material/model/SelfiePart;)V
+.method public abstract a(Lcom/jakex/ymluxscoresf/camera/material/model/SelfiePart;)V
 .end method
 
-.method public abstract a(Lcom/jakex/makeupselfie/camera/material/model/SelfiePart;Lcom/jakex/makeupcore/bean/CustomMakeupConcrete;)V
+.method public abstract a(Lcom/jakex/ymluxscoresf/camera/material/model/SelfiePart;Lcom/jakex/ymluxscore/bean/CustomMakeupConcrete;)V
 .end method
 
-.method public abstract a(Lcom/jakex/makeupselfie/camera/material/model/SelfiePart;Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;)V
+.method public abstract a(Lcom/jakex/ymluxscoresf/camera/material/model/SelfiePart;Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;)V
 .end method
 
 .method public abstract a(Ljava/util/List;)V
@@ -20,7 +20,7 @@
         value = {
             "(",
             "Ljava/util/List<",
-            "Lcom/jakex/makeupeditor/configuration/PartPosition;",
+            "Lcom/jakex/ymluxseditor/configuration/PartPosition;",
             ">;)V"
         }
     .end annotation
@@ -29,7 +29,7 @@
 .method public abstract b()V
 .end method
 
-.method public abstract b(Lcom/jakex/makeupselfie/camera/material/model/SelfiePart;Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;)V
+.method public abstract b(Lcom/jakex/ymluxscoresf/camera/material/model/SelfiePart;Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;)V
 .end method
 
 .method public abstract c()V

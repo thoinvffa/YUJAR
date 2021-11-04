@@ -36,9 +36,9 @@
 .method public run()V
     .locals 1
 
-    invoke-static {}, Lcom/jakex/makeupeditor/material/local/part/LocalMaterialParseUtil;->a()V
+    invoke-static {}, Lcom/jakex/ymluxseditor/material/local/part/LocalMaterialParseUtil;->a()V
 
-    invoke-static {}, Lcom/jakex/makeupeditor/material/thememakeup/c/c;->b()V
+    invoke-static {}, Lcom/jakex/ymluxseditor/material/thememakeup/c/c;->b()V
 
     iget-object v0, p0, Lcom/jakex/makeup/startup/business/a/a$1;->a:Lcom/jakex/makeup/startup/business/a/a;
 

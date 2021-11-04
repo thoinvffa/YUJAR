@@ -1,5 +1,5 @@
 .class Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity$2$1;
-.super Lcom/jakex/makeupcore/d/a;
+.super Lcom/jakex/ymluxscore/d/a;
 
 
 # annotations
@@ -23,7 +23,7 @@
 
     iput-object p1, p0, Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity$2$1;->a:Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity$2;
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/d/a;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/d/a;-><init>()V
 
     return-void
 .end method
@@ -37,15 +37,15 @@
 
     iget-object p1, p1, Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity$2;->a:Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity;
 
-    invoke-static {p1}, Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity;->x(Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity;)Lcom/jakex/makeupeditor/widget/BitmapRecycledImageView;
+    invoke-static {p1}, Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity;->x(Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity;)Lcom/jakex/ymluxseditor/widget/BitmapRecycledImageView;
 
     move-result-object p1
 
     const/16 v0, 0x8
 
-    invoke-virtual {p1, v0}, Lcom/jakex/makeupeditor/widget/BitmapRecycledImageView;->setVisibility(I)V
+    invoke-virtual {p1, v0}, Lcom/jakex/ymluxseditor/widget/BitmapRecycledImageView;->setVisibility(I)V
 
-    invoke-static {}, Lcom/jakex/makeupcore/modular/a/a;->z()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/a/a;->z()Z
 
     move-result p1
 
@@ -53,7 +53,7 @@
 
     const/4 p1, 0x0
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/modular/a/a;->l(Z)V
+    invoke-static {p1}, Lcom/jakex/ymluxscore/modular/a/a;->l(Z)V
 
     iget-object p1, p0, Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity$2$1;->a:Lcom/jakex/makeupsenior/hairdaub/MakeupHairColorActivity$2;
 

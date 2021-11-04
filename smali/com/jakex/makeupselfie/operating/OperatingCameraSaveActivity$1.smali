@@ -1,10 +1,10 @@
-.class synthetic Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity$1;
+.class synthetic Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity$1;
 .super Ljava/lang/Object;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/jakex/makeupselfie/operating/OperatingCameraSaveActivity;
+    value = Lcom/jakex/ymluxscoresf/operating/OperatingCameraSaveActivity;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

@@ -2,7 +2,7 @@
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lcom/jakex/makeupcore/b/d$a;
+.implements Lcom/jakex/ymluxscore/b/d$a;
 
 
 # annotations
@@ -136,7 +136,7 @@
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView$1;->a:Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;
 
-    invoke-static {v0}, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->e(Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;)Lcom/jakex/makeupcore/b/d;
+    invoke-static {v0}, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->e(Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;)Lcom/jakex/ymluxscore/b/d;
 
     move-result-object v0
 
@@ -146,11 +146,11 @@
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/b/d;->notifyItemChanged(I)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/b/d;->notifyItemChanged(I)V
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView$1;->a:Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;
 
-    invoke-static {v0}, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->f(Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;)Lcom/jakex/makeupcore/b/d;
+    invoke-static {v0}, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->f(Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;)Lcom/jakex/ymluxscore/b/d;
 
     move-result-object v0
 
@@ -160,7 +160,7 @@
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/b/d;->notifyItemChanged(I)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/b/d;->notifyItemChanged(I)V
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView$1;->a:Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;
 

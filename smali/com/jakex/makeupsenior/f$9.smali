@@ -46,11 +46,11 @@
 
     move-result-object v0
 
-    invoke-static {}, Lcom/jakex/makeupeditor/d/a;->a()Lcom/jakex/makeupeditor/d/a;
+    invoke-static {}, Lcom/jakex/ymluxseditor/d/a;->a()Lcom/jakex/ymluxseditor/d/a;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/jakex/makeupeditor/d/a;->b()Lcom/jakex/makeupfacedetector/a;
+    invoke-virtual {v1}, Lcom/jakex/ymluxseditor/d/a;->b()Lcom/jakex/makeupfacedetector/a;
 
     move-result-object v1
 

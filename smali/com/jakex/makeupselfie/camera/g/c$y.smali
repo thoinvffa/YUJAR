@@ -1,10 +1,10 @@
-.class public Lcom/jakex/makeupselfie/camera/g/c$y;
+.class public Lcom/jakex/ymluxscoresf/camera/g/c$y;
 .super Ljava/lang/Object;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/jakex/makeupselfie/camera/g/c;
+    value = Lcom/jakex/ymluxscoresf/camera/g/c;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -14,7 +14,7 @@
 
 
 # direct methods
-.method public static a(Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;Lcom/jakex/makeupeditor/configuration/PartPosition;Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;)V
+.method public static a(Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;Lcom/jakex/ymluxseditor/configuration/PartPosition;Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;)V
     .locals 2
 
     new-instance v0, Ljava/util/HashMap;
@@ -25,7 +25,7 @@
 
     if-eqz p0, :cond_0
 
-    invoke-static {p0}, Lcom/jakex/makeupeditor/material/thememakeup/b/d;->a(Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;)Z
+    invoke-static {p0}, Lcom/jakex/ymluxseditor/material/thememakeup/b/d;->a(Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;)Z
 
     move-result v1
 
@@ -41,7 +41,7 @@
     :goto_0
     if-eqz v1, :cond_1
 
-    invoke-virtual {p0}, Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;->getMakeupId()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;->getMakeupId()Ljava/lang/String;
 
     move-result-object p0
 
@@ -58,9 +58,9 @@
     :cond_1
     const/4 p0, 0x0
 
-    sget-object v1, Lcom/jakex/makeupselfie/camera/g/c$1;->a:[I
+    sget-object v1, Lcom/jakex/ymluxscoresf/camera/g/c$1;->a:[I
 
-    invoke-virtual {p1}, Lcom/jakex/makeupeditor/configuration/PartPosition;->ordinal()I
+    invoke-virtual {p1}, Lcom/jakex/ymluxseditor/configuration/PartPosition;->ordinal()I
 
     move-result p1
 
@@ -111,7 +111,7 @@
     :goto_1
     if-eqz p0, :cond_2
 
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/ThemeMakeupMaterial;->getMaterialId()J
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/ThemeMakeupMaterial;->getMaterialId()J
 
     move-result-wide p1
 

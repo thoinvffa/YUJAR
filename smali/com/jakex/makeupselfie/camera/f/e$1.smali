@@ -1,4 +1,4 @@
-.class Lcom/jakex/makeupselfie/camera/f/e$1;
+.class Lcom/jakex/ymluxscoresf/camera/f/e$1;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -7,7 +7,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/jakex/makeupselfie/camera/f/e;
+    value = Lcom/jakex/ymluxscoresf/camera/f/e;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,14 +17,14 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/jakex/makeupselfie/camera/f/e;
+.field final synthetic a:Lcom/jakex/ymluxscoresf/camera/f/e;
 
 
 # direct methods
-.method constructor <init>(Lcom/jakex/makeupselfie/camera/f/e;)V
+.method constructor <init>(Lcom/jakex/ymluxscoresf/camera/f/e;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/camera/f/e$1;->a:Lcom/jakex/makeupselfie/camera/f/e;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/camera/f/e$1;->a:Lcom/jakex/ymluxscoresf/camera/f/e;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -38,7 +38,7 @@
 
     const/16 v0, 0x12c
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/g/a;->c(I)Z
+    invoke-static {v0}, Lcom/jakex/ymluxscore/g/a;->c(I)Z
 
     move-result v0
 
@@ -55,9 +55,9 @@
 
     if-ne p1, v0, :cond_1
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/f/e$1;->a:Lcom/jakex/makeupselfie/camera/f/e;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/f/e$1;->a:Lcom/jakex/ymluxscoresf/camera/f/e;
 
-    invoke-virtual {p1}, Lcom/jakex/makeupselfie/camera/f/e;->c()V
+    invoke-virtual {p1}, Lcom/jakex/ymluxscoresf/camera/f/e;->c()V
 
     goto :goto_0
 
@@ -71,11 +71,11 @@
     if-ne p1, v0, :cond_3
 
     :cond_2
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/f/e$1;->a:Lcom/jakex/makeupselfie/camera/f/e;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/f/e$1;->a:Lcom/jakex/ymluxscoresf/camera/f/e;
 
-    invoke-static {p1}, Lcom/jakex/makeupselfie/camera/f/e;->a(Lcom/jakex/makeupselfie/camera/f/e;)V
+    invoke-static {p1}, Lcom/jakex/ymluxscoresf/camera/f/e;->a(Lcom/jakex/ymluxscoresf/camera/f/e;)V
 
-    invoke-static {}, Lcom/jakex/makeupselfie/camera/g/c$v;->a()V
+    invoke-static {}, Lcom/jakex/ymluxscoresf/camera/g/c$v;->a()V
 
     :cond_3
     :goto_0

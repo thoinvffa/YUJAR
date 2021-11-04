@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeupassistant/camera/AssistantCameraBusinessFragment;
-.super Lcom/jakex/makeupcore/g/a;
+.super Lcom/jakex/ymluxscore/g/a;
 
 
 # annotations
@@ -32,7 +32,7 @@
 .method public constructor <init>()V
     .locals 1
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/g/a;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/g/a;-><init>()V
 
     new-instance v0, Landroid/os/Handler;
 
@@ -87,7 +87,7 @@
 
     if-nez v0, :cond_1
 
-    new-instance v0, Lcom/jakex/makeupcore/dialog/a;
+    new-instance v0, Lcom/jakex/ymluxscore/dialog/a;
 
     invoke-virtual {p0}, Lcom/jakex/makeupassistant/camera/AssistantCameraBusinessFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
@@ -95,7 +95,7 @@
 
     sget v2, Lcom/tbuonomo/viewpagerdotsindicator/Resource$style;->MDDialog_Translucent_Undimmed:I
 
-    invoke-direct {v0, v1, v2}, Lcom/jakex/makeupcore/dialog/a;-><init>(Landroid/content/Context;I)V
+    invoke-direct {v0, v1, v2}, Lcom/jakex/ymluxscore/dialog/a;-><init>(Landroid/content/Context;I)V
 
     iput-object v0, p0, Lcom/jakex/makeupassistant/camera/AssistantCameraBusinessFragment;->e:Landroid/app/Dialog;
 
@@ -226,9 +226,9 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/jakex/makeupcore/util/ah;->a(Landroid/view/View;)V
+    invoke-static {v1}, Lcom/jakex/ymluxscore/util/ah;->a(Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/ah;->a(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/ah;->a(Landroid/view/View;)V
 
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->assistant_camera_audio_cb:I
 
@@ -410,7 +410,7 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->removeCallbacksAndMessages(Ljava/lang/Object;)V
 
-    invoke-super {p0}, Lcom/jakex/makeupcore/g/a;->onDestroyView()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/g/a;->onDestroyView()V
 
     iget-object v0, p0, Lcom/jakex/makeupassistant/camera/AssistantCameraBusinessFragment;->e:Landroid/app/Dialog;
 
@@ -425,7 +425,7 @@
 .method public onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 0
 
-    invoke-super {p0, p1, p2}, Lcom/jakex/makeupcore/g/a;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+    invoke-super {p0, p1, p2}, Lcom/jakex/ymluxscore/g/a;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
     invoke-direct {p0, p1}, Lcom/jakex/makeupassistant/camera/AssistantCameraBusinessFragment;->a(Landroid/view/View;)V
 

@@ -49,13 +49,13 @@
 
     iget-object p2, p0, Lcom/jakex/makeupassistant/a/b$e;->a:Landroidx/recyclerview/widget/RecyclerView;
 
-    new-instance v0, Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
+    new-instance v0, Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
 
     iget-object v1, p1, Lcom/jakex/makeupassistant/a/b;->b:Landroid/content/Context;
 
     const/4 v2, 0x0
 
-    invoke-direct {v0, v1, v2, v2}, Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;-><init>(Landroid/content/Context;IZ)V
+    invoke-direct {v0, v1, v2, v2}, Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;-><init>(Landroid/content/Context;IZ)V
 
     invoke-virtual {p2, v0}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 

@@ -36,9 +36,9 @@
 .method public onClick(Landroid/view/View;)V
     .locals 1
 
-    new-instance p1, Lcom/jakex/makeupcore/webview/CommonWebViewExtra;
+    new-instance p1, Lcom/jakex/ymluxscore/webview/CommonWebViewExtra;
 
-    invoke-direct {p1}, Lcom/jakex/makeupcore/webview/CommonWebViewExtra;-><init>()V
+    invoke-direct {p1}, Lcom/jakex/ymluxscore/webview/CommonWebViewExtra;-><init>()V
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/saveshare/a$1;->a:Lcom/jakex/makeupsenior/saveshare/a;
 
@@ -48,7 +48,7 @@
 
     iget-object v0, v0, Lcom/jakex/makeupsenior/saveshare/SaveAndShareExtra;->guideUrl:Ljava/lang/String;
 
-    iput-object v0, p1, Lcom/jakex/makeupcore/webview/CommonWebViewExtra;->mUrl:Ljava/lang/String;
+    iput-object v0, p1, Lcom/jakex/ymluxscore/webview/CommonWebViewExtra;->mUrl:Ljava/lang/String;
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/saveshare/a$1;->a:Lcom/jakex/makeupsenior/saveshare/a;
 
@@ -56,7 +56,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, p1}, Lcom/jakex/makeupcore/modular/c/h;->a(Landroid/app/Activity;Lcom/jakex/makeupcore/webview/CommonWebViewExtra;)V
+    invoke-static {v0, p1}, Lcom/jakex/ymluxscore/modular/c/h;->a(Landroid/app/Activity;Lcom/jakex/ymluxscore/webview/CommonWebViewExtra;)V
 
     iget-object p1, p0, Lcom/jakex/makeupsenior/saveshare/a$1;->a:Lcom/jakex/makeupsenior/saveshare/a;
 

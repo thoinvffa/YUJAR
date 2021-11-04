@@ -1,10 +1,10 @@
-.class public interface abstract Lcom/jakex/makeupselfie/camera/customconcrete/a/a$a;
+.class public interface abstract Lcom/jakex/ymluxscoresf/camera/customconcrete/a/a$a;
 .super Ljava/lang/Object;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/jakex/makeupselfie/camera/customconcrete/a/a;
+    value = Lcom/jakex/ymluxscoresf/camera/customconcrete/a/a;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -14,11 +14,11 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/jakex/makeupselfie/camera/customconcrete/a/a;)V
+.method public abstract a(Lcom/jakex/ymluxscoresf/camera/customconcrete/a/a;)V
 .end method
 
-.method public abstract a(Lcom/jakex/makeupselfie/camera/customconcrete/a/a;D)V
+.method public abstract a(Lcom/jakex/ymluxscoresf/camera/customconcrete/a/a;D)V
 .end method
 
-.method public abstract b(Lcom/jakex/makeupselfie/camera/customconcrete/a/a;)V
+.method public abstract b(Lcom/jakex/ymluxscoresf/camera/customconcrete/a/a;)V
 .end method

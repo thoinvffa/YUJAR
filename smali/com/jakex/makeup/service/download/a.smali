@@ -26,7 +26,7 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    sget-object v0, Lcom/jakex/makeupcore/util/aw;->g:Ljava/lang/String;
+    sget-object v0, Lcom/jakex/ymluxscore/util/aw;->g:Ljava/lang/String;
 
     sput-object v0, Lcom/jakex/makeup/service/download/a;->b:Ljava/lang/String;
 

@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeupcamera/CameraTopFragment;
-.super Lcom/jakex/makeupcore/g/a;
+.super Lcom/jakex/ymluxscore/g/a;
 
 
 # annotations
@@ -34,7 +34,7 @@
 .method public constructor <init>()V
     .locals 1
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/g/a;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/g/a;-><init>()V
 
     new-instance v0, Lcom/jakex/makeupcamera/CameraTopFragment$1;
 
@@ -317,7 +317,7 @@
 .method public onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 1
 
-    invoke-super {p0, p1, p2}, Lcom/jakex/makeupcore/g/a;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+    invoke-super {p0, p1, p2}, Lcom/jakex/ymluxscore/g/a;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
     sget p2, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->camera_top_container:I
 
@@ -325,7 +325,7 @@
 
     move-result-object p2
 
-    invoke-static {p2}, Lcom/jakex/makeupcore/util/ah;->b(Landroid/view/View;)V
+    invoke-static {p2}, Lcom/jakex/ymluxscore/util/ah;->b(Landroid/view/View;)V
 
     sget p2, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->camera_home_ibtn:I
 

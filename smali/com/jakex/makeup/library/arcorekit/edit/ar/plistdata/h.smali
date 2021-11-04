@@ -55,7 +55,7 @@
     return-void
 
     :cond_0
-    invoke-direct {p0}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/h;->v()Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelHairDaubControlInterfaceJNI;
+    invoke-direct {p0}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/h;->v()Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelHairDaubControlInterfaceJNI;
 
     move-result-object v0
 
@@ -66,7 +66,7 @@
     :cond_1
     iget v1, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/h;->b:I
 
-    invoke-virtual {v0, v1}, Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelHairDaubControlInterfaceJNI;->setDaubModel(I)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelHairDaubControlInterfaceJNI;->setDaubModel(I)V
 
     return-void
 .end method
@@ -87,7 +87,7 @@
     return-void
 
     :cond_0
-    invoke-direct {p0}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/h;->v()Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelHairDaubControlInterfaceJNI;
+    invoke-direct {p0}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/h;->v()Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelHairDaubControlInterfaceJNI;
 
     move-result-object v0
 
@@ -98,7 +98,7 @@
     :cond_1
     iget v1, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/h;->c:I
 
-    invoke-virtual {v0, v1}, Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelHairDaubControlInterfaceJNI;->setBrushSize(I)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelHairDaubControlInterfaceJNI;->setBrushSize(I)V
 
     return-void
 .end method
@@ -126,7 +126,7 @@
     return-void
 
     :cond_1
-    invoke-direct {p0}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/h;->v()Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelHairDaubControlInterfaceJNI;
+    invoke-direct {p0}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/h;->v()Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelHairDaubControlInterfaceJNI;
 
     move-result-object v0
 
@@ -142,7 +142,7 @@
     return-void
 
     :cond_3
-    invoke-virtual {v1}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/i;->d()Lcom/jakex/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
+    invoke-virtual {v1}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/i;->d()Lcom/jakex/ymlux/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
 
     move-result-object v1
 
@@ -151,7 +151,7 @@
     return-void
 
     :cond_4
-    invoke-virtual {v0, v1}, Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelHairDaubControlInterfaceJNI;->setHairMakingupInfo(Lcom/jakex/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelHairDaubControlInterfaceJNI;->setHairMakingupInfo(Lcom/jakex/ymlux/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;)V
 
     const/4 v0, 0x1
 
@@ -176,7 +176,7 @@
     return-void
 
     :cond_0
-    invoke-direct {p0}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/h;->v()Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelHairDaubControlInterfaceJNI;
+    invoke-direct {p0}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/h;->v()Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelHairDaubControlInterfaceJNI;
 
     move-result-object v0
 
@@ -187,7 +187,7 @@
     :cond_1
     iget v1, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/h;->d:F
 
-    invoke-virtual {v0, v1}, Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelHairDaubControlInterfaceJNI;->setScale(F)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelHairDaubControlInterfaceJNI;->setScale(F)V
 
     return-void
 .end method
@@ -208,7 +208,7 @@
     return-void
 
     :cond_0
-    invoke-direct {p0}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/h;->v()Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelHairDaubControlInterfaceJNI;
+    invoke-direct {p0}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/h;->v()Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelHairDaubControlInterfaceJNI;
 
     move-result-object v0
 
@@ -225,15 +225,15 @@
 
     iget v2, v2, Landroid/graphics/Point;->y:I
 
-    invoke-virtual {v0, v1, v2}, Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelHairDaubControlInterfaceJNI;->setTranslate(II)V
+    invoke-virtual {v0, v1, v2}, Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelHairDaubControlInterfaceJNI;->setTranslate(II)V
 
     return-void
 .end method
 
-.method private v()Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelHairDaubControlInterfaceJNI;
+.method private v()Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelHairDaubControlInterfaceJNI;
     .locals 5
 
-    invoke-virtual {p0}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/h;->k()[Lcom/jakex/mtlab/arkernelinterface/core/ARKernelPartControlInterfaceJNI;
+    invoke-virtual {p0}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/h;->k()[Lcom/jakex/ymlux/arkernelinterface/core/ARKernelPartControlInterfaceJNI;
 
     move-result-object v0
 
@@ -248,11 +248,11 @@
 
     aget-object v3, v0, v2
 
-    instance-of v4, v3, Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelHairDaubControlInterfaceJNI;
+    instance-of v4, v3, Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelHairDaubControlInterfaceJNI;
 
     if-eqz v4, :cond_0
 
-    check-cast v3, Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelHairDaubControlInterfaceJNI;
+    check-cast v3, Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelHairDaubControlInterfaceJNI;
 
     return-object v3
 
@@ -286,7 +286,7 @@
 .method public a(Ljava/lang/String;)V
     .locals 1
 
-    invoke-direct {p0}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/h;->v()Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelHairDaubControlInterfaceJNI;
+    invoke-direct {p0}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/h;->v()Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelHairDaubControlInterfaceJNI;
 
     move-result-object v0
 
@@ -295,7 +295,7 @@
     return-void
 
     :cond_0
-    invoke-virtual {v0, p1}, Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelHairDaubControlInterfaceJNI;->saveHairMask(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelHairDaubControlInterfaceJNI;->saveHairMask(Ljava/lang/String;)V
 
     return-void
 .end method

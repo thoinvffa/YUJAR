@@ -1,13 +1,13 @@
-.class Lcom/jakex/makeupselfie/save/d$2;
+.class Lcom/jakex/ymluxscoresf/save/d$2;
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lcom/jakex/makeupcore/b/d$a;
+.implements Lcom/jakex/ymluxscore/b/d$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/jakex/makeupselfie/save/d;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+    value = Lcom/jakex/ymluxscoresf/save/d;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,14 +17,14 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/jakex/makeupselfie/save/d;
+.field final synthetic a:Lcom/jakex/ymluxscoresf/save/d;
 
 
 # direct methods
-.method constructor <init>(Lcom/jakex/makeupselfie/save/d;)V
+.method constructor <init>(Lcom/jakex/ymluxscoresf/save/d;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/save/d$2;->a:Lcom/jakex/makeupselfie/save/d;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/save/d$2;->a:Lcom/jakex/ymluxscoresf/save/d;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -38,7 +38,7 @@
 
     const-wide/16 v0, 0x1f4
 
-    invoke-static {v0, v1}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->a(J)Z
+    invoke-static {v0, v1}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->a(J)Z
 
     move-result p1
 
@@ -47,9 +47,9 @@
     return-void
 
     :cond_0
-    iget-object p1, p0, Lcom/jakex/makeupselfie/save/d$2;->a:Lcom/jakex/makeupselfie/save/d;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/save/d$2;->a:Lcom/jakex/ymluxscoresf/save/d;
 
-    invoke-static {p1}, Lcom/jakex/makeupselfie/save/d;->b(Lcom/jakex/makeupselfie/save/d;)Ljava/util/List;
+    invoke-static {p1}, Lcom/jakex/ymluxscoresf/save/d;->b(Lcom/jakex/ymluxscoresf/save/d;)Ljava/util/List;
 
     move-result-object p1
 
@@ -64,9 +64,9 @@
     return-void
 
     :cond_1
-    iget-object v0, p0, Lcom/jakex/makeupselfie/save/d$2;->a:Lcom/jakex/makeupselfie/save/d;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/save/d$2;->a:Lcom/jakex/ymluxscoresf/save/d;
 
-    invoke-static {v0}, Lcom/jakex/makeupselfie/save/d;->c(Lcom/jakex/makeupselfie/save/d;)Landroidx/recyclerview/widget/RecyclerView;
+    invoke-static {v0}, Lcom/jakex/ymluxscoresf/save/d;->c(Lcom/jakex/ymluxscoresf/save/d;)Landroidx/recyclerview/widget/RecyclerView;
 
     move-result-object v0
 
@@ -76,32 +76,32 @@
 
     check-cast v0, Landroidx/recyclerview/widget/LinearLayoutManager;
 
-    iget-object v1, p0, Lcom/jakex/makeupselfie/save/d$2;->a:Lcom/jakex/makeupselfie/save/d;
+    iget-object v1, p0, Lcom/jakex/ymluxscoresf/save/d$2;->a:Lcom/jakex/ymluxscoresf/save/d;
 
-    invoke-static {v1}, Lcom/jakex/makeupselfie/save/d;->c(Lcom/jakex/makeupselfie/save/d;)Landroidx/recyclerview/widget/RecyclerView;
+    invoke-static {v1}, Lcom/jakex/ymluxscoresf/save/d;->c(Lcom/jakex/ymluxscoresf/save/d;)Landroidx/recyclerview/widget/RecyclerView;
 
     move-result-object v1
 
-    invoke-static {v0, v1, p2}, Lcom/jakex/makeupcore/widget/recyclerview/a;->a(Landroidx/recyclerview/widget/LinearLayoutManager;Landroidx/recyclerview/widget/RecyclerView;I)V
+    invoke-static {v0, v1, p2}, Lcom/jakex/ymluxscore/widget/recyclerview/a;->a(Landroidx/recyclerview/widget/LinearLayoutManager;Landroidx/recyclerview/widget/RecyclerView;I)V
 
-    iget-object p2, p0, Lcom/jakex/makeupselfie/save/d$2;->a:Lcom/jakex/makeupselfie/save/d;
+    iget-object p2, p0, Lcom/jakex/ymluxscoresf/save/d$2;->a:Lcom/jakex/ymluxscoresf/save/d;
 
-    invoke-static {p2}, Lcom/jakex/makeupselfie/save/d;->d(Lcom/jakex/makeupselfie/save/d;)Z
+    invoke-static {p2}, Lcom/jakex/ymluxscoresf/save/d;->d(Lcom/jakex/ymluxscoresf/save/d;)Z
 
     move-result p2
 
     if-nez p2, :cond_2
 
-    iget-object p2, p0, Lcom/jakex/makeupselfie/save/d$2;->a:Lcom/jakex/makeupselfie/save/d;
+    iget-object p2, p0, Lcom/jakex/ymluxscoresf/save/d$2;->a:Lcom/jakex/ymluxscoresf/save/d;
 
-    invoke-static {p2, p1}, Lcom/jakex/makeupselfie/save/d;->a(Lcom/jakex/makeupselfie/save/d;Lcom/jakex/makeupshare/platform/SharePlatform;)V
+    invoke-static {p2, p1}, Lcom/jakex/ymluxscoresf/save/d;->a(Lcom/jakex/ymluxscoresf/save/d;Lcom/jakex/makeupshare/platform/SharePlatform;)V
 
     goto :goto_0
 
     :cond_2
-    iget-object p2, p0, Lcom/jakex/makeupselfie/save/d$2;->a:Lcom/jakex/makeupselfie/save/d;
+    iget-object p2, p0, Lcom/jakex/ymluxscoresf/save/d$2;->a:Lcom/jakex/ymluxscoresf/save/d;
 
-    invoke-static {p2, p1}, Lcom/jakex/makeupselfie/save/d;->b(Lcom/jakex/makeupselfie/save/d;Lcom/jakex/makeupshare/platform/SharePlatform;)V
+    invoke-static {p2, p1}, Lcom/jakex/ymluxscoresf/save/d;->b(Lcom/jakex/ymluxscoresf/save/d;Lcom/jakex/makeupshare/platform/SharePlatform;)V
 
     :goto_0
     return-void

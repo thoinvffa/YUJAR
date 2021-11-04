@@ -1,5 +1,5 @@
 .class public abstract Lcom/jakex/makeup/startup/activity/MakeupStartupBaseActivity;
-.super Lcom/jakex/usercenter/MTPrivacyDialogActivity;
+.super Lcom/jakex/uct/MTPrivacyDialogActivity;
 
 # interfaces
 .implements Lcom/jakex/makeup/startup/activity/b$a;
@@ -56,7 +56,7 @@
 .method public constructor <init>()V
     .locals 2
 
-    invoke-direct {p0}, Lcom/jakex/usercenter/MTPrivacyDialogActivity;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/uct/MTPrivacyDialogActivity;-><init>()V
 
     new-instance v0, Ljava/util/HashMap;
 
@@ -108,22 +108,22 @@
 
     if-ne p1, v2, :cond_2
 
-    invoke-static {}, Lcom/jakex/makeupcore/modular/c/a;->b()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/c/a;->b()Z
 
     move-result p1
 
     if-eqz p1, :cond_1
 
-    invoke-static {}, Lcom/jakex/makeupcore/modular/a/a;->h()V
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/a/a;->h()V
 
     :cond_1
-    invoke-static {}, Lcom/jakex/makeupcore/j/a;->l()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/j/a;->l()Z
 
     move-result p1
 
     if-eqz p1, :cond_2
 
-    invoke-static {}, Lcom/jakex/makeupcore/modular/c/bx;->f()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/c/bx;->f()Z
 
     move-result p1
 
@@ -133,7 +133,7 @@
 
     invoke-direct {p1, p0}, Lcom/jakex/makeup/startup/activity/MakeupStartupBaseActivity$1;-><init>(Lcom/jakex/makeup/startup/activity/MakeupStartupBaseActivity;)V
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/util/i;->a(Ljava/lang/Runnable;)V
+    invoke-static {p1}, Lcom/jakex/ymluxscore/util/i;->a(Ljava/lang/Runnable;)V
 
     :cond_2
     invoke-static {}, Lcom/jakex/library/application/BaseApplication;->a()Landroid/app/Application;
@@ -160,7 +160,7 @@
 
     if-nez p1, :cond_4
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/c;->c()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/util/c;->c()Z
 
     move-result p1
 
@@ -168,7 +168,7 @@
 
     invoke-direct {p0}, Lcom/jakex/makeup/startup/activity/MakeupStartupBaseActivity;->o()V
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/c;->c(Z)V
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/c;->c(Z)V
 
     goto :goto_2
 
@@ -339,11 +339,11 @@
     invoke-static {v0, v1}, Lcom/jakex/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
-    invoke-static {}, Lcom/jakex/makeupcore/e/Aa;->b()Lcom/jakex/makeupcore/e/Aa$BB;
+    invoke-static {}, Lcom/jakex/ymluxscore/e/Aa;->b()Lcom/jakex/ymluxscore/e/Aa$BB;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/e/Aa$BB;->b()Z
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/e/Aa$BB;->b()Z
 
     move-result v0
 
@@ -736,7 +736,7 @@
 
     invoke-direct {v0, p0}, Lcom/jakex/makeup/startup/activity/MakeupStartupBaseActivity$a;-><init>(Lcom/jakex/makeup/startup/activity/MakeupStartupBaseActivity;)V
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/i;->a()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/jakex/ymluxscore/util/i;->a()Ljava/util/concurrent/Executor;
 
     move-result-object v1
 
@@ -837,7 +837,7 @@
     :cond_2
     const/4 v0, 0x0
 
-    invoke-static {p0, v0, v3}, Lcom/jakex/makeup/home/MakeupMainActivity;->a(Landroid/app/Activity;Lcom/jakex/makeupcore/modular/extra/HomeExtra;Z)V
+    invoke-static {p0, v0, v3}, Lcom/jakex/makeup/home/MakeupMainActivity;->a(Landroid/app/Activity;Lcom/jakex/ymluxscore/modular/extra/HomeExtra;Z)V
 
     invoke-static {}, Lcom/jakex/business/ads/core/d;->a()Lcom/jakex/business/ads/core/d;
 
@@ -976,7 +976,7 @@
 
     iput-object v0, p0, Lcom/jakex/makeup/startup/activity/MakeupStartupBaseActivity;->i:Lcom/jakex/makeup/startup/activity/MakeupStartupBaseActivity$c;
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/i;->a()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/jakex/ymluxscore/util/i;->a()Ljava/util/concurrent/Executor;
 
     move-result-object v1
 
@@ -1002,17 +1002,17 @@
 
     if-nez v0, :cond_0
 
-    new-instance v0, Lcom/jakex/makeupcore/dialog/e$a;
+    new-instance v0, Lcom/jakex/ymluxscore/dialog/e$a;
 
-    invoke-direct {v0, p0}, Lcom/jakex/makeupcore/dialog/e$a;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, p0}, Lcom/jakex/ymluxscore/dialog/e$a;-><init>(Landroid/content/Context;)V
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/dialog/e$a;->b(Z)Lcom/jakex/makeupcore/dialog/e$a;
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/dialog/e$a;->b(Z)Lcom/jakex/ymluxscore/dialog/e$a;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/dialog/e$a;->a()Lcom/jakex/makeupcore/dialog/e;
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/dialog/e$a;->a()Lcom/jakex/ymluxscore/dialog/e;
 
     move-result-object v0
 
@@ -1052,7 +1052,7 @@
 .method protected a(Z)V
     .locals 0
 
-    invoke-super {p0, p1}, Lcom/jakex/usercenter/MTPrivacyDialogActivity;->a(Z)V
+    invoke-super {p0, p1}, Lcom/jakex/uct/MTPrivacyDialogActivity;->a(Z)V
 
     iget p1, p0, Lcom/jakex/makeup/startup/activity/MakeupStartupBaseActivity;->c:I
 
@@ -1146,7 +1146,7 @@
 .method protected onActivityResult(IILandroid/content/Intent;)V
     .locals 3
 
-    invoke-super {p0, p1, p2, p3}, Lcom/jakex/usercenter/MTPrivacyDialogActivity;->onActivityResult(IILandroid/content/Intent;)V
+    invoke-super {p0, p1, p2, p3}, Lcom/jakex/uct/MTPrivacyDialogActivity;->onActivityResult(IILandroid/content/Intent;)V
 
     sget-object v0, Lcom/jakex/makeup/startup/activity/MakeupStartupBaseActivity;->a:Ljava/lang/String;
 
@@ -1192,13 +1192,13 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 4
 
-    invoke-super {p0, p1}, Lcom/jakex/usercenter/MTPrivacyDialogActivity;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/jakex/uct/MTPrivacyDialogActivity;->onCreate(Landroid/os/Bundle;)V
 
     invoke-virtual {p0}, Lcom/jakex/makeup/startup/activity/MakeupStartupBaseActivity;->getWindow()Landroid/view/Window;
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/util/ah;->a(Landroid/view/Window;)V
+    invoke-static {p1}, Lcom/jakex/ymluxscore/util/ah;->a(Landroid/view/Window;)V
 
     invoke-static {}, Lorg/greenrobot/eventbus/EventBus;->getDefault()Lorg/greenrobot/eventbus/EventBus;
 
@@ -1340,7 +1340,7 @@
 
     invoke-direct {p0}, Lcom/jakex/makeup/startup/activity/MakeupStartupBaseActivity;->j()V
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/b;->a()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/util/b;->a()Z
 
     move-result p1
 
@@ -1381,7 +1381,7 @@
 
     iput-object v0, p0, Lcom/jakex/makeup/startup/activity/MakeupStartupBaseActivity;->i:Lcom/jakex/makeup/startup/activity/MakeupStartupBaseActivity$c;
 
-    invoke-super {p0}, Lcom/jakex/usercenter/MTPrivacyDialogActivity;->onDestroy()V
+    invoke-super {p0}, Lcom/jakex/uct/MTPrivacyDialogActivity;->onDestroy()V
 
     iget-object v0, p0, Lcom/jakex/makeup/startup/activity/MakeupStartupBaseActivity;->h:Lcom/jakex/makeup/startup/activity/c;
 
@@ -1418,7 +1418,7 @@
 
     if-eq p1, v0, :cond_1
 
-    invoke-super {p0, p1, p2}, Lcom/jakex/usercenter/MTPrivacyDialogActivity;->onKeyDown(ILandroid/view/KeyEvent;)Z
+    invoke-super {p0, p1, p2}, Lcom/jakex/uct/MTPrivacyDialogActivity;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
     move-result p1
 
@@ -1442,7 +1442,7 @@
 .method protected onPause()V
     .locals 0
 
-    invoke-super {p0}, Lcom/jakex/usercenter/MTPrivacyDialogActivity;->onPause()V
+    invoke-super {p0}, Lcom/jakex/uct/MTPrivacyDialogActivity;->onPause()V
 
     return-void
 .end method
@@ -1450,7 +1450,7 @@
 .method public onRequestPermissionsResult(I[Ljava/lang/String;[I)V
     .locals 7
 
-    invoke-super {p0, p1, p2, p3}, Lcom/jakex/usercenter/MTPrivacyDialogActivity;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V
+    invoke-super {p0, p1, p2, p3}, Lcom/jakex/uct/MTPrivacyDialogActivity;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V
 
     array-length v0, p3
 
@@ -1509,7 +1509,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lcom/jakex/makeupcore/modular/c/bx;->m()V
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/c/bx;->m()V
 
     :cond_1
     add-int/lit8 v1, v1, 0x1
@@ -1530,7 +1530,7 @@
 .method protected onResume()V
     .locals 1
 
-    invoke-super {p0}, Lcom/jakex/usercenter/MTPrivacyDialogActivity;->onResume()V
+    invoke-super {p0}, Lcom/jakex/uct/MTPrivacyDialogActivity;->onResume()V
 
     iget-object v0, p0, Lcom/jakex/makeup/startup/activity/MakeupStartupBaseActivity;->h:Lcom/jakex/makeup/startup/activity/c;
 
@@ -1542,7 +1542,7 @@
 .method protected onStart()V
     .locals 1
 
-    invoke-super {p0}, Lcom/jakex/usercenter/MTPrivacyDialogActivity;->onStart()V
+    invoke-super {p0}, Lcom/jakex/uct/MTPrivacyDialogActivity;->onStart()V
 
     invoke-virtual {p0}, Lcom/jakex/makeup/startup/activity/MakeupStartupBaseActivity;->g()Z
 
@@ -1561,7 +1561,7 @@
 .method protected onStop()V
     .locals 1
 
-    invoke-super {p0}, Lcom/jakex/usercenter/MTPrivacyDialogActivity;->onStop()V
+    invoke-super {p0}, Lcom/jakex/uct/MTPrivacyDialogActivity;->onStop()V
 
     invoke-virtual {p0}, Lcom/jakex/makeup/startup/activity/MakeupStartupBaseActivity;->g()Z
 

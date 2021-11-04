@@ -1,12 +1,12 @@
-.class public Lcom/jakex/makeupselfie/camera/c/a;
-.super Lcom/jakex/makeupcore/userguide/a/a;
+.class public Lcom/jakex/ymluxscoresf/camera/c/a;
+.super Lcom/jakex/ymluxscore/userguide/a/a;
 
 
 # direct methods
 .method public constructor <init>(I)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupcore/userguide/a/a;-><init>(I)V
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscore/userguide/a/a;-><init>(I)V
 
     return-void
 .end method
@@ -30,19 +30,19 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/jakex/makeupcore/widget/CenterTabLayout;
+    check-cast v0, Lcom/jakex/ymluxscore/widget/CenterTabLayout;
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/widget/CenterTabLayout;->setEnabled(Z)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/widget/CenterTabLayout;->setEnabled(Z)V
 
-    sget-object v1, Lcom/jakex/makeupselfie/camera/SelfieCameraBottomFragment$Mode;->CUSTOM_MAKEUP:Lcom/jakex/makeupselfie/camera/SelfieCameraBottomFragment$Mode;
+    sget-object v1, Lcom/jakex/ymluxscoresf/camera/SelfieCameraBottomFragment$Mode;->CUSTOM_MAKEUP:Lcom/jakex/ymluxscoresf/camera/SelfieCameraBottomFragment$Mode;
 
-    invoke-virtual {v1}, Lcom/jakex/makeupselfie/camera/SelfieCameraBottomFragment$Mode;->ordinal()I
+    invoke-virtual {v1}, Lcom/jakex/ymluxscoresf/camera/SelfieCameraBottomFragment$Mode;->ordinal()I
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/widget/CenterTabLayout;->setDefaultItem(I)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/widget/CenterTabLayout;->setDefaultItem(I)V
 
     return-object p1
 .end method
@@ -93,16 +93,16 @@
     return v0
 .end method
 
-.method public k()Lcom/jakex/makeupcore/userguide/a/h;
+.method public k()Lcom/jakex/ymluxscore/userguide/a/h;
     .locals 3
 
-    new-instance v0, Lcom/jakex/makeupcore/userguide/b/a;
+    new-instance v0, Lcom/jakex/ymluxscore/userguide/b/a;
 
     const/4 v1, 0x0
 
     const/4 v2, 0x0
 
-    invoke-direct {v0, v1, v1, v2}, Lcom/jakex/makeupcore/userguide/b/a;-><init>(IIF)V
+    invoke-direct {v0, v1, v1, v2}, Lcom/jakex/ymluxscore/userguide/b/a;-><init>(IIF)V
 
     return-object v0
 .end method

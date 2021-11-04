@@ -89,12 +89,12 @@
     goto :goto_2
 
     :pswitch_2
-    sget p1, Lcom/jakex/makeupeditor/widget/a;->b:I
+    sget p1, Lcom/jakex/ymluxseditor/widget/a;->b:I
 
     goto :goto_0
 
     :pswitch_3
-    sget p1, Lcom/jakex/makeupeditor/widget/a;->a:I
+    sget p1, Lcom/jakex/ymluxseditor/widget/a;->a:I
 
     :goto_0
     invoke-virtual {v0, p1}, Lcom/jakex/makeupsenior/BeautyMakeupCommonActivity;->d(I)V

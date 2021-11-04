@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeupassistant/b;
-.super Lcom/jakex/makeupcore/l/a;
+.super Lcom/jakex/ymluxscore/l/a;
 
 
 # annotations
@@ -11,7 +11,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupcore/l/a<",
+        "Lcom/jakex/ymluxscore/l/a<",
         "Lcom/jakex/makeupassistant/a$a;",
         ">;"
     }
@@ -42,7 +42,7 @@
 .method constructor <init>(Lcom/jakex/makeupassistant/a$a;)V
     .locals 2
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupcore/l/a;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscore/l/a;-><init>(Ljava/lang/Object;)V
 
     const/4 p1, 0x0
 
@@ -232,7 +232,7 @@
 
     invoke-direct {p2, p0}, Lcom/jakex/makeupassistant/b$a;-><init>(Lcom/jakex/makeupassistant/b;)V
 
-    invoke-virtual {p1, p2}, Lcom/jakex/makeupassistant/b/a;->a(Lcom/jakex/makeupcore/net/callback/a;)V
+    invoke-virtual {p1, p2}, Lcom/jakex/makeupassistant/b/a;->a(Lcom/jakex/ymluxscore/net/callback/a;)V
 
     goto :goto_0
 
@@ -853,7 +853,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/widget/a/a;->a(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/jakex/ymluxscore/widget/a/a;->a(Ljava/lang/String;)V
 
     return-void
 
@@ -966,7 +966,7 @@
 
     invoke-direct {v0, p0}, Lcom/jakex/makeupassistant/b$2;-><init>(Lcom/jakex/makeupassistant/b;)V
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/i;->a(Ljava/lang/Runnable;)V
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/i;->a(Ljava/lang/Runnable;)V
 
     return-void
 .end method

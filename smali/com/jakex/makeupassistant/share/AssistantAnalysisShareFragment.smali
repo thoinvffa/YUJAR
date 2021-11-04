@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeupassistant/share/AssistantAnalysisShareFragment;
-.super Lcom/jakex/makeupcore/g/a;
+.super Lcom/jakex/ymluxscore/g/a;
 
 
 # annotations
@@ -35,7 +35,7 @@
 .method public constructor <init>()V
     .locals 1
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/g/a;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/g/a;-><init>()V
 
     const/4 v0, 0x0
 
@@ -157,7 +157,7 @@
     invoke-virtual {v0, p1, p2, p3}, Lcom/jakex/makeupshare/d;->onActivityResult(IILandroid/content/Intent;)V
 
     :cond_0
-    invoke-super {p0, p1, p2, p3}, Lcom/jakex/makeupcore/g/a;->onActivityResult(IILandroid/content/Intent;)V
+    invoke-super {p0, p1, p2, p3}, Lcom/jakex/ymluxscore/g/a;->onActivityResult(IILandroid/content/Intent;)V
 
     return-void
 .end method
@@ -179,7 +179,7 @@
 .method public onDestroyView()V
     .locals 0
 
-    invoke-super {p0}, Lcom/jakex/makeupcore/g/a;->onDestroyView()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/g/a;->onDestroyView()V
 
     return-void
 .end method
@@ -187,7 +187,7 @@
 .method public onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
     .locals 1
 
-    invoke-super {p0, p1, p2}, Lcom/jakex/makeupcore/g/a;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+    invoke-super {p0, p1, p2}, Lcom/jakex/ymluxscore/g/a;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
     sget p2, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->beauty_selfie_share_close_iv:I
 
@@ -277,17 +277,17 @@
 
     invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/RecyclerView;->setOverScrollMode(I)V
 
-    new-instance p1, Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
+    new-instance p1, Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
 
     invoke-virtual {p0}, Lcom/jakex/makeupassistant/share/AssistantAnalysisShareFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v0
 
-    invoke-direct {p1, v0}, Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;-><init>(Landroid/content/Context;)V
+    invoke-direct {p1, v0}, Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;-><init>(Landroid/content/Context;)V
 
     const/4 v0, 0x0
 
-    invoke-virtual {p1, v0}, Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;->setOrientation(I)V
+    invoke-virtual {p1, v0}, Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;->setOrientation(I)V
 
     iget-object v0, p0, Lcom/jakex/makeupassistant/share/AssistantAnalysisShareFragment;->c:Landroidx/recyclerview/widget/RecyclerView;
 
@@ -301,7 +301,7 @@
 
     invoke-direct {p1, p0}, Lcom/jakex/makeupassistant/share/AssistantAnalysisShareFragment$2;-><init>(Lcom/jakex/makeupassistant/share/AssistantAnalysisShareFragment;)V
 
-    invoke-virtual {p2, p1}, Lcom/jakex/makeupassistant/share/AssistantAnalysisShareFragment$b;->a(Lcom/jakex/makeupcore/b/d$a;)V
+    invoke-virtual {p2, p1}, Lcom/jakex/makeupassistant/share/AssistantAnalysisShareFragment$b;->a(Lcom/jakex/ymluxscore/b/d$a;)V
 
     return-void
 .end method

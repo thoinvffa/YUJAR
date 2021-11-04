@@ -142,9 +142,9 @@
 
     new-instance p1, Lcom/jakex/makeupassistant/report/a/c;
 
-    iget-object v0, p0, Lcom/jakex/makeupassistant/report/a/d;->c:Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;
+    iget-object v0, p0, Lcom/jakex/makeupassistant/report/a/d;->c:Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;
 
-    invoke-direct {p1, v0}, Lcom/jakex/makeupassistant/report/a/c;-><init>(Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;)V
+    invoke-direct {p1, v0}, Lcom/jakex/makeupassistant/report/a/c;-><init>(Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;)V
 
     iput-object p1, p0, Lcom/jakex/makeupassistant/report/a/d;->f:Lcom/jakex/makeupassistant/report/a/c;
 
@@ -206,7 +206,7 @@
 
     iget-object v0, p0, Lcom/jakex/makeupassistant/report/a/d;->h:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -294,7 +294,7 @@
 
     move-result-object v7
 
-    invoke-static {v7}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v7}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v8
 
@@ -368,7 +368,7 @@
 
     move-result-object v6
 
-    invoke-static {v6}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v6}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v7
 
@@ -429,7 +429,7 @@
 
     iget-object v0, p0, Lcom/jakex/makeupassistant/report/a/d;->h:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -530,7 +530,7 @@
 
     iget-object v0, p0, Lcom/jakex/makeupassistant/report/a/d;->h:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v0
 

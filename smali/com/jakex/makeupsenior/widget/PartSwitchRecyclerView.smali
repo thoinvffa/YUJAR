@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;
-.super Lcom/jakex/makeupcore/widget/CommonRecyclerView;
+.super Lcom/jakex/ymluxscore/widget/CommonRecyclerView;
 
 
 # annotations
@@ -12,9 +12,9 @@
 
 
 # instance fields
-.field b:Lcom/jakex/makeupcore/b/d$a;
+.field b:Lcom/jakex/ymluxscore/b/d$a;
 
-.field private c:Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
+.field private c:Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
 
 .field private d:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
@@ -39,7 +39,7 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 0
 
-    invoke-direct {p0, p1, p2}, Lcom/jakex/makeupcore/widget/CommonRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lcom/jakex/ymluxscore/widget/CommonRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     new-instance p1, Ljava/util/ArrayList;
 
@@ -59,7 +59,7 @@
 
     invoke-direct {p1, p0}, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView$1;-><init>(Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;)V
 
-    iput-object p1, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->b:Lcom/jakex/makeupcore/b/d$a;
+    iput-object p1, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->b:Lcom/jakex/ymluxscore/b/d$a;
 
     invoke-direct {p0}, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->b()V
 
@@ -101,25 +101,25 @@
 .method private b()V
     .locals 5
 
-    new-instance v0, Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
+    new-instance v0, Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
 
     invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v1}, Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;-><init>(Landroid/content/Context;)V
 
-    iput-object v0, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->c:Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
+    iput-object v0, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->c:Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;->setOrientation(I)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;->setOrientation(I)V
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->c:Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->c:Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
 
     invoke-virtual {p0, v0}, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
 
-    new-instance v0, Lcom/jakex/makeupcore/widget/CommonRecyclerView$a;
+    new-instance v0, Lcom/jakex/ymluxscore/widget/CommonRecyclerView$a;
 
     invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->getResources()Landroid/content/res/Resources;
 
@@ -141,7 +141,7 @@
 
     move-result v3
 
-    invoke-direct {v0, p0, v2, v3}, Lcom/jakex/makeupcore/widget/CommonRecyclerView$a;-><init>(Lcom/jakex/makeupcore/widget/CommonRecyclerView;II)V
+    invoke-direct {v0, p0, v2, v3}, Lcom/jakex/ymluxscore/widget/CommonRecyclerView$a;-><init>(Lcom/jakex/ymluxscore/widget/CommonRecyclerView;II)V
 
     invoke-virtual {p0, v0}, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->addItemDecoration(Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;)V
 
@@ -153,15 +153,15 @@
 
     invoke-direct {v0, p0, v2, v3}, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView$b;-><init>(Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;Ljava/util/List;Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView$1;)V
 
-    iput-object v0, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->a:Lcom/jakex/makeupcore/b/d;
+    iput-object v0, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->a:Lcom/jakex/ymluxscore/b/d;
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->a:Lcom/jakex/makeupcore/b/d;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->a:Lcom/jakex/ymluxscore/b/d;
 
-    iget-object v2, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->b:Lcom/jakex/makeupcore/b/d$a;
+    iget-object v2, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->b:Lcom/jakex/ymluxscore/b/d$a;
 
-    invoke-virtual {v0, v2}, Lcom/jakex/makeupcore/b/d;->a(Lcom/jakex/makeupcore/b/d$a;)V
+    invoke-virtual {v0, v2}, Lcom/jakex/ymluxscore/b/d;->a(Lcom/jakex/ymluxscore/b/d$a;)V
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->a:Lcom/jakex/makeupcore/b/d;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->a:Lcom/jakex/ymluxscore/b/d;
 
     invoke-virtual {p0, v0}, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
@@ -200,18 +200,18 @@
     return p0
 .end method
 
-.method static synthetic e(Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;)Lcom/jakex/makeupcore/b/d;
+.method static synthetic e(Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;)Lcom/jakex/ymluxscore/b/d;
     .locals 0
 
-    iget-object p0, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->a:Lcom/jakex/makeupcore/b/d;
+    iget-object p0, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->a:Lcom/jakex/ymluxscore/b/d;
 
     return-object p0
 .end method
 
-.method static synthetic f(Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;)Lcom/jakex/makeupcore/b/d;
+.method static synthetic f(Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;)Lcom/jakex/ymluxscore/b/d;
     .locals 0
 
-    iget-object p0, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->a:Lcom/jakex/makeupcore/b/d;
+    iget-object p0, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->a:Lcom/jakex/ymluxscore/b/d;
 
     return-object p0
 .end method
@@ -233,11 +233,11 @@
 
     iput v0, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->e:I
 
-    iget-object v1, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->a:Lcom/jakex/makeupcore/b/d;
+    iget-object v1, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->a:Lcom/jakex/ymluxscore/b/d;
 
     iget v2, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->f:I
 
-    invoke-virtual {v1, v2}, Lcom/jakex/makeupcore/b/d;->notifyItemChanged(I)V
+    invoke-virtual {v1, v2}, Lcom/jakex/ymluxscore/b/d;->notifyItemChanged(I)V
 
     iput v0, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->f:I
 
@@ -249,14 +249,14 @@
 .method public a(I)V
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->c:Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->c:Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
 
     if-nez v0, :cond_0
 
     return-void
 
     :cond_0
-    invoke-static {v0, p0, p1}, Lcom/jakex/makeupcore/widget/recyclerview/a;->a(Landroidx/recyclerview/widget/LinearLayoutManager;Landroidx/recyclerview/widget/RecyclerView;I)V
+    invoke-static {v0, p0, p1}, Lcom/jakex/ymluxscore/widget/recyclerview/a;->a(Landroidx/recyclerview/widget/LinearLayoutManager;Landroidx/recyclerview/widget/RecyclerView;I)V
 
     return-void
 .end method
@@ -264,7 +264,7 @@
 .method public b(I)V
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->a:Lcom/jakex/makeupcore/b/d;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->a:Lcom/jakex/ymluxscore/b/d;
 
     if-eqz v0, :cond_0
 
@@ -276,9 +276,9 @@
 
     if-eq p1, v0, :cond_0
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->a:Lcom/jakex/makeupcore/b/d;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->a:Lcom/jakex/ymluxscore/b/d;
 
-    invoke-virtual {v0, p1}, Lcom/jakex/makeupcore/b/d;->notifyItemChanged(I)V
+    invoke-virtual {v0, p1}, Lcom/jakex/ymluxscore/b/d;->notifyItemChanged(I)V
 
     :cond_0
     return-void
@@ -346,7 +346,7 @@
 
     if-eq p1, v0, :cond_1
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->a:Lcom/jakex/makeupcore/b/d;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->a:Lcom/jakex/ymluxscore/b/d;
 
     if-eqz v0, :cond_0
 
@@ -356,9 +356,9 @@
 
     iput p1, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->f:I
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->a:Lcom/jakex/makeupcore/b/d;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->a:Lcom/jakex/ymluxscore/b/d;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/b/d;->notifyDataSetChanged()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/b/d;->notifyDataSetChanged()V
 
     :cond_0
     invoke-virtual {p0, p1}, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->scrollToPosition(I)V
@@ -399,9 +399,9 @@
 
     invoke-interface {v0, p1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    iget-object p1, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->a:Lcom/jakex/makeupcore/b/d;
+    iget-object p1, p0, Lcom/jakex/makeupsenior/widget/PartSwitchRecyclerView;->a:Lcom/jakex/ymluxscore/b/d;
 
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/b/d;->notifyDataSetChanged()V
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/b/d;->notifyDataSetChanged()V
 
     return-void
 .end method

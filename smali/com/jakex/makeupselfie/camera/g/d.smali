@@ -1,9 +1,9 @@
-.class public Lcom/jakex/makeupselfie/camera/g/d;
+.class public Lcom/jakex/ymluxscoresf/camera/g/d;
 .super Ljava/lang/Object;
 
 
 # static fields
-.field private static a:Lcom/jakex/makeupselfie/camera/g/d;
+.field private static a:Lcom/jakex/ymluxscoresf/camera/g/d;
 
 
 # instance fields
@@ -13,7 +13,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/HashMap<",
-            "Lcom/jakex/makeupselfie/camera/material/model/SelfiePart;",
+            "Lcom/jakex/ymluxscoresf/camera/material/model/SelfiePart;",
             "Ljava/lang/Integer;",
             ">;"
         }
@@ -35,7 +35,7 @@
 
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lcom/jakex/makeupselfie/camera/g/d;->b:Z
+    iput-boolean v0, p0, Lcom/jakex/ymluxscoresf/camera/g/d;->b:Z
 
     new-instance v0, Ljava/util/HashMap;
 
@@ -43,36 +43,36 @@
 
     invoke-direct {v0, v1}, Ljava/util/HashMap;-><init>(I)V
 
-    iput-object v0, p0, Lcom/jakex/makeupselfie/camera/g/d;->c:Ljava/util/HashMap;
+    iput-object v0, p0, Lcom/jakex/ymluxscoresf/camera/g/d;->c:Ljava/util/HashMap;
 
     return-void
 .end method
 
-.method public static a()Lcom/jakex/makeupselfie/camera/g/d;
+.method public static a()Lcom/jakex/ymluxscoresf/camera/g/d;
     .locals 1
 
-    sget-object v0, Lcom/jakex/makeupselfie/camera/g/d;->a:Lcom/jakex/makeupselfie/camera/g/d;
+    sget-object v0, Lcom/jakex/ymluxscoresf/camera/g/d;->a:Lcom/jakex/ymluxscoresf/camera/g/d;
 
     if-nez v0, :cond_0
 
-    new-instance v0, Lcom/jakex/makeupselfie/camera/g/d;
+    new-instance v0, Lcom/jakex/ymluxscoresf/camera/g/d;
 
-    invoke-direct {v0}, Lcom/jakex/makeupselfie/camera/g/d;-><init>()V
+    invoke-direct {v0}, Lcom/jakex/ymluxscoresf/camera/g/d;-><init>()V
 
-    sput-object v0, Lcom/jakex/makeupselfie/camera/g/d;->a:Lcom/jakex/makeupselfie/camera/g/d;
+    sput-object v0, Lcom/jakex/ymluxscoresf/camera/g/d;->a:Lcom/jakex/ymluxscoresf/camera/g/d;
 
     :cond_0
-    sget-object v0, Lcom/jakex/makeupselfie/camera/g/d;->a:Lcom/jakex/makeupselfie/camera/g/d;
+    sget-object v0, Lcom/jakex/ymluxscoresf/camera/g/d;->a:Lcom/jakex/ymluxscoresf/camera/g/d;
 
     return-object v0
 .end method
 
 
 # virtual methods
-.method public a(Lcom/jakex/makeupselfie/camera/material/model/SelfiePart;)V
+.method public a(Lcom/jakex/ymluxscoresf/camera/material/model/SelfiePart;)V
     .locals 3
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/g/d;->c:Ljava/util/HashMap;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/g/d;->c:Ljava/util/HashMap;
 
     invoke-virtual {v0, p1}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
 
@@ -82,7 +82,7 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/g/d;->c:Ljava/util/HashMap;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/g/d;->c:Ljava/util/HashMap;
 
     invoke-virtual {v0, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -94,7 +94,7 @@
 
     move-result v0
 
-    iget-object v2, p0, Lcom/jakex/makeupselfie/camera/g/d;->c:Ljava/util/HashMap;
+    iget-object v2, p0, Lcom/jakex/ymluxscoresf/camera/g/d;->c:Ljava/util/HashMap;
 
     add-int/2addr v0, v1
 
@@ -107,7 +107,7 @@
     goto :goto_0
 
     :cond_0
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/g/d;->c:Ljava/util/HashMap;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/g/d;->c:Ljava/util/HashMap;
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -118,7 +118,7 @@
     :goto_0
     const/4 p1, 0x0
 
-    iput-boolean p1, p0, Lcom/jakex/makeupselfie/camera/g/d;->b:Z
+    iput-boolean p1, p0, Lcom/jakex/ymluxscoresf/camera/g/d;->b:Z
 
     return-void
 .end method
@@ -126,15 +126,15 @@
 .method public b()V
     .locals 1
 
-    iget v0, p0, Lcom/jakex/makeupselfie/camera/g/d;->d:I
+    iget v0, p0, Lcom/jakex/ymluxscoresf/camera/g/d;->d:I
 
     add-int/lit8 v0, v0, 0x1
 
-    iput v0, p0, Lcom/jakex/makeupselfie/camera/g/d;->d:I
+    iput v0, p0, Lcom/jakex/ymluxscoresf/camera/g/d;->d:I
 
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lcom/jakex/makeupselfie/camera/g/d;->b:Z
+    iput-boolean v0, p0, Lcom/jakex/ymluxscoresf/camera/g/d;->b:Z
 
     return-void
 .end method
@@ -142,15 +142,15 @@
 .method public c()V
     .locals 1
 
-    iget v0, p0, Lcom/jakex/makeupselfie/camera/g/d;->f:I
+    iget v0, p0, Lcom/jakex/ymluxscoresf/camera/g/d;->f:I
 
     add-int/lit8 v0, v0, 0x1
 
-    iput v0, p0, Lcom/jakex/makeupselfie/camera/g/d;->f:I
+    iput v0, p0, Lcom/jakex/ymluxscoresf/camera/g/d;->f:I
 
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lcom/jakex/makeupselfie/camera/g/d;->b:Z
+    iput-boolean v0, p0, Lcom/jakex/ymluxscoresf/camera/g/d;->b:Z
 
     return-void
 .end method
@@ -158,15 +158,15 @@
 .method public d()V
     .locals 1
 
-    iget v0, p0, Lcom/jakex/makeupselfie/camera/g/d;->e:I
+    iget v0, p0, Lcom/jakex/ymluxscoresf/camera/g/d;->e:I
 
     add-int/lit8 v0, v0, 0x1
 
-    iput v0, p0, Lcom/jakex/makeupselfie/camera/g/d;->e:I
+    iput v0, p0, Lcom/jakex/ymluxscoresf/camera/g/d;->e:I
 
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lcom/jakex/makeupselfie/camera/g/d;->b:Z
+    iput-boolean v0, p0, Lcom/jakex/ymluxscoresf/camera/g/d;->b:Z
 
     return-void
 .end method
@@ -174,7 +174,7 @@
 .method public e()V
     .locals 9
 
-    iget-boolean v0, p0, Lcom/jakex/makeupselfie/camera/g/d;->b:Z
+    iget-boolean v0, p0, Lcom/jakex/ymluxscoresf/camera/g/d;->b:Z
 
     if-eqz v0, :cond_0
 
@@ -187,7 +187,7 @@
 
     invoke-direct {v0, v1}, Ljava/util/HashMap;-><init>(I)V
 
-    iget v1, p0, Lcom/jakex/makeupselfie/camera/g/d;->d:I
+    iget v1, p0, Lcom/jakex/ymluxscoresf/camera/g/d;->d:I
 
     invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
@@ -197,7 +197,7 @@
 
     invoke-virtual {v0, v2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    iget v1, p0, Lcom/jakex/makeupselfie/camera/g/d;->e:I
+    iget v1, p0, Lcom/jakex/ymluxscoresf/camera/g/d;->e:I
 
     invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
@@ -207,7 +207,7 @@
 
     invoke-virtual {v0, v2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    iget v1, p0, Lcom/jakex/makeupselfie/camera/g/d;->f:I
+    iget v1, p0, Lcom/jakex/ymluxscoresf/camera/g/d;->f:I
 
     invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
@@ -217,7 +217,7 @@
 
     invoke-virtual {v0, v2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-static {}, Lcom/jakex/makeupselfie/camera/material/model/SelfiePart;->values()[Lcom/jakex/makeupselfie/camera/material/model/SelfiePart;
+    invoke-static {}, Lcom/jakex/ymluxscoresf/camera/material/model/SelfiePart;->values()[Lcom/jakex/ymluxscoresf/camera/material/model/SelfiePart;
 
     move-result-object v1
 
@@ -232,7 +232,7 @@
 
     aget-object v5, v1, v4
 
-    iget-object v6, p0, Lcom/jakex/makeupselfie/camera/g/d;->c:Ljava/util/HashMap;
+    iget-object v6, p0, Lcom/jakex/ymluxscoresf/camera/g/d;->c:Ljava/util/HashMap;
 
     invoke-virtual {v6, v5}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -240,22 +240,22 @@
 
     check-cast v6, Ljava/lang/Integer;
 
-    invoke-static {v6}, Lcom/jakex/makeupcore/util/bj;->a(Ljava/lang/Integer;)I
+    invoke-static {v6}, Lcom/jakex/ymluxscore/util/bj;->a(Ljava/lang/Integer;)I
 
     move-result v6
 
-    invoke-virtual {v5}, Lcom/jakex/makeupselfie/camera/material/model/SelfiePart;->getPartPosition()Lcom/jakex/makeupeditor/configuration/PartPosition;
+    invoke-virtual {v5}, Lcom/jakex/ymluxscoresf/camera/material/model/SelfiePart;->getPartPosition()Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     move-result-object v7
 
-    sget-object v8, Lcom/jakex/makeupeditor/configuration/PartPosition;->UNKNOWN:Lcom/jakex/makeupeditor/configuration/PartPosition;
+    sget-object v8, Lcom/jakex/ymluxseditor/configuration/PartPosition;->UNKNOWN:Lcom/jakex/ymluxseditor/configuration/PartPosition;
 
     if-ne v7, v8, :cond_1
 
     goto :goto_1
 
     :cond_1
-    invoke-virtual {v5}, Lcom/jakex/makeupselfie/camera/material/model/SelfiePart;->getStatisticsName()Ljava/lang/String;
+    invoke-virtual {v5}, Lcom/jakex/ymluxscoresf/camera/material/model/SelfiePart;->getStatisticsName()Ljava/lang/String;
 
     move-result-object v5
 
@@ -277,19 +277,19 @@
 
     invoke-static {v2, v1, v0}, Lcom/jakex/library/analytics/AnalyticsAgent;->logEvent(Ljava/lang/String;Lcom/jakex/library/analytics/EventType;Ljava/util/Map;)V
 
-    iput v3, p0, Lcom/jakex/makeupselfie/camera/g/d;->d:I
+    iput v3, p0, Lcom/jakex/ymluxscoresf/camera/g/d;->d:I
 
-    iput v3, p0, Lcom/jakex/makeupselfie/camera/g/d;->e:I
+    iput v3, p0, Lcom/jakex/ymluxscoresf/camera/g/d;->e:I
 
-    iput v3, p0, Lcom/jakex/makeupselfie/camera/g/d;->f:I
+    iput v3, p0, Lcom/jakex/ymluxscoresf/camera/g/d;->f:I
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/g/d;->c:Ljava/util/HashMap;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/g/d;->c:Ljava/util/HashMap;
 
     invoke-virtual {v0}, Ljava/util/HashMap;->clear()V
 
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lcom/jakex/makeupselfie/camera/g/d;->b:Z
+    iput-boolean v0, p0, Lcom/jakex/ymluxscoresf/camera/g/d;->b:Z
 
     return-void
 .end method

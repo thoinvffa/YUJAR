@@ -1,10 +1,10 @@
-.class public interface abstract Lcom/jakex/makeupselfie/camera/d$a;
+.class public interface abstract Lcom/jakex/ymluxscoresf/camera/d$a;
 .super Ljava/lang/Object;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/jakex/makeupselfie/camera/d;
+    value = Lcom/jakex/ymluxscoresf/camera/d;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,7 +20,7 @@
 .method public abstract a(I)V
 .end method
 
-.method public abstract a(Lcom/jakex/makeupselfie/camera/f/a/a;)V
+.method public abstract a(Lcom/jakex/ymluxscoresf/camera/f/a/a;)V
 .end method
 
 .method public abstract b()V

@@ -19,7 +19,7 @@
     return-void
 
     :cond_0
-    invoke-static {}, Lcom/jakex/makeupcore/j/b;->b()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/j/b;->b()Z
 
     move-result v0
 
@@ -36,7 +36,7 @@
 
     invoke-direct {v1}, Lcom/jakex/makeup/startup/business/a/b$1;-><init>()V
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeup/api/e;->a(Lcom/jakex/makeupcore/net/j;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/makeup/api/e;->a(Lcom/jakex/ymluxscore/net/j;)V
 
     return-void
 .end method
@@ -57,7 +57,7 @@
     return-void
 
     :cond_0
-    invoke-static {}, Lcom/jakex/makeupcore/j/b;->b()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/j/b;->b()Z
 
     move-result v0
 
@@ -66,7 +66,7 @@
     return-void
 
     :cond_1
-    invoke-static {}, Lcom/jakex/makeupeditor/e/a;->a()I
+    invoke-static {}, Lcom/jakex/ymluxseditor/e/a;->a()I
 
     move-result v0
 
@@ -74,9 +74,9 @@
 
     if-ne v0, v1, :cond_2
 
-    sget-object v0, Lcom/jakex/makeupeditor/e/a;->b:Ljava/lang/String;
+    sget-object v0, Lcom/jakex/ymluxseditor/e/a;->b:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/jakex/makeupeditor/e/a;->a(Ljava/lang/String;)Z
+    invoke-static {v0}, Lcom/jakex/ymluxseditor/e/a;->a(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -91,7 +91,7 @@
 
     invoke-direct {v1}, Lcom/jakex/makeup/startup/business/a/b$2;-><init>()V
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeup/api/f;->a(Lcom/jakex/makeupcore/net/j;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/makeup/api/f;->a(Lcom/jakex/ymluxscore/net/j;)V
 
     :cond_3
     return-void

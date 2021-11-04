@@ -1,11 +1,11 @@
 .class public Lcom/jakex/makeup/startup/activity/c;
-.super Lcom/jakex/makeupcore/l/a;
+.super Lcom/jakex/ymluxscore/l/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupcore/l/a<",
+        "Lcom/jakex/ymluxscore/l/a<",
         "Lcom/jakex/makeup/startup/activity/b$a;",
         ">;"
     }
@@ -54,7 +54,7 @@
 .method public constructor <init>(Lcom/jakex/makeup/startup/activity/b$a;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupcore/l/a;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscore/l/a;-><init>(Ljava/lang/Object;)V
 
     invoke-static {}, Lcom/jakex/library/application/BaseApplication;->a()Landroid/app/Application;
 
@@ -111,7 +111,7 @@
 
     invoke-direct {v1}, Lcom/jakex/makeup/startup/activity/c$3;-><init>()V
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeup/api/a;->a(Lcom/jakex/makeupcore/net/j;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/makeup/api/a;->a(Lcom/jakex/ymluxscore/net/j;)V
 
     return-void
 .end method
@@ -158,7 +158,7 @@
     :cond_0
     if-eqz v1, :cond_1
 
-    invoke-static {}, Lcom/jakex/makeupcore/j/b;->d()Ljava/lang/String;
+    invoke-static {}, Lcom/jakex/ymluxscore/j/b;->d()Ljava/lang/String;
 
     move-result-object v1
 
@@ -184,7 +184,7 @@
 
     invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-static {}, Lcom/jakex/makeupcore/j/b;->d()Ljava/lang/String;
+    invoke-static {}, Lcom/jakex/ymluxscore/j/b;->d()Ljava/lang/String;
 
     move-result-object v0
 
@@ -321,7 +321,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/jakex/makeupcore/protocol/a;->c(Ljava/lang/String;)Z
+    invoke-static {v2}, Lcom/jakex/ymluxscore/protocol/a;->c(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -360,7 +360,7 @@
 .method public a()V
     .locals 5
 
-    invoke-static {}, Lcom/jakex/makeupcore/j/b;->b()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/j/b;->b()Z
 
     move-result v0
 
@@ -456,7 +456,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/f;->b()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/util/f;->b()Z
 
     move-result v0
 
@@ -584,7 +584,7 @@
 .method public i()V
     .locals 0
 
-    invoke-static {}, Lcom/jakex/makeupcore/modular/c/bx;->i()V
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/c/bx;->i()V
 
     return-void
 .end method
@@ -606,7 +606,7 @@
 .method public k()V
     .locals 0
 
-    invoke-static {}, Lcom/jakex/makeupcore/modular/c/av;->a()V
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/c/av;->a()V
 
     return-void
 .end method
@@ -614,13 +614,13 @@
 .method public l()V
     .locals 2
 
-    invoke-static {}, Lcom/jakex/makeupcore/e/b;->b()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/e/b;->b()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/jakex/makeupcore/e/b;->a()J
+    invoke-static {}, Lcom/jakex/ymluxscore/e/b;->a()J
 
     move-result-wide v0
 
@@ -632,15 +632,15 @@
 
     const/4 v0, 0x0
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/e/b;->a(Z)V
+    invoke-static {v0}, Lcom/jakex/ymluxscore/e/b;->a(Z)V
 
     const-wide/16 v0, -0x1
 
-    invoke-static {v0, v1}, Lcom/jakex/makeupcore/e/b;->a(J)V
+    invoke-static {v0, v1}, Lcom/jakex/ymluxscore/e/b;->a(J)V
 
     const-string v0, ""
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/e/b;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/jakex/ymluxscore/e/b;->a(Ljava/lang/String;)V
 
     :cond_0
     return-void
@@ -669,7 +669,7 @@
 .method public p()V
     .locals 4
 
-    invoke-static {}, Lcom/jakex/makeupcore/e/Aa;->c()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/e/Aa;->c()Z
 
     move-result v0
 
@@ -685,7 +685,7 @@
 
     move-result-object v1
 
-    invoke-static {}, Lcom/jakex/makeupcore/j/b;->c()Lcom/jakex/countrylocation/LocationBean;
+    invoke-static {}, Lcom/jakex/ymluxscore/j/b;->c()Lcom/jakex/countrylocation/LocationBean;
 
     move-result-object v2
 
@@ -705,7 +705,7 @@
 
     move-result-object v1
 
-    invoke-static {}, Lcom/jakex/makeupcore/modular/c/bx;->d()J
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/c/bx;->d()J
 
     move-result-wide v2
 
@@ -719,11 +719,11 @@
 
     move-result-object v1
 
-    invoke-static {}, Lcom/jakex/makeupcore/e/Aa;->b()Lcom/jakex/makeupcore/e/Aa$BB;
+    invoke-static {}, Lcom/jakex/ymluxscore/e/Aa;->b()Lcom/jakex/ymluxscore/e/Aa$BB;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/jakex/makeupcore/e/Aa$BB;->a()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/jakex/ymluxscore/e/Aa$BB;->a()Ljava/lang/String;
 
     move-result-object v2
 
@@ -766,7 +766,7 @@
 .method public r()V
     .locals 5
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/c;->b()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/util/c;->b()Z
 
     move-result v0
 
@@ -775,7 +775,7 @@
     return-void
 
     :cond_0
-    invoke-static {}, Lcom/jakex/makeupcore/j/a;->l()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/j/a;->l()Z
 
     move-result v0
 
@@ -873,7 +873,7 @@
 
     invoke-direct {v0, p0}, Lcom/jakex/makeup/startup/activity/c$7;-><init>(Lcom/jakex/makeup/startup/activity/c;)V
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/i;->a(Ljava/lang/Runnable;)V
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/i;->a(Ljava/lang/Runnable;)V
 
     return-void
 .end method
@@ -892,7 +892,7 @@
     invoke-static {v0}, Lcom/jakex/makeupassistant/g/d;->a(Z)V
 
     :cond_0
-    invoke-static {}, Lcom/jakex/makeupcore/modular/c/aa;->b()V
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/c/aa;->b()V
 
     return-void
 .end method

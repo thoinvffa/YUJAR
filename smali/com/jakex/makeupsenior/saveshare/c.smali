@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeupsenior/saveshare/c;
-.super Lcom/jakex/makeupcore/l/a;
+.super Lcom/jakex/ymluxscore/l/a;
 
 
 # annotations
@@ -11,7 +11,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupcore/l/a<",
+        "Lcom/jakex/ymluxscore/l/a<",
         "Lcom/jakex/makeupsenior/saveshare/b$a;",
         ">;"
     }
@@ -22,7 +22,7 @@
 .method constructor <init>(Lcom/jakex/makeupsenior/saveshare/b$a;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupcore/l/a;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscore/l/a;-><init>(Ljava/lang/Object;)V
 
     return-void
 .end method
@@ -53,7 +53,7 @@
 
     invoke-direct {v0, v1, p1, v2}, Lcom/jakex/makeupsenior/saveshare/c$a;-><init>(Lcom/jakex/makeupsenior/saveshare/b$a;ZLcom/jakex/makeupsenior/saveshare/c$1;)V
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/i;->a()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/jakex/ymluxscore/util/i;->a()Ljava/util/concurrent/Executor;
 
     move-result-object p1
 

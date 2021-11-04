@@ -42,13 +42,13 @@
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupActivity$6;->a:Lcom/jakex/makeupsenior/BeautyMakeupActivity;
 
-    invoke-static {v0}, Lcom/jakex/makeupsenior/BeautyMakeupActivity;->h(Lcom/jakex/makeupsenior/BeautyMakeupActivity;)Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    invoke-static {v0}, Lcom/jakex/makeupsenior/BeautyMakeupActivity;->h(Lcom/jakex/makeupsenior/BeautyMakeupActivity;)Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupeditor/widget/BeautyMakeupView;->setLock(Z)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;->setLock(Z)V
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupActivity$6;->a:Lcom/jakex/makeupsenior/BeautyMakeupActivity;
 
@@ -62,7 +62,7 @@
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupActivity$6;->a:Lcom/jakex/makeupsenior/BeautyMakeupActivity;
 
-    invoke-static {v0}, Lcom/jakex/makeupsenior/BeautyMakeupActivity;->h(Lcom/jakex/makeupsenior/BeautyMakeupActivity;)Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    invoke-static {v0}, Lcom/jakex/makeupsenior/BeautyMakeupActivity;->h(Lcom/jakex/makeupsenior/BeautyMakeupActivity;)Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
     move-result-object v0
 
@@ -70,7 +70,7 @@
 
     iget-object v3, v3, Lcom/jakex/makeupsenior/BeautyMakeupActivity;->j:Landroid/graphics/Bitmap;
 
-    invoke-virtual {v0, v3, v2}, Lcom/jakex/makeupeditor/widget/BeautyMakeupView;->a(Landroid/graphics/Bitmap;Z)V
+    invoke-virtual {v0, v3, v2}, Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;->a(Landroid/graphics/Bitmap;Z)V
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupActivity$6;->a:Lcom/jakex/makeupsenior/BeautyMakeupActivity;
 
@@ -81,7 +81,7 @@
     :cond_0
     iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupActivity$6;->a:Lcom/jakex/makeupsenior/BeautyMakeupActivity;
 
-    invoke-static {v0}, Lcom/jakex/makeupsenior/BeautyMakeupActivity;->h(Lcom/jakex/makeupsenior/BeautyMakeupActivity;)Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    invoke-static {v0}, Lcom/jakex/makeupsenior/BeautyMakeupActivity;->h(Lcom/jakex/makeupsenior/BeautyMakeupActivity;)Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
     move-result-object v0
 
@@ -89,7 +89,7 @@
 
     iget-object v3, v3, Lcom/jakex/makeupsenior/BeautyMakeupActivity;->j:Landroid/graphics/Bitmap;
 
-    invoke-virtual {v0, v3, v1}, Lcom/jakex/makeupeditor/widget/BeautyMakeupView;->a(Landroid/graphics/Bitmap;Z)V
+    invoke-virtual {v0, v3, v1}, Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;->a(Landroid/graphics/Bitmap;Z)V
 
     :goto_0
     iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupActivity$6;->a:Lcom/jakex/makeupsenior/BeautyMakeupActivity;

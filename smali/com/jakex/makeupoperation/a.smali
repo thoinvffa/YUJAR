@@ -118,15 +118,15 @@
 
     move-result-object p5
 
-    check-cast p5, Lcom/jakex/makeupcore/widget/CommonCloseLinerLayout;
+    check-cast p5, Lcom/jakex/ymluxscore/widget/CommonCloseLinerLayout;
 
-    invoke-virtual {p5, p4}, Lcom/jakex/makeupcore/widget/CommonCloseLinerLayout;->setCanFlingDownClose(Z)V
+    invoke-virtual {p5, p4}, Lcom/jakex/ymluxscore/widget/CommonCloseLinerLayout;->setCanFlingDownClose(Z)V
 
     new-instance v1, Lcom/jakex/makeupoperation/a$2;
 
     invoke-direct {v1, p0}, Lcom/jakex/makeupoperation/a$2;-><init>(Lcom/jakex/makeupoperation/a;)V
 
-    invoke-virtual {p5, v1}, Lcom/jakex/makeupcore/widget/CommonCloseLinerLayout;->setOnCloseListener(Lcom/jakex/makeupcore/widget/CommonCloseLinerLayout$b;)V
+    invoke-virtual {p5, v1}, Lcom/jakex/ymluxscore/widget/CommonCloseLinerLayout;->setOnCloseListener(Lcom/jakex/ymluxscore/widget/CommonCloseLinerLayout$b;)V
 
     invoke-virtual {p0}, Lcom/jakex/makeupoperation/a;->getWindow()Landroid/view/Window;
 
@@ -556,7 +556,7 @@
 
     const/4 v2, 0x1
 
-    invoke-static {v0, p1, v1, v2}, Lcom/jakex/makeupcore/modular/c/h;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
+    invoke-static {v0, p1, v1, v2}, Lcom/jakex/ymluxscore/modular/c/h;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V
 
     :cond_0
     return-void

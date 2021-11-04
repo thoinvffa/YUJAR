@@ -1,4 +1,4 @@
-.class public Lcom/jakex/makeupselfie/save/a/c;
+.class public Lcom/jakex/ymluxscoresf/save/a/c;
 .super Ljava/lang/Object;
 
 
@@ -14,7 +14,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    sget-object v1, Lcom/jakex/makeupcore/e/d;->a:Ljava/lang/String;
+    sget-object v1, Lcom/jakex/ymluxscore/e/d;->a:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -26,7 +26,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/jakex/makeupselfie/save/a/c;->a:Ljava/lang/String;
+    sput-object v0, Lcom/jakex/ymluxscoresf/save/a/c;->a:Ljava/lang/String;
 
     return-void
 .end method
@@ -38,7 +38,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/jakex/makeupselfie/save/a/c;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/jakex/ymluxscoresf/save/a/c;->c()Ljava/lang/String;
 
     move-result-object v1
 
@@ -76,7 +76,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/jakex/makeupselfie/save/a/c;->c()Ljava/lang/String;
+    invoke-static {}, Lcom/jakex/ymluxscoresf/save/a/c;->c()Ljava/lang/String;
 
     move-result-object v1
 
@@ -120,7 +120,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/jakex/makeupselfie/save/a/c;->f()Ljava/lang/String;
+    invoke-static {}, Lcom/jakex/ymluxscoresf/save/a/c;->f()Ljava/lang/String;
 
     move-result-object v0
 
@@ -137,7 +137,7 @@
 
     if-eqz v0, :cond_1
 
-    invoke-static {}, Lcom/jakex/makeupselfie/save/a/c;->e()Ljava/lang/String;
+    invoke-static {}, Lcom/jakex/ymluxscoresf/save/a/c;->e()Ljava/lang/String;
 
     move-result-object v0
 
@@ -177,7 +177,7 @@
 .method public static d()Ljava/lang/String;
     .locals 1
 
-    sget-object v0, Lcom/jakex/makeupselfie/save/a/c;->a:Ljava/lang/String;
+    sget-object v0, Lcom/jakex/ymluxscoresf/save/a/c;->a:Ljava/lang/String;
 
     invoke-static {v0}, Lcom/jakex/library/util/c/d;->a(Ljava/lang/String;)Ljava/io/File;
 

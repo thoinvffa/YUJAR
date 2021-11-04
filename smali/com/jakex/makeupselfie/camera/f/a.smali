@@ -1,4 +1,4 @@
-.class public interface abstract Lcom/jakex/makeupselfie/camera/f/a;
+.class public interface abstract Lcom/jakex/ymluxscoresf/camera/f/a;
 .super Ljava/lang/Object;
 
 
@@ -6,13 +6,13 @@
 .method public abstract a()V
 .end method
 
-.method public abstract a(Lcom/jakex/makeupcore/bean/ThemeMakeupCategory;)V
+.method public abstract a(Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory;)V
 .end method
 
-.method public abstract a(Lcom/jakex/makeupcore/bean/ThemeMakeupCategory;Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;)V
+.method public abstract a(Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory;Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;)V
 .end method
 
-.method public abstract a(Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;)V
+.method public abstract a(Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;)V
 .end method
 
 .method public abstract a(Ljava/util/List;)V
@@ -20,7 +20,7 @@
         value = {
             "(",
             "Ljava/util/List<",
-            "Lcom/jakex/makeupcore/bean/ThemeMakeupCategory;",
+            "Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory;",
             ">;)V"
         }
     .end annotation
@@ -29,7 +29,7 @@
 .method public abstract b()V
 .end method
 
-.method public abstract b(Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;)V
+.method public abstract b(Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;)V
 .end method
 
 .method public abstract c()V

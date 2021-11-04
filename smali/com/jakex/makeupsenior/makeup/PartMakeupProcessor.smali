@@ -51,14 +51,14 @@
 # instance fields
 .field private id:I
 
-.field private mPartMakeupProcessor:Lcom/jakex/makeupeditor/b/a/b;
+.field private mPartMakeupProcessor:Lcom/jakex/ymluxseditor/b/a/b;
 
 .field private mPartMakeupProcessorCls:Ljava/lang/Class;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/lang/Class<",
             "+",
-            "Lcom/jakex/makeupeditor/b/a/b;",
+            "Lcom/jakex/ymluxseditor/b/a/b;",
             ">;"
         }
     .end annotation
@@ -351,7 +351,7 @@
             "(I",
             "Ljava/lang/Class<",
             "+",
-            "Lcom/jakex/makeupeditor/b/a/b;",
+            "Lcom/jakex/ymluxseditor/b/a/b;",
             ">;)V"
         }
     .end annotation
@@ -428,7 +428,7 @@
 
 
 # virtual methods
-.method public getSchemeProcessor()Lcom/jakex/makeupeditor/b/a/b;
+.method public getSchemeProcessor()Lcom/jakex/ymluxseditor/b/a/b;
     .locals 1
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/makeup/PartMakeupProcessor;->mPartMakeupProcessorCls:Ljava/lang/Class;
@@ -440,9 +440,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/jakex/makeupeditor/b/a/b;
+    check-cast v0, Lcom/jakex/ymluxseditor/b/a/b;
 
-    iput-object v0, p0, Lcom/jakex/makeupsenior/makeup/PartMakeupProcessor;->mPartMakeupProcessor:Lcom/jakex/makeupeditor/b/a/b;
+    iput-object v0, p0, Lcom/jakex/makeupsenior/makeup/PartMakeupProcessor;->mPartMakeupProcessor:Lcom/jakex/ymluxseditor/b/a/b;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -455,7 +455,7 @@
 
     :cond_0
     :goto_0
-    iget-object v0, p0, Lcom/jakex/makeupsenior/makeup/PartMakeupProcessor;->mPartMakeupProcessor:Lcom/jakex/makeupeditor/b/a/b;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/makeup/PartMakeupProcessor;->mPartMakeupProcessor:Lcom/jakex/ymluxseditor/b/a/b;
 
     return-object v0
 .end method

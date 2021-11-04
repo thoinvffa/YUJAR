@@ -2,11 +2,11 @@
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lcom/jakex/makeupcore/e/Aa$CC;
+.implements Lcom/jakex/ymluxscore/e/Aa$CC;
 
 
 # instance fields
-.field private final a:Lcom/jakex/makeupcore/e/Aa$BB;
+.field private final a:Lcom/jakex/ymluxscore/e/Aa$BB;
 
 
 # direct methods
@@ -15,21 +15,21 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-static {}, Lcom/jakex/makeupcore/e/Aa;->a()Lcom/jakex/makeupcore/e/Aa$BB;
+    invoke-static {}, Lcom/jakex/ymluxscore/e/Aa;->a()Lcom/jakex/ymluxscore/e/Aa$BB;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/jakex/makeup/developer/b;->a:Lcom/jakex/makeupcore/e/Aa$BB;
+    iput-object v0, p0, Lcom/jakex/makeup/developer/b;->a:Lcom/jakex/ymluxscore/e/Aa$BB;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public a()Lcom/jakex/makeupcore/e/Aa$BB;
+.method public a()Lcom/jakex/ymluxscore/e/Aa$BB;
     .locals 10
 
-    invoke-static {}, Lcom/jakex/makeupcore/e/b;->c()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/e/b;->c()Z
 
     move-result v3
 
@@ -60,9 +60,9 @@
     goto :goto_0
 
     :cond_0
-    iget-object v0, p0, Lcom/jakex/makeup/developer/b;->a:Lcom/jakex/makeupcore/e/Aa$BB;
+    iget-object v0, p0, Lcom/jakex/makeup/developer/b;->a:Lcom/jakex/ymluxscore/e/Aa$BB;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/e/Aa$BB;->d()I
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/e/Aa$BB;->d()I
 
     move-result v0
 
@@ -75,7 +75,7 @@
 
     move-result v0
 
-    new-instance v9, Lcom/jakex/makeupcore/e/Aa$BB;
+    new-instance v9, Lcom/jakex/ymluxscore/e/Aa$BB;
 
     sget-object v5, Lcom/jakex/makeup/developer/e;->a:Lcom/jakex/makeup/developer/e;
 
@@ -91,7 +91,7 @@
 
     move-object v0, v9
 
-    invoke-direct/range {v0 .. v8}, Lcom/jakex/makeupcore/e/Aa$BB;-><init>(Ljava/lang/String;ZZIIZZI)V
+    invoke-direct/range {v0 .. v8}, Lcom/jakex/ymluxscore/e/Aa$BB;-><init>(Ljava/lang/String;ZZIIZZI)V
 
     return-object v9
 .end method

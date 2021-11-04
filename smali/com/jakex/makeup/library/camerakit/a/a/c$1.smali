@@ -33,7 +33,7 @@
 
 
 # virtual methods
-.method public a(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;)J
+.method public a(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;)J
     .locals 2
 
     const-wide/16 v0, 0x21
@@ -41,12 +41,12 @@
     return-wide v0
 .end method
 
-.method public b(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)V
+.method public b(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;)V
     .locals 0
 
     iget-object p1, p0, Lcom/jakex/makeup/library/camerakit/a/a/c$1;->a:Lcom/jakex/makeup/library/camerakit/a/a/c;
 
-    invoke-static {p1, p2}, Lcom/jakex/makeup/library/camerakit/a/a/c;->a(Lcom/jakex/makeup/library/camerakit/a/a/c;Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)V
+    invoke-static {p1, p2}, Lcom/jakex/makeup/library/camerakit/a/a/c;->a(Lcom/jakex/makeup/library/camerakit/a/a/c;Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;)V
 
     return-void
 .end method

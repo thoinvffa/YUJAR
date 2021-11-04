@@ -4,7 +4,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/jakex/makeupsenior/BeautyMakeupActivity;->a(Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;)V
+    value = Lcom/jakex/makeupsenior/BeautyMakeupActivity;->a(Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -74,31 +74,31 @@
     :cond_0
     iget-object p1, p0, Lcom/jakex/makeupsenior/BeautyMakeupActivity$13;->b:Lcom/jakex/makeupsenior/BeautyMakeupActivity;
 
-    invoke-static {p1}, Lcom/jakex/makeupsenior/BeautyMakeupActivity;->c(Lcom/jakex/makeupsenior/BeautyMakeupActivity;)Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+    invoke-static {p1}, Lcom/jakex/makeupsenior/BeautyMakeupActivity;->c(Lcom/jakex/makeupsenior/BeautyMakeupActivity;)Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;->getAdPic()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;->getAdPic()Ljava/lang/String;
 
     move-result-object p1
 
     iget-object p2, p0, Lcom/jakex/makeupsenior/BeautyMakeupActivity$13;->b:Lcom/jakex/makeupsenior/BeautyMakeupActivity;
 
-    invoke-static {p2}, Lcom/jakex/makeupsenior/BeautyMakeupActivity;->c(Lcom/jakex/makeupsenior/BeautyMakeupActivity;)Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+    invoke-static {p2}, Lcom/jakex/makeupsenior/BeautyMakeupActivity;->c(Lcom/jakex/makeupsenior/BeautyMakeupActivity;)Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
 
     move-result-object p2
 
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;->getMakeupId()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;->getMakeupId()Ljava/lang/String;
 
     move-result-object p2
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/BeautyMakeupActivity$13;->b:Lcom/jakex/makeupsenior/BeautyMakeupActivity;
 
-    invoke-static {v0}, Lcom/jakex/makeupsenior/BeautyMakeupActivity;->c(Lcom/jakex/makeupsenior/BeautyMakeupActivity;)Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+    invoke-static {v0}, Lcom/jakex/makeupsenior/BeautyMakeupActivity;->c(Lcom/jakex/makeupsenior/BeautyMakeupActivity;)Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;->getAdType()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;->getAdType()Ljava/lang/String;
 
     move-result-object v0
 

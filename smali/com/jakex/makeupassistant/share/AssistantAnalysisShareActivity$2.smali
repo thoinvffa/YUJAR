@@ -64,7 +64,7 @@
 
     invoke-direct {p1, v0}, Lcom/jakex/makeupassistant/share/AssistantAnalysisShareActivity$a;-><init>(Lcom/jakex/makeupassistant/share/AssistantAnalysisShareActivity;)V
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/i;->a()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/jakex/ymluxscore/util/i;->a()Ljava/util/concurrent/Executor;
 
     move-result-object v0
 

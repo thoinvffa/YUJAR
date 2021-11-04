@@ -1,11 +1,11 @@
-.class public Lcom/jakex/makeupselfie/camera/a/a;
+.class public Lcom/jakex/ymluxscoresf/camera/a/a;
 .super Ljava/lang/Object;
 
 
 # instance fields
 .field private a:Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;
 
-.field private b:Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+.field private b:Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
 
 .field private c:[I
 
@@ -32,7 +32,7 @@
 
     sget-object v0, Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;->SMOOTH:Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;
 
-    iput-object v0, p0, Lcom/jakex/makeupselfie/camera/a/a;->a:Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;
+    iput-object v0, p0, Lcom/jakex/ymluxscoresf/camera/a/a;->a:Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;
 
     invoke-static {}, Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;->values()[Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;
 
@@ -42,7 +42,7 @@
 
     new-array v0, v0, [I
 
-    iput-object v0, p0, Lcom/jakex/makeupselfie/camera/a/a;->c:[I
+    iput-object v0, p0, Lcom/jakex/ymluxscoresf/camera/a/a;->c:[I
 
     invoke-static {}, Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;->values()[Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;
 
@@ -52,7 +52,7 @@
 
     new-array v0, v0, [Z
 
-    iput-object v0, p0, Lcom/jakex/makeupselfie/camera/a/a;->d:[Z
+    iput-object v0, p0, Lcom/jakex/ymluxscoresf/camera/a/a;->d:[Z
 
     new-instance v0, Ljava/util/HashMap;
 
@@ -60,9 +60,9 @@
 
     invoke-direct {v0, v1}, Ljava/util/HashMap;-><init>(I)V
 
-    iput-object v0, p0, Lcom/jakex/makeupselfie/camera/a/a;->e:Ljava/util/HashMap;
+    iput-object v0, p0, Lcom/jakex/ymluxscoresf/camera/a/a;->e:Ljava/util/HashMap;
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/a/a;->c:[I
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/a/a;->c:[I
 
     array-length v1, v0
 
@@ -73,10 +73,10 @@
     return-void
 .end method
 
-.method private a(Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;I)I
+.method private a(Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;I)I
     .locals 1
 
-    sget-object v0, Lcom/jakex/makeupselfie/camera/a/a$1;->a:[I
+    sget-object v0, Lcom/jakex/ymluxscoresf/camera/a/a$1;->a:[I
 
     invoke-virtual {p1}, Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;->ordinal()I
 
@@ -107,11 +107,11 @@
     goto :goto_1
 
     :cond_0
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;->getNose()Ljava/lang/Integer;
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;->getNose()Ljava/lang/Integer;
 
     move-result-object p1
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupselfie/camera/a/a;->a(Ljava/lang/Integer;)Z
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscoresf/camera/a/a;->a(Ljava/lang/Integer;)Z
 
     move-result p2
 
@@ -120,11 +120,11 @@
     goto :goto_0
 
     :cond_1
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;->getChin()Ljava/lang/Integer;
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;->getChin()Ljava/lang/Integer;
 
     move-result-object p1
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupselfie/camera/a/a;->a(Ljava/lang/Integer;)Z
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscoresf/camera/a/a;->a(Ljava/lang/Integer;)Z
 
     move-result p2
 
@@ -133,11 +133,11 @@
     goto :goto_0
 
     :cond_2
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;->getFaceLift()Ljava/lang/Integer;
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;->getFaceLift()Ljava/lang/Integer;
 
     move-result-object p1
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupselfie/camera/a/a;->a(Ljava/lang/Integer;)Z
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscoresf/camera/a/a;->a(Ljava/lang/Integer;)Z
 
     move-result p2
 
@@ -146,11 +146,11 @@
     goto :goto_0
 
     :cond_3
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;->getBigEyes()Ljava/lang/Integer;
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;->getBigEyes()Ljava/lang/Integer;
 
     move-result-object p1
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupselfie/camera/a/a;->a(Ljava/lang/Integer;)Z
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscoresf/camera/a/a;->a(Ljava/lang/Integer;)Z
 
     move-result p2
 
@@ -159,11 +159,11 @@
     goto :goto_0
 
     :cond_4
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;->getBeautySkin()Ljava/lang/Integer;
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;->getBeautySkin()Ljava/lang/Integer;
 
     move-result-object p1
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupselfie/camera/a/a;->a(Ljava/lang/Integer;)Z
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscoresf/camera/a/a;->a(Ljava/lang/Integer;)Z
 
     move-result p2
 
@@ -179,10 +179,10 @@
     return p3
 .end method
 
-.method private a(Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;)Ljava/lang/Integer;
+.method private a(Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;)Ljava/lang/Integer;
     .locals 1
 
-    sget-object v0, Lcom/jakex/makeupselfie/camera/a/a$1;->a:[I
+    sget-object v0, Lcom/jakex/ymluxscoresf/camera/a/a$1;->a:[I
 
     invoke-virtual {p1}, Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;->ordinal()I
 
@@ -215,35 +215,35 @@
     goto :goto_0
 
     :cond_0
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;->getNose()Ljava/lang/Integer;
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;->getNose()Ljava/lang/Integer;
 
     move-result-object p1
 
     goto :goto_0
 
     :cond_1
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;->getChin()Ljava/lang/Integer;
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;->getChin()Ljava/lang/Integer;
 
     move-result-object p1
 
     goto :goto_0
 
     :cond_2
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;->getFaceLift()Ljava/lang/Integer;
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;->getFaceLift()Ljava/lang/Integer;
 
     move-result-object p1
 
     goto :goto_0
 
     :cond_3
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;->getBigEyes()Ljava/lang/Integer;
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;->getBigEyes()Ljava/lang/Integer;
 
     move-result-object p1
 
     goto :goto_0
 
     :cond_4
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;->getBeautySkin()Ljava/lang/Integer;
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;->getBeautySkin()Ljava/lang/Integer;
 
     move-result-object p1
 
@@ -254,7 +254,7 @@
 .method private a(Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;I)V
     .locals 3
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/a/a;->d:[Z
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/a/a;->d:[Z
 
     invoke-virtual {p1}, Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;->ordinal()I
 
@@ -264,7 +264,7 @@
 
     aput-boolean v2, v0, v1
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/a/a;->c:[I
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/a/a;->c:[I
 
     invoke-virtual {p1}, Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;->ordinal()I
 
@@ -300,11 +300,11 @@
 .method private g()Z
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/a/a;->b:Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/a/a;->b:Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
 
     if-eqz v0, :cond_0
 
-    invoke-static {v0}, Lcom/jakex/makeupeditor/material/thememakeup/b/d;->a(Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;)Z
+    invoke-static {v0}, Lcom/jakex/ymluxseditor/material/thememakeup/b/d;->a(Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;)Z
 
     move-result v0
 
@@ -326,7 +326,7 @@
 .method public a(IZ)V
     .locals 5
 
-    invoke-direct {p0}, Lcom/jakex/makeupselfie/camera/a/a;->g()Z
+    invoke-direct {p0}, Lcom/jakex/ymluxscoresf/camera/a/a;->g()Z
 
     move-result v0
 
@@ -334,15 +334,15 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/a/a;->a:Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/a/a;->a:Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;
 
-    iget-object v2, p0, Lcom/jakex/makeupselfie/camera/a/a;->b:Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+    iget-object v2, p0, Lcom/jakex/ymluxscoresf/camera/a/a;->b:Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
 
-    invoke-direct {p0, v0, v2}, Lcom/jakex/makeupselfie/camera/a/a;->a(Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;)Ljava/lang/Integer;
+    invoke-direct {p0, v0, v2}, Lcom/jakex/ymluxscoresf/camera/a/a;->a(Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;)Ljava/lang/Integer;
 
     move-result-object v0
 
-    invoke-direct {p0, v0}, Lcom/jakex/makeupselfie/camera/a/a;->a(Ljava/lang/Integer;)Z
+    invoke-direct {p0, v0}, Lcom/jakex/ymluxscoresf/camera/a/a;->a(Ljava/lang/Integer;)Z
 
     move-result v0
 
@@ -358,13 +358,13 @@
     :goto_0
     if-eqz v0, :cond_3
 
-    iget-object p2, p0, Lcom/jakex/makeupselfie/camera/a/a;->b:Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+    iget-object p2, p0, Lcom/jakex/ymluxscoresf/camera/a/a;->b:Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
 
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;->getMakeupId()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;->getMakeupId()Ljava/lang/String;
 
     move-result-object p2
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/a/a;->e:Ljava/util/HashMap;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/a/a;->e:Ljava/util/HashMap;
 
     invoke-virtual {v0, p2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -391,9 +391,9 @@
 
     aget-object v3, v3, v1
 
-    iget-object v4, p0, Lcom/jakex/makeupselfie/camera/a/a;->b:Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+    iget-object v4, p0, Lcom/jakex/ymluxscoresf/camera/a/a;->b:Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
 
-    invoke-direct {p0, v3, v4}, Lcom/jakex/makeupselfie/camera/a/a;->a(Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;)Ljava/lang/Integer;
+    invoke-direct {p0, v3, v4}, Lcom/jakex/ymluxscoresf/camera/a/a;->a(Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;)Ljava/lang/Integer;
 
     move-result-object v3
 
@@ -404,14 +404,14 @@
     goto :goto_1
 
     :cond_1
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/a/a;->e:Ljava/util/HashMap;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/a/a;->e:Ljava/util/HashMap;
 
     invoke-virtual {v0, p2, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-object v0, v2
 
     :cond_2
-    iget-object p2, p0, Lcom/jakex/makeupselfie/camera/a/a;->a:Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;
+    iget-object p2, p0, Lcom/jakex/ymluxscoresf/camera/a/a;->a:Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;
 
     invoke-virtual {p2}, Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;->ordinal()I
 
@@ -428,9 +428,9 @@
     :cond_3
     if-eqz p2, :cond_4
 
-    iget-object p2, p0, Lcom/jakex/makeupselfie/camera/a/a;->a:Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;
+    iget-object p2, p0, Lcom/jakex/ymluxscoresf/camera/a/a;->a:Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;
 
-    invoke-direct {p0, p2, p1}, Lcom/jakex/makeupselfie/camera/a/a;->a(Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;I)V
+    invoke-direct {p0, p2, p1}, Lcom/jakex/ymluxscoresf/camera/a/a;->a(Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;I)V
 
     :cond_4
     :goto_2
@@ -440,7 +440,7 @@
 .method public a(Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/camera/a/a;->a:Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/camera/a/a;->a:Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;
 
     return-void
 .end method
@@ -448,7 +448,7 @@
 .method public a()[I
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/a/a;->c:[I
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/a/a;->c:[I
 
     return-object v0
 .end method
@@ -456,7 +456,7 @@
 .method public b(Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;)I
     .locals 3
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/a/a;->c:[I
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/a/a;->c:[I
 
     invoke-virtual {p1}, Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;->ordinal()I
 
@@ -464,7 +464,7 @@
 
     aget v0, v0, v1
 
-    invoke-direct {p0}, Lcom/jakex/makeupselfie/camera/a/a;->g()Z
+    invoke-direct {p0}, Lcom/jakex/ymluxscoresf/camera/a/a;->g()Z
 
     move-result v1
 
@@ -473,11 +473,11 @@
     return v0
 
     :cond_0
-    iget-object v1, p0, Lcom/jakex/makeupselfie/camera/a/a;->e:Ljava/util/HashMap;
+    iget-object v1, p0, Lcom/jakex/ymluxscoresf/camera/a/a;->e:Ljava/util/HashMap;
 
-    iget-object v2, p0, Lcom/jakex/makeupselfie/camera/a/a;->b:Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+    iget-object v2, p0, Lcom/jakex/ymluxscoresf/camera/a/a;->b:Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
 
-    invoke-virtual {v2}, Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;->getMakeupId()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;->getMakeupId()Ljava/lang/String;
 
     move-result-object v2
 
@@ -495,7 +495,7 @@
 
     aget-object p1, v1, p1
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupselfie/camera/a/a;->a(Ljava/lang/Integer;)Z
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscoresf/camera/a/a;->a(Ljava/lang/Integer;)Z
 
     move-result v1
 
@@ -509,9 +509,9 @@
     return v0
 
     :cond_2
-    iget-object v1, p0, Lcom/jakex/makeupselfie/camera/a/a;->b:Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+    iget-object v1, p0, Lcom/jakex/ymluxscoresf/camera/a/a;->b:Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
 
-    invoke-direct {p0, p1, v1, v0}, Lcom/jakex/makeupselfie/camera/a/a;->a(Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;I)I
+    invoke-direct {p0, p1, v1, v0}, Lcom/jakex/ymluxscoresf/camera/a/a;->a(Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;I)I
 
     move-result p1
 
@@ -521,7 +521,7 @@
 .method public b()Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/a/a;->a:Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/a/a;->a:Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;
 
     return-object v0
 .end method
@@ -529,14 +529,14 @@
 .method public c()V
     .locals 4
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/a/a;->e:Ljava/util/HashMap;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/a/a;->e:Ljava/util/HashMap;
 
     invoke-virtual {v0}, Ljava/util/HashMap;->clear()V
 
     const/4 v0, 0x0
 
     :goto_0
-    iget-object v1, p0, Lcom/jakex/makeupselfie/camera/a/a;->d:[Z
+    iget-object v1, p0, Lcom/jakex/ymluxscoresf/camera/a/a;->d:[Z
 
     array-length v1, v1
 
@@ -552,13 +552,13 @@
 
     move-result v1
 
-    iget-object v2, p0, Lcom/jakex/makeupselfie/camera/a/a;->d:[Z
+    iget-object v2, p0, Lcom/jakex/ymluxscoresf/camera/a/a;->d:[Z
 
     const/4 v3, 0x1
 
     aput-boolean v3, v2, v0
 
-    iget-object v2, p0, Lcom/jakex/makeupselfie/camera/a/a;->c:[I
+    iget-object v2, p0, Lcom/jakex/ymluxscoresf/camera/a/a;->c:[I
 
     aput v1, v2, v0
 
@@ -578,7 +578,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    iget-object v2, p0, Lcom/jakex/makeupselfie/camera/a/a;->c:[I
+    iget-object v2, p0, Lcom/jakex/ymluxscoresf/camera/a/a;->c:[I
 
     array-length v3, v2
 
@@ -622,17 +622,17 @@
 .method public e()[I
     .locals 6
 
-    invoke-direct {p0}, Lcom/jakex/makeupselfie/camera/a/a;->g()Z
+    invoke-direct {p0}, Lcom/jakex/ymluxscoresf/camera/a/a;->g()Z
 
     move-result v0
 
     if-eqz v0, :cond_3
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/a/a;->e:Ljava/util/HashMap;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/a/a;->e:Ljava/util/HashMap;
 
-    iget-object v1, p0, Lcom/jakex/makeupselfie/camera/a/a;->b:Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+    iget-object v1, p0, Lcom/jakex/ymluxscoresf/camera/a/a;->b:Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
 
-    invoke-virtual {v1}, Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;->getMakeupId()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;->getMakeupId()Ljava/lang/String;
 
     move-result-object v1
 
@@ -663,13 +663,13 @@
 
     aget-object v3, v3, v1
 
-    iget-object v4, p0, Lcom/jakex/makeupselfie/camera/a/a;->b:Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+    iget-object v4, p0, Lcom/jakex/ymluxscoresf/camera/a/a;->b:Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
 
-    iget-object v5, p0, Lcom/jakex/makeupselfie/camera/a/a;->c:[I
+    iget-object v5, p0, Lcom/jakex/ymluxscoresf/camera/a/a;->c:[I
 
     aget v5, v5, v1
 
-    invoke-direct {p0, v3, v4, v5}, Lcom/jakex/makeupselfie/camera/a/a;->a(Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;I)I
+    invoke-direct {p0, v3, v4, v5}, Lcom/jakex/ymluxscoresf/camera/a/a;->a(Lcom/jakex/makeupcamera/component/CameraRealTimeMakeupManager$FaceLiftPart;Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;I)I
 
     move-result v3
 
@@ -693,7 +693,7 @@
 
     aget-object v4, v0, v1
 
-    invoke-direct {p0, v4}, Lcom/jakex/makeupselfie/camera/a/a;->a(Ljava/lang/Integer;)Z
+    invoke-direct {p0, v4}, Lcom/jakex/ymluxscoresf/camera/a/a;->a(Ljava/lang/Integer;)Z
 
     move-result v5
 
@@ -708,7 +708,7 @@
     goto :goto_2
 
     :cond_1
-    iget-object v4, p0, Lcom/jakex/makeupselfie/camera/a/a;->c:[I
+    iget-object v4, p0, Lcom/jakex/ymluxscoresf/camera/a/a;->c:[I
 
     aget v4, v4, v1
 
@@ -725,7 +725,7 @@
     goto :goto_3
 
     :cond_3
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/a/a;->c:[I
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/a/a;->c:[I
 
     invoke-virtual {v0}, [I->clone()Ljava/lang/Object;
 
@@ -743,7 +743,7 @@
 .method public f()[Z
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/a/a;->d:[Z
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/a/a;->d:[Z
 
     return-object v0
 .end method

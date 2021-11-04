@@ -1,4 +1,4 @@
-.class Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$2;
+.class Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$2;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -7,7 +7,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;
+    value = Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,14 +17,14 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;
+.field final synthetic a:Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;
 
 
 # direct methods
-.method constructor <init>(Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;)V
+.method constructor <init>(Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$2;->a:Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$2;->a:Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -38,7 +38,7 @@
 
     const-wide/16 v0, 0x12c
 
-    invoke-static {v0, v1}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->a(J)Z
+    invoke-static {v0, v1}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->a(J)Z
 
     move-result v0
 
@@ -55,9 +55,9 @@
 
     if-ne p1, v0, :cond_1
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$2;->a:Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$2;->a:Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;
 
-    invoke-static {p1}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->a(Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;)V
+    invoke-static {p1}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->a(Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;)V
 
     goto :goto_0
 
@@ -66,9 +66,9 @@
 
     if-ne p1, v0, :cond_2
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$2;->a:Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$2;->a:Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;
 
-    invoke-static {p1}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->b(Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;)V
+    invoke-static {p1}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->b(Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;)V
 
     :cond_2
     :goto_0

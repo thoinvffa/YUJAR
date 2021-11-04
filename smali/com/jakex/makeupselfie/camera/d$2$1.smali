@@ -1,10 +1,10 @@
-.class Lcom/jakex/makeupselfie/camera/d$2$1;
+.class Lcom/jakex/ymluxscoresf/camera/d$2$1;
 .super Landroid/animation/AnimatorListenerAdapter;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/jakex/makeupselfie/camera/d$2;->onLayoutChange(Landroid/view/View;IIIIIIII)V
+    value = Lcom/jakex/ymluxscoresf/camera/d$2;->onLayoutChange(Landroid/view/View;IIIIIIII)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -14,14 +14,14 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/jakex/makeupselfie/camera/d$2;
+.field final synthetic a:Lcom/jakex/ymluxscoresf/camera/d$2;
 
 
 # direct methods
-.method constructor <init>(Lcom/jakex/makeupselfie/camera/d$2;)V
+.method constructor <init>(Lcom/jakex/ymluxscoresf/camera/d$2;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/camera/d$2$1;->a:Lcom/jakex/makeupselfie/camera/d$2;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/camera/d$2$1;->a:Lcom/jakex/ymluxscoresf/camera/d$2;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
@@ -35,11 +35,11 @@
 
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationStart(Landroid/animation/Animator;)V
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/d$2$1;->a:Lcom/jakex/makeupselfie/camera/d$2;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/d$2$1;->a:Lcom/jakex/ymluxscoresf/camera/d$2;
 
-    iget-object p1, p1, Lcom/jakex/makeupselfie/camera/d$2;->a:Lcom/jakex/makeupselfie/camera/d;
+    iget-object p1, p1, Lcom/jakex/ymluxscoresf/camera/d$2;->a:Lcom/jakex/ymluxscoresf/camera/d;
 
-    invoke-static {p1}, Lcom/jakex/makeupselfie/camera/d;->c(Lcom/jakex/makeupselfie/camera/d;)Landroid/widget/ImageView;
+    invoke-static {p1}, Lcom/jakex/ymluxscoresf/camera/d;->c(Lcom/jakex/ymluxscoresf/camera/d;)Landroid/widget/ImageView;
 
     move-result-object p1
 

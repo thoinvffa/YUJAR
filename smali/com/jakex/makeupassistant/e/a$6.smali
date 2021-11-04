@@ -1,5 +1,5 @@
 .class Lcom/jakex/makeupassistant/e/a$6;
-.super Lcom/jakex/makeupcore/net/callback/a;
+.super Lcom/jakex/ymluxscore/net/callback/a;
 
 
 # annotations
@@ -14,7 +14,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupcore/net/callback/a<",
+        "Lcom/jakex/ymluxscore/net/callback/a<",
         "Lcom/jakex/makeupassistant/bean/result/AssistantAnalysisResult;",
         ">;"
     }
@@ -31,7 +31,7 @@
 
     iput-object p1, p0, Lcom/jakex/makeupassistant/e/a$6;->a:Lcom/jakex/makeupassistant/e/a;
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/net/callback/a;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/net/callback/a;-><init>()V
 
     return-void
 .end method
@@ -41,7 +41,7 @@
 .method public a(Lcom/jakex/makeupassistant/bean/result/AssistantAnalysisResult;)V
     .locals 1
 
-    invoke-super {p0, p1}, Lcom/jakex/makeupcore/net/callback/a;->a(Ljava/lang/Object;)V
+    invoke-super {p0, p1}, Lcom/jakex/ymluxscore/net/callback/a;->a(Ljava/lang/Object;)V
 
     iget-object v0, p0, Lcom/jakex/makeupassistant/e/a$6;->a:Lcom/jakex/makeupassistant/e/a;
 

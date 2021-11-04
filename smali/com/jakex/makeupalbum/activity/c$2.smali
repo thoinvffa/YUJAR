@@ -40,7 +40,7 @@
 .method public run()V
     .locals 2
 
-    new-instance v0, Lcom/jakex/makeupcore/dialog/c$a;
+    new-instance v0, Lcom/jakex/ymluxscore/dialog/c$a;
 
     iget-object v1, p0, Lcom/jakex/makeupalbum/activity/c$2;->b:Lcom/jakex/makeupalbum/activity/c;
 
@@ -48,41 +48,41 @@
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lcom/jakex/makeupcore/dialog/c$a;-><init>(Landroid/app/Activity;)V
+    invoke-direct {v0, v1}, Lcom/jakex/ymluxscore/dialog/c$a;-><init>(Landroid/app/Activity;)V
 
     sget v1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$layout;->album_select_bucket_guide_popup:I
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/dialog/c$a;->a(I)Lcom/jakex/makeupcore/dialog/c$a;
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/dialog/c$a;->a(I)Lcom/jakex/ymluxscore/dialog/c$a;
 
     move-result-object v0
 
     const/4 v1, 0x1
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/dialog/c$a;->a(Z)Lcom/jakex/makeupcore/dialog/c$a;
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/dialog/c$a;->a(Z)Lcom/jakex/ymluxscore/dialog/c$a;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/dialog/c$a;->b(I)Lcom/jakex/makeupcore/dialog/c$a;
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/dialog/c$a;->b(I)Lcom/jakex/ymluxscore/dialog/c$a;
 
     move-result-object v0
 
     const/4 v1, 0x3
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/dialog/c$a;->c(I)Lcom/jakex/makeupcore/dialog/c$a;
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/dialog/c$a;->c(I)Lcom/jakex/ymluxscore/dialog/c$a;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/dialog/c$a;->a()Lcom/jakex/makeupcore/dialog/c;
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/dialog/c$a;->a()Lcom/jakex/ymluxscore/dialog/c;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/jakex/makeupalbum/activity/c$2;->a:Landroid/view/View;
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/dialog/c;->showAsDropDown(Landroid/view/View;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/dialog/c;->showAsDropDown(Landroid/view/View;)V
 
-    invoke-static {}, Lcom/jakex/makeupcore/modular/a/a;->d()V
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/a/a;->d()V
 
     return-void
 .end method

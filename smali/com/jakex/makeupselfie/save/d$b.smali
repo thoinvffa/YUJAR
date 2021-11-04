@@ -1,10 +1,10 @@
-.class Lcom/jakex/makeupselfie/save/d$b;
-.super Lcom/jakex/makeupcore/b/d;
+.class Lcom/jakex/ymluxscoresf/save/d$b;
+.super Lcom/jakex/ymluxscore/b/d;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/jakex/makeupselfie/save/d;
+    value = Lcom/jakex/ymluxscoresf/save/d;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -14,7 +14,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupcore/b/d<",
+        "Lcom/jakex/ymluxscore/b/d<",
         "Lcom/jakex/makeupshare/platform/SharePlatform;",
         ">;"
     }
@@ -22,11 +22,11 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/jakex/makeupselfie/save/d;
+.field final synthetic a:Lcom/jakex/ymluxscoresf/save/d;
 
 
 # direct methods
-.method private constructor <init>(Lcom/jakex/makeupselfie/save/d;Ljava/util/List;)V
+.method private constructor <init>(Lcom/jakex/ymluxscoresf/save/d;Ljava/util/List;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -37,17 +37,17 @@
         }
     .end annotation
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/save/d$b;->a:Lcom/jakex/makeupselfie/save/d;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/save/d$b;->a:Lcom/jakex/ymluxscoresf/save/d;
 
-    invoke-direct {p0, p2}, Lcom/jakex/makeupcore/b/d;-><init>(Ljava/util/List;)V
+    invoke-direct {p0, p2}, Lcom/jakex/ymluxscore/b/d;-><init>(Ljava/util/List;)V
 
     return-void
 .end method
 
-.method synthetic constructor <init>(Lcom/jakex/makeupselfie/save/d;Ljava/util/List;Lcom/jakex/makeupselfie/save/d$1;)V
+.method synthetic constructor <init>(Lcom/jakex/ymluxscoresf/save/d;Ljava/util/List;Lcom/jakex/ymluxscoresf/save/d$1;)V
     .locals 0
 
-    invoke-direct {p0, p1, p2}, Lcom/jakex/makeupselfie/save/d$b;-><init>(Lcom/jakex/makeupselfie/save/d;Ljava/util/List;)V
+    invoke-direct {p0, p1, p2}, Lcom/jakex/ymluxscoresf/save/d$b;-><init>(Lcom/jakex/ymluxscoresf/save/d;Ljava/util/List;)V
 
     return-void
 .end method
@@ -62,7 +62,7 @@
     return p1
 .end method
 
-.method public a(Lcom/jakex/makeupcore/b/e;ILcom/jakex/makeupshare/platform/SharePlatform;)V
+.method public a(Lcom/jakex/ymluxscore/b/e;ILcom/jakex/makeupshare/platform/SharePlatform;)V
     .locals 0
 
     sget p2, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->share_icon_iv:I
@@ -71,17 +71,17 @@
 
     move-result p3
 
-    invoke-virtual {p1, p2, p3}, Lcom/jakex/makeupcore/b/e;->a(II)V
+    invoke-virtual {p1, p2, p3}, Lcom/jakex/ymluxscore/b/e;->a(II)V
 
     return-void
 .end method
 
-.method public bridge synthetic a(Lcom/jakex/makeupcore/b/e;ILjava/lang/Object;)V
+.method public bridge synthetic a(Lcom/jakex/ymluxscore/b/e;ILjava/lang/Object;)V
     .locals 0
 
     check-cast p3, Lcom/jakex/makeupshare/platform/SharePlatform;
 
-    invoke-virtual {p0, p1, p2, p3}, Lcom/jakex/makeupselfie/save/d$b;->a(Lcom/jakex/makeupcore/b/e;ILcom/jakex/makeupshare/platform/SharePlatform;)V
+    invoke-virtual {p0, p1, p2, p3}, Lcom/jakex/ymluxscoresf/save/d$b;->a(Lcom/jakex/ymluxscore/b/e;ILcom/jakex/makeupshare/platform/SharePlatform;)V
 
     return-void
 .end method

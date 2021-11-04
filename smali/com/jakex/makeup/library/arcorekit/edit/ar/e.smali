@@ -13,7 +13,7 @@
 # instance fields
 .field private a:Lcom/jakex/makeup/library/arcorekit/d;
 
-.field private b:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+.field private b:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
 .field private c:Ljava/util/HashMap;
     .annotation system Ldalvik/annotation/Signature;
@@ -52,7 +52,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;Lcom/jakex/makeup/library/arcorekit/d;Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/c/a;)V
+.method public constructor <init>(Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;Lcom/jakex/makeup/library/arcorekit/d;Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/c/a;)V
     .locals 3
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -85,7 +85,7 @@
 
     iput-object v0, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/e;->f:Ljava/util/concurrent/CopyOnWriteArrayList;
 
-    iput-object p1, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/e;->b:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iput-object p1, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/e;->b:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
     iput-object p2, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/e;->a:Lcom/jakex/makeup/library/arcorekit/d;
 
@@ -120,10 +120,10 @@
     return-void
 .end method
 
-.method static synthetic a(Lcom/jakex/makeup/library/arcorekit/edit/ar/e;)Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+.method static synthetic a(Lcom/jakex/makeup/library/arcorekit/edit/ar/e;)Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
     .locals 0
 
-    iget-object p0, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/e;->b:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object p0, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/e;->b:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
     return-object p0
 .end method
@@ -221,7 +221,7 @@
     return-void
 
     :cond_0
-    invoke-virtual {p1}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/a;->d()Lcom/jakex/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
+    invoke-virtual {p1}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/a;->d()Lcom/jakex/ymlux/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;
 
     move-result-object v0
 
@@ -240,7 +240,7 @@
 
     move-result p1
 
-    invoke-virtual {v0, p1}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;->setLayer(I)V
+    invoke-virtual {v0, p1}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;->setLayer(I)V
 
     return-void
 .end method
@@ -276,9 +276,9 @@
 .method private b(Ljava/lang/Runnable;)V
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/e;->b:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object v0, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/e;->b:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
-    invoke-virtual {v0}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->unloadPart()Z
+    invoke-virtual {v0}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->unloadPart()Z
 
     invoke-interface {p1}, Ljava/lang/Runnable;->run()V
 
@@ -286,9 +286,9 @@
 
     invoke-direct {p0}, Lcom/jakex/makeup/library/arcorekit/edit/ar/e;->e()V
 
-    iget-object p1, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/e;->b:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object p1, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/e;->b:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
-    invoke-virtual {p1}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->reloadPartControl()Z
+    invoke-virtual {p1}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->reloadPartControl()Z
 
     invoke-direct {p0}, Lcom/jakex/makeup/library/arcorekit/edit/ar/e;->f()V
 
@@ -500,26 +500,26 @@
     goto :goto_2
 
     :cond_0
-    iget-object v5, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/e;->b:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object v5, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/e;->b:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
     const/16 v7, 0x16
 
     goto :goto_1
 
     :cond_1
-    iget-object v5, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/e;->b:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object v5, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/e;->b:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
     const/16 v7, 0x15
 
     goto :goto_1
 
     :cond_2
-    iget-object v5, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/e;->b:Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;
+    iget-object v5, p0, Lcom/jakex/makeup/library/arcorekit/edit/ar/e;->b:Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;
 
     const/16 v7, 0x14
 
     :goto_1
-    invoke-virtual {v5, v7}, Lcom/jakex/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;->needDataRequireType(I)Z
+    invoke-virtual {v5, v7}, Lcom/jakex/ymlux/arkernelinterface/core/ARKernelInterfaceJNI;->needDataRequireType(I)Z
 
     move-result v5
 

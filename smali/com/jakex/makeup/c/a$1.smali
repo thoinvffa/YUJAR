@@ -44,11 +44,11 @@
 
     if-ge v0, v2, :cond_0
 
-    invoke-static {v1}, Lcom/jakex/makeupcore/j/b;->a(Z)V
+    invoke-static {v1}, Lcom/jakex/ymluxscore/j/b;->a(Z)V
 
     const-string v0, ""
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/j/b;->e(Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/jakex/ymluxscore/j/b;->e(Ljava/lang/String;)V
 
     :cond_0
     iget v0, p0, Lcom/jakex/makeup/c/a$1;->a:I
@@ -77,9 +77,9 @@
 
     if-ge v0, v2, :cond_3
 
-    invoke-static {}, Lcom/jakex/makeupeditor/a/a/d$a;->a()V
+    invoke-static {}, Lcom/jakex/ymluxseditor/a/a/d$a;->a()V
 
-    invoke-static {}, Lcom/jakex/makeupeditor/a/a/f$a;->a()V
+    invoke-static {}, Lcom/jakex/ymluxseditor/a/a/f$a;->a()V
 
     :cond_3
     iget v0, p0, Lcom/jakex/makeup/c/a$1;->a:I
@@ -88,7 +88,7 @@
 
     if-ge v0, v2, :cond_4
 
-    invoke-static {v1}, Lcom/jakex/makeupeditor/material/local/part/a;->a(Z)V
+    invoke-static {v1}, Lcom/jakex/ymluxseditor/material/local/part/a;->a(Z)V
 
     :cond_4
     iget v0, p0, Lcom/jakex/makeup/c/a$1;->a:I
@@ -110,11 +110,11 @@
 
     if-ge v0, v2, :cond_6
 
-    invoke-static {}, Lcom/jakex/makeupeditor/a/a/d$a;->b()V
+    invoke-static {}, Lcom/jakex/ymluxseditor/a/a/d$a;->b()V
 
-    invoke-static {}, Lcom/jakex/makeupeditor/a/a/f$a;->b()V
+    invoke-static {}, Lcom/jakex/ymluxseditor/a/a/f$a;->b()V
 
-    invoke-static {v1}, Lcom/jakex/makeupeditor/material/thememakeup/c/f;->a(Z)V
+    invoke-static {v1}, Lcom/jakex/ymluxseditor/material/thememakeup/c/f;->a(Z)V
 
     :cond_6
     iget v0, p0, Lcom/jakex/makeup/c/a$1;->a:I
@@ -123,7 +123,7 @@
 
     if-ge v0, v2, :cond_7
 
-    invoke-static {v1}, Lcom/jakex/makeupcore/util/b;->a(Z)V
+    invoke-static {v1}, Lcom/jakex/ymluxscore/util/b;->a(Z)V
 
     :cond_7
     return-void

@@ -52,13 +52,13 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/jakex/makeupcore/modular/a/a;->g()Ljava/lang/String;
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/a/a;->g()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/n;->d()Ljava/lang/String;
+    invoke-static {}, Lcom/jakex/ymluxscore/util/n;->d()Ljava/lang/String;
 
     move-result-object v1
 
@@ -96,13 +96,13 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/jakex/makeupcore/util/ae;->b(Ljava/lang/String;Landroid/content/Context;)Landroid/net/Uri;
+    invoke-static {v0, v2}, Lcom/jakex/ymluxscore/util/ae;->b(Ljava/lang/String;Landroid/content/Context;)Landroid/net/Uri;
 
     invoke-static {}, Lcom/jakex/library/application/BaseApplication;->a()Landroid/app/Application;
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/jakex/makeupcore/util/ae;->a(Ljava/lang/String;Landroid/content/Context;)V
+    invoke-static {v0, v2}, Lcom/jakex/ymluxscore/util/ae;->a(Ljava/lang/String;Landroid/content/Context;)V
 
     :cond_0
     invoke-static {v1}, Lcom/jakex/library/util/bitmap/a;->b(Landroid/graphics/Bitmap;)V

@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeupalbum/activity/d;
-.super Lcom/jakex/makeupcore/l/a;
+.super Lcom/jakex/ymluxscore/l/a;
 
 # interfaces
 .implements Lcom/jakex/makeupalbum/activity/b$a;
@@ -15,7 +15,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupcore/l/a<",
+        "Lcom/jakex/ymluxscore/l/a<",
         "Lcom/jakex/makeupalbum/activity/b$b;",
         ">;",
         "Lcom/jakex/makeupalbum/activity/b$a;"
@@ -27,7 +27,7 @@
 .method public constructor <init>(Lcom/jakex/makeupalbum/activity/b$b;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupcore/l/a;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscore/l/a;-><init>(Ljava/lang/Object;)V
 
     return-void
 .end method
@@ -51,7 +51,7 @@
 
     invoke-direct/range {v0 .. v5}, Lcom/jakex/makeupalbum/activity/d$b;-><init>(Lcom/jakex/makeupalbum/activity/d;Lcom/jakex/makeupalbum/c/a;ZZZ)V
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/i;->a()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/jakex/ymluxscore/util/i;->a()Ljava/util/concurrent/Executor;
 
     move-result-object p1
 

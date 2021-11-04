@@ -1,4 +1,4 @@
-.class Lcom/jakex/makeupselfie/camera/d$2;
+.class Lcom/jakex/ymluxscoresf/camera/d$2;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -7,7 +7,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/jakex/makeupselfie/camera/d;->p()V
+    value = Lcom/jakex/ymluxscoresf/camera/d;->p()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,14 +17,14 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/jakex/makeupselfie/camera/d;
+.field final synthetic a:Lcom/jakex/ymluxscoresf/camera/d;
 
 
 # direct methods
-.method constructor <init>(Lcom/jakex/makeupselfie/camera/d;)V
+.method constructor <init>(Lcom/jakex/ymluxscoresf/camera/d;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/camera/d$2;->a:Lcom/jakex/makeupselfie/camera/d;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/camera/d$2;->a:Lcom/jakex/ymluxscoresf/camera/d;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -50,9 +50,9 @@
 
     new-array p4, p1, [F
 
-    iget-object p5, p0, Lcom/jakex/makeupselfie/camera/d$2;->a:Lcom/jakex/makeupselfie/camera/d;
+    iget-object p5, p0, Lcom/jakex/ymluxscoresf/camera/d$2;->a:Lcom/jakex/ymluxscoresf/camera/d;
 
-    invoke-static {p5}, Lcom/jakex/makeupselfie/camera/d;->c(Lcom/jakex/makeupselfie/camera/d;)Landroid/widget/ImageView;
+    invoke-static {p5}, Lcom/jakex/ymluxscoresf/camera/d;->c(Lcom/jakex/ymluxscoresf/camera/d;)Landroid/widget/ImageView;
 
     move-result-object p5
 
@@ -78,9 +78,9 @@
 
     move-result-object p4
 
-    iget-object p9, p0, Lcom/jakex/makeupselfie/camera/d$2;->a:Lcom/jakex/makeupselfie/camera/d;
+    iget-object p9, p0, Lcom/jakex/ymluxscoresf/camera/d$2;->a:Lcom/jakex/ymluxscoresf/camera/d;
 
-    invoke-static {p9}, Lcom/jakex/makeupselfie/camera/d;->c(Lcom/jakex/makeupselfie/camera/d;)Landroid/widget/ImageView;
+    invoke-static {p9}, Lcom/jakex/ymluxscoresf/camera/d;->c(Lcom/jakex/ymluxscoresf/camera/d;)Landroid/widget/ImageView;
 
     move-result-object v0
 
@@ -94,11 +94,11 @@
 
     move-result-object p2
 
-    invoke-static {p9, p2}, Lcom/jakex/makeupselfie/camera/d;->a(Lcom/jakex/makeupselfie/camera/d;Landroid/animation/Animator;)Landroid/animation/Animator;
+    invoke-static {p9, p2}, Lcom/jakex/ymluxscoresf/camera/d;->a(Lcom/jakex/ymluxscoresf/camera/d;Landroid/animation/Animator;)Landroid/animation/Animator;
 
-    iget-object p2, p0, Lcom/jakex/makeupselfie/camera/d$2;->a:Lcom/jakex/makeupselfie/camera/d;
+    iget-object p2, p0, Lcom/jakex/ymluxscoresf/camera/d$2;->a:Lcom/jakex/ymluxscoresf/camera/d;
 
-    invoke-static {p2}, Lcom/jakex/makeupselfie/camera/d;->d(Lcom/jakex/makeupselfie/camera/d;)Landroid/animation/Animator;
+    invoke-static {p2}, Lcom/jakex/ymluxscoresf/camera/d;->d(Lcom/jakex/ymluxscoresf/camera/d;)Landroid/animation/Animator;
 
     move-result-object p2
 
@@ -106,9 +106,9 @@
 
     invoke-virtual {p2, v0, v1}, Landroid/animation/Animator;->setDuration(J)Landroid/animation/Animator;
 
-    iget-object p2, p0, Lcom/jakex/makeupselfie/camera/d$2;->a:Lcom/jakex/makeupselfie/camera/d;
+    iget-object p2, p0, Lcom/jakex/ymluxscoresf/camera/d$2;->a:Lcom/jakex/ymluxscoresf/camera/d;
 
-    invoke-static {p2}, Lcom/jakex/makeupselfie/camera/d;->d(Lcom/jakex/makeupselfie/camera/d;)Landroid/animation/Animator;
+    invoke-static {p2}, Lcom/jakex/ymluxscoresf/camera/d;->d(Lcom/jakex/ymluxscoresf/camera/d;)Landroid/animation/Animator;
 
     move-result-object p2
 
@@ -118,15 +118,15 @@
 
     invoke-virtual {p2, p4}, Landroid/animation/Animator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
-    iget-object p2, p0, Lcom/jakex/makeupselfie/camera/d$2;->a:Lcom/jakex/makeupselfie/camera/d;
+    iget-object p2, p0, Lcom/jakex/ymluxscoresf/camera/d$2;->a:Lcom/jakex/ymluxscoresf/camera/d;
 
-    invoke-static {p2}, Lcom/jakex/makeupselfie/camera/d;->d(Lcom/jakex/makeupselfie/camera/d;)Landroid/animation/Animator;
+    invoke-static {p2}, Lcom/jakex/ymluxscoresf/camera/d;->d(Lcom/jakex/ymluxscoresf/camera/d;)Landroid/animation/Animator;
 
     move-result-object p2
 
-    new-instance p4, Lcom/jakex/makeupselfie/camera/d$2$1;
+    new-instance p4, Lcom/jakex/ymluxscoresf/camera/d$2$1;
 
-    invoke-direct {p4, p0}, Lcom/jakex/makeupselfie/camera/d$2$1;-><init>(Lcom/jakex/makeupselfie/camera/d$2;)V
+    invoke-direct {p4, p0}, Lcom/jakex/ymluxscoresf/camera/d$2$1;-><init>(Lcom/jakex/ymluxscoresf/camera/d$2;)V
 
     invoke-virtual {p2, p4}, Landroid/animation/Animator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
@@ -142,9 +142,9 @@
 
     aput p7, p3, p6
 
-    iget-object p4, p0, Lcom/jakex/makeupselfie/camera/d$2;->a:Lcom/jakex/makeupselfie/camera/d;
+    iget-object p4, p0, Lcom/jakex/ymluxscoresf/camera/d$2;->a:Lcom/jakex/ymluxscoresf/camera/d;
 
-    invoke-static {p4}, Lcom/jakex/makeupselfie/camera/d;->c(Lcom/jakex/makeupselfie/camera/d;)Landroid/widget/ImageView;
+    invoke-static {p4}, Lcom/jakex/ymluxscoresf/camera/d;->c(Lcom/jakex/ymluxscoresf/camera/d;)Landroid/widget/ImageView;
 
     move-result-object p4
 
@@ -160,9 +160,9 @@
 
     move-result-object p3
 
-    iget-object p4, p0, Lcom/jakex/makeupselfie/camera/d$2;->a:Lcom/jakex/makeupselfie/camera/d;
+    iget-object p4, p0, Lcom/jakex/ymluxscoresf/camera/d$2;->a:Lcom/jakex/ymluxscoresf/camera/d;
 
-    invoke-static {p4}, Lcom/jakex/makeupselfie/camera/d;->c(Lcom/jakex/makeupselfie/camera/d;)Landroid/widget/ImageView;
+    invoke-static {p4}, Lcom/jakex/ymluxscoresf/camera/d;->c(Lcom/jakex/ymluxscoresf/camera/d;)Landroid/widget/ImageView;
 
     move-result-object p7
 
@@ -176,19 +176,19 @@
 
     move-result-object p1
 
-    invoke-static {p4, p1}, Lcom/jakex/makeupselfie/camera/d;->b(Lcom/jakex/makeupselfie/camera/d;Landroid/animation/Animator;)Landroid/animation/Animator;
+    invoke-static {p4, p1}, Lcom/jakex/ymluxscoresf/camera/d;->b(Lcom/jakex/ymluxscoresf/camera/d;Landroid/animation/Animator;)Landroid/animation/Animator;
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/d$2;->a:Lcom/jakex/makeupselfie/camera/d;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/d$2;->a:Lcom/jakex/ymluxscoresf/camera/d;
 
-    invoke-static {p1}, Lcom/jakex/makeupselfie/camera/d;->e(Lcom/jakex/makeupselfie/camera/d;)Landroid/animation/Animator;
+    invoke-static {p1}, Lcom/jakex/ymluxscoresf/camera/d;->e(Lcom/jakex/ymluxscoresf/camera/d;)Landroid/animation/Animator;
 
     move-result-object p1
 
     invoke-virtual {p1, v0, v1}, Landroid/animation/Animator;->setDuration(J)Landroid/animation/Animator;
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/d$2;->a:Lcom/jakex/makeupselfie/camera/d;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/d$2;->a:Lcom/jakex/ymluxscoresf/camera/d;
 
-    invoke-static {p1}, Lcom/jakex/makeupselfie/camera/d;->e(Lcom/jakex/makeupselfie/camera/d;)Landroid/animation/Animator;
+    invoke-static {p1}, Lcom/jakex/ymluxscoresf/camera/d;->e(Lcom/jakex/ymluxscoresf/camera/d;)Landroid/animation/Animator;
 
     move-result-object p1
 
@@ -198,15 +198,15 @@
 
     invoke-virtual {p1, p2}, Landroid/animation/Animator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/d$2;->a:Lcom/jakex/makeupselfie/camera/d;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/d$2;->a:Lcom/jakex/ymluxscoresf/camera/d;
 
-    invoke-static {p1}, Lcom/jakex/makeupselfie/camera/d;->e(Lcom/jakex/makeupselfie/camera/d;)Landroid/animation/Animator;
+    invoke-static {p1}, Lcom/jakex/ymluxscoresf/camera/d;->e(Lcom/jakex/ymluxscoresf/camera/d;)Landroid/animation/Animator;
 
     move-result-object p1
 
-    new-instance p2, Lcom/jakex/makeupselfie/camera/d$2$2;
+    new-instance p2, Lcom/jakex/ymluxscoresf/camera/d$2$2;
 
-    invoke-direct {p2, p0}, Lcom/jakex/makeupselfie/camera/d$2$2;-><init>(Lcom/jakex/makeupselfie/camera/d$2;)V
+    invoke-direct {p2, p0}, Lcom/jakex/ymluxscoresf/camera/d$2$2;-><init>(Lcom/jakex/ymluxscoresf/camera/d$2;)V
 
     invoke-virtual {p1, p2}, Landroid/animation/Animator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 

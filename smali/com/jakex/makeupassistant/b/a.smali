@@ -1,24 +1,24 @@
 .class public Lcom/jakex/makeupassistant/b/a;
-.super Lcom/jakex/makeupcore/net/g;
+.super Lcom/jakex/ymluxscore/net/g;
 
 
 # direct methods
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/net/g;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/net/g;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public a(Lcom/jakex/makeupcore/net/callback/a;)V
+.method public a(Lcom/jakex/ymluxscore/net/callback/a;)V
     .locals 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/jakex/makeupcore/net/callback/a<",
+            "Lcom/jakex/ymluxscore/net/callback/a<",
             "Lcom/jakex/makeupassistant/bean/result/AssistantAnalysisResult;",
             ">;)V"
         }
@@ -50,11 +50,11 @@
 
     move-result-object v1
 
-    invoke-static {}, Lcom/jakex/makeupcore/e/Aa;->b()Lcom/jakex/makeupcore/e/Aa$BB;
+    invoke-static {}, Lcom/jakex/ymluxscore/e/Aa;->b()Lcom/jakex/ymluxscore/e/Aa$BB;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/jakex/makeupcore/e/Aa$BB;->g()Z
+    invoke-virtual {v2}, Lcom/jakex/ymluxscore/e/Aa$BB;->g()Z
 
     move-result v2
 
@@ -80,7 +80,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/jakex/makeupcore/util/aw;->b(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/jakex/ymluxscore/util/aw;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -135,12 +135,12 @@
     return-void
 .end method
 
-.method public b(Lcom/jakex/makeupcore/net/callback/a;)V
+.method public b(Lcom/jakex/ymluxscore/net/callback/a;)V
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/jakex/makeupcore/net/callback/a<",
+            "Lcom/jakex/ymluxscore/net/callback/a<",
             "Lcom/jakex/makeupassistant/bean/result/AssistantAnalysisResult;",
             ">;)V"
         }

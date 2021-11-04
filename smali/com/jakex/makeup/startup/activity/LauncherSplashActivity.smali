@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeup/startup/activity/LauncherSplashActivity;
-.super Lcom/jakex/makeupcore/activity/MTBaseActivity;
+.super Lcom/jakex/ymluxscore/activity/MTBaseActivity;
 
 
 # annotations
@@ -26,7 +26,7 @@
 .method public constructor <init>()V
     .locals 2
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;-><init>()V
 
     new-instance v0, Lcom/jakex/makeup/startup/activity/LauncherSplashActivity$a;
 
@@ -54,7 +54,7 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 1
 
-    invoke-super {p0, p1}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onCreate(Landroid/os/Bundle;)V
 
     invoke-virtual {p0}, Lcom/jakex/makeup/startup/activity/LauncherSplashActivity;->getApplicationContext()Landroid/content/Context;
 
@@ -100,7 +100,7 @@
 .method protected onDestroy()V
     .locals 2
 
-    invoke-super {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onDestroy()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onDestroy()V
 
     invoke-static {}, Lorg/greenrobot/eventbus/EventBus;->getDefault()Lorg/greenrobot/eventbus/EventBus;
 
@@ -122,7 +122,7 @@
 .method protected onResume()V
     .locals 4
 
-    invoke-super {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onResume()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onResume()V
 
     iget-boolean v0, p0, Lcom/jakex/makeup/startup/activity/LauncherSplashActivity;->b:Z
 
@@ -143,7 +143,7 @@
     :cond_0
     invoke-static {p0}, Lcom/jakex/makeup/startup/activity/MakeupStartupActivity;->a(Landroid/app/Activity;)V
 
-    invoke-static {p0}, Lcom/jakex/makeupcore/util/a;->d(Landroid/app/Activity;)V
+    invoke-static {p0}, Lcom/jakex/ymluxscore/util/a;->d(Landroid/app/Activity;)V
 
     return-void
 .end method

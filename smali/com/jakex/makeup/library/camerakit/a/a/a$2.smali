@@ -33,7 +33,7 @@
 
 
 # virtual methods
-.method public a(Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFace;)Z
+.method public a(Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFace;)Z
     .locals 7
 
     const/4 v0, 0x0
@@ -45,23 +45,23 @@
     const/4 v3, 0x0
 
     :goto_0
-    iget-object v4, p1, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFace;
+    iget-object v4, p1, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFace;
 
     array-length v4, v4
 
     if-ge v1, v4, :cond_1
 
-    iget-object v4, p1, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFace;
+    iget-object v4, p1, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFace;
 
     aget-object v4, v4, v1
 
-    iget-object v5, v4, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFace;->faceBounds:Landroid/graphics/RectF;
+    iget-object v5, v4, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFace;->faceBounds:Landroid/graphics/RectF;
 
     invoke-virtual {v5}, Landroid/graphics/RectF;->width()F
 
     move-result v5
 
-    iget-object v6, v2, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFace;->faceBounds:Landroid/graphics/RectF;
+    iget-object v6, v2, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFace;->faceBounds:Landroid/graphics/RectF;
 
     invoke-virtual {v6}, Landroid/graphics/RectF;->width()F
 
@@ -88,9 +88,9 @@
     return p1
 
     :cond_2
-    iget-object p2, p2, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFace;->race:Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/attribute/MTRace;
+    iget-object p2, p2, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFace;->race:Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/attribute/MTRace;
 
-    iget p2, p2, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/attribute/MTRace;->top:I
+    iget p2, p2, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/attribute/MTRace;->top:I
 
     const/4 v1, 0x2
 

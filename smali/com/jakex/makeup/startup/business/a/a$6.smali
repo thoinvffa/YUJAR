@@ -21,7 +21,7 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    invoke-static {}, Lcom/jakex/makeupcore/bean/ThemeMakeupCategory$Type;->values()[Lcom/jakex/makeupcore/bean/ThemeMakeupCategory$Type;
+    invoke-static {}, Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory$Type;->values()[Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory$Type;
 
     move-result-object v0
 
@@ -32,9 +32,9 @@
     sput-object v0, Lcom/jakex/makeup/startup/business/a/a$6;->a:[I
 
     :try_start_0
-    sget-object v1, Lcom/jakex/makeupcore/bean/ThemeMakeupCategory$Type;->AR:Lcom/jakex/makeupcore/bean/ThemeMakeupCategory$Type;
+    sget-object v1, Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory$Type;->AR:Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory$Type;
 
-    invoke-virtual {v1}, Lcom/jakex/makeupcore/bean/ThemeMakeupCategory$Type;->ordinal()I
+    invoke-virtual {v1}, Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory$Type;->ordinal()I
 
     move-result v1
 
@@ -53,9 +53,9 @@
     :try_start_1
     sget-object v0, Lcom/jakex/makeup/startup/business/a/a$6;->a:[I
 
-    sget-object v1, Lcom/jakex/makeupcore/bean/ThemeMakeupCategory$Type;->INFLUENCER:Lcom/jakex/makeupcore/bean/ThemeMakeupCategory$Type;
+    sget-object v1, Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory$Type;->INFLUENCER:Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory$Type;
 
-    invoke-virtual {v1}, Lcom/jakex/makeupcore/bean/ThemeMakeupCategory$Type;->ordinal()I
+    invoke-virtual {v1}, Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory$Type;->ordinal()I
 
     move-result v1
 

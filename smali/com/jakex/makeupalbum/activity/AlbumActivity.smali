@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeupalbum/activity/AlbumActivity;
-.super Lcom/jakex/makeupcore/activity/MTBaseActivity;
+.super Lcom/jakex/ymluxscore/activity/MTBaseActivity;
 
 # interfaces
 .implements Lcom/jakex/makeupalbum/b/a;
@@ -19,13 +19,13 @@
 
 
 # instance fields
-.field protected a:Lcom/jakex/makeupcore/modular/extra/AlbumExtra;
+.field protected a:Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;
 
 .field private b:Lmakeup/image/request/h;
 
 .field private c:Lcom/jakex/makeupalbum/activity/c;
 
-.field private d:Lcom/jakex/makeupcore/dialog/e;
+.field private d:Lcom/jakex/ymluxscore/dialog/e;
 
 .field private h:Z
 
@@ -38,7 +38,7 @@
 .method public constructor <init>()V
     .locals 2
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;-><init>()V
 
     const/4 v0, 0x0
 
@@ -55,12 +55,12 @@
     return-void
 .end method
 
-.method public static a(Landroid/app/Activity;Lcom/jakex/makeupcore/modular/extra/AlbumExtra;)Landroid/content/Intent;
+.method public static a(Landroid/app/Activity;Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;)Landroid/content/Intent;
     .locals 1
 
     const/high16 v0, 0x24000000
 
-    invoke-static {p0, p1, v0}, Lcom/jakex/makeupalbum/activity/AlbumActivity;->b(Landroid/app/Activity;Lcom/jakex/makeupcore/modular/extra/AlbumExtra;I)Landroid/content/Intent;
+    invoke-static {p0, p1, v0}, Lcom/jakex/makeupalbum/activity/AlbumActivity;->b(Landroid/app/Activity;Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;I)Landroid/content/Intent;
 
     move-result-object p0
 
@@ -70,21 +70,21 @@
 .method public static a(Landroid/app/Activity;)V
     .locals 2
 
-    new-instance v0, Lcom/jakex/makeupcore/modular/extra/AlbumExtra;
+    new-instance v0, Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;
 
-    invoke-direct {v0}, Lcom/jakex/makeupcore/modular/extra/AlbumExtra;-><init>()V
+    invoke-direct {v0}, Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;-><init>()V
 
     const/4 v1, -0x1
 
-    invoke-static {p0, v0, v1}, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a(Landroid/app/Activity;Lcom/jakex/makeupcore/modular/extra/AlbumExtra;I)V
+    invoke-static {p0, v0, v1}, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a(Landroid/app/Activity;Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;I)V
 
     return-void
 .end method
 
-.method public static a(Landroid/app/Activity;Lcom/jakex/makeupcore/modular/extra/AlbumExtra;I)V
+.method public static a(Landroid/app/Activity;Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;I)V
     .locals 0
 
-    invoke-static {p0, p1}, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a(Landroid/app/Activity;Lcom/jakex/makeupcore/modular/extra/AlbumExtra;)Landroid/content/Intent;
+    invoke-static {p0, p1}, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a(Landroid/app/Activity;Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;)Landroid/content/Intent;
 
     move-result-object p1
 
@@ -93,10 +93,10 @@
     return-void
 .end method
 
-.method public static a(Landroid/app/Activity;Lcom/jakex/makeupcore/modular/extra/AlbumExtra;II)V
+.method public static a(Landroid/app/Activity;Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;II)V
     .locals 0
 
-    invoke-static {p0, p1, p3}, Lcom/jakex/makeupalbum/activity/AlbumActivity;->b(Landroid/app/Activity;Lcom/jakex/makeupcore/modular/extra/AlbumExtra;I)Landroid/content/Intent;
+    invoke-static {p0, p1, p3}, Lcom/jakex/makeupalbum/activity/AlbumActivity;->b(Landroid/app/Activity;Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;I)Landroid/content/Intent;
 
     move-result-object p1
 
@@ -108,19 +108,19 @@
 .method private a(Landroid/graphics/Bitmap;Z)V
     .locals 1
 
-    invoke-static {}, Lcom/jakex/makeupcore/modular/a/b;->b()V
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/a/b;->b()V
 
-    invoke-static {}, Lcom/jakex/makeupcore/modular/a/b;->a()Lcom/jakex/makeupcore/modular/a/b;
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/a/b;->a()Lcom/jakex/ymluxscore/modular/a/b;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lcom/jakex/makeupcore/modular/a/b;->a(Landroid/graphics/Bitmap;)V
+    invoke-virtual {v0, p1}, Lcom/jakex/ymluxscore/modular/a/b;->a(Landroid/graphics/Bitmap;)V
 
-    iget-object p1, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a:Lcom/jakex/makeupcore/modular/extra/AlbumExtra;
+    iget-object p1, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a:Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;
 
-    iget-boolean p1, p1, Lcom/jakex/makeupcore/modular/extra/AlbumExtra;->mIsCameraFrontOpen:Z
+    iget-boolean p1, p1, Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;->mIsCameraFrontOpen:Z
 
-    invoke-virtual {v0, p1}, Lcom/jakex/makeupcore/modular/a/b;->a(Z)V
+    invoke-virtual {v0, p1}, Lcom/jakex/ymluxscore/modular/a/b;->a(Z)V
 
     invoke-direct {p0, p2}, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a(Z)V
 
@@ -150,11 +150,11 @@
 
     iput-boolean v0, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->h:Z
 
-    iget-object v1, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a:Lcom/jakex/makeupcore/modular/extra/AlbumExtra;
+    iget-object v1, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a:Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;
 
-    iget-object v1, v1, Lcom/jakex/makeupcore/modular/extra/AlbumExtra;->mFromOtherAppExtra:Lcom/jakex/makeupcore/modular/extra/FromOtherAppExtra;
+    iget-object v1, v1, Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;->mFromOtherAppExtra:Lcom/jakex/ymluxscore/modular/extra/FromOtherAppExtra;
 
-    iget-boolean v1, v1, Lcom/jakex/makeupcore/modular/extra/FromOtherAppExtra;->mFromOtherAppNeedResult:Z
+    iget-boolean v1, v1, Lcom/jakex/ymluxscore/modular/extra/FromOtherAppExtra;->mFromOtherAppNeedResult:Z
 
     if-eqz v1, :cond_0
 
@@ -166,28 +166,28 @@
     const/4 v1, -0x1
 
     :goto_0
-    iget-object v2, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a:Lcom/jakex/makeupcore/modular/extra/AlbumExtra;
+    iget-object v2, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a:Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;
 
-    iget-object v2, v2, Lcom/jakex/makeupcore/modular/extra/AlbumExtra;->mBeautyMakeupExtra:Lcom/jakex/makeupcore/modular/extra/BeautyMakeupExtra;
+    iget-object v2, v2, Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;->mBeautyMakeupExtra:Lcom/jakex/ymluxscore/modular/extra/BeautyMakeupExtra;
 
-    iput-boolean p1, v2, Lcom/jakex/makeupcore/modular/extra/BeautyMakeupExtra;->mIsModel:Z
+    iput-boolean p1, v2, Lcom/jakex/ymluxscore/modular/extra/BeautyMakeupExtra;->mIsModel:Z
 
-    iget-object p1, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a:Lcom/jakex/makeupcore/modular/extra/AlbumExtra;
+    iget-object p1, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a:Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;
 
-    iget-object p1, p1, Lcom/jakex/makeupcore/modular/extra/AlbumExtra;->mBeautyMakeupExtra:Lcom/jakex/makeupcore/modular/extra/BeautyMakeupExtra;
+    iget-object p1, p1, Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;->mBeautyMakeupExtra:Lcom/jakex/ymluxscore/modular/extra/BeautyMakeupExtra;
 
-    iput-boolean v0, p1, Lcom/jakex/makeupcore/modular/extra/BeautyMakeupExtra;->mFromAlbum:Z
+    iput-boolean v0, p1, Lcom/jakex/ymluxscore/modular/extra/BeautyMakeupExtra;->mFromAlbum:Z
 
-    iget-object p1, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a:Lcom/jakex/makeupcore/modular/extra/AlbumExtra;
+    iget-object p1, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a:Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;
 
-    iget-object p1, p1, Lcom/jakex/makeupcore/modular/extra/AlbumExtra;->mBeautyMakeupExtra:Lcom/jakex/makeupcore/modular/extra/BeautyMakeupExtra;
+    iget-object p1, p1, Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;->mBeautyMakeupExtra:Lcom/jakex/ymluxscore/modular/extra/BeautyMakeupExtra;
 
-    invoke-static {p0, p1, v1}, Lcom/jakex/makeupcore/modular/c/av;->a(Landroid/app/Activity;Lcom/jakex/makeupcore/modular/extra/BeautyMakeupExtra;I)V
+    invoke-static {p0, p1, v1}, Lcom/jakex/ymluxscore/modular/c/av;->a(Landroid/app/Activity;Lcom/jakex/ymluxscore/modular/extra/BeautyMakeupExtra;I)V
 
     return-void
 .end method
 
-.method public static b(Landroid/app/Activity;Lcom/jakex/makeupcore/modular/extra/AlbumExtra;I)Landroid/content/Intent;
+.method public static b(Landroid/app/Activity;Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;I)Landroid/content/Intent;
     .locals 2
 
     new-instance v0, Landroid/content/Intent;
@@ -198,7 +198,7 @@
 
     invoke-virtual {v0, p2}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    const-class p0, Lcom/jakex/makeupcore/modular/extra/AlbumExtra;
+    const-class p0, Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;
 
     invoke-virtual {p0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
@@ -216,7 +216,7 @@
 
     move-result-object v0
 
-    const-class v1, Lcom/jakex/makeupcore/modular/extra/AlbumExtra;
+    const-class v1, Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
@@ -226,17 +226,17 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/jakex/makeupcore/modular/extra/AlbumExtra;
+    check-cast v0, Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;
 
-    iput-object v0, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a:Lcom/jakex/makeupcore/modular/extra/AlbumExtra;
+    iput-object v0, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a:Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;
 
     if-nez v0, :cond_0
 
-    new-instance v0, Lcom/jakex/makeupcore/modular/extra/AlbumExtra;
+    new-instance v0, Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;
 
-    invoke-direct {v0}, Lcom/jakex/makeupcore/modular/extra/AlbumExtra;-><init>()V
+    invoke-direct {v0}, Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;-><init>()V
 
-    iput-object v0, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a:Lcom/jakex/makeupcore/modular/extra/AlbumExtra;
+    iput-object v0, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a:Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;
 
     :cond_0
     return-void
@@ -286,13 +286,13 @@
 
     move-result-object v0
 
-    new-instance v1, Lcom/jakex/makeupcore/modular/b/a;
+    new-instance v1, Lcom/jakex/ymluxscore/modular/b/a;
 
     const/4 v2, 0x0
 
     new-array v2, v2, [Ljava/lang/Class;
 
-    invoke-direct {v1, v2}, Lcom/jakex/makeupcore/modular/b/a;-><init>([Ljava/lang/Class;)V
+    invoke-direct {v1, v2}, Lcom/jakex/ymluxscore/modular/b/a;-><init>([Ljava/lang/Class;)V
 
     invoke-virtual {v0, v1}, Lorg/greenrobot/eventbus/EventBus;->post(Ljava/lang/Object;)V
 
@@ -302,30 +302,30 @@
 .method private d()V
     .locals 2
 
-    iget-object v0, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->d:Lcom/jakex/makeupcore/dialog/e;
+    iget-object v0, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->d:Lcom/jakex/ymluxscore/dialog/e;
 
     if-nez v0, :cond_0
 
-    new-instance v0, Lcom/jakex/makeupcore/dialog/e$a;
+    new-instance v0, Lcom/jakex/ymluxscore/dialog/e$a;
 
-    invoke-direct {v0, p0}, Lcom/jakex/makeupcore/dialog/e$a;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, p0}, Lcom/jakex/ymluxscore/dialog/e$a;-><init>(Landroid/content/Context;)V
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/dialog/e$a;->b(Z)Lcom/jakex/makeupcore/dialog/e$a;
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/dialog/e$a;->b(Z)Lcom/jakex/ymluxscore/dialog/e$a;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/dialog/e$a;->a()Lcom/jakex/makeupcore/dialog/e;
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/dialog/e$a;->a()Lcom/jakex/ymluxscore/dialog/e;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->d:Lcom/jakex/makeupcore/dialog/e;
+    iput-object v0, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->d:Lcom/jakex/ymluxscore/dialog/e;
 
     :cond_0
-    iget-object v0, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->d:Lcom/jakex/makeupcore/dialog/e;
+    iget-object v0, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->d:Lcom/jakex/ymluxscore/dialog/e;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/dialog/e;->show()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/dialog/e;->show()V
 
     return-void
 .end method
@@ -333,11 +333,11 @@
 .method private e()V
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->d:Lcom/jakex/makeupcore/dialog/e;
+    iget-object v0, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->d:Lcom/jakex/ymluxscore/dialog/e;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/dialog/e;->dismiss()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/dialog/e;->dismiss()V
 
     :cond_0
     return-void
@@ -346,19 +346,19 @@
 .method private f()V
     .locals 3
 
-    iget-object v0, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a:Lcom/jakex/makeupcore/modular/extra/AlbumExtra;
+    iget-object v0, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a:Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;
 
     if-eqz v0, :cond_1
 
-    iget v0, v0, Lcom/jakex/makeupcore/modular/extra/AlbumExtra;->mFrom:I
+    iget v0, v0, Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;->mFrom:I
 
     const/4 v1, 0x1
 
     if-eq v0, v1, :cond_0
 
-    iget-object v0, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a:Lcom/jakex/makeupcore/modular/extra/AlbumExtra;
+    iget-object v0, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a:Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;
 
-    iget v0, v0, Lcom/jakex/makeupcore/modular/extra/AlbumExtra;->mFrom:I
+    iget v0, v0, Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;->mFrom:I
 
     const/4 v2, 0x2
 
@@ -382,13 +382,13 @@
 .method public a(Landroid/net/Uri;Landroid/widget/ImageView;)V
     .locals 1
 
-    invoke-static {p2}, Lcom/jakex/makeupcore/glide/a;->a(Landroid/widget/ImageView;)Lcom/jakex/makeupcore/glide/a;
+    invoke-static {p2}, Lcom/jakex/ymluxscore/glide/a;->a(Landroid/widget/ImageView;)Lcom/jakex/ymluxscore/glide/a;
 
     move-result-object p2
 
     iget-object v0, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->b:Lmakeup/image/request/h;
 
-    invoke-virtual {p2, p1, v0}, Lcom/jakex/makeupcore/glide/a;->a(Landroid/net/Uri;Lmakeup/image/request/h;)V
+    invoke-virtual {p2, p1, v0}, Lcom/jakex/ymluxscore/glide/a;->a(Landroid/net/Uri;Lmakeup/image/request/h;)V
 
     return-void
 .end method
@@ -414,7 +414,7 @@
     goto :goto_0
 
     :cond_1
-    invoke-static {}, Lcom/jakex/makeupcore/util/l;->b()I
+    invoke-static {}, Lcom/jakex/ymluxscore/util/l;->b()I
 
     move-result v0
 
@@ -428,7 +428,7 @@
 
     invoke-direct {v1, p0, p1, v0, v2}, Lcom/jakex/makeupalbum/activity/AlbumActivity$b;-><init>(Lcom/jakex/makeupalbum/activity/AlbumActivity;Landroid/net/Uri;IZ)V
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/i;->a()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/jakex/ymluxscore/util/i;->a()Ljava/util/concurrent/Executor;
 
     move-result-object p1
 
@@ -440,7 +440,7 @@
     return-void
 .end method
 
-.method public a(Lcom/jakex/makeupcore/bean/ModelAlbumBean;)V
+.method public a(Lcom/jakex/ymluxscore/bean/ModelAlbumBean;)V
     .locals 3
 
     iget-boolean v0, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->h:Z
@@ -450,13 +450,13 @@
     return-void
 
     :cond_0
-    invoke-static {}, Lcom/jakex/makeupcore/util/l;->b()I
+    invoke-static {}, Lcom/jakex/ymluxscore/util/l;->b()I
 
     move-result v0
 
     new-instance v1, Lcom/jakex/makeupalbum/activity/AlbumActivity$b;
 
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/bean/ModelAlbumBean;->getUriFromPath()Landroid/net/Uri;
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/bean/ModelAlbumBean;->getUriFromPath()Landroid/net/Uri;
 
     move-result-object p1
 
@@ -464,7 +464,7 @@
 
     invoke-direct {v1, p0, p1, v0, v2}, Lcom/jakex/makeupalbum/activity/AlbumActivity$b;-><init>(Lcom/jakex/makeupalbum/activity/AlbumActivity;Landroid/net/Uri;IZ)V
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/i;->a()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/jakex/ymluxscore/util/i;->a()Ljava/util/concurrent/Executor;
 
     move-result-object p1
 
@@ -480,11 +480,11 @@
 .method public a()Z
     .locals 2
 
-    iget-object v0, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a:Lcom/jakex/makeupcore/modular/extra/AlbumExtra;
+    iget-object v0, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a:Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;
 
     if-eqz v0, :cond_0
 
-    iget v0, v0, Lcom/jakex/makeupcore/modular/extra/AlbumExtra;->mFrom:I
+    iget v0, v0, Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;->mFrom:I
 
     const/4 v1, 0x5
 
@@ -504,7 +504,7 @@
 .method public finish()V
     .locals 0
 
-    invoke-super {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->finish()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->finish()V
 
     return-void
 .end method
@@ -512,7 +512,7 @@
 .method protected onActivityResult(IILandroid/content/Intent;)V
     .locals 1
 
-    invoke-super {p0, p1, p2, p3}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onActivityResult(IILandroid/content/Intent;)V
+    invoke-super {p0, p1, p2, p3}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onActivityResult(IILandroid/content/Intent;)V
 
     const/16 v0, 0x8
 
@@ -537,7 +537,7 @@
 
     invoke-direct {p0}, Lcom/jakex/makeupalbum/activity/AlbumActivity;->b()V
 
-    invoke-super {p0, p1}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onCreate(Landroid/os/Bundle;)V
 
     sget p1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$layout;->album_activity:I
 
@@ -547,7 +547,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/util/ah;->a(Landroid/view/Window;)V
+    invoke-static {p1}, Lcom/jakex/ymluxscore/util/ah;->a(Landroid/view/Window;)V
 
     invoke-static {}, Lorg/greenrobot/eventbus/EventBus;->getDefault()Lorg/greenrobot/eventbus/EventBus;
 
@@ -559,7 +559,7 @@
 
     sget p1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$drawable;->album_default_drawable:I
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/glide/e;->a(I)Lmakeup/image/request/h;
+    invoke-static {p1}, Lcom/jakex/ymluxscore/glide/e;->a(I)Lmakeup/image/request/h;
 
     move-result-object p1
 
@@ -630,7 +630,7 @@
 .method protected onDestroy()V
     .locals 2
 
-    invoke-super {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onDestroy()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onDestroy()V
 
     invoke-static {}, Lorg/greenrobot/eventbus/EventBus;->getDefault()Lorg/greenrobot/eventbus/EventBus;
 
@@ -675,7 +675,7 @@
     return p1
 
     :cond_0
-    invoke-super {p0, p1, p2}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onKeyDown(ILandroid/view/KeyEvent;)Z
+    invoke-super {p0, p1, p2}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
     move-result p2
 
@@ -691,19 +691,19 @@
 
     if-nez p1, :cond_2
 
-    iget-object p1, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a:Lcom/jakex/makeupcore/modular/extra/AlbumExtra;
+    iget-object p1, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a:Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;
 
-    iget-object p1, p1, Lcom/jakex/makeupcore/modular/extra/AlbumExtra;->mFromOtherAppExtra:Lcom/jakex/makeupcore/modular/extra/FromOtherAppExtra;
+    iget-object p1, p1, Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;->mFromOtherAppExtra:Lcom/jakex/ymluxscore/modular/extra/FromOtherAppExtra;
 
-    iget-boolean p1, p1, Lcom/jakex/makeupcore/modular/extra/FromOtherAppExtra;->mFromOtherApp:Z
+    iget-boolean p1, p1, Lcom/jakex/ymluxscore/modular/extra/FromOtherAppExtra;->mFromOtherApp:Z
 
     if-eqz p1, :cond_1
 
-    iget-object p1, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a:Lcom/jakex/makeupcore/modular/extra/AlbumExtra;
+    iget-object p1, p0, Lcom/jakex/makeupalbum/activity/AlbumActivity;->a:Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;
 
-    iget-object p1, p1, Lcom/jakex/makeupcore/modular/extra/AlbumExtra;->mFromOtherAppExtra:Lcom/jakex/makeupcore/modular/extra/FromOtherAppExtra;
+    iget-object p1, p1, Lcom/jakex/ymluxscore/modular/extra/AlbumExtra;->mFromOtherAppExtra:Lcom/jakex/ymluxscore/modular/extra/FromOtherAppExtra;
 
-    iget-boolean p1, p1, Lcom/jakex/makeupcore/modular/extra/FromOtherAppExtra;->mFromOtherAppNeedResult:Z
+    iget-boolean p1, p1, Lcom/jakex/ymluxscore/modular/extra/FromOtherAppExtra;->mFromOtherAppNeedResult:Z
 
     if-nez p1, :cond_1
 
@@ -719,7 +719,7 @@
 .method protected onNewIntent(Landroid/content/Intent;)V
     .locals 0
 
-    invoke-super {p0, p1}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onNewIntent(Landroid/content/Intent;)V
+    invoke-super {p0, p1}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onNewIntent(Landroid/content/Intent;)V
 
     invoke-virtual {p0, p1}, Lcom/jakex/makeupalbum/activity/AlbumActivity;->setIntent(Landroid/content/Intent;)V
 
@@ -731,9 +731,9 @@
 .method protected onPause()V
     .locals 0
 
-    invoke-super {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onPause()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onPause()V
 
-    invoke-static {}, Lcom/jakex/makeupcore/widget/a/a;->a()V
+    invoke-static {}, Lcom/jakex/ymluxscore/widget/a/a;->a()V
 
     return-void
 .end method
@@ -741,7 +741,7 @@
 .method protected onResume()V
     .locals 1
 
-    invoke-super {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onResume()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onResume()V
 
     const/4 v0, 0x0
 
@@ -753,7 +753,7 @@
 .method public onStart()V
     .locals 0
 
-    invoke-super {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onStart()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onStart()V
 
     invoke-direct {p0}, Lcom/jakex/makeupalbum/activity/AlbumActivity;->f()V
 

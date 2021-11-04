@@ -1,10 +1,10 @@
-.class public Lcom/jakex/makeupselfie/save/b$d;
+.class public Lcom/jakex/ymluxscoresf/save/b$d;
 .super Ljava/lang/Object;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/jakex/makeupselfie/save/b;
+    value = Lcom/jakex/ymluxscoresf/save/b;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -14,13 +14,13 @@
 
 
 # instance fields
-.field private a:Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+.field private a:Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
 
 .field private b:Ljava/util/HashMap;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/HashMap<",
-            "Lcom/jakex/makeupeditor/configuration/PartPosition;",
+            "Lcom/jakex/ymluxseditor/configuration/PartPosition;",
             "Ljava/lang/Long;",
             ">;"
         }
@@ -31,14 +31,14 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/HashMap<",
-            "Lcom/jakex/makeupeditor/configuration/PartPosition;",
+            "Lcom/jakex/ymluxseditor/configuration/PartPosition;",
             "Ljava/lang/Integer;",
             ">;"
         }
     .end annotation
 .end field
 
-.field private d:Lcom/jakex/makeupeditor/configuration/MouthType;
+.field private d:Lcom/jakex/ymluxseditor/configuration/MouthType;
 
 .field private e:Z
 
@@ -54,26 +54,26 @@
 
 
 # virtual methods
-.method public a()Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+.method public a()Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/save/b$d;->a:Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/save/b$d;->a:Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
 
     return-object v0
 .end method
 
-.method public a(Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;)V
+.method public a(Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/save/b$d;->a:Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/save/b$d;->a:Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
 
     return-void
 .end method
 
-.method public a(Lcom/jakex/makeupeditor/configuration/MouthType;)V
+.method public a(Lcom/jakex/ymluxseditor/configuration/MouthType;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/save/b$d;->d:Lcom/jakex/makeupeditor/configuration/MouthType;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/save/b$d;->d:Lcom/jakex/ymluxseditor/configuration/MouthType;
 
     return-void
 .end method
@@ -84,13 +84,13 @@
         value = {
             "(",
             "Ljava/util/HashMap<",
-            "Lcom/jakex/makeupeditor/configuration/PartPosition;",
+            "Lcom/jakex/ymluxseditor/configuration/PartPosition;",
             "Ljava/lang/Long;",
             ">;)V"
         }
     .end annotation
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/save/b$d;->b:Ljava/util/HashMap;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/save/b$d;->b:Ljava/util/HashMap;
 
     return-void
 .end method
@@ -98,7 +98,7 @@
 .method public a(Z)V
     .locals 0
 
-    iput-boolean p1, p0, Lcom/jakex/makeupselfie/save/b$d;->e:Z
+    iput-boolean p1, p0, Lcom/jakex/ymluxscoresf/save/b$d;->e:Z
 
     return-void
 .end method
@@ -109,13 +109,13 @@
         value = {
             "()",
             "Ljava/util/HashMap<",
-            "Lcom/jakex/makeupeditor/configuration/PartPosition;",
+            "Lcom/jakex/ymluxseditor/configuration/PartPosition;",
             "Ljava/lang/Long;",
             ">;"
         }
     .end annotation
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/save/b$d;->b:Ljava/util/HashMap;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/save/b$d;->b:Ljava/util/HashMap;
 
     return-object v0
 .end method
@@ -126,13 +126,13 @@
         value = {
             "(",
             "Ljava/util/HashMap<",
-            "Lcom/jakex/makeupeditor/configuration/PartPosition;",
+            "Lcom/jakex/ymluxseditor/configuration/PartPosition;",
             "Ljava/lang/Integer;",
             ">;)V"
         }
     .end annotation
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/save/b$d;->c:Ljava/util/HashMap;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/save/b$d;->c:Ljava/util/HashMap;
 
     return-void
 .end method
@@ -143,21 +143,21 @@
         value = {
             "()",
             "Ljava/util/HashMap<",
-            "Lcom/jakex/makeupeditor/configuration/PartPosition;",
+            "Lcom/jakex/ymluxseditor/configuration/PartPosition;",
             "Ljava/lang/Integer;",
             ">;"
         }
     .end annotation
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/save/b$d;->c:Ljava/util/HashMap;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/save/b$d;->c:Ljava/util/HashMap;
 
     return-object v0
 .end method
 
-.method public d()Lcom/jakex/makeupeditor/configuration/MouthType;
+.method public d()Lcom/jakex/ymluxseditor/configuration/MouthType;
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/save/b$d;->d:Lcom/jakex/makeupeditor/configuration/MouthType;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/save/b$d;->d:Lcom/jakex/ymluxseditor/configuration/MouthType;
 
     return-object v0
 .end method
@@ -165,7 +165,7 @@
 .method public e()Z
     .locals 1
 
-    iget-boolean v0, p0, Lcom/jakex/makeupselfie/save/b$d;->e:Z
+    iget-boolean v0, p0, Lcom/jakex/ymluxscoresf/save/b$d;->e:Z
 
     return v0
 .end method

@@ -1,5 +1,5 @@
 .class Lcom/jakex/makeupassistant/share/AssistantAnalysisShareFragment$b;
-.super Lcom/jakex/makeupcore/b/d;
+.super Lcom/jakex/ymluxscore/b/d;
 
 
 # annotations
@@ -14,7 +14,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupcore/b/d<",
+        "Lcom/jakex/ymluxscore/b/d<",
         "Lcom/jakex/makeupshare/platform/SharePlatform;",
         ">;"
     }
@@ -39,7 +39,7 @@
 
     iput-object p1, p0, Lcom/jakex/makeupassistant/share/AssistantAnalysisShareFragment$b;->a:Lcom/jakex/makeupassistant/share/AssistantAnalysisShareFragment;
 
-    invoke-direct {p0, p2}, Lcom/jakex/makeupcore/b/d;-><init>(Ljava/util/List;)V
+    invoke-direct {p0, p2}, Lcom/jakex/ymluxscore/b/d;-><init>(Ljava/util/List;)V
 
     return-void
 .end method
@@ -62,7 +62,7 @@
     return p1
 .end method
 
-.method public a(Lcom/jakex/makeupcore/b/e;ILcom/jakex/makeupshare/platform/SharePlatform;)V
+.method public a(Lcom/jakex/ymluxscore/b/e;ILcom/jakex/makeupshare/platform/SharePlatform;)V
     .locals 0
 
     sget p2, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->share_icon_iv:I
@@ -71,17 +71,17 @@
 
     move-result p3
 
-    invoke-virtual {p1, p2, p3}, Lcom/jakex/makeupcore/b/e;->a(II)V
+    invoke-virtual {p1, p2, p3}, Lcom/jakex/ymluxscore/b/e;->a(II)V
 
     return-void
 .end method
 
-.method public bridge synthetic a(Lcom/jakex/makeupcore/b/e;ILjava/lang/Object;)V
+.method public bridge synthetic a(Lcom/jakex/ymluxscore/b/e;ILjava/lang/Object;)V
     .locals 0
 
     check-cast p3, Lcom/jakex/makeupshare/platform/SharePlatform;
 
-    invoke-virtual {p0, p1, p2, p3}, Lcom/jakex/makeupassistant/share/AssistantAnalysisShareFragment$b;->a(Lcom/jakex/makeupcore/b/e;ILcom/jakex/makeupshare/platform/SharePlatform;)V
+    invoke-virtual {p0, p1, p2, p3}, Lcom/jakex/makeupassistant/share/AssistantAnalysisShareFragment$b;->a(Lcom/jakex/ymluxscore/b/e;ILcom/jakex/makeupshare/platform/SharePlatform;)V
 
     return-void
 .end method

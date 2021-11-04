@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeupsenior/widget/a/b;
-.super Lcom/jakex/makeupeditor/widget/makeuplayer/a;
+.super Lcom/jakex/ymluxseditor/widget/makeuplayer/a;
 
 
 # annotations
@@ -13,8 +13,8 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupeditor/widget/makeuplayer/a<",
-        "Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;",
+        "Lcom/jakex/ymluxseditor/widget/makeuplayer/a<",
+        "Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;",
         ">;"
     }
 .end annotation
@@ -42,13 +42,13 @@
         value = {
             "Ljava/util/Map<",
             "Ljava/lang/String;",
-            "Lcom/jakex/makeupcore/bean/PointBean;",
+            "Lcom/jakex/ymluxscore/bean/PointBean;",
             ">;"
         }
     .end annotation
 .end field
 
-.field private h:Lcom/jakex/makeupcore/bean/PointBean;
+.field private h:Lcom/jakex/ymluxscore/bean/PointBean;
 
 .field private i:Landroid/graphics/Matrix;
 
@@ -58,9 +58,9 @@
 
 .field private l:Landroid/graphics/Paint;
 
-.field private m:Lcom/jakex/makeupcore/bean/PointBean;
+.field private m:Lcom/jakex/ymluxscore/bean/PointBean;
 
-.field private n:Lcom/jakex/makeupcore/bean/PointBean;
+.field private n:Lcom/jakex/ymluxscore/bean/PointBean;
 
 .field private o:Landroid/os/Handler;
 
@@ -78,9 +78,9 @@
 
 .field private v:Z
 
-.field private w:Lcom/jakex/makeupcore/bean/PointBean;
+.field private w:Lcom/jakex/ymluxscore/bean/PointBean;
 
-.field private x:Lcom/jakex/makeupcore/bean/PointBean;
+.field private x:Lcom/jakex/ymluxscore/bean/PointBean;
 
 .field private y:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
@@ -300,10 +300,10 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;)V
+.method public constructor <init>(Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;)V
     .locals 3
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupeditor/widget/makeuplayer/a;-><init>(Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;)V
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxseditor/widget/makeuplayer/a;-><init>(Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;)V
 
     new-instance p1, Lcom/jakex/makeupsenior/widget/a/b$a;
 
@@ -329,11 +329,11 @@
 
     iput-object p1, p0, Lcom/jakex/makeupsenior/widget/a/b;->e:Lcom/jakex/makeupsenior/widget/a/b$a;
 
-    new-instance p1, Lcom/jakex/makeupcore/bean/PointBean;
+    new-instance p1, Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-direct {p1}, Lcom/jakex/makeupcore/bean/PointBean;-><init>()V
+    invoke-direct {p1}, Lcom/jakex/ymluxscore/bean/PointBean;-><init>()V
 
-    iput-object p1, p0, Lcom/jakex/makeupsenior/widget/a/b;->n:Lcom/jakex/makeupcore/bean/PointBean;
+    iput-object p1, p0, Lcom/jakex/makeupsenior/widget/a/b;->n:Lcom/jakex/ymluxscore/bean/PointBean;
 
     const/high16 p1, 0x40600000    # 3.5f
 
@@ -371,17 +371,17 @@
 
     iput-boolean p1, p0, Lcom/jakex/makeupsenior/widget/a/b;->v:Z
 
-    new-instance p1, Lcom/jakex/makeupcore/bean/PointBean;
+    new-instance p1, Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-direct {p1}, Lcom/jakex/makeupcore/bean/PointBean;-><init>()V
+    invoke-direct {p1}, Lcom/jakex/ymluxscore/bean/PointBean;-><init>()V
 
-    iput-object p1, p0, Lcom/jakex/makeupsenior/widget/a/b;->w:Lcom/jakex/makeupcore/bean/PointBean;
+    iput-object p1, p0, Lcom/jakex/makeupsenior/widget/a/b;->w:Lcom/jakex/ymluxscore/bean/PointBean;
 
-    new-instance p1, Lcom/jakex/makeupcore/bean/PointBean;
+    new-instance p1, Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-direct {p1}, Lcom/jakex/makeupcore/bean/PointBean;-><init>()V
+    invoke-direct {p1}, Lcom/jakex/ymluxscore/bean/PointBean;-><init>()V
 
-    iput-object p1, p0, Lcom/jakex/makeupsenior/widget/a/b;->x:Lcom/jakex/makeupcore/bean/PointBean;
+    iput-object p1, p0, Lcom/jakex/makeupsenior/widget/a/b;->x:Lcom/jakex/ymluxscore/bean/PointBean;
 
     invoke-direct {p0}, Lcom/jakex/makeupsenior/widget/a/b;->c()V
 
@@ -412,7 +412,7 @@
     return p1
 .end method
 
-.method private a(FF)Lcom/jakex/makeupcore/bean/PointBean;
+.method private a(FF)Lcom/jakex/ymluxscore/bean/PointBean;
     .locals 7
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/widget/a/b;->g:Ljava/util/Map;
@@ -462,11 +462,11 @@
 
     move-result-object v4
 
-    check-cast v4, Lcom/jakex/makeupcore/bean/PointBean;
+    check-cast v4, Lcom/jakex/ymluxscore/bean/PointBean;
 
     if-eqz v4, :cond_1
 
-    invoke-direct {p0, v4}, Lcom/jakex/makeupsenior/widget/a/b;->a(Lcom/jakex/makeupcore/bean/PointBean;)Z
+    invoke-direct {p0, v4}, Lcom/jakex/makeupsenior/widget/a/b;->a(Lcom/jakex/ymluxscore/bean/PointBean;)Z
 
     move-result v5
 
@@ -475,19 +475,19 @@
     goto :goto_0
 
     :cond_2
-    iget-object v5, p0, Lcom/jakex/makeupsenior/widget/a/b;->h:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object v5, p0, Lcom/jakex/makeupsenior/widget/a/b;->h:Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-direct {p0, v5, v4}, Lcom/jakex/makeupsenior/widget/a/b;->a(Lcom/jakex/makeupcore/bean/PointBean;Lcom/jakex/makeupcore/bean/PointBean;)V
+    invoke-direct {p0, v5, v4}, Lcom/jakex/makeupsenior/widget/a/b;->a(Lcom/jakex/ymluxscore/bean/PointBean;Lcom/jakex/ymluxscore/bean/PointBean;)V
 
-    iget-object v5, p0, Lcom/jakex/makeupsenior/widget/a/b;->h:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object v5, p0, Lcom/jakex/makeupsenior/widget/a/b;->h:Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-virtual {v5}, Lcom/jakex/makeupcore/bean/PointBean;->getPointX()F
+    invoke-virtual {v5}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointX()F
 
     move-result v5
 
-    iget-object v6, p0, Lcom/jakex/makeupsenior/widget/a/b;->h:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object v6, p0, Lcom/jakex/makeupsenior/widget/a/b;->h:Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-virtual {v6}, Lcom/jakex/makeupcore/bean/PointBean;->getPointY()F
+    invoke-virtual {v6}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointY()F
 
     move-result v6
 
@@ -588,7 +588,7 @@
     return-void
 .end method
 
-.method private a(Landroid/graphics/Canvas;Lcom/jakex/makeupcore/bean/PointBean;Lcom/jakex/makeupcore/bean/PointBean;)V
+.method private a(Landroid/graphics/Canvas;Lcom/jakex/ymluxscore/bean/PointBean;Lcom/jakex/ymluxscore/bean/PointBean;)V
     .locals 9
 
     if-eqz p2, :cond_1
@@ -614,19 +614,19 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setColor(I)V
 
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/PointBean;->getPointX()F
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointX()F
 
     move-result v4
 
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/PointBean;->getPointY()F
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointY()F
 
     move-result v5
 
-    invoke-virtual {p3}, Lcom/jakex/makeupcore/bean/PointBean;->getPointX()F
+    invoke-virtual {p3}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointX()F
 
     move-result v6
 
-    invoke-virtual {p3}, Lcom/jakex/makeupcore/bean/PointBean;->getPointY()F
+    invoke-virtual {p3}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointY()F
 
     move-result v7
 
@@ -658,21 +658,21 @@
 
     invoke-virtual {v1, v3}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/PointBean;->getPointX()F
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointX()F
 
     move-result v1
 
-    invoke-virtual {p3}, Lcom/jakex/makeupcore/bean/PointBean;->getPointX()F
+    invoke-virtual {p3}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointX()F
 
     move-result v3
 
     sub-float/2addr v1, v3
 
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/PointBean;->getPointY()F
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointY()F
 
     move-result v3
 
-    invoke-virtual {p3}, Lcom/jakex/makeupcore/bean/PointBean;->getPointY()F
+    invoke-virtual {p3}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointY()F
 
     move-result v4
 
@@ -692,11 +692,11 @@
 
     double-to-float v1, v3
 
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/PointBean;->getPointX()F
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointX()F
 
     move-result v3
 
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/PointBean;->getPointY()F
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointY()F
 
     move-result v4
 
@@ -734,11 +734,11 @@
 
     invoke-virtual {v1, v3}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    invoke-virtual {p3}, Lcom/jakex/makeupcore/bean/PointBean;->getPointX()F
+    invoke-virtual {p3}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointX()F
 
     move-result v1
 
-    invoke-virtual {p3}, Lcom/jakex/makeupcore/bean/PointBean;->getPointY()F
+    invoke-virtual {p3}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointY()F
 
     move-result v3
 
@@ -766,11 +766,11 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    invoke-virtual {p3}, Lcom/jakex/makeupcore/bean/PointBean;->getPointX()F
+    invoke-virtual {p3}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointX()F
 
     move-result v1
 
-    invoke-virtual {p3}, Lcom/jakex/makeupcore/bean/PointBean;->getPointY()F
+    invoke-virtual {p3}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointY()F
 
     move-result p3
 
@@ -782,11 +782,11 @@
 
     invoke-virtual {p1, v1, p3, v2, v3}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/PointBean;->getPointX()F
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointX()F
 
     move-result p3
 
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/PointBean;->getPointY()F
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointY()F
 
     move-result p2
 
@@ -813,36 +813,36 @@
     .end array-data
 .end method
 
-.method private a(Lcom/jakex/makeupcore/bean/PointBean;FF)V
+.method private a(Lcom/jakex/ymluxscore/bean/PointBean;FF)V
     .locals 2
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/a/b;->h:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/a/b;->h:Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-direct {p0, v0, p1}, Lcom/jakex/makeupsenior/widget/a/b;->a(Lcom/jakex/makeupcore/bean/PointBean;Lcom/jakex/makeupcore/bean/PointBean;)V
+    invoke-direct {p0, v0, p1}, Lcom/jakex/makeupsenior/widget/a/b;->a(Lcom/jakex/ymluxscore/bean/PointBean;Lcom/jakex/ymluxscore/bean/PointBean;)V
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/a/b;->h:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/a/b;->h:Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/bean/PointBean;->getPointX()F
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointX()F
 
     move-result v1
 
     add-float/2addr v1, p2
 
-    iget-object p2, p0, Lcom/jakex/makeupsenior/widget/a/b;->h:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object p2, p0, Lcom/jakex/makeupsenior/widget/a/b;->h:Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/PointBean;->getPointY()F
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointY()F
 
     move-result p2
 
     add-float/2addr p2, p3
 
-    invoke-virtual {v0, v1, p2}, Lcom/jakex/makeupcore/bean/PointBean;->set(FF)V
+    invoke-virtual {v0, v1, p2}, Lcom/jakex/ymluxscore/bean/PointBean;->set(FF)V
 
-    iget-object p2, p0, Lcom/jakex/makeupsenior/widget/a/b;->h:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object p2, p0, Lcom/jakex/makeupsenior/widget/a/b;->h:Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-direct {p0, p1, p2}, Lcom/jakex/makeupsenior/widget/a/b;->b(Lcom/jakex/makeupcore/bean/PointBean;Lcom/jakex/makeupcore/bean/PointBean;)V
+    invoke-direct {p0, p1, p2}, Lcom/jakex/makeupsenior/widget/a/b;->b(Lcom/jakex/ymluxscore/bean/PointBean;Lcom/jakex/ymluxscore/bean/PointBean;)V
 
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/bean/PointBean;->getPointX()F
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointX()F
 
     move-result p2
 
@@ -852,20 +852,20 @@
 
     if-gez p2, :cond_0
 
-    invoke-virtual {p1, p3}, Lcom/jakex/makeupcore/bean/PointBean;->setPointX(F)V
+    invoke-virtual {p1, p3}, Lcom/jakex/ymluxscore/bean/PointBean;->setPointX(F)V
 
     goto :goto_0
 
     :cond_0
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/bean/PointBean;->getPointX()F
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointX()F
 
     move-result p2
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->getBitmapWidth()F
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->getBitmapWidth()F
 
     move-result v0
 
@@ -873,19 +873,19 @@
 
     if-lez p2, :cond_1
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object p2
 
-    invoke-virtual {p2}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->getBitmapWidth()F
+    invoke-virtual {p2}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->getBitmapWidth()F
 
     move-result p2
 
-    invoke-virtual {p1, p2}, Lcom/jakex/makeupcore/bean/PointBean;->setPointX(F)V
+    invoke-virtual {p1, p2}, Lcom/jakex/ymluxscore/bean/PointBean;->setPointX(F)V
 
     :cond_1
     :goto_0
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/bean/PointBean;->getPointY()F
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointY()F
 
     move-result p2
 
@@ -893,20 +893,20 @@
 
     if-gez p2, :cond_2
 
-    invoke-virtual {p1, p3}, Lcom/jakex/makeupcore/bean/PointBean;->setPointY(F)V
+    invoke-virtual {p1, p3}, Lcom/jakex/ymluxscore/bean/PointBean;->setPointY(F)V
 
     goto :goto_1
 
     :cond_2
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/bean/PointBean;->getPointY()F
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointY()F
 
     move-result p2
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object p3
 
-    invoke-virtual {p3}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->getBitmapHeight()F
+    invoke-virtual {p3}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->getBitmapHeight()F
 
     move-result p3
 
@@ -914,29 +914,29 @@
 
     if-lez p2, :cond_3
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object p2
 
-    invoke-virtual {p2}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->getBitmapHeight()F
+    invoke-virtual {p2}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->getBitmapHeight()F
 
     move-result p2
 
-    invoke-virtual {p1, p2}, Lcom/jakex/makeupcore/bean/PointBean;->setPointY(F)V
+    invoke-virtual {p1, p2}, Lcom/jakex/ymluxscore/bean/PointBean;->setPointY(F)V
 
     :cond_3
     :goto_1
     return-void
 .end method
 
-.method private a(Lcom/jakex/makeupcore/bean/PointBean;Lcom/jakex/makeupcore/bean/PointBean;)V
+.method private a(Lcom/jakex/ymluxscore/bean/PointBean;Lcom/jakex/ymluxscore/bean/PointBean;)V
     .locals 4
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->getBitmapMatrix()Landroid/graphics/Matrix;
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->getBitmapMatrix()Landroid/graphics/Matrix;
 
     move-result-object v0
 
@@ -944,7 +944,7 @@
 
     new-array v1, v1, [F
 
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/PointBean;->getPointX()F
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointX()F
 
     move-result v2
 
@@ -952,7 +952,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/PointBean;->getPointY()F
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointY()F
 
     move-result p2
 
@@ -966,7 +966,7 @@
 
     aget v0, v1, v2
 
-    invoke-virtual {p1, p2, v0}, Lcom/jakex/makeupcore/bean/PointBean;->set(FF)V
+    invoke-virtual {p1, p2, v0}, Lcom/jakex/ymluxscore/bean/PointBean;->set(FF)V
 
     return-void
 .end method
@@ -979,10 +979,10 @@
     return-void
 .end method
 
-.method private a(Lcom/jakex/makeupcore/bean/PointBean;)Z
+.method private a(Lcom/jakex/ymluxscore/bean/PointBean;)Z
     .locals 0
 
-    invoke-virtual {p1}, Lcom/jakex/makeupcore/bean/PointBean;->getPointName()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointName()Ljava/lang/String;
 
     move-result-object p1
 
@@ -1030,25 +1030,25 @@
 .method private b(FF)V
     .locals 0
 
-    invoke-direct {p0, p1, p2}, Lcom/jakex/makeupsenior/widget/a/b;->a(FF)Lcom/jakex/makeupcore/bean/PointBean;
+    invoke-direct {p0, p1, p2}, Lcom/jakex/makeupsenior/widget/a/b;->a(FF)Lcom/jakex/ymluxscore/bean/PointBean;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/jakex/makeupsenior/widget/a/b;->m:Lcom/jakex/makeupcore/bean/PointBean;
+    iput-object p1, p0, Lcom/jakex/makeupsenior/widget/a/b;->m:Lcom/jakex/ymluxscore/bean/PointBean;
 
-    iget-object p2, p0, Lcom/jakex/makeupsenior/widget/a/b;->n:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object p2, p0, Lcom/jakex/makeupsenior/widget/a/b;->n:Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-virtual {p2, p1}, Lcom/jakex/makeupcore/bean/PointBean;->set(Lcom/jakex/makeupcore/bean/PointBean;)V
+    invoke-virtual {p2, p1}, Lcom/jakex/ymluxscore/bean/PointBean;->set(Lcom/jakex/ymluxscore/bean/PointBean;)V
 
-    iget-object p1, p0, Lcom/jakex/makeupsenior/widget/a/b;->m:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object p1, p0, Lcom/jakex/makeupsenior/widget/a/b;->m:Lcom/jakex/ymluxscore/bean/PointBean;
 
     if-eqz p1, :cond_0
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->invalidate()V
+    invoke-virtual {p1}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->invalidate()V
 
     iget-object p1, p0, Lcom/jakex/makeupsenior/widget/a/b;->y:Ljava/util/List;
 
@@ -1103,17 +1103,17 @@
     goto/16 :goto_3
 
     :cond_0
-    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/a/b;->m:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/a/b;->m:Lcom/jakex/ymluxscore/bean/PointBean;
 
     if-eqz v0, :cond_4
 
-    iget-object v1, p0, Lcom/jakex/makeupsenior/widget/a/b;->n:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object v1, p0, Lcom/jakex/makeupsenior/widget/a/b;->n:Lcom/jakex/ymluxscore/bean/PointBean;
 
     if-eqz v1, :cond_4
 
     iget-object v1, p0, Lcom/jakex/makeupsenior/widget/a/b;->d:Lcom/jakex/makeupsenior/widget/a/b$a;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/bean/PointBean;->getPointName()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointName()Ljava/lang/String;
 
     move-result-object v0
 
@@ -1125,9 +1125,9 @@
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/widget/a/b;->e:Lcom/jakex/makeupsenior/widget/a/b$a;
 
-    iget-object v1, p0, Lcom/jakex/makeupsenior/widget/a/b;->m:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object v1, p0, Lcom/jakex/makeupsenior/widget/a/b;->m:Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-virtual {v1}, Lcom/jakex/makeupcore/bean/PointBean;->getPointName()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointName()Ljava/lang/String;
 
     move-result-object v1
 
@@ -1138,9 +1138,9 @@
     if-eqz v0, :cond_4
 
     :cond_1
-    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/a/b;->m:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/a/b;->m:Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/bean/PointBean;->getPointName()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointName()Ljava/lang/String;
 
     move-result-object v0
 
@@ -1172,31 +1172,31 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/jakex/makeupcore/bean/PointBean;
+    check-cast v0, Lcom/jakex/ymluxscore/bean/PointBean;
 
-    iget-object v2, p0, Lcom/jakex/makeupsenior/widget/a/b;->m:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object v2, p0, Lcom/jakex/makeupsenior/widget/a/b;->m:Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-virtual {v2}, Lcom/jakex/makeupcore/bean/PointBean;->getPointX()F
+    invoke-virtual {v2}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointX()F
 
     move-result v2
 
-    iget-object v3, p0, Lcom/jakex/makeupsenior/widget/a/b;->n:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object v3, p0, Lcom/jakex/makeupsenior/widget/a/b;->n:Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-virtual {v3}, Lcom/jakex/makeupcore/bean/PointBean;->getPointX()F
+    invoke-virtual {v3}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointX()F
 
     move-result v3
 
     sub-float/2addr v2, v3
 
-    iget-object v3, p0, Lcom/jakex/makeupsenior/widget/a/b;->m:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object v3, p0, Lcom/jakex/makeupsenior/widget/a/b;->m:Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-virtual {v3}, Lcom/jakex/makeupcore/bean/PointBean;->getPointY()F
+    invoke-virtual {v3}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointY()F
 
     move-result v3
 
-    iget-object v4, p0, Lcom/jakex/makeupsenior/widget/a/b;->n:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object v4, p0, Lcom/jakex/makeupsenior/widget/a/b;->n:Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-virtual {v4}, Lcom/jakex/makeupcore/bean/PointBean;->getPointY()F
+    invoke-virtual {v4}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointY()F
 
     move-result v4
 
@@ -1212,7 +1212,7 @@
 
     move-result-object v4
 
-    check-cast v4, Lcom/jakex/makeupcore/bean/PointBean;
+    check-cast v4, Lcom/jakex/ymluxscore/bean/PointBean;
 
     iget-object v5, p0, Lcom/jakex/makeupsenior/widget/a/b;->g:Ljava/util/Map;
 
@@ -1224,51 +1224,51 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/jakex/makeupcore/bean/PointBean;
+    check-cast v1, Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-virtual {v4}, Lcom/jakex/makeupcore/bean/PointBean;->getPointX()F
+    invoke-virtual {v4}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointX()F
 
     move-result v5
 
     add-float/2addr v5, v2
 
-    invoke-virtual {v4}, Lcom/jakex/makeupcore/bean/PointBean;->getPointY()F
+    invoke-virtual {v4}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointY()F
 
     move-result v6
 
     add-float/2addr v6, v3
 
-    invoke-virtual {v4, v5, v6}, Lcom/jakex/makeupcore/bean/PointBean;->set(FF)V
+    invoke-virtual {v4, v5, v6}, Lcom/jakex/ymluxscore/bean/PointBean;->set(FF)V
 
-    invoke-virtual {v1}, Lcom/jakex/makeupcore/bean/PointBean;->getPointX()F
+    invoke-virtual {v1}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointX()F
 
     move-result v5
 
     add-float/2addr v5, v2
 
-    invoke-virtual {v1}, Lcom/jakex/makeupcore/bean/PointBean;->getPointY()F
+    invoke-virtual {v1}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointY()F
 
     move-result v2
 
     add-float/2addr v2, v3
 
-    invoke-virtual {v1, v5, v2}, Lcom/jakex/makeupcore/bean/PointBean;->set(FF)V
+    invoke-virtual {v1, v5, v2}, Lcom/jakex/ymluxscore/bean/PointBean;->set(FF)V
 
-    iget-object v1, p0, Lcom/jakex/makeupsenior/widget/a/b;->n:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object v1, p0, Lcom/jakex/makeupsenior/widget/a/b;->n:Lcom/jakex/ymluxscore/bean/PointBean;
 
-    iget-object v2, p0, Lcom/jakex/makeupsenior/widget/a/b;->m:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object v2, p0, Lcom/jakex/makeupsenior/widget/a/b;->m:Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-virtual {v2}, Lcom/jakex/makeupcore/bean/PointBean;->getPointX()F
+    invoke-virtual {v2}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointX()F
 
     move-result v2
 
-    iget-object v3, p0, Lcom/jakex/makeupsenior/widget/a/b;->m:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object v3, p0, Lcom/jakex/makeupsenior/widget/a/b;->m:Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-virtual {v3}, Lcom/jakex/makeupcore/bean/PointBean;->getPointY()F
+    invoke-virtual {v3}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointY()F
 
     move-result v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/jakex/makeupcore/bean/PointBean;->set(FF)V
+    invoke-virtual {v1, v2, v3}, Lcom/jakex/ymluxscore/bean/PointBean;->set(FF)V
 
     goto :goto_1
 
@@ -1281,7 +1281,7 @@
 
     move-object v4, v0
 
-    check-cast v4, Lcom/jakex/makeupcore/bean/PointBean;
+    check-cast v4, Lcom/jakex/ymluxscore/bean/PointBean;
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/widget/a/b;->g:Ljava/util/Map;
 
@@ -1293,7 +1293,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/jakex/makeupcore/bean/PointBean;
+    check-cast v0, Lcom/jakex/ymluxscore/bean/PointBean;
 
     iget-object v2, p0, Lcom/jakex/makeupsenior/widget/a/b;->g:Ljava/util/Map;
 
@@ -1305,9 +1305,9 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/jakex/makeupcore/bean/PointBean;
+    check-cast v1, Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/bean/PointBean;->getPointX()F
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointX()F
 
     move-result v2
 
@@ -1315,40 +1315,40 @@
 
     mul-float v2, v2, v3
 
-    invoke-virtual {v4}, Lcom/jakex/makeupcore/bean/PointBean;->getPointX()F
+    invoke-virtual {v4}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointX()F
 
     move-result v5
 
     sub-float/2addr v2, v5
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/bean/PointBean;->getPointY()F
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointY()F
 
     move-result v5
 
     mul-float v5, v5, v3
 
-    invoke-virtual {v4}, Lcom/jakex/makeupcore/bean/PointBean;->getPointY()F
+    invoke-virtual {v4}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointY()F
 
     move-result v3
 
     sub-float/2addr v5, v3
 
-    invoke-virtual {v1, v2, v5}, Lcom/jakex/makeupcore/bean/PointBean;->set(FF)V
+    invoke-virtual {v1, v2, v5}, Lcom/jakex/ymluxscore/bean/PointBean;->set(FF)V
 
     :goto_1
-    iget-object v1, p0, Lcom/jakex/makeupsenior/widget/a/b;->w:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object v1, p0, Lcom/jakex/makeupsenior/widget/a/b;->w:Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-direct {p0, v1, v0}, Lcom/jakex/makeupsenior/widget/a/b;->a(Lcom/jakex/makeupcore/bean/PointBean;Lcom/jakex/makeupcore/bean/PointBean;)V
+    invoke-direct {p0, v1, v0}, Lcom/jakex/makeupsenior/widget/a/b;->a(Lcom/jakex/ymluxscore/bean/PointBean;Lcom/jakex/ymluxscore/bean/PointBean;)V
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/a/b;->x:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/a/b;->x:Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-direct {p0, v0, v4}, Lcom/jakex/makeupsenior/widget/a/b;->a(Lcom/jakex/makeupcore/bean/PointBean;Lcom/jakex/makeupcore/bean/PointBean;)V
+    invoke-direct {p0, v0, v4}, Lcom/jakex/makeupsenior/widget/a/b;->a(Lcom/jakex/ymluxscore/bean/PointBean;Lcom/jakex/ymluxscore/bean/PointBean;)V
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/a/b;->w:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/a/b;->w:Lcom/jakex/ymluxscore/bean/PointBean;
 
-    iget-object v1, p0, Lcom/jakex/makeupsenior/widget/a/b;->x:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object v1, p0, Lcom/jakex/makeupsenior/widget/a/b;->x:Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-direct {p0, p1, v0, v1}, Lcom/jakex/makeupsenior/widget/a/b;->a(Landroid/graphics/Canvas;Lcom/jakex/makeupcore/bean/PointBean;Lcom/jakex/makeupcore/bean/PointBean;)V
+    invoke-direct {p0, p1, v0, v1}, Lcom/jakex/makeupsenior/widget/a/b;->a(Landroid/graphics/Canvas;Lcom/jakex/ymluxscore/bean/PointBean;Lcom/jakex/ymluxscore/bean/PointBean;)V
 
     return-void
 
@@ -1385,13 +1385,13 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/jakex/makeupcore/bean/PointBean;
+    check-cast v2, Lcom/jakex/ymluxscore/bean/PointBean;
 
     if-eqz v2, :cond_5
 
-    iget-object v3, p0, Lcom/jakex/makeupsenior/widget/a/b;->m:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object v3, p0, Lcom/jakex/makeupsenior/widget/a/b;->m:Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-virtual {v2, v3}, Lcom/jakex/makeupcore/bean/PointBean;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v3}, Lcom/jakex/ymluxscore/bean/PointBean;->equals(Ljava/lang/Object;)Z
 
     move-result v3
 
@@ -1400,11 +1400,11 @@
     goto :goto_2
 
     :cond_6
-    invoke-virtual {v2}, Lcom/jakex/makeupcore/bean/PointBean;->getPointName()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointName()Ljava/lang/String;
 
     move-result-object v3
 
-    invoke-direct {p0, v2}, Lcom/jakex/makeupsenior/widget/a/b;->a(Lcom/jakex/makeupcore/bean/PointBean;)Z
+    invoke-direct {p0, v2}, Lcom/jakex/makeupsenior/widget/a/b;->a(Lcom/jakex/ymluxscore/bean/PointBean;)Z
 
     move-result v4
 
@@ -1413,9 +1413,9 @@
     goto :goto_2
 
     :cond_7
-    iget-object v4, p0, Lcom/jakex/makeupsenior/widget/a/b;->h:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object v4, p0, Lcom/jakex/makeupsenior/widget/a/b;->h:Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-direct {p0, v4, v2}, Lcom/jakex/makeupsenior/widget/a/b;->a(Lcom/jakex/makeupcore/bean/PointBean;Lcom/jakex/makeupcore/bean/PointBean;)V
+    invoke-direct {p0, v4, v2}, Lcom/jakex/makeupsenior/widget/a/b;->a(Lcom/jakex/ymluxscore/bean/PointBean;Lcom/jakex/ymluxscore/bean/PointBean;)V
 
     invoke-direct {p0, v3}, Lcom/jakex/makeupsenior/widget/a/b;->b(Ljava/lang/String;)Z
 
@@ -1431,11 +1431,11 @@
 
     iget-object v2, p0, Lcom/jakex/makeupsenior/widget/a/b;->q:Landroid/graphics/Paint;
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object v3
 
-    invoke-virtual {v3}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v3}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->getResources()Landroid/content/res/Resources;
 
     move-result-object v3
 
@@ -1453,15 +1453,15 @@
 
     invoke-virtual {v2, v3}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    iget-object v2, p0, Lcom/jakex/makeupsenior/widget/a/b;->h:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object v2, p0, Lcom/jakex/makeupsenior/widget/a/b;->h:Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-virtual {v2}, Lcom/jakex/makeupcore/bean/PointBean;->getPointX()F
+    invoke-virtual {v2}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointX()F
 
     move-result v2
 
-    iget-object v3, p0, Lcom/jakex/makeupsenior/widget/a/b;->h:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object v3, p0, Lcom/jakex/makeupsenior/widget/a/b;->h:Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-virtual {v3}, Lcom/jakex/makeupcore/bean/PointBean;->getPointY()F
+    invoke-virtual {v3}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointY()F
 
     move-result v3
 
@@ -1478,15 +1478,15 @@
     :cond_8
     iget-object v4, p0, Lcom/jakex/makeupsenior/widget/a/b;->j:Landroid/graphics/Bitmap;
 
-    iget-object v2, p0, Lcom/jakex/makeupsenior/widget/a/b;->h:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object v2, p0, Lcom/jakex/makeupsenior/widget/a/b;->h:Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-virtual {v2}, Lcom/jakex/makeupcore/bean/PointBean;->getPointX()F
+    invoke-virtual {v2}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointX()F
 
     move-result v5
 
-    iget-object v2, p0, Lcom/jakex/makeupsenior/widget/a/b;->h:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object v2, p0, Lcom/jakex/makeupsenior/widget/a/b;->h:Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-virtual {v2}, Lcom/jakex/makeupcore/bean/PointBean;->getPointY()F
+    invoke-virtual {v2}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointY()F
 
     move-result v6
 
@@ -1501,25 +1501,25 @@
     goto :goto_2
 
     :cond_9
-    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/a/b;->m:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/a/b;->m:Lcom/jakex/ymluxscore/bean/PointBean;
 
     if-eqz v0, :cond_a
 
-    iget-object v1, p0, Lcom/jakex/makeupsenior/widget/a/b;->h:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object v1, p0, Lcom/jakex/makeupsenior/widget/a/b;->h:Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-direct {p0, v1, v0}, Lcom/jakex/makeupsenior/widget/a/b;->a(Lcom/jakex/makeupcore/bean/PointBean;Lcom/jakex/makeupcore/bean/PointBean;)V
+    invoke-direct {p0, v1, v0}, Lcom/jakex/makeupsenior/widget/a/b;->a(Lcom/jakex/ymluxscore/bean/PointBean;Lcom/jakex/ymluxscore/bean/PointBean;)V
 
     iget-object v4, p0, Lcom/jakex/makeupsenior/widget/a/b;->k:Landroid/graphics/Bitmap;
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/a/b;->h:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/a/b;->h:Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/bean/PointBean;->getPointX()F
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointX()F
 
     move-result v5
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/a/b;->h:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/a/b;->h:Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/bean/PointBean;->getPointY()F
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointY()F
 
     move-result v6
 
@@ -1536,14 +1536,14 @@
     return-void
 .end method
 
-.method private b(Lcom/jakex/makeupcore/bean/PointBean;Lcom/jakex/makeupcore/bean/PointBean;)V
+.method private b(Lcom/jakex/ymluxscore/bean/PointBean;Lcom/jakex/ymluxscore/bean/PointBean;)V
     .locals 4
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->getImageInvertMatrix()Landroid/graphics/Matrix;
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->getImageInvertMatrix()Landroid/graphics/Matrix;
 
     move-result-object v0
 
@@ -1551,7 +1551,7 @@
 
     new-array v1, v1, [F
 
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/PointBean;->getPointX()F
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointX()F
 
     move-result v2
 
@@ -1559,7 +1559,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p2}, Lcom/jakex/makeupcore/bean/PointBean;->getPointY()F
+    invoke-virtual {p2}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointY()F
 
     move-result p2
 
@@ -1573,7 +1573,7 @@
 
     aget v0, v1, v2
 
-    invoke-virtual {p1, p2, v0}, Lcom/jakex/makeupcore/bean/PointBean;->set(FF)V
+    invoke-virtual {p1, p2, v0}, Lcom/jakex/ymluxscore/bean/PointBean;->set(FF)V
 
     return-void
 .end method
@@ -1615,11 +1615,11 @@
 .method private c()V
     .locals 2
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -1631,11 +1631,11 @@
 
     iput-object v0, p0, Lcom/jakex/makeupsenior/widget/a/b;->j:Landroid/graphics/Bitmap;
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -1647,11 +1647,11 @@
 
     iput-object v0, p0, Lcom/jakex/makeupsenior/widget/a/b;->k:Landroid/graphics/Bitmap;
 
-    new-instance v0, Lcom/jakex/makeupcore/bean/PointBean;
+    new-instance v0, Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-direct {v0}, Lcom/jakex/makeupcore/bean/PointBean;-><init>()V
+    invoke-direct {v0}, Lcom/jakex/ymluxscore/bean/PointBean;-><init>()V
 
-    iput-object v0, p0, Lcom/jakex/makeupsenior/widget/a/b;->h:Lcom/jakex/makeupcore/bean/PointBean;
+    iput-object v0, p0, Lcom/jakex/makeupsenior/widget/a/b;->h:Lcom/jakex/ymluxscore/bean/PointBean;
 
     new-instance v0, Landroid/graphics/Matrix;
 
@@ -1723,13 +1723,13 @@
 .method private d()V
     .locals 3
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/a/b;->m:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/widget/a/b;->m:Lcom/jakex/ymluxscore/bean/PointBean;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_1
 
-    iput-object v1, p0, Lcom/jakex/makeupsenior/widget/a/b;->m:Lcom/jakex/makeupcore/bean/PointBean;
+    iput-object v1, p0, Lcom/jakex/makeupsenior/widget/a/b;->m:Lcom/jakex/ymluxscore/bean/PointBean;
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/widget/a/b;->y:Ljava/util/List;
 
@@ -1765,11 +1765,11 @@
     goto :goto_0
 
     :cond_0
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->invalidate()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->invalidate()V
 
     :cond_1
     iget-object v0, p0, Lcom/jakex/makeupsenior/widget/a/b;->p:Lcom/jakex/makeupsenior/widget/a/b$c;
@@ -1789,11 +1789,11 @@
 .method private e()F
     .locals 3
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->getScale()F
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->getScale()F
 
     move-result v0
 
@@ -1872,15 +1872,15 @@
 
     iget v2, p0, Lcom/jakex/makeupsenior/widget/a/b;->A:F
 
-    invoke-static {v0, v1, p1, v2}, Lcom/jakex/makeupcore/util/bg;->b(FFFF)F
+    invoke-static {v0, v1, p1, v2}, Lcom/jakex/ymluxscore/util/bg;->b(FFFF)F
 
     move-result v1
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->getMinMoveDis()F
+    invoke-virtual {v2}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->getMinMoveDis()F
 
     move-result v2
 
@@ -1891,7 +1891,7 @@
     return-void
 
     :cond_1
-    iget-object v1, p0, Lcom/jakex/makeupsenior/widget/a/b;->m:Lcom/jakex/makeupcore/bean/PointBean;
+    iget-object v1, p0, Lcom/jakex/makeupsenior/widget/a/b;->m:Lcom/jakex/ymluxscore/bean/PointBean;
 
     if-eqz v1, :cond_2
 
@@ -1903,13 +1903,13 @@
 
     sub-float v3, p1, v3
 
-    invoke-direct {p0, v1, v2, v3}, Lcom/jakex/makeupsenior/widget/a/b;->a(Lcom/jakex/makeupcore/bean/PointBean;FF)V
+    invoke-direct {p0, v1, v2, v3}, Lcom/jakex/makeupsenior/widget/a/b;->a(Lcom/jakex/ymluxscore/bean/PointBean;FF)V
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->invalidate()V
+    invoke-virtual {v1}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->invalidate()V
 
     :cond_2
     iput v0, p0, Lcom/jakex/makeupsenior/widget/a/b;->z:F
@@ -1986,7 +1986,7 @@
             "(",
             "Ljava/util/Map<",
             "Ljava/lang/String;",
-            "Lcom/jakex/makeupcore/bean/PointBean;",
+            "Lcom/jakex/ymluxscore/bean/PointBean;",
             ">;)V"
         }
     .end annotation
@@ -2011,19 +2011,19 @@
     iput-object v0, p0, Lcom/jakex/makeupsenior/widget/a/b;->g:Ljava/util/Map;
 
     :cond_1
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->getBitmapWidth()F
+    invoke-virtual {v0}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->getBitmapWidth()F
 
     move-result v0
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->getBitmapHeight()F
+    invoke-virtual {v1}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->getBitmapHeight()F
 
     move-result v1
 
@@ -2074,11 +2074,11 @@
 
     move-result-object v3
 
-    check-cast v3, Lcom/jakex/makeupcore/bean/PointBean;
+    check-cast v3, Lcom/jakex/ymluxscore/bean/PointBean;
 
     if-eqz v3, :cond_3
 
-    invoke-virtual {v3}, Lcom/jakex/makeupcore/bean/PointBean;->getPointName()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointName()Ljava/lang/String;
 
     move-result-object v4
 
@@ -2088,31 +2088,31 @@
 
     if-nez v4, :cond_3
 
-    new-instance v4, Lcom/jakex/makeupcore/bean/PointBean;
+    new-instance v4, Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-direct {v4}, Lcom/jakex/makeupcore/bean/PointBean;-><init>()V
+    invoke-direct {v4}, Lcom/jakex/ymluxscore/bean/PointBean;-><init>()V
 
-    invoke-virtual {v3}, Lcom/jakex/makeupcore/bean/PointBean;->getPointX()F
+    invoke-virtual {v3}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointX()F
 
     move-result v5
 
     mul-float v5, v5, v0
 
-    invoke-virtual {v3}, Lcom/jakex/makeupcore/bean/PointBean;->getPointY()F
+    invoke-virtual {v3}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointY()F
 
     move-result v6
 
     mul-float v6, v6, v1
 
-    invoke-virtual {v4, v5, v6}, Lcom/jakex/makeupcore/bean/PointBean;->set(FF)V
+    invoke-virtual {v4, v5, v6}, Lcom/jakex/ymluxscore/bean/PointBean;->set(FF)V
 
-    invoke-virtual {v3}, Lcom/jakex/makeupcore/bean/PointBean;->getPointName()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointName()Ljava/lang/String;
 
     move-result-object v5
 
-    invoke-virtual {v4, v5}, Lcom/jakex/makeupcore/bean/PointBean;->setPointName(Ljava/lang/String;)V
+    invoke-virtual {v4, v5}, Lcom/jakex/ymluxscore/bean/PointBean;->setPointName(Ljava/lang/String;)V
 
-    invoke-virtual {v3}, Lcom/jakex/makeupcore/bean/PointBean;->getPointName()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointName()Ljava/lang/String;
 
     move-result-object v3
 
@@ -2190,7 +2190,7 @@
             "()",
             "Ljava/util/HashMap<",
             "Ljava/lang/String;",
-            "Lcom/jakex/makeupcore/bean/PointBean;",
+            "Lcom/jakex/ymluxscore/bean/PointBean;",
             ">;"
         }
     .end annotation
@@ -2201,19 +2201,19 @@
 
     invoke-direct {v0, v1}, Ljava/util/HashMap;-><init>(I)V
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->getBitmapWidth()F
+    invoke-virtual {v1}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->getBitmapWidth()F
 
     move-result v1
 
-    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;
+    invoke-virtual {p0}, Lcom/jakex/makeupsenior/widget/a/b;->a()Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/jakex/makeupeditor/widget/makeuplayer/BeautyMakeupBaseView;->getBitmapHeight()F
+    invoke-virtual {v2}, Lcom/jakex/ymluxseditor/widget/makeuplayer/BeautyMakeupBaseView;->getBitmapHeight()F
 
     move-result v2
 
@@ -2277,31 +2277,31 @@
 
     move-result-object v4
 
-    check-cast v4, Lcom/jakex/makeupcore/bean/PointBean;
+    check-cast v4, Lcom/jakex/ymluxscore/bean/PointBean;
 
     if-eqz v4, :cond_2
 
-    new-instance v6, Lcom/jakex/makeupcore/bean/PointBean;
+    new-instance v6, Lcom/jakex/ymluxscore/bean/PointBean;
 
-    invoke-virtual {v4}, Lcom/jakex/makeupcore/bean/PointBean;->getPointX()F
+    invoke-virtual {v4}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointX()F
 
     move-result v7
 
     div-float/2addr v7, v1
 
-    invoke-virtual {v4}, Lcom/jakex/makeupcore/bean/PointBean;->getPointY()F
+    invoke-virtual {v4}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointY()F
 
     move-result v8
 
     div-float/2addr v8, v2
 
-    invoke-direct {v6, v7, v8}, Lcom/jakex/makeupcore/bean/PointBean;-><init>(FF)V
+    invoke-direct {v6, v7, v8}, Lcom/jakex/ymluxscore/bean/PointBean;-><init>(FF)V
 
-    invoke-virtual {v4}, Lcom/jakex/makeupcore/bean/PointBean;->getPointName()Ljava/lang/String;
+    invoke-virtual {v4}, Lcom/jakex/ymluxscore/bean/PointBean;->getPointName()Ljava/lang/String;
 
     move-result-object v4
 
-    invoke-virtual {v6, v4}, Lcom/jakex/makeupcore/bean/PointBean;->setPointName(Ljava/lang/String;)V
+    invoke-virtual {v6, v4}, Lcom/jakex/ymluxscore/bean/PointBean;->setPointName(Ljava/lang/String;)V
 
     invoke-virtual {v0, v5, v6}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 

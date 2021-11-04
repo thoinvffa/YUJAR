@@ -1,11 +1,11 @@
 .class public Lcom/jakex/makeupalbum/a/b;
-.super Lcom/jakex/makeupcore/b/d;
+.super Lcom/jakex/ymluxscore/b/d;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupcore/b/d<",
+        "Lcom/jakex/ymluxscore/b/d<",
         "Lcom/jakex/makeupalbum/c/a;",
         ">;"
     }
@@ -28,7 +28,7 @@
         }
     .end annotation
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupcore/b/d;-><init>(Ljava/util/List;)V
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscore/b/d;-><init>(Ljava/util/List;)V
 
     return-void
 .end method
@@ -51,12 +51,12 @@
     return-void
 .end method
 
-.method public a(Lcom/jakex/makeupcore/b/e;ILcom/jakex/makeupalbum/c/a;)V
+.method public a(Lcom/jakex/ymluxscore/b/e;ILcom/jakex/makeupalbum/c/a;)V
     .locals 2
 
     sget p2, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->album_bucket_item_thumb_iv:I
 
-    invoke-virtual {p1, p2}, Lcom/jakex/makeupcore/b/e;->c(I)Landroid/widget/ImageView;
+    invoke-virtual {p1, p2}, Lcom/jakex/ymluxscore/b/e;->c(I)Landroid/widget/ImageView;
 
     move-result-object p2
 
@@ -74,7 +74,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/jakex/makeupcore/b/e;->a(ILjava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/jakex/ymluxscore/b/e;->a(ILjava/lang/String;)V
 
     invoke-virtual {p2}, Landroid/widget/ImageView;->getContext()Landroid/content/Context;
 
@@ -108,17 +108,17 @@
 
     sget p3, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->album_bucket_item_count_tv:I
 
-    invoke-virtual {p1, p3, p2}, Lcom/jakex/makeupcore/b/e;->a(ILjava/lang/String;)V
+    invoke-virtual {p1, p3, p2}, Lcom/jakex/ymluxscore/b/e;->a(ILjava/lang/String;)V
 
     return-void
 .end method
 
-.method public bridge synthetic a(Lcom/jakex/makeupcore/b/e;ILjava/lang/Object;)V
+.method public bridge synthetic a(Lcom/jakex/ymluxscore/b/e;ILjava/lang/Object;)V
     .locals 0
 
     check-cast p3, Lcom/jakex/makeupalbum/c/a;
 
-    invoke-virtual {p0, p1, p2, p3}, Lcom/jakex/makeupalbum/a/b;->a(Lcom/jakex/makeupcore/b/e;ILcom/jakex/makeupalbum/c/a;)V
+    invoke-virtual {p0, p1, p2, p3}, Lcom/jakex/makeupalbum/a/b;->a(Lcom/jakex/ymluxscore/b/e;ILcom/jakex/makeupalbum/c/a;)V
 
     return-void
 .end method

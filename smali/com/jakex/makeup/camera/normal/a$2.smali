@@ -44,11 +44,11 @@
 
     iget-object v0, p0, Lcom/jakex/makeup/camera/normal/a$2;->a:Lcom/jakex/makeup/camera/normal/a;
 
-    invoke-static {v0}, Lcom/jakex/makeup/camera/normal/a;->n(Lcom/jakex/makeup/camera/normal/a;)Lcom/jakex/makeupcore/modular/extra/CameraExtra;
+    invoke-static {v0}, Lcom/jakex/makeup/camera/normal/a;->n(Lcom/jakex/makeup/camera/normal/a;)Lcom/jakex/ymluxscore/modular/extra/CameraExtra;
 
     move-result-object v0
 
-    iget v0, v0, Lcom/jakex/makeupcore/modular/extra/CameraExtra;->mSelectMaxPictureSize:I
+    iget v0, v0, Lcom/jakex/ymluxscore/modular/extra/CameraExtra;->mSelectMaxPictureSize:I
 
     if-gtz v0, :cond_1
 
@@ -57,7 +57,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {}, Lcom/jakex/makeupcore/util/l;->b()I
+    invoke-static {}, Lcom/jakex/ymluxscore/util/l;->b()I
 
     move-result v0
 
@@ -149,11 +149,11 @@
 
     const p1, 0x7f0c0500
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/widget/a/a;->a(I)V
+    invoke-static {p1}, Lcom/jakex/ymluxscore/widget/a/a;->a(I)V
 
     const-string p1, "\u666e\u901a\u76f8\u673a"
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/c/a/b;->e(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/jakex/ymluxscore/c/a/b;->e(Ljava/lang/String;)V
 
     return-void
 .end method

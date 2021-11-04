@@ -44,12 +44,12 @@
 
     const p1, 0x7f0c023e
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/widget/a/a;->a(I)V
+    invoke-static {p1}, Lcom/jakex/ymluxscore/widget/a/a;->a(I)V
 
     return-void
 
     :cond_0
-    invoke-static {}, Lcom/jakex/makeupcore/util/f;->b()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/util/f;->b()Z
 
     move-result p3
 
@@ -57,12 +57,12 @@
 
     const-string p3, ""
 
-    invoke-static {p1, p2, p3}, Lcom/jakex/makeupcore/util/ad;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2, p3}, Lcom/jakex/ymluxscore/util/ad;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
     :cond_1
-    sget-object p3, Lcom/jakex/makeupcore/util/aw;->g:Ljava/lang/String;
+    sget-object p3, Lcom/jakex/ymluxscore/util/aw;->g:Ljava/lang/String;
 
     invoke-static {p1, p2, p3}, Lcom/jakex/makeup/service/download/DownloadService;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
 

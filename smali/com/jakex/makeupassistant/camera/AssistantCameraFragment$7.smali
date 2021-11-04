@@ -47,19 +47,19 @@
 
     if-eqz p2, :cond_0
 
-    invoke-virtual {p2}, Lcom/jakex/makeup/library/camerakit/aiengine/b$a;->a()Lcom/jakex/mtlab/MTAiInterface/MTAiEngineResult;
+    invoke-virtual {p2}, Lcom/jakex/makeup/library/camerakit/aiengine/b$a;->a()Lcom/jakex/ymlux/MTAiInterface/MTAiEngineResult;
 
     move-result-object p3
 
     if-eqz p3, :cond_0
 
-    invoke-virtual {p2}, Lcom/jakex/makeup/library/camerakit/aiengine/b$a;->a()Lcom/jakex/mtlab/MTAiInterface/MTAiEngineResult;
+    invoke-virtual {p2}, Lcom/jakex/makeup/library/camerakit/aiengine/b$a;->a()Lcom/jakex/ymlux/MTAiInterface/MTAiEngineResult;
 
     move-result-object p2
 
-    iget-object p2, p2, Lcom/jakex/mtlab/MTAiInterface/MTAiEngineResult;->faceResult:Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
+    iget-object p2, p2, Lcom/jakex/ymlux/MTAiInterface/MTAiEngineResult;->faceResult:Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;
 
-    invoke-static {p2}, Lcom/jakex/makeupfacedetector/b;->a(Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)Lcom/jakex/makeupfacedetector/a;
+    invoke-static {p2}, Lcom/jakex/makeupfacedetector/b;->a(Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;)Lcom/jakex/makeupfacedetector/a;
 
     move-result-object p2
 
@@ -116,7 +116,7 @@
 
     sget p1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$string;->take_picture_fail:I
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/widget/a/a;->a(I)V
+    invoke-static {p1}, Lcom/jakex/ymluxscore/widget/a/a;->a(I)V
 
     return-void
 .end method

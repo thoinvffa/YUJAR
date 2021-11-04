@@ -1,4 +1,4 @@
-.class Lcom/jakex/makeupselfie/camera/b$5;
+.class Lcom/jakex/ymluxscoresf/camera/b$5;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -7,7 +7,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/jakex/makeupselfie/camera/b;
+    value = Lcom/jakex/ymluxscoresf/camera/b;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,14 +17,14 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/jakex/makeupselfie/camera/b;
+.field final synthetic a:Lcom/jakex/ymluxscoresf/camera/b;
 
 
 # direct methods
-.method constructor <init>(Lcom/jakex/makeupselfie/camera/b;)V
+.method constructor <init>(Lcom/jakex/ymluxscoresf/camera/b;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/camera/b$5;->a:Lcom/jakex/makeupselfie/camera/b;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/camera/b$5;->a:Lcom/jakex/ymluxscoresf/camera/b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -36,9 +36,9 @@
 .method public a()V
     .locals 2
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/b$5;->a:Lcom/jakex/makeupselfie/camera/b;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/b$5;->a:Lcom/jakex/ymluxscoresf/camera/b;
 
-    invoke-static {v0}, Lcom/jakex/makeupselfie/camera/b;->s(Lcom/jakex/makeupselfie/camera/b;)Z
+    invoke-static {v0}, Lcom/jakex/ymluxscoresf/camera/b;->s(Lcom/jakex/ymluxscoresf/camera/b;)Z
 
     move-result v0
 
@@ -54,16 +54,16 @@
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/b$5;->a:Lcom/jakex/makeupselfie/camera/b;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/b$5;->a:Lcom/jakex/ymluxscoresf/camera/b;
 
     sget v1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$string;->ar_theme_makeup_net_error_tip:I
 
-    invoke-static {v0, v1}, Lcom/jakex/makeupselfie/camera/b;->a(Lcom/jakex/makeupselfie/camera/b;I)V
+    invoke-static {v0, v1}, Lcom/jakex/ymluxscoresf/camera/b;->a(Lcom/jakex/ymluxscoresf/camera/b;I)V
 
     :cond_0
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/b$5;->a:Lcom/jakex/makeupselfie/camera/b;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/b$5;->a:Lcom/jakex/ymluxscoresf/camera/b;
 
-    invoke-static {v0}, Lcom/jakex/makeupselfie/camera/b;->t(Lcom/jakex/makeupselfie/camera/b;)V
+    invoke-static {v0}, Lcom/jakex/ymluxscoresf/camera/b;->t(Lcom/jakex/ymluxscoresf/camera/b;)V
 
     return-void
 .end method
@@ -71,9 +71,9 @@
 .method public b()V
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupselfie/camera/b$5;->a:Lcom/jakex/makeupselfie/camera/b;
+    iget-object v0, p0, Lcom/jakex/ymluxscoresf/camera/b$5;->a:Lcom/jakex/ymluxscoresf/camera/b;
 
-    invoke-static {v0}, Lcom/jakex/makeupselfie/camera/b;->q(Lcom/jakex/makeupselfie/camera/b;)V
+    invoke-static {v0}, Lcom/jakex/ymluxscoresf/camera/b;->q(Lcom/jakex/ymluxscoresf/camera/b;)V
 
     return-void
 .end method

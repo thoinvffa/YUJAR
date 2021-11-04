@@ -43,7 +43,7 @@
     return-object v0
 .end method
 
-.method public a(Landroid/content/Intent;Lcom/jakex/makeupcore/h/a;)V
+.method public a(Landroid/content/Intent;Lcom/jakex/ymluxscore/h/a;)V
     .locals 3
 
     if-nez p2, :cond_0
@@ -59,7 +59,7 @@
 
     if-nez p1, :cond_1
 
-    invoke-interface {p2}, Lcom/jakex/makeupcore/h/a;->a()V
+    invoke-interface {p2}, Lcom/jakex/ymluxscore/h/a;->a()V
 
     return-void
 
@@ -100,7 +100,7 @@
 
     move-result-object p1
 
-    invoke-interface {p2, p1}, Lcom/jakex/makeupcore/h/a;->b(Ljava/lang/String;)V
+    invoke-interface {p2, p1}, Lcom/jakex/ymluxscore/h/a;->b(Ljava/lang/String;)V
 
     invoke-virtual {p0}, Lcom/jakex/c/a;->b()V
 
@@ -141,13 +141,13 @@
 
     invoke-static {v1, p1}, Lcom/jakex/library/util/Debug/Debug;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-interface {p2}, Lcom/jakex/makeupcore/h/a;->a()V
+    invoke-interface {p2}, Lcom/jakex/ymluxscore/h/a;->a()V
 
     :goto_0
     return-void
 .end method
 
-.method public a(Landroidx/fragment/app/FragmentActivity;Lcom/jakex/makeupcore/h/a;)V
+.method public a(Landroidx/fragment/app/FragmentActivity;Lcom/jakex/ymluxscore/h/a;)V
     .locals 3
 
     iget-object v0, p0, Lcom/jakex/c/a;->b:Lcom/google/android/gms/common/api/d;

@@ -68,7 +68,7 @@
     goto :goto_0
 
     :cond_1
-    invoke-static {p1}, Lcom/jakex/makeupeditor/configuration/c;->a(I)Z
+    invoke-static {p1}, Lcom/jakex/ymluxseditor/configuration/c;->a(I)Z
 
     move-result v0
 
@@ -213,7 +213,7 @@
     :cond_6
     sget p1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$string;->senior_none_blusher_tip:I
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/widget/a/a;->a(I)V
+    invoke-static {p1}, Lcom/jakex/ymluxscore/widget/a/a;->a(I)V
 
     const-string p1, "\u816e\u7ea2"
 

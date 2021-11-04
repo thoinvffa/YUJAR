@@ -10,7 +10,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    sget-object v1, Lcom/jakex/makeupcore/e/d;->a:Ljava/lang/String;
+    sget-object v1, Lcom/jakex/ymluxscore/e/d;->a:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -51,7 +51,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    sget-object v1, Lcom/jakex/makeupcore/e/d;->a:Ljava/lang/String;
+    sget-object v1, Lcom/jakex/ymluxscore/e/d;->a:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -111,7 +111,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    sget-object v1, Lcom/jakex/makeupcore/e/d;->a:Ljava/lang/String;
+    sget-object v1, Lcom/jakex/ymluxscore/e/d;->a:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -165,7 +165,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    sget-object v1, Lcom/jakex/makeupcore/e/d;->a:Ljava/lang/String;
+    sget-object v1, Lcom/jakex/ymluxscore/e/d;->a:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -216,7 +216,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    sget-object v1, Lcom/jakex/makeupcore/e/d;->a:Ljava/lang/String;
+    sget-object v1, Lcom/jakex/ymluxscore/e/d;->a:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -244,7 +244,7 @@
 .method private static d()Ljava/lang/String;
     .locals 1
 
-    invoke-static {}, Lcom/jakex/makeupaccount/d/a;->i()Lcom/jakex/makeupcore/bean/AccountUser;
+    invoke-static {}, Lcom/jakex/makeupaccount/d/a;->i()Lcom/jakex/ymluxscore/bean/AccountUser;
 
     move-result-object v0
 
@@ -255,7 +255,7 @@
     return-object v0
 
     :cond_0
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/bean/AccountUser;->getId()Ljava/lang/Long;
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/bean/AccountUser;->getId()Ljava/lang/Long;
 
     move-result-object v0
 

@@ -14,7 +14,7 @@
 
 
 # instance fields
-.field a:[Lcom/jakex/makeupcore/widget/SquareImageView;
+.field a:[Lcom/jakex/ymluxscore/widget/SquareImageView;
 
 .field final synthetic b:Lcom/jakex/makeupalbum/a/a;
 
@@ -31,9 +31,9 @@
 
     move-result p1
 
-    new-array p1, p1, [Lcom/jakex/makeupcore/widget/SquareImageView;
+    new-array p1, p1, [Lcom/jakex/ymluxscore/widget/SquareImageView;
 
-    iput-object p1, p0, Lcom/jakex/makeupalbum/a/a$a;->a:[Lcom/jakex/makeupcore/widget/SquareImageView;
+    iput-object p1, p0, Lcom/jakex/makeupalbum/a/a$a;->a:[Lcom/jakex/ymluxscore/widget/SquareImageView;
 
     return-void
 .end method
@@ -126,9 +126,9 @@
 
     move-result-object v7
 
-    check-cast v7, Lcom/jakex/makeupcore/bean/ModelAlbumBean;
+    check-cast v7, Lcom/jakex/ymluxscore/bean/ModelAlbumBean;
 
-    invoke-virtual {v7}, Lcom/jakex/makeupcore/bean/ModelAlbumBean;->getUriFromPath()Landroid/net/Uri;
+    invoke-virtual {v7}, Lcom/jakex/ymluxscore/bean/ModelAlbumBean;->getUriFromPath()Landroid/net/Uri;
 
     move-result-object v8
 
@@ -150,17 +150,17 @@
     move-result-object v8
 
     :goto_2
-    iget-object v9, p0, Lcom/jakex/makeupalbum/a/a$a;->a:[Lcom/jakex/makeupcore/widget/SquareImageView;
+    iget-object v9, p0, Lcom/jakex/makeupalbum/a/a$a;->a:[Lcom/jakex/ymluxscore/widget/SquareImageView;
 
     aget-object v9, v9, v6
 
-    invoke-virtual {v9, v4}, Lcom/jakex/makeupcore/widget/SquareImageView;->setVisibility(I)V
+    invoke-virtual {v9, v4}, Lcom/jakex/ymluxscore/widget/SquareImageView;->setVisibility(I)V
 
     new-instance v10, Lcom/jakex/makeupalbum/a/a$a$1;
 
     invoke-direct {v10, p0, v7, v5}, Lcom/jakex/makeupalbum/a/a$a$1;-><init>(Lcom/jakex/makeupalbum/a/a$a;Ljava/lang/Object;I)V
 
-    invoke-virtual {v9, v10}, Lcom/jakex/makeupcore/widget/SquareImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v9, v10}, Lcom/jakex/ymluxscore/widget/SquareImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     instance-of v10, v7, Lcom/jakex/makeupalbum/c/b;
 
@@ -174,11 +174,11 @@
 
     if-eqz v7, :cond_2
 
-    invoke-static {v9}, Lcom/jakex/makeupcore/glide/a;->b(Landroid/widget/ImageView;)V
+    invoke-static {v9}, Lcom/jakex/ymluxscore/glide/a;->b(Landroid/widget/ImageView;)V
 
     sget v7, Lcom/tbuonomo/viewpagerdotsindicator/Resource$drawable;->album_camera_layer:I
 
-    invoke-virtual {v9, v7}, Lcom/jakex/makeupcore/widget/SquareImageView;->setImageResource(I)V
+    invoke-virtual {v9, v7}, Lcom/jakex/ymluxscore/widget/SquareImageView;->setImageResource(I)V
 
     goto :goto_3
 
@@ -248,13 +248,13 @@
 
     if-ge p2, v0, :cond_7
 
-    iget-object v0, p0, Lcom/jakex/makeupalbum/a/a$a;->a:[Lcom/jakex/makeupcore/widget/SquareImageView;
+    iget-object v0, p0, Lcom/jakex/makeupalbum/a/a$a;->a:[Lcom/jakex/ymluxscore/widget/SquareImageView;
 
     if-ge p2, p1, :cond_6
 
     aget-object v0, v0, p2
 
-    invoke-virtual {v0, v4}, Lcom/jakex/makeupcore/widget/SquareImageView;->setVisibility(I)V
+    invoke-virtual {v0, v4}, Lcom/jakex/ymluxscore/widget/SquareImageView;->setVisibility(I)V
 
     goto :goto_5
 
@@ -263,7 +263,7 @@
 
     const/4 v1, 0x4
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/widget/SquareImageView;->setVisibility(I)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/widget/SquareImageView;->setVisibility(I)V
 
     :goto_5
     add-int/lit8 p2, p2, 0x1
@@ -292,21 +292,21 @@
 
     if-ge v1, v2, :cond_1
 
-    new-instance v2, Lcom/jakex/makeupcore/widget/SquareImageView;
+    new-instance v2, Lcom/jakex/ymluxscore/widget/SquareImageView;
 
     invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v3
 
-    invoke-direct {v2, v3}, Lcom/jakex/makeupcore/widget/SquareImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {v2, v3}, Lcom/jakex/ymluxscore/widget/SquareImageView;-><init>(Landroid/content/Context;)V
 
     sget v3, Lcom/tbuonomo/viewpagerdotsindicator/Resource$id;->album_elv_child_item_img_siv:I
 
-    invoke-virtual {v2, v3}, Lcom/jakex/makeupcore/widget/SquareImageView;->setId(I)V
+    invoke-virtual {v2, v3}, Lcom/jakex/ymluxscore/widget/SquareImageView;->setId(I)V
 
     sget-object v3, Landroid/widget/ImageView$ScaleType;->CENTER_CROP:Landroid/widget/ImageView$ScaleType;
 
-    invoke-virtual {v2, v3}, Lcom/jakex/makeupcore/widget/SquareImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
+    invoke-virtual {v2, v3}, Lcom/jakex/ymluxscore/widget/SquareImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
 
     new-instance v3, Landroid/widget/LinearLayout$LayoutParams;
 
@@ -337,7 +337,7 @@
     :cond_0
     invoke-virtual {v0, v2, v3}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    iget-object v3, p0, Lcom/jakex/makeupalbum/a/a$a;->a:[Lcom/jakex/makeupcore/widget/SquareImageView;
+    iget-object v3, p0, Lcom/jakex/makeupalbum/a/a$a;->a:[Lcom/jakex/ymluxscore/widget/SquareImageView;
 
     aput-object v2, v3, v1
 

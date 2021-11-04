@@ -9,7 +9,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/jakex/makeupcore/bean/ModelAlbumBean;",
+            "Lcom/jakex/ymluxscore/bean/ModelAlbumBean;",
             ">;"
         }
     .end annotation
@@ -72,7 +72,7 @@
             "(",
             "Lcom/jakex/makeupalbum/c/a;",
             "Ljava/util/List<",
-            "Lcom/jakex/makeupcore/bean/ModelAlbumBean;",
+            "Lcom/jakex/ymluxscore/bean/ModelAlbumBean;",
             ">;)",
             "Lcom/jakex/makeupalbum/b/a/a;"
         }
@@ -117,7 +117,7 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Lcom/jakex/makeupcore/bean/ModelAlbumBean;",
+            "Lcom/jakex/ymluxscore/bean/ModelAlbumBean;",
             ">;"
         }
     .end annotation

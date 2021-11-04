@@ -47,11 +47,11 @@
 
     new-instance p2, Lcom/jakex/makeupaccount/a/b;
 
-    invoke-static {}, Lcom/jakex/makeupaccount/d/a;->i()Lcom/jakex/makeupcore/bean/AccountUser;
+    invoke-static {}, Lcom/jakex/makeupaccount/d/a;->i()Lcom/jakex/ymluxscore/bean/AccountUser;
 
     move-result-object v0
 
-    invoke-direct {p2, v0}, Lcom/jakex/makeupaccount/a/b;-><init>(Lcom/jakex/makeupcore/bean/AccountUser;)V
+    invoke-direct {p2, v0}, Lcom/jakex/makeupaccount/a/b;-><init>(Lcom/jakex/ymluxscore/bean/AccountUser;)V
 
     invoke-virtual {p1, p2}, Lorg/greenrobot/eventbus/EventBus;->post(Ljava/lang/Object;)V
 

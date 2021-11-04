@@ -14,8 +14,8 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;)J
+.method public abstract a(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;)J
 .end method
 
-.method public abstract a(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegmentResult;)V
+.method public abstract a(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegmentResult;)V
 .end method

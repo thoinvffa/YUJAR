@@ -6,7 +6,7 @@
 .method public static a(Landroid/graphics/Bitmap;)I
     .locals 5
 
-    invoke-static {p0}, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineImage;->createImageFromBitmap(Landroid/graphics/Bitmap;)Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineImage;
+    invoke-static {p0}, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineImage;->createImageFromBitmap(Landroid/graphics/Bitmap;)Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineImage;
 
     move-result-object p0
 
@@ -17,73 +17,73 @@
     return v0
 
     :cond_0
-    new-instance v1, Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;
+    new-instance v1, Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;
 
     invoke-static {}, Lcom/jakex/library/application/BaseApplication;->a()Landroid/app/Application;
 
     move-result-object v2
 
-    invoke-direct {v1, v2, v0}, Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;-><init>(Landroid/content/Context;I)V
+    invoke-direct {v1, v2, v0}, Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;-><init>(Landroid/content/Context;I)V
 
-    new-instance v2, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;
+    new-instance v2, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceOption;
 
-    invoke-direct {v2}, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;-><init>()V
+    invoke-direct {v2}, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceOption;-><init>()V
 
     const-wide/32 v3, 0xd06101
 
-    iput-wide v3, v2, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->option:J
+    iput-wide v3, v2, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceOption;->option:J
 
     const/4 v3, 0x2
 
-    iput v3, v2, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->mode:I
+    iput v3, v2, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceOption;->mode:I
 
-    iput v3, v2, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->maxFaceNum:I
+    iput v3, v2, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceOption;->maxFaceNum:I
 
-    invoke-virtual {v2}, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->detectorType()I
+    invoke-virtual {v2}, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceOption;->detectorType()I
 
     move-result v3
 
-    invoke-virtual {v1, v3, v2}, Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;->registerModule(ILcom/jakex/mtlab/MTAiInterface/common/MTAiEngineOption;)I
+    invoke-virtual {v1, v3, v2}, Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;->registerModule(ILcom/jakex/ymlux/MTAiInterface/common/MTAiEngineOption;)I
 
-    new-instance v3, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;
+    new-instance v3, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;
 
-    invoke-direct {v3}, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;-><init>()V
+    invoke-direct {v3}, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;-><init>()V
 
-    iput-object p0, v3, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;->colorImage:Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineImage;
+    iput-object p0, v3, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;->colorImage:Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineImage;
 
-    new-instance v4, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
+    new-instance v4, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;
 
-    invoke-direct {v4}, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;-><init>()V
+    invoke-direct {v4}, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;-><init>()V
 
-    iput-object v2, v4, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->faceOption:Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;
+    iput-object v2, v4, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;->faceOption:Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceOption;
 
-    invoke-virtual {v1, v3, v4}, Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;->run(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;)Lcom/jakex/mtlab/MTAiInterface/MTAiEngineResult;
+    invoke-virtual {v1, v3, v4}, Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;->run(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;)Lcom/jakex/ymlux/MTAiInterface/MTAiEngineResult;
 
     move-result-object v4
 
-    invoke-virtual {p0}, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineImage;->release()V
+    invoke-virtual {p0}, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineImage;->release()V
 
-    invoke-virtual {v3}, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;->clearFrame()V
+    invoke-virtual {v3}, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;->clearFrame()V
 
     if-eqz v4, :cond_4
 
     :try_start_0
-    iget-object p0, v4, Lcom/jakex/mtlab/MTAiInterface/MTAiEngineResult;->faceResult:Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
+    iget-object p0, v4, Lcom/jakex/ymlux/MTAiInterface/MTAiEngineResult;->faceResult:Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;
 
     if-eqz p0, :cond_4
 
-    iget-object p0, v4, Lcom/jakex/mtlab/MTAiInterface/MTAiEngineResult;->faceResult:Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
+    iget-object p0, v4, Lcom/jakex/ymlux/MTAiInterface/MTAiEngineResult;->faceResult:Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;
 
-    iget-object p0, p0, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFace;
+    iget-object p0, p0, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFace;
 
     if-nez p0, :cond_1
 
     goto :goto_1
 
     :cond_1
-    iget-object p0, v4, Lcom/jakex/mtlab/MTAiInterface/MTAiEngineResult;->faceResult:Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
+    iget-object p0, v4, Lcom/jakex/ymlux/MTAiInterface/MTAiEngineResult;->faceResult:Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;
 
-    iget-object p0, p0, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFace;
+    iget-object p0, p0, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFace;
 
     array-length p0, p0
 
@@ -94,13 +94,13 @@
     goto :goto_0
 
     :cond_2
-    iget-object v3, v4, Lcom/jakex/mtlab/MTAiInterface/MTAiEngineResult;->faceResult:Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
+    iget-object v3, v4, Lcom/jakex/ymlux/MTAiInterface/MTAiEngineResult;->faceResult:Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;
 
-    iget-object v3, v3, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFace;
+    iget-object v3, v3, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFace;
 
     aget-object v0, v3, v0
 
-    invoke-static {v0}, Lcom/jakex/makeupassistant/d/b;->a(Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFace;)Lcom/jakex/makeupassistant/d/a;
+    invoke-static {v0}, Lcom/jakex/makeupassistant/d/b;->a(Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFace;)Lcom/jakex/makeupassistant/d/a;
 
     move-result-object v0
 
@@ -114,32 +114,32 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     :goto_0
-    invoke-virtual {v2}, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->detectorType()I
+    invoke-virtual {v2}, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceOption;->detectorType()I
 
     move-result v0
 
-    invoke-virtual {v1, v0}, Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;->unregisterModule(I)I
+    invoke-virtual {v1, v0}, Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;->unregisterModule(I)I
 
     return p0
 
     :catchall_0
     move-exception p0
 
-    invoke-virtual {v2}, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->detectorType()I
+    invoke-virtual {v2}, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceOption;->detectorType()I
 
     move-result v0
 
-    invoke-virtual {v1, v0}, Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;->unregisterModule(I)I
+    invoke-virtual {v1, v0}, Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;->unregisterModule(I)I
 
     throw p0
 
     :cond_4
     :goto_1
-    invoke-virtual {v2}, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->detectorType()I
+    invoke-virtual {v2}, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceOption;->detectorType()I
 
     move-result p0
 
-    invoke-virtual {v1, p0}, Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;->unregisterModule(I)I
+    invoke-virtual {v1, p0}, Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;->unregisterModule(I)I
 
     return v0
 .end method
@@ -463,7 +463,7 @@
     return-void
 .end method
 
-.method private static a(Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFace;Lcom/jakex/makeupassistant/f/a;)V
+.method private static a(Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFace;Lcom/jakex/makeupassistant/f/a;)V
     .locals 21
 
     move-object/from16 v0, p0
@@ -671,7 +671,7 @@
     invoke-virtual {v3, v13}, Lcom/jakex/makeupassistant/bean/SkinAnalysisNativeResult;->setForeHeadWrinklePathPoints(Ljava/util/ArrayList;)V
 
     :cond_8
-    iget-object v13, v0, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFace;->faceBounds:Landroid/graphics/RectF;
+    iget-object v13, v0, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFace;->faceBounds:Landroid/graphics/RectF;
 
     invoke-virtual {v3, v13}, Lcom/jakex/makeupassistant/bean/SkinAnalysisNativeResult;->setFaceRect(Landroid/graphics/RectF;)V
 
@@ -689,9 +689,9 @@
 
     invoke-virtual {v3, v13}, Lcom/jakex/makeupassistant/bean/AnalysisNativeResult;->setPosition(Ljava/lang/String;)V
 
-    iget-object v14, v0, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFace;->gender:Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/attribute/MTGender;
+    iget-object v14, v0, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFace;->gender:Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/attribute/MTGender;
 
-    iget v14, v14, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/attribute/MTGender;->top:I
+    iget v14, v14, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/attribute/MTGender;->top:I
 
     const/4 v15, 0x1
 
@@ -1285,9 +1285,9 @@
 
     invoke-virtual {v1, v2}, Lcom/jakex/makeupassistant/bean/AnalysisNativeResult;->setPosition(Ljava/lang/String;)V
 
-    iget-object v0, v0, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFace;->age:Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/attribute/MTAge;
+    iget-object v0, v0, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFace;->age:Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/attribute/MTAge;
 
-    iget v0, v0, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/attribute/MTAge;->value:I
+    iget v0, v0, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/attribute/MTAge;->value:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1525,7 +1525,7 @@
 .method public static b(Landroid/graphics/Bitmap;)I
     .locals 6
 
-    invoke-static {p0}, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineImage;->createImageFromBitmap(Landroid/graphics/Bitmap;)Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineImage;
+    invoke-static {p0}, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineImage;->createImageFromBitmap(Landroid/graphics/Bitmap;)Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineImage;
 
     move-result-object p0
 
@@ -1536,102 +1536,102 @@
     return v0
 
     :cond_0
-    new-instance v1, Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;
+    new-instance v1, Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;
 
     invoke-static {}, Lcom/jakex/library/application/BaseApplication;->a()Landroid/app/Application;
 
     move-result-object v2
 
-    invoke-direct {v1, v2, v0}, Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;-><init>(Landroid/content/Context;I)V
+    invoke-direct {v1, v2, v0}, Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;-><init>(Landroid/content/Context;I)V
 
-    new-instance v2, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;
+    new-instance v2, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceOption;
 
-    invoke-direct {v2}, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;-><init>()V
+    invoke-direct {v2}, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceOption;-><init>()V
 
     const-wide/32 v3, 0xc00019
 
-    iput-wide v3, v2, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->option:J
+    iput-wide v3, v2, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceOption;->option:J
 
     const/4 v3, 0x2
 
-    iput v3, v2, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->mode:I
+    iput v3, v2, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceOption;->mode:I
 
-    iput v3, v2, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->maxFaceNum:I
+    iput v3, v2, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceOption;->maxFaceNum:I
 
-    new-instance v3, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinOption;
+    new-instance v3, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinOption;
 
-    invoke-direct {v3}, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinOption;-><init>()V
+    invoke-direct {v3}, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinOption;-><init>()V
 
     const-wide/32 v4, 0xa2aaf5
 
-    iput-wide v4, v3, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinOption;->option:J
+    iput-wide v4, v3, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinOption;->option:J
 
-    invoke-virtual {v2}, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->detectorType()I
-
-    move-result v4
-
-    invoke-virtual {v1, v4, v2}, Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;->registerModule(ILcom/jakex/mtlab/MTAiInterface/common/MTAiEngineOption;)I
-
-    invoke-virtual {v3}, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinOption;->detectorType()I
+    invoke-virtual {v2}, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceOption;->detectorType()I
 
     move-result v4
 
-    invoke-virtual {v1, v4, v3}, Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;->registerModule(ILcom/jakex/mtlab/MTAiInterface/common/MTAiEngineOption;)I
+    invoke-virtual {v1, v4, v2}, Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;->registerModule(ILcom/jakex/ymlux/MTAiInterface/common/MTAiEngineOption;)I
 
-    new-instance v4, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;
+    invoke-virtual {v3}, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinOption;->detectorType()I
 
-    invoke-direct {v4}, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;-><init>()V
+    move-result v4
 
-    iput-object p0, v4, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;->colorImage:Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineImage;
+    invoke-virtual {v1, v4, v3}, Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;->registerModule(ILcom/jakex/ymlux/MTAiInterface/common/MTAiEngineOption;)I
 
-    new-instance v5, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
+    new-instance v4, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;
 
-    invoke-direct {v5}, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;-><init>()V
+    invoke-direct {v4}, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;-><init>()V
 
-    iput-object v2, v5, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->faceOption:Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;
+    iput-object p0, v4, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;->colorImage:Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineImage;
 
-    iput-object v3, v5, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->skinOption:Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinOption;
+    new-instance v5, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;
 
-    invoke-virtual {v1, v4, v5}, Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;->run(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;)Lcom/jakex/mtlab/MTAiInterface/MTAiEngineResult;
+    invoke-direct {v5}, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;-><init>()V
+
+    iput-object v2, v5, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;->faceOption:Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceOption;
+
+    iput-object v3, v5, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;->skinOption:Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinOption;
+
+    invoke-virtual {v1, v4, v5}, Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;->run(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;)Lcom/jakex/ymlux/MTAiInterface/MTAiEngineResult;
 
     move-result-object v5
 
-    invoke-virtual {p0}, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineImage;->release()V
+    invoke-virtual {p0}, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineImage;->release()V
 
-    invoke-virtual {v4}, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;->clearFrame()V
+    invoke-virtual {v4}, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;->clearFrame()V
 
     if-eqz v5, :cond_4
 
     :try_start_0
-    iget-object p0, v5, Lcom/jakex/mtlab/MTAiInterface/MTAiEngineResult;->faceResult:Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
+    iget-object p0, v5, Lcom/jakex/ymlux/MTAiInterface/MTAiEngineResult;->faceResult:Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;
 
     if-eqz p0, :cond_4
 
-    iget-object p0, v5, Lcom/jakex/mtlab/MTAiInterface/MTAiEngineResult;->faceResult:Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
+    iget-object p0, v5, Lcom/jakex/ymlux/MTAiInterface/MTAiEngineResult;->faceResult:Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;
 
-    iget-object p0, p0, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFace;
+    iget-object p0, p0, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFace;
 
     if-nez p0, :cond_1
 
     goto :goto_1
 
     :cond_1
-    iget-object p0, v5, Lcom/jakex/mtlab/MTAiInterface/MTAiEngineResult;->skinResult:Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinResult;
+    iget-object p0, v5, Lcom/jakex/ymlux/MTAiInterface/MTAiEngineResult;->skinResult:Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinResult;
 
     if-eqz p0, :cond_4
 
-    iget-object p0, v5, Lcom/jakex/mtlab/MTAiInterface/MTAiEngineResult;->skinResult:Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinResult;
+    iget-object p0, v5, Lcom/jakex/ymlux/MTAiInterface/MTAiEngineResult;->skinResult:Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinResult;
 
-    iget-object p0, p0, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinResult;->skins:[Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkin;
+    iget-object p0, p0, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinResult;->skins:[Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkin;
 
     if-nez p0, :cond_2
 
     goto :goto_1
 
     :cond_2
-    iget-object p0, v5, Lcom/jakex/mtlab/MTAiInterface/MTAiEngineResult;->faceResult:Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
+    iget-object p0, v5, Lcom/jakex/ymlux/MTAiInterface/MTAiEngineResult;->faceResult:Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;
 
-    iget-object p0, p0, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFace;
+    iget-object p0, p0, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFace;
 
     array-length p0, p0
 
@@ -1642,71 +1642,71 @@
     goto :goto_0
 
     :cond_3
-    iget-object v4, v5, Lcom/jakex/mtlab/MTAiInterface/MTAiEngineResult;->faceResult:Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;
+    iget-object v4, v5, Lcom/jakex/ymlux/MTAiInterface/MTAiEngineResult;->faceResult:Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;
 
-    iget-object v4, v4, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFace;
+    iget-object v4, v4, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;->faces:[Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFace;
 
     aget-object v4, v4, v0
 
-    iget-object v5, v5, Lcom/jakex/mtlab/MTAiInterface/MTAiEngineResult;->skinResult:Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinResult;
+    iget-object v5, v5, Lcom/jakex/ymlux/MTAiInterface/MTAiEngineResult;->skinResult:Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinResult;
 
-    iget-object v5, v5, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinResult;->skins:[Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkin;
+    iget-object v5, v5, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinResult;->skins:[Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkin;
 
     aget-object v0, v5, v0
 
-    invoke-static {v0}, Lcom/jakex/makeupassistant/f/b;->a(Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkin;)Lcom/jakex/makeupassistant/f/a;
+    invoke-static {v0}, Lcom/jakex/makeupassistant/f/b;->a(Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkin;)Lcom/jakex/makeupassistant/f/a;
 
     move-result-object v0
 
-    invoke-static {v4, v0}, Lcom/jakex/makeupassistant/g/a;->a(Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFace;Lcom/jakex/makeupassistant/f/a;)V
+    invoke-static {v4, v0}, Lcom/jakex/makeupassistant/g/a;->a(Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFace;Lcom/jakex/makeupassistant/f/a;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     :goto_0
-    invoke-virtual {v2}, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->detectorType()I
+    invoke-virtual {v2}, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceOption;->detectorType()I
 
     move-result v0
 
-    invoke-virtual {v1, v0}, Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;->unregisterModule(I)I
+    invoke-virtual {v1, v0}, Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;->unregisterModule(I)I
 
-    invoke-virtual {v3}, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinOption;->detectorType()I
+    invoke-virtual {v3}, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinOption;->detectorType()I
 
     move-result v0
 
-    invoke-virtual {v1, v0}, Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;->unregisterModule(I)I
+    invoke-virtual {v1, v0}, Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;->unregisterModule(I)I
 
     return p0
 
     :catchall_0
     move-exception p0
 
-    invoke-virtual {v2}, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->detectorType()I
+    invoke-virtual {v2}, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceOption;->detectorType()I
 
     move-result v0
 
-    invoke-virtual {v1, v0}, Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;->unregisterModule(I)I
+    invoke-virtual {v1, v0}, Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;->unregisterModule(I)I
 
-    invoke-virtual {v3}, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinOption;->detectorType()I
+    invoke-virtual {v3}, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinOption;->detectorType()I
 
     move-result v0
 
-    invoke-virtual {v1, v0}, Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;->unregisterModule(I)I
+    invoke-virtual {v1, v0}, Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;->unregisterModule(I)I
 
     throw p0
 
     :cond_4
     :goto_1
-    invoke-virtual {v2}, Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;->detectorType()I
+    invoke-virtual {v2}, Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceOption;->detectorType()I
 
     move-result p0
 
-    invoke-virtual {v1, p0}, Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;->unregisterModule(I)I
+    invoke-virtual {v1, p0}, Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;->unregisterModule(I)I
 
-    invoke-virtual {v3}, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinOption;->detectorType()I
+    invoke-virtual {v3}, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinOption;->detectorType()I
 
     move-result p0
 
-    invoke-virtual {v1, p0}, Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;->unregisterModule(I)I
+    invoke-virtual {v1, p0}, Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;->unregisterModule(I)I
 
     return v0
 .end method

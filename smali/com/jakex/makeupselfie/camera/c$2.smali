@@ -1,10 +1,10 @@
-.class synthetic Lcom/jakex/makeupselfie/camera/c$2;
+.class synthetic Lcom/jakex/ymluxscoresf/camera/c$2;
 .super Ljava/lang/Object;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/jakex/makeupselfie/camera/c;
+    value = Lcom/jakex/ymluxscoresf/camera/c;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -23,7 +23,7 @@
 .method static constructor <clinit>()V
     .locals 4
 
-    invoke-static {}, Lcom/jakex/makeupcore/bean/download/DownloadState;->values()[Lcom/jakex/makeupcore/bean/download/DownloadState;
+    invoke-static {}, Lcom/jakex/ymluxscore/bean/download/DownloadState;->values()[Lcom/jakex/ymluxscore/bean/download/DownloadState;
 
     move-result-object v0
 
@@ -31,14 +31,14 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lcom/jakex/makeupselfie/camera/c$2;->b:[I
+    sput-object v0, Lcom/jakex/ymluxscoresf/camera/c$2;->b:[I
 
     const/4 v1, 0x1
 
     :try_start_0
-    sget-object v2, Lcom/jakex/makeupcore/bean/download/DownloadState;->INIT:Lcom/jakex/makeupcore/bean/download/DownloadState;
+    sget-object v2, Lcom/jakex/ymluxscore/bean/download/DownloadState;->INIT:Lcom/jakex/ymluxscore/bean/download/DownloadState;
 
-    invoke-virtual {v2}, Lcom/jakex/makeupcore/bean/download/DownloadState;->ordinal()I
+    invoke-virtual {v2}, Lcom/jakex/ymluxscore/bean/download/DownloadState;->ordinal()I
 
     move-result v2
 
@@ -53,11 +53,11 @@
 
     :goto_0
     :try_start_1
-    sget-object v0, Lcom/jakex/makeupselfie/camera/c$2;->b:[I
+    sget-object v0, Lcom/jakex/ymluxscoresf/camera/c$2;->b:[I
 
-    sget-object v2, Lcom/jakex/makeupcore/bean/download/DownloadState;->DOWNLOADING:Lcom/jakex/makeupcore/bean/download/DownloadState;
+    sget-object v2, Lcom/jakex/ymluxscore/bean/download/DownloadState;->DOWNLOADING:Lcom/jakex/ymluxscore/bean/download/DownloadState;
 
-    invoke-virtual {v2}, Lcom/jakex/makeupcore/bean/download/DownloadState;->ordinal()I
+    invoke-virtual {v2}, Lcom/jakex/ymluxscore/bean/download/DownloadState;->ordinal()I
 
     move-result v2
 
@@ -81,7 +81,7 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lcom/jakex/makeupselfie/camera/c$2;->a:[I
+    sput-object v0, Lcom/jakex/ymluxscoresf/camera/c$2;->a:[I
 
     :try_start_2
     sget-object v2, Lcom/jakex/makeupcamera/util/CamProperty$PreviewRatio;->FULL_SCREEN:Lcom/jakex/makeupcamera/util/CamProperty$PreviewRatio;

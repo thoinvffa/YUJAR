@@ -33,15 +33,15 @@
     .end annotation
 .end field
 
-.field private d:Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+.field private d:Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
 
-.field private e:Lcom/jakex/makeupcore/bean/RecentMakeupConcrete;
+.field private e:Lcom/jakex/ymluxscore/bean/RecentMakeupConcrete;
 
-.field private f:Lcom/jakex/makeupcore/bean/RecentMakeupConcrete;
+.field private f:Lcom/jakex/ymluxscore/bean/RecentMakeupConcrete;
 
-.field private g:Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+.field private g:Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
 
-.field private h:Lcom/jakex/makeupcore/bean/ThemeMakeupCategory;
+.field private h:Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory;
 
 .field private i:Ljava/util/HashMap;
     .annotation system Ldalvik/annotation/Signature;
@@ -249,26 +249,26 @@
     return-void
 .end method
 
-.method public a(Lcom/jakex/makeupcore/bean/RecentMakeupConcrete;)V
+.method public a(Lcom/jakex/ymluxscore/bean/RecentMakeupConcrete;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupsenior/bean/a;->f:Lcom/jakex/makeupcore/bean/RecentMakeupConcrete;
+    iput-object p1, p0, Lcom/jakex/makeupsenior/bean/a;->f:Lcom/jakex/ymluxscore/bean/RecentMakeupConcrete;
 
     return-void
 .end method
 
-.method public a(Lcom/jakex/makeupcore/bean/ThemeMakeupCategory;)V
+.method public a(Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupsenior/bean/a;->h:Lcom/jakex/makeupcore/bean/ThemeMakeupCategory;
+    iput-object p1, p0, Lcom/jakex/makeupsenior/bean/a;->h:Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory;
 
     return-void
 .end method
 
-.method public a(Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;)V
+.method public a(Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupsenior/bean/a;->g:Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+    iput-object p1, p0, Lcom/jakex/makeupsenior/bean/a;->g:Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
 
     return-void
 .end method
@@ -490,18 +490,18 @@
     return-void
 .end method
 
-.method public b(Lcom/jakex/makeupcore/bean/RecentMakeupConcrete;)V
+.method public b(Lcom/jakex/ymluxscore/bean/RecentMakeupConcrete;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupsenior/bean/a;->e:Lcom/jakex/makeupcore/bean/RecentMakeupConcrete;
+    iput-object p1, p0, Lcom/jakex/makeupsenior/bean/a;->e:Lcom/jakex/ymluxscore/bean/RecentMakeupConcrete;
 
     return-void
 .end method
 
-.method public b(Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;)V
+.method public b(Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupsenior/bean/a;->d:Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+    iput-object p1, p0, Lcom/jakex/makeupsenior/bean/a;->d:Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
 
     return-void
 .end method
@@ -644,42 +644,42 @@
     return-void
 .end method
 
-.method public d()Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+.method public d()Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/bean/a;->g:Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/bean/a;->g:Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
 
     return-object v0
 .end method
 
-.method public e()Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+.method public e()Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/bean/a;->d:Lcom/jakex/makeupcore/bean/ThemeMakeupConcrete;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/bean/a;->d:Lcom/jakex/ymluxscore/bean/ThemeMakeupConcrete;
 
     return-object v0
 .end method
 
-.method public f()Lcom/jakex/makeupcore/bean/RecentMakeupConcrete;
+.method public f()Lcom/jakex/ymluxscore/bean/RecentMakeupConcrete;
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/bean/a;->f:Lcom/jakex/makeupcore/bean/RecentMakeupConcrete;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/bean/a;->f:Lcom/jakex/ymluxscore/bean/RecentMakeupConcrete;
 
     return-object v0
 .end method
 
-.method public g()Lcom/jakex/makeupcore/bean/ThemeMakeupCategory;
+.method public g()Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory;
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/bean/a;->h:Lcom/jakex/makeupcore/bean/ThemeMakeupCategory;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/bean/a;->h:Lcom/jakex/ymluxscore/bean/ThemeMakeupCategory;
 
     return-object v0
 .end method
 
-.method public h()Lcom/jakex/makeupcore/bean/RecentMakeupConcrete;
+.method public h()Lcom/jakex/ymluxscore/bean/RecentMakeupConcrete;
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeupsenior/bean/a;->e:Lcom/jakex/makeupcore/bean/RecentMakeupConcrete;
+    iget-object v0, p0, Lcom/jakex/makeupsenior/bean/a;->e:Lcom/jakex/ymluxscore/bean/RecentMakeupConcrete;
 
     return-object v0
 .end method

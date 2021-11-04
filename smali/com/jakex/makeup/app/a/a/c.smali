@@ -17,7 +17,7 @@
 .method private d()V
     .locals 0
 
-    invoke-static {}, Lcom/jakex/makeupcore/modular/c/bx;->k()V
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/c/bx;->k()V
 
     return-void
 .end method
@@ -25,7 +25,7 @@
 .method private e()V
     .locals 0
 
-    invoke-static {}, Lcom/jakex/makeupcore/modular/c/bx;->l()V
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/c/bx;->l()V
 
     return-void
 .end method
@@ -51,13 +51,13 @@
 
     invoke-direct {v0, p0}, Lcom/jakex/makeup/app/a/a/c$1;-><init>(Lcom/jakex/makeup/app/a/a/c;)V
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/i;->a(Ljava/lang/Runnable;)V
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/i;->a(Ljava/lang/Runnable;)V
 
     new-instance v0, Lcom/jakex/makeup/app/a/a/c$2;
 
     invoke-direct {v0, p0}, Lcom/jakex/makeup/app/a/a/c$2;-><init>(Lcom/jakex/makeup/app/a/a/c;)V
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/e/c;->a(Lcom/jakex/makeupcore/e/c$a;)V
+    invoke-static {v0}, Lcom/jakex/ymluxscore/e/c;->a(Lcom/jakex/ymluxscore/e/c$a;)V
 
     return-void
 .end method
@@ -79,7 +79,7 @@
 
     invoke-direct {p0}, Lcom/jakex/makeup/app/a/a/c;->r()V
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/e;->a()V
+    invoke-static {}, Lcom/jakex/ymluxscore/util/e;->a()V
 
     return-void
 .end method
@@ -95,7 +95,7 @@
 .method private k()V
     .locals 0
 
-    invoke-static {}, Lcom/jakex/makeupcore/modular/c/ap;->a()V
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/c/ap;->a()V
 
     return-void
 .end method
@@ -190,50 +190,50 @@
 .method private n()V
     .locals 2
 
-    invoke-static {}, Lcom/jakex/makeupcore/c/b;->b()Lcom/jakex/makeupcore/c/b;
+    invoke-static {}, Lcom/jakex/ymluxscore/c/b;->b()Lcom/jakex/ymluxscore/c/b;
 
     move-result-object v0
 
-    invoke-static {}, Lcom/jakex/makeupcore/c/d;->b()Lcom/jakex/makeupcore/c/d;
+    invoke-static {}, Lcom/jakex/ymluxscore/c/d;->b()Lcom/jakex/ymluxscore/c/d;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/c/b;->a(Lcom/jakex/makeupcore/c/a;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/c/b;->a(Lcom/jakex/ymluxscore/c/a;)V
 
-    invoke-static {}, Lcom/jakex/makeupcore/c/b;->b()Lcom/jakex/makeupcore/c/b;
+    invoke-static {}, Lcom/jakex/ymluxscore/c/b;->b()Lcom/jakex/ymluxscore/c/b;
 
     move-result-object v0
 
-    invoke-static {}, Lcom/jakex/makeupcore/c/c;->b()Lcom/jakex/makeupcore/c/c;
+    invoke-static {}, Lcom/jakex/ymluxscore/c/c;->b()Lcom/jakex/ymluxscore/c/c;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/c/b;->a(Lcom/jakex/makeupcore/c/a;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/c/b;->a(Lcom/jakex/ymluxscore/c/a;)V
 
-    invoke-static {}, Lcom/jakex/makeupcore/c/b;->b()Lcom/jakex/makeupcore/c/b;
+    invoke-static {}, Lcom/jakex/ymluxscore/c/b;->b()Lcom/jakex/ymluxscore/c/b;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/c/b;->a()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/c/b;->a()V
 
-    invoke-static {}, Lcom/jakex/makeupcore/modular/c/bx;->f()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/c/bx;->f()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/jakex/makeupcore/modular/c/bx;->b()Ljava/lang/String;
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/c/bx;->b()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {}, Lcom/jakex/makeupcore/c/b;->b()Lcom/jakex/makeupcore/c/b;
+    invoke-static {}, Lcom/jakex/ymluxscore/c/b;->b()Lcom/jakex/ymluxscore/c/b;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/jakex/makeupcore/c/b;->a(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/jakex/ymluxscore/c/b;->a(Ljava/lang/String;)V
 
     :cond_0
-    invoke-static {}, Lcom/jakex/makeupcore/c/c;->b()Lcom/jakex/makeupcore/c/c;
+    invoke-static {}, Lcom/jakex/ymluxscore/c/c;->b()Lcom/jakex/ymluxscore/c/c;
 
     move-result-object v0
 
@@ -241,7 +241,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/c/c;->b(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/c/c;->b(Ljava/lang/String;)V
 
     return-void
 .end method
@@ -253,13 +253,13 @@
 
     invoke-static {v0}, Lcom/jakex/webview/core/CommonWebView;->setSoftId(I)V
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/bk;->a()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/util/bk;->a()Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lcom/jakex/makeupcore/e/Aa;->c()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/e/Aa;->c()Z
 
     move-result v0
 
@@ -279,11 +279,11 @@
     :goto_1
     invoke-static {v0}, Lcom/jakex/webview/core/CommonWebView;->setWriteLog(Z)V
 
-    invoke-static {}, Lcom/jakex/makeupcore/e/Aa;->b()Lcom/jakex/makeupcore/e/Aa$BB;
+    invoke-static {}, Lcom/jakex/ymluxscore/e/Aa;->b()Lcom/jakex/ymluxscore/e/Aa$BB;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/e/Aa$BB;->c()Z
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/e/Aa$BB;->c()Z
 
     move-result v0
 
@@ -297,7 +297,7 @@
 
     invoke-direct {v0, p0}, Lcom/jakex/makeup/app/a/a/c$6;-><init>(Lcom/jakex/makeup/app/a/a/c;)V
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/protocol/mtscript/MTScriptExecutor;->a(Lcom/jakex/makeupcore/protocol/mtscript/MTScriptExecutor$a;)V
+    invoke-static {v0}, Lcom/jakex/ymluxscore/protocol/mtscript/MTScriptExecutor;->a(Lcom/jakex/ymluxscore/protocol/mtscript/MTScriptExecutor$a;)V
 
     return-void
 .end method
@@ -317,7 +317,7 @@
 .method private q()V
     .locals 0
 
-    invoke-static {}, Lcom/jakex/makeupcore/modular/c/bx;->h()V
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/c/bx;->h()V
 
     return-void
 .end method
@@ -325,7 +325,7 @@
 .method private r()V
     .locals 0
 
-    invoke-static {}, Lcom/jakex/makeupeditor/util/CloudPictureCollectionUtil;->a()V
+    invoke-static {}, Lcom/jakex/ymluxseditor/util/CloudPictureCollectionUtil;->a()V
 
     return-void
 .end method
@@ -333,7 +333,7 @@
 .method private s()V
     .locals 0
 
-    invoke-static {}, Lcom/jakex/makeupcore/modular/c/bx;->j()V
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/c/bx;->j()V
 
     return-void
 .end method
@@ -354,7 +354,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/bean/a;->a(Landroid/content/Context;)V
+    invoke-static {v0}, Lcom/jakex/ymluxscore/bean/a;->a(Landroid/content/Context;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -376,7 +376,7 @@
 
     invoke-direct {p0}, Lcom/jakex/makeup/app/a/a/c;->n()V
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/c;->b()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/util/c;->b()Z
 
     move-result v0
 
@@ -421,7 +421,7 @@
 
     invoke-static {v0}, Lcom/jakex/makeup/library/arcorekit/a;->a(Landroid/content/Context;)V
 
-    invoke-static {}, Lcom/jakex/makeupcore/e/Aa;->c()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/e/Aa;->c()Z
 
     move-result v0
 

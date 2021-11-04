@@ -237,9 +237,9 @@
 
     new-instance p1, Lcom/jakex/makeupassistant/report/skin/c;
 
-    iget-object v0, p0, Lcom/jakex/makeupassistant/report/skin/b;->c:Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;
+    iget-object v0, p0, Lcom/jakex/makeupassistant/report/skin/b;->c:Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;
 
-    invoke-direct {p1, v0}, Lcom/jakex/makeupassistant/report/skin/c;-><init>(Lcom/jakex/makeupcore/widget/loadmore/HeaderFooterRecyclerView;)V
+    invoke-direct {p1, v0}, Lcom/jakex/makeupassistant/report/skin/c;-><init>(Lcom/jakex/ymluxscore/widget/loadmore/HeaderFooterRecyclerView;)V
 
     iput-object p1, p0, Lcom/jakex/makeupassistant/report/skin/b;->f:Lcom/jakex/makeupassistant/report/skin/c;
 
@@ -363,15 +363,15 @@
 
     if-nez v6, :cond_0
 
-    invoke-static {v1}, Lcom/jakex/makeupcore/glide/a;->a(Landroid/widget/ImageView;)Lcom/jakex/makeupcore/glide/a;
+    invoke-static {v1}, Lcom/jakex/ymluxscore/glide/a;->a(Landroid/widget/ImageView;)Lcom/jakex/ymluxscore/glide/a;
 
     move-result-object v6
 
-    invoke-static {}, Lcom/jakex/makeupcore/glide/e;->a()Lmakeup/image/request/h;
+    invoke-static {}, Lcom/jakex/ymluxscore/glide/e;->a()Lmakeup/image/request/h;
 
     move-result-object v7
 
-    invoke-virtual {v6, v5, v7}, Lcom/jakex/makeupcore/glide/a;->a(Ljava/lang/String;Lmakeup/image/request/h;)V
+    invoke-virtual {v6, v5, v7}, Lcom/jakex/ymluxscore/glide/a;->a(Ljava/lang/String;Lmakeup/image/request/h;)V
 
     :cond_0
     invoke-virtual {v0}, Lcom/jakex/makeupassistant/bean/ReportExtendBean;->getData()Ljava/lang/String;
@@ -642,7 +642,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v1
 
@@ -737,7 +737,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v1
 

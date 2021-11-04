@@ -1,5 +1,5 @@
 .class Lcom/jakex/makeupsenior/BeautyMakeupActivity$b;
-.super Lcom/jakex/makeupcore/util/bm;
+.super Lcom/jakex/ymluxscore/util/bm;
 
 
 # annotations
@@ -14,7 +14,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupcore/util/bm<",
+        "Lcom/jakex/ymluxscore/util/bm<",
         "Lcom/jakex/makeupsenior/BeautyMakeupActivity;",
         "Ljava/lang/Void;",
         "Ljava/lang/Void;",
@@ -34,7 +34,7 @@
 .method public constructor <init>(Lcom/jakex/makeupsenior/BeautyMakeupActivity;Landroid/graphics/Bitmap;Ljava/lang/String;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupcore/util/bm;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscore/util/bm;-><init>(Ljava/lang/Object;)V
 
     iput-object p2, p0, Lcom/jakex/makeupsenior/BeautyMakeupActivity$b;->b:Landroid/graphics/Bitmap;
 
@@ -64,13 +64,13 @@
 
     move-result-object v0
 
-    invoke-static {p1, v0}, Lcom/jakex/makeupcore/util/ae;->b(Ljava/lang/String;Landroid/content/Context;)Landroid/net/Uri;
+    invoke-static {p1, v0}, Lcom/jakex/ymluxscore/util/ae;->b(Ljava/lang/String;Landroid/content/Context;)Landroid/net/Uri;
 
     invoke-static {}, Lcom/jakex/library/application/BaseApplication;->a()Landroid/app/Application;
 
     move-result-object v0
 
-    invoke-static {p1, v0}, Lcom/jakex/makeupcore/util/ae;->a(Ljava/lang/String;Landroid/content/Context;)V
+    invoke-static {p1, v0}, Lcom/jakex/ymluxscore/util/ae;->a(Ljava/lang/String;Landroid/content/Context;)V
 
     return-object p1
 
@@ -83,7 +83,7 @@
 .method protected a(Lcom/jakex/makeupsenior/BeautyMakeupActivity;)V
     .locals 3
 
-    invoke-super {p0, p1}, Lcom/jakex/makeupcore/util/bm;->a(Ljava/lang/Object;)V
+    invoke-super {p0, p1}, Lcom/jakex/ymluxscore/util/bm;->a(Ljava/lang/Object;)V
 
     if-eqz p1, :cond_0
 
@@ -114,7 +114,7 @@
 
     sget p1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$string;->beauty_makeup_activity_save_failed:I
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/widget/a/a;->a(I)V
+    invoke-static {p1}, Lcom/jakex/ymluxscore/widget/a/a;->a(I)V
 
     goto :goto_0
 

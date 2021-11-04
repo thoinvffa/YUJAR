@@ -214,7 +214,7 @@
 
     const v0, 0x7f0c0337
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/widget/a/a;->b(I)V
+    invoke-static {v0}, Lcom/jakex/ymluxscore/widget/a/a;->b(I)V
 
     return-void
 
@@ -495,7 +495,7 @@
 
     const v0, 0x7f0c0337
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/widget/a/a;->b(I)V
+    invoke-static {v0}, Lcom/jakex/ymluxscore/widget/a/a;->b(I)V
 
     return-void
 

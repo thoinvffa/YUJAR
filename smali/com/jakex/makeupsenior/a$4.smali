@@ -42,7 +42,7 @@
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/a$4;->b:Lcom/jakex/makeupsenior/a;
 
-    invoke-static {v0}, Lcom/jakex/makeupsenior/a;->d(Lcom/jakex/makeupsenior/a;)Lcom/jakex/makeupeditor/widget/BeautyMakeupView;
+    invoke-static {v0}, Lcom/jakex/makeupsenior/a;->d(Lcom/jakex/makeupsenior/a;)Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;
 
     move-result-object v0
 
@@ -58,7 +58,7 @@
 
     move-result v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/jakex/makeupeditor/widget/BeautyMakeupView;->a(Landroid/graphics/Bitmap;Z)V
+    invoke-virtual {v0, v1, v2}, Lcom/jakex/ymluxseditor/widget/BeautyMakeupView;->a(Landroid/graphics/Bitmap;Z)V
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/a$4;->b:Lcom/jakex/makeupsenior/a;
 

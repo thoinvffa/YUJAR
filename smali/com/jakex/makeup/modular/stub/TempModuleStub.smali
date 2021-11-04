@@ -11,10 +11,10 @@
     return-void
 .end method
 
-.method public static changeCountrySetting(Lcom/jakex/makeupcore/bean/Country;)V
+.method public static changeCountrySetting(Lcom/jakex/ymluxscore/bean/Country;)V
     .locals 0
 
-    invoke-static {p0}, Lcom/jakex/makeup/b/b;->a(Lcom/jakex/makeupcore/bean/Country;)V
+    invoke-static {p0}, Lcom/jakex/makeup/b/b;->a(Lcom/jakex/ymluxscore/bean/Country;)V
 
     return-void
 .end method
@@ -44,7 +44,7 @@
 .method public static gotoFeedback(Landroid/app/Activity;Ljava/lang/String;)V
     .locals 2
 
-    invoke-static {}, Lcom/jakex/makeupcore/modular/a/a;->p()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/a/a;->p()Z
 
     move-result v0
 
@@ -64,7 +64,7 @@
 
     const/4 v0, 0x0
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/modular/a/a;->e(Z)V
+    invoke-static {v0}, Lcom/jakex/ymluxscore/modular/a/a;->e(Z)V
 
     :cond_0
     invoke-static {p0, p1}, Lcom/jakex/makeup/setting/feedback/FeedbackActivity;->a(Landroid/app/Activity;Ljava/lang/String;)Landroid/content/Intent;
@@ -94,12 +94,12 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Lcom/jakex/makeupcore/bean/ModelAlbumBean;",
+            "Lcom/jakex/ymluxscore/bean/ModelAlbumBean;",
             ">;"
         }
     .end annotation
 
-    invoke-static {}, Lcom/jakex/makeupeditor/e/a;->b()Ljava/util/List;
+    invoke-static {}, Lcom/jakex/ymluxseditor/e/a;->b()Ljava/util/List;
 
     move-result-object v0
 

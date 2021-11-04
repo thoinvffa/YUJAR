@@ -42,7 +42,7 @@
 
     iget-object v0, p0, Lcom/jakex/makeupsenior/f$8;->a:Landroid/graphics/Bitmap;
 
-    invoke-static {v0}, Lcom/jakex/makeupsenior/b/c;->a(Landroid/graphics/Bitmap;)Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegment;
+    invoke-static {v0}, Lcom/jakex/makeupsenior/b/c;->a(Landroid/graphics/Bitmap;)Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegment;
 
     move-result-object v0
 
@@ -61,11 +61,11 @@
 
     move-result-object v1
 
-    iget-object v2, v0, Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegment;->maskData:[B
+    iget-object v2, v0, Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegment;->maskData:[B
 
-    iget v3, v0, Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegment;->width:I
+    iget v3, v0, Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegment;->width:I
 
-    iget v0, v0, Lcom/jakex/mtlab/MTAiInterface/MTSegmentModule/MTSegment;->height:I
+    iget v0, v0, Lcom/jakex/ymlux/MTAiInterface/MTSegmentModule/MTSegment;->height:I
 
     invoke-virtual {v1, v2, v3, v0}, Lcom/jakex/makeup/library/arcorekit/renderer/impl/a/b;->a([BII)V
 

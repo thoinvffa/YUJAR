@@ -15,7 +15,7 @@
         }
     .end annotation
 
-    invoke-static {p0}, Lcom/jakex/makeupcore/util/q;->a(Ljava/util/List;)Z
+    invoke-static {p0}, Lcom/jakex/ymluxscore/util/q;->a(Ljava/util/List;)Z
 
     move-result v0
 
@@ -172,7 +172,7 @@
     return-object v0
 
     :cond_1
-    invoke-static {p0}, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineImage;->createImageFromBitmap(Landroid/graphics/Bitmap;)Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineImage;
+    invoke-static {p0}, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineImage;->createImageFromBitmap(Landroid/graphics/Bitmap;)Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineImage;
 
     move-result-object p0
 
@@ -185,37 +185,37 @@
 
     move-result-object v1
 
-    new-instance v2, Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;
+    new-instance v2, Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;
 
     const/4 v3, 0x0
 
-    invoke-direct {v2, v1, v3}, Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;-><init>(Landroid/content/Context;I)V
+    invoke-direct {v2, v1, v3}, Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;-><init>(Landroid/content/Context;I)V
 
-    new-instance v1, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinOption;
+    new-instance v1, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinOption;
 
-    invoke-direct {v1}, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinOption;-><init>()V
+    invoke-direct {v1}, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinOption;-><init>()V
 
     const-wide/32 v4, 0x4000002
 
-    iput-wide v4, v1, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinOption;->option:J
+    iput-wide v4, v1, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinOption;->option:J
 
-    invoke-virtual {v1}, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinOption;->detectorType()I
+    invoke-virtual {v1}, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinOption;->detectorType()I
 
     move-result v4
 
-    invoke-virtual {v2, v4, v1}, Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;->registerModule(ILcom/jakex/mtlab/MTAiInterface/common/MTAiEngineOption;)I
+    invoke-virtual {v2, v4, v1}, Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;->registerModule(ILcom/jakex/ymlux/MTAiInterface/common/MTAiEngineOption;)I
 
-    new-instance v4, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;
+    new-instance v4, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;
 
-    invoke-direct {v4}, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;-><init>()V
+    invoke-direct {v4}, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;-><init>()V
 
-    iput-object p0, v4, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;->colorImage:Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineImage;
+    iput-object p0, v4, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;->colorImage:Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineImage;
 
-    new-instance v5, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;
+    new-instance v5, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;
 
-    invoke-direct {v5}, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;-><init>()V
+    invoke-direct {v5}, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;-><init>()V
 
-    iput-object v1, v5, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->skinOption:Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinOption;
+    iput-object v1, v5, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;->skinOption:Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinOption;
 
     new-instance v6, Ljava/util/ArrayList;
 
@@ -249,25 +249,25 @@
     goto :goto_0
 
     :cond_3
-    iput-object v6, v5, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;->facePointsList:Ljava/util/ArrayList;
+    iput-object v6, v5, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;->facePointsList:Ljava/util/ArrayList;
 
-    invoke-virtual {v2, v4, v5}, Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;->run(Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineEnableOption;)Lcom/jakex/mtlab/MTAiInterface/MTAiEngineResult;
+    invoke-virtual {v2, v4, v5}, Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;->run(Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineEnableOption;)Lcom/jakex/ymlux/MTAiInterface/MTAiEngineResult;
 
     move-result-object p1
 
-    invoke-virtual {v1}, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinOption;->detectorType()I
+    invoke-virtual {v1}, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinOption;->detectorType()I
 
     move-result v1
 
-    invoke-virtual {v2, v1}, Lcom/jakex/mtlab/MTAiInterface/MeituAiEngine;->unregisterModule(I)I
+    invoke-virtual {v2, v1}, Lcom/jakex/ymlux/MTAiInterface/MeituAiEngine;->unregisterModule(I)I
 
-    invoke-virtual {p0}, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineImage;->release()V
+    invoke-virtual {p0}, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineImage;->release()V
 
-    invoke-virtual {v4}, Lcom/jakex/mtlab/MTAiInterface/common/MTAiEngineFrame;->clearFrame()V
+    invoke-virtual {v4}, Lcom/jakex/ymlux/MTAiInterface/common/MTAiEngineFrame;->clearFrame()V
 
     if-eqz p1, :cond_7
 
-    iget-object p0, p1, Lcom/jakex/mtlab/MTAiInterface/MTAiEngineResult;->skinResult:Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinResult;
+    iget-object p0, p1, Lcom/jakex/ymlux/MTAiInterface/MTAiEngineResult;->skinResult:Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinResult;
 
     if-nez p0, :cond_4
 
@@ -278,9 +278,9 @@
 
     invoke-direct {p0}, Ljava/util/ArrayList;-><init>()V
 
-    iget-object p1, p1, Lcom/jakex/mtlab/MTAiInterface/MTAiEngineResult;->skinResult:Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinResult;
+    iget-object p1, p1, Lcom/jakex/ymlux/MTAiInterface/MTAiEngineResult;->skinResult:Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinResult;
 
-    iget-object p1, p1, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkinResult;->skins:[Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkin;
+    iget-object p1, p1, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkinResult;->skins:[Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkin;
 
     array-length v0, p1
 
@@ -289,19 +289,19 @@
 
     aget-object v1, p1, v3
 
-    iget-object v2, v1, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkin;->nevus:Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/attribute/MTNevus;
+    iget-object v2, v1, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkin;->nevus:Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/attribute/MTNevus;
 
     if-eqz v2, :cond_5
 
-    iget-object v2, v1, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkin;->nevus:Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/attribute/MTNevus;
+    iget-object v2, v1, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkin;->nevus:Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/attribute/MTNevus;
 
-    iget-object v2, v2, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/attribute/MTNevus;->nevus_rects:[Landroid/graphics/RectF;
+    iget-object v2, v2, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/attribute/MTNevus;->nevus_rects:[Landroid/graphics/RectF;
 
     if-eqz v2, :cond_5
 
-    iget-object v1, v1, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/MTSkin;->nevus:Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/attribute/MTNevus;
+    iget-object v1, v1, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/MTSkin;->nevus:Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/attribute/MTNevus;
 
-    iget-object v1, v1, Lcom/jakex/mtlab/MTAiInterface/MTSkinModule/attribute/MTNevus;->nevus_rects:[Landroid/graphics/RectF;
+    iget-object v1, v1, Lcom/jakex/ymlux/MTAiInterface/MTSkinModule/attribute/MTNevus;->nevus_rects:[Landroid/graphics/RectF;
 
     invoke-static {v1}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 

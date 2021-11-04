@@ -1,5 +1,5 @@
 .class Lcom/jakex/makeupassistant/share/AssistantAnalysisShareActivity$a;
-.super Lcom/jakex/makeupcore/util/bm;
+.super Lcom/jakex/ymluxscore/util/bm;
 
 
 # annotations
@@ -14,7 +14,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupcore/util/bm<",
+        "Lcom/jakex/ymluxscore/util/bm<",
         "Lcom/jakex/makeupassistant/share/AssistantAnalysisShareActivity;",
         "Landroid/view/View;",
         "Ljava/lang/Void;",
@@ -28,7 +28,7 @@
 .method constructor <init>(Lcom/jakex/makeupassistant/share/AssistantAnalysisShareActivity;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupcore/util/bm;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscore/util/bm;-><init>(Ljava/lang/Object;)V
 
     return-void
 .end method
@@ -38,7 +38,7 @@
 .method protected varargs a([Landroid/view/View;)Ljava/lang/String;
     .locals 2
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/n;->l()Ljava/lang/String;
+    invoke-static {}, Lcom/jakex/ymluxscore/util/n;->l()Ljava/lang/String;
 
     move-result-object v0
 
@@ -46,7 +46,7 @@
 
     aget-object p1, p1, v1
 
-    invoke-static {p1, v0}, Lcom/jakex/makeupcore/util/ax;->a(Landroid/view/View;Ljava/lang/String;)Z
+    invoke-static {p1, v0}, Lcom/jakex/ymluxscore/util/ax;->a(Landroid/view/View;Ljava/lang/String;)Z
 
     move-result p1
 
@@ -61,13 +61,13 @@
 
     move-result-object p1
 
-    invoke-static {v0, p1}, Lcom/jakex/makeupcore/util/ae;->b(Ljava/lang/String;Landroid/content/Context;)Landroid/net/Uri;
+    invoke-static {v0, p1}, Lcom/jakex/ymluxscore/util/ae;->b(Ljava/lang/String;Landroid/content/Context;)Landroid/net/Uri;
 
     invoke-static {}, Lcom/jakex/library/application/BaseApplication;->a()Landroid/app/Application;
 
     move-result-object p1
 
-    invoke-static {v0, p1}, Lcom/jakex/makeupcore/util/ae;->a(Ljava/lang/String;Landroid/content/Context;)V
+    invoke-static {v0, p1}, Lcom/jakex/ymluxscore/util/ae;->a(Ljava/lang/String;Landroid/content/Context;)V
 
     :goto_0
     return-object v0
@@ -76,7 +76,7 @@
 .method protected a(Lcom/jakex/makeupassistant/share/AssistantAnalysisShareActivity;)V
     .locals 0
 
-    invoke-super {p0, p1}, Lcom/jakex/makeupcore/util/bm;->a(Ljava/lang/Object;)V
+    invoke-super {p0, p1}, Lcom/jakex/ymluxscore/util/bm;->a(Ljava/lang/Object;)V
 
     invoke-virtual {p1}, Lcom/jakex/makeupassistant/share/AssistantAnalysisShareActivity;->m()V
 
@@ -94,14 +94,14 @@
 
     sget p1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$string;->share_fail:I
 
-    invoke-static {p1}, Lcom/jakex/makeupcore/widget/a/a;->a(I)V
+    invoke-static {p1}, Lcom/jakex/ymluxscore/widget/a/a;->a(I)V
 
     goto :goto_0
 
     :cond_0
     sget v0, Lcom/tbuonomo/viewpagerdotsindicator/Resource$string;->beauty_try_makeup_share_dialog_title:I
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/widget/a/a;->a(I)V
+    invoke-static {v0}, Lcom/jakex/ymluxscore/widget/a/a;->a(I)V
 
     invoke-static {p1}, Lcom/jakex/makeupassistant/share/AssistantAnalysisShareActivity;->d(Lcom/jakex/makeupassistant/share/AssistantAnalysisShareActivity;)Lcom/jakex/makeupassistant/share/AssistantAnalysisShareFragment;
 

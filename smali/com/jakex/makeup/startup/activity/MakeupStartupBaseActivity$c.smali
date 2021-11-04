@@ -57,7 +57,7 @@
 
     invoke-static {}, Lcom/jakex/makeup/c/c;->a()Z
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/n;->a()Ljava/lang/String;
+    invoke-static {}, Lcom/jakex/ymluxscore/util/n;->a()Ljava/lang/String;
 
     move-result-object p1
 
@@ -94,7 +94,7 @@
 
     invoke-static {v0}, Lcom/jakex/makeup/c/d;->a(Z)V
 
-    invoke-static {}, Lcom/jakex/makeupcore/modular/a/a;->w()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/modular/a/a;->w()Z
 
     move-result p1
 
@@ -108,7 +108,7 @@
 
     move-result-wide v1
 
-    invoke-static {v1, v2}, Lcom/jakex/makeupcore/modular/a/a;->a(J)V
+    invoke-static {v1, v2}, Lcom/jakex/ymluxscore/modular/a/a;->a(J)V
 
     :cond_1
     iget-object p1, p0, Lcom/jakex/makeup/startup/activity/MakeupStartupBaseActivity$c;->a:Ljava/lang/ref/WeakReference;
@@ -220,27 +220,27 @@
 
     invoke-virtual {p1}, Lcom/jakex/makeup/startup/activity/c;->t()V
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/modular/c/bh;->a(Z)V
+    invoke-static {v0}, Lcom/jakex/ymluxscore/modular/c/bh;->a(Z)V
 
-    invoke-static {}, Lcom/jakex/makeupeditor/material/thememakeup/b/d;->a()Lcom/jakex/makeupeditor/material/thememakeup/b/d;
-
-    move-result-object p1
-
-    invoke-virtual {p1}, Lcom/jakex/makeupeditor/material/thememakeup/b/d;->b()V
-
-    invoke-static {}, Lcom/jakex/makeupcore/c/c;->b()Lcom/jakex/makeupcore/c/c;
+    invoke-static {}, Lcom/jakex/ymluxseditor/material/thememakeup/b/d;->a()Lcom/jakex/ymluxseditor/material/thememakeup/b/d;
 
     move-result-object p1
 
-    invoke-static {}, Lcom/jakex/makeupcore/j/a;->l()Z
+    invoke-virtual {p1}, Lcom/jakex/ymluxseditor/material/thememakeup/b/d;->b()V
+
+    invoke-static {}, Lcom/jakex/ymluxscore/c/c;->b()Lcom/jakex/ymluxscore/c/c;
+
+    move-result-object p1
+
+    invoke-static {}, Lcom/jakex/ymluxscore/j/a;->l()Z
 
     move-result v0
 
     xor-int/lit8 v0, v0, 0x1
 
-    invoke-virtual {p1, v0}, Lcom/jakex/makeupcore/c/c;->a(Z)V
+    invoke-virtual {p1, v0}, Lcom/jakex/ymluxscore/c/c;->a(Z)V
 
-    invoke-static {}, Lcom/jakex/usercenter/cosmeticbag/d/b;->a()V
+    invoke-static {}, Lcom/jakex/uct/cosmeticbag/d/b;->a()V
 
     :cond_3
     :goto_0
@@ -285,7 +285,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {}, Lcom/jakex/makeupcore/util/f;->b()Z
+    invoke-static {}, Lcom/jakex/ymluxscore/util/f;->b()Z
 
     move-result v0
 

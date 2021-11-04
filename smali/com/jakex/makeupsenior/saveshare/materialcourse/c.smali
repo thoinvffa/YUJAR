@@ -11,11 +11,11 @@
     monitor-enter v0
 
     :try_start_0
-    invoke-static {}, Lcom/jakex/makeupcore/bean/a;->f()Lcom/jakex/makeupcore/bean/dao/MaterialCourseAdDao;
+    invoke-static {}, Lcom/jakex/ymluxscore/bean/a;->f()Lcom/jakex/ymluxscore/bean/dao/MaterialCourseAdDao;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/jakex/makeupcore/bean/dao/MaterialCourseAdDao;->deleteAll()V
+    invoke-virtual {v1}, Lcom/jakex/ymluxscore/bean/dao/MaterialCourseAdDao;->deleteAll()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -37,7 +37,7 @@
         value = {
             "(",
             "Ljava/util/List<",
-            "Lcom/jakex/makeupcore/bean/MaterialCourseAd;",
+            "Lcom/jakex/ymluxscore/bean/MaterialCourseAd;",
             ">;)V"
         }
     .end annotation
@@ -47,11 +47,11 @@
     monitor-enter v0
 
     :try_start_0
-    invoke-static {}, Lcom/jakex/makeupcore/bean/a;->f()Lcom/jakex/makeupcore/bean/dao/MaterialCourseAdDao;
+    invoke-static {}, Lcom/jakex/ymluxscore/bean/a;->f()Lcom/jakex/ymluxscore/bean/dao/MaterialCourseAdDao;
 
     move-result-object v1
 
-    invoke-virtual {v1, p0}, Lcom/jakex/makeupcore/bean/dao/MaterialCourseAdDao;->insertOrReplaceInTx(Ljava/lang/Iterable;)V
+    invoke-virtual {v1, p0}, Lcom/jakex/ymluxscore/bean/dao/MaterialCourseAdDao;->insertOrReplaceInTx(Ljava/lang/Iterable;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -73,16 +73,16 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Lcom/jakex/makeupcore/bean/MaterialCourseAd;",
+            "Lcom/jakex/ymluxscore/bean/MaterialCourseAd;",
             ">;"
         }
     .end annotation
 
-    invoke-static {}, Lcom/jakex/makeupcore/bean/a;->f()Lcom/jakex/makeupcore/bean/dao/MaterialCourseAdDao;
+    invoke-static {}, Lcom/jakex/ymluxscore/bean/a;->f()Lcom/jakex/ymluxscore/bean/dao/MaterialCourseAdDao;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/bean/dao/MaterialCourseAdDao;->queryBuilder()Lorg/greenrobot/greendao/query/QueryBuilder;
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/bean/dao/MaterialCourseAdDao;->queryBuilder()Lorg/greenrobot/greendao/query/QueryBuilder;
 
     move-result-object v0
 

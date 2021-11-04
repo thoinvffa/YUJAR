@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;
-.super Lcom/jakex/makeupcore/activity/MTBaseActivity;
+.super Lcom/jakex/ymluxscore/activity/MTBaseActivity;
 
 
 # annotations
@@ -15,11 +15,11 @@
 
 
 # instance fields
-.field private b:Lcom/jakex/makeupcore/webview/a;
+.field private b:Lcom/jakex/ymluxscore/webview/a;
 
-.field private c:Lcom/jakex/makeupcore/widget/bar/MDTopBarView;
+.field private c:Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;
 
-.field private d:Lcom/jakex/makeupcore/webview/CommonWebViewExtra;
+.field private d:Lcom/jakex/ymluxscore/webview/CommonWebViewExtra;
 
 .field private h:Lcom/jakex/makeupshare/d;
 
@@ -31,7 +31,7 @@
 
 .field private l:Lcom/jakex/makeupshare/b/v;
 
-.field private m:Lcom/jakex/makeupcore/webview/g;
+.field private m:Lcom/jakex/ymluxscore/webview/g;
 
 
 # direct methods
@@ -66,7 +66,7 @@
 .method public constructor <init>()V
     .locals 2
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;-><init>()V
 
     sget-object v0, Lcom/jakex/makeupshare/statistics/SharePlatformStatistics$Module;->UNDEFINE:Lcom/jakex/makeupshare/statistics/SharePlatformStatistics$Module;
 
@@ -84,12 +84,12 @@
 
     invoke-direct {v0, p0}, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity$3;-><init>(Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;)V
 
-    iput-object v0, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->m:Lcom/jakex/makeupcore/webview/g;
+    iput-object v0, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->m:Lcom/jakex/ymluxscore/webview/g;
 
     return-void
 .end method
 
-.method public static a(Landroid/content/Context;Lcom/jakex/makeupcore/webview/CommonWebViewExtra;)Landroid/content/Intent;
+.method public static a(Landroid/content/Context;Lcom/jakex/ymluxscore/webview/CommonWebViewExtra;)Landroid/content/Intent;
     .locals 2
 
     new-instance v0, Landroid/content/Intent;
@@ -102,7 +102,7 @@
 
     invoke-direct {p0}, Landroid/os/Bundle;-><init>()V
 
-    const-class v1, Lcom/jakex/makeupcore/webview/CommonWebViewExtra;
+    const-class v1, Lcom/jakex/ymluxscore/webview/CommonWebViewExtra;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
@@ -118,23 +118,23 @@
 .method public static a(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Intent;
     .locals 1
 
-    new-instance v0, Lcom/jakex/makeupcore/webview/CommonWebViewExtra;
+    new-instance v0, Lcom/jakex/ymluxscore/webview/CommonWebViewExtra;
 
-    invoke-direct {v0}, Lcom/jakex/makeupcore/webview/CommonWebViewExtra;-><init>()V
+    invoke-direct {v0}, Lcom/jakex/ymluxscore/webview/CommonWebViewExtra;-><init>()V
 
-    iput-object p1, v0, Lcom/jakex/makeupcore/webview/CommonWebViewExtra;->mUrl:Ljava/lang/String;
+    iput-object p1, v0, Lcom/jakex/ymluxscore/webview/CommonWebViewExtra;->mUrl:Ljava/lang/String;
 
-    invoke-static {p0, v0}, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->a(Landroid/content/Context;Lcom/jakex/makeupcore/webview/CommonWebViewExtra;)Landroid/content/Intent;
+    invoke-static {p0, v0}, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->a(Landroid/content/Context;Lcom/jakex/ymluxscore/webview/CommonWebViewExtra;)Landroid/content/Intent;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method static synthetic a(Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;)Lcom/jakex/makeupcore/webview/a;
+.method static synthetic a(Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;)Lcom/jakex/ymluxscore/webview/a;
     .locals 0
 
-    iget-object p0, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->b:Lcom/jakex/makeupcore/webview/a;
+    iget-object p0, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->b:Lcom/jakex/ymluxscore/webview/a;
 
     return-object p0
 .end method
@@ -155,10 +155,10 @@
     return-object p1
 .end method
 
-.method static synthetic b(Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;)Lcom/jakex/makeupcore/widget/bar/MDTopBarView;
+.method static synthetic b(Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;)Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;
     .locals 0
 
-    iget-object p0, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->c:Lcom/jakex/makeupcore/widget/bar/MDTopBarView;
+    iget-object p0, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->c:Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;
 
     return-object p0
 .end method
@@ -170,15 +170,15 @@
 
     move-result-object v0
 
-    sget-object v1, Lcom/jakex/makeupcore/webview/a;->a:Ljava/lang/String;
+    sget-object v1, Lcom/jakex/ymluxscore/webview/a;->a:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Landroidx/fragment/app/FragmentManager;->findFragmentByTag(Ljava/lang/String;)Landroidx/fragment/app/Fragment;
 
     move-result-object v1
 
-    check-cast v1, Lcom/jakex/makeupcore/webview/a;
+    check-cast v1, Lcom/jakex/ymluxscore/webview/a;
 
-    iput-object v1, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->b:Lcom/jakex/makeupcore/webview/a;
+    iput-object v1, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->b:Lcom/jakex/ymluxscore/webview/a;
 
     if-nez v1, :cond_0
 
@@ -186,7 +186,7 @@
 
     move-result-object v1
 
-    const-class v2, Lcom/jakex/makeupcore/webview/CommonWebViewExtra;
+    const-class v2, Lcom/jakex/ymluxscore/webview/CommonWebViewExtra;
 
     invoke-virtual {v2}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
@@ -196,15 +196,15 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/jakex/makeupcore/webview/CommonWebViewExtra;
+    check-cast v1, Lcom/jakex/ymluxscore/webview/CommonWebViewExtra;
 
-    iput-object v1, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->d:Lcom/jakex/makeupcore/webview/CommonWebViewExtra;
+    iput-object v1, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->d:Lcom/jakex/ymluxscore/webview/CommonWebViewExtra;
 
-    invoke-static {v1}, Lcom/jakex/makeupcore/webview/a;->a(Lcom/jakex/makeupcore/webview/CommonWebViewExtra;)Lcom/jakex/makeupcore/webview/a;
+    invoke-static {v1}, Lcom/jakex/ymluxscore/webview/a;->a(Lcom/jakex/ymluxscore/webview/CommonWebViewExtra;)Lcom/jakex/ymluxscore/webview/a;
 
     move-result-object v1
 
-    iput-object v1, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->b:Lcom/jakex/makeupcore/webview/a;
+    iput-object v1, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->b:Lcom/jakex/ymluxscore/webview/a;
 
     invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->beginTransaction()Landroidx/fragment/app/FragmentTransaction;
 
@@ -212,20 +212,20 @@
 
     const v1, 0x7f0703f4
 
-    iget-object v2, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->b:Lcom/jakex/makeupcore/webview/a;
+    iget-object v2, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->b:Lcom/jakex/ymluxscore/webview/a;
 
-    sget-object v3, Lcom/jakex/makeupcore/webview/a;->a:Ljava/lang/String;
+    sget-object v3, Lcom/jakex/ymluxscore/webview/a;->a:Ljava/lang/String;
 
     invoke-virtual {v0, v1, v2, v3}, Landroidx/fragment/app/FragmentTransaction;->add(ILandroidx/fragment/app/Fragment;Ljava/lang/String;)Landroidx/fragment/app/FragmentTransaction;
 
     invoke-virtual {v0}, Landroidx/fragment/app/FragmentTransaction;->commitAllowingStateLoss()I
 
     :cond_0
-    iget-object v0, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->b:Lcom/jakex/makeupcore/webview/a;
+    iget-object v0, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->b:Lcom/jakex/ymluxscore/webview/a;
 
-    iget-object v1, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->m:Lcom/jakex/makeupcore/webview/g;
+    iget-object v1, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->m:Lcom/jakex/ymluxscore/webview/g;
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/webview/a;->a(Lcom/jakex/makeupcore/webview/a$a;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/webview/a;->a(Lcom/jakex/ymluxscore/webview/a$a;)V
 
     return-void
 .end method
@@ -247,21 +247,21 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/jakex/makeupcore/widget/bar/MDTopBarView;
+    check-cast v0, Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;
 
-    iput-object v0, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->c:Lcom/jakex/makeupcore/widget/bar/MDTopBarView;
+    iput-object v0, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->c:Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;
 
     invoke-virtual {p0, v0}, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->useImmersiveMode(Landroid/view/View;)V
 
-    iget-object v0, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->c:Lcom/jakex/makeupcore/widget/bar/MDTopBarView;
+    iget-object v0, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->c:Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/widget/bar/MDTopBarView;->a()V
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;->a()V
 
-    iget-object v0, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->d:Lcom/jakex/makeupcore/webview/CommonWebViewExtra;
+    iget-object v0, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->d:Lcom/jakex/ymluxscore/webview/CommonWebViewExtra;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, v0, Lcom/jakex/makeupcore/webview/CommonWebViewExtra;->mTitle:Ljava/lang/String;
+    iget-object v0, v0, Lcom/jakex/ymluxscore/webview/CommonWebViewExtra;->mTitle:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -269,30 +269,30 @@
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->c:Lcom/jakex/makeupcore/widget/bar/MDTopBarView;
+    iget-object v0, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->c:Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;
 
-    iget-object v1, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->d:Lcom/jakex/makeupcore/webview/CommonWebViewExtra;
+    iget-object v1, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->d:Lcom/jakex/ymluxscore/webview/CommonWebViewExtra;
 
-    iget-object v1, v1, Lcom/jakex/makeupcore/webview/CommonWebViewExtra;->mTitle:Ljava/lang/String;
+    iget-object v1, v1, Lcom/jakex/ymluxscore/webview/CommonWebViewExtra;->mTitle:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/widget/bar/MDTopBarView;->setTitle(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;->setTitle(Ljava/lang/String;)V
 
     :cond_0
-    iget-object v0, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->c:Lcom/jakex/makeupcore/widget/bar/MDTopBarView;
+    iget-object v0, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->c:Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;
 
     new-instance v1, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity$1;
 
     invoke-direct {v1, p0}, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity$1;-><init>(Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;)V
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/widget/bar/MDTopBarView;->setOnLeftClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;->setOnLeftClickListener(Landroid/view/View$OnClickListener;)V
 
-    iget-object v0, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->c:Lcom/jakex/makeupcore/widget/bar/MDTopBarView;
+    iget-object v0, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->c:Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;
 
     new-instance v1, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity$2;
 
     invoke-direct {v1, p0}, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity$2;-><init>(Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;)V
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/widget/bar/MDTopBarView;->setOnRightClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/widget/bar/MDTopBarView;->setOnRightClickListener(Landroid/view/View$OnClickListener;)V
 
     return-void
 .end method
@@ -377,13 +377,13 @@
 .method protected onActivityResult(IILandroid/content/Intent;)V
     .locals 1
 
-    invoke-super {p0, p1, p2, p3}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onActivityResult(IILandroid/content/Intent;)V
+    invoke-super {p0, p1, p2, p3}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onActivityResult(IILandroid/content/Intent;)V
 
-    iget-object v0, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->b:Lcom/jakex/makeupcore/webview/a;
+    iget-object v0, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->b:Lcom/jakex/ymluxscore/webview/a;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0, p1, p2, p3}, Lcom/jakex/makeupcore/webview/a;->onActivityResult(IILandroid/content/Intent;)V
+    invoke-virtual {v0, p1, p2, p3}, Lcom/jakex/ymluxscore/webview/a;->onActivityResult(IILandroid/content/Intent;)V
 
     :cond_0
     iget-object v0, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->h:Lcom/jakex/makeupshare/d;
@@ -399,9 +399,9 @@
 .method public onBackPressed()V
     .locals 1
 
-    iget-object v0, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->b:Lcom/jakex/makeupcore/webview/a;
+    iget-object v0, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->b:Lcom/jakex/ymluxscore/webview/a;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/webview/a;->b()Z
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/webview/a;->b()Z
 
     move-result v0
 
@@ -410,7 +410,7 @@
     return-void
 
     :cond_0
-    invoke-super {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onBackPressed()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onBackPressed()V
 
     return-void
 .end method
@@ -418,7 +418,7 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 1
 
-    invoke-super {p0, p1}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onCreate(Landroid/os/Bundle;)V
 
     const p1, 0x7f090140
 
@@ -444,7 +444,7 @@
 .method protected onDestroy()V
     .locals 2
 
-    invoke-super {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onDestroy()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onDestroy()V
 
     iget-object v0, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->i:Lcom/jakex/makeupshare/b;
 
@@ -475,7 +475,7 @@
 .method protected onNewIntent(Landroid/content/Intent;)V
     .locals 1
 
-    invoke-super {p0, p1}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onNewIntent(Landroid/content/Intent;)V
+    invoke-super {p0, p1}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onNewIntent(Landroid/content/Intent;)V
 
     iget-object v0, p0, Lcom/jakex/makeup/common/webview/MakeupCommonWebViewActivity;->h:Lcom/jakex/makeupshare/d;
 

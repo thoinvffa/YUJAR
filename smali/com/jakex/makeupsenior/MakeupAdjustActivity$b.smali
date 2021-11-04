@@ -1,5 +1,5 @@
 .class Lcom/jakex/makeupsenior/MakeupAdjustActivity$b;
-.super Lcom/jakex/makeupcore/util/bm;
+.super Lcom/jakex/ymluxscore/util/bm;
 
 
 # annotations
@@ -14,7 +14,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupcore/util/bm<",
+        "Lcom/jakex/ymluxscore/util/bm<",
         "Lcom/jakex/makeupsenior/MakeupAdjustActivity;",
         "Ljava/lang/Void;",
         "Ljava/lang/Void;",
@@ -42,7 +42,7 @@
 .method private constructor <init>(Lcom/jakex/makeupsenior/MakeupAdjustActivity;)V
     .locals 1
 
-    invoke-direct {p0, p1}, Lcom/jakex/makeupcore/util/bm;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p0, p1}, Lcom/jakex/ymluxscore/util/bm;-><init>(Ljava/lang/Object;)V
 
     invoke-static {p1}, Lcom/jakex/makeupsenior/MakeupAdjustActivity;->e(Lcom/jakex/makeupsenior/MakeupAdjustActivity;)Landroid/graphics/Bitmap;
 
@@ -302,17 +302,17 @@
 
     move-result-object p1
 
-    invoke-static {}, Lcom/jakex/makeupeditor/d/a;->a()Lcom/jakex/makeupeditor/d/a;
+    invoke-static {}, Lcom/jakex/ymluxseditor/d/a;->a()Lcom/jakex/ymluxseditor/d/a;
 
     move-result-object v1
 
-    invoke-virtual {v1, p1}, Lcom/jakex/makeupeditor/d/a;->a(Lcom/jakex/makeupfacedetector/a;)V
+    invoke-virtual {v1, p1}, Lcom/jakex/ymluxseditor/d/a;->a(Lcom/jakex/makeupfacedetector/a;)V
 
-    invoke-static {}, Lcom/jakex/makeupeditor/d/a;->a()Lcom/jakex/makeupeditor/d/a;
+    invoke-static {}, Lcom/jakex/ymluxseditor/d/a;->a()Lcom/jakex/ymluxseditor/d/a;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/jakex/makeupeditor/d/a;->c()V
+    invoke-virtual {v1}, Lcom/jakex/ymluxseditor/d/a;->c()V
 
     if-eqz p1, :cond_7
 
@@ -346,7 +346,7 @@
 .method protected a(Lcom/jakex/makeupsenior/MakeupAdjustActivity;Ljava/lang/Boolean;)V
     .locals 4
 
-    invoke-static {p2}, Lcom/jakex/makeupcore/util/bj;->a(Ljava/lang/Boolean;)Z
+    invoke-static {p2}, Lcom/jakex/ymluxscore/util/bj;->a(Ljava/lang/Boolean;)Z
 
     move-result p2
 

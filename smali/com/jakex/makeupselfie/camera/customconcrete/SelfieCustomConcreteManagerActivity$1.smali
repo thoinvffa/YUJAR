@@ -1,4 +1,4 @@
-.class Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$1;
+.class Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$1;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -7,7 +7,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->a()V
+    value = Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->a()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,14 +17,14 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;
+.field final synthetic a:Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;
 
 
 # direct methods
-.method constructor <init>(Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;)V
+.method constructor <init>(Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$1;->a:Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;
+    iput-object p1, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$1;->a:Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -36,9 +36,9 @@
 .method public onClick(Landroid/view/View;)V
     .locals 0
 
-    iget-object p1, p0, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity$1;->a:Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;
+    iget-object p1, p0, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity$1;->a:Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;
 
-    invoke-virtual {p1}, Lcom/jakex/makeupselfie/camera/customconcrete/SelfieCustomConcreteManagerActivity;->finish()V
+    invoke-virtual {p1}, Lcom/jakex/ymluxscoresf/camera/customconcrete/SelfieCustomConcreteManagerActivity;->finish()V
 
     return-void
 .end method

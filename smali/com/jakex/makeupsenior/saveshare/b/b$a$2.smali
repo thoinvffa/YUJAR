@@ -2,7 +2,7 @@
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lcom/jakex/makeupcore/widget/CommonCloseLinerLayout$b;
+.implements Lcom/jakex/ymluxscore/widget/CommonCloseLinerLayout$b;
 
 
 # annotations

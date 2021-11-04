@@ -33,12 +33,12 @@
 
 
 # virtual methods
-.method public a(Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;Ljava/util/List;Landroid/graphics/Rect;)V
+.method public a(Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;Ljava/util/List;Landroid/graphics/Rect;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;",
+            "Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;",
             "Ljava/util/List<",
             "Landroid/graphics/RectF;",
             ">;",
@@ -70,7 +70,7 @@
 
     move-result-object p3
 
-    invoke-static {p1}, Lcom/jakex/makeupfacedetector/b;->a(Lcom/jakex/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)Lcom/jakex/makeupfacedetector/a;
+    invoke-static {p1}, Lcom/jakex/makeupfacedetector/b;->a(Lcom/jakex/ymlux/MTAiInterface/MTFaceModule/MTFaceResult;)Lcom/jakex/makeupfacedetector/a;
 
     move-result-object p1
 

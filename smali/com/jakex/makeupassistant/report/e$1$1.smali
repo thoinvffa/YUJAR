@@ -46,9 +46,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
+    check-cast v0, Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;
 
-    invoke-virtual {v0}, Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;->findFirstVisibleItemPosition()I
+    invoke-virtual {v0}, Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;->findFirstVisibleItemPosition()I
 
     move-result v1
 
@@ -87,7 +87,7 @@
     :goto_0
     invoke-virtual {v2, v3}, Lnet/lucode/hackware/magicindicator/MagicIndicator;->setVisibility(I)V
 
-    invoke-virtual {v0, v1}, Lcom/jakex/makeupcore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;->findViewByPosition(I)Landroid/view/View;
+    invoke-virtual {v0, v1}, Lcom/jakex/ymluxscore/widget/recyclerview/layoutmanager/MTLinearLayoutManager;->findViewByPosition(I)Landroid/view/View;
 
     move-result-object v0
 

@@ -76,7 +76,7 @@
     goto :goto_3
 
     :cond_1
-    invoke-virtual {p0}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/c;->k()[Lcom/jakex/mtlab/arkernelinterface/core/ARKernelPartControlInterfaceJNI;
+    invoke-virtual {p0}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/c;->k()[Lcom/jakex/ymlux/arkernelinterface/core/ARKernelPartControlInterfaceJNI;
 
     move-result-object v0
 
@@ -121,16 +121,16 @@
 
     aget-object v6, v0, v5
 
-    instance-of v7, v6, Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI;
+    instance-of v7, v6, Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI;
 
     if-nez v7, :cond_4
 
     goto :goto_2
 
     :cond_4
-    check-cast v6, Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI;
+    check-cast v6, Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI;
 
-    invoke-virtual {v6}, Lcom/jakex/mtlab/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI;->getEyeShadowType()I
+    invoke-virtual {v6}, Lcom/jakex/ymlux/arkernelinterface/core/PartControl/ARKernelStaticPartControlInterfaceJNI;->getEyeShadowType()I
 
     move-result v7
 
@@ -155,9 +155,9 @@
 
     const/16 v9, 0x4001
 
-    const-class v10, Lcom/jakex/mtlab/arkernelinterface/core/ParamControl/ARKernelParamColorControlJNI;
+    const-class v10, Lcom/jakex/ymlux/arkernelinterface/core/ParamControl/ARKernelParamColorControlJNI;
 
-    invoke-virtual {p0, v6, v9, v10, v8}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/c;->a(Lcom/jakex/mtlab/arkernelinterface/core/ARKernelPartControlInterfaceJNI;ILjava/lang/Class;Ljava/util/ArrayList;)V
+    invoke-virtual {p0, v6, v9, v10, v8}, Lcom/jakex/makeup/library/arcorekit/edit/ar/plistdata/c;->a(Lcom/jakex/ymlux/arkernelinterface/core/ARKernelPartControlInterfaceJNI;ILjava/lang/Class;Ljava/util/ArrayList;)V
 
     invoke-virtual {v8}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
@@ -174,11 +174,11 @@
 
     move-result-object v8
 
-    check-cast v8, Lcom/jakex/mtlab/arkernelinterface/core/ParamControl/ARKernelParamColorControlJNI;
+    check-cast v8, Lcom/jakex/ymlux/arkernelinterface/core/ParamControl/ARKernelParamColorControlJNI;
 
-    invoke-virtual {v8, v7}, Lcom/jakex/mtlab/arkernelinterface/core/ParamControl/ARKernelParamColorControlJNI;->setCurrentRGBAValue([F)V
+    invoke-virtual {v8, v7}, Lcom/jakex/ymlux/arkernelinterface/core/ParamControl/ARKernelParamColorControlJNI;->setCurrentRGBAValue([F)V
 
-    invoke-virtual {v8}, Lcom/jakex/mtlab/arkernelinterface/core/ParamControl/ARKernelParamColorControlJNI;->dispatch()V
+    invoke-virtual {v8}, Lcom/jakex/ymlux/arkernelinterface/core/ParamControl/ARKernelParamColorControlJNI;->dispatch()V
 
     goto :goto_1
 

@@ -1,5 +1,5 @@
 .class public Lcom/jakex/makeupassistant/share/AssistantAnalysisShareActivity;
-.super Lcom/jakex/makeupcore/activity/MTBaseActivity;
+.super Lcom/jakex/ymluxscore/activity/MTBaseActivity;
 
 
 # annotations
@@ -35,7 +35,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;-><init>()V
 
     return-void
 .end method
@@ -85,9 +85,9 @@
 
     const/4 v2, 0x1
 
-    invoke-static {p0, v1, v2}, Lcom/jakex/makeupcore/util/ba;->a(Landroid/app/Activity;ZZ)V
+    invoke-static {p0, v1, v2}, Lcom/jakex/ymluxscore/util/ba;->a(Landroid/app/Activity;ZZ)V
 
-    invoke-static {v0}, Lcom/jakex/makeupcore/util/ba;->b(Landroid/view/View;)V
+    invoke-static {v0}, Lcom/jakex/ymluxscore/util/ba;->b(Landroid/view/View;)V
 
     new-instance v1, Lcom/jakex/makeupassistant/share/AssistantAnalysisShareActivity$1;
 
@@ -127,7 +127,7 @@
 
     invoke-virtual {p0, v0}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    invoke-static {p0}, Lcom/jakex/makeupcore/util/a;->c(Landroid/app/Activity;)V
+    invoke-static {p0}, Lcom/jakex/ymluxscore/util/a;->c(Landroid/app/Activity;)V
 
     return-void
 .end method
@@ -316,9 +316,9 @@
 .method public finish()V
     .locals 0
 
-    invoke-super {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->finish()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->finish()V
 
-    invoke-static {p0}, Lcom/jakex/makeupcore/util/a;->b(Landroid/app/Activity;)V
+    invoke-static {p0}, Lcom/jakex/ymluxscore/util/a;->b(Landroid/app/Activity;)V
 
     return-void
 .end method
@@ -338,7 +338,7 @@
     invoke-static {p1, p2, p3}, Lcom/jakex/libmtsns/framwork/a;->a(IILandroid/content/Intent;)V
 
     :goto_0
-    invoke-super {p0, p1, p2, p3}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onActivityResult(IILandroid/content/Intent;)V
+    invoke-super {p0, p1, p2, p3}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onActivityResult(IILandroid/content/Intent;)V
 
     return-void
 .end method
@@ -346,7 +346,7 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 0
 
-    invoke-super {p0, p1}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onCreate(Landroid/os/Bundle;)V
 
     sget p1, Lcom/tbuonomo/viewpagerdotsindicator/Resource$layout;->assistant_share_activity:I
 
@@ -364,7 +364,7 @@
 .method protected onDestroy()V
     .locals 1
 
-    invoke-super {p0}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onDestroy()V
+    invoke-super {p0}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onDestroy()V
 
     invoke-static {}, Lcom/jakex/makeupassistant/e/c;->a()Lcom/jakex/makeupassistant/e/c;
 
@@ -378,7 +378,7 @@
 .method protected onNewIntent(Landroid/content/Intent;)V
     .locals 1
 
-    invoke-super {p0, p1}, Lcom/jakex/makeupcore/activity/MTBaseActivity;->onNewIntent(Landroid/content/Intent;)V
+    invoke-super {p0, p1}, Lcom/jakex/ymluxscore/activity/MTBaseActivity;->onNewIntent(Landroid/content/Intent;)V
 
     iget-object v0, p0, Lcom/jakex/makeupassistant/share/AssistantAnalysisShareActivity;->c:Lcom/jakex/makeupassistant/share/AssistantAnalysisShareFragment;
 

@@ -1,5 +1,5 @@
 .class final Lcom/jakex/makeup/startup/business/a/b$1;
-.super Lcom/jakex/makeupcore/net/j;
+.super Lcom/jakex/ymluxscore/net/j;
 
 
 # annotations
@@ -14,8 +14,8 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/jakex/makeupcore/net/j<",
-        "Lcom/jakex/makeupcore/bean/MainPopBean;",
+        "Lcom/jakex/ymluxscore/net/j<",
+        "Lcom/jakex/ymluxscore/bean/MainPopBean;",
         ">;"
     }
 .end annotation
@@ -25,7 +25,7 @@
 .method constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lcom/jakex/makeupcore/net/j;-><init>()V
+    invoke-direct {p0}, Lcom/jakex/ymluxscore/net/j;-><init>()V
 
     return-void
 .end method
@@ -35,7 +35,7 @@
 .method public a(ILjava/lang/String;)V
     .locals 1
 
-    invoke-super {p0, p1, p2}, Lcom/jakex/makeupcore/net/j;->a(ILjava/lang/String;)V
+    invoke-super {p0, p1, p2}, Lcom/jakex/ymluxscore/net/j;->a(ILjava/lang/String;)V
 
     new-instance p1, Ljava/lang/StringBuilder;
 
